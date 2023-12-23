@@ -1,0 +1,1548 @@
+// Version 121923_retail
+// Comments begin with //. They don't do anything in the script.
+
+// These are window labels. Kind of like nicknames for long window names.
+  <Label w0 Local SendWinM thelnsane_1ww1>
+  <Label w1 Local SendWinM getln_1ww1>
+  <Label w2 Local SendWinM neversmile_1ww1>
+  <Label w3 Local SendWinM whatsupsucka_1ww1>
+  <Label w4 Local SendWinM springvalley_1ww1>
+  <Label w5 Local SendWinM summerlin_1ww1>
+  <Label w6 Local SendWinM onlt_1ww1>
+  <Label w7 Local SendWinM aslf_1ww1>
+  <Label w8 Local SendWinM itcantbee_1ww1>
+  <Label w9 Local SendWinM tolnfinity_1ww1>
+  <Label w10 Local SendWinM nolnjury_1ww1>
+  <Label w11 Local SendWinM cokecoke_1ww1>
+  <Label w12 Local SendWinM frawshawwk_1ww1>
+  <Label w13 Local SendWinM elonlnside_1ww1>
+  <Label w14 Local SendWinM goodlivin_1ww1>
+  <Label w15 Local SendWinM eversmile_1ww1>
+  <Label w16 Local SendWinM thelraq_1ww1>
+  <Label w17 Local SendWinM anlmpulse_1ww1>
+  <Label w18 Local SendWinM werldpiece_1ww1>
+  <Label w19 Local SendWinM deadlnside_1ww1>
+
+// The above labels are your window names.
+// They are like the "address" to your windows. They contain which 
+// computer to send the hotkey to, if you are using multiple machines. (you can!)
+// So in this case, w0 will be used later to point to Mootalia's window.
+// Name your windows something that gives you a hint.
+// Toon name and a hint at the end about what wow license to click
+// It's not critical, but it's very helpful
+
+// This is the main launcher command definition.
+  <Command LaunchAndRename>
+	<SendPC %1%>
+	<Run "C:/World of Warcraft/_retail2_/Wow.exe" >
+	<TargetWin "World of Warcraft">  
+	<TargetWin "World of Warcraft">
+	<RenameTargetWin %2%>
+	<Wait 300>
+	<RemoveWinFrame>
+	<SetWinSize %5% %6%>
+	<SetWinPos %7% %8%>
+	<SetForegroundWin>
+	<Text %3%>
+	<Key Tab>
+	<Text %4%>
+	<Key Enter>
+	<TargetWin %2%>
+	<WaitForInputIdle 2000>
+
+// This is the second Launcher command definition
+// It's not used. You CAN use it as a special wow setup for your main.
+// You know, max graphics, sound, etc.
+// NEXT STEP: If you want to do this, you have to make a SEPERATE WOW
+// DIR and put the path below. Set that wow up the way you want.
+  <Command LaunchHiresAndRename>
+	<SendPC %1%>
+	<Run "G:/World of Warcraft2/_retail_/Wow.exe" >
+	<WaitForInputIdle 400>
+	<TargetWin "World of Warcraft">  
+	<RenameTargetWin %2%>  
+	<WaitForInputIdle 400>
+	<TargetWin "World of Warcraft">  
+	<RenameTargetWin Unused%2%>  
+	<TargetWin %2%>
+	<TargetWin %2%>
+	<WaitForInputIdle 400>
+	<WaitForInputIdle 400>
+	<Text %3%>
+	<Key Tab>
+	<Text %4%>
+	<TargetWin %2%>
+	//<RemoveWinFrame>
+	<SetWinSize %5% %6%>
+	<SetWinPos %7% %8%>
+	<SetVar LastWin ActiveWindowName>
+
+// This command is used to resize your window.	
+  <Command ResetWindowPosition>
+	<SendPC %1%> 
+	<TargetWin %2%>
+	<SetForegroundWin>
+	<SetWinSize %3% %4%>
+	<SetWinPos %5% %6%>
+
+// This is your first HOTKEY. That's a key combo that only works when scroll_lock is on.
+// In this case that combo is Alt-Ctrl-m (case doesn't matter)
+// It launches your wow windows!
+// The numbers at the end are the window size (x and y) and the window position (x and y)
+// Experiment with them if you like.
+// OPTIONAL STEP: If you want to run a special wow setup for your main, 
+// change the command LaunchAndRename to LaunchHiresAndRename just for your main.
+
+
+
+  <Hotkey ScrollLockOn Alt Ctrl m>
+	<if WinDoesNotExist thelnsane_1ww1>
+	<LaunchAndRename Local thelnsane_1ww1 furyswipesvg@gmail.com Iso222tope 1980 1400 0 720 thelnsane>
+	<if WinDoesNotExist getln_1ww1>
+	<LaunchAndRename Local getln_1ww1 ultramultiboxtest02@gmail.com iso2tope 930 698 1980 720 getln>
+	<if WinDoesNotExist neversmile_1ww1>
+	<LaunchAndRename Local neversmile_1ww1 ultramultibox.test@gmail.com iso2tope 480 360 0 0 neversmile>
+	<if WinDoesNotExist whatsupsucka_1ww1>
+	<LaunchAndRename Local whatsupsucka_1ww1 ultramulti.box.test03@gmail.com iso2tope 480 360 480 0 whatsupsucka>
+	<if WinDoesNotExist springvalley_1ww1>
+	<LaunchAndRename Local springvalley_1ww1 ultramulti.box.test02@gmail.com iso2tope 480 360 960 0 springvalley>
+	<if WinDoesNotExist summerlin_1ww1>
+	<LaunchAndRename Local summerlin_1ww1 ultra.multiboxtest02@gmail.com iso2tope 930 698 1980 1418  summerlin>
+	<if WinDoesNotExist onlt_1ww1>
+	<LaunchAndRename Local onlt_1ww1 ultra.multiboxtest03@gmail.com iso2tope 480 360 1440 0 onlt>
+	<if WinDoesNotExist aslf_1ww1>
+	<LaunchAndRename Local aslf_1ww1 ultramulti.boxtest@gmail.com iso2tope 480 360 1920 0 aslf>
+	<if WinDoesNotExist itcantbee_1ww1>
+	<LaunchAndRename Local itcantbee_1ww1 ultramultibox.test02@gmail.com iso2tope 480 360 2400 0 itcantbee>
+	<if WinDoesNotExist tolnfinity_1ww1>
+	<LaunchAndRename Local tolnfinity_1ww1 furyswipes.bloons4@gmail.com Iso222tope 480 360 2880 0 tolnfinity>
+	<if WinDoesNotExist nolnjury_1ww1>
+	<LaunchAndRename Local nolnjury_1ww1 ultramultiboxtest03@gmail.com iso2tope 480 360 3360 0 nolnjury>
+	<if WinDoesNotExist cokecoke_1ww1>
+	<LaunchAndRename Local cokecoke_1ww1 ultramulti.boxtest03@gmail.com iso2tope 480 360 0 360 cokecoke>
+	<if WinDoesNotExist frawshawwk_1ww1>
+	<LaunchAndRename Local frawshawwk_1ww1 ultra.multiboxtest@gmail.com iso2tope 480 360 480 360 frawshawwk>
+	<if WinDoesNotExist elonlnside_1ww1>
+	<LaunchAndRename Local elonlnside_1ww1 furyswipesbloons3@gmail.com Iso222tope 480 360 960 360 elonlnside>
+	<if WinDoesNotExist goodlivin_1ww1>
+	<LaunchAndRename Local goodlivin_1ww1 ultramulti.box.test@gmail.com iso2tope 480 360 1440 360 goodlivin>
+	<if WinDoesNotExist eversmile_1ww1>
+	<LaunchAndRename Local eversmile_1ww1 ultramultiboxtest@gmail.com iso2tope 480 360 1920 360 eversmile>
+	<if WinDoesNotExist thelraq_1ww1>
+	<LaunchAndRename Local thelraq_1ww1 morebloons.5@gmail.com Iso222tope 480 360 2400 360 thelraq>
+	<if WinDoesNotExist anlmpulse_1ww1>
+	<LaunchAndRename Local anlmpulse_1ww1 more.bloons6@gmail.com Iso222tope 480 360 2880 360 anlmpulse>
+	<if WinDoesNotExist werldpiece_1ww1>
+	<LaunchAndRename Local werldpiece_1ww1 ultramultibox.test03@gmail.com iso2tope 480 360 3360 360  werldpiece>
+	<if WinDoesNotExist deadlnside_1ww1>
+	<LaunchAndRename Local deadlnside_1ww1 ultramulti.boxtest02@gmail.com iso2tope 930 698 2910 720 deadlnside>
+
+  <Hotkey ScrollLockOn Shift Ctrl m>
+	<ResetWindowPosition Local thelnsane_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+
+// This next group of hotkeys is how you swap windows with the keypad numbers.
+  <Hotkey ScrollLockOn NumpadEnd>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadDown>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local getln_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadPgDn>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 0 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadLeft>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 480 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Clear>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 960 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadRight>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadHome>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadPgUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadInsert>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadEnd>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadDown>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 0 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadPgDn>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 480 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadLeft>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 960 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift Clear>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadRight>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadHome>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadPgUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 1980 1400 0 720>
+	<ResetWindowPosition Local deadlnside_1ww1 930 698 2910 720>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadInsert>
+	<SaveMousePos>
+	<ResetWindowPosition Local thelnsane_1ww1 930 698 2910 720>
+	<ResetWindowPosition Local getln_1ww1 930 698 1980 720>
+	<ResetWindowPosition Local neversmile_1ww1 480 360 0 0>
+	<ResetWindowPosition Local whatsupsucka_1ww1 480 360 480 0>
+	<ResetWindowPosition Local springvalley_1ww1 480 360 960 0>
+	<ResetWindowPosition Local summerlin_1ww1 930 698 1980 1418 >
+	<ResetWindowPosition Local onlt_1ww1 480 360 1440 0>
+	<ResetWindowPosition Local aslf_1ww1 480 360 1920 0>
+	<ResetWindowPosition Local itcantbee_1ww1 480 360 2400 0>
+	<ResetWindowPosition Local tolnfinity_1ww1 480 360 2880 0>
+	<ResetWindowPosition Local nolnjury_1ww1 480 360 3360 0>
+	<ResetWindowPosition Local cokecoke_1ww1 480 360 0 360>
+	<ResetWindowPosition Local frawshawwk_1ww1 480 360 480 360>
+	<ResetWindowPosition Local elonlnside_1ww1 480 360 960 360>
+	<ResetWindowPosition Local goodlivin_1ww1 480 360 1440 360>
+	<ResetWindowPosition Local eversmile_1ww1 480 360 1920 360>
+	<ResetWindowPosition Local thelraq_1ww1 480 360 2400 360>
+	<ResetWindowPosition Local anlmpulse_1ww1 480 360 2880 360>
+	<ResetWindowPosition Local werldpiece_1ww1 480 360 3360 360 >
+	<ResetWindowPosition Local deadlnside_1ww1 1980 1400 0 720>
+	<RestoreMousePos>
+
+  <Hotkey ScrollLockOn Numpad1>
+	<DoHotKey Hotkey ScrollLockOn NumpadEnd>
+  <Hotkey ScrollLockOn Numpad2>
+	<DoHotKey Hotkey ScrollLockOn NumpadDown>
+  <Hotkey ScrollLockOn Numpad3>
+	<DoHotKey Hotkey ScrollLockOn NumpadPgDn>
+  <Hotkey ScrollLockOn Numpad4>
+	<DoHotKey Hotkey ScrollLockOn NumpadLeft>
+  <Hotkey ScrollLockOn Numpad5>
+	<DoHotkey Hotkey ScrollLockOn Clear>
+  <Hotkey ScrollLockOn Numpad6>
+	<DoHotkey Hotkey ScrollLockOn NumpadRight>
+  <Hotkey ScrollLockOn Numpad7>
+	<DoHotkey Hotkey ScrollLockOn NumpadHome>
+  <Hotkey ScrollLockOn Numpad8>
+	<DoHotkey Hotkey ScrollLockOn NumpadUp>
+  <Hotkey ScrollLockOn Numpad9>
+	<DoHotkey Hotkey ScrollLockOn NumpadPgUp>
+  <Hotkey ScrollLockOn Numpad0>
+	<DoHotkey Hotkey ScrollLockOn NumpadInsert>
+
+// This is the hotkey that closes all windows-- Ctrl-Alt-o (letter O)	
+  <Hotkey ScrollLockOn Alt Ctrl o>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<CloseWin>
+	
+
+// This is a special hotkey I made for reloading all your user interfaces in wow.
+// Ctrl-L (case never matters) will enter /reload into each window
+  <Hotkey ScrollLockOn Ctrl l>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key enter>
+	<Wait 250>
+	<Key divide>
+	<Wait 25>
+	<Text reload>
+	<Wait 175>
+	<Key enter>
+
+// This is the true magic...this runs /init in each window to set up bindings and macros!
+// Ctrl-i
+  <Hotkey ScrollLockOn Ctrl i>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key enter>
+	<Wait 250>
+	<Key divide>
+	<Wait 25>
+	<Text init>
+	<Wait 175>
+	<Key enter>
+
+//-----------------------------------------------------------
+// This is the key you hold down to send mouse clicks to all windows.
+// I use ~ (the key to the left of the 1 key)
+// That key is oem5 in Germany and oem8 in UK. If none of those work, you may be oem7.
+//-----------------------------------------------------------
+  <UseKeyAsModifier oem3>
+  <Hotkey ScrollLockOn oem3 LButton, RButton, Button4, Button5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<SaveMousePos>
+	<ClickMouse %TriggerMainKey% >
+	<ClickMouse %TriggerMainKey% >
+	<ClickMouse %TriggerMainKey% >
+	<RestoreMousePos>
+
+<Hotkey ScrollLockOn LButton, MButton, RButton, Button4, Button5>
+	<Passthrough>
+	<If MouseIsOverWindowRect thelnsane_1ww1 105 260 65 330 >
+	<SaveMousePos>
+	<Wait 5>
+	<SendLabel w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<ClickMouse Scale %Trigger%>
+	<Wait 5>
+	<RestoreMousePos>
+
+//-----------------------------------------------------------
+// This is the catch-all hotkey definition. Every key here
+// will be sent to both windows. Any key NOT HERE will NOT.
+// Notice there is an exception list at the end.
+// The word %Trigger% gets replaced with whatever key you clicked.
+//-----------------------------------------------------------
+  <Hotkey ScrollLockOn A-Z, 1-9, Shift, Ctrl, Alt, Plus, Minus, Esc , Divide, F1-F12 except 1-6,E,F,Q,H, W, A, S, D, R, T, Y, I, U, J, V>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key %Trigger%>
+
+//-----------------------------------------------------------
+// THIS KEY IS DIFFERENT. THESE are MOVEMENT key definitions.
+// This is different from a Hotkey. Hotkeys only work once, the instant
+// You press them. Movement keys can be held down, and they work
+// constantly.
+// Notice, asdw, the normal wow keys aren't here. You don't want your normal
+// wow movement keys to move your side  toons.
+// Use the arrow keys for that. (see, they are there)
+//-----------------------------------------------------------
+  <MovementHotkey ScrollLockOn space, up, down, left, right,e,q>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key %Trigger%>
+
+//You can even make special movement keys for just some of your toons.
+//Hunter backup
+  <MovementHotkey ScrollLockOn T>
+	<Sendlabel w9,w10>
+	<Key Down>
+
+//Melee backup
+  <MovementHotkey ScrollLockOn v>
+	<Sendlabel w1,w16,w18,w19>
+	<Key Down>
+
+//Melee forward
+  <MovementHotkey ScrollLockOn r>
+	<Sendlabel w1,w16,w18,w19>
+	<Key Up>
+
+//Healer backup
+  <MovementHotkey ScrollLockOn Y>
+	<Sendlabel w5,w7,w17>
+	<Key Down>
+
+//Mana backup
+  <MovementHotkey ScrollLockOn H>
+	<Sendlabel w2,w3,w4,w5,w6,w7,w8,w11,w12,w13,w14,w17>
+	<Key Down>
+
+//-------------------------------------------------------------
+// Everything below these lines are special hotkeys I made.
+
+// First trick key--when you hit 0, only send it to the window where your mouse is.
+// 
+  <Hotkey ScrollLockOn 0>
+	<SendFocusWin>
+	<Key 0>
+
+// More magic. I redefined alt-1
+// When you hit it, it will send alt-1 AND F11 (which is a macro that says /assist Furyswipes)
+// So alt-1 forces people to assist main.
+// I do it this way so you only have to change one macro to change your main.
+// Don't put assist in your dps macros.
+  <Hotkey ScrollLockOn Alt 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 1>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+
+// Same magic for 2-6
+  <Hotkey ScrollLockOn 2-6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key %Trigger%>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+  <Hotkey ScrollLockOn 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key 1>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w1,w16,w18,w19>
+	<Key shift f22>
+
+// Now--ANY KEY that uses a HKN MODIFIER (alt/ctrl/shift) WILL NOT WORK.
+// UNLESS.......you define it!
+  <Hotkey ScrollLockOn Alt 2>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 2> 
+  <Hotkey ScrollLockOn Alt 3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 3> 
+
+// Now, alt-4 is a special key for 5-minute multiboxing.
+// It also sends an F10 (a macro with /follow furyswipes) and F11 (the assist macro)
+// So alt-4 is how you make your toons follow again.
+// YOU WILL USE ALT-4 CONSTANTLY. GET USED TO IT, SUCKAS.
+  <Hotkey ScrollLockOn Alt 4>
+	<ResetToggles>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f3>
+	<Key ctrl f3>
+	<endif>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f4>
+	<Key ctrl f4>
+	<endif>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f5>
+	<Key ctrl f5>
+	<endif>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f6>
+	<Key ctrl f6>
+	<endif>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f7>
+	<Key ctrl f7>
+	<endif>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f8>
+	<Key ctrl f8>
+	<endif>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f9>
+	<Key ctrl f9>
+	<endif>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f10>
+	<Key ctrl f10>
+	<endif>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f11>
+	<Key ctrl f11>
+	<endif>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f12>
+	<Key ctrl f12>
+	<endif>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f13>
+	<Key ctrl f13>
+	<endif>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f14>
+	<Key ctrl f14>
+	<endif>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f15>
+	<Key ctrl f15>
+	<endif>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f16>
+	<Key ctrl f16>
+	<endif>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f17>
+	<Key ctrl f17>
+	<endif>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f18>
+	<Key ctrl f18>
+	<endif>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f19>
+	<Key ctrl f19>
+	<endif>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f20>
+	<Key ctrl f20>
+	<endif>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f21>
+	<Key ctrl f21>
+	<endif>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key shift f22>
+	<Key ctrl f22>
+	<endif>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 4>
+
+// F is my favorite new key. It is mapped to "Interact with target" keybind.
+// When you hit it the first time, everyone will assist your leader.
+// When you hit it a second time. LEEEEEEEEROYYYYYY!!!!!!!
+// Everyone will attack your target or open a vendor, OR skin a dead animal,
+// ...you get the idea.
+  <Hotkey ScrollLockOn f>
+	<toggle>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<Key f>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<Key f>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<Key f>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<Key f>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<Key f>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<Key f>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<Key f>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<Key f>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<Key f>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<Key f>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<Key f>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<Key f>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<Key f>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<Key f>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<Key f>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<Key f>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<Key f>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<Key f>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<Key f>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+	<Key f>
+
+// Awesome magic here. I put an interrupt skill in shift-3 action bar.
+// this goes through each one at a time
+// (after focusing on main's target on the first click)
+  <Hotkey ScrollLockOn Shift 3>
+	<Toggle>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+	<Toggle>
+	<SendLabel w0>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w1>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w2>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w3>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w4>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w5>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w6>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w7>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w8>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w9>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w10>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w11>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w12>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w13>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w14>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w15>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w16>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w17>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w18>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w19>
+	<Key Shift 3>
+
+// Shift-4 is also a skill that focuses tank target.
+  <Hotkey ScrollLockOn Shift 4> 
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+	<Endif>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 4>
+
+// More boring modifier maps--has to be done
+  <Hotkey ScrollLockOn Alt 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 5> 
+  <Hotkey ScrollLockOn Alt 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 6> 
+  <Hotkey ScrollLockOn Alt 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 7> 
+  <Hotkey ScrollLockOn Alt 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 8> 
+  <Hotkey ScrollLockOn Alt 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 9> 
+  <Hotkey ScrollLockOn Alt 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt 0> 
+  <Hotkey ScrollLockOn Alt Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt Plus> 
+  <Hotkey ScrollLockOn Alt Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt Minus> 
+// Special one for ctrl-alt-1 if you ever need it.
+  <Hotkey ScrollLockOn Ctrl Alt 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl Alt 1>
+  <Hotkey ScrollLockOn Alt F1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Alt F1>
+  <Hotkey ScrollLockOn Ctrl 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 1>
+  <Hotkey ScrollLockOn Ctrl 2> 
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 2> 
+  <Hotkey ScrollLockOn Ctrl 3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 3> 
+  <Hotkey ScrollLockOn Ctrl 4>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 4> 
+  <Hotkey ScrollLockOn Ctrl 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 5> 
+  <Hotkey ScrollLockOn Ctrl 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 6> 
+  <Hotkey ScrollLockOn Ctrl 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 7> 
+  <Hotkey ScrollLockOn Ctrl 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 8> 
+  <Hotkey ScrollLockOn Ctrl 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 9> 
+  <Hotkey ScrollLockOn Ctrl 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl 0> 
+  <Hotkey ScrollLockOn Ctrl Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl Plus> 
+  <Hotkey ScrollLockOn Ctrl Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Ctrl Minus> 
+  <Hotkey ScrollLockOn Shift 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 1>
+// Shift 2 is the polymorph button. First click is assist tank, second click is poly
+  <Hotkey ScrollLockOn Shift 2>
+	<toggle>
+	<if MouseIsOverWindow thelnsane_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f3>
+	<if MouseIsOverWindow getln_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f4>
+	<if MouseIsOverWindow neversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f5>
+	<if MouseIsOverWindow whatsupsucka_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f6>
+	<if MouseIsOverWindow springvalley_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f7>
+	<if MouseIsOverWindow summerlin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f8>
+	<if MouseIsOverWindow onlt_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f9>
+	<if MouseIsOverWindow aslf_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f10>
+	<if MouseIsOverWindow itcantbee_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f11>
+	<if MouseIsOverWindow tolnfinity_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f12>
+	<if MouseIsOverWindow nolnjury_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f13>
+	<if MouseIsOverWindow cokecoke_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f14>
+	<if MouseIsOverWindow frawshawwk_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f15>
+	<if MouseIsOverWindow elonlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f16>
+	<if MouseIsOverWindow goodlivin_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f17>
+	<if MouseIsOverWindow eversmile_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f18>
+	<if MouseIsOverWindow thelraq_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f19>
+	<if MouseIsOverWindow anlmpulse_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f20>
+	<if MouseIsOverWindow werldpiece_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f21>
+	<if MouseIsOverWindow deadlnside_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key ctrl f22>
+	<toggle>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 2> 
+  <Hotkey ScrollLockOn Shift 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 5> 
+  <Hotkey ScrollLockOn Shift 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 6> 
+  <Hotkey ScrollLockOn Shift 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 7> 
+  <Hotkey ScrollLockOn Shift 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 8> 
+  <Hotkey ScrollLockOn Shift 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 9> 
+  <Hotkey ScrollLockOn Shift 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift 0> 
+  <Hotkey ScrollLockOn Shift Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift Plus> 
+  <Hotkey ScrollLockOn Shift Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift Minus> 
+  <Hotkey ScrollLockOn Shift F1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F1>
+  <Hotkey ScrollLockOn Shift F2>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F2> 
+  <Hotkey ScrollLockOn Shift F3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F3> 
+  <Hotkey ScrollLockOn Shift F4>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F4> 
+  <Hotkey ScrollLockOn Shift F5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F5> 
+  <Hotkey ScrollLockOn Shift F6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F6> 
+  <Hotkey ScrollLockOn Shift F7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F7> 
+  <Hotkey ScrollLockOn Shift F8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F8> 
+  <Hotkey ScrollLockOn Shift F9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F9> 
+  <Hotkey ScrollLockOn Shift F10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F10> 
+  <Hotkey ScrollLockOn Shift F11>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F11> 
+  <Hotkey ScrollLockOn Shift F12>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19>
+	<Key Shift F12> 
