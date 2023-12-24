@@ -1,0 +1,29 @@
+MACRO64 0000000001000003 "JAB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] jab
+/cast [mod:alt] guard
+/startattack [nomod]
+/cast [mod:ctrl,@player] detox
+END
+MACRO64 0000000001000002 "KEG" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] keg smash
+/cast [mod:alt] provoke
+/startattack [nomod]
+/cast [mod:ctrl] zen sphere
+/cast [nomod] elusive brew
+END
+MACRO64 0000000001000001 "roll" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] roll
+/cast [mod:alt] touch of death
+/cast [mod:ctrl] disable
+END
+MACRO64 0000000001000004 "tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] tiger palm
+/cast [mod:alt] expel harm
+/startattack [nomod]
+/cast [mod:ctrl,flyable] azure netherwing drake
+/cast [mod:ctrl] swift zulian tiger
+END

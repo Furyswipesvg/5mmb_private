@@ -1,0 +1,19 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Nathrezim"] = {
+			["PLAYER"] = {
+				["Basilar"] = {
+					["selected_class_module"] = "BittensSpellFlash_Shaman",
+					["MODULE"] = {
+						["BittensSpellFlash_Shaman"] = {
+							["libdbicon"] = {
+								["hide"] = false,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}

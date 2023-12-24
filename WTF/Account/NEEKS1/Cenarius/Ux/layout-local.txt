@@ -1,0 +1,8 @@
+Version: 1
+Frame: LootHistoryFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -82
+Y: 36
+W: 210
+H: 175

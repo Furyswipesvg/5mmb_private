@@ -1,0 +1,191 @@
+VER 3 00000000000003D1 "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Tolnfinity
+END
+VER 3 00000000000003C8 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Thelnsane
+END
+VER 3 00000000000003C9 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Getln
+END
+VER 3 00000000000003CA "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Neversmile
+END
+VER 3 00000000000003CB "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Whatsupsucka
+END
+VER 3 00000000000003CC "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Springvalley
+END
+VER 3 00000000000003CD "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Summerlin
+END
+VER 3 00000000000003CE "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Onlt
+END
+VER 3 00000000000003CF "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Aslf
+END
+VER 3 00000000000003D0 "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 00000000000003E8 "AOE_FS_DISCIPLINE" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_DISCIPLINE LeftButton t;
+END
+VER 3 00000000000003E1 "b1_fs" "INV_Misc_QuestionMark"
+/cast [@player] Power Word: Fortitude
+END
+VER 3 00000000000003E2 "bufft_fs" "INV_Misc_QuestionMark"
+/castsequence reset=combat/target Power Word: Fortitude,null
+END
+VER 3 00000000000003DF "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000023 "delete_trash" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 00000000000003C6 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Tolnfinity
+/run SetView(4)
+END
+VER 3 00000000000003BD "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Thelnsane
+/run SetView(4)
+END
+VER 3 00000000000003BE "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
+/run SetView(4)
+END
+VER 3 00000000000003BF "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Neversmile
+/run SetView(4)
+END
+VER 3 00000000000003C0 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Whatsupsucka
+/run SetView(4)
+END
+VER 3 00000000000003C1 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Springvalley
+/run SetView(4)
+END
+VER 3 00000000000003C2 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Summerlin
+/run SetView(4)
+END
+VER 3 00000000000003C3 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Onlt
+/run SetView(4)
+END
+VER 3 00000000000003C4 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Aslf
+/run SetView(4)
+END
+VER 3 00000000000003C5 "f9_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 00000000000003DB "h10_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Tolnfinity] Flash Heal
+END
+VER 3 00000000000003D2 "h1_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Thelnsane] Flash Heal
+END
+VER 3 00000000000003D3 "h2_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Getln] Flash Heal
+END
+VER 3 00000000000003D4 "h3_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Neversmile] Flash Heal
+END
+VER 3 00000000000003D5 "h4_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Whatsupsucka] Flash Heal
+END
+VER 3 00000000000003D6 "h5_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Springvalley] Flash Heal
+END
+VER 3 00000000000003D7 "h6_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Summerlin] Flash Heal
+END
+VER 3 00000000000003D8 "h7_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Onlt] Flash Heal
+END
+VER 3 00000000000003D9 "h8_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Aslf] Flash Heal
+END
+VER 3 00000000000003DA "h9_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Itcantbee] Flash Heal
+END
+VER 3 00000000000003C7 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 00000000000003EA "int_fs" "INV_Misc_Questionmark"
+/cast Silence
+END
+VER 3 00000000000003DE "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 00000000000003DC "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Aslf
+END
+VER 3 00000000000003E6 "MULTI_FS_DISCIPLINE" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_DISCIPLINE LeftButton t;
+END
+VER 3 00000000000003BC "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 00000000000003E3 "poly_fs" "INV_Misc_QuestionMark"
+/cast Shackle Undead
+END
+VER 3 00000000000003DD "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 00000000000003E4 "SETUP_FS_DISCIPLINE" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_DISCIPLINE LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 00000000000003E0 "shackle_fs" "INV_Misc_QuestionMark"
+/cast Shackle Undead
+END
+VER 3 00000000000003E9 "SHEAL_FS_DISCIPLINE" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_DISCIPLINE LeftButton t;
+END
+VER 3 00000000000003E5 "SINGLE_FS_DISCIPLINE" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_DISCIPLINE LeftButton t;
+END
+VER 3 00000000000003E7 "TURBO_FS_DISCIPLINE" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_DISCIPLINE LeftButton t;
+/petpassive [mod:alt]
+/run SetView(4)
+END

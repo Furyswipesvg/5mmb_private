@@ -1,0 +1,208 @@
+
+AskMrRobotDb2 = {
+	["char"] = {
+		["Hoverboard - Illidan"] = {
+			["BankItems"] = {
+				"|cffffffff|Hitem:60335:0:0:0:0:0:0:0:100:253:0:0:0|h[Thick Hide Pack]|h|r", -- [1]
+				"|cffffffff|Hitem:60335:0:0:0:0:0:0:0:100:253:0:0:0|h[Thick Hide Pack]|h|r", -- [2]
+				"|cffa335ee|Hitem:78737:0:0:0:0:0:0:0:100:253:0:14:0|h[Wyrmstalker's Spaulders]|h|r", -- [3]
+				"|cffa335ee|Hitem:78709:0:0:0:0:0:0:0:100:253:0:14:0|h[Wyrmstalker's Legguards]|h|r", -- [4]
+				"|cffa335ee|Hitem:78661:0:0:0:0:0:0:0:100:253:0:14:0|h[Wyrmstalker's Tunic]|h|r", -- [5]
+			},
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Kalimdor",
+			},
+			["Equipped"] = {
+				{
+					"|cffa335ee|Hitem:126316:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Gladiator's Chain Helm]|h|r", -- [1]
+					"|cff0070dd|Hitem:126489:0:0:0:0:0:0:0:100:254:0:7:0|h[Warmongering Combatant's Necklace of Prowess]|h|r", -- [2]
+					"|cffa335ee|Hitem:126318:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Gladiator's Chain Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:126314:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Gladiator's Chain Armor]|h|r", -- [5]
+					"|cff0070dd|Hitem:126560:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Combatant's Waistguard of Prowess]|h|r", -- [6]
+					"|cff0070dd|Hitem:126517:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Combatant's Chain Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:125256:0:0:0:0:0:0:0:100:254:0:14:0|h[Wild Gladiator's Footguards of Cruelty]|h|r", -- [8]
+					"|cff0070dd|Hitem:126563:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Combatant's Armbands of Prowess]|h|r", -- [9]
+					"|cffa335ee|Hitem:126377:0:0:0:0:0:0:0:100:254:0:11:0|h[Warmongering Gladiator's Gauntlets]|h|r", -- [10]
+					"|cffa335ee|Hitem:125168:0:0:0:0:0:0:0:100:254:0:14:0|h[Wild Gladiator's Ring of Cruelty]|h|r", -- [11]
+					"|cff0070dd|Hitem:126490:0:0:0:0:0:0:0:100:254:0:7:1:608|h[Warmongering Combatant's Ring of Cruelty]|h|r", -- [12]
+					"|cff0070dd|Hitem:126622:0:0:0:0:0:0:0:100:254:0:7:0|h[Warmongering Combatant's Insignia of Conquest]|h|r", -- [13]
+					"|cffe6cc80|Hitem:133597:0:0:0:0:0:0:0:100:254:0:0:0|h[Infallible Tracking Charm]|h|r", -- [14]
+					"|cff0070dd|Hitem:126486:0:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Combatant's Cape of Cruelty]|h|r", -- [15]
+					"|cffa335ee|Hitem:126274:5276:0:0:0:0:0:0:100:254:0:14:0|h[Warmongering Gladiator's Heavy Crossbow]|h|r", -- [16]
+				}, -- [1]
+				{
+					"|cffa335ee|Hitem:126316:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Gladiator's Chain Helm]|h|r", -- [1]
+					"|cff0070dd|Hitem:126489:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Combatant's Necklace of Prowess]|h|r", -- [2]
+					"|cffa335ee|Hitem:126318:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Gladiator's Chain Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:126314:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Gladiator's Chain Armor]|h|r", -- [5]
+					"|cff0070dd|Hitem:126560:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Combatant's Waistguard of Prowess]|h|r", -- [6]
+					"|cff0070dd|Hitem:126517:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Combatant's Chain Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:125256:0:0:0:0:0:0:0:100:253:0:14:0|h[Wild Gladiator's Footguards of Cruelty]|h|r", -- [8]
+					"|cff0070dd|Hitem:126563:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Combatant's Armbands of Prowess]|h|r", -- [9]
+					"|cffa335ee|Hitem:126377:0:0:0:0:0:0:0:100:253:0:11:0|h[Warmongering Gladiator's Gauntlets]|h|r", -- [10]
+					"|cffa335ee|Hitem:125168:0:0:0:0:0:0:0:100:253:0:14:0|h[Wild Gladiator's Ring of Cruelty]|h|r", -- [11]
+					"|cff0070dd|Hitem:126490:0:0:0:0:0:0:0:100:253:0:7:1:608|h[Warmongering Combatant's Ring of Cruelty]|h|r", -- [12]
+					"|cff0070dd|Hitem:126629:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Combatant's Medallion of Adaptation]|h|r", -- [13]
+					"|cffe6cc80|Hitem:133598:0:0:0:0:0:0:0:100:253:0:0:0|h[Purified Shard of the Third Moon]|h|r", -- [14]
+					"|cff0070dd|Hitem:126486:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Combatant's Cape of Cruelty]|h|r", -- [15]
+					"|cffa335ee|Hitem:126274:5276:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Gladiator's Heavy Crossbow]|h|r", -- [16]
+				}, -- [2]
+			},
+			["BankItemsAndCounts"] = {
+				[109125] = 15,
+				[109127] = 18,
+				[109129] = 35,
+				[109131] = 1,
+				[109133] = 1,
+				[90146] = 7,
+				[111557] = 2,
+				[113264] = 21,
+				[115508] = 1,
+				[89112] = 28,
+				[71998] = 8,
+				[109118] = 26,
+				[78709] = 1,
+				[112377] = 10,
+				[109124] = 19,
+				[109126] = 13,
+				[109128] = 22,
+				[111556] = 25,
+				[109132] = 1,
+				[111366] = 8,
+				[60335] = 2,
+				[113261] = 1,
+				[116053] = 1,
+				[33470] = 43,
+				[45087] = 10,
+				[120945] = 44,
+				[78737] = 1,
+				[109119] = 16,
+				[78661] = 1,
+			},
+		},
+		["Realmhoperyo - Tol Barad"] = {
+			["Equipped"] = {
+				{
+					[8] = "|cffffffff|Hitem:121:0:0:0:0:0:0:0:1:0:0:0:0|h[Thug Boots]|h|r",
+				}, -- [1]
+			},
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Kalimdor",
+			},
+		},
+		["Gametimetoke - Illidan"] = {
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Kalimdor",
+			},
+		},
+		["Ee - Tol Barad"] = {
+			["Logging"] = {
+				["LastDiff"] = 3,
+				["LastZone"] = "Mogu'shan Vaults",
+			},
+			["BankItems"] = {
+				"|cffa335ee|Hitem:50363:0:0:0:0:0:0:0:100:250:0:0:0|h[Deathbringer's Will]|h|r", -- [1]
+				"|cffa335ee|Hitem:65115:0:0:0:0:0:0:0:100:250:0:0:0|h[Glaciated Helm]|h|r", -- [2]
+				"|cffa335ee|Hitem:65031:0:0:0:0:0:0:0:100:250:0:0:0|h[Flash Freeze Gauntlets]|h|r", -- [3]
+				"|cffa335ee|Hitem:65067:0:0:0:0:0:0:0:100:250:0:0:0|h[Burden of Mortality]|h|r", -- [4]
+			},
+			["Equipped"] = {
+				{
+					"|cffa335ee|Hitem:126306:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Gladiator's Dreadplate Helm]|h|r", -- [1]
+					"|cff0070dd|Hitem:126615:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Choker of Cruelty]|h|r", -- [2]
+					"|cffa335ee|Hitem:126409:0:0:0:0:0:0:0:100:250:0:11:0|h[Warmongering Gladiator's Shoulderplates]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:126410:0:0:0:0:0:0:0:100:250:0:11:0|h[Warmongering Gladiator's Plate Chestguard]|h|r", -- [5]
+					"|cffa335ee|Hitem:125284:0:0:0:0:0:0:0:100:250:0:14:0|h[Wild Gladiator's Girdle of Victory]|h|r", -- [6]
+					"|cffa335ee|Hitem:126307:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Gladiator's Dreadplate Legguards]|h|r", -- [7]
+					"|cff0070dd|Hitem:126583:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Warboots of Prowess]|h|r", -- [8]
+					"|cffa335ee|Hitem:126402:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Gladiator's Armplates of Cruelty]|h|r", -- [9]
+					"|cff0070dd|Hitem:126505:0:0:0:0:0:0:0:100:250:0:7:0|h[Warmongering Combatant's Dreadplate Gauntlets]|h|r", -- [10]
+					"|cff0070dd|Hitem:126619:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Signet of Ruthlessness]|h|r", -- [11]
+					"|cff0070dd|Hitem:126617:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Signet of Cruelty]|h|r", -- [12]
+					"|cffa335ee|Hitem:128149:0:0:0:0:0:0:0:100:250:4:4:1:41:529|h[Accusation of Inferiority]|h|r", -- [13]
+					"|cff0070dd|Hitem:126629:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Medallion of Adaptation]|h|r", -- [14]
+					"|cff0070dd|Hitem:126613:0:0:0:0:0:0:0:100:250:0:14:0|h[Warmongering Combatant's Cloak of Cruelty]|h|r", -- [15]
+					"|cff0070dd|Hitem:126611:3368:0:0:0:0:0:0:100:250:0:7:0|h[Warmongering Combatant's Bonegrinder]|h|r", -- [16]
+				}, -- [1]
+				{
+					"|cffa335ee|Hitem:126306:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Gladiator's Dreadplate Helm]|h|r", -- [1]
+					"|cff0070dd|Hitem:126615:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Combatant's Choker of Cruelty]|h|r", -- [2]
+					"|cffa335ee|Hitem:126409:0:0:0:0:0:0:0:100:251:0:11:0|h[Warmongering Gladiator's Shoulderplates]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:126410:0:0:0:0:0:0:0:100:251:0:11:0|h[Warmongering Gladiator's Plate Chestguard]|h|r", -- [5]
+					"|cffa335ee|Hitem:125284:0:0:0:0:0:0:0:100:251:0:14:0|h[Wild Gladiator's Girdle of Victory]|h|r", -- [6]
+					"|cffa335ee|Hitem:126307:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Gladiator's Dreadplate Legguards]|h|r", -- [7]
+					"|cff0070dd|Hitem:126583:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Combatant's Warboots of Prowess]|h|r", -- [8]
+					"|cffa335ee|Hitem:126402:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Gladiator's Armplates of Cruelty]|h|r", -- [9]
+					"|cff0070dd|Hitem:126505:0:0:0:0:0:0:0:100:251:0:7:0|h[Warmongering Combatant's Dreadplate Gauntlets]|h|r", -- [10]
+					"|cff0070dd|Hitem:126619:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Combatant's Signet of Ruthlessness]|h|r", -- [11]
+					"|cff0070dd|Hitem:126617:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Combatant's Signet of Cruelty]|h|r", -- [12]
+					"|cffa335ee|Hitem:128149:0:0:0:0:0:0:0:100:251:4:4:1:41:529|h[Accusation of Inferiority]|h|r", -- [13]
+					"|cffe6cc80|Hitem:133595:0:0:0:0:0:0:0:100:251:0:0:0|h[Gronntooth War Horn]|h|r", -- [14]
+					"|cff0070dd|Hitem:126613:0:0:0:0:0:0:0:100:251:0:14:0|h[Warmongering Combatant's Cloak of Cruelty]|h|r", -- [15]
+					"|cff0070dd|Hitem:126611:3368:0:0:0:0:0:0:100:251:0:7:0|h[Warmongering Combatant's Bonegrinder]|h|r", -- [16]
+				}, -- [2]
+			},
+			["BankItemsAndCounts"] = {
+				[50363] = 1,
+				[65067] = 1,
+				[65115] = 1,
+				[65031] = 1,
+			},
+		},
+		["Ux - Cenarius"] = {
+			["Logging"] = {
+				["LastDiff"] = 1,
+				["LastZone"] = "FW Horde Garrison Level 3",
+			},
+			["Equipped"] = {
+				{
+					"|cffa335ee|Hitem:124581:0:0:0:0:0:0:0:100:253:4:0:3:187:763:652:529|h[Axeclaw Helm of the Merciless]|h|r", -- [1]
+					"|cff1eff00|Hitem:126655:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Aspirant's Necklace of Cruelty]|h|r", -- [2]
+					"|cffa335ee|Hitem:128351:0:0:0:0:0:0:0:100:253:4:0:3:214:651:653:529|h[Axeclaw Spaulders of the Harmonious]|h|r", -- [3]
+					nil, -- [4]
+					"|cffe6cc80|Hitem:122379:0:0:0:0:0:0:0:100:253:0:0:1:583|h[Champion's Deathdealer Breastplate]|h|r", -- [5]
+					"|cff1eff00|Hitem:114738:0:0:0:0:0:0:0:100:253:0:11:0|h[Ravenchain Belt]|h|r", -- [6]
+					"|cff1eff00|Hitem:126674:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Aspirant's Chain Leggings]|h|r", -- [7]
+					"|cff0070dd|Hitem:124573:0:0:0:0:0:0:0:100:253:4:0:3:487:647:653:529|h[Axeclaw Boots of the Impatient]|h|r", -- [8]
+					"|cff1eff00|Hitem:126694:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Aspirant's Armbands of Prowess]|h|r", -- [9]
+					"|cffa335ee|Hitem:126382:0:0:0:0:0:0:0:100:253:0:11:0|h[Warmongering Gladiator's Gloves]|h|r", -- [10]
+					"|cff0070dd|Hitem:109761:0:0:0:0:0:0:0:100:253:4:1:1:522:529|h[Bloodthorn Band]|h|r", -- [11]
+					"|cff0070dd|Hitem:109759:0:0:0:0:0:0:0:100:253:4:2:1:524:529|h[Ro-Ger's Brown Diamond Seal]|h|r", -- [12]
+					"|cff0070dd|Hitem:126621:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Combatant's Badge of Conquest]|h|r", -- [13]
+					"|cffe6cc80|Hitem:133597:0:0:0:0:0:0:0:100:253:0:0:0|h[Infallible Tracking Charm]|h|r", -- [14]
+					"|cff1eff00|Hitem:126654:0:0:0:0:0:0:0:100:253:0:7:0|h[Warmongering Aspirant's Cape of Cruelty]|h|r", -- [15]
+					"|cff0070dd|Hitem:126481:0:0:0:0:0:0:0:100:253:0:14:0|h[Warmongering Combatant's Longbow]|h|r", -- [16]
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hoverboard - Illidan"] = "Hoverboard - Illidan",
+		["Realmhoperyo - Tol Barad"] = "Realmhoperyo - Tol Barad",
+		["Gametimetoke - Illidan"] = "Gametimetoke - Illidan",
+		["Ee - Tol Barad"] = "Ee - Tol Barad",
+		["Ux - Cenarius"] = "Ux - Cenarius",
+	},
+	["global"] = {
+		["Region"] = "US",
+	},
+	["profiles"] = {
+		["Hoverboard - Illidan"] = {
+		},
+		["Realmhoperyo - Tol Barad"] = {
+		},
+		["Gametimetoke - Illidan"] = {
+		},
+		["Ee - Tol Barad"] = {
+		},
+		["Ux - Cenarius"] = {
+		},
+	},
+}

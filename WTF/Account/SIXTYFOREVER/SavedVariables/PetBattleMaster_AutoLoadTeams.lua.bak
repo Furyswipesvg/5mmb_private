@@ -1,0 +1,19 @@
+
+PetBattleMaster_AutoLoadTeams = {
+	["modules"] = {
+	},
+	["baseName"] = "PetBattleMaster_AutoLoadTeams",
+	["name"] = "PetBattleMaster_AutoLoadTeams",
+	["profileKeys"] = {
+		["Spinemd - Nathrezim"] = "Default",
+		["Nightsworn - Nathrezim"] = "Default",
+		["Basilar - Nathrezim"] = "Default",
+		["Chaostard - Nathrezim"] = "Default",
+	},
+	["orderedModules"] = {
+	},
+	["defaultModuleLibraries"] = {
+	},
+	["enabledState"] = true,
+	["defaultModuleState"] = true,
+}

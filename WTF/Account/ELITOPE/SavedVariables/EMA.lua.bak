@@ -1,0 +1,825 @@
+
+CoreProfileDB = {
+	["global"] = {
+		["showStartupMessage2000"] = false,
+	},
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+	},
+}
+CommunicationsProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+		},
+		["Cheapness - Nathrezim"] = {
+		},
+		["Coolness - Cenarius"] = {
+		},
+	},
+}
+TeamProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["master"] = "Amigood-Nathrezim",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Amigood-Nathrezim"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Amigood-Nathrezim",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["master"] = "Cheapness-Nathrezim",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Basilar-Nathrezim"] = {
+					{
+						["order"] = 5,
+						["class"] = "SHAMAN",
+						["name"] = "Basilar-Nathrezim",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Stream-Nathrezim"] = {
+					{
+						["order"] = 2,
+						["class"] = "PRIEST",
+						["name"] = "Stream-Nathrezim",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Palia-Nathrezim"] = {
+					{
+						["order"] = 3,
+						["class"] = "MAGE",
+						["name"] = "Palia-Nathrezim",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Lye-Nathrezim"] = {
+					{
+						["order"] = 4,
+						["class"] = "WARLOCK",
+						["name"] = "Lye-Nathrezim",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Cheapness-Nathrezim"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Cheapness-Nathrezim",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+			["master"] = "Coolness-Cenarius",
+			["newTeamList"] = {
+				["Coolness-Cenarius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Coolness-Cenarius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+	},
+}
+TagProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["tagList"] = {
+				["Amigood-Nathrezim"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["tagList"] = {
+				["Basilar-Nathrezim"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Stream-Nathrezim"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Palia-Nathrezim"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Lye-Nathrezim"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Cheapness-Nathrezim"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["tagList"] = {
+				["Coolness-Cenarius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+	},
+}
+MessageProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+CurrProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+DisplayTeamProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+FollowProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["autoFollowAfterCombat"] = true,
+			["global"] = {
+			},
+			["strobePauseInCombat"] = true,
+			["strobePauseIfDrinking"] = true,
+			["doNotWarnFollowStrobing"] = true,
+			["strobePauseIfInVehicle"] = true,
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+GuildProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+InteractionProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+ItemUseProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Cheapness - Nathrezim"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+	},
+}
+PurchaseProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+QuestProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+QuestWatcherProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+SellProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+TalkProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+ToonProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+TradeProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+MailProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+ISBoxerProfileDB = {
+	["profileKeys"] = {
+		["Amigood - Nathrezim"] = "Amigood - Nathrezim",
+		["Cheapness - Nathrezim"] = "Cheapness - Nathrezim",
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Amigood - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Cheapness - Nathrezim"] = {
+			["global"] = {
+			},
+		},
+		["Coolness - Cenarius"] = {
+			["global"] = {
+			},
+		},
+	},
+}

@@ -1,0 +1,116 @@
+MACRO 16777254 "BLACK" "INV_MISC_QUESTIONMARK"
+/cast [nomod,spec:2] black arrow
+/cast [nomod,spec:1] serpent sting
+/cast [mod:alt]  kill shot
+/petfollow [mod:ctrl]
+/startattack
+/stopattack [mod:ctrl]
+END
+MACRO 16777223 "boom" "INV_Misc_QuestionMark"
+#cast [@pet] spirit mend
+/cast [nomod] kill command
+/cast [nomod] claw
+/petattack [nomod]
+/petfollow [mod:alt]
+END
+MACRO 16777229 "burrow" "INV_Misc_QuestionMark"
+#showtooltip
+/cast burrow attack
+/cast steady shot
+END
+MACRO 16777256 "cobra" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Cobra shot
+/cast [nomod] rapid fire
+/cancelaura [nomod] Deterrence
+/cast [nomod,combat]Blood Fury
+/castsequence [nomod] reset=1 !Aspect of the hawk, null
+/cast [mod:alt]tranquilizing shot
+/cast [mod:ctrl] scare beast
+END
+MACRO 16777262 "extrap" "INV_MISC_QUESTIONMARK"
+#showtooltip Explosive Trap
+/castsequence reset=9 Trap Launcher, !Explosive Trap(Fire - Trap Launcher), nil
+END
+MACRO 16777250 "fd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+#showtooltip feign death
+/stopcasting
+/cast snake trap
+/cast feign death
+END
+MACRO 16777263 "Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip Freezing Trap(Frost)
+/castsequence reset=9 Trap Launcher, !Freezing Trap(Frost - Trap Launcher), nil
+END
+MACRO 16777217 "HM" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod,nopet] call pet 5
+/cast [nomod,harm] Hunter's Mark
+/petattack [nomod]
+/cast [mod:alt] concussive shot
+/cast [mod:ctrl] aspect of the cheetah
+/cast [nomod,nocombat] camouflage
+END
+MACRO 16777253 "Ice" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Trap(Frost)
+/castsequence reset=9 Trap Launcher, !Ice Trap(Frost - Trap Launcher), nil
+END
+MACRO 16777251 "kill" "INV_MISC_QUESTIONMARK"
+/cast [nomod] kill command
+/cast [mod:alt] freezing trap
+/cast [mod:ctrl] disengage
+/cast [nomod] bestial wrath
+/cast [nomod] fervor
+/cast [nomod] rapid fire
+/use [mod:ctrl] healthstone
+/startattack [nomod]
+END
+MACRO 16777246 "masters" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] master's call
+END
+MACRO 16777264 "snake" "INV_MISC_QUESTIONMARK"
+#showtooltip Snake Trap
+/castsequence reset=9 Trap Launcher, !Snake Trap(Nature - Trap Launcher), nil
+END
+MACRO 16777235 "SS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] steady Shot
+/cast [nomod] rapid fire
+/castsequence [nomod] reset=1 !Aspect of the hawk, null
+/cast [mod:alt,spec:0] wing clip
+/cast [mod:alt,spec:1] aimed shot
+/startattack [nomod]
+/cast [mod:ctrl] tyrael's charger
+END
+MACRO 16777257 "sting" "INV_MISC_QUESTIONMARK"
+/cast [nomod] serpent sting
+/cast [mod:alt] disengage
+/cast [mod:ctrl] freezing trap
+/cast [mod:alt] raptor strike
+/use [mod:alt] 15
+/cast [mod:alt,@player] roar of sacrifice
+/startattack
+END
+MACRO 16777259 "STUN" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast bad manner
+END
+MACRO 16777231 "turbo" "INV_Misc_QuestionMark"
+/cast bestial wrath 
+/cast rabid
+/cast call of the wild
+/cast focus fire
+/cast fervor
+END
+MACRO 16777265 "WYVERN" "INV_MISC_QUESTIONMARK"
+/cast [exists,@focus] wyvern sting;wyvern sting
+END
+MACRO 16777255 "XPLOD" "INV_MISC_QUESTIONMARK"
+/cast [nomod] explosive Shot
+/castsequence [nomod] reset=1 !Aspect of the hawk, null
+/cast [mod:alt] wing clip
+/startattack [nomod]
+/cast [mod:ctrl] tyrael's charger
+/startattack [nomod:ctrl]
+END

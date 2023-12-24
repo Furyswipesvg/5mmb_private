@@ -1,0 +1,6 @@
+MACRO 16777226 "ZGVMacro2" "0"
+/target Fe-Feng Hozen
+/target Fe-Feng Brewthief
+/target Fe-Feng Leaper
+/run ZGV:MRM()
+END

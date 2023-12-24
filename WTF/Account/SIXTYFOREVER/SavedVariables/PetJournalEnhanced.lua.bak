@@ -1,0 +1,12 @@
+
+PetJournalEnhancedDB = {
+	["namespaces"] = {
+		["Sorting"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Spinemd - Nathrezim"] = "Default",
+		["Nightsworn - Nathrezim"] = "Default",
+		["Basilar - Nathrezim"] = "Default",
+	},
+}

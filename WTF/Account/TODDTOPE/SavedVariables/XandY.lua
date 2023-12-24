@@ -1,0 +1,4 @@
+
+XandYDB = {
+	["miniDetail"] = 1,
+}

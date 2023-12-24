@@ -1,0 +1,7 @@
+ZygorGuidesViewer: disabled
+ZygorTalentAdvisor: disabled
+AckisRecipeList: disabled
+RecipeKnown: disabled
+Archy: enabled
+MailGet: disabled
+EavesDrop: enabled

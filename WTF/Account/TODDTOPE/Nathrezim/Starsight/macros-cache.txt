@@ -1,0 +1,118 @@
+MACRO 16777264 "bear" "INV_Misc_QuestionMark"
+/cast [nostance:1] bear form
+/cast [stance:1] enrage
+END
+MACRO 16777260 "bshtaunt" "INV_Misc_QuestionMark"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/cast [modifier:ctrl]Rivendare's Deathcharger
+/cast [nomodifier] bash
+END
+MACRO 16777219 "cat" "Ability_Druid_CatForm"
+/cast [nostance:3] !cat form
+/cast [nostealth] prowl
+/cast [stealth] track humanoids
+END
+MACRO 16777252 "ch" "INV_Misc_QuestionMark"
+/cast [mod:alt,@player] rejuvenation
+/cast [modifier:ctrl] Faerie Fire (Feral)(Feral)
+#show
+/cast [nomod] Feral Charge(Bear Form)
+END
+MACRO 16777268 "dash" "INV_Misc_QuestionMark"
+/cast [stance:1] stampeding roar
+/cast [stance:3] dash
+/cast [stance:3] stampeding roar(cat form)
+END
+MACRO 16777247 "FF" "INV_Misc_QuestionMark"
+/cast [mod:alt,@player] lifebloom
+/cast [nomod] lifebloom
+/cast [mod:ctrl] faerie fire
+END
+MACRO 16777269 "kcharge" "INV_MISC_QUESTIONMARK"
+/cast [nomod] feral charge(cat form),
+/cast [stealth,nomod] pounce
+/cast [nomod,nostealth] ravage
+/cast [mod:ctrl] faerie fire (feral)
+/cast [mod:alt,@player] rejuvenation
+/startattack [nomod,nostealth
+END
+MACRO 16777271 "kstand" "INV_MISC_QUESTIONMARK"
+/cast barkskin
+/cast Survival Instincts
+/use 14
+/use Healthstone
+/cast lifeblood
+/use mysterious potion
+/use endless healing potion
+END
+MACRO 16777270 "kswipe" "INV_MISC_QUESTIONMARK"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/cast [modifier:ctrl] rivendare's deathcharger
+/cast [nomod] Swipe(Cat Form)
+/startattack
+END
+MACRO 16777243 "ktymag" "INV_Misc_QuestionMark"
+/cast [stealth]ravage
+/cast [nostealth,nocombat]prowl
+/castsequence [nomod] reset=combat/target Mangle(Cat Form),rake,Mangle(Cat Form)
+/cast [mod:alt]tiger's fury
+/cast [mod:alt]ferocious bite
+/cast [mod:ctrl]savage roar
+/startattack[nostealth]
+END
+MACRO 16777272 "lac" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Mangle(Bear Form)
+/cast [nomod] maul
+/cast [mod:ctrl] berserk
+/cast [mod:alt] nature's grasp
+/startattack [nomod]
+END
+MACRO 16777273 "last stand" "INV_MISC_QUESTIONMARK"
+/cast frenzied regeneration
+/cast survival instincts
+/cast lifeblood
+/use Ruthless Gladiator's Emblem of Tenacity
+/use Healthstone
+/cast barkskin
+/use mythical healing potion
+END
+MACRO 16777265 "maim" "INV_Misc_QuestionMark"
+/cast [nomod] maim
+/stopattack [nomod]
+/cast [mod:alt] nature's grasp
+/cast [mod:ctrl] berserk
+END
+MACRO 16777254 "mang" "INV_Misc_QuestionMark"
+/cast [modifier:alt] growl
+/cast [modifier:ctrl] Demoralizing Roar
+/castsequence  [nomod] reset=combat Mangle(Bear Form),faerie fire (feral),Lacerate,Lacerate,Lacerate
+/cast [nomod] maul
+/cast [nomod] enrage
+/startattack [nomod:ctrl
+END
+MACRO 16777257 "ngrun" "Spell_Nature_NaturesWrath"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/cast [modifier:ctrl]Rivendare's Deathcharger
+/cast [nomodifier] nature's grasp
+END
+MACRO 16777253 "RGRdc" "INV_Misc_QuestionMark"
+/cast [nomod] regrowth
+/cast [mod:alt,@player] regrowth
+/cast [mod:ctrl,@player] remove corruption
+END
+MACRO 16777232 "RIP" "INV_Misc_QuestionMark"
+/cast [stealth] pounce
+/cast [nomod] rip
+/cast [nomod,combat] tiger's fury
+/cast [mod:ctrl,@player] remove corruption
+/castsequence [mod:alt] shred,rake,shred,shred,shred,shred
+/startattack [nomod]
+END
+MACRO 16777255 "swipe" "INV_Misc_QuestionMark"
+/castsequence [nomod] reset=combat Swipe(Bear Form),thrash,swipe(bear form),Lacerate
+/cast [nomod] maul
+/cast [mod:ctrl] challenging roar
+/cast [mod:alt] Mangle(Bear Form)
+/cast [nomod] enrage
+/startattack
+END

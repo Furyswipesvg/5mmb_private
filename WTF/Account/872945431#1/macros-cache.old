@@ -1,0 +1,146 @@
+VER 3 00000000000000EF "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Eversmile
+END
+VER 3 00000000000000E6 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Thelnsane
+END
+VER 3 00000000000000E7 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Getln
+END
+VER 3 00000000000000E8 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Neversmile
+END
+VER 3 00000000000000E9 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Whatsupsucka
+END
+VER 3 00000000000000EA "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 00000000000000EB "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Springvalley
+END
+VER 3 00000000000000EC "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Elonlnside
+END
+VER 3 00000000000000ED "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Deadlnside
+END
+VER 3 00000000000000EE "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Summerlin
+END
+VER 3 00000000000000FB "AOE_FS_BEASTMASTERY" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 00000000000000F3 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 000000000000004A "delete_trash" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 00000000000000E4 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Eversmile
+/run SetView(4)
+END
+VER 3 00000000000000DB "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Thelnsane
+/run SetView(4)
+END
+VER 3 00000000000000DC "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
+/run SetView(4)
+END
+VER 3 00000000000000DD "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Neversmile
+/run SetView(4)
+END
+VER 3 00000000000000DE "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Whatsupsucka
+/run SetView(4)
+END
+VER 3 00000000000000DF "f5_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 00000000000000E0 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Springvalley
+/run SetView(4)
+END
+VER 3 00000000000000E1 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Elonlnside
+/run SetView(4)
+END
+VER 3 00000000000000E2 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Deadlnside
+/run SetView(4)
+END
+VER 3 00000000000000E3 "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Summerlin
+/run SetView(4)
+END
+VER 3 00000000000000F5 "feed_fs" "INV_Misc_QuestionMark"
+/cast [pet] Feed Pet
+/use 0 1
+/run ClearCursor()
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+END
+VER 3 00000000000000F4 "feign_fs" "INV_Misc_QuestionMark"
+/petfollow
+/petpassive
+/stopattack
+/cast Freezing Trap
+/cast Feign Death
+END
+VER 3 00000000000000E5 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 00000000000000FD "int_fs" "INV_Misc_Questionmark"
+/cast Counter Shot
+END
+VER 3 00000000000000F2 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 00000000000000F0 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Whatsupsucka
+END
+VER 3 00000000000000F9 "MULTI_FS_BEASTMASTERY" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 00000000000000DA "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 00000000000000F6 "poly_fs" "INV_Misc_QuestionMark"
+/cast Freezing Trap
+END
+VER 3 00000000000000F1 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 00000000000000F7 "SETUP_FS_BEASTMASTERY" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_BEASTMASTERY LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 00000000000000FC "SHEAL_FS_BEASTMASTERY" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 00000000000000F8 "SINGLE_FS_BEASTMASTERY" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 00000000000000FA "TURBO_FS_BEASTMASTERY" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_BEASTMASTERY LeftButton t;
+/petpassive [mod:alt]
+/run SetView(4)
+END

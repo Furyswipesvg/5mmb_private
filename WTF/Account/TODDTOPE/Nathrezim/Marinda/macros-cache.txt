@@ -1,0 +1,98 @@
+VER 3 010000000000000E "BLAST" "INV_MISC_QUESTIONMARK"
+#showtooltip spirit shell
+/castsequence  reset=25 spirit shell,Penance, Greater Heal, Spirit Shell, Greater Heal, Flash Heal
+/castsequence Inner Focus
+/castsequence Archangel
+END
+VER 3 0100000000000013 "BLAST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] mind blast
+/cast [mod:alt] devouring plague
+/cast [mod:ctrl] x-53 touring rocket
+END
+VER 3 0100000000000015 "D:Death" "INV_MISC_QUESTIONMARK"
+/cast [harm] Shadow word: death
+/cast [@targettarget] shadow word: death
+/stopcasting
+END
+VER 3 0100000000000011 "D:DMG" "INV_MISC_QUESTIONMARK"
+/castsequence  [harm] reset=10 holy fire,smite,smite,smite,smite,Penance
+/castsequence [exists,@focustarget] reset=20 holy fire,smite,smite,smite,smite,smite,penance
+/cast archangel
+END
+VER 3 0100000000000014 "D:dot" "INV_MISC_QUESTIONMARK"
+/cast [harm] shadow word: pain
+/cast [@targettarget] shadow word: pain
+END
+VER 3 0100000000000010 "DESP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast desperate prayer
+/use healthstone
+END
+VER 3 0100000000000005 "disp" "INV_MISC_QUESTIONMARK"
+/cast [nomod] dispersion
+/cast [mod:alt,@player] flash heal
+END
+VER 3 0100000000000007 "dot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [nomod] reset=combat/target/15 shadow word: pain, vampiric touch
+/cast [mod:alt] mind spike
+/cast [mod:ctrl] shadow word: death
+END
+VER 3 0100000000000006 "fiend" "INV_MISC_QUESTIONMARK"
+/cast [harm] shadowfiend
+/cast [@targettarget] shadowfiend
+/cast shadowfiend
+/petattack
+/use 13
+/use 14
+END
+VER 3 0100000000000018 "greater " "INV_MISC_QUESTIONMARK"
+/cast [nomod] greater heal
+/cast [mod:alt,@player] greater heal
+/cast Berserking(Racial)
+END
+VER 3 0100000000000019 "IF" "INV_MISC_QUESTIONMARK"
+/castsequence [nomod] reset=30 inner focus, greater heal,greater heal, greater heal, greater heal, greater heal
+/castsequence [mod:alt,@player] reset=30 inner focus, greater heal,greater heal, greater heal, greater heal, greater heal
+/cast berserking
+END
+VER 3 0100000000000009 "mend" "INV_MISC_QUESTIONMARK"
+/cast [nomod] prayer of mending
+/cast [mod:alt,@player] prayer of mending
+/cast [mod:ctrl,@player] levitate
+/cancelaura [mod:alt] levitate
+END
+VER 3 0100000000000004 "pennance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] penance
+/cast [mod:alt,@player] penance
+/cast [mod:ctrl,@player] dispel magic
+/cast [mod:alt] healthstone
+/use Vial of Ichorous Blood
+END
+VER 3 0100000000000016 "Pet Battle" "INV_PET_BATTLEPETTRAINING"
+/script C_PetBattles.StartPVPMatchmaking();
+END
+VER 3 0100000000000001 "PI" "INV_MISC_QUESTIONMARK"
+/cast [nomod] flash heal
+/cast [mod:alt,target=player] flash heal
+/cast berserking
+/cast inner focus
+/use [mod:alt] healthstone
+/use 14
+END
+VER 3 0100000000000002 "RENEW" "INV_MISC_QUESTIONMARK"
+/cast [nomod] heal
+/cast [mod:alt,target=player] heal
+/cast [mod:ctrl,flyable] ashes of al'ar
+/cast [mod:ctrl] Flametalon of Alysrazor
+END
+VER 3 0100000000000017 "SAVETANK" "INV_MISC_QUESTIONMARK"
+/castsequence reset=20  Void Shift,Desperate Prayer
+END
+VER 3 0100000000000008 "shield" "INV_MISC_QUESTIONMARK"
+/cast [nomod] power word: shield
+/cast [mod:alt,@player] power word: shield
+/castsequence [mod:ctrl] mass dispel
+END

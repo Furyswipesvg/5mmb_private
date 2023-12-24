@@ -1,0 +1,20 @@
+
+Healers_Have_To_Die = {
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = "Hjdatgoyxabn - Shattered Hand",
+		["Zapdos - Bonechewer"] = "Zapdos - Bonechewer",
+		["Peopledied - Shattered Hand"] = "Peopledied - Shattered Hand",
+		["Jetrat - Gorgonnash"] = "Jetrat - Gorgonnash",
+		["Basilina - Zul'jin"] = "Basilina - Zul'jin",
+		["Defenseless - Nathrezim"] = "Defenseless - Nathrezim",
+		["Elitope - Borean Tundra"] = "Elitope - Borean Tundra",
+	},
+}

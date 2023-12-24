@@ -1,0 +1,8 @@
+AutoTurnIn: enabled
+Furyswipes_5mmb: enabled
+GSE_5MMB: disabled
+GSE: enabled
+GSE_GUI: enabled
+GSE_LDB: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

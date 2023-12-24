@@ -1,0 +1,41 @@
+VER 3 0100000000000003 "follow" "575584"
+/f cheat
+END
+VER 3 010000000000000B "m2" "INV_MISC_QUESTIONMARK"
+/assist cheat
+/cast [nomod,@player] blizzard
+END
+VER 3 0100000000000005 "s2" "INV_MISC_QUESTIONMARK"
+#showtootlip flurry
+/assist cheat
+/castsequence [nomod][combat] reset=combat flurry
+END
+VER 3 0100000000000006 "s3" "INV_MISC_QUESTIONMARK"
+#showtooltip ice lance
+/assist cheat
+/cast [nomod][combat] ice lance
+END
+VER 3 0100000000000007 "s4" "INV_MISC_QUESTIONMARK"
+/assist cheat
+/cast [nomod] frozen orb
+END
+VER 3 0100000000000008 "s5" "INV_MISC_QUESTIONMARK"
+#showtooltip frostbolt
+/assist cheat
+/cast [nomod][combat] frostbolt
+END
+VER 3 010000000000000A "s6" "INV_MISC_QUESTIONMARK"
+/assist cheat
+/cast [nomod] frostbolt
+END
+VER 3 0100000000000011 "single2" "INV_MISC_QUESTIONMARK"
+/assist cheat
+/castsequence [nomod][combat] reset=combat frozen orb,frostbolt,frostbolt,frostbolt,frostbolt,frostbolt,frostbolt,frostbolt,frostbolt,frostbolt
+END
+VER 3 010000000000000D "t2" "INV_MISC_QUESTIONMARK"
+/cast [nomod][nocombat] icy veins
+END
+VER 3 010000000000000E "t3" "INV_MISC_QUESTIONMARK"
+END
+VER 3 010000000000000F "t4" "INV_MISC_QUESTIONMARK"
+END

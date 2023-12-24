@@ -1,0 +1,38 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Psh - Cenarius"] = "Default",
+		["Lye - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["TutorialPopupID"] = 1,
+			["is_BFA_version"] = true,
+			["quests_tracked"] = {
+				["Player-1168-08C5DE37"] = {
+				},
+				["Player-1168-08C5DE78"] = {
+				},
+				["Player-1138-0628448A"] = {
+				},
+			},
+			["player_names"] = {
+				["Player-1168-08C5DE37"] = {
+					["class"] = "WARLOCK",
+					["name"] = "Psh",
+					["realm"] = "Cenarius",
+				},
+				["Player-1168-08C5DE78"] = {
+					["class"] = "DEATHKNIGHT",
+					["name"] = "Psh",
+					["realm"] = "Cenarius",
+				},
+				["Player-1138-0628448A"] = {
+					["class"] = "WARLOCK",
+					["name"] = "Lye",
+					["realm"] = "Nathrezim",
+				},
+			},
+		},
+	},
+}

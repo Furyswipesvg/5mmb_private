@@ -1,0 +1,176 @@
+
+EavesDropStatsDB = {
+	["profileKeys"] = {
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+	},
+	["profiles"] = {
+		["Mootalia - Illidan"] = {
+			{
+				["heal"] = {
+					["Bloodthirst Heal"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:12:50|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:117313:0:SPELL_HEAL|h|cffffffffBloodthirst Heal|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-57-078F56F9:Mootalia|hYou|h |cffffffff0|r |cffffffffPhysical|r. (100832 Overhealed) ",
+							["amount"] = 100832,
+						},
+						[2] = {
+						},
+						["icon"] = 136012,
+					},
+					["Leech"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:12:53|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:143924:0:SPELL_HEAL|h|cffffffffLeech|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-57-078F56F9:Mootalia|hYou|h |cffffffff0|r |cffffffffPhysical|r. (40006 Overhealed) ",
+							["amount"] = 40006,
+						},
+						[2] = {
+						},
+						["icon"] = 136169,
+					},
+				},
+				["hit"] = {
+					["Melee Attack"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:21:34|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Haction:SWING_DAMAGE|h|cffffffffMelee|r|h |Haction:SWING_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff64813|r |cffffffffPhysical|r. ",
+							["amount"] = 64813,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:21:17|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Haction:SWING_DAMAGE|h|cffffffffMelee|r|h |Haction:SWING_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff147236|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 147236,
+						},
+					},
+					["Execute"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:38:19|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:217956:0:SPELL_DAMAGE|h|cffffffffExecute|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff1|r |cffffffffPhysical|r. (303896 Overkill) ",
+							["amount"] = 303897,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:38:34|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:217956:0:SPELL_DAMAGE|h|cffffffffExecute|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff1|r |cffffffffPhysical|r. (681942 Overkill) (Critical) ",
+							["amount"] = 681943,
+						},
+						["icon"] = 135358,
+					},
+					["Whirlwind"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:12:55|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:199667:0:SPELL_DAMAGE|h|cffffffffWhirlwind|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00005ACCFD:Training Dummy|hTraining Dummy|h |cffffffff77050|r |cffffffffPhysical|r. ",
+							["amount"] = 77050,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:12:54|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:199667:0:SPELL_DAMAGE|h|cffffffffWhirlwind|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-0000DACCFD:Training Dummy|hTraining Dummy|h |cffffffff156610|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 156610,
+						},
+						["icon"] = 132369,
+					},
+					["Execute Off-Hand"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:38:33|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:217957:0:SPELL_DAMAGE|h|cffffffffExecute Off-Hand|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff1|r |cffffffffPhysical|r. (159569 Overkill) ",
+							["amount"] = 159570,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:38:47|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:217957:0:SPELL_DAMAGE|h|cffffffffExecute Off-Hand|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff112188|r |cffffffffPhysical|r. (221731 Overkill) (Critical) ",
+							["amount"] = 333919,
+						},
+						["icon"] = 135358,
+					},
+					["Furious Slash"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:21:33|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:100130:0:SPELL_DAMAGE|h|cffffffffFurious Slash|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff92132|r |cffffffffPhysical|r. ",
+							["amount"] = 92132,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:12:56|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:100130:0:SPELL_DAMAGE|h|cffffffffFurious Slash|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff130221|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 130221,
+						},
+						["icon"] = 132367,
+					},
+					["Odyn's Fury"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:36:28|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:205546:0:SPELL_DAMAGE|h|cffffffffOdyn's Fury|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff187538|r |cffffffffFire|r. ",
+							["amount"] = 187538,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:12:53|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:205546:0:SPELL_DAMAGE|h|cffffffffOdyn's Fury|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff424240|r |cffffffffFire|r. (Critical) ",
+							["amount"] = 424240,
+						},
+						["icon"] = 1278409,
+					},
+					["Bloodthirst"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:38:05|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:23881:0:SPELL_DAMAGE|h|cffffffffBloodthirst|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff128680|r |cffffffffPhysical|r. ",
+							["amount"] = 128680,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:21:18|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:23881:0:SPELL_DAMAGE|h|cffffffffBloodthirst|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff366915|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 366915,
+						},
+						["icon"] = 136012,
+					},
+					["Storm Bolt"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:37:00|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:107570:0:SPELL_DAMAGE|h|cffffffffStorm Bolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff30519|r |cffffffffPhysical|r. ",
+							["amount"] = 30519,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:38:11|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:107570:0:SPELL_DAMAGE|h|cffffffffStorm Bolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff1|r |cffffffffPhysical|r. (97866 Overkill) (Critical) ",
+							["amount"] = 97867,
+						},
+						["icon"] = 613535,
+					},
+					["Mark of the Hidden Satyr"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:38:47|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:191259:0:SPELL_DAMAGE|h|cffffffffMark of the Hidden Satyr|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff1|r |cffffffffFire|r. (97417 Overkill) ",
+							["amount"] = 97418,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:21:17|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:191259:0:SPELL_DAMAGE|h|cffffffffMark of the Hidden Satyr|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff230946|r |cffffffffFire|r. (Critical) ",
+							["amount"] = 230946,
+						},
+						["icon"] = 1357810,
+					},
+					["Rampage"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:37:18|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:201363:0:SPELL_DAMAGE|h|cffffffffRampage|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff129489|r |cffffffffPhysical|r. ",
+							["amount"] = 129489,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:12:53|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:201363:0:SPELL_DAMAGE|h|cffffffffRampage|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff299575|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 299575,
+						},
+						["icon"] = 1035036,
+					},
+					["Raging Blow"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:37:14|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:96103:0:SPELL_DAMAGE|h|cffffffffRaging Blow|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff240474|r |cffffffffPhysical|r. ",
+							["amount"] = 240474,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:21:34|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:96103:0:SPELL_DAMAGE|h|cffffffffRaging Blow|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff483109|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 483109,
+						},
+						["icon"] = 589119,
+					},
+					["Whirlwind Off-Hand"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:13:05|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:44949:0:SPELL_DAMAGE|h|cffffffffWhirlwind Off-Hand|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-0000DACCFD:Training Dummy|hTraining Dummy|h |cffffffff38315|r |cffffffffPhysical|r. ",
+							["amount"] = 38315,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:13:05|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:44949:0:SPELL_DAMAGE|h|cffffffffWhirlwind Off-Hand|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff77576|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 77576,
+						},
+						["icon"] = 132369,
+					},
+					["Cleansed Drake's Breath"] = {
+						[-2] = {
+							["time"] = "|cffffffff12/21/16 11:21:21|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:222520:0:SPELL_DAMAGE|h|cffffffffCleansed Drake's Breath|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00015ACCFD:Training Dummy|hTraining Dummy|h |cffffffff244692|r |cffffffffNature|r. ",
+							["amount"] = 244692,
+						},
+						[2] = {
+							["time"] = "|cffffffff12/21/16 11:21:21|r\n|Hunit:Player-57-078F56F9:Mootalia|hYour|h |Hspell:222520:0:SPELL_DAMAGE|h|cffffffffCleansed Drake's Breath|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3782-1153-10431-88967-00005ACCFD:Training Dummy|hTraining Dummy|h |cffffffff541853|r |cffffffffNature|r. (Critical) ",
+							["amount"] = 541853,
+						},
+						["icon"] = 134157,
+					},
+				},
+			}, -- [1]
+		},
+	},
+}

@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Basilar|Nathrezim|Horde|100|SHAMAN", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+	},
+	["profiles"] = {
+		["Basilar - Nathrezim"] = {
+		},
+	},
+}

@@ -1,0 +1,21 @@
+MACRO64 0000000001000004 "dmg" "INV_MISC_QUESTIONMARK"
+/castsequence reset=15/combat Devouring Plague,Shadow Word: Pain,Mind Blast,holy fire,Mind Blast,holy fire,Mind Blast
+END
+MACRO64 0000000001000002 "PI" "INV_MISC_QUESTIONMARK"
+/cast [target=player] power infusion
+/cast [nomod] flash heal
+/cast [mod:alt,target=player] flash heal
+/cast berserking
+/cast inner focus
+END
+MACRO64 0000000001000003 "pi" "INV_MISC_QUESTIONMARK"
+/cast [nomod] penance
+/cast [mod:alt,target=player] penance
+/use 14
+END
+MACRO64 0000000001000001 "renew" "INV_MISC_QUESTIONMARK"
+/cast [nomod] renew
+/cast [mod:alt,target=player] renew
+/cast [mod:alt,noflyable] tyrael's charger
+/cast [mod:ctrl] tyrael's charger
+END

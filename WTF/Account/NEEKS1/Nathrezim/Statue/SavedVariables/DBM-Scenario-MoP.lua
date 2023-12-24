@@ -1,0 +1,53 @@
+
+DBMScenarioMoP_SavedVars = {
+	["TheramoreFall"] = {
+		["Enabled"] = true,
+		["War Engine's Sights on >%s<"] = true,
+		["Yell when you are affected by $spell:114570"] = true,
+		["Announce"] = false,
+		["SpeedKillTimer"] = false,
+		["Record Kill"] = true,
+		["War Engine's Sights - move away"] = true,
+	},
+	["ArenaAnnihilation"] = {
+		["Enabled"] = true,
+		["Flame Wall"] = true,
+		["Flame Wall!"] = true,
+		["Announce"] = false,
+		["SpeedKillTimer"] = false,
+	},
+}
+DBMScenarioMoP_SavedStats = {
+	["TheramoreFall"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["lfr25Kills"] = 0,
+		["normalPulls"] = 2,
+		["heroicPulls"] = 0,
+		["normalBestTime"] = 1286.323000000091,
+		["normalLastTime"] = 1286.323000000091,
+		["heroicKills"] = 0,
+		["heroic25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 2,
+		["challengePulls"] = 0,
+	},
+	["ArenaAnnihilation"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalBestTime"] = 556.7099999999628,
+		["normalPulls"] = 1,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["normalLastTime"] = 556.7099999999628,
+		["heroicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 1,
+		["challengePulls"] = 0,
+	},
+}

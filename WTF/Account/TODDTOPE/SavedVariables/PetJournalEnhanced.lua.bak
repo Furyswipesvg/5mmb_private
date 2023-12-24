@@ -1,0 +1,36 @@
+
+PetJournalEnhancedDB = {
+	["namespaces"] = {
+		["Sorting"] = {
+			["global"] = {
+				["filtering"] = {
+					["favoritesOnly"] = false,
+					["breed"] = {
+						true, -- [1]
+						true, -- [2]
+					},
+				},
+				["sorting"] = {
+					["selection"] = 2,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Neversmiles - Illidan"] = "Default",
+		["Mootalia - Illidan"] = "Default",
+		["Felslaughter - Illidan"] = "Default",
+		["Hepagor - Nazjatar"] = "Default",
+		["Eversmîle - Illidan"] = "Default",
+		["Xtharsa - Maiev"] = "Default",
+		["Gâto - Illidan"] = "Default",
+		["Tazzwaz - Illidan"] = "Default",
+		["Wachuhunt - Illidan"] = "Default",
+		["Bubblyböö - Illidan"] = "Default",
+		["Stabsya - Illidan"] = "Default",
+		["Elixyia - Rivendare"] = "Default",
+		["Snöbgoblin - Illidan"] = "Default",
+		["Brokeurarmor - Illidan"] = "Default",
+		["Jannil - Stormreaver"] = "Default",
+	},
+}

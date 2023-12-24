@@ -1,0 +1,13 @@
+VER 3 0100000000000007 "aoe2" "INV_MISC_QUESTIONMARK"
+/cast [@player] death and decay
+END
+VER 3 0100000000000003 "partyup" "132097"
+/invite ux
+/invite btfo
+/invite psh
+/invite coolness
+/invite married
+END
+VER 3 0100000000000004 "setup1" "INV_MISC_QUESTIONMARK"
+/cast [@player] death and decay
+END

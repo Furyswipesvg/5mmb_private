@@ -1,0 +1,41 @@
+VER 3 010000000000004A "amb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast ambush
+/cast pick pocket
+END
+VER 3 0100000000000047 "bf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] blade flurry
+/cast [mod:ctrl] red skeletal horse
+END
+VER 3 010000000000004C "bs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod]  backstab
+/cast [mod:ctrl] eviscerate
+/startattack [nostealth] 
+END
+VER 3 010000000000004B "cs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast cheap shot
+/cast pick pocket
+END
+VER 3 0100000000000049 "gouge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] gouge
+/cast [mod:alt] kidney shot
+/cast [mod:ctrl] blind
+END
+VER 3 010000000000004D "poisons" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [button:1] deadly poison; instant poison
+/use [button:1] 16; 17
+/click StaticPopup1Button1
+END
+VER 3 0100000000000001 "ss" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostealth, nocombat] stealth
+/cast [nomod]  sinister strike
+/cast [mod:alt] slice and dice
+/cast [mod:ctrl] eviscerate
+/startattack [nostealth] 
+END

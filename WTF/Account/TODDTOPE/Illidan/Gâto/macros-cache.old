@@ -1,0 +1,77 @@
+VER 3 01000000000001B1 "BIND" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast binding shot
+END
+VER 3 01000000000001B0 "camo" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast camouflage
+END
+VER 3 01000000000001D2 "COBRA" "INV_MISC_QUESTIONMARK"
+/cast [nomod] cobra shot
+/cast [mod:ctrl] invincible
+/startattack [nomod]
+/petattack [nomod]
+/cast [mod:alt,@pet] misdirection
+END
+VER 3 01000000000001D1 "CROWS" "INV_MISC_QUESTIONMARK"
+/cast [nomod] A Murder of Crows
+/cast [nomod] bestial wrath
+/cast [nomod] blood fury
+/startattack [nomod] 
+/use 14 [nomod]
+/cast [mod:alt] Aspect of the Turtle
+END
+VER 3 01000000000001D0 "DIRE" "INV_MISC_QUESTIONMARK"
+/cast [nomod] dire beast
+/petattack [nomod]
+/cast [nomod] aspect of the wild
+/cast [mod:alt] disengage
+/cast [mod:ctrl] concussive shot
+/startattack [nomod]
+END
+VER 3 01000000000001D3 "FD" "INV_MISC_QUESTIONMARK"
+/castsequence reset=10 feign death,play dead
+END
+VER 3 01000000000001C7 "heal" "INV_MISC_QUESTIONMARK"
+/use Warmongering Combatant's Medallion of Adaptation
+/use healthstone
+END
+VER 3 01000000000001C9 "JUMP" "ABILITY_RACIAL_ROCKETJUMP"
+/cast rocket jump
+/use Warmongering Combatant's Cape of Cruelty
+END
+VER 3 01000000000001CF "KILL" "INV_MISC_QUESTIONMARK"
+/cast [nopet] call pet 4
+/petattack [nomod]
+/cast [nomod] Kill Command
+/petattack [nomod]
+/petfollow [mod:alt]
+/cast [mod:ctrl]  Aspect of the Cheetah
+/stopattack [mod:alt]
+/cast wake up [mod:alt]
+END
+VER 3 0100000000000181 "LUST" "INV_MISC_QUESTIONMARK"
+/cast netherwinds
+END
+VER 3 01000000000001CD "mis" "INV_MISC_QUESTIONMARK"
+/cast [target=pet] misdirection
+END
+VER 3 010000000000011C "multi" "INV_MISC_QUESTIONMARK"
+/cast [nomod] multi-shot
+/cast [nomod] bestial wrath
+/petattack [nomod]
+/startattack [nomod] 
+/use 14 [nomod]
+END
+VER 3 01000000000001CE "OPEN" "INV_MISC_QUESTIONMARK"
+/castsequence reset=60  A Murder of Crows,Bestial Wrath,Multi-Shot,Dire Beast,Blood Fury
+/cast Aspect of the Wild
+/use [combat] 14
+/startattack
+/petattack
+END
+VER 3 010000000000008F "sickem" "134296"
+/petattack
+END

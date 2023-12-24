@@ -1,0 +1,28 @@
+
+SpellReminderDB = {
+	["namespaces"] = {
+		["Cooldowns"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Statue - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bargroups"] = {
+				["normal"] = {
+					["emphasise"] = true,
+					["growup"] = false,
+					["name"] = "Normal",
+					["scale"] = 1,
+				},
+				["emphasis"] = {
+					["emphasise"] = true,
+					["growup"] = false,
+					["name"] = "Emphasis",
+					["scale"] = 1,
+				},
+			},
+		},
+	},
+}

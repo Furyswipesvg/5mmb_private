@@ -1,0 +1,22 @@
+
+SkadaDB = {
+	["hasUpgraded"] = true,
+	["profileKeys"] = {
+		["Gametimetoke - Illidan"] = "Default",
+		["Hoverboard - Illidan"] = "Default",
+		["Ee - Tol Barad"] = "Default",
+		["Ux - Cenarius"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["y"] = 73.9999542236328,
+					["x"] = -81.999755859375,
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "DPS",
+				}, -- [1]
+			},
+		},
+	},
+}

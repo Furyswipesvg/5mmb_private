@@ -1,0 +1,826 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Kastra"] = {
+			["GUID"] = "0x0100000005016E24",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["Smolderweb Hatchling"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF13029660024B908",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Kastra",
+			["Pet"] = {
+				"Smolderweb Hatchling <Kastra>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1345175515,
+			["LastFightIn"] = 1,
+		},
+		["Lockbox"] = {
+			["GUID"] = "0x0100000004D79169",
+			["LastEventHealth"] = {
+				"1485 (100%)", -- [1]
+				"1485 (100%)", -- [2]
+				"1485 (100%)", -- [3]
+				"1485 (100%)", -- [4]
+				"1485 (100%)", -- [5]
+				"1485 (100%)", -- [6]
+				"1485 (100%)", -- [7]
+				"1485 (100%)", -- [8]
+				"1485 (100%)", -- [9]
+				"1485 (100%)", -- [10]
+				"1485 (100%)", -- [11]
+				"1485 (100%)", -- [12]
+				"1485 (100%)", -- [13]
+				"1485 (100%)", -- [14]
+				"1485 (100%)", -- [15]
+				"1485 (100%)", -- [16]
+				"1485 (100%)", -- [17]
+				"1485 (100%)", -- [18]
+				"1485 (100%)", -- [19]
+				"1485 (100%)", -- [20]
+				"1485 (100%)", -- [21]
+				"1485 (100%)", -- [22]
+				"1485 (100%)", -- [23]
+				"1485 (100%)", -- [24]
+				"1485 (100%)", -- [25]
+				"1485 (100%)", -- [26]
+				"1485 (100%)", -- [27]
+				"1485 (100%)", -- [28]
+				"1485 (100%)", -- [29]
+				"1485 (100%)", -- [30]
+				"1485 (100%)", -- [31]
+				"1485 (100%)", -- [32]
+				"1485 (100%)", -- [33]
+				"1485 (100%)", -- [34]
+				"1485 (100%)", -- [35]
+				"1485 (100%)", -- [36]
+				"1485 (100%)", -- [37]
+				"1485 (100%)", -- [38]
+				"1485 (100%)", -- [39]
+				"1485 (100%)", -- [40]
+				"1485 (100%)", -- [41]
+				"1485 (100%)", -- [42]
+				"1485 (100%)", -- [43]
+				"1485 (100%)", -- [44]
+				"1485 (100%)", -- [45]
+				"1485 (100%)", -- [46]
+				"1485 (100%)", -- [47]
+				"1485 (100%)", -- [48]
+				"1485 (100%)", -- [49]
+				"1485 (100%)", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					42.84000000000001, -- [1]
+				},
+				["ActiveTime"] = {
+					42.84000000000001, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Lockbox",
+			["level"] = 32,
+			["LastFightIn"] = 0,
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["TimeLast"] = {
+				["OVERALL"] = 1345175399,
+				["TimeDamage"] = 1345175399,
+				["ActiveTime"] = 1345175399,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 676.86,
+			["NextEventNum"] = 15,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Lockbox Melee Training Dummy Miss", -- [1]
+				"Lockbox Hemorrhage Training Dummy Miss (Physical)", -- [2]
+				"Lockbox Melee Training Dummy Dodge", -- [3]
+				"Lockbox Hemorrhage Training Dummy Miss (Physical)", -- [4]
+				"Lockbox Melee Training Dummy Dodge", -- [5]
+				"Lockbox Hemorrhage Training Dummy Miss (Physical)", -- [6]
+				"Lockbox Melee Training Dummy Miss", -- [7]
+				"Lockbox Hemorrhage Training Dummy Miss (Physical)", -- [8]
+				"Lockbox Melee Training Dummy Dodge", -- [9]
+				"Lockbox Melee Training Dummy Miss", -- [10]
+				"Lockbox Hemorrhage Training Dummy Dodge (Physical)", -- [11]
+				"Lockbox Melee Training Dummy Miss", -- [12]
+				"Lockbox Hemorrhage Training Dummy Miss (Physical)", -- [13]
+				"Lockbox Melee Training Dummy Miss", -- [14]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [15]
+				"Lockbox Hemorrhage Raider's Training Dummy Dodge (Physical)", -- [16]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [17]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [18]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [19]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [20]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [21]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [22]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [23]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [24]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [25]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [26]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [27]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [28]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [29]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [30]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [31]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [32]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [33]
+				"Lockbox Hemorrhage Raider's Training Dummy Parry (Physical)", -- [34]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [35]
+				"Lockbox Hemorrhage Raider's Training Dummy Parry (Physical)", -- [36]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [37]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [38]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [39]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [40]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [41]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [42]
+				"Lockbox Hemorrhage Raider's Training Dummy Miss (Physical)", -- [43]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [44]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [45]
+				"Lockbox Melee Raider's Training Dummy Dodge", -- [46]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [47]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [48]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [49]
+				"Lockbox Melee Raider's Training Dummy Miss", -- [50]
+			},
+			["Name"] = "Lockbox",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				671.042, -- [1]
+				671.274, -- [2]
+				671.8100000000001, -- [3]
+				672.292, -- [4]
+				672.777, -- [5]
+				673.3100000000001, -- [6]
+				673.492, -- [7]
+				674.3250000000001, -- [8]
+				674.3250000000001, -- [9]
+				675.159, -- [10]
+				675.3630000000001, -- [11]
+				676.008, -- [12]
+				676.275, -- [13]
+				676.86, -- [14]
+				646.975, -- [15]
+				647.492, -- [16]
+				647.792, -- [17]
+				648.65, -- [18]
+				649.6420000000001, -- [19]
+				650.375, -- [20]
+				651.1750000000001, -- [21]
+				652.093, -- [22]
+				652.408, -- [23]
+				652.842, -- [24]
+				653.3920000000001, -- [25]
+				653.643, -- [26]
+				654.458, -- [27]
+				654.6420000000001, -- [28]
+				655.343, -- [29]
+				655.343, -- [30]
+				656.192, -- [31]
+				656.3920000000001, -- [32]
+				657.192, -- [33]
+				657.4250000000001, -- [34]
+				657.96, -- [35]
+				658.409, -- [36]
+				658.826, -- [37]
+				659.415, -- [38]
+				659.631, -- [39]
+				660.426, -- [40]
+				660.426, -- [41]
+				661.359, -- [42]
+				661.509, -- [43]
+				662.192, -- [44]
+				663.059, -- [45]
+				663.847, -- [46]
+				664.659, -- [47]
+				665.577, -- [48]
+				667.736, -- [49]
+				667.87, -- [50]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["Attacks"] = {
+						["Hemorrhage"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 15,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 31,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 15,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["ActiveTime"] = 42.84000000000001,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeDamage"] = 42.84000000000001,
+				},
+				["LastFightData"] = {
+					["Attacks"] = {
+						["Hemorrhage"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 15,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 31,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 15,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["ActiveTime"] = 42.84000000000001,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeDamage"] = 42.84000000000001,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["Attacks"] = {
+						["Hemorrhage"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 15,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 31,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 15,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["ActiveTime"] = 42.84000000000001,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Hemorrhage"] = {
+									["count"] = 7.550000000000001,
+								},
+								["Melee"] = {
+									["count"] = 9.220000000000001,
+								},
+							},
+							["amount"] = 16.77,
+						},
+						["Raider's Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.54,
+								},
+								["Hemorrhage"] = {
+									["count"] = 5.530000000000001,
+								},
+							},
+							["amount"] = 26.07,
+						},
+					},
+					["TimeDamage"] = 42.84000000000001,
+				},
+			},
+			["UnitLockout"] = 1345175360,
+			["LastActive"] = 1345175399,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			1345175360, -- [1]
+			1345175407, -- [2]
+			"20:49:21", -- [3]
+			"20:50:07", -- [4]
+			"Training Dummy", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Training Dummy 20:49:21-20:50:07", -- [1]
+	},
+}

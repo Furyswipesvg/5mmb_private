@@ -1,0 +1,11 @@
+VER 3 0100000000000001 "ARMS_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] ARMS_SETUP LeftButton t; ARMS_SETUP
+/stopcasting [mod:alt]
+/cast [combat] Pummel
+/run automount()
+END
+VER 3 0100000000000002 "ARMS_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] ARMS_SINGLE LeftButton t; ARMS_SINGLE
+END

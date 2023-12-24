@@ -1,0 +1,13 @@
+
+FishingBuddy_Player = {
+	["MinimapData"] = {
+		["hide"] = false,
+	},
+	["Settings"] = {
+		["TotalTimeFishing"] = 373.5020000000077,
+		["CaughtSoFar"] = 1,
+		["ResetWatcher"] = 1,
+	},
+	["WasWearing"] = {
+	},
+}

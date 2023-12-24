@@ -1,0 +1,61 @@
+
+PetBattleTeamsDB = {
+	["profileKeys"] = {
+		["Nightsworn - Nathrezim"] = "Default",
+		["Eversmile - Dragonmaw"] = "Default",
+		["Chaostard - Nathrezim"] = "Default",
+		["Basilar - Nathrezim"] = "Default",
+		["Spinemd - Nathrezim"] = "Default",
+	},
+	["namespaces"] = {
+		["Tooltip"] = {
+		},
+		["TeamManager"] = {
+			["global"] = {
+				["teams"] = {
+					{
+						{
+							["petID"] = "BattlePet-0-000003268C5C",
+							["abilities"] = {
+								249, -- [1]
+								310, -- [2]
+								566, -- [3]
+							},
+							["speciesID"] = 564,
+						}, -- [1]
+						{
+							["petID"] = "BattlePet-0-000003268C9B",
+							["abilities"] = {
+								118, -- [1]
+								230, -- [2]
+								233, -- [3]
+							},
+							["speciesID"] = 702,
+						}, -- [2]
+						{
+							["petID"] = "BattlePet-0-000003268BCD",
+							["abilities"] = {
+								509, -- [1]
+								310, -- [2]
+								273, -- [3]
+							},
+							["speciesID"] = 132,
+						}, -- [3]
+						["enabled"] = {
+							true, -- [1]
+							true, -- [2]
+							true, -- [3]
+						},
+					}, -- [1]
+				},
+				["selected"] = 1,
+			},
+		},
+		["GUI"] = {
+			["global"] = {
+				["minimized"] = true,
+			},
+		},
+	},
+}
+PetBattleTeamsSettings = nil

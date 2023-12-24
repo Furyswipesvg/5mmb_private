@@ -1,0 +1,78 @@
+
+ArchyDB = {
+	["char"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Zapdos - Bonechewer"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Peopledied - Shattered Hand"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Jetrat - Gorgonnash"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Basilina - Zul'jin"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Defenseless - Nathrezim"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Elitope - Borean Tundra"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = "Default",
+		["Zapdos - Bonechewer"] = "Default",
+		["Peopledied - Shattered Hand"] = "Default",
+		["Jetrat - Gorgonnash"] = "Default",
+		["Basilina - Zul'jin"] = "Default",
+		["Defenseless - Nathrezim"] = "Default",
+		["Elitope - Borean Tundra"] = "Default",
+	},
+	["global"] = {
+		["surveyNodes"] = {
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

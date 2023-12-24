@@ -1,0 +1,10 @@
+VER 3 0100000000000003 "Bannok" "INV_MISC_QUESTIONMARK"
+/target bannok
+END
+VER 3 0100000000000002 "crystal" "INV_MISC_QUESTIONMARK"
+/target crystal fang
+END
+VER 3 0100000000000001 "flamrage" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Flame shock
+/cast [mod:Ctrl] Shamanistic Rage
+END

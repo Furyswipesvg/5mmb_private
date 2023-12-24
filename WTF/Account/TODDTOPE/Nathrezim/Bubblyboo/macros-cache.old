@@ -1,0 +1,104 @@
+VER 3 010000000000000F "cds" "INV_MISC_QUESTIONMARK"
+/cast Hammer of Wrath  
+/cast Avenging Wrath  
+/cast Guardian of Ancient Kings 
+/startattack
+/cast execution sentence
+/use 14
+/use 13
+END
+VER 3 0100000000000021 "clear" "INV_MISC_QUESTIONMARK"
+/cleartarget
+END
+VER 3 0100000000000007 "cooldowns" "INV_MISC_QUESTIONMARK"
+#showtooltip  
+/cast [mod:ctrl,@focus] cleanse
+/cast [mod:alt] consecration
+/cast Holy Shield  
+/cast Divine Protection  
+/cast Guardian of Ancient Kings  
+/cast Avenging Wrath  
+/use 14 
+/startattack
+END
+VER 3 0100000000000011 "excorsiz" "INV_MISC_QUESTIONMARK"
+/cast [mod:ctrl,nocombat] headless horseman's mount
+/cast [nomod:alt] Exorcism
+/cast [mod:alt,@player] word of glory
+END
+VER 3 0100000000000020 "FoL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast flash of light
+/cast divine favor
+/cast avenging wrath
+/cast guardian of ancient kings
+END
+VER 3 0100000000000002 "follow bubbly" "Ability_CheapShot"
+/follow bubblylove
+END
+VER 3 010000000000001F "H:Judge" "INV_MISC_QUESTIONMARK"
+#showtooltip Judgment
+/cast [@focustarget] Judgment
+END
+VER 3 0100000000000018 "hOf" "INV_MISC_QUESTIONMARK"
+/cast [@focus] hand of freedom
+END
+VER 3 0100000000000015 "hop" "INV_MISC_QUESTIONMARK"
+/cast [@slaughtered] hand of protection
+END
+VER 3 0100000000000010 "inq" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Inquisition
+/cast [mod:alt] hammer of wrath
+/cast [mod:ctrl] holy wrath
+END
+VER 3 0100000000000014 "judge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [nomod] reset=combat/6 consecration,holy wrath
+/cast [mod:alt,@player] word of glory
+/use [mod:alt] Heart of Fire
+/cast [mod:ctrl,@player]cleanse
+/startattack [nomod]
+END
+VER 3 0100000000000016 "lay" "INV_MISC_QUESTIONMARK"
+/cast [@player] lay on hands
+END
+VER 3 010000000000000E "LAZYRET" "INV_MISC_QUESTIONMARK"
+/castsequence [nomod] reset=4 Hammer of the Righteous,Judgment,crusader strike
+/cast [mod:alt] templar's verdict
+/cast [mod:ctrl] Blinding Light
+/startattack
+END
+VER 3 0100000000000006 "lazytank" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence  [nomod] reset=combat/6 judgment,Hammer of the Righteous
+/cast [mod:ctrl] shield of the righteous
+/cast [mod:alt] Reckoning
+/startattack
+/use 13
+/use 14
+END
+VER 3 010000000000001E "Light's Hammer" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] execution sentence
+/cast [mod:alt,@player] flash of light
+/cast [mod:ctrl] x-53 touring rocket
+END
+VER 3 0100000000000008 "shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] avenger's shield
+/cast [mod:alt] hammer of wrath
+/cast [mod:ctrl] sacred shield
+/use 13
+END
+VER 3 010000000000001D "SotR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [nomod] reset=4 consecration,sacred shield,sacred shield
+/cast [nomod] shield of the righteous
+/cast [mod:alt,@player] flash of light
+/cast [mod:ctrl,@player] cleanse
+/startattack [nomod]
+END
+VER 3 010000000000001C "wordu" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=self] word of glory
+END

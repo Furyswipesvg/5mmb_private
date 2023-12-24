@@ -1,0 +1,4 @@
+MACRO 16777217 "ZGVMacro2" "0"
+/target Kaltunk
+/run ZGV:MRM()
+END

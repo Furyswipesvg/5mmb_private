@@ -1,0 +1,59 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Ilikewargame"] = {
+			["GUID"] = "0x01000000043D8ADF",
+			["LastEventHealth"] = {
+				"5129 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Ilikewargame",
+			["level"] = 60,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				3.022031585104309, -- [1]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Ooms Holy Radiance Ilikewargame Hit +155 (155 overheal)", -- [1]
+			},
+			["Name"] = "Ilikewargame",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				261169.07, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1295505134,
+			["LastActive"] = 1295505134,
+		},
+		["Felzak"] = {
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Felzak",
+			["Name"] = "Felzak",
+			["Fights"] = {
+			},
+			["level"] = 85,
+			["UnitLockout"] = 1295504812,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

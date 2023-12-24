@@ -1,0 +1,33 @@
+MACRO 16777220 "dmg" "INV_MISC_QUESTIONMARK"
+/castsequence reset=15/combat Devouring Plague,Shadow Word: Pain,Mind Blast,holy fire,smite,smite,holy fire,mind blast,smite,smite,holy fire,Mind Blast
+END
+MACRO 16777222 "PAIN" "INV_MISC_QUESTIONMARK"
+/cast [nomod] pain suppression
+/cast [mod:alt,@player] pain suppression
+/cast [mod:ctrl,@player] levitate
+END
+MACRO 16777219 "pi" "INV_MISC_QUESTIONMARK"
+/cast [nomod] penance
+/cast [mod:alt,target=player] penance
+/cast [mod:ctrl,@targettarget] dispel magic
+END
+MACRO 16777218 "PI" "INV_MISC_QUESTIONMARK"
+/cast [target=player] power infusion
+/cast [nomod] flash heal
+/cast [mod:alt,target=player] flash heal
+/cast berserking
+/cast inner focus
+/use [combat] 14
+/use [combat] horde battle standard
+END
+MACRO 16777221 "pws" "INV_MISC_QUESTIONMARK"
+/cast [nomod] power word: shield
+/cast [mod:alt,@player] power word: shield
+/cast [mod:ctrl,@focus] dispel magic
+END
+MACRO 16777217 "renew" "INV_MISC_QUESTIONMARK"
+/cast [nomod] renew
+/cast [mod:alt,target=player] renew
+/cast [mod:ctrl,noflyable] Kor'kron Annihilator
+/cast [mod:ctrl] tyrael's charger
+END

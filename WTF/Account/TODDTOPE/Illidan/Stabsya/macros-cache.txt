@@ -1,0 +1,28 @@
+VER 3 0100000000000005 "BS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,nostealth] backstab
+/cast [mod:alt,nostealth] expose armor
+/startattack [nomod]
+END
+VER 3 0100000000000001 "crystal" "INV_MISC_QUESTIONMARK"
+/target crystal fang
+END
+VER 3 0100000000000003 "gouge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,nostealth] gouge
+/cast [nomod,stealth] pick pocket
+/cast [nomod,stealth] garrote
+/cast [mod:alt,combat] slice and dice
+END
+VER 3 0100000000000004 "SS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,stealth] ambush
+/cast [nostealth, nomod] sinister strike
+/cast [mod:alt,nostealth] eviscerate
+/cast [nocombat,nostealth] stealth
+/startattack [nostealth]
+END
+VER 3 0100000000000002 "tricky" "INV_MISC_QUESTIONMARK"
+/cast tricks of the trade
+/target hoverboard
+END

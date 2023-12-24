@@ -1,0 +1,7443 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Acmonk-Illidan"] = {
+			["GUID"] = "Player-57-09ADDA1E",
+			["LastEventHealth"] = {
+				"20942 (100%)", -- [1]
+				"20942 (100%)", -- [2]
+				"20942 (100%)", -- [3]
+				"20942 (100%)", -- [4]
+				"20942 (100%)", -- [5]
+				"20942 (100%)", -- [6]
+				"20942 (100%)", -- [7]
+				"20942 (100%)", -- [8]
+				"19625 (93%)", -- [9]
+				"19625 (93%)", -- [10]
+				"18572 (88%)", -- [11]
+				"18572 (88%)", -- [12]
+				"18572 (88%)", -- [13]
+				"18572 (88%)", -- [14]
+				"18572 (88%)", -- [15]
+				"18572 (88%)", -- [16]
+				"18572 (88%)", -- [17]
+				"18661 (89%)", -- [18]
+				"18721 (89%)", -- [19]
+				"18946 (90%)", -- [20]
+				"19096 (91%)", -- [21]
+				"19096 (91%)", -- [22]
+				"19096 (91%)", -- [23]
+				"19096 (91%)", -- [24]
+				"19096 (91%)", -- [25]
+				"19247 (91%)", -- [26]
+				"19247 (91%)", -- [27]
+				"19306 (92%)", -- [28]
+				"19306 (92%)", -- [29]
+				"19306 (92%)", -- [30]
+				"19306 (92%)", -- [31]
+				"18096 (86%)", -- [32]
+				"18096 (86%)", -- [33]
+				"18096 (86%)", -- [34]
+				"17738 (84%)", -- [35]
+				"17738 (84%)", -- [36]
+				"17738 (84%)", -- [37]
+				"17738 (84%)", -- [38]
+				"16246 (77%)", -- [39]
+				"16246 (77%)", -- [40]
+				"20818 (99%)", -- [41]
+				"20818 (99%)", -- [42]
+			},
+			["LastAttackedBy"] = "Gawdamm-Turalyon",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"HEAL", -- [41]
+				"DAMAGE", -- [42]
+			},
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					200, -- [1]
+				},
+				["TimeHeal"] = {
+					0.24, -- [1]
+				},
+				["HealingTaken"] = {
+					5306, -- [1]
+				},
+				["ActiveTime"] = {
+					22.14, -- [1]
+				},
+				["TimeDamage"] = {
+					21.9, -- [1]
+				},
+				["Healing"] = {
+					4840, -- [1]
+				},
+				["DamageTaken"] = {
+					5430, -- [1]
+				},
+				["Damage"] = {
+					15610, -- [1]
+				},
+			},
+			["enClass"] = "MONK",
+			["unit"] = true,
+			["LastActive"] = 247208.222,
+			["UnitLockout"] = 247190.221,
+			["level"] = 63,
+			["LastDamageAbility"] = "Mongoose Bite",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				[26] = 0.721039060261675,
+				[28] = 0.281730493744628,
+				[41] = 21.8317257186515,
+				[11] = 5.02817304937446,
+				[9] = 6.28879763155382,
+				[34] = 1.70948333492503,
+				[19] = 0.286505586858944,
+				[20] = 1.07439595072104,
+				[21] = 0.716263967147359,
+				[18] = 0.4249832871741,
+				[32] = 5.77786266832203,
+				[39] = 7.12443892655907,
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 2,
+			["GuardianReverseGUIDs"] = {
+				["Earth Spirit"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3022-572-8424-69792-000034C54E",
+					},
+				},
+				["Fire Spirit"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3022-572-8424-69791-000034C54E",
+					},
+				},
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 0.03,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 0.12,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 0.03,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.4,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.11,
+								},
+								["Blackout Kick"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 4.69,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.7,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 7.4,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.84,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.77,
+								},
+								["Touch of Death"] = {
+									["count"] = 0.76,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.59,
+								},
+							},
+							["amount"] = 17.21,
+						},
+					},
+					["DamageTaken"] = 5430,
+					["EnergyGain"] = 200,
+					["PartialAbsorb"] = {
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 22.14,
+					["ElementTaken"] = {
+						["Melee"] = 358,
+						["Physical"] = 5072,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Damage"] = 15610,
+					["Attacks"] = {
+						["Fists of Fury"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 645,
+									["min"] = 589,
+									["count"] = 7,
+									["amount"] = 4291,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 4291,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 146,
+									["min"] = 103,
+									["count"] = 4,
+									["amount"] = 541,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 541,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 142,
+									["min"] = 62,
+									["count"] = 5,
+									["amount"] = 578,
+								},
+								["Crit"] = {
+									["max"] = 94,
+									["min"] = 94,
+									["count"] = 1,
+									["amount"] = 94,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 672,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 327,
+									["min"] = 129,
+									["count"] = 3,
+									["amount"] = 585,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 585,
+						},
+						["Rising Sun Kick"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2459,
+									["min"] = 1117,
+									["count"] = 2,
+									["amount"] = 3576,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3576,
+						},
+						["Touch of Death"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3053,
+									["min"] = 3053,
+									["count"] = 1,
+									["amount"] = 3053,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3053,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 709,
+									["min"] = 709,
+									["count"] = 1,
+									["amount"] = 709,
+								},
+								["Hit"] = {
+									["max"] = 1143,
+									["min"] = 1040,
+									["count"] = 2,
+									["amount"] = 2183,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2892,
+						},
+					},
+					["TimeHeal"] = 0.24,
+					["Heals"] = {
+						["Healing Sphere"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4572,
+									["min"] = 4572,
+									["count"] = 1,
+									["amount"] = 4572,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4572,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 89,
+									["min"] = 89,
+									["count"] = 1,
+									["amount"] = 89,
+								},
+								["Hit"] = {
+									["max"] = 60,
+									["min"] = 59,
+									["count"] = 3,
+									["amount"] = 179,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 268,
+						},
+					},
+					["EnergyGained"] = {
+						["Energizing Elixir"] = {
+							["Details"] = {
+								["Acmonk-Illidan"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+					},
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.4,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.11,
+								},
+								["Blackout Kick"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 4.69,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.7,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 7.4,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.84,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.77,
+								},
+								["Touch of Death"] = {
+									["count"] = 0.76,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.59,
+								},
+							},
+							["amount"] = 17.21,
+						},
+					},
+					["Healing"] = 4840,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["PartialResist"] = {
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 14397,
+						["Melee"] = 672,
+						["Nature"] = 541,
+					},
+					["HealingTaken"] = 5306,
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2358,
+								},
+								["Chi Wave"] = {
+									["count"] = 103,
+								},
+								["Blackout Kick"] = {
+									["count"] = 1143,
+								},
+							},
+							["amount"] = 3604,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1933,
+								},
+								["Chi Wave"] = {
+									["count"] = 438,
+								},
+								["Melee"] = {
+									["count"] = 672,
+								},
+								["Tiger Palm"] = {
+									["count"] = 585,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 3576,
+								},
+								["Touch of Death"] = {
+									["count"] = 3053,
+								},
+								["Blackout Kick"] = {
+									["count"] = 1749,
+								},
+							},
+							["amount"] = 12006,
+						},
+					},
+					["TimeDamage"] = 21.9,
+					["WhoDamaged"] = {
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Mongoose Bite"] = {
+									["count"] = 4019,
+								},
+								["Melee"] = {
+									["count"] = 358,
+								},
+								["Raptor Strike"] = {
+									["count"] = 1053,
+								},
+							},
+							["amount"] = 5430,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Energizing Elixir"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+					},
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 4572,
+								},
+								["Chi Wave"] = {
+									["count"] = 208,
+								},
+							},
+							["amount"] = 4780,
+						},
+					},
+					["WhoHealed"] = {
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 4572,
+								},
+								["Chi Wave"] = {
+									["count"] = 208,
+								},
+							},
+							["amount"] = 4780,
+						},
+						["Acmonk-Illidan <Acmonk-Illidan>"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 0.03,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 0.12,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 0.03,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.09,
+								},
+							},
+							["amount"] = 0.12,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.4,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.11,
+								},
+								["Blackout Kick"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 4.69,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.7,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 7.4,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.84,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.77,
+								},
+								["Touch of Death"] = {
+									["count"] = 0.76,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.59,
+								},
+							},
+							["amount"] = 17.21,
+						},
+					},
+					["DamageTaken"] = 5430,
+					["EnergyGain"] = 200,
+					["PartialAbsorb"] = {
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 22.14,
+					["ElementTaken"] = {
+						["Melee"] = 358,
+						["Physical"] = 5072,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Damage"] = 15610,
+					["Attacks"] = {
+						["Fists of Fury"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 645,
+									["min"] = 589,
+									["count"] = 7,
+									["amount"] = 4291,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 4291,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 146,
+									["min"] = 103,
+									["count"] = 4,
+									["amount"] = 541,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 541,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 142,
+									["min"] = 62,
+									["count"] = 5,
+									["amount"] = 578,
+								},
+								["Crit"] = {
+									["max"] = 94,
+									["min"] = 94,
+									["count"] = 1,
+									["amount"] = 94,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 672,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 327,
+									["min"] = 129,
+									["count"] = 3,
+									["amount"] = 585,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 585,
+						},
+						["Rising Sun Kick"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2459,
+									["min"] = 1117,
+									["count"] = 2,
+									["amount"] = 3576,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3576,
+						},
+						["Touch of Death"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3053,
+									["min"] = 3053,
+									["count"] = 1,
+									["amount"] = 3053,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3053,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 709,
+									["min"] = 709,
+									["count"] = 1,
+									["amount"] = 709,
+								},
+								["Hit"] = {
+									["max"] = 1143,
+									["min"] = 1040,
+									["count"] = 2,
+									["amount"] = 2183,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2892,
+						},
+					},
+					["TimeHeal"] = 0.24,
+					["Heals"] = {
+						["Healing Sphere"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4572,
+									["min"] = 4572,
+									["count"] = 1,
+									["amount"] = 4572,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4572,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 89,
+									["min"] = 89,
+									["count"] = 1,
+									["amount"] = 89,
+								},
+								["Hit"] = {
+									["max"] = 60,
+									["min"] = 59,
+									["count"] = 3,
+									["amount"] = 179,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 268,
+						},
+					},
+					["EnergyGained"] = {
+						["Energizing Elixir"] = {
+							["Details"] = {
+								["Acmonk-Illidan"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+					},
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.4,
+								},
+								["Chi Wave"] = {
+									["count"] = 0.11,
+								},
+								["Blackout Kick"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 4.69,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2.7,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 7.4,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.84,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.77,
+								},
+								["Touch of Death"] = {
+									["count"] = 0.76,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.59,
+								},
+							},
+							["amount"] = 17.21,
+						},
+					},
+					["Healing"] = 4840,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["PartialResist"] = {
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 14397,
+						["Melee"] = 672,
+						["Nature"] = 541,
+					},
+					["HealingTaken"] = 5306,
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 2358,
+								},
+								["Chi Wave"] = {
+									["count"] = 103,
+								},
+								["Blackout Kick"] = {
+									["count"] = 1143,
+								},
+							},
+							["amount"] = 3604,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1933,
+								},
+								["Chi Wave"] = {
+									["count"] = 438,
+								},
+								["Melee"] = {
+									["count"] = 672,
+								},
+								["Tiger Palm"] = {
+									["count"] = 585,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 3576,
+								},
+								["Touch of Death"] = {
+									["count"] = 3053,
+								},
+								["Blackout Kick"] = {
+									["count"] = 1749,
+								},
+							},
+							["amount"] = 12006,
+						},
+					},
+					["TimeDamage"] = 21.9,
+					["WhoDamaged"] = {
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Mongoose Bite"] = {
+									["count"] = 4019,
+								},
+								["Melee"] = {
+									["count"] = 358,
+								},
+								["Raptor Strike"] = {
+									["count"] = 1053,
+								},
+							},
+							["amount"] = 5430,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Energizing Elixir"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+					},
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 4572,
+								},
+								["Chi Wave"] = {
+									["count"] = 208,
+								},
+							},
+							["amount"] = 4780,
+						},
+					},
+					["WhoHealed"] = {
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Healing Sphere"] = {
+									["count"] = 4572,
+								},
+								["Chi Wave"] = {
+									["count"] = 208,
+								},
+							},
+							["amount"] = 4780,
+						},
+						["Acmonk-Illidan <Acmonk-Illidan>"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+					},
+				},
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Earth Spirit <Acmonk-Illidan>", -- [1]
+				"Fire Spirit <Acmonk-Illidan>", -- [2]
+				"Acmonk-Illidan <Acmonk-Illidan>", -- [3]
+			},
+			["NextEventNum"] = 43,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				93.7112023684462, -- [9]
+				93.7112023684462, -- [10]
+				88.6830293190717, -- [11]
+				88.6830293190717, -- [12]
+				88.6830293190717, -- [13]
+				88.6830293190717, -- [14]
+				88.6830293190717, -- [15]
+				88.6830293190717, -- [16]
+				88.6830293190717, -- [17]
+				89.1080126062458, -- [18]
+				89.3945181931048, -- [19]
+				90.4689141438258, -- [20]
+				91.1851781109732, -- [21]
+				91.1851781109732, -- [22]
+				91.1851781109732, -- [23]
+				91.1851781109732, -- [24]
+				91.1851781109732, -- [25]
+				91.9062171712348, -- [26]
+				91.9062171712348, -- [27]
+				92.1879476649795, -- [28]
+				92.1879476649795, -- [29]
+				92.1879476649795, -- [30]
+				92.1879476649795, -- [31]
+				86.4100849966574, -- [32]
+				86.4100849966574, -- [33]
+				86.4100849966574, -- [34]
+				84.7006016617324, -- [35]
+				84.7006016617324, -- [36]
+				84.7006016617324, -- [37]
+				84.7006016617324, -- [38]
+				77.5761627351734, -- [39]
+				77.5761627351734, -- [40]
+				99.4078884538249, -- [41]
+				99.4078884538249, -- [42]
+			},
+			["LastEvents"] = {
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Hit -125 (Physical)", -- [1]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Crit -94 (Physical)", -- [2]
+				"Acmonk-Illidan Fists of Fury Danqerous-BleedingHollow Hit -590 (Physical)", -- [3]
+				"Acmonk-Illidan Fists of Fury Gawdamm-Turalyon Hit -645 (Physical)", -- [4]
+				"Acmonk-Illidan Fists of Fury Danqerous-BleedingHollow Hit -590 (Physical)", -- [5]
+				"Acmonk-Illidan Fists of Fury Gawdamm-Turalyon Hit -644 (Physical)", -- [6]
+				"Acmonk-Illidan Fists of Fury Danqerous-BleedingHollow Hit -589 (Physical)", -- [7]
+				"Acmonk-Illidan Fists of Fury Danqerous-BleedingHollow Hit -589 (Physical)", -- [8]
+				"Gawdamm-Turalyon Mongoose Bite Acmonk-Illidan Crit -1317 (Physical)", -- [9]
+				"Acmonk-Illidan Fists of Fury Gawdamm-Turalyon Hit -644 (Physical)", -- [10]
+				"Gawdamm-Turalyon Raptor Strike Acmonk-Illidan Hit -1053 (Physical)", -- [11]
+				"Acmonk-Illidan Rising Sun Kick Gawdamm-Turalyon Hit -1117 (Physical)", -- [12]
+				"Acmonk-Illidan Touch of Death Gawdamm-Turalyon Hit -3053 (Physical)", -- [13]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Hit -125 (Physical)", -- [14]
+				"Acmonk-Illidan Tiger Palm Gawdamm-Turalyon Hit -129 (Physical)", -- [15]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Hit -62 (Physical)", -- [16]
+				"Acmonk-Illidan Chi Wave Gawdamm-Turalyon Hit -146 (Nature)", -- [17]
+				"Acmonk-Illidan Chi Wave Acmonk-Illidan Crit +89", -- [18]
+				"Acmonk-Illidan Chi Wave Acmonk-Illidan Hit +60", -- [19]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Crit +225", -- [20]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Hit +150", -- [21]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Hit -124 (Physical)", -- [22]
+				"Acmonk-Illidan Chi Wave Danqerous-BleedingHollow Hit -103 (Nature)", -- [23]
+				"Acmonk-Illidan Chi Wave Dragonstalkr Hit +60", -- [24]
+				"Acmonk-Illidan Chi Wave Gawdamm-Turalyon Hit -146 (Nature)", -- [25]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Hit +151", -- [26]
+				"Acmonk-Illidan Chi Wave Gawdamm-Turalyon Hit -146 (Nature)", -- [27]
+				"Acmonk-Illidan Chi Wave Acmonk-Illidan Hit +59", -- [28]
+				"Acmonk-Illidan Blackout Kick Gawdamm-Turalyon Crit -709 (Physical)", -- [29]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Miss (1)", -- [30]
+				"Acmonk-Illidan Tiger Palm Gawdamm-Turalyon Hit -129 (Physical)", -- [31]
+				"Gawdamm-Turalyon Mongoose Bite Acmonk-Illidan Hit -1210 (Physical)", -- [32]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Miss (1)", -- [33]
+				"Gawdamm-Turalyon Melee Acmonk-Illidan Hit -358 (Physical)", -- [34]
+				"Acmonk-Illidan Tiger Palm Gawdamm-Turalyon Hit -327 (Physical)", -- [35]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Hit -142 (Physical)", -- [36]
+				"Acmonk-Illidan Blackout Kick Gawdamm-Turalyon Hit -1040 (Physical)", -- [37]
+				"Acmonk-Illidan Melee Gawdamm-Turalyon Miss (1)", -- [38]
+				"Gawdamm-Turalyon Mongoose Bite Acmonk-Illidan Hit -1492 (Physical)", -- [39]
+				"Acmonk-Illidan Rising Sun Kick Gawdamm-Turalyon Hit -2459 (Physical)", -- [40]
+				"Acmonk-Illidan Healing Sphere Acmonk-Illidan Hit +4572", -- [41]
+				"Acmonk-Illidan Blackout Kick Danqerous-BleedingHollow Hit -1143 (Physical)", -- [42]
+			},
+			["Name"] = "Acmonk-Illidan",
+			["LastDamageTaken"] = 1492,
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 247206.221,
+				["OVERALL"] = 247208.222,
+				["DamageTaken"] = 247206.221,
+				["EnergyGain"] = 247192.223,
+				["HealingTaken"] = 247206.221,
+				["ActiveTime"] = 247208.222,
+				["TimeDamage"] = 247208.222,
+				["Healing"] = 247206.221,
+				["Damage"] = 247208.222,
+			},
+			["LastEventTimes"] = {
+				247190.503, -- [1]
+				247191.264, -- [2]
+				247192.747, -- [3]
+				247193.664, -- [4]
+				247193.664, -- [5]
+				247194.618, -- [6]
+				247194.618, -- [7]
+				247195.534, -- [8]
+				247195.961, -- [9]
+				247196.363, -- [10]
+				247197.34, -- [11]
+				247197.408, -- [12]
+				247198.166, -- [13]
+				247198.519, -- [14]
+				247199.576, -- [15]
+				247199.797, -- [16]
+				247200.718, -- [17]
+				247200.752, -- [18]
+				247200.763, -- [19]
+				247201.013, -- [20]
+				247201.013, -- [21]
+				247201.078, -- [22]
+				247201.187, -- [23]
+				247201.307, -- [24]
+				247201.42, -- [25]
+				247201.508, -- [26]
+				247201.541, -- [27]
+				247201.586, -- [28]
+				247201.752, -- [29]
+				247202.353, -- [30]
+				247202.768, -- [31]
+				247202.802, -- [32]
+				247203.638, -- [33]
+				247204.405, -- [34]
+				247205.003, -- [35]
+				247205.511, -- [36]
+				247205.932, -- [37]
+				247206.2, -- [38]
+				247206.234, -- [39]
+				247206.929, -- [40]
+				247206.963, -- [41]
+				247209.143, -- [42]
+			},
+			["LastAbility"] = 344647.694,
+		},
+		["Dragonstalkr"] = {
+			["GUID"] = "Player-1138-062A0D1D",
+			["LastEventHealth"] = {
+				"14760 (100%)", -- [1]
+				"14760 (100%)", -- [2]
+				"14760 (100%)", -- [3]
+				"14760 (100%)", -- [4]
+				"14760 (100%)", -- [5]
+				"14760 (100%)", -- [6]
+				"14760 (100%)", -- [7]
+				"14001 (55%)", -- [8]
+				"14760 (100%)", -- [9]
+				"14588 (98%)", -- [10]
+				"14588 (98%)", -- [11]
+				"14227 (96%)", -- [12]
+				"14227 (96%)", -- [13]
+				"14055 (95%)", -- [14]
+				"13659 (92%)", -- [15]
+				"14760 (100%)", -- [16]
+				"13278 (89%)", -- [17]
+				"12588 (85%)", -- [18]
+				"12588 (85%)", -- [19]
+				"12349 (83%)", -- [20]
+				"11909 (80%)", -- [21]
+				"11909 (80%)", -- [22]
+				"9939 (67%)", -- [23]
+				"11328 (76%)", -- [24]
+				"11328 (76%)", -- [25]
+				"11156 (75%)", -- [26]
+				"10801 (73%)", -- [27]
+				"10629 (72%)", -- [28]
+				"9122 (61%)", -- [29]
+				"8374 (56%)", -- [30]
+				"8374 (56%)", -- [31]
+				"8374 (56%)", -- [32]
+				"9588 (64%)", -- [33]
+				"9588 (64%)", -- [34]
+				"9416 (63%)", -- [35]
+				"9813 (66%)", -- [36]
+				"7255 (49%)", -- [37]
+				"7255 (49%)", -- [38]
+				"7255 (49%)", -- [39]
+				"7255 (49%)", -- [40]
+				"7083 (47%)", -- [41]
+				"7083 (47%)", -- [42]
+				"6729 (45%)", -- [43]
+				"6557 (44%)", -- [44]
+				"5752 (38%)", -- [45]
+				"5752 (38%)", -- [46]
+				"5377 (36%)", -- [47]
+				"5377 (36%)", -- [48]
+				"14760 (100%)", -- [49]
+				"14760 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Smokié-Tichondrius",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"DAMAGE", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"HEAL", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0.44, -- [1]
+				},
+				["Healing"] = {
+					7614, -- [1]
+				},
+				["DamageTaken"] = {
+					33538, -- [1]
+				},
+				["HealingTaken"] = {
+					12774, -- [1]
+				},
+				["Overhealing"] = {
+					17767, -- [1]
+				},
+				["TimeDamage"] = {
+					31.4, -- [1]
+				},
+				["ActiveTime"] = {
+					31.84, -- [1]
+				},
+				["DOT_Time"] = {
+					15, -- [1]
+				},
+				["Damage"] = {
+					35930, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Dragonstalkr",
+			["LastActive"] = 247330.082,
+			["UnitLockout"] = 247190.221,
+			["level"] = 60,
+			["LastDamageAbility"] = "Death Strike Off-Hand",
+			["LastFightIn"] = 1,
+			["LastEventNum"] = {
+				11.2872628726287, -- [1]
+				103.448509485095, -- [2]
+				11.2872628726287, -- [3]
+				11.2804878048781, -- [4]
+				11.2872628726287, -- [5]
+				11.2872628726287, -- [6]
+				3.23170731707317, -- [7]
+				nil, -- [8]
+				133.617886178862, -- [9]
+				1.16531165311653, -- [10]
+				2.44579945799458, -- [11]
+				nil, -- [12]
+				nil, -- [13]
+				1.16531165311653, -- [14]
+				2.68292682926829, -- [15]
+				9.40379403794038, -- [16]
+				10.0406504065041, -- [17]
+				4.67479674796748, -- [18]
+				1.81571815718157, -- [19]
+				1.61924119241192, -- [20]
+				1.16531165311653, -- [21]
+				nil, -- [22]
+				13.3468834688347, -- [23]
+				9.41056910569106, -- [24]
+				2.40514905149051, -- [25]
+				1.16531165311653, -- [26]
+				nil, -- [27]
+				1.16531165311653, -- [28]
+				10.210027100271, -- [29]
+				5.06775067750678, -- [30]
+				1.17886178861789, -- [31]
+				[33] = 9.40379403794038,
+				[35] = 1.16531165311653,
+				[39] = 5.10840108401084,
+				[41] = 1.16531165311653,
+				[45] = 5.45392953929539,
+				[47] = 2.54065040650407,
+				[49] = 86.2059620596206,
+				[36] = 2.68970189701897,
+				[38] = 9.90514905149052,
+				[40] = 2.31707317073171,
+				[42] = 2.39837398373984,
+				[44] = 1.16531165311653,
+				[50] = 86.2059620596206,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 2,
+			["GuardianReverseGUIDs"] = {
+				["Neverray"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Pet-0-3881-1-10619-18130-0101D8E175",
+					},
+				},
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 0.44,
+						},
+					},
+					["DOTs"] = {
+						["Steel Trap (DoT)"] = {
+							["Details"] = {
+								["Danqerous-BleedingHollow"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 0.44,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+								["Melee"] = {
+									["count"] = 4.57,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 6.42,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 4.45,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0.47,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 19880,
+					["PartialResist"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 12,
+						},
+						["Raging Blow"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["Furious Slash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Rampage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Bloodthirst"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Raging Blow"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Furious Slash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Rampage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 21.68,
+					["ElementTaken"] = {
+						["Melee"] = 3568,
+						["Physical"] = 16312,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 22350,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["TimeHeal"] = 0.44,
+					["WhoDamaged"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 4997,
+								},
+								["Melee"] = {
+									["count"] = 3568,
+								},
+								["Raging Blow"] = {
+									["count"] = 3713,
+								},
+								["Furious Slash"] = {
+									["count"] = 4043,
+								},
+								["Rampage"] = {
+									["count"] = 3559,
+								},
+							},
+							["amount"] = 19880,
+						},
+					},
+					["Attacks"] = {
+						["Flanking Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1730,
+									["min"] = 1730,
+									["count"] = 2,
+									["amount"] = 3460,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3460,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 507,
+									["min"] = 355,
+									["count"] = 5,
+									["amount"] = 2100,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2100,
+						},
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2165,
+									["min"] = 2165,
+									["count"] = 1,
+									["amount"] = 2165,
+								},
+								["Hit"] = {
+									["max"] = 2440,
+									["min"] = 1153,
+									["count"] = 6,
+									["amount"] = 10298,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 12463,
+						},
+						["Steel Trap (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 775,
+									["min"] = 543,
+									["count"] = 3,
+									["amount"] = 2093,
+								},
+								["Tick"] = {
+									["max"] = 357,
+									["min"] = 357,
+									["count"] = 2,
+									["amount"] = 714,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2807,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1520,
+									["min"] = 1520,
+									["count"] = 1,
+									["amount"] = 1520,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1520,
+						},
+					},
+					["Heals"] = {
+						["Exhilaration"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7614,
+									["min"] = 7614,
+									["count"] = 1,
+									["amount"] = 7614,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7614,
+						},
+					},
+					["Healing"] = 7614,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["WhoHealed"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 7614,
+								},
+							},
+							["amount"] = 7614,
+						},
+						["Acmonk-Illidan <Acmonk-Illidan>"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2100,
+						["Physical"] = 20250,
+					},
+					["HealingTaken"] = 8499,
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 3460,
+								},
+								["Melee"] = {
+									["count"] = 1639,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 11310,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 2807,
+								},
+								["Raptor Strike"] = {
+									["count"] = 1520,
+								},
+							},
+							["amount"] = 20736,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 461,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 1153,
+								},
+							},
+							["amount"] = 1614,
+						},
+					},
+					["TimeDamage"] = 21.24,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+								["Melee"] = {
+									["count"] = 4.57,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 6.42,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 4.45,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0.47,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 7614,
+								},
+							},
+							["amount"] = 7614,
+						},
+					},
+					["Overhealing"] = 17767,
+					["OverHeals"] = {
+						["Exhilaration"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 17767,
+									["min"] = 17767,
+									["count"] = 1,
+									["amount"] = 17767,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 17767,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 13658,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 396,
+						["Physical"] = 7823,
+						["Melee"] = 1512,
+						["Frost"] = 3927,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 13580,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 1577,
+						["Physical"] = 12003,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 1970,
+								},
+								["Melee"] = {
+									["count"] = 1512,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 396,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 2192,
+								},
+								["Obliterate"] = {
+									["count"] = 4451,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 1376,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 342,
+								},
+								["Avalanche"] = {
+									["count"] = 239,
+								},
+								["Death Strike"] = {
+									["count"] = 805,
+								},
+								["Death Strike Off-Hand"] = {
+									["count"] = 375,
+								},
+							},
+							["amount"] = 13658,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 10.16,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["25% Resist"] = {
+									["max"] = 100,
+									["min"] = 100,
+									["count"] = 1,
+									["amount"] = 100,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 1,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 100,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 672,
+									["min"] = 672,
+									["count"] = 1,
+									["amount"] = 672,
+								},
+								["Hit"] = {
+									["max"] = 455,
+									["min"] = 450,
+									["count"] = 2,
+									["amount"] = 905,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1577,
+						},
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3057,
+									["min"] = 3057,
+									["count"] = 1,
+									["amount"] = 3057,
+								},
+								["Hit"] = {
+									["max"] = 2675,
+									["min"] = 958,
+									["count"] = 5,
+									["amount"] = 8946,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12003,
+						},
+					},
+					["HealingTaken"] = 4275,
+					["DamagedWho"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1577,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 12003,
+								},
+							},
+							["amount"] = 13580,
+						},
+					},
+					["TimeDamage"] = 10.16,
+					["TimeDamaging"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 0.44,
+						},
+					},
+					["DOTs"] = {
+						["Steel Trap (DoT)"] = {
+							["Details"] = {
+								["Danqerous-BleedingHollow"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 0.44,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+								["Melee"] = {
+									["count"] = 4.57,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 6.42,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 4.45,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0.47,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 33538,
+					["ElementTakenResist"] = {
+						["Shadow"] = 100,
+					},
+					["PartialResist"] = {
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 18,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["25% Resist"] = {
+									["max"] = 100,
+									["min"] = 100,
+									["count"] = 1,
+									["amount"] = 100,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 1,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["Furious Slash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Rampage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["Bloodthirst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Raging Blow"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Furious Slash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Rampage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Bloodthirst"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Raging Blow"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 31.84,
+					["ElementTaken"] = {
+						["Frost"] = 3927,
+						["Shadow"] = 396,
+						["Melee"] = 5080,
+						["Physical"] = 24135,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 35930,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["TimeHeal"] = 0.44,
+					["WhoDamaged"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 4997,
+								},
+								["Melee"] = {
+									["count"] = 3568,
+								},
+								["Raging Blow"] = {
+									["count"] = 3713,
+								},
+								["Furious Slash"] = {
+									["count"] = 4043,
+								},
+								["Rampage"] = {
+									["count"] = 3559,
+								},
+							},
+							["amount"] = 19880,
+						},
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 1970,
+								},
+								["Melee"] = {
+									["count"] = 1512,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 396,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 2192,
+								},
+								["Obliterate"] = {
+									["count"] = 4451,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 1376,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 342,
+								},
+								["Avalanche"] = {
+									["count"] = 239,
+								},
+								["Death Strike"] = {
+									["count"] = 805,
+								},
+								["Death Strike Off-Hand"] = {
+									["count"] = 375,
+								},
+							},
+							["amount"] = 13658,
+						},
+					},
+					["Attacks"] = {
+						["Flanking Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1730,
+									["min"] = 1730,
+									["count"] = 2,
+									["amount"] = 3460,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3460,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 672,
+									["min"] = 672,
+									["count"] = 1,
+									["amount"] = 672,
+								},
+								["Hit"] = {
+									["max"] = 507,
+									["min"] = 355,
+									["count"] = 7,
+									["amount"] = 3005,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 3677,
+						},
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3057,
+									["min"] = 2165,
+									["count"] = 2,
+									["amount"] = 5222,
+								},
+								["Hit"] = {
+									["max"] = 2675,
+									["min"] = 958,
+									["count"] = 11,
+									["amount"] = 19244,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 24466,
+						},
+						["Steel Trap (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 775,
+									["min"] = 543,
+									["count"] = 3,
+									["amount"] = 2093,
+								},
+								["Tick"] = {
+									["max"] = 357,
+									["min"] = 357,
+									["count"] = 2,
+									["amount"] = 714,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2807,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1520,
+									["min"] = 1520,
+									["count"] = 1,
+									["amount"] = 1520,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1520,
+						},
+					},
+					["Heals"] = {
+						["Exhilaration"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7614,
+									["min"] = 7614,
+									["count"] = 1,
+									["amount"] = 7614,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7614,
+						},
+					},
+					["Healing"] = 7614,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["WhoHealed"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 7614,
+								},
+							},
+							["amount"] = 7614,
+						},
+						["Acmonk-Illidan <Acmonk-Illidan>"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3677,
+						["Physical"] = 32253,
+					},
+					["HealingTaken"] = 12774,
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 3460,
+								},
+								["Melee"] = {
+									["count"] = 1639,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 11310,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 2807,
+								},
+								["Raptor Strike"] = {
+									["count"] = 1520,
+								},
+							},
+							["amount"] = 20736,
+						},
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1577,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 12003,
+								},
+							},
+							["amount"] = 13580,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 461,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 1153,
+								},
+							},
+							["amount"] = 1614,
+						},
+					},
+					["TimeDamage"] = 31.4,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+								["Melee"] = {
+									["count"] = 4.57,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 6.42,
+								},
+								["Steel Trap (DoT)"] = {
+									["count"] = 4.45,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0.47,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Exhilaration"] = {
+									["count"] = 7614,
+								},
+							},
+							["amount"] = 7614,
+						},
+					},
+					["Overhealing"] = 17767,
+					["OverHeals"] = {
+						["Exhilaration"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 17767,
+									["min"] = 17767,
+									["count"] = 1,
+									["amount"] = 17767,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 17767,
+						},
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 13658,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 396,
+						["Physical"] = 7823,
+						["Melee"] = 1512,
+						["Frost"] = 3927,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 13580,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 1577,
+						["Physical"] = 12003,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 1970,
+								},
+								["Melee"] = {
+									["count"] = 1512,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 396,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 2192,
+								},
+								["Obliterate"] = {
+									["count"] = 4451,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 1376,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 342,
+								},
+								["Avalanche"] = {
+									["count"] = 239,
+								},
+								["Death Strike"] = {
+									["count"] = 805,
+								},
+								["Death Strike Off-Hand"] = {
+									["count"] = 375,
+								},
+							},
+							["amount"] = 13658,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 10.16,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["25% Resist"] = {
+									["max"] = 100,
+									["min"] = 100,
+									["count"] = 1,
+									["amount"] = 100,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 1,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Death Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Death Strike Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 100,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 672,
+									["min"] = 672,
+									["count"] = 1,
+									["amount"] = 672,
+								},
+								["Hit"] = {
+									["max"] = 455,
+									["min"] = 450,
+									["count"] = 2,
+									["amount"] = 905,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1577,
+						},
+						["Mongoose Bite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3057,
+									["min"] = 3057,
+									["count"] = 1,
+									["amount"] = 3057,
+								},
+								["Hit"] = {
+									["max"] = 2675,
+									["min"] = 958,
+									["count"] = 5,
+									["amount"] = 8946,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12003,
+						},
+					},
+					["HealingTaken"] = 4275,
+					["DamagedWho"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1577,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 12003,
+								},
+							},
+							["amount"] = 13580,
+						},
+					},
+					["TimeDamage"] = 10.16,
+					["TimeDamaging"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.79,
+								},
+								["Mongoose Bite"] = {
+									["count"] = 5.37,
+								},
+							},
+							["amount"] = 10.16,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Faptor <Dragonstalkr>", -- [1]
+				"Neverray <Dragonstalkr>", -- [2]
+			},
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				55.161137814199, -- [8]
+				100, -- [9]
+				98.8346883468835, -- [10]
+				98.8346883468835, -- [11]
+				96.3888888888889, -- [12]
+				96.3888888888889, -- [13]
+				95.2235772357724, -- [14]
+				92.5406504065041, -- [15]
+				100, -- [16]
+				89.9593495934959, -- [17]
+				85.2845528455285, -- [18]
+				85.2845528455285, -- [19]
+				83.6653116531165, -- [20]
+				80.6842818428184, -- [21]
+				80.6842818428184, -- [22]
+				67.3373983739838, -- [23]
+				76.7479674796748, -- [24]
+				76.7479674796748, -- [25]
+				75.5826558265583, -- [26]
+				73.1775067750678, -- [27]
+				72.0121951219512, -- [28]
+				61.8021680216802, -- [29]
+				56.7344173441735, -- [30]
+				56.7344173441735, -- [31]
+				56.7344173441735, -- [32]
+				64.9593495934959, -- [33]
+				64.9593495934959, -- [34]
+				63.7940379403794, -- [35]
+				66.4837398373984, -- [36]
+				49.1531165311653, -- [37]
+				49.1531165311653, -- [38]
+				49.1531165311653, -- [39]
+				49.1531165311653, -- [40]
+				47.9878048780488, -- [41]
+				47.9878048780488, -- [42]
+				45.5894308943089, -- [43]
+				44.4241192411924, -- [44]
+				38.970189701897, -- [45]
+				38.970189701897, -- [46]
+				36.429539295393, -- [47]
+				36.429539295393, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1666 (1666 Overheal)", -- [1]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Hit +15269 (15269 Overheal)", -- [2]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1666 (1666 Overheal)", -- [3]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1665 (1665 Overheal)", -- [4]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1666 (1666 Overheal)", -- [5]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1666 (1666 Overheal)", -- [6]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +477 (477 Overheal)", -- [7]
+				"Dragonstalkr Mongoose Bite Danqerous-BleedingHollow Hit -1267 (Physical)", -- [8]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Crit +19722 (19722 Overheal)", -- [9]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [10]
+				"Smokié-Tichondrius Melee Dragonstalkr Hit -361 (Physical)", -- [11]
+				"Dragonstalkr Melee Smokié-Tichondrius Hit -450 (Physical)", -- [12]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Hit -958 (Physical)", -- [13]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [14]
+				"Smokié-Tichondrius Touch of the Grave Dragonstalkr Hit -396 (100 Resisted) (Shadow)", -- [15]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1388 (287 Overheal)", -- [16]
+				"Smokié-Tichondrius Obliterate Dragonstalkr Hit -1482 (Physical)", -- [17]
+				"Smokié-Tichondrius Obliterate Off-Hand Dragonstalkr Hit -690 (Physical)", -- [18]
+				"Smokié-Tichondrius Melee Dragonstalkr Crit -268 (Physical)", -- [19]
+				"Smokié-Tichondrius Avalanche Dragonstalkr Hit -239 (Frost)", -- [20]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [21]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Hit -1300 (Physical)", -- [22]
+				"Smokié-Tichondrius Howling Blast Dragonstalkr Hit -1970 (Frost)", -- [23]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1389", -- [24]
+				"Smokié-Tichondrius Melee Dragonstalkr Hit -355 (Physical)", -- [25]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [26]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Hit -1642 (Physical)", -- [27]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [28]
+				"Smokié-Tichondrius Obliterate Dragonstalkr Hit -1507 (Physical)", -- [29]
+				"Smokié-Tichondrius Obliterate Off-Hand Dragonstalkr Hit -748 (Physical)", -- [30]
+				"Smokié-Tichondrius Melee Dragonstalkr Hit -174 (Physical)", -- [31]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Crit -3057 (Physical)", -- [32]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +1388", -- [33]
+				"Dragonstalkr Melee Smokié-Tichondrius Crit -672 (Physical)", -- [34]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [35]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Tick +397", -- [36]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Hit -2371 (Physical)", -- [37]
+				"Smokié-Tichondrius Obliterate Dragonstalkr Hit -1462 (Physical)", -- [38]
+				"Smokié-Tichondrius Obliterate Off-Hand Dragonstalkr Hit -754 (Physical)", -- [39]
+				"Smokié-Tichondrius Frost Fever (DoT) Dragonstalkr Tick -342 (Frost)", -- [40]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [41]
+				"Smokié-Tichondrius Melee Dragonstalkr Hit -354 (Physical)", -- [42]
+				"Dragonstalkr Mongoose Bite Smokié-Tichondrius Hit -2675 (Physical)", -- [43]
+				"Smokié-Tichondrius Remorseless Winter Dragonstalkr Hit -172 (Frost)", -- [44]
+				"Smokié-Tichondrius Death Strike Dragonstalkr Hit -805 (Physical)", -- [45]
+				"Smokié-Tichondrius Melee Dragonstalkr Miss (1)", -- [46]
+				"Smokié-Tichondrius Death Strike Off-Hand Dragonstalkr Hit -375 (Physical)", -- [47]
+				"Dragonstalkr Melee Smokié-Tichondrius Hit -455 (Physical)", -- [48]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Hit +12724 (3341 Overheal)", -- [49]
+				"Paxychi-Tichondrius Essence Font Dragonstalkr Hit +12724 (12724 Overheal)", -- [50]
+			},
+			["Name"] = "Dragonstalkr",
+			["LastDamageTaken"] = 375,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				false, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 247208.222,
+				["OVERALL"] = 247320.068,
+				["DamageTaken"] = 247320.068,
+				["HealingTaken"] = 247318.076,
+				["Overhealing"] = 247208.222,
+				["TimeDamage"] = 247320.068,
+				["ActiveTime"] = 247320.068,
+				["Healing"] = 247311.084,
+				["DOT_Time"] = 247207.221,
+				["Damage"] = 247320.068,
+			},
+			["LastEventTimes"] = {
+				247323.075, -- [1]
+				247323.288, -- [2]
+				247325.06, -- [3]
+				247326.73, -- [4]
+				247328.558, -- [5]
+				247330.377, -- [6]
+				247331.025, -- [7]
+				247209.035, -- [8]
+				247312.362, -- [9]
+				247313.081, -- [10]
+				247313.481, -- [11]
+				247314.217, -- [12]
+				247314.217, -- [13]
+				247314.217, -- [14]
+				247314.217, -- [15]
+				247314.317, -- [16]
+				247314.507, -- [17]
+				247314.507, -- [18]
+				247314.784, -- [19]
+				247314.784, -- [20]
+				247315.234, -- [21]
+				247315.278, -- [22]
+				247315.802, -- [23]
+				247316.007, -- [24]
+				247316.007, -- [25]
+				247316.115, -- [26]
+				247316.319, -- [27]
+				247317.158, -- [28]
+				247317.253, -- [29]
+				247317.253, -- [30]
+				247317.36, -- [31]
+				247317.451, -- [32]
+				247317.813, -- [33]
+				247317.907, -- [34]
+				247318.109, -- [35]
+				247318.439, -- [36]
+				247318.911, -- [37]
+				247318.911, -- [38]
+				247318.911, -- [39]
+				247318.911, -- [40]
+				247319.114, -- [41]
+				247319.114, -- [42]
+				247320.051, -- [43]
+				247320.164, -- [44]
+				247320.258, -- [45]
+				247320.451, -- [46]
+				247320.662, -- [47]
+				247320.884, -- [48]
+				247321.295, -- [49]
+				247322.35, -- [50]
+			},
+			["LastAbility"] = 344647.694,
+		},
+		["Acmonk-Illidan <Acmonk-Illidan>"] = {
+			["GUID"] = "Creature-0-3022-572-8424-69792-000034C54E",
+			["LastEventHealth"] = {
+				"20942 (100%)", -- [1]
+				"20942 (100%)", -- [2]
+				"20942 (100%)", -- [3]
+				"20942 (100%)", -- [4]
+				"20942 (100%)", -- [5]
+				"20942 (100%)", -- [6]
+				"20942 (100%)", -- [7]
+				"20942 (100%)", -- [8]
+				"20942 (100%)", -- [9]
+				"20942 (100%)", -- [10]
+				"20942 (100%)", -- [11]
+				"20942 (100%)", -- [12]
+				"18572 (88%)", -- [13]
+				"18572 (88%)", -- [14]
+				"18572 (88%)", -- [15]
+				"18572 (88%)", -- [16]
+				"18572 (88%)", -- [17]
+				"18572 (88%)", -- [18]
+				"18572 (88%)", -- [19]
+				"18572 (88%)", -- [20]
+				"18572 (88%)", -- [21]
+				"18572 (88%)", -- [22]
+				"18572 (88%)", -- [23]
+				"18572 (88%)", -- [24]
+				"18721 (89%)", -- [25]
+				"18721 (89%)", -- [26]
+				"18721 (89%)", -- [27]
+				"18946 (90%)", -- [28]
+				"19096 (91%)", -- [29]
+				"19096 (91%)", -- [30]
+				"19096 (91%)", -- [31]
+				"19096 (91%)", -- [32]
+				"19096 (91%)", -- [33]
+				"19096 (91%)", -- [34]
+				"19096 (91%)", -- [35]
+				"19096 (91%)", -- [36]
+				"19247 (91%)", -- [37]
+				"19247 (91%)", -- [38]
+				"19306 (92%)", -- [39]
+				"19306 (92%)", -- [40]
+				"19306 (92%)", -- [41]
+				"19306 (92%)", -- [42]
+				"19306 (92%)", -- [43]
+				"19306 (92%)", -- [44]
+				"18096 (86%)", -- [45]
+				"18096 (86%)", -- [46]
+				"18096 (86%)", -- [47]
+				"18096 (86%)", -- [48]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0.45, -- [1]
+				},
+				["ActiveTime"] = {
+					17.27, -- [1]
+				},
+				["Healing"] = {
+					1351, -- [1]
+				},
+				["TimeDamage"] = {
+					16.82, -- [1]
+				},
+				["Damage"] = {
+					13132, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Acmonk-Illidan",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["FightsSaved"] = 2,
+			["LastActive"] = 247204.226,
+			["UnitLockout"] = 247190.221,
+			["NextEventNum"] = 49,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				88.6830293190717, -- [13]
+				88.6830293190717, -- [14]
+				88.6830293190717, -- [15]
+				88.6830293190717, -- [16]
+				88.6830293190717, -- [17]
+				88.6830293190717, -- [18]
+				88.6830293190717, -- [19]
+				88.6830293190717, -- [20]
+				88.6830293190717, -- [21]
+				88.6830293190717, -- [22]
+				88.6830293190717, -- [23]
+				88.6830293190717, -- [24]
+				89.3945181931048, -- [25]
+				89.3945181931048, -- [26]
+				89.3945181931048, -- [27]
+				90.4689141438258, -- [28]
+				91.1851781109732, -- [29]
+				91.1851781109732, -- [30]
+				91.1851781109732, -- [31]
+				91.1851781109732, -- [32]
+				91.1851781109732, -- [33]
+				91.1851781109732, -- [34]
+				91.1851781109732, -- [35]
+				91.1851781109732, -- [36]
+				91.9062171712348, -- [37]
+				91.9062171712348, -- [38]
+				92.1879476649795, -- [39]
+				92.1879476649795, -- [40]
+				92.1879476649795, -- [41]
+				92.1879476649795, -- [42]
+				92.1879476649795, -- [43]
+				92.1879476649795, -- [44]
+				86.4100849966574, -- [45]
+				86.4100849966574, -- [46]
+				86.4100849966574, -- [47]
+				86.4100849966574, -- [48]
+			},
+			["LastEvents"] = {
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Crit -120 (Physical)", -- [1]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -80 (Physical)", -- [2]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -517 (Physical)", -- [3]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Crit -777 (Physical)", -- [4]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -595 (Physical)", -- [5]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -595 (Physical)", -- [6]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -596 (Physical)", -- [7]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -595 (Physical)", -- [8]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Gawdamm-Turalyon Hit -651 (Physical)", -- [9]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -595 (Physical)", -- [10]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Gawdamm-Turalyon Hit -651 (Physical)", -- [11]
+				"Acmonk-Illidan <Acmonk-Illidan> Fists of Fury Danqerous-BleedingHollow Hit -595 (Physical)", -- [12]
+				"Acmonk-Illidan <Acmonk-Illidan> Rising Sun Kick Gawdamm-Turalyon Hit -1128 (Physical)", -- [13]
+				"Acmonk-Illidan <Acmonk-Illidan> Rising Sun Kick Gawdamm-Turalyon Crit -1693 (Physical)", -- [14]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Crit -138 (Physical)", -- [15]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -92 (Physical)", -- [16]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Miss (1)", -- [17]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Miss (1)", -- [18]
+				"Acmonk-Illidan <Acmonk-Illidan> Tiger Palm Gawdamm-Turalyon Hit -131 (Physical)", -- [19]
+				"Acmonk-Illidan <Acmonk-Illidan> Tiger Palm Gawdamm-Turalyon Hit -131 (Physical)", -- [20]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -93 (Physical)", -- [21]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -92 (Physical)", -- [22]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Crit -222 (Nature)", -- [23]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Hit -148 (Nature)", -- [24]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Crit -221 (Nature)", -- [25]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Crit -222 (Nature)", -- [26]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Dragonstalkr Hit +150", -- [27]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Crit +225", -- [28]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Hit +150", -- [29]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Crit -222 (Nature)", -- [30]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Hit -148 (Nature)", -- [31]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Dragonstalkr Hit +150", -- [32]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Dragonstalkr Hit +150", -- [33]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Hit -147 (Nature)", -- [34]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Gawdamm-Turalyon Hit -148 (Nature)", -- [35]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Dragonstalkr Hit +150", -- [36]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Acmonk-Illidan Hit +151", -- [37]
+				"Acmonk-Illidan <Acmonk-Illidan> Chi Wave Dragonstalkr Crit +225", -- [38]
+				"Acmonk-Illidan <Acmonk-Illidan> Blackout Kick Gawdamm-Turalyon Hit -478 (Physical)", -- [39]
+				"Acmonk-Illidan <Acmonk-Illidan> Blackout Kick Gawdamm-Turalyon Hit -477 (Physical)", -- [40]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -92 (Physical)", -- [41]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -93 (Physical)", -- [42]
+				"Acmonk-Illidan <Acmonk-Illidan> Tiger Palm Gawdamm-Turalyon Hit -131 (Physical)", -- [43]
+				"Acmonk-Illidan <Acmonk-Illidan> Tiger Palm Gawdamm-Turalyon Crit -196 (Physical)", -- [44]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -46 (Physical)", -- [45]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -46 (Physical)", -- [46]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Crit -138 (Physical)", -- [47]
+				"Acmonk-Illidan <Acmonk-Illidan> Melee Gawdamm-Turalyon Hit -92 (Physical)", -- [48]
+			},
+			["Name"] = "Acmonk-Illidan",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["TimeHeal"] = 0.45,
+					["Heals"] = {
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 225,
+									["min"] = 225,
+									["count"] = 2,
+									["amount"] = 450,
+								},
+								["Hit"] = {
+									["max"] = 151,
+									["min"] = 150,
+									["count"] = 6,
+									["amount"] = 901,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1351,
+						},
+					},
+					["ActiveTime"] = 17.27,
+					["Healing"] = 1351,
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+					},
+					["Attacks"] = {
+						["Fists of Fury"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 777,
+									["min"] = 777,
+									["count"] = 1,
+									["amount"] = 777,
+								},
+								["Hit"] = {
+									["max"] = 651,
+									["min"] = 517,
+									["count"] = 9,
+									["amount"] = 5390,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 6167,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 222,
+									["min"] = 221,
+									["count"] = 4,
+									["amount"] = 887,
+								},
+								["Hit"] = {
+									["max"] = 148,
+									["min"] = 147,
+									["count"] = 4,
+									["amount"] = 591,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1478,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 93,
+									["min"] = 46,
+									["count"] = 9,
+									["amount"] = 726,
+								},
+								["Crit"] = {
+									["max"] = 138,
+									["min"] = 120,
+									["count"] = 3,
+									["amount"] = 396,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 1122,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 196,
+									["min"] = 196,
+									["count"] = 1,
+									["amount"] = 196,
+								},
+								["Hit"] = {
+									["max"] = 131,
+									["min"] = 131,
+									["count"] = 3,
+									["amount"] = 393,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 589,
+						},
+						["Rising Sun Kick"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1693,
+									["min"] = 1693,
+									["count"] = 1,
+									["amount"] = 1693,
+								},
+								["Hit"] = {
+									["max"] = 1128,
+									["min"] = 1128,
+									["count"] = 1,
+									["amount"] = 1128,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2821,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 478,
+									["min"] = 477,
+									["count"] = 2,
+									["amount"] = 955,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 955,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 10532,
+						["Melee"] = 1122,
+						["Nature"] = 1478,
+					},
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 4865,
+								},
+							},
+							["amount"] = 4865,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1302,
+								},
+								["Chi Wave"] = {
+									["count"] = 1478,
+								},
+								["Melee"] = {
+									["count"] = 1122,
+								},
+								["Tiger Palm"] = {
+									["count"] = 589,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 2821,
+								},
+								["Blackout Kick"] = {
+									["count"] = 955,
+								},
+							},
+							["amount"] = 8267,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["TimeDamage"] = 16.82,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 3.87,
+								},
+							},
+							["amount"] = 3.87,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1.02,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.23,
+								},
+								["Melee"] = {
+									["count"] = 7.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 1.47,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.58,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.24,
+								},
+							},
+							["amount"] = 12.95,
+						},
+					},
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 0.43,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 0.43,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 3.87,
+								},
+							},
+							["amount"] = 3.87,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1.02,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.23,
+								},
+								["Melee"] = {
+									["count"] = 7.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 1.47,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.58,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.24,
+								},
+							},
+							["amount"] = 12.95,
+						},
+					},
+					["Damage"] = 13132,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHeal"] = 0.45,
+					["Heals"] = {
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 225,
+									["min"] = 225,
+									["count"] = 2,
+									["amount"] = 450,
+								},
+								["Hit"] = {
+									["max"] = 151,
+									["min"] = 150,
+									["count"] = 6,
+									["amount"] = 901,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1351,
+						},
+					},
+					["ActiveTime"] = 17.27,
+					["Healing"] = 1351,
+					["HealedWho"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+					},
+					["Attacks"] = {
+						["Fists of Fury"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 777,
+									["min"] = 777,
+									["count"] = 1,
+									["amount"] = 777,
+								},
+								["Hit"] = {
+									["max"] = 651,
+									["min"] = 517,
+									["count"] = 9,
+									["amount"] = 5390,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 6167,
+						},
+						["Chi Wave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 222,
+									["min"] = 221,
+									["count"] = 4,
+									["amount"] = 887,
+								},
+								["Hit"] = {
+									["max"] = 148,
+									["min"] = 147,
+									["count"] = 4,
+									["amount"] = 591,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1478,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 93,
+									["min"] = 46,
+									["count"] = 9,
+									["amount"] = 726,
+								},
+								["Crit"] = {
+									["max"] = 138,
+									["min"] = 120,
+									["count"] = 3,
+									["amount"] = 396,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 1122,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 196,
+									["min"] = 196,
+									["count"] = 1,
+									["amount"] = 196,
+								},
+								["Hit"] = {
+									["max"] = 131,
+									["min"] = 131,
+									["count"] = 3,
+									["amount"] = 393,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 589,
+						},
+						["Rising Sun Kick"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1693,
+									["min"] = 1693,
+									["count"] = 1,
+									["amount"] = 1693,
+								},
+								["Hit"] = {
+									["max"] = 1128,
+									["min"] = 1128,
+									["count"] = 1,
+									["amount"] = 1128,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2821,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 478,
+									["min"] = 477,
+									["count"] = 2,
+									["amount"] = 955,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 955,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 10532,
+						["Melee"] = 1122,
+						["Nature"] = 1478,
+					},
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 4865,
+								},
+							},
+							["amount"] = 4865,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1302,
+								},
+								["Chi Wave"] = {
+									["count"] = 1478,
+								},
+								["Melee"] = {
+									["count"] = 1122,
+								},
+								["Tiger Palm"] = {
+									["count"] = 589,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 2821,
+								},
+								["Blackout Kick"] = {
+									["count"] = 955,
+								},
+							},
+							["amount"] = 8267,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["TimeDamage"] = 16.82,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 3.87,
+								},
+							},
+							["amount"] = 3.87,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1.02,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.23,
+								},
+								["Melee"] = {
+									["count"] = 7.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 1.47,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.58,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.24,
+								},
+							},
+							["amount"] = 12.95,
+						},
+					},
+					["TimeHealing"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 0.43,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+					},
+					["TimeSpent"] = {
+						["Dragonstalkr"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 0.43,
+						},
+						["Acmonk-Illidan"] = {
+							["Details"] = {
+								["Chi Wave"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 3.87,
+								},
+							},
+							["amount"] = 3.87,
+						},
+						["Gawdamm-Turalyon"] = {
+							["Details"] = {
+								["Fists of Fury"] = {
+									["count"] = 1.02,
+								},
+								["Chi Wave"] = {
+									["count"] = 1.23,
+								},
+								["Melee"] = {
+									["count"] = 7.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 1.47,
+								},
+								["Rising Sun Kick"] = {
+									["count"] = 1.58,
+								},
+								["Blackout Kick"] = {
+									["count"] = 0.24,
+								},
+							},
+							["amount"] = 12.95,
+						},
+					},
+					["Damage"] = 13132,
+				},
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 247201.218,
+				["ActiveTime"] = 247204.226,
+				["OVERALL"] = 247204.226,
+				["Healing"] = 247201.218,
+				["TimeDamage"] = 247204.226,
+				["Damage"] = 247204.226,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+			},
+			["LastEventTimes"] = {
+				247190.933, -- [1]
+				247190.933, -- [2]
+				247192.747, -- [3]
+				247192.747, -- [4]
+				247193.743, -- [5]
+				247193.743, -- [6]
+				247194.806, -- [7]
+				247194.806, -- [8]
+				247195.825, -- [9]
+				247195.825, -- [10]
+				247195.825, -- [11]
+				247195.825, -- [12]
+				247197.408, -- [13]
+				247197.408, -- [14]
+				247197.465, -- [15]
+				247197.465, -- [16]
+				247198.661, -- [17]
+				247198.661, -- [18]
+				247199.576, -- [19]
+				247199.576, -- [20]
+				247199.841, -- [21]
+				247199.841, -- [22]
+				247200.637, -- [23]
+				247200.637, -- [24]
+				247200.873, -- [25]
+				247200.873, -- [26]
+				247200.991, -- [27]
+				247201.013, -- [28]
+				247201.013, -- [29]
+				247201.111, -- [30]
+				247201.121, -- [31]
+				247201.319, -- [32]
+				247201.34, -- [33]
+				247201.409, -- [34]
+				247201.42, -- [35]
+				247201.508, -- [36]
+				247201.508, -- [37]
+				247201.508, -- [38]
+				247201.752, -- [39]
+				247201.752, -- [40]
+				247202.217, -- [41]
+				247202.217, -- [42]
+				247202.768, -- [43]
+				247202.768, -- [44]
+				247204.002, -- [45]
+				247204.002, -- [46]
+				247204.693, -- [47]
+				247204.693, -- [48]
+			},
+			["LastAbility"] = 344647.694,
+		},
+		["Neverray <Dragonstalkr>"] = {
+			["GUID"] = "Pet-0-3881-1-10619-18130-0101D8E175",
+			["LastEventHealth"] = {
+				"10332 (100%)", -- [1]
+				"10289 (99%)", -- [2]
+				"10332 (100%)", -- [3]
+				"10298 (99%)", -- [4]
+				"10298 (99%)", -- [5]
+				"10298 (99%)", -- [6]
+				"10250 (99%)", -- [7]
+				"10216 (98%)", -- [8]
+				"10332 (100%)", -- [9]
+				"10017 (96%)", -- [10]
+				"9983 (96%)", -- [11]
+				"9983 (96%)", -- [12]
+				"9948 (96%)", -- [13]
+				"9948 (96%)", -- [14]
+				"10332 (100%)", -- [15]
+				"10332 (100%)", -- [16]
+				"10332 (100%)", -- [17]
+				"10297 (99%)", -- [18]
+				"10023 (97%)", -- [19]
+				"9989 (96%)", -- [20]
+				"9989 (96%)", -- [21]
+				"9954 (96%)", -- [22]
+				"9954 (96%)", -- [23]
+				"9954 (96%)", -- [24]
+				"10332 (100%)", -- [25]
+				"10332 (100%)", -- [26]
+				"10332 (100%)", -- [27]
+				"10332 (100%)", -- [28]
+				"10332 (100%)", -- [29]
+				"10332 (100%)", -- [30]
+				"10332 (100%)", -- [31]
+				"10332 (100%)", -- [32]
+				"10332 (100%)", -- [33]
+				10332, -- [34]
+			},
+			["LastAttackedBy"] = "Smokié-Tichondrius",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"HEAL", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					543, -- [1]
+				},
+				["ActiveTime"] = {
+					9.99, -- [1]
+				},
+				["TimeDamage"] = {
+					9.99, -- [1]
+				},
+				["DamageTaken"] = {
+					921, -- [1]
+				},
+				["Damage"] = {
+					1930, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Neverray",
+			["level"] = 1,
+			["LastDamageAbility"] = "Remorseless Winter",
+			["LastFightIn"] = 1,
+			["LastEventNum"] = {
+				123.161053039102, -- [1]
+				0.416182733255904, -- [2]
+				13.4436701509872, -- [3]
+				0.329074719318622, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				0.464576074332172, -- [7]
+				0.329074719318622, -- [8]
+				13.433991482772, -- [9]
+				3.04878048780488, -- [10]
+				0.329074719318622, -- [11]
+				nil, -- [12]
+				0.338753387533875, -- [13]
+				nil, -- [14]
+				13.4436701509872, -- [15]
+				nil, -- [16]
+				3.84243128145567, -- [17]
+				0.338753387533875, -- [18]
+				2.65195509097948, -- [19]
+				0.329074719318622, -- [20]
+				nil, -- [21]
+				0.338753387533875, -- [22]
+				nil, -- [23]
+				nil, -- [24]
+				123.151374370887, -- [25]
+				229.065040650407, -- [26]
+				16.1149825783972, -- [27]
+				229.065040650407, -- [28]
+				16.1246612466125, -- [29]
+				16.1246612466125, -- [30]
+				16.1246612466125, -- [31]
+				16.1246612466125, -- [32]
+				4.61672473867596, -- [33]
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["LastEventHealthMax"] = {
+				[34] = 10332,
+			},
+			["LastActive"] = 345136.95,
+			["UnitLockout"] = 247311.084,
+			["Fights"] = {
+				["OverallData"] = {
+					["DamagedWho"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 922,
+								},
+								["Bite"] = {
+									["count"] = 1008,
+								},
+							},
+							["amount"] = 1930,
+						},
+					},
+					["TimeDamage"] = 9.99,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["WhoDamaged"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 315,
+								},
+								["Avalanche"] = {
+									["count"] = 48,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 274,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 284,
+								},
+							},
+							["amount"] = 921,
+						},
+					},
+					["PartialResist"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["DamageTaken"] = 921,
+					["PartialAbsorb"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 922,
+						["Physical"] = 1008,
+					},
+					["HealingTaken"] = 543,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ActiveTime"] = 9.99,
+					["TimeDamaging"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["ElementTaken"] = {
+						["Frost"] = 921,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 252,
+									["min"] = 252,
+									["count"] = 1,
+									["amount"] = 252,
+								},
+								["Hit"] = {
+									["max"] = 168,
+									["min"] = 167,
+									["count"] = 4,
+									["amount"] = 670,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 922,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 359,
+									["min"] = 320,
+									["count"] = 3,
+									["amount"] = 1008,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1008,
+						},
+					},
+					["Damage"] = 1930,
+				},
+				["LastFightData"] = {
+					["DamagedWho"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 922,
+								},
+								["Bite"] = {
+									["count"] = 1008,
+								},
+							},
+							["amount"] = 1930,
+						},
+					},
+					["TimeDamage"] = 9.99,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["WhoDamaged"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 315,
+								},
+								["Avalanche"] = {
+									["count"] = 48,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 274,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 284,
+								},
+							},
+							["amount"] = 921,
+						},
+					},
+					["PartialResist"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["DamageTaken"] = 921,
+					["PartialAbsorb"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 922,
+						["Physical"] = 1008,
+					},
+					["HealingTaken"] = 543,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ActiveTime"] = 9.99,
+					["TimeDamaging"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["ElementTaken"] = {
+						["Frost"] = 921,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 252,
+									["min"] = 252,
+									["count"] = 1,
+									["amount"] = 252,
+								},
+								["Hit"] = {
+									["max"] = 168,
+									["min"] = 167,
+									["count"] = 4,
+									["amount"] = 670,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 922,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 359,
+									["min"] = 320,
+									["count"] = 3,
+									["amount"] = 1008,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1008,
+						},
+					},
+					["Damage"] = 1930,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DamagedWho"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 922,
+								},
+								["Bite"] = {
+									["count"] = 1008,
+								},
+							},
+							["amount"] = 1930,
+						},
+					},
+					["TimeDamage"] = 9.99,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["WhoDamaged"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 315,
+								},
+								["Avalanche"] = {
+									["count"] = 48,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 274,
+								},
+								["Remorseless Winter"] = {
+									["count"] = 284,
+								},
+							},
+							["amount"] = 921,
+						},
+					},
+					["PartialResist"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["DamageTaken"] = 921,
+					["PartialAbsorb"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Avalanche"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 922,
+						["Physical"] = 1008,
+					},
+					["HealingTaken"] = 543,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ActiveTime"] = 9.99,
+					["TimeDamaging"] = {
+						["Smokié-Tichondrius"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.06,
+								},
+								["Bite"] = {
+									["count"] = 2.93,
+								},
+							},
+							["amount"] = 9.99,
+						},
+					},
+					["ElementTaken"] = {
+						["Frost"] = 921,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 252,
+									["min"] = 252,
+									["count"] = 1,
+									["amount"] = 252,
+								},
+								["Hit"] = {
+									["max"] = 168,
+									["min"] = 167,
+									["count"] = 4,
+									["amount"] = 670,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 922,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 359,
+									["min"] = 320,
+									["count"] = 3,
+									["amount"] = 1008,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1008,
+						},
+					},
+					["Damage"] = 1930,
+				},
+			},
+			["NextEventNum"] = 35,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				99.5838172667441, -- [2]
+				100, -- [3]
+				99.6709252806814, -- [4]
+				99.6709252806814, -- [5]
+				99.6709252806814, -- [6]
+				99.2063492063492, -- [7]
+				98.8772744870306, -- [8]
+				100, -- [9]
+				96.9512195121951, -- [10]
+				96.6221447928765, -- [11]
+				96.6221447928765, -- [12]
+				96.2833914053426, -- [13]
+				96.2833914053426, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				99.6612466124661, -- [18]
+				97.0092915214867, -- [19]
+				96.680216802168, -- [20]
+				96.680216802168, -- [21]
+				96.3414634146342, -- [22]
+				96.3414634146342, -- [23]
+				96.3414634146342, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+			},
+			["LastEvents"] = {
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Hit +12725 (11705 Overheal)", -- [1]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -43 (Frost)", -- [2]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1389 (1346 Overheal)", -- [3]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -34 (Frost)", -- [4]
+				"Neverray <Dragonstalkr> Melee Smokié-Tichondrius Hit -168 (Physical)", -- [5]
+				"Neverray <Dragonstalkr> Bite Smokié-Tichondrius Hit -320 (Physical)", -- [6]
+				"Smokié-Tichondrius Avalanche Neverray <Dragonstalkr> Hit -48 (Frost)", -- [7]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -34 (Frost)", -- [8]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1388 (1272 Overheal)", -- [9]
+				"Smokié-Tichondrius Howling Blast Neverray <Dragonstalkr> Hit -315 (Frost)", -- [10]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -34 (Frost)", -- [11]
+				"Neverray <Dragonstalkr> Melee Smokié-Tichondrius Hit -168 (Physical)", -- [12]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -35 (Frost)", -- [13]
+				"Neverray <Dragonstalkr> Bite Smokié-Tichondrius Hit -329 (Physical)", -- [14]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1389 (1005 Overheal)", -- [15]
+				"Neverray <Dragonstalkr> Melee Smokié-Tichondrius Hit -167 (Physical)", -- [16]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +397 (397 Overheal)", -- [17]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -35 (Frost)", -- [18]
+				"Smokié-Tichondrius Frost Fever (DoT) Neverray <Dragonstalkr> Tick -274 (Frost)", -- [19]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -34 (Frost)", -- [20]
+				"Neverray <Dragonstalkr> Melee Smokié-Tichondrius Hit -167 (Physical)", -- [21]
+				"Smokié-Tichondrius Remorseless Winter Neverray <Dragonstalkr> Hit -35 (Frost)", -- [22]
+				"Neverray <Dragonstalkr> Bite Smokié-Tichondrius Hit -359 (Physical)", -- [23]
+				"Neverray <Dragonstalkr> Melee Smokié-Tichondrius Crit -252 (Physical)", -- [24]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Hit +12724 (12346 Overheal)", -- [25]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Crit +23667 (23667 Overheal)", -- [26]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1665 (1665 Overheal)", -- [27]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Crit +23667 (23667 Overheal)", -- [28]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1666 (1666 Overheal)", -- [29]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1666 (1666 Overheal)", -- [30]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1666 (1666 Overheal)", -- [31]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +1666 (1666 Overheal)", -- [32]
+				"Paxychi-Tichondrius Essence Font Neverray <Dragonstalkr> Tick +477 (477 Overheal)", -- [33]
+				"Schnápps-Ner'zhul Aura of Mercy Neverray <Dragonstalkr> Hit +5203 (4346 Overheal)", -- [34]
+			},
+			["Name"] = "Neverray",
+			["LastDamageTaken"] = 35,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+			},
+			["TimeLast"] = {
+				["HealingTaken"] = 247317.078,
+				["ActiveTime"] = 247320.068,
+				["TimeDamage"] = 247320.068,
+				["OVERALL"] = 247320.068,
+				["DamageTaken"] = 247320.068,
+				["Damage"] = 247320.068,
+			},
+			["LastEventTimes"] = {
+				247312.039, -- [1]
+				247313.081, -- [2]
+				247314.024, -- [3]
+				247314.217, -- [4]
+				247314.391, -- [5]
+				247314.391, -- [6]
+				247314.784, -- [7]
+				247315.234, -- [8]
+				247315.693, -- [9]
+				247315.802, -- [10]
+				247316.115, -- [11]
+				247316.213, -- [12]
+				247317.158, -- [13]
+				247317.575, -- [14]
+				247317.575, -- [15]
+				247317.813, -- [16]
+				247318.109, -- [17]
+				247318.109, -- [18]
+				247318.911, -- [19]
+				247319.114, -- [20]
+				247319.316, -- [21]
+				247320.164, -- [22]
+				247320.884, -- [23]
+				247320.884, -- [24]
+				247321.406, -- [25]
+				247322.564, -- [26]
+				247323.288, -- [27]
+				247323.503, -- [28]
+				247325.151, -- [29]
+				247326.934, -- [30]
+				247328.676, -- [31]
+				247330.593, -- [32]
+				247331.025, -- [33]
+				345137.164, -- [34]
+			},
+			["LastAbility"] = 344647.694,
+		},
+		["Faptor <Dragonstalkr>"] = {
+			["GUID"] = "Pet-0-3135-543-7275-50874-0101E59CC6",
+			["LastEventHealth"] = {
+				"17767 (100%)", -- [1]
+				"17767 (100%)", -- [2]
+				"17767 (100%)", -- [3]
+				"17767 (100%)", -- [4]
+				"17767 (100%)", -- [5]
+				"17767 (100%)", -- [6]
+				"17767 (100%)", -- [7]
+				"17767 (100%)", -- [8]
+				"17767 (100%)", -- [9]
+				"17767 (100%)", -- [10]
+				"17767 (100%)", -- [11]
+				"17767 (100%)", -- [12]
+				"17767 (100%)", -- [13]
+				"17767 (100%)", -- [14]
+				"17767 (100%)", -- [15]
+				"17767 (100%)", -- [16]
+				"17767 (100%)", -- [17]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"DAMAGE", -- [17]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					18.7, -- [1]
+				},
+				["TimeDamage"] = {
+					18.7, -- [1]
+				},
+				["Damage"] = {
+					5886, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Faptor",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				[16] = 100,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 2,
+			["LastActive"] = 247208.222,
+			["UnitLockout"] = 247193.222,
+			["NextEventNum"] = 18,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+			},
+			["LastEvents"] = {
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Hit -139 (Physical)", -- [1]
+				"Faptor <Dragonstalkr> Claw Danqerous-BleedingHollow Hit -304 (Physical)", -- [2]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Hit -138 (Physical)", -- [3]
+				"Faptor <Dragonstalkr> Claw Danqerous-BleedingHollow Hit -320 (Physical)", -- [4]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Crit -175 (Physical)", -- [5]
+				"Faptor <Dragonstalkr> Flanking Strike Danqerous-BleedingHollow Hit -1355 (Physical)", -- [6]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Miss (1)", -- [7]
+				"Faptor <Dragonstalkr> Claw Danqerous-BleedingHollow Hit -283 (Physical)", -- [8]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Hit -97 (Physical)", -- [9]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Hit -117 (Physical)", -- [10]
+				"Faptor <Dragonstalkr> Claw Danqerous-BleedingHollow Crit -377 (Physical)", -- [11]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Crit -175 (Physical)", -- [12]
+				"Faptor <Dragonstalkr> Flanking Strike Danqerous-BleedingHollow Hit -1356 (Physical)", -- [13]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Crit -251 (Physical)", -- [14]
+				"Faptor <Dragonstalkr> Claw Danqerous-BleedingHollow Crit -549 (Physical)", -- [15]
+				"Dragonstalkr Exhilaration Faptor <Dragonstalkr> Hit +17767 (17767 Overheal)", -- [16]
+				"Faptor <Dragonstalkr> Melee Danqerous-BleedingHollow Crit -250 (Physical)", -- [17]
+			},
+			["Name"] = "Faptor",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["TimeSpent"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 2.27,
+								},
+								["Melee"] = {
+									["count"] = 14.6,
+								},
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+							},
+							["amount"] = 18.7,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1342,
+						["Physical"] = 4544,
+					},
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 1833,
+								},
+								["Melee"] = {
+									["count"] = 1342,
+								},
+								["Flanking Strike"] = {
+									["count"] = 2711,
+								},
+							},
+							["amount"] = 5886,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeDamage"] = 18.7,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 2.27,
+								},
+								["Melee"] = {
+									["count"] = 14.6,
+								},
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+							},
+							["amount"] = 18.7,
+						},
+					},
+					["ActiveTime"] = 18.7,
+					["Attacks"] = {
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 549,
+									["min"] = 377,
+									["count"] = 2,
+									["amount"] = 926,
+								},
+								["Hit"] = {
+									["max"] = 320,
+									["min"] = 283,
+									["count"] = 3,
+									["amount"] = 907,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1833,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 139,
+									["min"] = 97,
+									["count"] = 4,
+									["amount"] = 491,
+								},
+								["Crit"] = {
+									["max"] = 251,
+									["min"] = 175,
+									["count"] = 4,
+									["amount"] = 851,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 1342,
+						},
+						["Flanking Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1356,
+									["min"] = 1355,
+									["count"] = 2,
+									["amount"] = 2711,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2711,
+						},
+					},
+					["Damage"] = 5886,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 2.27,
+								},
+								["Melee"] = {
+									["count"] = 14.6,
+								},
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+							},
+							["amount"] = 18.7,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1342,
+						["Physical"] = 4544,
+					},
+					["DamagedWho"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 1833,
+								},
+								["Melee"] = {
+									["count"] = 1342,
+								},
+								["Flanking Strike"] = {
+									["count"] = 2711,
+								},
+							},
+							["amount"] = 5886,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeDamage"] = 18.7,
+					["TimeDamaging"] = {
+						["Danqerous-BleedingHollow"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 2.27,
+								},
+								["Melee"] = {
+									["count"] = 14.6,
+								},
+								["Flanking Strike"] = {
+									["count"] = 1.83,
+								},
+							},
+							["amount"] = 18.7,
+						},
+					},
+					["ActiveTime"] = 18.7,
+					["Attacks"] = {
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 549,
+									["min"] = 377,
+									["count"] = 2,
+									["amount"] = 926,
+								},
+								["Hit"] = {
+									["max"] = 320,
+									["min"] = 283,
+									["count"] = 3,
+									["amount"] = 907,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1833,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 139,
+									["min"] = 97,
+									["count"] = 4,
+									["amount"] = 491,
+								},
+								["Crit"] = {
+									["max"] = 251,
+									["min"] = 175,
+									["count"] = 4,
+									["amount"] = 851,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 1342,
+						},
+						["Flanking Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1356,
+									["min"] = 1355,
+									["count"] = 2,
+									["amount"] = 2711,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2711,
+						},
+					},
+					["Damage"] = 5886,
+				},
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 247208.222,
+				["OVERALL"] = 247208.222,
+				["TimeDamage"] = 247208.222,
+				["Damage"] = 247208.222,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+			},
+			["LastEventTimes"] = {
+				247193.756, -- [1]
+				247193.756, -- [2]
+				247195.757, -- [3]
+				247196.995, -- [4]
+				247197.564, -- [5]
+				247199.398, -- [6]
+				247199.465, -- [7]
+				247200.239, -- [8]
+				247201.363, -- [9]
+				247203.262, -- [10]
+				247203.47, -- [11]
+				247205.236, -- [12]
+				247205.236, -- [13]
+				247207.065, -- [14]
+				247207.12, -- [15]
+				247208.588, -- [16]
+				247208.96, -- [17]
+			},
+			["LastAbility"] = 344647.694,
+		},
+	},
+	["FightNum"] = 2,
+	["CombatTimes"] = {
+		{
+			247190.221, -- [1]
+			247216.23, -- [2]
+			"14:23:07", -- [3]
+			"14:23:33", -- [4]
+			"Gawdamm-Turalyon", -- [5]
+		}, -- [1]
+		{
+			247313.081, -- [1]
+			247321.073, -- [2]
+			"14:25:10", -- [3]
+			"14:25:18", -- [4]
+			"Smokié-Tichondrius", -- [5]
+		}, -- [2]
+	},
+	["FoughtWho"] = {
+		"Smokié-Tichondrius 14:25:10-14:25:18", -- [1]
+		"Gawdamm-Turalyon 14:23:07-14:23:33", -- [2]
+	},
+}

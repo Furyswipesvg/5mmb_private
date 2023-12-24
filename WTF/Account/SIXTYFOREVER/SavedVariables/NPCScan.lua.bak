@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Chaostard - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

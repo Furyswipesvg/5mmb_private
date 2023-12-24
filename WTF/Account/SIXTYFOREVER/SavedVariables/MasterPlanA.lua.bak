@@ -1,0 +1,9 @@
+
+MasterPlanAG = {
+	["Nathrezim"] = {
+		["Basilar"] = {
+			["class"] = "SHAMAN",
+			["faction"] = "Horde",
+		},
+	},
+}

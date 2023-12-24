@@ -1,0 +1,20 @@
+
+AutoGreetzDB = {
+	["profileKeys"] = {
+		["Severe - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastlogout"] = {
+				["Bigbellybala"] = 1342331334,
+				["Aglaeca"] = 1342335664,
+				["Ghostarrows"] = 1342334125,
+				["Mohawke"] = 1342333237,
+				["Kálika"] = 1342335954,
+				["Felzak"] = 1342332914,
+				["Vandamage"] = 1342334606,
+				["Rotshot"] = 1342329637,
+			},
+		},
+	},
+}

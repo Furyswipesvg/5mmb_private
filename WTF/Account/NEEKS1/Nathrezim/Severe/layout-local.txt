@@ -1,0 +1,8 @@
+Version: 1
+Frame: LootFrame
+FrameLevel: 9
+Anchor: CENTER
+X: 19
+Y: -67
+W: 170
+H: 240

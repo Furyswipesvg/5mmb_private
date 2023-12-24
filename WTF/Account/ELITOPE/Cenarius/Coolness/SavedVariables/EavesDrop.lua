@@ -1,0 +1,334 @@
+
+EavesDropStatsDB = {
+	["profileKeys"] = {
+		["Coolness - Cenarius"] = "Coolness - Cenarius",
+	},
+	["profiles"] = {
+		["Coolness - Cenarius"] = {
+			{
+				["heal"] = {
+					["Leech"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 08:35:48|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:143924:0:SPELL_HEAL|h|cffffffffLeech|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffffffff589|r |cffffffffPhysical|r. ",
+							["amount"] = 589,
+						},
+						[2] = {
+						},
+						["icon"] = 136169,
+					},
+				},
+				["hit"] = {
+					["Ebonbolt"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/23/19 07:43:19|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:257538:0:SPELL_DAMAGE|h|cffffffffEbonbolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3018-1-22678-153285-00006041C5:Training Dummy|hTraining Dummy|h |cffffffff3,139|r |cffffffffFrost|r. ",
+							["amount"] = 3139,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/23/19 07:44:27|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:257538:0:SPELL_DAMAGE|h|cffffffffEbonbolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3018-1-22678-153285-00006041C5:Training Dummy|hTraining Dummy|h |cffffffff6,279|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 6279,
+						},
+						["icon"] = 1392551,
+					},
+					["Melee Attack"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/23/19 06:47:50|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Haction:SWING_DAMAGE|h|cffffffffMelee|r|h |Haction:SWING_DAMAGE|hhit|h |Hunit:Creature-0-3018-1-22678-153285-00006041C5:Training Dummy|hTraining Dummy|h |cffffffff57|r |cffffffffPhysical|r. ",
+							["amount"] = 57,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/23/19 06:47:29|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Haction:SWING_DAMAGE|h|cffffffffMelee|r|h |Haction:SWING_DAMAGE|hhit|h |Hunit:Creature-0-3018-1-22678-153285-00006041C5:Training Dummy|hTraining Dummy|h |cffffffff114|r |cffffffffPhysical|r. (Critical) ",
+							["amount"] = 114,
+						},
+					},
+					["Blizzard"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 08:43:15|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:190357:0:SPELL_DAMAGE|h|cffffffffBlizzard|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3132-1841-14947-133835-0000E200F3:Feral Bloodswarmer|hFeral Bloodswarmer|h |cffffffff320|r |cffffffffFrost|r. ",
+							["amount"] = 320,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 08:43:15|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:190357:0:SPELL_DAMAGE|h|cffffffffBlizzard|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3132-1841-14947-131402-00086200F2:Underrot Tick|hUnderrot Tick|h |cffffffff641|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 641,
+						},
+						["icon"] = 135857,
+					},
+					["Frostbolt"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 03:21:08|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228597:0:SPELL_DAMAGE|h|cffffffffFrostbolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-133389-000061B84A:Galvazzt|hGalvazzt|h |cffffffff1,279|r |cffffffffFrost|r. ",
+							["amount"] = 1279,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 03:01:05|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228597:0:SPELL_DAMAGE|h|cffffffffFrostbolt|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-133379-000061B197:Adderis|hAdderis|h |cffffffff2,412|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 2412,
+						},
+						["icon"] = 135846,
+					},
+					["Frozen Orb"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 08:43:26|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:84721:0:SPELL_DAMAGE|h|cffffffffFrozen Orb|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3132-1841-14947-130909-00026200F2:Fetid Maggot|hFetid Maggot|h |cffffffff579|r |cffffffffFrost|r. ",
+							["amount"] = 579,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 03:20:57|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:84721:0:SPELL_DAMAGE|h|cffffffffFrozen Orb|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-133389-000061B84A:Galvazzt|hGalvazzt|h |cffffffff1,157|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 1157,
+						},
+						["icon"] = 629077,
+					},
+					["Icicle"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 03:21:08|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:148022:0:SPELL_DAMAGE|h|cffffffffIcicle|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-133389-000061B84A:Galvazzt|hGalvazzt|h |cffffffff1,108|r |cffffffffFrost|r. ",
+							["amount"] = 1108,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 04:23:01|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:148022:0:SPELL_DAMAGE|h|cffffffffIcicle|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Vehicle-0-3131-1877-13520-133944-000061C5E2:Aspix|hAspix|h |cffffffff2,143|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 2143,
+						},
+						["icon"] = 135855,
+					},
+					["Ice Lance"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 05:28:26|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228598:0:SPELL_DAMAGE|h|cffffffffIce Lance|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3131-1877-13520-137204-000061D61D:Hoodoo Hexer|hHoodoo Hexer|h |cffffffff3,019|r |cffffffffFrost|r. ",
+							["amount"] = 3019,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 08:43:26|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228598:0:SPELL_DAMAGE|h|cffffffffIce Lance|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3132-1841-14947-130909-00026200F2:Fetid Maggot|hFetid Maggot|h |cffffffff6,470|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 6470,
+						},
+						["icon"] = 135844,
+					},
+					["Flurry"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 08:56:59|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228354:0:SPELL_DAMAGE|h|cffffffffFlurry|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Vehicle-0-3132-1841-14947-131817-00006206CE:Cragmaw the Infested|hCragmaw the Infested|h |cffffffff1,107|r |cffffffffFrost|r. ",
+							["amount"] = 1107,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 03:01:05|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:228354:0:SPELL_DAMAGE|h|cffffffffFlurry|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-133379-000061B197:Adderis|hAdderis|h |cffffffff2,227|r |cffffffffFrost|r. (Critical) ",
+							["amount"] = 2227,
+						},
+						["icon"] = 1506795,
+					},
+					["Webweaver's Soul Gem"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 03:14:24|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:270827:0:SPELL_DAMAGE|h|cffffffffWebweaver's Soul Gem|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3878-1877-16329-136076-0001E1B197:Agitated Nimbus|hAgitated Nimbus|h |cffffffff993|r |cffffffffShadow|r. ",
+							["amount"] = 993,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 04:54:20|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:270827:0:SPELL_DAMAGE|h|cffffffffWebweaver's Soul Gem|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Creature-0-3131-1877-13520-139425-000061C5E2:Crazed Incubator|hCrazed Incubator|h |cffffffff1,987|r |cffffffffShadow|r. (Critical) ",
+							["amount"] = 1987,
+						},
+						["icon"] = 237431,
+					},
+					["Shadow Mend"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:50:27|r\n|Hunit:Player-1168-08C5DE3A:Coolness|hYour|h |Hspell:186439:0:SPELL_DAMAGE|h|cffffffffShadow Mend|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffffffff116|r |cffffffffShadow|r. ",
+							["amount"] = 116,
+						},
+						[2] = {
+						},
+						["icon"] = 136202,
+					},
+				},
+			}, -- [1]
+			[-1] = {
+				["hit"] = {
+					["Physical"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 11:32:04|r\n|Haction:ENVIRONMENTAL_DAMAGE|h|cffffffffFalling|r|h |Haction:ENVIRONMENTAL_DAMAGE|hdamaged|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffffffff17,198|r |cffffffffPhysical|r. ",
+							["amount"] = 17198,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 03:20:02|r\n|Hunit:Vehicle-0-3776-1763-27092-122963-0000610A76:Rezan|hRezan|h |Haction:SWING_DAMAGE|h|cffff1313Melee|r|h |Haction:SWING_DAMAGE|hhit|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffff13139,749|r |cffff1313Physical|r. (Critical) ",
+							["amount"] = 9749,
+						},
+					},
+					["Melee Attack"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:03:16|r\n|Hspell:273226:0:SPELL_PERIODIC_DAMAGE|h|cffffffffDecaying Spores|r|h |Haction:SPELL_PERIODIC_DAMAGE|hdamaged|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffffffff7,153|r |cffffffffPlague|r. ",
+							["amount"] = 7153,
+						},
+						[2] = {
+						},
+						["icon"] = 132099,
+					},
+					["Fire"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 04:17:21|r\n|Hspell:255582:0:SPELL_PERIODIC_DAMAGE|h|cffff1313Molten Gold|r|h |Haction:SPELL_PERIODIC_DAMAGE|hdamaged|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffff13132,865|r |cffff1313Fire|r. ",
+							["amount"] = 2865,
+						},
+						[2] = {
+						},
+						["icon"] = 135903,
+					},
+					["Shadow"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 02:08:05|r\n|Hunit:Vehicle-0-3017-1841-15264-131817-000061A0B7:Cragmaw the Infested|hCragmaw the Infested|h |Hspell:260793:0:SPELL_DAMAGE|h|cffff1313Indigestion|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffff131311,498|r |cffff1313Shadow|r. ",
+							["amount"] = 11498,
+						},
+						[2] = {
+						},
+						["icon"] = 1394887,
+					},
+					["Nature"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 03:15:40|r\n|Hunit:Creature-0-3878-1877-16329-136108-000061B690:Loose Spark|hLoose Spark|h |Hspell:267483:0:SPELL_DAMAGE|h|cffff1313Loose Sparks|r|h |Haction:SPELL_DAMAGE|hhit|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffff13138,202|r |cffff1313Nature|r. ",
+							["amount"] = 8202,
+						},
+						[2] = {
+						},
+						["icon"] = 839977,
+					},
+				},
+				["heal"] = {
+					["Power Word: Radiance"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:18:52|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:194509:0:SPELL_HEAL|h|cff82f4ffPower Word: Radiance|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (2,350 Overhealed) ",
+							["amount"] = 2350,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 08:32:22|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:194509:0:SPELL_HEAL|h|cff82f4ffPower Word: Radiance|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (4,667 Overhealed) (Critical) ",
+							["amount"] = 4667,
+						},
+						["icon"] = 1386546,
+					},
+					["Healing Surge"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 05:33:13|r\n|Hunit:Player-1168-08C5DE24:Btfo|hBtfo|h |Hspell:8004:0:SPELL_HEAL|h|cff82f4ffHealing Surge|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff4,351|r |cff82f4ffNature|r. ",
+							["amount"] = 4351,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 05:33:12|r\n|Hunit:Player-1168-08C5DE24:Btfo|hBtfo|h |Hspell:8004:0:SPELL_HEAL|h|cff82f4ffHealing Surge|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff8,701|r |cff82f4ffNature|r. (Critical) ",
+							["amount"] = 8701,
+						},
+						["icon"] = 136044,
+					},
+					["Halo"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:35:14|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:120692:0:SPELL_HEAL|h|cff82f4ffHalo|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff3,532|r |cff82f4ffHoly|r. (890 Overhealed) ",
+							["amount"] = 4422,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 09:47:06|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:120692:0:SPELL_HEAL|h|cff82f4ffHalo|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (8,539 Overhealed) (Critical) ",
+							["amount"] = 8539,
+						},
+						["icon"] = 632352,
+					},
+					["Shadow Mend"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:50:26|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:186263:0:SPELL_HEAL|h|cff82f4ffShadow Mend|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff2,309|r |cff82f4ffShadow|r. (3,429 Overhealed) ",
+							["amount"] = 5738,
+						},
+						[2] = {
+						},
+						["icon"] = 136202,
+					},
+					["Wild Growth"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/25/19 09:09:03|r\n|Hunit:Player-3661-06DB973C:Druuix-Hyjal|hDruuix-Hyjal|h |Hspell:48438:0:SPELL_PERIODIC_HEAL|h|cff82f4ffWild Growth|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (2,051 Overhealed) ",
+							["amount"] = 2051,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/25/19 09:09:05|r\n|Hunit:Player-3661-06DB973C:Druuix-Hyjal|hDruuix-Hyjal|h |Hspell:48438:0:SPELL_PERIODIC_HEAL|h|cff82f4ffWild Growth|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (3,741 Overhealed) (Critical) ",
+							["amount"] = 3741,
+						},
+						["icon"] = 236153,
+					},
+					["Healing Rain"] = {
+						[-2] = {
+							["time"] = "|cffffffff09/15/19 05:38:28|r\n|Hunit:Player-1147-07D6AE36:Skilless-Bladefist|hSkilless-Bladefist|h |Hspell:73921:0:SPELL_HEAL|h|cff82f4ffHealing Rain|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (320 Overhealed) ",
+							["amount"] = 320,
+						},
+						[2] = {
+							["time"] = "|cffffffff09/15/19 05:38:38|r\n|Hunit:Player-1147-07D6AE36:Skilless-Bladefist|hSkilless-Bladefist|h |Hspell:73921:0:SPELL_HEAL|h|cff82f4ffHealing Rain|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (538 Overhealed) (Critical) ",
+							["amount"] = 538,
+						},
+						["icon"] = 136037,
+					},
+					["Harmonious Chord"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/23/19 07:53:50|r\n|Hunit:Player-3661-0803776E:Magicwagz-Hyjal|hMagicwagz-Hyjal|h |Hspell:271682:0:SPELL_HEAL|h|cff82f4ffHarmonious Chord|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffShadow|r. (5,455 Overhealed) ",
+							["amount"] = 5455,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/23/19 07:56:05|r\n|Hunit:Player-3661-0803776E:Magicwagz-Hyjal|hMagicwagz-Hyjal|h |Hspell:271682:0:SPELL_HEAL|h|cff82f4ffHarmonious Chord|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffShadow|r. (10,911 Overhealed) (Critical) ",
+							["amount"] = 10911,
+						},
+						["icon"] = 454048,
+					},
+					["Healing Tide"] = {
+						[-2] = {
+							["time"] = "|cffffffff09/15/19 05:38:58|r\n|Hunit:Creature-0-3780-1-12335-59764-00007ED9A3:Healing Tide Totem|hHealing Tide Totem|h |Hspell:114942:0:SPELL_HEAL|h|cffff1313Healing Tide|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cffff13130|r |cffff1313Nature|r. (457 Overhealed) ",
+							["amount"] = 457,
+						},
+						[2] = {
+							["time"] = "|cffffffff09/15/19 05:39:01|r\n|Hunit:Creature-0-3780-1-12335-59764-00007ED9A3:Healing Tide Totem|hHealing Tide Totem|h |Hspell:114942:0:SPELL_HEAL|h|cff82f4ffHealing Tide|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (913 Overhealed) (Critical) ",
+							["amount"] = 913,
+						},
+						["icon"] = 538569,
+					},
+					["Lifebloom"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/25/19 09:28:48|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:33778:0:SPELL_HEAL|h|cff82f4ffLifebloom|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (249 Overhealed) ",
+							["amount"] = 249,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/25/19 09:28:46|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:33763:0:SPELL_PERIODIC_HEAL|h|cff82f4ffLifebloom|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (54 Overhealed) (Critical) ",
+							["amount"] = 54,
+						},
+						["icon"] = 134206,
+					},
+					["Deferred Sentence"] = {
+						[-2] = {
+						},
+						[2] = {
+							["time"] = "|cffffffff08/23/19 10:02:26|r\n|Hunit:Player-1147-050EED42:Craftelol-KulTiras|hCraftelol-KulTiras|h |Hspell:302674:0:SPELL_HEAL|h|cff82f4ffDeferred Sentence|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffPhysical|r. (2,550 Overhealed) (Critical) ",
+							["amount"] = 2550,
+						},
+						["icon"] = 1500888,
+					},
+					["Regrowth"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/25/19 09:28:23|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:8936:0:SPELL_HEAL|h|cff82f4ffRegrowth|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (348 Overhealed) ",
+							["amount"] = 348,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/25/19 09:28:24|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:8936:0:SPELL_PERIODIC_HEAL|h|cff82f4ffRegrowth|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (30 Overhealed) (Critical) ",
+							["amount"] = 30,
+						},
+						["icon"] = 136085,
+					},
+					["Rejuvenation"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/25/19 09:28:46|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:774:0:SPELL_PERIODIC_HEAL|h|cff82f4ffRejuvenation|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (53 Overhealed) ",
+							["amount"] = 53,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/25/19 09:28:46|r\n|Hunit:Player-1165-06A792D1:Gulega-Drenden|hGulega-Drenden|h |Hspell:774:0:SPELL_PERIODIC_HEAL|h|cff82f4ffRejuvenation|r|h |Haction:SPELL_PERIODIC_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffNature|r. (107 Overhealed) (Critical) ",
+							["amount"] = 107,
+						},
+						["icon"] = 136081,
+					},
+					["Atonement"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 09:45:33|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:81751:0:SPELL_HEAL|h|cff82f4ffAtonement|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (2,392 Overhealed) ",
+							["amount"] = 2392,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 09:48:07|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:94472:0:SPELL_HEAL|h|cff82f4ffAtonement|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (4,654 Overhealed) (Critical) ",
+							["amount"] = 4654,
+						},
+						["icon"] = 135887,
+					},
+					["Holy Nova"] = {
+						[-2] = {
+							["time"] = "|cffffffff08/24/19 08:49:11|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:281265:0:SPELL_HEAL|h|cff82f4ffHoly Nova|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff370|r |cff82f4ffHoly|r. ",
+							["amount"] = 370,
+						},
+						[2] = {
+							["time"] = "|cffffffff08/24/19 09:27:20|r\n|Hunit:Player-1168-08C5DE38:Married|hMarried|h |Hspell:281265:0:SPELL_HEAL|h|cff82f4ffHoly Nova|r|h |Haction:SPELL_HEAL|hhealed|h |Hunit:Player-1168-08C5DE3A:Coolness|hYou|h |cff82f4ff0|r |cff82f4ffHoly|r. (616 Overhealed) (Critical) ",
+							["amount"] = 616,
+						},
+						["icon"] = 135922,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,7 @@
+
+PetTracker_Sets = {
+	["MapFilter"] = "",
+	["MainTutorial"] = 1,
+	["RivalHistory"] = {
+	},
+}

@@ -1,0 +1,3 @@
+VER 3 0100000000000003 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END

@@ -1,0 +1,7 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Eversmile - Dragonmaw"] = "Default",
+		["Chaostard - Nathrezim"] = "Default",
+	},
+}

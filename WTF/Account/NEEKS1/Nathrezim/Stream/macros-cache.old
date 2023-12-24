@@ -1,0 +1,59 @@
+MACRO 16777227 "asd" "INV_MISC_QUESTIONMARK"
+/afk
+END
+MACRO 16777228 "asdasd" "INV_MISC_QUESTIONMARK"
+/spit
+/dance
+wwwwwwww
+END
+MACRO 16777221 "disp" "INV_MISC_QUESTIONMARK"
+/cast [nomod] dispersion
+/cast [mod:alt,@player] flash heal
+END
+MACRO 16777219 "dmg" "INV_MISC_QUESTIONMARK"
+/castsequence reset=15/combat Devouring Plague,Shadow Word: Pain,Mind Blast,holy fire,smite,smite,Mind Blast,holy fire,smite,Mind Blas
+END
+MACRO 16777223 "dot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [nomod] reset=combat/target shadow word: pain, devouring plague
+/cast [mod:ctrl] tyrael's charger
+END
+MACRO 16777222 "fiend" "INV_MISC_QUESTIONMARK"
+/cast [@targettarget] shadowfiend
+END
+MACRO 16777226 "msmb" "INV_MISC_QUESTIONMARK"
+END
+MACRO 16777225 "PAIN" "INV_MISC_QUESTIONMARK"
+/cast [nomod] pain suppression
+/cast [mod:alt,@player] pain suppression
+/cast [mod:ctrl,@player] dispel magic
+END
+MACRO 16777220 "pennance" "INV_MISC_QUESTIONMARK"
+/cast [nomod] penance
+/cast [mod:alt,@player] penance
+/cast [mod:ctrl,help,@targettarget] dispel magic
+/cast [mod:ctrl,harm] dispel magic
+/cast [mod:ctrl,@player] dispel magic
+/cast [mod:alt] healthstone
+/use [mod:alt] 14
+END
+MACRO 16777217 "PI" "INV_MISC_QUESTIONMARK"
+/cast [target=player] power infusion
+/cast [nomod] flash heal
+/cast [mod:alt,target=player] flash heal
+/cast berserking
+/cast inner focus
+/use [mod:alt] healthstone
+/use 14
+END
+MACRO 16777218 "RENEW" "INV_MISC_QUESTIONMARK"
+/cast [nomod] renew
+/cast [mod:alt,target=player] renew
+/cast [mod:ctrl,noflyable] tyrael's charger
+/cast [mod:ctrl] tyrael's charger
+END
+MACRO 16777224 "shield" "INV_MISC_QUESTIONMARK"
+/cast [nomod] power word: shield
+/cast [mod:alt,@player] power word: shield
+/cast [mod:ctrl,@focus] dispel magic
+END

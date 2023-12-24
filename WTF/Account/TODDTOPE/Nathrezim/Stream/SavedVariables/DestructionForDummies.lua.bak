@@ -1,0 +1,14 @@
+
+DestroDummiesPCdb = {
+	["enabled"] = true,
+	["noCombatUpdateInterval"] = 0.5,
+	["scale"] = 0.7,
+	["ferralMode"] = false,
+	["suggestRelativePoint"] = "CENTER",
+	["suggestYoff"] = 7.14281606674194,
+	["locked"] = false,
+	["combatUpdateInterval"] = 0.5,
+	["dummyWhenUnlocked"] = false,
+	["suggestPoint"] = "CENTER",
+	["suggestXoff"] = -57.1428108215332,
+}
