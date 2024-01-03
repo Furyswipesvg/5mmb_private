@@ -1,0 +1,121 @@
+VER 3 00000000000000A1 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Babadoink
+END
+VER 3 00000000000000A2 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Choinker
+END
+VER 3 00000000000000A3 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Badoinker
+END
+VER 3 00000000000000A4 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 00000000000000A5 "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Spadoink
+END
+VER 3 00000000000000A6 "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Chaostard
+END
+VER 3 00000000000000B2 "AOE_FS_MARKSMANSHIP" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 0000000000000098 "convP" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 00000000000000AA "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000002 "delete_trash" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 000000000000009A "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Babadoink
+/run SetView(4)
+END
+VER 3 000000000000009B "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Choinker
+/run SetView(4)
+END
+VER 3 000000000000009C "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Badoinker
+/run SetView(4)
+END
+VER 3 000000000000009D "f4_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 000000000000009E "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Spadoink
+/run SetView(4)
+END
+VER 3 000000000000009F "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Chaostard
+/run SetView(4)
+END
+VER 3 00000000000000AC "feed_fs" "INV_Misc_QuestionMark"
+/cast [pet] Feed Pet
+/use 0 1
+/run ClearCursor()
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+END
+VER 3 00000000000000AB "feign_fs" "INV_Misc_QuestionMark"
+/petfollow
+/petpassive
+/stopattack
+/cast Freezing Trap
+/cast Feign Death
+END
+VER 3 0000000000000099 "Hide5" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 00000000000000A0 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 00000000000000B4 "int_fs" "INV_Misc_Questionmark"
+/cast Counter Shot
+END
+VER 3 00000000000000A9 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 00000000000000A7 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Badoinker
+END
+VER 3 00000000000000B0 "MULTI_FS_MARKSMANSHIP" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 0000000000000097 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 00000000000000AD "poly_fs" "INV_Misc_QuestionMark"
+/cast Freezing Trap
+END
+VER 3 00000000000000A8 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 00000000000000AE "SETUP_FS_MARKSMANSHIP" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_MARKSMANSHIP LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 00000000000000B3 "SHEAL_FS_MARKSMANSHIP" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 00000000000000AF "SINGLE_FS_MARKSMANSHIP" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 00000000000000B1 "TURBO_FS_MARKSMANSHIP" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_MARKSMANSHIP LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END

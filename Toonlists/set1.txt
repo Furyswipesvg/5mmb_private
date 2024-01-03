@@ -1,0 +1,30 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box furyswipesvg@gmail.com 		Iso222tope	wow1 thelnsane	tank
+box furyswipesbloons3@gmail.com 	Iso222tope	wow1 elonlnside	caster
+box furyswipes.bloons4@gmail.com 	Iso222tope 	wow1 tolnfinity 	hunter
+box morebloons.5@gmail.com		Iso222tope	wow1 thelraq 	melee
+box more.bloons6@gmail.com		Iso222tope	wow1 anlmpulse 	healer
+
+#box ultramultiboxtest@gmail.com		iso2tope	eversmile	tank
+#box ultramultibox.test@gmail.com	iso2tope	neversmile	caster
+#box ultramulti.boxtest@gmail.com	iso2tope	aslf 		healer
+#box ultra.multiboxtest@gmail.com	iso2tope	frawshawwk	caster
+#box ultramulti.box.test@gmail.com 	iso2tope	goodlivin 	caster
+#
+#box ultramultiboxtest02@gmail.com	iso2tope	getln		melee
+#box ultramultibox.test02@gmail.com	iso2tope	itcantbee	caster
+#box ultramulti.boxtest02@gmail.com	iso2tope	deadlnside	melee
+#box ultra.multiboxtest02@gmail.com	iso2tope	summerlin	healer
+#box ultramulti.box.test02@gmail.com 	iso2tope	springvalley 	caster
+#
+#box ultramultiboxtest03@gmail.com	iso2tope	nolnjury	hunter
+#box ultramultibox.test03@gmail.com	iso2tope	werldpiece	melee
+#box ultramulti.boxtest03@gmail.com	iso2tope	cokecoke	caster
+#box ultra.multiboxtest03@gmail.com	iso2tope	onlt		caster
+#box ultramulti.box.test03@gmail.com 	iso2tope	whatsupsucka 	caster
+

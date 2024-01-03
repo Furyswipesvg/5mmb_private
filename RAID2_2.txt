@@ -1,0 +1,21 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+# Roles are:
+# ORDER MATTERS. This is how your raid will be sorted!
+# tank / healer / melee / caster / hunter
+#OUT OF EXILE'S REACH, IN ORG.
+box secondfsmbraid01@maildrop.cc	iso2tope	wow1 spergy-bladefist		caster
+box secondfsmbraid02@maildrop.cc	iso2tope	wow1 glor-bladefist		caster
+box secondfsmbraid03@maildrop.cc	iso2tope	wow1 cheated-bladefist		caster
+box secondfsmbraid04@maildrop.cc	iso2tope	wow1 streamist-bladefist	caster
+box secondfsmbraid05@maildrop.cc	iso2tope	wow1 piq-bladefist		caster
+#box neeks1@comcast.net iso2tope sixtyforever Basilar-nathrezim caster 
+box neeks1@comcast.net iso2tope sixtyforever Chaostard-illidan caster 
+
+
+#box neeks1@comcast.net iso2tope sixtyforever cheat tank f
+#box neeks1@comcast.net iso2tope toddtope btfo caster
+#box neeks1@comcast.net iso2tope neeks1 married healer
+#box neeks1@comcast.net iso2tope wow1 psh caster
+#box neeks1@comcast.net iso2tope elitope coolness caster
+

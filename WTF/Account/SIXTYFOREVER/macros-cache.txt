@@ -1,216 +1,153 @@
-VER 3 000000000000011E "a1" "Ability_hunter_pet_hyena"
+VER 3 0000000000002851 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Babadoink
 END
-VER 3 000000000000011F "a2" "Ability_hunter_pet_hyena"
-/assist Btfo
+VER 3 0000000000002852 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Choinker
 END
-VER 3 0000000000000120 "a3" "Ability_hunter_pet_hyena"
-/assist Married
+VER 3 0000000000002853 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Badoinker
 END
-VER 3 0000000000000121 "a4" "Ability_hunter_pet_hyena"
-/assist Psh
+VER 3 0000000000002854 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Doinkado
 END
-VER 3 0000000000000122 "a5" "Ability_hunter_pet_hyena"
-/assist Coolness
+VER 3 0000000000002855 "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Spadoink
 END
-VER 3 0000000000000015 "bash" "INV_Misc_QuestionMark"
-#showtooltip bash
-/cast [nomod] bash
-/cast [mod:alt] travel form
+VER 3 0000000000002856 "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
 END
-VER 3 000000000000001E "blades" "INV_Misc_QuestionMark"
-/cast [nomod] bladestorm
-/cast [mod:ctrl] frostwolf howler
+VER 3 0000000000000F63 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Goblin-Engineered Hand Cannon
 END
-VER 3 0000000000000033 "bow" "INV_MISC_QUESTIONMARK"
-/bow
+VER 3 0000000000002860 "AOE_FS_DEMONOLOGY" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_DEMONOLOGY LeftButton t;
 END
-VER 3 000000000000000F "bustout" "INV_Misc_QuestionMark"
-/cast war stomp
-/cast barkskin
-/use Insignia of the Horde
+VER 3 000000000000092D "b10_fs" "INV_Misc_QuestionMark"
+/cast [@Frazzled] Greater Blessing of Kings
 END
-VER 3 0000000000000019 "ch_arms" "INV_Misc_QuestionMark"
-/castsequence [nomod] reset=combat/target charge,mortal strike,hamstring
-/cast [mod:alt] berserker stance
-/cast [mod:ctrl] intimidating shout
-/stopattack [mod:ctrl]
+VER 3 0000000000000929 "b6_fs" "INV_Misc_QuestionMark"
+/cast [@Mootalia] Greater Blessing of Kings
 END
-VER 3 0000000000000013 "charge" "INV_Misc_QuestionMark"
-/cast [nomod] Feral Charge - Cat
-/cast [mod:ctrl] Faerie Fire (Feral)
-/cast [mod:alt,target=player] rejuvenation
+VER 3 000000000000092A "b7_fs" "INV_Misc_QuestionMark"
+/cast [@Fiendish] Greater Blessing of Kings
 END
-VER 3 0000000000000036 "clear" "INV_MISC_QUESTIONMARK"
+VER 3 000000000000092B "b8_fs" "INV_Misc_QuestionMark"
+/cast [@Pawsnreflect] Greater Blessing of Kings
+END
+VER 3 000000000000092C "b9_fs" "INV_Misc_QuestionMark"
+/cast [@Palia] Greater Blessing of Kings
+END
+VER 3 00000000000002AC "clr" "INV_MISC_QUESTIONMARK"
 /cleartarget
 END
-VER 3 0000000000000126 "dance" "ability_druid_aquaticform"
+VER 3 000000000000285A "dance_fs" "ability_DRUID_aquaticform"
 /dance
 END
-VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Tranquilizing Shot;  [@mouseover,exists,mod:ctrl] Tranquilizing Shot; [@mouseover,exists,mod:shift] Tranquilizing Shot
+VER 3 00000000000027D5 "delete_trash" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
 END
-VER 3 0000000000000021 "exeher" "INV_Misc_QuestionMark"
-/cast Heroic Strike(Rank 9)
-/cast Execute(Rank 5)
+VER 3 000000000000284A "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Babadoink
+/run SetView(4)
 END
-VER 3 0000000000000119 "f1" "Ability_hunter_pet_gorilla"
+VER 3 000000000000284B "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Choinker
+/run SetView(4)
 END
-VER 3 000000000000011A "f2" "Ability_hunter_pet_gorilla"
-/follow Btfo
+VER 3 000000000000284C "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Badoinker
+/run SetView(4)
 END
-VER 3 000000000000011B "f3" "Ability_hunter_pet_gorilla"
-/follow Married
+VER 3 000000000000284D "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Doinkado
+/run SetView(4)
 END
-VER 3 000000000000011C "f4" "Ability_hunter_pet_gorilla"
-/follow Psh
+VER 3 000000000000284E "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Spadoink
+/run SetView(4)
 END
-VER 3 000000000000011D "f5" "Ability_hunter_pet_gorilla"
-/follow Coolness
+VER 3 000000000000284F "f6_fs" "Ability_hunter_pet_gorilla"
 END
-VER 3 0000000000000018 "FERAL" "Spell_Druid_feralchargecat"
-/equipset feral
-/usetalents 1
+VER 3 0000000000001C8E "FARM" "413588"
+/click ELEMENTAL_FARM
 END
-VER 3 0000000000000010 "foll" "Ability_Ambush"
-/follow starsight
+VER 3 0000000000000295 "FURY" "INV_Weapon_Shortblade_40"
+/run DEFAULT_CHAT_FRAME:AddMessage("FURY  SPec...");SetActiveTalentGroup(2) 
+/equipset [spec:2]pve fury
 END
-VER 3 000000000000000B "hs" "INV_Misc_QuestionMark"
-#show hamstring
-/castsequence reset=target/combat battle stance, hamstring, defensive stance
+VER 3 00000000000027D2 "GRM_Roster" "inv_bannerpvp_01"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
-VER 3 0000000000000030 "incin" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000027D3 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000002850 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000002862 "int_fs" "INV_Misc_Questionmark"
+/cast 
+END
+VER 3 00000000000002A9 "kiss" "RACIAL_TROLL_BERSERK"
+/kiss
+END
+VER 3 00000000000002A7 "kneel" "INV_MISC_BALLOON_01"
+/sit
+END
+VER 3 0000000000002859 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000002857 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Spadoink
+END
+VER 3 000000000000285E "MULTI_FS_DEMONOLOGY" "ability_upgrademoonglaive"
 #showtooltip
-/castsequence [nomod] reset=8 Conflagrate,incinerate,incinerate,incinerate
-/cast [nomod] demon soul
-/cast [mod:alt] fel flame
-/cast [mod:ctrl] chaos bolt
-/use Electrospark Heartstarter
+/click [button:1] MULTI_FS_DEMONOLOGY LeftButton t;
 END
-VER 3 0000000000000005 "lac" "INV_Misc_QuestionMark"
-/cast [nomod] lacerate
-/cast [mod:alt] nature's grasp
+VER 3 0000000000002849 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
 END
-VER 3 0000000000000001 "laststand" "INV_Misc_QuestionMark"
-/castrandom barkskin,frenzied regeneration
-/use Medallion of Heroism
-/cast lifeblood
-/cast survival instincts
-/use fel healthstone
+VER 3 000000000000285B "poly_fs" "INV_Misc_QuestionMark"
+/cast Banish
 END
-VER 3 0000000000000125 "leave" "spell_nature_purge"
-/script LeaveParty()
-END
-VER 3 0000000000000123 "makealine" "Ability_hunter_pet_tallstrider"
-END
-VER 3 0000000000000011 "mang" "INV_Misc_QuestionMark"
-/cast [stealth, nomod] ravage
-/castrandom [nomod,nostealth] Mangle (Cat)(),nature's grasp
-/cast [mod:ctrl] ferocious bite
-/startattack [nostealth]
-/cast [nostealth, nocombat] prowl
-/cast [nomod] tiger's fury
-/startattack [nostealth]
-END
-VER 3 000000000000001F "mortal" "INV_Misc_QuestionMark"
-/cast Mortal Strike(Rank 4)
-/use 14
-/use 13
-END
-VER 3 000000000000001A "ms" "INV_Misc_QuestionMark"
-/castrandom [nomod] mortal strike,slam,cleave,thunder clap,berserker rage,execute
-/cast [modifier:ctrl] demoralizing shout
-/cast [mod:alt] execute
-/startattack
-/use Badge of the Swarmguard
-END
-VER 3 0000000000000014 "ns" "INV_Misc_QuestionMark"
-/cast [nomod] nature's grasp
-/cast [mod:alt] travel form
-/cast [mod:ctrl] black war raptor
-END
-VER 3 0000000000000007 "panick" "INV_Misc_QuestionMark"
-/castsequence nature's swiftness, healing touch
-END
-VER 3 0000000000000118 "party" "Ability_hunter_pathfinding"
-/invite Cheat
-/invite Btfo
-/invite Married
-/invite Psh
-/invite Coolness
-/run SetLootMethod("freeforall",UnitName("player"))
-END
-VER 3 0000000000000034 "PB" "INV_PET_BATTLEPETTRAINING"
-/script C_PetBattles.StartPVPMatchmaking();
-END
-VER 3 0000000000000003 "pot" "Spell_Shadow_LifeDrain"
-/use fel healthstone
-/use Resurgent Healing Potion
-/use super healing potion
-/use major healing potion
-/cast barkskin
-/cast frenzied regeneration
-END
-VER 3 000000000000000D "raid smoker" "Ability_Kick"
-/2 LF4M BWL CAN SUMMON INSIDE!! Mostly cleared came get your acivement!!!
-END
-VER 3 0000000000000012 "rake" "INV_Misc_QuestionMark"
-/castsequence [nomod,nostealth] reset=combat/target  rake,rip
-/cast [mod:alt] shred
-/cast [mod:ctrl] rip
-/cast [nomod,stealth] pounce
-/cast [nomod, stealth] tiger's fury
-END
-VER 3 0000000000000031 "recr" "INV_MISC_QUESTIONMARK"
-/run local G=GetSpellLink SendChatMessage(format("Join <Level One Orc Mages> today. We have %s, %s, %s and %s!",G(78632),G(78633),G(83944),G(83967)),WHISPER,nil,"Bobsmith")
-END
-VER 3 0000000000000124 "reload" "spell_frost_stun"
+VER 3 0000000000002858 "reload_fs" "spell_frost_stun"
 /reload
 END
-VER 3 000000000000001B "rend" "INV_Misc_QuestionMark"
-/cast [nomod] rend
-/cast [mod:ctrl] frostwolf howler
+VER 3 000000000000285C "SETUP_FS_DEMONOLOGY" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_DEMONOLOGY LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
 END
-VER 3 0000000000000008 "root" "INV_Misc_QuestionMark"
-/cast [nomod] entangling roots
-/castSEQUENCE [mod:alt,target=player] rejuvenation,REGROWTH
-/cast [mod:ctrl] faerie fire
+VER 3 0000000000002861 "SHEAL_FS_DEMONOLOGY" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_DEMONOLOGY LeftButton t;
 END
-VER 3 0000000000000016 "saveme" "INV_Misc_QuestionMark"
-/cast [stance:3]  survival instincts
-/castrandom [stance:1] survival instincts,frenzied regeneration
-/cast barkskin
-/use book of clever tricks
+VER 3 000000000000285D "SINGLE_FS_DEMONOLOGY" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_DEMONOLOGY LeftButton t;
 END
-VER 3 0000000000000009 "SFwr" "INV_Misc_QuestionMark"
-/cast [nomod] starfire
-/cast [mod:alt] typhoon
-/cast [mod:ctrl] remove curse
-/use Glowing Crystal Insignia
- 
+VER 3 000000000000285F "TURBO_FS_DEMONOLOGY" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_DEMONOLOGY LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
 END
-VER 3 000000000000002F "spark" "INV_MISC_QUESTIONMARK"
-/target power spark
+VER 3 0000000000000453 "ZygorAction1" "132848"
+#showtooltip Kill Halkias
+/run ZGV:MCM(8)
+/cleartarget
+/target Halkias
+/run ZGV:MRM()
 END
-VER 3 0000000000000117 "spit" "Inv_misc_slime_01"
-/spit
+VER 3 00000000000016A8 "ZygorAction2" "134400"
 END
-VER 3 0000000000000020 "ss" "INV_Misc_QuestionMark"
-/cast Shield Block
-/cast cleave
-END
-VER 3 000000000000002E "STORM" "INV_MISC_QUESTIONMARK"
-/cast felstorm
-END
-VER 3 0000000000000023 "super" "Ability_BackStab"
-/1 <its super effective> is a new lvl 60 twink guild we will be making bg premaids and raiding zg and aq20 at first we will lvl you and get u geard
-END
-VER 3 0000000000000022 "super effectve" "Ability_BackStab"
-/2 <its super effective> is a new lvl 60 twink guild we will be making bg premaids and raiding zg and aq20 at first we will lvl you and get u geard
-END
-VER 3 0000000000000035 "target" "INV_MISC_QUESTIONMARK"
-/target cage
-END
-VER 3 0000000000000037 "targetneareset" "INV_MISC_QUESTIONMARK"
-/targetenemy
+VER 3 0000000000002713 "ZygorAction3" "134400"
 END

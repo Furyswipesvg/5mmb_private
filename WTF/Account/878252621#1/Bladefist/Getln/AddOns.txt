@@ -6,3 +6,5 @@ GSE_GUI: enabled
 GSE_LDB: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
+Details: enabled
+Blizzard_CombatText: enabled

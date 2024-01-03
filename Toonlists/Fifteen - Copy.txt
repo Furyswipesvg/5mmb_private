@@ -1,0 +1,11 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box ultramultiboxt.est03@gmail.com	iso2tope	wow1 acceptabad-bladefist		caster
+box ultramultiboxte.st03@gmail.com	iso2tope	wow1 unfounded-bladefist		caster
+box ultramultiboxtes.t03@gmail.com	iso2tope	wow1 cleversmile-bladefist		caster
+box ultramultiboxtest.03@gmail.com	iso2tope	wow1 stronk-bladefist		caster
+box ultramultiboxtest0.3@gmail.com	iso2tope	wow1 opmageikr-bladefist		caster

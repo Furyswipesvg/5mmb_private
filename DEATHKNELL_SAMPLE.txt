@@ -1,0 +1,11 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+# Roles are:
+# ORDER MATTERS. This is how your raid will be sorted!
+# tank / healer / melee / caster / hunter
+# hideframes
+box fictionalMultibox01@maildrop.cc	PaSsWoRd	wow1 galdric-bladefist	tank
+box fictionalMultibox02@maildrop.cc	PaSsWoRd	wow1 bauldric-bladefist	caster
+box fictionalMultibox03@maildrop.cc	PaSsWoRd	wow1 janette-bladefist	healer
+box fictionalMultibox04@maildrop.cc	PaSsWoRd	wow1 ror-bladefist	hunter
+box fictionalMultibox05@maildrop.cc	PaSsWoRd	wow1 barey-bladefist	caster

@@ -1,0 +1,11 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box furyswipesbloons.3@gmail.com	iso2tope	wow1 goblilock-bladefist	healer
+box furyswipesbloon.s3@gmail.com	iso2tope	wow1 lockigob-bladefist	healer
+box furyswipesbloo.ns3@gmail.com	iso2tope	wow1 gobblelock-bladefist	healer
+box furyswipesblo.ons3@gmail.com	iso2tope	wow1 warlogob-bladefist	healer
+box furyswipesbl.oons3@gmail.com	iso2tope	wow1 lockogoble-bladefist	healer

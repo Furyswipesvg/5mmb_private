@@ -1,0 +1,18 @@
+VER 3 0100000000000001 "hide" "132166"
+/script MultiBar5:Hide()
+/script MultiBarBottomLeft:Hide();
+/script MultiBarBottomRight:Hide();
+/script MultiBarRight:Hide();
+/script MultiBarLeft:Hide();
+END
+VER 3 0100000000000003 "SHEAL_FS_BEASTMASTER" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] SHEAL_FS_BEASTMASTER LeftButton t; SHEAL_FS_BEASTMASTER
+END
+VER 3 0100000000000002 "unhide" "458976"
+/script MainMenuBar:Show();
+/script MultiBarBottomLeft:Show();
+/script MultiBarBottomRight:Show();
+/script MultiBarRight:Show();
+/script MultiBarLeft:Show();
+END

@@ -1,0 +1,16 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box ul.tramultiboxtest@gmail.com	iso2tope	wow1 punkmunk-bladefist		melee	
+box ult.ramultiboxtest@gmail.com	iso2tope	wow1 funkmunk-bladefist		healer	
+box ultr.amultiboxtest@gmail.com	iso2tope	wow1 allypally-bladefist	tank	
+box ultram.ultiboxtest@gmail.com	iso2tope	wow1 maladin-bladefist		melee	
+box ultramul.tiboxtest@gmail.com	iso2tope	wow1 sanguiner-bladefist	caster	
+box furyswipesbloons.3@gmail.com	iso2tope	wow1 orclaw-bladefist		melee	
+box furyswipesbloon.s3@gmail.com	iso2tope	wow1 skullspriest-bladefist	caster	
+box furyswipesbloo.ns3@gmail.com	iso2tope	wow1 furyswipes-bladefist	tank	
+box furyswipesblo.ons3@gmail.com	iso2tope	wow1 loonkin-bladefist		healer 	
+box furyswipesbl.oons3@gmail.com	iso2tope	wow1 toofy-bladefist		melee	

@@ -1,0 +1,149 @@
+VER 3 0000000000000253 "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Punkmunk
+END
+VER 3 000000000000024A "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Getln
+END
+VER 3 000000000000024B "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Neversmile
+END
+VER 3 000000000000024C "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Goodlivin
+END
+VER 3 000000000000024D "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Eversmile
+END
+VER 3 000000000000024E "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Aslf
+END
+VER 3 000000000000024F "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Toofy
+END
+VER 3 0000000000000250 "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Mypetsux
+END
+VER 3 0000000000000251 "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Opmageikr
+END
+VER 3 0000000000000252 "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Frawshawwk
+END
+VER 3 000000000000025F "AOE_FS_BEASTMASTERY" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 0000000000000257 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000002 "delete_trash" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 0000000000000248 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Punkmunk
+/run SetView(4)
+END
+VER 3 000000000000023F "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
+/run SetView(4)
+END
+VER 3 0000000000000240 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Neversmile
+/run SetView(4)
+END
+VER 3 0000000000000241 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Goodlivin
+/run SetView(4)
+END
+VER 3 0000000000000242 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Eversmile
+/run SetView(4)
+END
+VER 3 0000000000000243 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Aslf
+/run SetView(4)
+END
+VER 3 0000000000000244 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Toofy
+/run SetView(4)
+END
+VER 3 0000000000000245 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Mypetsux
+/run SetView(4)
+END
+VER 3 0000000000000246 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Opmageikr
+/run SetView(4)
+END
+VER 3 0000000000000247 "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Frawshawwk
+/run SetView(4)
+END
+VER 3 0000000000000259 "feed_fs" "INV_Misc_QuestionMark"
+/cast [pet] Feed Pet
+/use 0 1
+/run ClearCursor()
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+END
+VER 3 0000000000000258 "feign_fs" "INV_Misc_QuestionMark"
+/petfollow
+/petpassive
+/stopattack
+/cast Freezing Trap
+/cast Feign Death
+END
+VER 3 0000000000000249 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000261 "int_fs" "INV_Misc_Questionmark"
+/cast Counter Shot
+END
+VER 3 0000000000000256 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000254 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Orclaw
+END
+VER 3 000000000000025D "MULTI_FS_BEASTMASTERY" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 000000000000023E "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 000000000000025A "poly_fs" "INV_Misc_QuestionMark"
+/cast Freezing Trap
+END
+VER 3 0000000000000255 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 000000000000025B "SETUP_FS_BEASTMASTERY" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_BEASTMASTERY LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 0000000000000260 "SHEAL_FS_BEASTMASTERY" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 000000000000025C "SINGLE_FS_BEASTMASTERY" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_BEASTMASTERY LeftButton t;
+END
+VER 3 000000000000025E "TURBO_FS_BEASTMASTERY" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_BEASTMASTERY LeftButton t;
+/petpassive [mod:alt]
+/run SetView(4)
+END

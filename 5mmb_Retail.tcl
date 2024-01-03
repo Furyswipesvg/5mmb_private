@@ -1,4 +1,4 @@
-set version 121923_retail
+set version 122823_retail
 lappend auto_path twapi
 package require twapi_input
 set kb [string tolower [twapi::get_keyboard_layout_name]]
@@ -344,7 +344,6 @@ if { ! $nohotkeyoverwrite } {
 // Name your windows something that gives you a hint.
 // Toon name and a hint at the end about what wow license to click
 // It's not critical, but it's very helpful
-
 // This is the main launcher command definition.
   <Command LaunchAndRename>
 	<SendPC %1%>}
@@ -461,6 +460,7 @@ if { $use2monitors } {
 	set raidhash(3) {{3840 2160 0 0 } {1920 1080 3840 0 } {1920 1080 3840 1080}}
 	set raidhash(4) {{3840 2160 0 0 } {1920 1080 3840 0 } {1920 1080 5760 0 } {1920 1080 3840 1080}}
 	set raidhash(5) {{1920 1440 960 720} {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720}}
+	set raidhash(6) {{1920 1440 960 720} {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720} {960 720 2880 1440}}
 	set raidhash(10) {{1280 1020 0 960} {1280 1020 1280 960} {1280 1020 2560 960} {640 480 640 0} {640 480 0 0} {640 480 0 480} {640 480 1280 0} {640 480 640 480} {640 480 1280 480} {640 480 1920 480}}
 	set raidhash(20) {{640 480 0 0} {960 720 0 1440} {960 720 960 1440} {960 720 1920 1440} {640 480 640 0} {640 480 1280 0} {640 480 1920 0} {640 480 2560 0} {640 480 3200 0} {640 480 0 480} {640 480 640 480} {640 480 1280 480} {640 480 1920 480} {640 480 2560 480} {640 480 3200 480} {640 480 0 960} {640 480 640 960} {640 480 1280 960} {640 480 1920 960 } {640 480 2560 960}} 
 	set raidhash(25) {{533 430 1548 0} {1548 1290 0 860} {533 430 1548 430} {533 430 1548 860} {533 430 1548 1290} {533 430 1548 1720} {533 430 2081 0} {533 430 2081 430} {533 430 2081 860} {533 430 2081 1290} {533 430 2081 1720} {533 430 2614 0} {533 430 2614 430} {533 430 2614 860} {533 430 2614 1290} {533 430 2614 1720} {533 430 3147 0} {533 430 3147 430} {533 430 3147 860} {533 430 3147 1290} {533 430 3147 1720} {533 430 482 0} {533 430 1015 0} {533 430 482 430} {533 430 1015 430}}
@@ -471,13 +471,46 @@ if { $use2monitors } {
 	set raidhash(3) {{1920 1080 3840 0 } {1920 1080 5760 0 } {1920 1080 3840 1080}}
 	set raidhash(4) {{1920 1080 3840 0 } {1920 1080 5760 0 } {1920 1080 3840 1080} {1920 1080 5760 1080}}
 	set raidhash(5) {{1920 1440 960 720 } {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720 }}
+	set raidhash(6) {{1920 1440 960 720} {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720} {960 720 2880 1440}}
 	set raidhash(10) {{1280 1020 0 960} {1280 1020 1280 960} {1280 1020 2560 960} {640 480 640 0} {640 480 0 0} {640 480 0 480} {640 480 1280 0} {640 480 640 480} {640 480 1280 480} {640 480 1920 480}}
 	set raidhash(10) {{2240 1680 0 480} {640 480 0 0} {640 480 640 0} {640 480 1280 0} {640 480 1920 0} {640 480 2560 0} {640 480 3200 0} {640 480 2240 480} {640 480 2880 480} {1420 1065 2240 960}}
+	set raidhash(15) {{1980 1400 0 720} {930 698 1980 360} {480 360 0 0} {480 360 480 0} {480 360 960 0} {930 698 2910 360 } {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} } 
 	set raidhash(20) {{640 480 0 0} {960 720 0 1440} {960 720 960 1440} {960 720 1920 1440} {640 480 640 0} {640 480 1280 0} {640 480 1920 0} {640 480 2560 0} {640 480 3200 0} {640 480 0 480} {640 480 640 480} {640 480 1280 480} {640 480 1920 480} {640 480 2560 480} {640 480 3200 480} {640 480 0 960} {640 480 640 960} {640 480 1280 960} {640 480 1920 960 } {640 480 2560 960} {480 360 3200 1280}} 
 	set raidhash(20) {{1980 1400 0 720} {930 698 1980 720} {480 360 0 0} {480 360 480 0} {480 360 960 0} {930 698 1980 1418 } {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360 } {930 698 2910 720} } 
+	set raidhash(20) {
+{1440 720 0 720} 
+{1440 720 1440 720} 
+{1440 720 0 1440 } 
+{1440 720 1440 1440} 
+{480 360 0 0} {480 360 480 0} {480 360 0 360} {480 360 480 360} 
+{480 360 960 0} {480 360 1440 0} {480 360 960 360} {480 360 1440 360} 
+{480 360 1920 0} {480 360 2400 0} {480 360 1920 360} {480 360 2400 360}
+{480 360 2880 0} {480 360 3360 0} {480 360 2880 360} {480 360 3360 360 } 
+ } 
 	set raidhash(25) {{533 430 1548 0} {1548 1290 0 860} {533 430 1548 430} {533 430 1548 860} {533 430 1548 1290} {533 430 1548 1720} {533 430 2081 0} {533 430 2081 430} {533 430 2081 860} {533 430 2081 1290} {533 430 2081 1720} {533 430 2614 0} {533 430 2614 430} {533 430 2614 860} {533 430 2614 1290} {533 430 2614 1720} {533 430 3147 0} {533 430 3147 430} {533 430 3147 860} {533 430 3147 1290} {533 430 3147 1720} {533 430 482 0} {533 430 1015 0} {533 430 482 430} {533 430 1015 430}}
 	set raidhash(40) {{480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
-	set raidhash(80) {{480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800} {480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
+	set raidhash(40) {{1440 1080 960 1080} {480 360 0 0 } {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
+	set raidhash(55) { {1536 1152 768 864 }
+{384 288 0 0 } {384 288 384 0} {384 288 768 0} {384 288 1152 0} {384 288 1536 0} {384 288 1920 0} {384 288 2304 0} {384 288 2688 0} {384 288 3072 0} {384 288 3456 0} 
+{384 288 0 288} {384 288 384 288} {384 288 768 288} {384 288 1152 288} {384 288 1536 288} {384 288 1920 288} {384 288 2304 288} {384 288 2688 288} {384 288 3072 288} {384 288 3456 288} 
+{384 288 0 576} {384 288 384 576} {384 288 768 576} {384 288 1152 576} {384 288 1536 576} {384 288 1920 576} {384 288 2304 576} {384 288 2688 576} {384 288 3072 576} {384 288 3456 576} 
+{384 288 0 864} {384 288 384 864}                                                                            {384 288 2304 864} {384 288 2688 864} {384 288 3072 864} {384 288 3456 864} 
+{384 288 0 1152} {384 288 384 1152}                                                                          {384 288 2304 1152} {384 288 2688 1152} {384 288 3072 1152} {384 288 3456 1152} 
+{384 288 0 1440} {384 288 384 1440}                                                                          {384 288 2304 1440} {384 288 2688 1440} {384 288 3072 1440} {384 288 3456 1440}
+{384 288 0 1728} {384 288 384 1728}                                                                          {384 288 2304 1728} {384 288 2688 1728} {384 288 3072 1728} {384 288 3456 1728}
+}
+	set raidhash(84) { {1392 1044 0 783}
+{348 261 0 0 } {348 261 348 0} {348 261 696 0} {348 261 1044 0} {348 261 1392 0} {348 261 1740 0} {348 261 2088 0} {348 261 2436 0} {348 261 2784 0} {348 261 3132 0} {348 261 3480 0 } 
+{348 261 0 261} {348 261 348 261} {348 261 696 261} {348 261 1044 261} {348 261 1392 261} {348 261 1740 261} {348 261 2088 261} {348 261 2436 261} {348 261 2784 261} {348 261 3132 261} {348 261 3480 261} 
+{348 261 0 522} {348 261 348 522} {348 261 696 522} {348 261 1044 522} {348 261 1392 522} {348 261 1740 522} {348 261 2088 522} {348 261 2436 522} {348 261 2784 522} {348 261 3132 522} {348 261 3480 522} 
+                                                                       {348 261 1392 783} {348 261 1740 783} {348 261 2088 783} {348 261 2436 783} {348 261 2784 783} {348 261 3132 783} {348 261 3480 783} 
+                                                                       {348 261 1392 1044} {348 261 1740 1044} {348 261 2088 1044} {348 261 2436 1044} {348 261 2784 1044} {348 261 3132 1044} {348 261 3480 1044} 
+                                                                       {348 261 1392 1305} {348 261 1740 1305} {348 261 2088 1305} {348 261 2436 1305} {348 261 2784 1305} {348 261 3132 1305} {348 261 3480 1305} 
+                                                                       {348 261 1392 1566} {348 261 1740 1566} {348 261 2088 1566} {348 261 2436 1566} {348 261 2784 1566} {348 261 3132 1566} {348 261 3480 1566} 
+{348 261 0 1827} {348 261 348 1827} {348 261 696 1827} {348 261 1044 1827} {348 261 1392 1827} {348 261 1740 1827} {348 261 2088 1827} {348 261 2436 1827} {348 261 2784 1827} {348 261 3132 1827} {348 261 3480 1827} 
+{348 261 0 2088} {348 261 348 2088} {348 261 696 2088} {348 261 1044 2088} {348 261 1392 2088} {348 261 1740 2088} {348 261 2088 2088} {348 261 2436 2088} {348 261 2784 2088} {348 261 3132 2088} {348 261 3480 2088} 
+}
+	#set raidhash(80) {{480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800} {480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
 		}
 	} elseif { $monitor == "3360x1440" } {
 	  #3360x1440
@@ -602,10 +635,14 @@ if { $use2monitors } {
 	}
 	foreach raid [array names windowcount] { 
 	  #Set window count in each raid to something I actually have a hash for
-		if {$windowcount($raid) > 25} { set windowcount($raid) 40
+		if {$windowcount($raid) > 55} { set windowcount($raid) 84
+		} elseif {$windowcount($raid) > 40} { set windowcount($raid) 55
+		} elseif {$windowcount($raid) > 25} { set windowcount($raid) 40
 		} elseif {$windowcount($raid) > 20 } { set windowcount($raid) 25  
-		} elseif {$windowcount($raid) > 10 } { set windowcount($raid) 20  
-		} elseif {$windowcount($raid) > 5 } { set windowcount($raid) 10  
+		} elseif {$windowcount($raid) > 15 } { set windowcount($raid) 20  
+		} elseif {$windowcount($raid) > 10 } { set windowcount($raid) 15  
+		} elseif {$windowcount($raid) > 6 } { set windowcount($raid) 10  
+		} elseif {$windowcount($raid) > 5 } { set windowcount($raid) 6  
 		} 
 		set windex($raid) 0
 	}
@@ -639,9 +676,29 @@ if { $use2monitors } {
 			#puts $hK ""
 		#}
 	#}
+	puts $hK "  <Command LaunchWow>"
+	puts $hK "	<SendPC %1%>"
+	puts $hK "	< Open \"$curdir/Wow.exe\" >"
+	puts $hK "  <Command RenameWindow>"
+	puts $hK "	<SendPC %1%>"
+	puts $hK "	<RenameWin \"World of Warcraft\" %2%>"
+	puts $hK {  <Command AccInfoWindowPosWindowSize>
+	<SendPC %1%>
+	<TargetWin %2%>
+	<SetForegroundWin>
+	<SetWinRedraw off>
+	<SetWinRect %5% %6% %7% %8%>
+	<SetWinRedraw on>
+	<UpdateWin>
+	<wait 50><Key Backspace>
+	<wait 75><Text %3%>
+	<wait 75><Key Tab>
+	<wait 25><Key Backspace>
+	<wait 50><Text %4%>
+	<wait 75><Key Enter>}
 	foreach mainraid $mainraids {
 		puts $hK ""
-		puts $hK "  <Hotkey ScrollLockOn Alt Ctrl $mainraid>"
+		puts $hK "  <Hotkey ScrollLockOn Alt Ctrl N>"
 		#puts "mainraid is $mainraid"
 		set arrayname group${mainraid}
 		#puts "arrayname is $arrayname"
@@ -669,6 +726,82 @@ if { $use2monitors } {
 	  		puts $hK "	<LaunchAndRename $computer($cpunum) $winname $bnet_account $passwd [lindex $raidhash($windowcount($myraid)) $windex($myraid)] $toonname>"
 			incr windex($myraid)
 		}
+		puts $hK ""
+		puts $hK "  <Hotkey ScrollLockOn Alt Ctrl $mainraid>"
+		#puts "mainraid is $mainraid"
+		set arrayname group${mainraid}
+		#puts "arrayname is $arrayname"
+		#puts "array size is [array size $arrayname]"
+		#for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			#puts "Array $arrayname $i contains [array get $arrayname $i]"
+		#}
+		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			set thistoon [lindex [array get $arrayname $i] 1]
+			#puts "thistoon is $thistoon"
+	  		set toonname [string tolower [lindex $thistoon 3]]
+			#puts "toonname is $toonname"
+	  		set myraid [lindex $thistoon 5]
+			#puts "myraid is $myraid"
+			regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
+			#puts "cpunum is $cpunum"
+	  		set bnet_account [lindex $thistoon 0]
+			#puts "bnet_account is [lindex $thistoon 0]"
+	  		set account [lindex $thistoon 1]
+	  		set passwd [lindex $thistoon 2]
+			#puts "passwd is $passwd"
+	  		#puts "winname is ${toonname}_${cpunum}$acct_winname($account)"
+	  		set winname ${toonname}_${cpunum}$acct_winname($account)
+	  		puts $hK "	<if WinDoesNotExist $winname> <LaunchWow $computer($cpunum)>"
+
+			incr windex($myraid)
+		}
+	  	puts $hK "	//<wait 4500>"
+	  	puts $hK "	//<DoHotKey HotKey ScrollLockOn Ctrl Alt K>"
+	  	puts $hK "	//<wait 180>"
+	  	puts $hK "	//<DoHotKey HotKey ScrollLockOn Ctrl Alt J>"
+	  	puts $hK "	//<wait 350>"
+	  	puts $hK "	//<DoHotKey HotKey ScrollLockOn Shift Ctrl $mainraid>"
+		puts $hK "  <Hotkey ScrollLockOn Alt Ctrl K>"
+		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			set thistoon [lindex [array get $arrayname $i] 1]
+			#puts "thistoon is $thistoon"
+	  		set toonname [string tolower [lindex $thistoon 3]]
+			#puts "toonname is $toonname"
+	  		set myraid [lindex $thistoon 5]
+			#puts "myraid is $myraid"
+			regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
+			#puts "cpunum is $cpunum"
+	  		set bnet_account [lindex $thistoon 0]
+			#puts "bnet_account is [lindex $thistoon 0]"
+	  		set account [lindex $thistoon 1]
+	  		set passwd [lindex $thistoon 2]
+			#puts "passwd is $passwd"
+	  		#puts "winname is ${toonname}_${cpunum}$acct_winname($account)"
+	  		set winname ${toonname}_${cpunum}$acct_winname($account)
+	  		puts $hK "	<if WinDoesNotExist $winname> <RenameWindow $computer($cpunum) $winname>"
+			incr windex($myraid)
+		}
+		puts $hK ""
+		puts $hK "  <Hotkey ScrollLockOn Alt Ctrl J>"
+		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			set thistoon [lindex [array get $arrayname $i] 1]
+			#puts "thistoon is $thistoon"
+	  		set toonname [string tolower [lindex $thistoon 3]]
+			#puts "toonname is $toonname"
+	  		set myraid [lindex $thistoon 5]
+			#puts "myraid is $myraid"
+			regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
+			#puts "cpunum is $cpunum"
+	  		set bnet_account [lindex $thistoon 0]
+			#puts "bnet_account is [lindex $thistoon 0]"
+	  		set account [lindex $thistoon 1]
+	  		set passwd [lindex $thistoon 2]
+			#puts "passwd is $passwd"
+	  		#puts "winname is ${toonname}_${cpunum}$acct_winname($account)"
+	  		set winname ${toonname}_${cpunum}$acct_winname($account)
+	  		puts $hK "	<AccInfoWindowPosWindowSize $computer($cpunum) $winname $bnet_account $passwd>"
+			incr windex($myraid)
+		}
 		foreach raid [array names windowcount] { 
 			set windex($raid) 0
 		}
@@ -679,13 +812,13 @@ if { $use2monitors } {
 		puts $hK "  <Hotkey ScrollLockOn Shift Ctrl $mainraid>"
 		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
 			set thistoon [lindex [array get $arrayname $i] 1]
-	  	set toonname [string tolower [lindex $thistoon 3]]
-	  	set myraid [lindex $thistoon 5]
-		regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
-	  	set account [lindex $thistoon 1]
-	  	set passwd [lindex $thistoon 2]
-	  	set winname ${toonname}_${cpunum}$acct_winname($account)
-	  	puts $hK "	<ResetWindowPosition $computer($cpunum) $winname [lindex $raidhash($windowcount($myraid)) $windex($myraid)]>"
+	  		set toonname [string tolower [lindex $thistoon 3]]
+	  		set myraid [lindex $thistoon 5]
+			regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
+	  		set account [lindex $thistoon 1]
+	  		set passwd [lindex $thistoon 2]
+	  		set winname ${toonname}_${cpunum}$acct_winname($account)
+	  		puts $hK "	<ResetWindowPosition $computer($cpunum) $winname [lindex $raidhash($windowcount($myraid)) $windex($myraid)]>"
 			incr windex($myraid)
 		}
 	}
@@ -747,6 +880,7 @@ if { $use2monitors } {
 		regexp {([a-z]|[A-Z])([0-9])?} $mainraid match raidletter cpunum
 		if { $raidletter ne "m" } { continue } 
 		for  { set x 0 } { $x<[array size $arrayname] } { incr x} {
+			if { $x > 19 } { break }
 			if { $x > 9 } { puts $hK "  <Hotkey ScrollLockOn Shift [lindex $winswapkeys [expr $x - 10]]>"
 			} else {
 			  puts $hK "  <Hotkey ScrollLockOn [lindex $winswapkeys $x]>"
@@ -878,6 +1012,26 @@ if { $use2monitors } {
 	<DoHotkey Hotkey ScrollLockOn NumpadPgUp>
   <Hotkey ScrollLockOn Numpad0>
 	<DoHotkey Hotkey ScrollLockOn NumpadInsert>}
+	puts $hK {  <Hotkey ScrollLockOn Shift Numpad1>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadEnd>
+  <Hotkey ScrollLockOn Shift Numpad2>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadDown>
+  <Hotkey ScrollLockOn Shift Numpad3>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadPgDn>
+  <Hotkey ScrollLockOn Shift Numpad4>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadLeft>
+  <Hotkey ScrollLockOn Shift Numpad5>
+	<DoHotkey Hotkey ScrollLockOn Shift Clear>
+  <Hotkey ScrollLockOn Shift Numpad6>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadRight>
+  <Hotkey ScrollLockOn Shift Numpad7>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadHome>
+  <Hotkey ScrollLockOn Shift Numpad8>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadUp>
+  <Hotkey ScrollLockOn Shift Numpad9>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadPgUp>
+  <Hotkey ScrollLockOn Shift Numpad0>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadInsert>}
 	puts $hK ""
 	puts $hK {// This is the hotkey that closes all windows-- Ctrl-Alt-o (letter O)	}
 	puts $hK "  <Hotkey ScrollLockOn Alt Ctrl o>"
@@ -909,6 +1063,12 @@ if { $use2monitors } {
 	<Wait 175>
 	<Key enter>
 }
+	puts $hK {// This sends enter to each window to log in
+// Ctrl-i}
+	puts $hK "  <Hotkey ScrollLockOn Ctrl e>"
+	puts $hK $winlabels
+	puts $hK {	<Key enter>
+}
 	puts $hK {//-----------------------------------------------------------
 // This is the key you hold down to send mouse clicks to all windows.
 // I use ~ (the key to the left of the 1 key)
@@ -926,18 +1086,21 @@ if { $use2monitors } {
 	puts $hK "  <UseKeyAsModifier $oem>"
 	puts $hK "  <Hotkey ScrollLockOn $oem LButton, RButton, Button4, Button5>"
 
-	puts $hK $winlabels
+	#puts $hK $winlabels
 	#puts $hK {      <Cancel>}
-	puts $hK {	<SaveMousePos>}
+	#puts $hK {	<SaveMousePos>}
 	#foreach label [split $winlabels ","] {
 	  #set label [regsub {\>$} $label ""]
 	  #if { ![regexp {^w} $label] } { continue } 
 	  #puts $hK "      <SendLabel $label> <ClickMouse %TriggerMainKey% >"
         #}
-	puts $hK {	<ClickMouse %TriggerMainKey% >}
-	puts $hK {	<ClickMouse %TriggerMainKey% >}
-	puts $hK {	<ClickMouse %TriggerMainKey% >}
-	puts $hK {	<RestoreMousePos>}
+	puts $hK {      <SaveMousePos>}
+	puts $hK {      <Wait 5>}
+	puts $hK $winlabels
+	puts $hK {      <ClickMouse %TriggerMainKey%>}
+	puts $hK {      <ClickMouse %TriggerMainKey%>}
+	puts $hK {      <Wait 5>}
+	puts $hK {      <RestoreMousePos>}
 	puts $hK ""
 	#puts $hK "<CreateColoredButton clique $clique_overlay 0x101010 0x101010>"
 	puts -nonewline $hK {<Hotkey ScrollLockOn LButton, MButton, RButton, Button4, Button5>

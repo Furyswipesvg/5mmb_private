@@ -1,11 +1,11 @@
 FSMB_version="111419_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Thelnsane",[2]="Getln",[3]="Neversmile",[4]="Whatsupsucka",[5]="Springvalley",[6]="Summerlin",[7]="Onlt",[8]="Aslf",[9]="Itcantbee",[10]="Tolnfinity",[11]="Nolnjury",[12]="Cokecoke",[13]="Frawshawwk",[14]="Elonlnside",[15]="Goodlivin",[16]="Eversmile",[17]="Thelraq",[18]="Anlmpulse",[19]="Werldpiece",[20]="Deadlnside"}
-FSMB_invitelist={[1]="Thelnsane",[2]="Getln",[3]="Neversmile",[4]="Whatsupsucka",[5]="Springvalley",[6]="Summerlin",[7]="Onlt",[8]="Aslf",[9]="Itcantbee",[10]="Tolnfinity",[11]="Nolnjury",[12]="Cokecoke",[13]="Frawshawwk",[14]="Elonlnside",[15]="Goodlivin",[16]="Eversmile",[17]="Thelraq",[18]="Anlmpulse",[19]="Werldpiece",[20]="Deadlnside"}
-FSMB_tank="Thelnsane"
+FSMB_toonlist={[1]="Getln",[2]="Neversmile",[3]="Goodlivin",[4]="Eversmile",[5]="Aslf",[6]="Toofy",[7]="Mypetsux",[8]="Opmageikr",[9]="Frawshawwk",[10]="Punkmunk",[11]="Thelraq",[12]="Smirky",[13]="Itcantbee",[14]="Anlmpulse",[15]="Arrowkneeuno",[16]="Loonkin",[17]="Hunterhead",[18]="Whatsupsucka",[19]="Summerlin",[20]="Sanguiner",[21]="Skanty",[22]="Bowwy",[23]="Maladin",[24]="Funkmunk",[25]="Deadlnside",[26]="Furyswipes",[27]="Skullspriest",[28]="Onlt",[29]="Tolnfinity",[30]="Unfounded",[31]="Orclaw",[32]="Bowya",[33]="Springvalley",[34]="Cokecoke",[35]="Allypally",[36]="Werldpiece",[37]="Nolnjury",[38]="Thelnsane",[39]="Elonlnside",[40]="Acceptabad",[41]="Spergy",[42]="Glor",[43]="Cheated",[44]="Streamist",[45]="Piq",[46]="Skammist",[47]="Quintle",[48]="Buckles",[49]="Yippers",[50]="Stanleey",[51]="Perenial",[52]="Gestorpo",[53]="Handywithit",[54]="Sevener",[55]="Southist",[56]="Slamhandle",[57]="Stouter",[58]="Skivies",[59]="Crankery",[60]="Pressedln",[61]="Flintski",[62]="Blin",[63]="Standfast",[64]="Meatboss",[65]="Basilar"}
+FSMB_invitelist={[1]="Getln-bladefist",[2]="Neversmile-bladefist",[3]="Goodlivin-bladefist",[4]="Eversmile-bladefist",[5]="Aslf-bladefist",[6]="Toofy-bladefist",[7]="Mypetsux-bladefist",[8]="Opmageikr-bladefist",[9]="Frawshawwk-bladefist",[10]="Punkmunk-bladefist",[11]="Thelraq-bladefist",[12]="Smirky-bladefist",[13]="Itcantbee-bladefist",[14]="Anlmpulse-bladefist",[15]="Arrowkneeuno-bladefist",[16]="Loonkin-bladefist",[17]="Hunterhead-bladefist",[18]="Whatsupsucka-bladefist",[19]="Summerlin",[20]="Sanguiner-bladefist",[21]="Skanty-bladefist",[22]="Bowwy-bladefist",[23]="Maladin-bladefist",[24]="Funkmunk-bladefist",[25]="Deadlnside",[26]="Furyswipes-bladefist",[27]="Skullspriest-bladefist",[28]="Onlt-bladefist",[29]="Tolnfinity-bladefist",[30]="Unfounded-bladefist",[31]="Orclaw-bladefist",[32]="Bowya-bladefist",[33]="Springvalley-bladefist",[34]="Cokecoke-bladefist",[35]="Allypally-bladefist",[36]="Werldpiece-bladefist",[37]="Nolnjury-bladefist",[38]="Thelnsane-bladefist",[39]="Elonlnside-bladefist",[40]="Acceptabad-bladefist",[41]="Spergy-bladefist",[42]="Glor-bladefist",[43]="Cheated-bladefist",[44]="Streamist-bladefist",[45]="Piq-bladefist",[46]="Skammist-bladefist",[47]="Quintle-bladefist",[48]="Buckles-bladefist",[49]="Yippers-bladefist",[50]="Stanleey-bladefist",[51]="Perenial-bladefist",[52]="Gestorpo-bladefist",[53]="Handywithit-bladefist",[54]="Sevener-bladefist",[55]="Southist-bladefist",[56]="Slamhandle-bladefist",[57]="Stouter-bladefist",[58]="Skivies-bladefist",[59]="Crankery-bladefist",[60]="Pressedln-bladefist",[61]="Flintski-bladefist",[62]="Blin-bladefist",[63]="Standfast-bladefist",[64]="Meatboss-bladefist",[65]="Basilar-bladefist"}
+FSMB_tank="Eversmile"
 FSMB_nomacros=nil
-FSMB_healerlist={"Summerlin","Aslf","Anlmpulse"}
+FSMB_healerlist={"Aslf","Anlmpulse","Loonkin","Summerlin","Funkmunk"}
 FSMB_maxheal={Druid=3,Priest=3,Shaman=5,Paladin=3}
 FSMB_mypoly={["Priest"]="Shackle",["Mage"]="Polymorph",["Druid"]="Hibernate",["Warlock"]="Banish"}
 FSMB_myint={["Paladin"]="Hammer of Justice",["Priest"]="Silence",["Mage"]="Counterspell",["Druid"]="Bash",["Shaman"]="Earth Shock",["Hunter"]="Scatter Shot",["Warlock"]="",["Warrior"]="Pummel",["Rogue"]="Kick",}
@@ -179,6 +179,24 @@ FSMB_myint["PALADIN"]=rebuke
 FSMB_decurse={["MONK"]=(detox),["DEMONHUNTER"]=(consumeMagic),["PALADIN"]=(palaCleanse),["PRIEST"]=(dispelMagic),["MAGE"]=(remLesserCurse),["DRUID"]=(remCurse),["SHAMAN"]=(curePoison),["HUNTER"]="None",["WARLOCK"]="None",["WARRIOR"]="None",["ROGUE"]="None",}
 FSMB_heal_names={["MONK"]=(vivify),["PALADIN"]=(palaHeal),["PRIEST"]=(priestHeal),["DRUID"]=(druidHeal),["SHAMAN"]=(shamanHeal)}
 FSMB_mydecurse=FSMB_decurse[UnitClass("player")]
+function SortRaid()
+	FSMB_toonorder=TableReverse(FSMB_toonlist)
+	for idx=1,40 do
+		member,_,group=GetRaidRosterInfo(idx)
+		if group~=math.ceil(FSMB_toonorder[member]/5) then
+			print(member.." should be in group "..(math.ceil(FSMB_toonorder[member]/5)).." and not "..group)
+			for tidx=math.ceil(FSMB_toonorder[member]/5)*5-4,math.ceil(FSMB_toonorder[member]/5)*5 do
+				tmember,_,tgroup=GetRaidRosterInfo(tidx)
+				if tgroup~=math.ceil(FSMB_toonorder[tmember]/5) then
+					print("Swapping "..idx.." with "..tidx)
+					SwapRaidSubgroup(tidx,idx)
+					return
+				end
+				
+			end
+		end
+	end
+end
 myname=UnitName("player")
 myclass=UnitClass("player")
 mylevel=UnitLevel("player")
@@ -301,6 +319,14 @@ clearmacros()
 	PickupMacro(macroId)
 	PlaceAction(119)
 	ClearCursor()
+	local macroId = CreateMacroFS("convP", "Ability_HUNTER_pathfinding", "/run C_PartyInfo.ConvertToParty()" , personal);
+	PickupMacro(macroId)
+	PlaceAction(72)
+	ClearCursor()
+	local macroId = CreateMacroFS("Hide5", "Ability_HUNTER_pathfinding", "/run MultiBar5:Hide()" , personal);
+	PickupMacro(macroId)
+	PlaceAction(71)
+	ClearCursor()
 	local slot=38
 	local idx=0
 	local i
@@ -409,16 +435,16 @@ clearmacros()
 	ClearCursor()
 	-- NONE OF THE FOLLOWING MACROS GET CREATED IF YOU put nomacros in your toonlist
 	if not FSMB_nomacros then
-		if myClass=="DRUID" then
-			local macroId = CreateMacroFS("hearth_fs", "INV_Misc_QuestionMark", "/cancelform\n/use "..hearthStone.."", nil);
-			PickupMacro(macroId)
-			PlaceAction(26)
-			ClearCursor()
-		else
-			PickupItem(hearthStone)
-			PlaceAction(26)
-			ClearCursor()
-		end
+		--if myClass=="DRUID" then
+			--local macroId = CreateMacroFS("hearth_fs", "INV_Misc_QuestionMark", "/cancelform\n/use "..hearthStone.."", nil);
+			--PickupMacro(macroId)
+			--PlaceAction(26)
+			--ClearCursor()
+		--else
+			--PickupItem(hearthStone)
+			--PlaceAction(26)
+			--ClearCursor()
+		--end
 		if myClass=="HUNTER" then
 			index=CreateMacroFS("feign_fs","INV_Misc_QuestionMark","/petfollow\n/petpassive\n/stopattack\n/cast "..freezingTrap.."\n/cast "..feignDeath.."",nil)
 			PickupMacro(index)
@@ -635,7 +661,7 @@ clearmacros()
 			PlaceAction(111)
 		end
 		ClearCursor()
-		index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/run SetView(4)",hunterpersonal)
+		index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/run mountup()\n/run SetView(4)",hunterpersonal)
 		PickupMacro(index)
 		PlaceAction(4)
 		if myClass=="ROGUE" then
@@ -795,7 +821,7 @@ end
 	SetCVar("renderScale", .5)
 	SetCVar("alwaysShowActionBars", true)
 	SetCVar("nameplateShowEnemies", true)
-	SetCVar("nameplateShowFriends", true)
+	SetCVar("nameplateShowFriends", false)
 	SetCVar("enableFloatingCombatText", true)
 	SetCVar("autointeract", true)
 	SetCVar("autoInteract", true)
@@ -814,13 +840,14 @@ end
 	SetCVar("ShowClassColorInFriendlyNameplate", true)
 	SetCVar("showTargetOfTarget", true)
 	SetModifiedClick("SELFCAST","NONE")
-	--SetActionBarToggles(true,true,true,true,true)
-	--SHOW_MULTI_ACTIONBAR_1=true
-	--SHOW_MULTI_ACTIONBAR_2=true
-	--SHOW_MULTI_ACTIONBAR_3=true
-	--SHOW_MULTI_ACTIONBAR_4=true
-	--ALWAYS_SHOW_MULTI_ACTIONBAR=1
+	SetActionBarToggles(true,true,true,true,true)
+	ALWAYS_SHOW_MULTI_ACTIONBAR=1
+	SHOW_MULTI_ACTIONBAR_1=true
+	SHOW_MULTI_ACTIONBAR_2=true
+	SHOW_MULTI_ACTIONBAR_3=true
+	SHOW_MULTI_ACTIONBAR_4=true
 	MultiActionBar_Update()
+	MultiBar5:Hide()
 	ClearTutorials()
 	ReloadUI()
 end
@@ -961,7 +988,11 @@ FSMB = CreateFrame("frame","FSMB",UIParent)
 function FSMB:OnCommReceived(prefix,msg)
 	--print("AceComm: prefix: "..prefix.." msg: "..msg)
 	if prefix=="FSMB_FIND" then
-		FSMB_Find(msg)
+		if UnitInRaid("player") then
+			print("Don't use this command in free raids anymore. Say what you want to find. /say find crapgear")
+		else
+			FSMB_Find(msg)
+		end
 	--elseif prefix=="FSMB_FOCUS" then
 		--print(" Focusing " .. msg)
 		--FSMB_raidleader=msg
@@ -973,6 +1004,7 @@ AceComm.RegisterComm(FSMB,"FSMB_FIND")
 --AceComm.RegisterComm(FSMB,"FSMB_FOCUS")
 FSMB:RegisterEvent("ADDON_LOADED") -- register event "ADDON_LOADED"
 FSMB:RegisterEvent("CHAT_MSG_ADDON")
+FSMB:RegisterEvent("CHAT_MSG_SAY")
 FSMB:RegisterEvent("CONFIRM_SUMMON")
 FSMB:RegisterEvent("TRAINER_SHOW")
 FSMB:RegisterEvent("TRAINER_CLOSED")
@@ -1007,7 +1039,12 @@ FSMB:RegisterEvent("AUTOFOLLOW_END")
 FSMBtooltip=CreateFrame("GAMETOOLTIP", "FSMBtooltip", UIParent, "GameTooltipTemplate")
 Print=print
 FSMB:SetScript("OnEvent", function(self,event, arg1, arg2, arg3, ...) -- event handler
-    if (event == "CHAT_MSG_ADDON") then
+    if (event == "CHAT_MSG_SAY") then
+	if string.find(arg1, "^\s*[Ff][Ii][Nn][Dd] ") then
+		item=string.gsub(arg1, "^\s*[Ff][Ii][Nn][Dd] ","")
+                FSMB_Find(item,arg2)
+	end
+    elseif (event == "CHAT_MSG_ADDON") then
         --Print("Addon message "..arg1.." / "..arg2.." / "..event.." recieved from"..arg3)
         --if arg1=="FSMB_FOCUS" then
 		--print(FSMB_RAID.." Focusing " .. arg2)
@@ -1113,7 +1150,7 @@ function TableReverse(table)
 	end
 	return t
 end
-function FSMB_Find(item)
+function FSMB_Find(item,caller)
 	FSMB_slotmap={ [0]="ammo",[1]="head",[2]="neck",[3]="shoulder",[4]="shirt",[5]="chest",[6]="waist",[7]="legs",[8]="feet",[9]="wrist",[10]="hands",[11]="finger 1",[12]="finger 2",[13]="trinket 1",[14]="trinket 2",[15]="back",[16]="main hand",[17]="off hand",[18]="ranged",[19]="tabard"}
 	FSMB_slotmap_i=TableReverse(FSMB_slotmap)
 	local Rarity={["poor"]=0,["common"]=1,["uncommon"]=2,["rare"]=3,["epic"]=4,["legendary"]=5}
@@ -1153,11 +1190,11 @@ function FSMB_Find(item)
 				local itemLink = GetInventoryItemLink("player",inv)
 				local quality=GetInventoryItemQuality("player",inv)
 				if not quality then
-					FSMB_msg("MISSING: slot "..FSMB_slotmap[inv])
+					FSMB_msg("MISSING: slot "..FSMB_slotmap[inv],caller)
 				elseif quality<3 then
 					local bsnum=string.gsub(itemLink,".-\124H([^\124]*)\124h.*", "%1")
 					local itemName, _, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemIcon = GetItemInfo(bsnum)
-					FSMB_msg("CRAP: "..itemEquipLoc.." "..inv.." "..itemLink)
+					FSMB_msg("CRAP: "..itemEquipLoc.." "..inv.." "..itemLink,caller)
 				end
 			end
 		end
@@ -1179,7 +1216,7 @@ function FSMB_Find(item)
 				items=string.lower(item)
 				match = string.find(links, items)
 				if IsUnboundBOE(bag,slot) then
-					FSMB_msg("Found "..link.." in bag "..bag.." slot "..slot)
+					FSMB_msg("Found "..link.." in bag "..bag.." slot "..slot,caller)
 				end
 			end
 		end end
@@ -1214,7 +1251,7 @@ function FSMB_Find(item)
 					match= match or string.find(itemSubType,items)
 				end
 				if match then
-					FSMB_msg("Found "..itemLink.." in slot "..FSMB_slotmap[inv])
+					FSMB_msg("Found "..itemLink.." in slot "..FSMB_slotmap[inv],caller)
 				end
 			end
 		end
@@ -1257,7 +1294,7 @@ function FSMB_Find(item)
 						match= match or string.find(itemSubType,items)
 					end
 					if match then
-						FSMB_msg("Found "..itemTable.hyperlink.."x"..itemTable.stackCount.." in bag "..bag.." slot "..slot)
+						FSMB_msg("Found "..itemTable.hyperlink.."x"..itemTable.stackCount.." in bag "..bag.." slot "..slot,caller)
 					end
 				end
 			end
@@ -1289,7 +1326,7 @@ function IsUnboundBOE(b,s)
 	end
 	if not soulbound and boe then return true end
 end
-function FSMB_msg(msg)
+function FSMB_msg(msg,target)
 	--this is a raid message function with a 2 second cooldown to kind-of avoid some spamming.
 	local cooldown=5
 	local time=GetTime()
@@ -1297,11 +1334,12 @@ function FSMB_msg(msg)
 	MB_prev_msg=msg
 	FSMB_msgcd=time
 	if UnitInRaid("player") then
-		SendChatMessage(msg,"RAID") return
+		--SendChatMessage(msg,"RAID") return
+		SendChatMessage(msg,"WHISPER",nil,target) return
 	else
 		SendChatMessage(msg,"PARTY") return
 	end
-	Print(msg)
+	--Print(msg)
 end
 function RangedWeaponType()
 	local itemLink = GetInventoryItemLink("player",18)
@@ -1488,10 +1526,10 @@ end
 function mountup()
 	if IsControlKeyDown() then 
 		Dismount()
-		AceComm.SendCommMessage(FSMB,"FSMB_DISMOUNT", UnitName("player"),"RAID")
+		--AceComm.SendCommMessage(FSMB,"FSMB_DISMOUNT", UnitName("player"),"RAID")
 	else
 		automount()
-		AceComm.SendCommMessage(FSMB,"FSMB_AUTOMOUNT", UnitName("player"),"RAID")
+		--AceComm.SendCommMessage(FSMB,"FSMB_AUTOMOUNT", UnitName("player"),"RAID")
 	end
 end
 --function follow()

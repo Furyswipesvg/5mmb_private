@@ -1,0 +1,26 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box furyswipesbloo.ns3@gmail.com	iso2tope	wow1 furyswipes-bladefist	tank
+box ultramultiboxtes.t03@gmail.com	iso2tope	wow1 smirky-bladefist		caster
+box ultramultibox.test02@gmail.com	iso2tope	wow1 itcantbee-bladefist	caster
+box more.bloons6@gmail.com		Iso222tope	wow1 anlmpulse-bladefist 	healer
+box ultramultiboxtes.t02@gmail.com	iso2tope	wow1 arrowkneeuno-bladefist	hunter
+box ultramulti.boxtest02@gmail.com	iso2tope	wow1 deadlnside-bladefist	melee
+box furyswipesblo.ons3@gmail.com	iso2tope	wow1 loonkin-bladefist		healer 
+box ultramultiboxt.est02@gmail.com	iso2tope	wow1 hunterhead-bladefist	hunter
+box ultramulti.box.test03@gmail.com 	iso2tope	wow1 whatsupsucka-bladefist 	caster
+box ultramul.tiboxtest@gmail.com	iso2tope	wow1 sanguiner-bladefist	caster
+box ultram.ultiboxtest@gmail.com	iso2tope	wow1 maladin-bladefist		melee
+box ultra.multiboxtest02@gmail.com	iso2tope	wow1 summerlin-bladefist	healer
+box ultramultiboxtest0.3@gmail.com	iso2tope	wow1 skanty-bladefist		caster
+box ultramultiboxte.st02@gmail.com	iso2tope	wow1 bowwy-bladefist		hunter
+box furyswipesbloon.s3@gmail.com	iso2tope	wow1 skullspriest-bladefist	caster
+box ul.tramultiboxtest@gmail.com	iso2tope	wow1 punkmunk-bladefist		healer
+box ultra.multiboxtest03@gmail.com	iso2tope	wow1 onlt-bladefist		caster
+box furyswipes.bloons4@gmail.com 	Iso222tope 	wow1 tolnfinity-bladefist 	hunter
+box ultramultiboxte.st03@gmail.com	iso2tope	wow1 unfounded-bladefist	caster
+box furyswipesbloons.3@gmail.com	iso2tope	wow1 orclaw-bladefist		melee

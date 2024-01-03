@@ -1,0 +1,11 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+# Roles are:
+# ORDER MATTERS. This is how your raid will be sorted!
+# tank / healer / melee / caster / hunter
+box secondfsmbraid06@maildrop.cc	iso2tope	wow1 Skammist-bladefist		caster
+box thisismyseco.ndfortymultibox@yahoo.com	iso2tope	wow1 quintle-bladefist		caster
+box thisismysecon.dfortymultibox@yahoo.com	iso2tope	wow1 buckles-bladefist		caster
+box thisismysecond.fortymultibox@yahoo.com	iso2tope	wow1 yippers-bladefist		caster
+box thisismysecondf.ortymultibox@yahoo.com	iso2tope	wow1 stanleey-bladefist		caster
+
