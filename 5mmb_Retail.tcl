@@ -1,4 +1,4 @@
-set version 122823_retail
+set version 010524_retail
 lappend auto_path twapi
 package require twapi_input
 set kb [string tolower [twapi::get_keyboard_layout_name]]
@@ -471,9 +471,11 @@ if { $use2monitors } {
 	set raidhash(3) {{1920 1080 3840 0 } {1920 1080 5760 0 } {1920 1080 3840 1080}}
 	set raidhash(4) {{1920 1080 3840 0 } {1920 1080 5760 0 } {1920 1080 3840 1080} {1920 1080 5760 1080}}
 	set raidhash(5) {{1920 1440 960 720 } {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720 }}
-	set raidhash(6) {{1920 1440 960 720} {960 720 0 720} {960 720 960 0} {960 720 1920 0} {960 720 2880 720} {960 720 2880 1440}}
+	set raidhash(6) {{1935 1445 953 720} {975 730 -7 720} {975 730 953 0} {975 730 1913 0} {975 730 2873 720} {975 730 2873 1440}}
 	set raidhash(10) {{1280 1020 0 960} {1280 1020 1280 960} {1280 1020 2560 960} {640 480 640 0} {640 480 0 0} {640 480 0 480} {640 480 1280 0} {640 480 640 480} {640 480 1280 480} {640 480 1920 480}}
 	set raidhash(10) {{2240 1680 0 480} {640 480 0 0} {640 480 640 0} {640 480 1280 0} {640 480 1920 0} {640 480 2560 0} {640 480 3200 0} {640 480 2240 480} {640 480 2880 480} {1420 1065 2240 960}}
+	set raidhash(11) {{1560 1090 -8 1080} {765 549 1537 1080} {765 549 1537 1620} {765 549 2287 1080} {765 549 2287 1620} {1560 1090 -8 0} {765 549 1537 0} {765 549 1537 540} {765 549 2287 0} {765 549 2287 540}
+ {805 570 3037 1548} }
 	set raidhash(15) {{1980 1400 0 720} {930 698 1980 360} {480 360 0 0} {480 360 480 0} {480 360 960 0} {930 698 2910 360 } {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} } 
 	set raidhash(20) {{640 480 0 0} {960 720 0 1440} {960 720 960 1440} {960 720 1920 1440} {640 480 640 0} {640 480 1280 0} {640 480 1920 0} {640 480 2560 0} {640 480 3200 0} {640 480 0 480} {640 480 640 480} {640 480 1280 480} {640 480 1920 480} {640 480 2560 480} {640 480 3200 480} {640 480 0 960} {640 480 640 960} {640 480 1280 960} {640 480 1920 960 } {640 480 2560 960} {480 360 3200 1280}} 
 	set raidhash(20) {{1980 1400 0 720} {930 698 1980 720} {480 360 0 0} {480 360 480 0} {480 360 960 0} {930 698 1980 1418 } {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360 } {930 698 2910 720} } 
@@ -487,9 +489,10 @@ if { $use2monitors } {
 {480 360 1920 0} {480 360 2400 0} {480 360 1920 360} {480 360 2400 360}
 {480 360 2880 0} {480 360 3360 0} {480 360 2880 360} {480 360 3360 360 } 
  } 
-	set raidhash(25) {{533 430 1548 0} {1548 1290 0 860} {533 430 1548 430} {533 430 1548 860} {533 430 1548 1290} {533 430 1548 1720} {533 430 2081 0} {533 430 2081 430} {533 430 2081 860} {533 430 2081 1290} {533 430 2081 1720} {533 430 2614 0} {533 430 2614 430} {533 430 2614 860} {533 430 2614 1290} {533 430 2614 1720} {533 430 3147 0} {533 430 3147 430} {533 430 3147 860} {533 430 3147 1290} {533 430 3147 1720} {533 430 482 0} {533 430 1015 0} {533 430 482 430} {533 430 1015 430}}
+	set raidhash(25) {{1548 1290 0 860} {533 430 1548 0 } {533 430 1548 430} {533 430 1548 860} {533 430 1548 1290} {533 430 1548 1720} {533 430 2081 0} {533 430 2081 430} {533 430 2081 860} {533 430 2081 1290} {533 430 2081 1720} {533 430 2614 0} {533 430 2614 430} {533 430 2614 860} {533 430 2614 1290} {533 430 2614 1720} {533 430 3147 0} {533 430 3147 430} {533 430 3147 860} {533 430 3147 1290} {533 430 3147 1720} {533 430 482 0} {533 430 1015 0} {533 430 482 430} {533 430 1015 430}}
 	set raidhash(40) {{480 360 0 0} {1440 1080 960 1080} {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
 	set raidhash(40) {{1440 1080 960 1080} {480 360 0 0 } {480 360 480 0} {480 360 960 0} {480 360 1440 0} {480 360 1920 0} {480 360 2400 0} {480 360 2880 0} {480 360 3360 0} {480 360 0 360} {480 360 480 360} {480 360 960 360} {480 360 1440 360} {480 360 1920 360} {480 360 2400 360} {480 360 2880 360} {480 360 3360 360} {480 360 0 720} {480 360 480 720} {480 360 960 720} {480 360 1440 720} {480 360 1920 720} {480 360 2400 720} {480 360 2880 720} {480 360 3360 720} {480 360 0 1080} {480 360 480 1080} {480 360 2400 1080} {480 360 2880 1080} {480 360 3360 1080} {480 360 0 1440} {480 360 480 1440} {480 360 2400 1440} {480 360 2880 1440} {480 360 3360 1440} {480 360 0 1800} {480 360 480 1800} {480 360 2400 1800} {480 360 2880 1800} {480 360 3360 1800}}
+	set raidhash(40) {{1455 1080 953 1080} {495 375 -7 0 } {495 375 473 0} {495 375 953 0} {495 375 1433 0} {495 375 1913 0} {495 375 2393 0} {495 375 2873 0} {495 375 3353 0} {495 375 -7 360} {495 375 473 360} {495 375 953 360} {495 375 1433 360} {495 375 1913 360} {495 375 2393 360} {495 375 2873 360} {495 375 3353 360} {495 375 -7 720} {495 375 473 720} {495 375 953 720} {495 375 1433 720} {495 375 1913 720} {495 375 2393 720} {495 375 2873 720} {495 375 3353 720} {495 375 -7 1080} {495 375 473 1080} {495 375 2393 1080} {495 375 2873 1080} {495 375 3353 1080} {495 375 -7 1440} {495 375 473 1440} {495 375 2393 1440} {495 375 2873 1440} {495 375 3353 1440} {495 375 -7 1800} {495 375 473 1800} {495 375 2393 1800} {495 375 2873 1800} {495 375 3353 1800}}
 	set raidhash(55) { {1536 1152 768 864 }
 {384 288 0 0 } {384 288 384 0} {384 288 768 0} {384 288 1152 0} {384 288 1536 0} {384 288 1920 0} {384 288 2304 0} {384 288 2688 0} {384 288 3072 0} {384 288 3456 0} 
 {384 288 0 288} {384 288 384 288} {384 288 768 288} {384 288 1152 288} {384 288 1536 288} {384 288 1920 288} {384 288 2304 288} {384 288 2688 288} {384 288 3072 288} {384 288 3456 288} 
@@ -640,8 +643,8 @@ if { $use2monitors } {
 		} elseif {$windowcount($raid) > 25} { set windowcount($raid) 40
 		} elseif {$windowcount($raid) > 20 } { set windowcount($raid) 25  
 		} elseif {$windowcount($raid) > 15 } { set windowcount($raid) 20  
-		} elseif {$windowcount($raid) > 10 } { set windowcount($raid) 15  
-		} elseif {$windowcount($raid) > 6 } { set windowcount($raid) 10  
+		} elseif {$windowcount($raid) > 11 } { set windowcount($raid) 15  
+		} elseif {$windowcount($raid) > 6 } { set windowcount($raid) 11  
 		} elseif {$windowcount($raid) > 5 } { set windowcount($raid) 6  
 		} 
 		set windex($raid) 0
@@ -736,6 +739,9 @@ if { $use2monitors } {
 			#puts "Array $arrayname $i contains [array get $arrayname $i]"
 		#}
 		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			#if $i==5 { puts $hK "	<toggle>" }
+			#if $i==25 { puts $hK "	<toggle>" }
+			#if $i==45 { puts $hK "	<toggle>" }
 			set thistoon [lindex [array get $arrayname $i] 1]
 			#puts "thistoon is $thistoon"
 	  		set toonname [string tolower [lindex $thistoon 3]]
@@ -752,6 +758,7 @@ if { $use2monitors } {
 	  		#puts "winname is ${toonname}_${cpunum}$acct_winname($account)"
 	  		set winname ${toonname}_${cpunum}$acct_winname($account)
 	  		puts $hK "	<if WinDoesNotExist $winname> <LaunchWow $computer($cpunum)>"
+	  		#puts $hK "	<wait 750>"
 
 			incr windex($myraid)
 		}
@@ -819,6 +826,19 @@ if { $use2monitors } {
 	  		set passwd [lindex $thistoon 2]
 	  		set winname ${toonname}_${cpunum}$acct_winname($account)
 	  		puts $hK "	<ResetWindowPosition $computer($cpunum) $winname [lindex $raidhash($windowcount($myraid)) $windex($myraid)]>"
+			incr windex($myraid)
+		}
+		puts $hK "  <Hotkey ScrollLockOn Shift Alt $mainraid>"
+		for { set i 0 } { $i<[array size $arrayname] } { incr i } {
+			set thistoon [lindex [array get $arrayname $i] 1]
+	  		set toonname [string tolower [lindex $thistoon 3]]
+	  		set myraid [lindex $thistoon 5]
+			regexp {([a-z]|[A-Z])([0-9])?} $myraid match foo cpunum
+	  		set account [lindex $thistoon 1]
+	  		set passwd [lindex $thistoon 2]
+	  		set winname ${toonname}_${cpunum}$acct_winname($account)
+	  		puts $hK "	<TargetWin $winname>"
+	  		puts $hK "	<RemoveWinFrame>"
 			incr windex($myraid)
 		}
 	}
@@ -947,6 +967,7 @@ if { $use2monitors } {
 			puts $hK "	<RestoreMousePos>"
 		}
 	}
+
 #				file mkdir WTF
 #				set f [open WTF\\config.wtf w]
 #puts $f { SET hwDetect "0"
@@ -1069,6 +1090,12 @@ if { $use2monitors } {
 	puts $hK $winlabels
 	puts $hK {	<Key enter>
 }
+	puts $hK {// This sends hide multiwin5 (shift -) to each window
+// Ctrl-i}
+	puts $hK "  <Hotkey ScrollLockOn ctrl h>"
+	puts $hK $winlabels
+	puts $hK {	<Key shift minus>
+}
 	puts $hK {//-----------------------------------------------------------
 // This is the key you hold down to send mouse clicks to all windows.
 // I use ~ (the key to the left of the 1 key)
@@ -1095,11 +1122,9 @@ if { $use2monitors } {
 	  #puts $hK "      <SendLabel $label> <ClickMouse %TriggerMainKey% >"
         #}
 	puts $hK {      <SaveMousePos>}
-	puts $hK {      <Wait 5>}
 	puts $hK $winlabels
+	puts $hK {      <ClickMouse RButton>}
 	puts $hK {      <ClickMouse %TriggerMainKey%>}
-	puts $hK {      <ClickMouse %TriggerMainKey%>}
-	puts $hK {      <Wait 5>}
 	puts $hK {      <RestoreMousePos>}
 	puts $hK ""
 	#puts $hK "<CreateColoredButton clique $clique_overlay 0x101010 0x101010>"
@@ -1145,6 +1170,7 @@ if { $use2monitors } {
 // Use the arrow keys for that. (see, they are there)
 //-----------------------------------------------------------
   <MovementHotkey ScrollLockOn space, up, down, left, right,e,q>}
+	puts $hK "\t<Passthrough>"
 	puts $hK $winlabels
 	puts $hK "\t<Key %Trigger%>"
 	puts $hK ""
@@ -1999,5 +2025,15 @@ if { ! $nosmoverwrite } {
 	close $sM
 	file copy -force tmp $SME
 	file delete tmp
+}
+if {$windowcount($raid) > 11 } {
+  puts "Switching to lowrez.config.wtf!"
+  file copy -force "WTF\\lowrez.config.wtf" "WTF\\config.wtf"
+} elseif {$windowcount($raid) > 6 } {
+  puts "Switching to medrez.config.wtf!"
+  file copy -force "WTF\\medrez.config.wtf" "WTF\\config.wtf"
+} else {
+  puts "Switching to hirez.config.wtf!"
+  file copy -force "WTF\\hirez.config.wtf" "WTF\\config.wtf"
 }
 puts "YOU CAN CLOSE THIS WINDOW NOW."

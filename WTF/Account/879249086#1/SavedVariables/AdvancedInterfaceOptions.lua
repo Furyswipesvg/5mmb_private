@@ -12,6 +12,7 @@ AdvancedInterfaceOptionsSaved = {
 		["autolootdefault"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:832",
 		["rotateminimap"] = "Interface/FrameXML/Minimap.lua:352",
 		["autoselfcast"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:838",
+		["advjournallastopened"] = "Interface/FrameXML/MainMenuBarMicroButtons.lua:1215",
 		["autopushspelltoactionbar"] = "Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialWatchers.lua:19",
 		["enablefloatingcombattext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:825",
 		["renderscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:821",

@@ -9,13 +9,5 @@ box secondfsmbraid02@maildrop.cc	iso2tope	wow1 glor-bladefist		caster
 box secondfsmbraid03@maildrop.cc	iso2tope	wow1 cheated-bladefist		caster
 box secondfsmbraid04@maildrop.cc	iso2tope	wow1 streamist-bladefist	caster
 box secondfsmbraid05@maildrop.cc	iso2tope	wow1 piq-bladefist		caster
-#box neeks1@comcast.net iso2tope sixtyforever Basilar-nathrezim caster 
-box neeks1@comcast.net iso2tope sixtyforever Chaostard-illidan caster 
-
-
-#box neeks1@comcast.net iso2tope sixtyforever cheat tank f
-#box neeks1@comcast.net iso2tope toddtope btfo caster
-#box neeks1@comcast.net iso2tope neeks1 married healer
-#box neeks1@comcast.net iso2tope wow1 psh caster
-#box neeks1@comcast.net iso2tope elitope coolness caster
+box myclassicmb01@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
 

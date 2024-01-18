@@ -3,126 +3,6 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
-		{
-			2325, -- [1]
-			"Tunk", -- [2]
-		}, -- [1]
-		[8148] = {
-			585, -- [1]
-			"Lady Anacondra", -- [2]
-		},
-		[306399] = {
-			2325, -- [1]
-			"Darkmaul Centurion", -- [2]
-		},
-		[119420] = {
-			1443, -- [1]
-			"Adarogg", -- [2]
-		},
-		[8040] = {
-			585, -- [1]
-			"Lady Anacondra", -- [2]
-		},
-		[308463] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[744] = {
-			586, -- [1]
-			"Lord Cobrahn", -- [2]
-		},
-		[6254] = {
-			589, -- [1]
-			"Skum", -- [2]
-		},
-		[119433] = {
-			1445, -- [1]
-			"Slagmaw", -- [2]
-		},
-		[120024] = {
-			1446, -- [1]
-			"Lava Guard Gordoth", -- [2]
-		},
-		[12167] = {
-			590, -- [1]
-			"Lord Serpentis", -- [2]
-		},
-		[7399] = {
-			590, -- [1]
-			"Deviate Dreadfang", -- [2]
-		},
-		[119999] = {
-			1446, -- [1]
-			"Lava Guard Gordoth", -- [2]
-		},
-		[11431] = {
-			588, -- [1]
-			"Lord Pythas", -- [2]
-		},
-		[8142] = {
-			591, -- [1]
-			"Verdan the Everliving", -- [2]
-		},
-		[9532] = {
-			585, -- [1]
-			"Druid of the Fang", -- [2]
-		},
-		[8150] = {
-			592, -- [1]
-			"Mutanus the Devourer", -- [2]
-		},
-		[306389] = {
-			2325, -- [1]
-			"Darkmaul Centurion", -- [2]
-		},
-		[119405] = {
-			1443, -- [1]
-			"Adarogg", -- [2]
-		},
-		[119300] = {
-			1444, -- [1]
-			"Dark Shaman Koranthal", -- [2]
-		},
-		[7965] = {
-			586, -- [1]
-			"Lord Cobrahn", -- [2]
-		},
-		[308455] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[20295] = {
-			585, -- [1]
-			"Lady Anacondra", -- [2]
-		},
-		[8147] = {
-			588, -- [1]
-			"Lord Pythas", -- [2]
-		},
-		[119434] = {
-			1445, -- [1]
-			"Slagmaw", -- [2]
-		},
-		[321240] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[50420] = {
-			1446, -- [1]
-			"Lava Guard Gordoth", -- [2]
-		},
-		[23381] = {
-			585, -- [1]
-			"Lady Anacondra", -- [2]
-		},
-		[305913] = {
-			2326, -- [1]
-			"Gor'groth", -- [2]
-		},
-		[20805] = {
-			588, -- [1]
-			"Lord Pythas", -- [2]
-		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -714,6 +594,12 @@ _detalhes_global = {
 		},
 	},
 	["global_plugin_database"] = {
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["encounter_timers_bw"] = {
+			},
+			["encounter_timers_dbm"] = {
+			},
+		},
 	},
 	["savedCustomSpells"] = {
 		{
@@ -1191,12 +1077,17 @@ _detalhes_global = {
 			"|T839910:14:14:0:0:14:14:1:12:1:12|t Water's Beating Hear", -- [2]
 			839910, -- [3]
 		}, -- [95]
+		{
+			426648, -- [1]
+			"|T5351062:14:14:0:0:14:14:1:12:1:12|t Pip's Emerald Friend (*mast*)", -- [2]
+			5342919, -- [3]
+		}, -- [96]
 	},
 	["keystone_cache"] = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 310.9998779296875,
+		["spellcontainer_height"] = 310.9999084472656,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1211,20 +1102,20 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 455.999755859375,
+		["blockcontainer_width"] = 456,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 429.0001220703125,
+		["spellcontainer_width"] = 429.0000915527344,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 139.9999542236328,
+		["phasecontainer_height"] = 139.9999847412109,
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 290,
+		["phasecontainer_width"] = 289.9999084472656,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1256,18 +1147,18 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 429.0001220703125,
+		["targetcontainer_width"] = 429.0000915527344,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 139.9999542236328,
+		["targetcontainer_height"] = 139.9999847412109,
 		["nest_pet_spells_by_name"] = false,
 		["nest_players_spells_with_same_name"] = true,
 		["blockspell_spark_offset"] = -1,
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 270.0000915527344,
+		["blockcontainer_height"] = 270.0000610351563,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1277,104 +1168,24 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 404,
+	["combat_id_global"] = 419,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 0,
-		["x"] = 0.000213623046875,
+		["y"] = 7.62939453125e-05,
+		["x"] = 6.103515625e-05,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 26534,
+	["last_changelog_size"] = 27716,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 1704160546,
 	["npcid_pool"] = {
-		[0] = "[*] Lava",
-		[157328] = "Darkmaul Channeler",
-		[3634] = "Deviate Stalker",
-		[153582] = "Wug",
-		[156900] = "Hrun the Exiled",
-		[156821] = "Darkmaul Shadowcaller",
-		[3636] = "Deviate Ravager",
-		[153964] = "Bloodbeak",
-		[3637] = "Deviate Guardian",
-		[3415] = "Savannah Huntress",
-		[151091] = "Geolord Grek'og",
-		[153266] = "Killclaw the Terrible",
-		[3638] = "Devouring Ectoplasm",
-		[3670] = "Lord Pythas",
-		[5912] = "Deviate Faerie Dragon",
-		[3671] = "Lady Anacondra",
-		[165189] = "Wolf",
-		[61657] = "Adolescent Flame Hound",
-		[3640] = "Evolving Ectoplasm",
-		[3641] = "Deviate Lurker",
-		[157300] = "Tunk",
-		[152998] = "Hunting Worg",
-		[3674] = "Skum",
-		[61705] = "Corrupted Flamecaller",
-		[61463] = "Slagmaw",
-		[156825] = "Darkmaul Centurion",
-		[150237] = "Quilboar Warrior",
-		[152571] = "Harpy Snatcher",
-		[153238] = "Tamed Boar",
-		[150238] = "Quilboar Geomancer",
-		[26125] = "Skulltaker <Furrok-LaughingSkull>",
-		[153239] = "Ogre Brute",
-		[20797] = "Deviate Coiler Hatchling",
-		[61408] = "Adarogg",
-		[61666] = "Corrupted Houndmaster",
-		[152843] = "Harpy Boltcaller",
-		[3840] = "Druid of the Fang",
-		[3110] = "Dreadmaw Crocolisk",
-		[3269] = "Razormane Geomancer",
-		[8886] = "Deviate Python",
-		[5048] = "Deviate Adder",
-		[3271] = "Razormane Mystic",
-		[160433] = "Barrow Spiderling",
-		[153242] = "Ogre Shadowcaster",
-		[156814] = "Gor'groth",
-		[5053] = "Deviate Crocolisk",
-		[3527] = "Healing Stream Totem <Categorysix-Sargeras>",
-		[1502] = "Wretched Ghoul",
-		[3655] = "Mad Magglish",
-		[5056] = "Deviate Dreadfang",
-		[61528] = "Lava Guard Gordoth",
-		[5756] = "Deviate Venomwing",
-		[3654] = "Mutanus the Devourer",
-		[5055] = "Deviate Lasher",
-		[162817] = "Torgok",
-		[166262] = "Decaying Corpse",
-		[5761] = "Deviate Shambler",
-		[5775] = "Verdan the Everliving",
-		[5762] = "Deviate Moccasin",
-		[3673] = "Lord Serpentis",
-		[5763] = "Nightmare Ectoplasm",
-		[3669] = "Lord Cobrahn",
-		[5755] = "Deviate Viper",
-		[61672] = "Dark Shaman Acolyte",
-		[34503] = "Razormane Pillager",
-		[154103] = "Ogre Chef",
-		[156913] = "Decaying Corpse",
-		[61658] = "Mature Flame Hound",
-		[62131] = "Plainsland Cheetah",
-		[3630] = "Deviate Coiler",
-		[160394] = "Barrow Spider",
-		[3631] = "Deviate Stinglash",
-		[156501] = "Ravnyr",
-		[3123] = "Bloodtalon Scythemaw",
-		[61678] = "Corrupted Reaver",
-		[156676] = "Ogre Overseer",
-		[61412] = "Dark Shaman Koranthal",
-		[3632] = "Deviate Creeper",
-		[153583] = "Jugnug",
-		[3265] = "Razormane Hunter",
-		[153581] = "Grunk",
-		[3633] = "Deviate Slayer",
-		[3127] = "Venomtail Scorpid",
+		[6010] = "Felhound",
+		[5990] = "Redstone Basilisk",
+		[210886] = "Legion Flak Cannon",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1384,254 +1195,35 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
-		10, -- [1]
-		3, -- [2]
-		"Environment (Falling)", -- [3]
-		[148022] = 8,
-		[119434] = "Slagmaw",
-		[5394] = 7,
-		[117952] = 10,
-		[7947] = "Deviate Viper",
-		[120024] = "Lava Guard Gordoth",
-		[7951] = "Deviate Venomwing",
-		[66] = 8,
-		[127802] = 10,
-		[2584] = 9,
-		[45438] = 8,
-		[53351] = 3,
-		[386124] = 9,
-		[30449] = 8,
-		[7965] = "Lord Cobrahn",
-		[8150] = "Mutanus the Devourer",
-		[108853] = 8,
-		[110645] = 3,
-		[49088] = 6,
-		[259014] = 3,
-		[122] = 8,
-		[192109] = 7,
-		[56641] = 3,
-		[119420] = "Adarogg",
-		[7399] = "Deviate Dreadfang",
-		[7342] = "Deviate Lasher",
-		[52212] = 6,
-		[11334] = 3,
-		[17253] = "Bat <Badoinker>",
-		[320976] = 3,
-		[167152] = 3,
-		[387847] = 9,
-		[47541] = 6,
-		[193455] = 3,
-		[781] = 3,
-		[143924] = 3,
-		[23381] = "Lady Anacondra",
-		[25859] = 3,
-		[119405] = "Adarogg",
-		[315496] = 4,
-		[313010] = 10,
-		[5938] = 4,
-		[163201] = 1,
-		[408] = 4,
-		[5143] = 8,
-		[440] = 3,
-		[44425] = 8,
-		[59913] = 3,
-		[974] = 7,
-		[16827] = "Bear <Babadoink>",
-		[133] = 8,
-		[6262] = 9,
-		[120166] = "Corrupted Reaver",
-		[260708] = 1,
-		[153640] = 8,
-		[5374] = 4,
-		[30451] = 8,
-		[50420] = "Lava Guard Gordoth",
-		[63560] = 6,
-		[5116] = 3,
-		[8004] = 7,
-		[12167] = "Lord Serpentis",
-		[1766] = 4,
-		[11426] = 8,
-		[120076] = "Mature Flame Hound",
-		[272790] = 3,
-		[48707] = 6,
-		[55090] = 6,
-		[75] = 3,
-		[6673] = 1,
-		[34428] = 1,
-		[62061] = 3,
-		[382440] = 8,
-		[185358] = 3,
-		[147362] = 3,
-		[118922] = 3,
-		[306389] = "Darkmaul Centurion",
-		[190331] = "Shuja Grimaxe",
-		[47528] = 6,
-		[49576] = 6,
-		[259277] = "Bat <Badoinker>",
-		[115196] = 4,
-		[7268] = 8,
-		[343883] = "Shuja Grimaxe",
-		[1953] = 8,
-		[382445] = 8,
-		[305913] = "Darkmaul Shadowcaller",
-		[43265] = 6,
-		[6254] = "Skum",
-		[8040] = "Lady Anacondra",
-		[8041] = "Druid of the Fang",
-		[47632] = 6,
-		[109304] = 3,
-		[116616] = 3,
-		[6770] = 4,
-		[315584] = 4,
-		[188389] = 7,
-		[51505] = 7,
-		[2120] = 8,
-		[100784] = 10,
-		[318125] = "Warlord Breka Grimaxe",
-		[119903] = "Dark Shaman Acolyte",
-		[116670] = 10,
-		[305567] = "Ravnyr",
-		[306396] = 3,
-		[283408] = "Warlord Breka Grimaxe",
-		[260364] = 4,
-		[119999] = "Lava Guard Gordoth",
-		[1449] = 8,
-		[231390] = 3,
-		[246152] = 3,
 		[17462] = 3,
-		[982] = 3,
-		[235450] = 8,
-		[1833] = 4,
-		[121147] = 6,
-		[306399] = "Darkmaul Centurion",
-		[1515] = 3,
-		[259285] = 3,
-		[259760] = 8,
-		[53365] = 6,
-		[273844] = "Shuja Grimaxe",
-		[246851] = 3,
-		[20295] = "Lady Anacondra",
-		[3408] = 4,
-		[186257] = 3,
-		[3409] = 4,
-		[19434] = 3,
-		[2645] = 7,
-		[196840] = 7,
-		[120112] = "Corrupted Flamecaller",
-		[6552] = 1,
-		[136] = 3,
-		[100780] = 10,
-		[134573] = 3,
-		[195757] = 6,
-		[2649] = 1,
-		[8148] = "Lady Anacondra",
-		[1329] = 4,
-		[8147] = "Lord Pythas",
-		[315585] = 4,
-		[30455] = 8,
-		[116] = 8,
-		[119300] = "Dark Shaman Koranthal",
-		[91776] = "Skulltaker <Furrok-LaughingSkull>",
-		[109132] = 10,
-		[9532] = "Druid of the Fang",
-		[3355] = 3,
-		[1459] = 8,
-		[322101] = 10,
-		[260242] = 3,
-		[20805] = "Lord Pythas",
-		[1715] = 1,
-		[52042] = "Healing Stream Totem <Categorysix-Sargeras>",
-		[379] = 7,
-		[45470] = 6,
-		[322729] = 10,
-		[126664] = 1,
-		[61684] = 1,
-		[190925] = 3,
-		[59914] = 7,
-		[115175] = 10,
-		[187650] = 3,
-		[262232] = 1,
-		[119381] = 10,
-		[325345] = 3,
-		[744] = "Lord Cobrahn",
-		[702] = 9,
-		[1464] = 1,
-		[49998] = 6,
-		[321330] = "Darkmaul Channeler",
-		[31224] = 4,
-		[217200] = 3,
-		[325347] = 3,
-		[128594] = 3,
-		[325348] = 3,
-		[197834] = 4,
-		[12654] = 8,
-		[369451] = 3,
-		[686] = 9,
-		[308455] = "Tunk",
-		[57755] = 1,
-		[44535] = 4,
-		[91778] = "Skulltaker <Furrok-LaughingSkull>",
-		[70890] = 6,
-		[1784] = 4,
-		[260286] = 3,
-		[171845] = 3,
-		[107270] = 10,
-		[186265] = 3,
-		[86392] = 4,
-		[8142] = "Verdan the Everliving",
-		[100] = 1,
-		[260369] = 4,
-		[258845] = 9,
-		[36554] = 4,
-		[318149] = "Warlord Breka Grimaxe",
-		[267213] = 9,
-		[84714] = 8,
-		[268616] = 3,
-		[305515] = "Ravnyr",
-		[257284] = 3,
-		[137211] = 6,
-		[11431] = "Lord Pythas",
-		[318151] = "Warlord Breka Grimaxe",
-		[228597] = 8,
-		[312924] = 10,
-		[185311] = 4,
-		[318152] = "Warlord Breka Grimaxe",
-		[83381] = "Bear <Babadoink>",
-		[45524] = 6,
-		[188443] = 7,
-		[308463] = "Tunk",
-		[228598] = 8,
-		[26157] = 3,
-		[355] = 1,
-		[108366] = 9,
-		[115129] = 10,
-		[186270] = 3,
-		[234153] = 9,
-		[259756] = 8,
-		[260798] = 1,
-		[118779] = 1,
-		[285452] = 7,
-		[344955] = 6,
+		[231390] = 3,
 		[263140] = 3,
-		[85948] = 6,
-		[91800] = "Skulltaker <Furrok-LaughingSkull>",
-		[8676] = 4,
-		[84721] = 8,
-		[3716] = "Barnagma <Celaenas-BloodFurnace>",
-		[119433] = "Slagmaw",
-		[6653] = 3,
-		[235313] = 8,
-		[193315] = 4,
-		[195707] = 1,
-		[194311] = 6,
-		[61295] = 7,
-		[5384] = 3,
-		[34026] = 3,
-		[321240] = "Tunk",
+		[386164] = 1,
+		[6653] = 8,
+		[214802] = 3,
+		[32223] = 2,
+		[124275] = 10,
+		[31884] = 2,
+		[18989] = 7,
+		[127290] = 10,
+		[335149] = 3,
+		[8395] = 11,
+		[20572] = 4,
+		[225080] = 7,
+		[23161] = 9,
+		[31230] = 4,
+		[45182] = 4,
+		[214803] = 3,
+		[214807] = 3,
+		[5784] = 9,
+		[45181] = 4,
+		[280398] = 5,
+		[34767] = 2,
+		[69820] = 2,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1703906862,
+	["latest_encounter_spell_pool_access"] = 1704981916,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["raid_data"] = {
@@ -3488,10 +3080,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -162.768310546875,
-							["x"] = 428.7070922851563,
-							["w"] = 310.0003662109375,
-							["h"] = 158.0000457763672,
+							["y"] = -162.767822265625,
+							["x"] = 444.7581176757813,
+							["w"] = 310.0004577636719,
+							["h"] = 158.0001373291016,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -3896,8 +3488,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -162.768310546875,
-						["x"] = -219.16552734375,
+						["y"] = -162.7678375244141,
+						["x"] = -219.164306640625,
 						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
@@ -3927,10 +3519,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -162.768310546875,
-							["x"] = 428.7070922851563,
-							["w"] = 310.0003662109375,
-							["h"] = 158.0000457763672,
+							["y"] = -162.767822265625,
+							["x"] = 444.7581176757813,
+							["w"] = 310.0004577636719,
+							["h"] = 158.0001373291016,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -5790,7 +5382,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1703906862,
+		["latest_boss_mods_access"] = 1704981916,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -5802,10 +5394,10 @@ _detalhes_global = {
 	["class_time_played"] = {
 		[8] = {
 			["MONK"] = 3181.643,
-			["HUNTER"] = 35230.60800000001,
+			["HUNTER"] = 75442.46300000008,
 		},
 	},
-	["latest_spell_pool_access"] = 1703906862,
+	["latest_spell_pool_access"] = 1704981916,
 	["slash_me_used"] = false,
 	["details_auras"] = {
 	},
@@ -5836,7 +5428,7 @@ _detalhes_global = {
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["latest_npcid_pool_access"] = 1703906862,
+	["latest_npcid_pool_access"] = 1704981916,
 	["exit_errors"] = {
 	},
 	["parser_options"] = {
@@ -5851,8 +5443,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 40,
-		["logons"] = 40,
+		["main_help_button"] = 76,
+		["logons"] = 76,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -5913,7 +5505,7 @@ _detalhes_global = {
 	["spell_category_latest_query"] = 0,
 	["savedTimeCaptures"] = {
 	},
-	["latest_news_saw"] = "10.2.0 12190",
+	["latest_news_saw"] = "10.2.5 12221",
 	["damage_scroll_position"] = {
 		["scale"] = 1,
 	},
@@ -6018,36 +5610,38 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-01-01 17:23:42 | actor removed Fallenronin-Illidan (ungrouped)", -- [1]
-		"2024-01-01 17:23:42 | actor removed Kor'kron Elite (ungrouped)", -- [2]
-		"2024-01-01 17:23:42 | actor removed Adolescent Flame Hound (ungrouped)", -- [3]
-		"2024-01-01 17:23:42 | actor removed Bat <Doinkado> (disposable)", -- [4]
-		"2024-01-01 17:23:42 | actor removed Bat <Badoinker> (disposable)", -- [5]
-		"2024-01-01 17:23:42 | actor removed Bat <Choinker> (disposable)", -- [6]
-		"2024-01-01 17:23:42 | actor removed Adolescent Flame Hound (disposable)", -- [7]
-		"2024-01-01 17:23:42 | actor removed Kor'kron Elite (disposable)", -- [8]
-		"2024-01-01 15:46:38 | actor removed Windpaw-Cenarius (ungrouped)", -- [9]
-		"2024-01-01 15:45:16 | actor removed Bird of Prey <Choinker> (disposable)", -- [10]
-		"2024-01-01 15:45:16 | actor removed Wolf <Spadoink> (disposable)", -- [11]
-		"2024-01-01 15:45:16 | actor removed Bear <Babadoink> (disposable)", -- [12]
-		"2024-01-01 15:45:16 | actor removed Bird of Prey <Doinkado> (disposable)", -- [13]
-		"2024-01-01 15:45:16 | actor removed Bird of Prey <Badoinker> (disposable)", -- [14]
-		"2024-01-01 15:45:16 | actor removed Bat <Doinkado> (disposable)", -- [15]
-		"2024-01-01 15:45:16 | actor removed Bat <Badoinker> (disposable)", -- [16]
-		"2024-01-01 15:45:16 | actor removed Bat <Choinker> (disposable)", -- [17]
-		"2024-01-01 15:45:06 | actor removed Bird of Prey <Choinker> (disposable)", -- [18]
-		"2024-01-01 15:45:06 | actor removed Wolf <Spadoink> (disposable)", -- [19]
-		"2024-01-01 15:45:06 | actor removed Bear <Babadoink> (disposable)", -- [20]
-		"2024-01-01 15:45:06 | actor removed Bird of Prey <Doinkado> (disposable)", -- [21]
-		"2024-01-01 15:45:06 | actor removed Bird of Prey <Badoinker> (disposable)", -- [22]
-		"2024-01-01 15:45:06 | actor removed Bat <Doinkado> (disposable)", -- [23]
-		"2024-01-01 15:45:06 | actor removed Bat <Badoinker> (disposable)", -- [24]
-		"2024-01-01 15:45:06 | actor removed Bat <Choinker> (disposable)", -- [25]
-		"2024-01-01 15:26:07 | actor removed Htuo-Ner'zhul (ungrouped)", -- [26]
-		"2024-01-01 15:26:07 | actor removed Ogre Shadowcaster (ungrouped)", -- [27]
-		"2024-01-01 15:26:07 | actor removed Turtle (ungrouped)", -- [28]
-		"2024-01-01 15:26:07 | actor removed Turtle <Apamda-Ner'zhul> (orphan)", -- [29]
+		"2024-01-16 17:46:01 | actor removed Zaney (ungrouped)", -- [1]
+		"2024-01-16 17:46:01 | actor removed Zaney (ungrouped)", -- [2]
+		"2024-01-16 17:46:01 | actor removed Zaney (ungrouped)", -- [3]
+		"2024-01-16 17:46:01 | actor removed Training Dummy (ungrouped)", -- [4]
+		"2024-01-15 11:35:27 | actor removed Coldman-Cenarius (ungrouped)", -- [5]
+		"2024-01-12 16:20:42 | actor removed Pincersup <Throwchain-Perenolde> (orphan)", -- [6]
+		"2024-01-12 16:20:42 | actor removed Throwchain-Perenolde (ungrouped)", -- [7]
+		"2024-01-12 12:29:07 | actor removed Xicohtencalt-Proudmoore (ungrouped)", -- [8]
+		"2024-01-12 12:29:07 | actor removed Spirit Wolf <Xicohtencalt-Proudmoore> (orphan)", -- [9]
+		"2024-01-12 12:29:07 | actor removed Xicohtencalt-Proudmoore (ungrouped)", -- [10]
+		"2024-01-12 12:29:07 | actor removed Training Dummy (ungrouped)", -- [11]
+		"2024-01-11 21:55:44 | actor removed Furyswipes (ungrouped)", -- [12]
+		"2024-01-11 21:55:44 | actor removed Getln (ungrouped)", -- [13]
+		"2024-01-11 21:25:34 | actor removed Wolf <Sylvanus-Perenolde> (orphan)", -- [14]
+		"2024-01-11 21:25:34 | actor removed Sylvanus-Perenolde (ungrouped)", -- [15]
+		"2024-01-11 21:25:34 | actor removed Training Dummy (ungrouped)", -- [16]
+		"2024-01-11 06:30:08 | actor removed Ævatar-Blackrock (ungrouped)", -- [17]
+		"2024-01-11 06:30:08 | actor removed Furyswipes (ungrouped)", -- [18]
+		"2024-01-11 06:30:08 | actor removed Nanaimo-Bloodscalp (ungrouped)", -- [19]
+		"2024-01-11 06:30:08 | actor removed Slackjawed-Winterhoof (ungrouped)", -- [20]
+		"2024-01-11 06:30:08 | actor removed Ævatar-Blackrock (ungrouped)", -- [21]
+		"2024-01-11 06:30:08 | actor removed Slackjawed-Winterhoof (ungrouped)", -- [22]
+		"2024-01-11 06:30:08 | actor removed Slackjawed-Winterhoof (ungrouped)", -- [23]
+		"2024-01-11 06:30:08 | actor removed Nanaimo-Bloodscalp (ungrouped)", -- [24]
+		"2024-01-11 06:30:08 | actor removed Ævatar-Blackrock (ungrouped)", -- [25]
+		"2024-01-11 06:30:08 | actor removed Environment (Falling) (ungrouped)", -- [26]
+		"2024-01-11 06:30:08 | actor removed Training Dummy (ungrouped)", -- [27]
+		"2024-01-11 06:20:34 | actor removed Summerlin (ungrouped)", -- [28]
+		"2024-01-11 06:20:34 | actor removed Furyswipes (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
 	},
+}
+__details_debug = {
 }

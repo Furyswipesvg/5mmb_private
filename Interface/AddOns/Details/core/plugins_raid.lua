@@ -245,7 +245,7 @@
 			if (GetNumGroupMembers (LE_PARTY_CATEGORY_INSTANCE) > 0) then
 				channel = "INSTANCE_CHAT"
 			end
-			--SendChatMessage (msg, channel)
+			SendChatMessage (msg, channel)
 
 		elseif (channel == "BNET") then
 
@@ -264,17 +264,17 @@
 			end
 
 		elseif (channel == "CHANNEL") then
-			--SendChatMessage (msg, channel, nil, GetChannelName (towho))
+			SendChatMessage (msg, channel, nil, GetChannelName (towho))
 
 		elseif (channel == "WHISPER") then
-			--SendChatMessage (msg, channel, nil, towho)
+			SendChatMessage (msg, channel, nil, towho)
 
 		elseif (channel == "PRINT") then
 			print(msg)
 
 		else --say channel?
 			if (IsInInstance()) then --patch 80205 cannot use 'say' channel outside instances
-				--SendChatMessage (msg, channel)
+				SendChatMessage (msg, channel)
 			end
 
 		--elseif (channel == "SAY" or channel == "YELL" or channel == "RAID_WARNING" or channel == "OFFICER" or channel == "GUILD" or channel == "EMOTE") then

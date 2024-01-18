@@ -1,132 +1,148 @@
-VER 3 0000000000000B93 "a10_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EAF "a10_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Sanguiner
+/assist Funkmunk
 END
-VER 3 0000000000000B8A "a1_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EA6 "a1_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Furyswipes
+/assist Getln
 END
-VER 3 0000000000000B8B "a2_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EA7 "a2_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Smirky
+/assist Neversmile
 END
-VER 3 0000000000000B8C "a3_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EA8 "a3_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Itcantbee
+/assist Goodlivin
 END
-VER 3 0000000000000B8D "a4_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 0
-END
-VER 3 0000000000000B8E "a5_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EA9 "a4_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Arrowkneeuno
+/assist Eversmile
 END
-VER 3 0000000000000B8F "a6_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EAA "a5_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Deadlnside
+/assist Aslf
 END
-VER 3 0000000000000B90 "a7_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EAB "a6_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Loonkin
+/assist Toofy
 END
-VER 3 0000000000000B91 "a8_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EAC "a7_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Hunterhead
+/assist Mypetsux
 END
-VER 3 0000000000000B92 "a9_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000EAD "a8_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Whatsupsucka
+/assist Opmageikr
 END
-VER 3 0000000000000B9D "AOE_FS_OUTLAW" "spell_fire_selfdestruct"
+VER 3 0000000000000EAE "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Frawshawwk
+END
+VER 3 0000000000000EB9 "AOE_FS_OUTLAW" "spell_fire_selfdestruct"
 #showtooltip
 /click [button:1] AOE_FS_OUTLAW LeftButton t;
 END
-VER 3 0000000000000B97 "dance_fs" "ability_DRUID_aquaticform"
+VER 3 0000000000000EBC "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 0000000000000EB3 "dance_fs" "ability_DRUID_aquaticform"
 /dance
 END
-VER 3 000000000000082C "delete_trash" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000E99 "delete_trash_fs" "Ability_HUNTER_pathfinding"
 /run AutoDelete()
 END
-VER 3 0000000000000B88 "f10_fs" "Ability_hunter_pet_gorilla"
-/follow Sanguiner
+VER 3 0000000000000EA4 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Funkmunk
 /run SetView(4)
 END
-VER 3 0000000000000B7F "f1_fs" "Ability_hunter_pet_gorilla"
-/follow Furyswipes
+VER 3 0000000000000E9B "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
 /run SetView(4)
 END
-VER 3 0000000000000B80 "f2_fs" "Ability_hunter_pet_gorilla"
-/follow Smirky
+VER 3 0000000000000E9C "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Neversmile
 /run SetView(4)
 END
-VER 3 0000000000000B81 "f3_fs" "Ability_hunter_pet_gorilla"
-/follow Itcantbee
+VER 3 0000000000000E9D "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Goodlivin
 /run SetView(4)
 END
-VER 3 0000000000000B82 "f4_fs" "Ability_hunter_pet_gorilla"
-END
-VER 3 0000000000000B83 "f5_fs" "Ability_hunter_pet_gorilla"
-/follow Arrowkneeuno
+VER 3 0000000000000E9E "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Eversmile
 /run SetView(4)
 END
-VER 3 0000000000000B84 "f6_fs" "Ability_hunter_pet_gorilla"
-/follow Deadlnside
+VER 3 0000000000000E9F "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Aslf
 /run SetView(4)
 END
-VER 3 0000000000000B85 "f7_fs" "Ability_hunter_pet_gorilla"
-/follow Loonkin
+VER 3 0000000000000EA0 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Toofy
 /run SetView(4)
 END
-VER 3 0000000000000B86 "f8_fs" "Ability_hunter_pet_gorilla"
-/follow Hunterhead
+VER 3 0000000000000EA1 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Mypetsux
 /run SetView(4)
 END
-VER 3 0000000000000B87 "f9_fs" "Ability_hunter_pet_gorilla"
-/follow Whatsupsucka
+VER 3 0000000000000EA2 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Opmageikr
 /run SetView(4)
 END
-VER 3 0000000000000B89 "init_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000EA3 "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Frawshawwk
+/run SetView(4)
+END
+VER 3 0000000000000E9A "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000EBD "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 0000000000000EA5 "init_fs" "Ability_HUNTER_pathfinding"
 /init
 END
-VER 3 0000000000000B9F "int_fs" "INV_Misc_Questionmark"
+VER 3 0000000000000EBB "int_fs" "INV_Misc_Questionmark"
 /cast Kick
 END
-VER 3 0000000000000B96 "leave_fs" "spell_nature_purge"
+VER 3 0000000000000EB2 "leave_fs" "spell_nature_purge"
 /script C_PartyInfo.LeaveParty()
 END
-VER 3 0000000000000B94 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+VER 3 0000000000000EB0 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
 /follow Itcantbee
 END
-VER 3 0000000000000B9B "MULTI_FS_OUTLAW" "ability_upgrademoonglaive"
+VER 3 0000000000000EB7 "MULTI_FS_OUTLAW" "ability_upgrademoonglaive"
 #showtooltip
 /click [button:1] MULTI_FS_OUTLAW LeftButton t;
 END
-VER 3 0000000000000B7E "party_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000E98 "party_fs" "Ability_HUNTER_pathfinding"
 /run PartyUp()
 END
-VER 3 0000000000000B98 "poly_fs" "INV_Misc_QuestionMark"
+VER 3 0000000000000EB4 "poly_fs" "INV_Misc_QuestionMark"
 /cast Sap
 END
-VER 3 0000000000000B95 "reload_fs" "spell_frost_stun"
+VER 3 0000000000000EB1 "reload_fs" "spell_frost_stun"
 /reload
 END
-VER 3 0000000000000B99 "SETUP_FS_OUTLAW" "Spell_magic_polymorphchicken"
+VER 3 0000000000000EB5 "SETUP_FS_OUTLAW" "Spell_magic_polymorphchicken"
 #showtooltip
 /click [button:1] SETUP_FS_OUTLAW LeftButton t;
 /petpassive [mod:alt]
 /stopcasting [mod:alt]
 END
-VER 3 0000000000000B9E "SHEAL_FS_OUTLAW" "spell_nature_healingtouch"
+VER 3 0000000000000EBA "SHEAL_FS_OUTLAW" "spell_nature_healingtouch"
 #showtooltip
 /click [button:1] SHEAL_FS_OUTLAW LeftButton t;
 END
-VER 3 0000000000000B9A "SINGLE_FS_OUTLAW" "ability_searingarrow"
+VER 3 0000000000000EB6 "SINGLE_FS_OUTLAW" "ability_searingarrow"
 #showtooltip
 /click [button:1] SINGLE_FS_OUTLAW LeftButton t;
 END
-VER 3 0000000000000B9C "TURBO_FS_OUTLAW" "Spell_nature_lightning"
+VER 3 0000000000000EB8 "TURBO_FS_OUTLAW" "Spell_nature_lightning"
 #showtooltip
 /click [button:1] TURBO_FS_OUTLAW LeftButton t;
 /petpassive [mod:alt]
+/run mountup()
 /run SetView(4)
+END
+VER 3 0000000000000EBE "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
 END

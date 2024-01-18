@@ -88,10 +88,10 @@ GSEOptions = {
 	["INDENT"] = "|cffccaa88",
 	["PromptSample"] = true,
 	["filterList"] = {
-		["Class"] = true,
 		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["hideUIErrors"] = false,
 	["UseVerboseExportFormat"] = false,

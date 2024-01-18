@@ -3,26 +3,6 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
-		{
-			2325, -- [1]
-			"Tunk", -- [2]
-		}, -- [1]
-		[308455] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[308527] = {
-			2326, -- [1]
-			"Gor'groth", -- [2]
-		},
-		[308463] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[321240] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -191,13 +171,13 @@ _detalhes_global = {
 			["spellName"] = "Lava Wave",
 		},
 		[270827] = {
-			["lastPlayerName"] = "",
+			["lastPlayerName"] = "Springvalley",
 			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
-			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["lastCombatId"] = 149,
+			["lastActivation"] = 1704947942.877,
 			["maxTime"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
 		},
@@ -1089,12 +1069,17 @@ _detalhes_global = {
 			"|T839910:14:14:0:0:14:14:1:12:1:12|t Water's Beating Hear", -- [2]
 			839910, -- [3]
 		}, -- [95]
+		{
+			426648, -- [1]
+			"|T5351062:14:14:0:0:14:14:1:12:1:12|t Pip's Emerald Friend (*mast*)", -- [2]
+			5342919, -- [3]
+		}, -- [96]
 	},
 	["keystone_cache"] = {
 	},
 	["breakdown_spell_tab"] = {
 		["nest_players_spells_with_same_name"] = true,
-		["spellcontainer_height"] = 311.0000610351563,
+		["spellcontainer_height"] = 311,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1109,16 +1094,16 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456.0000915527344,
+		["blockcontainer_width"] = 455.9999084472656,
 		["genericcontainer_width"] = 429,
-		["spellcontainer_width"] = 428.9999389648438,
+		["spellcontainer_width"] = 428.9999084472656,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 139.9999847412109,
+		["phasecontainer_height"] = 139.9999694824219,
 		["phasecontainer_enabled"] = true,
 		["targetcontainer_islocked"] = true,
 		["phasecontainer_width"] = 290,
@@ -1153,9 +1138,9 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 428.9999389648438,
+		["targetcontainer_width"] = 428.9999084472656,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 139.9999847412109,
+		["targetcontainer_height"] = 139.9999694824219,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["nest_pet_spells_by_name"] = false,
@@ -1164,7 +1149,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 269.9999694824219,
+		["blockcontainer_height"] = 269.9999389648438,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1175,12 +1160,12 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 129,
+	["combat_id_global"] = 149,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
 		["y"] = 1.52587890625e-05,
-		["x"] = -4.57763671875e-05,
+		["x"] = 4.57763671875e-05,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1190,38 +1175,7 @@ _detalhes_global = {
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[157300] = "Tunk",
-		[156986] = "Ogre Taskmaster",
-		[155192] = "Harpy Ambusher",
-		[166262] = "Decaying Corpse",
-		[157091] = "Monstrous Cadaver",
-		[153964] = "Bloodbeak",
-		[156913] = "Decaying Corpse",
-		[169162] = "Hunting Worg",
-		[160433] = "Barrow Spiderling",
-		[157328] = "Darkmaul Channeler",
-		[153581] = "Grunk",
-		[150237] = "Quilboar Warrior",
-		[61657] = "Adolescent Flame Hound",
-		[153242] = "Ogre Shadowcaster",
-		[156821] = "Darkmaul Shadowcaller",
-		[156825] = "Darkmaul Centurion",
-		[160394] = "Barrow Spider",
-		[156501] = "Ravnyr",
-		[153582] = "Wug",
-		[150238] = "Quilboar Geomancer",
-		[156814] = "Gor'groth",
-		[152571] = "Harpy Snatcher",
-		[153583] = "Jugnug",
-		[151091] = "Geolord Grek'og",
-		[153239] = "Ogre Brute",
-		[162817] = "Torgok",
-		[156900] = "Hrun the Exiled",
-		[152998] = "Hunting Worg",
-		[156532] = "Zombie Servant",
-		[153266] = "Killclaw the Terrible",
-		[152843] = "Harpy Boltcaller",
-		[156676] = "Ogre Overseer",
+		[0] = "[*] Shadow Word: Death",
 	},
 	["death_recap"] = {
 		["enabled"] = true,
@@ -1231,38 +1185,10 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
-		8, -- [1]
-		[318149] = "Warlord Breka Grimaxe",
-		[118] = 8,
-		[122] = 8,
-		[190331] = "Shuja Grimaxe",
-		[66] = 8,
-		[273844] = "Shuja Grimaxe",
-		[228597] = 8,
-		[283408] = "Warlord Breka Grimaxe",
-		[1459] = 8,
-		[205708] = 8,
-		[321330] = "Darkmaul Channeler",
-		[306396] = 8,
-		[343883] = "Shuja Grimaxe",
-		[305567] = "Ravnyr",
-		[306389] = "Darkmaul Centurion",
-		[308455] = "Tunk",
-		[308527] = "Gor'groth",
-		[319836] = 8,
-		[2139] = 8,
-		[308463] = "Tunk",
-		[127802] = 8,
-		[305515] = "Ravnyr",
-		[321240] = "Tunk",
-		[306399] = "Darkmaul Centurion",
-		[318125] = "Warlord Breka Grimaxe",
-		[305913] = "Darkmaul Shadowcaller",
-		[1449] = 8,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1703992114,
+	["latest_encounter_spell_pool_access"] = 1705036597,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["deathlog_healingdone_min"] = 1,
@@ -1815,10 +1741,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -34.7255859375,
-							["x"] = 641.4535522460938,
-							["w"] = 310.0004577636719,
-							["h"] = 158.0002288818359,
+							["y"] = -34.7257080078125,
+							["x"] = 689.029052734375,
+							["w"] = 310.0005187988281,
+							["h"] = 158.0001983642578,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2223,8 +2149,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -34.72560119628906,
-						["x"] = -39.4644775390625,
+						["y"] = -34.72572326660156,
+						["x"] = -39.463134765625,
 						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
@@ -2254,10 +2180,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -34.7255859375,
-							["x"] = 641.4535522460938,
-							["w"] = 310.0004577636719,
-							["h"] = 158.0002288818359,
+							["y"] = -34.7257080078125,
+							["x"] = 689.029052734375,
+							["w"] = 310.0005187988281,
+							["h"] = 158.0001983642578,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2636,11 +2562,14 @@ _detalhes_global = {
 	["immersion_special_units"] = true,
 	["damage_scroll_position"] = {
 		["scale"] = 1,
+		["x"] = 4,
+		["point"] = "left",
+		["y"] = 120,
 	},
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1703992114,
+		["latest_boss_mods_access"] = 1705036597,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -2650,7 +2579,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["MAGE"] = 18035.912,
+			["MAGE"] = 80545.13099999996,
 		},
 	},
 	["spell_category_latest_query"] = 0,
@@ -2685,7 +2614,7 @@ _detalhes_global = {
 	},
 	["exit_errors"] = {
 	},
-	["latest_npcid_pool_access"] = 1703992114,
+	["latest_npcid_pool_access"] = 1705036597,
 	["data_wipes_exp"] = {
 		["9"] = false,
 		["14"] = false,
@@ -2733,8 +2662,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 25,
-		["logons"] = 25,
+		["main_help_button"] = 73,
+		["logons"] = 73,
 		["version_announce"] = 0,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
@@ -2757,7 +2686,7 @@ _detalhes_global = {
 	},
 	["details_auras"] = {
 	},
-	["latest_spell_pool_access"] = 1703992114,
+	["latest_spell_pool_access"] = 1705036597,
 	["savedTimeCaptures"] = {
 	},
 	["spell_category_savedtable"] = {
@@ -3023,36 +2952,37 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-01-01 12:15:21 | actor removed Rend Flesh (ungrouped)", -- [1]
-		"2024-01-01 12:15:21 | actor removed Environment (Falling) (ungrouped)", -- [2]
-		"2024-01-01 12:15:21 | actor removed Rend Flesh (disposable)", -- [3]
-		"2023-12-31 13:42:16 | actor removed Quintle (ungrouped)", -- [4]
-		"2023-12-31 13:42:16 | actor removed Southist (ungrouped)", -- [5]
-		"2023-12-31 13:42:16 | actor removed Sevener (ungrouped)", -- [6]
-		"2023-12-31 13:42:16 | actor removed Southist (ungrouped)", -- [7]
-		"2023-12-31 13:42:16 | actor removed Handywithit (ungrouped)", -- [8]
-		"2023-12-31 13:42:16 | actor removed Quintle (ungrouped)", -- [9]
-		"2023-12-31 13:42:16 | actor removed Scurvy (ungrouped)", -- [10]
-		"2023-12-31 13:42:16 | actor removed Glor (ungrouped)", -- [11]
-		"2023-12-31 13:42:16 | actor removed Sevener (ungrouped)", -- [12]
-		"2023-12-31 13:42:16 | actor removed Southist (ungrouped)", -- [13]
-		"2023-12-31 13:42:16 | actor removed Handywithit (ungrouped)", -- [14]
-		"2023-12-31 13:42:16 | actor removed Sevener (ungrouped)", -- [15]
-		"2023-12-31 13:42:16 | actor removed Scurvy (ungrouped)", -- [16]
-		"2023-12-31 13:42:16 | actor removed Glor (ungrouped)", -- [17]
-		"2023-12-31 13:42:16 | actor removed Quintle (ungrouped)", -- [18]
-		"2023-12-31 13:42:16 | actor removed Quintle (ungrouped)", -- [19]
-		"2023-12-31 13:42:16 | actor removed Handywithit (ungrouped)", -- [20]
-		"2023-12-31 13:42:16 | actor removed Glor (ungrouped)", -- [21]
-		"2023-12-31 13:42:16 | actor removed Scurvy (ungrouped)", -- [22]
-		"2023-12-31 13:42:16 | actor removed Quintle (ungrouped)", -- [23]
-		"2023-12-31 13:42:16 | actor removed Handywithit (ungrouped)", -- [24]
-		"2023-12-31 13:42:16 | actor removed Glor (ungrouped)", -- [25]
-		"2023-12-31 13:42:16 | actor removed Scurvy (ungrouped)", -- [26]
-		"2023-12-31 13:42:16 | actor removed Sevener (ungrouped)", -- [27]
-		"2023-12-31 13:42:16 | actor removed Southist (ungrouped)", -- [28]
-		"2023-12-31 13:42:16 | actor removed Scurvy (ungrouped)", -- [29]
+		"2024-01-16 17:44:56 | actor removed Zaney (ungrouped)", -- [1]
+		"2024-01-16 17:44:56 | actor removed Zaney (ungrouped)", -- [2]
+		"2024-01-16 17:44:56 | actor removed Zaney (ungrouped)", -- [3]
+		"2024-01-15 11:35:26 | actor removed Coldman-Cenarius (ungrouped)", -- [4]
+		"2024-01-11 21:53:30 | actor removed Furyswipes (ungrouped)", -- [5]
+		"2024-01-11 21:53:30 | actor removed Getln (ungrouped)", -- [6]
+		"2024-01-10 20:40:41 | actor removed Furyswipes (ungrouped)", -- [7]
+		"2024-01-10 20:40:41 | actor removed Anlmpulse (ungrouped)", -- [8]
+		"2024-01-10 20:40:41 | actor removed Environment (Falling) (ungrouped)", -- [9]
+		"2024-01-10 20:40:41 | actor removed Deadlnside (ungrouped)", -- [10]
+		"2024-01-10 20:40:41 | actor removed Goodlivin (ungrouped)", -- [11]
+		"2024-01-10 20:40:41 | actor removed Anlmpulse (ungrouped)", -- [12]
+		"2024-01-10 20:40:41 | actor removed Elonlnside (ungrouped)", -- [13]
+		"2024-01-10 20:40:41 | actor removed Thelraq (ungrouped)", -- [14]
+		"2024-01-10 20:40:41 | actor removed Funkmunk (ungrouped)", -- [15]
+		"2024-01-10 20:40:41 | actor removed Opmageikr (ungrouped)", -- [16]
+		"2024-01-10 20:40:41 | actor removed Yippers (ungrouped)", -- [17]
+		"2024-01-10 20:40:41 | actor removed Skanty (ungrouped)", -- [18]
+		"2024-01-10 20:40:41 | actor removed Frawshawwk (ungrouped)", -- [19]
+		"2024-01-10 20:40:41 | actor removed Sanguiner (ungrouped)", -- [20]
+		"2024-01-10 20:40:41 | actor removed Toofy (ungrouped)", -- [21]
+		"2024-01-10 20:40:41 | actor removed Cokecoke (ungrouped)", -- [22]
+		"2024-01-10 20:40:41 | actor removed Punkmunk (ungrouped)", -- [23]
+		"2024-01-10 20:40:41 | actor removed Smirky (ungrouped)", -- [24]
+		"2024-01-10 20:40:41 | actor removed Acceptabad (ungrouped)", -- [25]
+		"2024-01-10 20:40:41 | actor removed Piq (ungrouped)", -- [26]
+		"2024-01-10 20:40:41 | actor removed Getln (ungrouped)", -- [27]
+		"2024-01-10 20:40:41 | actor removed Funkmunk (ungrouped)", -- [28]
+		"2024-01-10 20:40:41 | actor removed Punkmunk (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
+		"2024-01-06 15:39:58 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
 	},
 }

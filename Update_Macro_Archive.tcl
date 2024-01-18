@@ -116,7 +116,7 @@ if { [info exists sname] && [info exists class("$sname") ] && [info exists specs
 }
 set names ""
 set macros ""
-set all_macros true
+set all_macros false
 foreach fl [glob WTF/Account/*/SavedVariables/GSE.lua] {
 set fL [open $fl r]
 set found_macros false

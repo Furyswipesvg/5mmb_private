@@ -1,0 +1,1043 @@
+// Version 010524_retail
+// Comments begin with //. They don't do anything in the script.
+
+// These are window labels. Kind of like nicknames for long window names.
+  <Label w0 Local SendWinM jerkstore-bladefist_1ww1>
+  <Label w1 Local SendWinM summerlin-bladefist_1ww1>
+  <Label w2 Local SendWinM choinker-bladefist_1ww1>
+  <Label w3 Local SendWinM toofy-bladefist_1ww1>
+  <Label w4 Local SendWinM goodlivin-bladefist_1ww1>
+
+  <Label w5 Local SendWinM loonkin-bladefist_1ww1>
+  <Label w6 Local SendWinM neversmile-bladefist_1ww1>
+  <Label w7 Local SendWinM itcantbee-bladefist_1ww1>
+  <Label w8 Local SendWinM sanguiner-bladefist_1ww1>
+  <Label w9 Local SendWinM funkmunk-bladefist_1ww1>
+
+  <Label w10 Local SendWinM chaostard-bladefist_1ww1>
+
+// The above labels are your window names.
+// They are like the "address" to your windows. They contain which 
+// computer to send the hotkey to, if you are using multiple machines. (you can!)
+// So in this case, w0 will be used later to point to Mootalia's window.
+// Name your windows something that gives you a hint.
+// Toon name and a hint at the end about what wow license to click
+// It's not critical, but it's very helpful
+// This is the main launcher command definition.
+  <Command LaunchAndRename>
+	<SendPC %1%>
+	<Run "C:/World of Warcraft/_retail_/Wow.exe" >
+	<TargetWin "World of Warcraft">  
+	<TargetWin "World of Warcraft">
+	<RenameTargetWin %2%>
+	<Wait 300>
+	<SetWinSize %5% %6%>
+	<SetWinPos %7% %8%>
+	<SetForegroundWin>
+	<Text %3%>
+	<Key Tab>
+	<Text %4%>
+	<Key Enter>
+	<TargetWin %2%>
+	<WaitForInputIdle 2000>
+
+// This is the second Launcher command definition
+// It's not used. You CAN use it as a special wow setup for your main.
+// You know, max graphics, sound, etc.
+// NEXT STEP: If you want to do this, you have to make a SEPERATE WOW
+// DIR and put the path below. Set that wow up the way you want.
+  <Command LaunchHiresAndRename>
+	<SendPC %1%>
+	<Run "G:/World of Warcraft2/_retail_/Wow.exe" >
+	<WaitForInputIdle 400>
+	<TargetWin "World of Warcraft">  
+	<RenameTargetWin %2%>  
+	<WaitForInputIdle 400>
+	<TargetWin "World of Warcraft">  
+	<RenameTargetWin Unused%2%>  
+	<TargetWin %2%>
+	<TargetWin %2%>
+	<WaitForInputIdle 400>
+	<WaitForInputIdle 400>
+	<Text %3%>
+	<Key Tab>
+	<Text %4%>
+	<TargetWin %2%>
+	//<RemoveWinFrame>
+	<SetWinSize %5% %6%>
+	<SetWinPos %7% %8%>
+	<SetVar LastWin ActiveWindowName>
+
+// This command is used to resize your window.	
+  <Command ResetWindowPosition>
+	<SendPC %1%> 
+	<TargetWin %2%>
+	<SetForegroundWin>
+	<SetWinSize %3% %4%>
+	<SetWinPos %5% %6%>
+
+// This is your first HOTKEY. That's a key combo that only works when scroll_lock is on.
+// In this case that combo is Alt-Ctrl-m (case doesn't matter)
+// It launches your wow windows!
+// The numbers at the end are the window size (x and y) and the window position (x and y)
+// Experiment with them if you like.
+// OPTIONAL STEP: If you want to run a special wow setup for your main, 
+// change the command LaunchAndRename to LaunchHiresAndRename just for your main.
+
+
+  <Command LaunchWow>
+	<SendPC %1%>
+	< Open "C:/World of Warcraft/_retail_/Wow.exe" >
+  <Command RenameWindow>
+	<SendPC %1%>
+	<RenameWin "World of Warcraft" %2%>
+  <Command AccInfoWindowPosWindowSize>
+	<SendPC %1%>
+	<TargetWin %2%>
+	<SetForegroundWin>
+	<SetWinRedraw off>
+	<SetWinRect %5% %6% %7% %8%>
+	<SetWinRedraw on>
+	<UpdateWin>
+	<wait 50><Key Backspace>
+	<wait 75><Text %3%>
+	<wait 75><Key Tab>
+	<wait 25><Key Backspace>
+	<wait 50><Text %4%>
+	<wait 75><Key Enter>
+
+  <Hotkey ScrollLockOn Alt Ctrl N>
+	<if WinDoesNotExist jerkstore-bladefist_1ww1>
+	<LaunchAndRename Local jerkstore-bladefist_1ww1 myfsmb17@maildrop.cc iso2tope 1560 1090 -8 1080 jerkstore-bladefist>
+	<if WinDoesNotExist summerlin-bladefist_1ww1>
+	<LaunchAndRename Local summerlin-bladefist_1ww1 ultra.multiboxtest02@gmail.com iso2tope 1560 1090 -8 0 summerlin-bladefist>
+	<if WinDoesNotExist choinker-bladefist_1ww1>
+	<LaunchAndRename Local choinker-bladefist_1ww1 t.hisismysecondfortymultibox@yahoo.com iso2tope 765 549 1537 1080 choinker-bladefist>
+	<if WinDoesNotExist toofy-bladefist_1ww1>
+	<LaunchAndRename Local toofy-bladefist_1ww1 furyswipesbl.oons3@gmail.com iso2tope 765 549 1537 1620 toofy-bladefist>
+	<if WinDoesNotExist goodlivin-bladefist_1ww1>
+	<LaunchAndRename Local goodlivin-bladefist_1ww1 ultramulti.box.test@gmail.com iso2tope 765 549 2287 1080 goodlivin-bladefist>
+	<if WinDoesNotExist loonkin-bladefist_1ww1>
+	<LaunchAndRename Local loonkin-bladefist_1ww1 furyswipesblo.ons3@gmail.com iso2tope 765 549 2287 1620 loonkin-bladefist>
+	<if WinDoesNotExist neversmile-bladefist_1ww1>
+	<LaunchAndRename Local neversmile-bladefist_1ww1 ultramultibox.test@gmail.com iso2tope 765 549 1537 0 neversmile-bladefist>
+	<if WinDoesNotExist itcantbee-bladefist_1ww1>
+	<LaunchAndRename Local itcantbee-bladefist_1ww1 ultramultibox.test02@gmail.com iso2tope 765 549 1537 540 itcantbee-bladefist>
+	<if WinDoesNotExist sanguiner-bladefist_1ww1>
+	<LaunchAndRename Local sanguiner-bladefist_1ww1 ultramul.tiboxtest@gmail.com iso2tope 765 549 2287 0 sanguiner-bladefist>
+	<if WinDoesNotExist funkmunk-bladefist_1ww1>
+	<LaunchAndRename Local funkmunk-bladefist_1ww1 ult.ramultiboxtest@gmail.com iso2tope 765 549 2287 540 funkmunk-bladefist>
+	<if WinDoesNotExist chaostard-bladefist_1ww1>
+	<LaunchAndRename Local chaostard-bladefist_1ww1 myclassicmb03@maildrop.cc iso2tope 805 570 3037 1548 chaostard-bladefist>
+
+  <Hotkey ScrollLockOn Alt Ctrl m>
+	<if WinDoesNotExist jerkstore-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist summerlin-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist choinker-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist toofy-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist goodlivin-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist loonkin-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist neversmile-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist itcantbee-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist sanguiner-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist funkmunk-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist chaostard-bladefist_1ww1> <LaunchWow Local>
+	//<wait 4500>
+	//<DoHotKey HotKey ScrollLockOn Ctrl Alt K>
+	//<wait 180>
+	//<DoHotKey HotKey ScrollLockOn Ctrl Alt J>
+	//<wait 350>
+	//<DoHotKey HotKey ScrollLockOn Shift Ctrl m>
+  <Hotkey ScrollLockOn Alt Ctrl K>
+	<if WinDoesNotExist jerkstore-bladefist_1ww1> <RenameWindow Local jerkstore-bladefist_1ww1>
+	<if WinDoesNotExist summerlin-bladefist_1ww1> <RenameWindow Local summerlin-bladefist_1ww1>
+	<if WinDoesNotExist choinker-bladefist_1ww1> <RenameWindow Local choinker-bladefist_1ww1>
+	<if WinDoesNotExist toofy-bladefist_1ww1> <RenameWindow Local toofy-bladefist_1ww1>
+	<if WinDoesNotExist goodlivin-bladefist_1ww1> <RenameWindow Local goodlivin-bladefist_1ww1>
+	<if WinDoesNotExist loonkin-bladefist_1ww1> <RenameWindow Local loonkin-bladefist_1ww1>
+	<if WinDoesNotExist neversmile-bladefist_1ww1> <RenameWindow Local neversmile-bladefist_1ww1>
+	<if WinDoesNotExist itcantbee-bladefist_1ww1> <RenameWindow Local itcantbee-bladefist_1ww1>
+	<if WinDoesNotExist sanguiner-bladefist_1ww1> <RenameWindow Local sanguiner-bladefist_1ww1>
+	<if WinDoesNotExist funkmunk-bladefist_1ww1> <RenameWindow Local funkmunk-bladefist_1ww1>
+	<if WinDoesNotExist chaostard-bladefist_1ww1> <RenameWindow Local chaostard-bladefist_1ww1>
+
+  <Hotkey ScrollLockOn Alt Ctrl J>
+	<AccInfoWindowPosWindowSize Local jerkstore-bladefist_1ww1 myfsmb17@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local summerlin-bladefist_1ww1 ultra.multiboxtest02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local choinker-bladefist_1ww1 t.hisismysecondfortymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local toofy-bladefist_1ww1 furyswipesbl.oons3@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local goodlivin-bladefist_1ww1 ultramulti.box.test@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local loonkin-bladefist_1ww1 furyswipesblo.ons3@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local neversmile-bladefist_1ww1 ultramultibox.test@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local itcantbee-bladefist_1ww1 ultramultibox.test02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local sanguiner-bladefist_1ww1 ultramul.tiboxtest@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local funkmunk-bladefist_1ww1 ult.ramultiboxtest@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local chaostard-bladefist_1ww1 myclassicmb03@maildrop.cc iso2tope>
+
+  <Hotkey ScrollLockOn Shift Ctrl m>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+  <Hotkey ScrollLockOn Shift Alt m>
+	<TargetWin jerkstore-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin summerlin-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin choinker-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin toofy-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin goodlivin-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin loonkin-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin neversmile-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin itcantbee-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin sanguiner-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin funkmunk-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin chaostard-bladefist_1ww1>
+	<RemoveWinFrame>
+
+// This next group of hotkeys is how you swap windows with the keypad numbers.
+  <Hotkey ScrollLockOn NumpadEnd>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadDown>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadPgDn>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadLeft>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Clear>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadRight>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadHome>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadPgUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn NumpadInsert>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadEnd>
+	<SaveMousePos>
+	<ResetWindowPosition Local jerkstore-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local summerlin-bladefist_1ww1 1560 1090 -8 0>
+	<ResetWindowPosition Local choinker-bladefist_1ww1 765 549 1537 1080>
+	<ResetWindowPosition Local toofy-bladefist_1ww1 765 549 1537 1620>
+	<ResetWindowPosition Local goodlivin-bladefist_1ww1 765 549 2287 1080>
+	<ResetWindowPosition Local loonkin-bladefist_1ww1 765 549 2287 1620>
+	<ResetWindowPosition Local neversmile-bladefist_1ww1 765 549 1537 0>
+	<ResetWindowPosition Local itcantbee-bladefist_1ww1 765 549 1537 540>
+	<ResetWindowPosition Local sanguiner-bladefist_1ww1 765 549 2287 0>
+	<ResetWindowPosition Local funkmunk-bladefist_1ww1 765 549 2287 540>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 1560 1090 -8 1080>
+	<RestoreMousePos>
+
+  <Hotkey ScrollLockOn Numpad1>
+	<DoHotKey Hotkey ScrollLockOn NumpadEnd>
+  <Hotkey ScrollLockOn Numpad2>
+	<DoHotKey Hotkey ScrollLockOn NumpadDown>
+  <Hotkey ScrollLockOn Numpad3>
+	<DoHotKey Hotkey ScrollLockOn NumpadPgDn>
+  <Hotkey ScrollLockOn Numpad4>
+	<DoHotKey Hotkey ScrollLockOn NumpadLeft>
+  <Hotkey ScrollLockOn Numpad5>
+	<DoHotkey Hotkey ScrollLockOn Clear>
+  <Hotkey ScrollLockOn Numpad6>
+	<DoHotkey Hotkey ScrollLockOn NumpadRight>
+  <Hotkey ScrollLockOn Numpad7>
+	<DoHotkey Hotkey ScrollLockOn NumpadHome>
+  <Hotkey ScrollLockOn Numpad8>
+	<DoHotkey Hotkey ScrollLockOn NumpadUp>
+  <Hotkey ScrollLockOn Numpad9>
+	<DoHotkey Hotkey ScrollLockOn NumpadPgUp>
+  <Hotkey ScrollLockOn Numpad0>
+	<DoHotkey Hotkey ScrollLockOn NumpadInsert>
+  <Hotkey ScrollLockOn Shift Numpad1>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadEnd>
+  <Hotkey ScrollLockOn Shift Numpad2>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadDown>
+  <Hotkey ScrollLockOn Shift Numpad3>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadPgDn>
+  <Hotkey ScrollLockOn Shift Numpad4>
+	<DoHotKey Hotkey ScrollLockOn Shift NumpadLeft>
+  <Hotkey ScrollLockOn Shift Numpad5>
+	<DoHotkey Hotkey ScrollLockOn Shift Clear>
+  <Hotkey ScrollLockOn Shift Numpad6>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadRight>
+  <Hotkey ScrollLockOn Shift Numpad7>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadHome>
+  <Hotkey ScrollLockOn Shift Numpad8>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadUp>
+  <Hotkey ScrollLockOn Shift Numpad9>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadPgUp>
+  <Hotkey ScrollLockOn Shift Numpad0>
+	<DoHotkey Hotkey ScrollLockOn Shift NumpadInsert>
+
+// This is the hotkey that closes all windows-- Ctrl-Alt-o (letter O)	
+  <Hotkey ScrollLockOn Alt Ctrl o>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<CloseWin>
+	
+
+// This is a special hotkey I made for reloading all your user interfaces in wow.
+// Ctrl-L (case never matters) will enter /reload into each window
+  <Hotkey ScrollLockOn Ctrl l>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key enter>
+	<Wait 250>
+	<Key divide>
+	<Wait 25>
+	<Text reload>
+	<Wait 175>
+	<Key enter>
+
+// This is the true magic...this runs /init in each window to set up bindings and macros!
+// Ctrl-i
+  <Hotkey ScrollLockOn Ctrl i>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key enter>
+	<Wait 250>
+	<Key divide>
+	<Wait 25>
+	<Text init>
+	<Wait 175>
+	<Key enter>
+
+// This sends enter to each window to log in
+// Ctrl-i
+  <Hotkey ScrollLockOn Ctrl e>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key enter>
+
+// This sends hide multiwin5 (shift -) to each window
+// Ctrl-i
+  <Hotkey ScrollLockOn ctrl h>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key shift minus>
+
+//-----------------------------------------------------------
+// This is the key you hold down to send mouse clicks to all windows.
+// I use ~ (the key to the left of the 1 key)
+// That key is oem5 in Germany and oem8 in UK. If none of those work, you may be oem7.
+//-----------------------------------------------------------
+  <UseKeyAsModifier oem3>
+  <Hotkey ScrollLockOn oem3 LButton, RButton, Button4, Button5>
+      <SaveMousePos>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+      <ClickMouse RButton>
+      <ClickMouse %TriggerMainKey%>
+      <RestoreMousePos>
+
+<Hotkey ScrollLockOn LButton, MButton, RButton, Button4, Button5>
+	<Passthrough>
+	<If MouseIsOverWindowRect jerkstore-bladefist_1ww1 105 260 65 330 >
+	<SaveMousePos>
+	<Wait 5>
+	<SendLabel w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<ClickMouse Scale %Trigger%>
+	<Wait 5>
+	<RestoreMousePos>
+
+//-----------------------------------------------------------
+// This is the catch-all hotkey definition. Every key here
+// will be sent to both windows. Any key NOT HERE will NOT.
+// Notice there is an exception list at the end.
+// The word %Trigger% gets replaced with whatever key you clicked.
+//-----------------------------------------------------------
+  <Hotkey ScrollLockOn A-Z, 1-9, Shift, Ctrl, Alt, Plus, Minus, Esc , Divide, F1-F12 except 1-6,E,F,Q,H, W, A, S, D, R, T, Y, I, U, J, V>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key %Trigger%>
+
+//-----------------------------------------------------------
+// THIS KEY IS DIFFERENT. THESE are MOVEMENT key definitions.
+// This is different from a Hotkey. Hotkeys only work once, the instant
+// You press them. Movement keys can be held down, and they work
+// constantly.
+// Notice, asdw, the normal wow keys aren't here. You don't want your normal
+// wow movement keys to move your side  toons.
+// Use the arrow keys for that. (see, they are there)
+//-----------------------------------------------------------
+  <MovementHotkey ScrollLockOn space, up, down, left, right,e,q>
+	<Passthrough>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key %Trigger%>
+
+//You can even make special movement keys for just some of your toons.
+//Hunter backup
+  <MovementHotkey ScrollLockOn T>
+	<Sendlabel w2>
+	<Key Down>
+
+//Melee backup
+  <MovementHotkey ScrollLockOn v>
+	<Sendlabel w3>
+	<Key Down>
+
+//Melee forward
+  <MovementHotkey ScrollLockOn r>
+	<Sendlabel w3>
+	<Key Up>
+
+//Healer backup
+  <MovementHotkey ScrollLockOn Y>
+	<Sendlabel w5,w9>
+	<Key Down>
+
+//Mana backup
+  <MovementHotkey ScrollLockOn H>
+	<Sendlabel w4,w5,w6,w7,w8,w9,w10>
+	<Key Down>
+
+//-------------------------------------------------------------
+// Everything below these lines are special hotkeys I made.
+
+// First trick key--when you hit 0, only send it to the window where your mouse is.
+// 
+  <Hotkey ScrollLockOn 0>
+	<SendFocusWin>
+	<Key 0>
+
+// More magic. I redefined alt-1
+// When you hit it, it will send alt-1 AND F11 (which is a macro that says /assist Furyswipes)
+// So alt-1 forces people to assist main.
+// I do it this way so you only have to change one macro to change your main.
+// Don't put assist in your dps macros.
+  <Hotkey ScrollLockOn Alt 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 1>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+
+// Same magic for 2-6
+  <Hotkey ScrollLockOn 2-6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key %Trigger%>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+  <Hotkey ScrollLockOn 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key 1>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key shift f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f3>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key shift f4>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key shift f5>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key shift f6>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key shift f7>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f4>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f5>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f6>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f7>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key shift f8>
+// Now--ANY KEY that uses a HKN MODIFIER (alt/ctrl/shift) WILL NOT WORK.
+// UNLESS.......you define it!
+  <Hotkey ScrollLockOn Alt 2>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 2> 
+  <Hotkey ScrollLockOn Alt 3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 3> 
+
+// Now, alt-4 is a special key for 5-minute multiboxing.
+// It also sends an F10 (a macro with /follow furyswipes) and F11 (the assist macro)
+// So alt-4 is how you make your toons follow again.
+// YOU WILL USE ALT-4 CONSTANTLY. GET USED TO IT, SUCKAS.
+  <Hotkey ScrollLockOn Alt 4>
+	<ResetToggles>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f3>
+	<Key shift f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<Key shift f3>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f4>
+	<Key shift f4>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f5>
+	<Key shift f5>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f6>
+	<Key shift f6>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w10>
+	<Key ctrl f7>
+	<Key shift f7>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<Key shift f4>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<Key shift f5>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<Key shift f6>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<Key shift f7>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+	<Key shift f8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 4>
+
+// F is my favorite new key. It is mapped to "Interact with target" keybind.
+// When you hit it the first time, everyone will assist your leader.
+// When you hit it a second time. LEEEEEEEEROYYYYYY!!!!!!!
+// Everyone will attack your target or open a vendor, OR skin a dead animal,
+// ...you get the idea.
+  <Hotkey ScrollLockOn f>
+	<toggle>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<Key f>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<Key f>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<Key f>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<Key f>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<Key f>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+	<Key f>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f9>
+	<Key f>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f10>
+	<Key f>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f11>
+	<Key f>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f12>
+	<Key f>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f13>
+	<Key f>
+
+// Awesome magic here. I put an interrupt skill in shift-3 action bar.
+// this goes through each one at a time
+// (after focusing on main's target on the first click)
+  <Hotkey ScrollLockOn Shift 3>
+	<Toggle>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f9>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f10>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f11>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f12>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f13>
+	<Toggle>
+	<SendLabel w0>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w1>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w2>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w3>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w4>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w5>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w6>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w7>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w8>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w9>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w10>
+	<Key Shift 3>
+
+// Shift-4 is also a skill that focuses tank target.
+  <Hotkey ScrollLockOn Shift 4> 
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f9>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f10>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f11>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f12>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f13>
+	<Endif>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 4>
+
+// More boring modifier maps--has to be done
+  <Hotkey ScrollLockOn Alt 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 5> 
+  <Hotkey ScrollLockOn Alt 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 6> 
+  <Hotkey ScrollLockOn Alt 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 7> 
+  <Hotkey ScrollLockOn Alt 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 8> 
+  <Hotkey ScrollLockOn Alt 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 9> 
+  <Hotkey ScrollLockOn Alt 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt 0> 
+  <Hotkey ScrollLockOn Alt Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt Plus> 
+  <Hotkey ScrollLockOn Alt Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt Minus> 
+// Special one for ctrl-alt-1 if you ever need it.
+  <Hotkey ScrollLockOn Ctrl Alt 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl Alt 1>
+  <Hotkey ScrollLockOn Alt F1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Alt F1>
+  <Hotkey ScrollLockOn Ctrl 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 1>
+  <Hotkey ScrollLockOn Ctrl 2> 
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 2> 
+  <Hotkey ScrollLockOn Ctrl 3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 3> 
+  <Hotkey ScrollLockOn Ctrl 4>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 4> 
+  <Hotkey ScrollLockOn Ctrl 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 5> 
+  <Hotkey ScrollLockOn Ctrl 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 6> 
+  <Hotkey ScrollLockOn Ctrl 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 7> 
+  <Hotkey ScrollLockOn Ctrl 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 8> 
+  <Hotkey ScrollLockOn Ctrl 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 9> 
+  <Hotkey ScrollLockOn Ctrl 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl 0> 
+  <Hotkey ScrollLockOn Ctrl Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl Plus> 
+  <Hotkey ScrollLockOn Ctrl Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Ctrl Minus> 
+  <Hotkey ScrollLockOn Shift 1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 1>
+// Shift 2 is the polymorph button. First click is assist tank, second click is poly
+  <Hotkey ScrollLockOn Shift 2>
+	<toggle>
+	<if MouseIsOverWindow jerkstore-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f3>
+	<if MouseIsOverWindow summerlin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f4>
+	<if MouseIsOverWindow choinker-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f5>
+	<if MouseIsOverWindow toofy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f6>
+	<if MouseIsOverWindow goodlivin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f7>
+	<if MouseIsOverWindow loonkin-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f8>
+	<if MouseIsOverWindow neversmile-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f9>
+	<if MouseIsOverWindow itcantbee-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f10>
+	<if MouseIsOverWindow sanguiner-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f11>
+	<if MouseIsOverWindow funkmunk-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f12>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key ctrl f13>
+	<toggle>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 2> 
+  <Hotkey ScrollLockOn Shift 5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 5> 
+  <Hotkey ScrollLockOn Shift 6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 6> 
+  <Hotkey ScrollLockOn Shift 7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 7> 
+  <Hotkey ScrollLockOn Shift 8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 8> 
+  <Hotkey ScrollLockOn Shift 9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 9> 
+  <Hotkey ScrollLockOn Shift 0>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift 0> 
+  <Hotkey ScrollLockOn Shift Plus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift Plus> 
+  <Hotkey ScrollLockOn Shift Minus>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift Minus> 
+  <Hotkey ScrollLockOn Shift F1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F1>
+  <Hotkey ScrollLockOn Shift F2>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F2> 
+  <Hotkey ScrollLockOn Shift F3>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F3> 
+  <Hotkey ScrollLockOn Shift F4>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F4> 
+  <Hotkey ScrollLockOn Shift F5>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F5> 
+  <Hotkey ScrollLockOn Shift F6>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F6> 
+  <Hotkey ScrollLockOn Shift F7>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F7> 
+  <Hotkey ScrollLockOn Shift F8>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F8> 
+  <Hotkey ScrollLockOn Shift F9>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F9> 
+  <Hotkey ScrollLockOn Shift F10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F10> 
+  <Hotkey ScrollLockOn Shift F11>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F11> 
+  <Hotkey ScrollLockOn Shift F12>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<Key Shift F12> 

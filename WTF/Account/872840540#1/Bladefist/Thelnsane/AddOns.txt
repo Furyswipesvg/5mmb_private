@@ -1,4 +1,4 @@
-AdvancedInterfaceOptions: enabled
+AdvancedInterfaceOptions: disabled
 AutoTurnIn: enabled
 Furyswipes_5mmb: enabled
 GSE: enabled
@@ -6,4 +6,6 @@ GSE_GUI: enabled
 GSE_LDB: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
-Details: disabled
+Details: enabled
+_DevPad: disabled
+_DevPad.GUI: disabled

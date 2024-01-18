@@ -20,8 +20,8 @@ GSEOptions = {
 		["LeftControl"] = false,
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
-		["RightAlt"] = false,
 		["RightButton"] = false,
+		["RightAlt"] = false,
 		["Button4"] = false,
 		["Button5"] = false,
 		["MiddleButton"] = false,
@@ -58,7 +58,7 @@ GSEOptions = {
 	["Update3131"] = true,
 	["STANDARDFUNCS"] = "|cff55ddcc",
 	["TitleColour"] = "|cFFFF0000",
-	["editorWidth"] = 700,
+	["hideUIErrors"] = false,
 	["filterList"] = {
 		["Spec"] = true,
 		["Class"] = true,
@@ -89,8 +89,8 @@ GSEOptions = {
 	["RealtimeParse"] = false,
 	["autoCreateMacroStubsClass"] = true,
 	["OOCQueueDelay"] = 7,
-	["overflowPersonalMacros"] = false,
 	["AuthorColour"] = "|cFF00D1FF",
+	["overflowPersonalMacros"] = false,
 	["CONCAT"] = "|cffcc7777",
 	["DisabledSequences"] = {
 	},
@@ -111,7 +111,7 @@ GSEOptions = {
 	},
 	["showGSEoocqueue"] = true,
 	["setDefaultIconQuestionMark"] = true,
-	["hideUIErrors"] = false,
+	["editorWidth"] = 700,
 	["DefaultImportAction"] = "MERGE",
 }
 GSELibrary = nil

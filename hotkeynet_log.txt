@@ -2,8 +2,8 @@
 HotkeyNet Log File
 -------------------------------------------------------------------------------------
 
-File opened at 14:08:34 on Friday, December 22, 2023
-DNS name: MAINLIVINGROOM
+File opened at 17:20:41 on Wednesday, January 17, 2024
+DNS name: DESKTOP-VR3SFTR
 OS version: Microsoft  (build 9200)
 
 
@@ -21,13 +21,13 @@ CPU:
 
 
 Memory:
-	Load = 7%; 
-	Total physical = 65463 MB; 
-	Available physical = 60751 MB; 
-	Total page file = 75191 MB; 
-	Avail page file = 68589 MB; 
+	Load = 24%; 
+	Total physical = 16176 MB; 
+	Available physical = 12153 MB; 
+	Total page file = 65328 MB; 
+	Avail page file = 59129 MB; 
 	Total virtual = 2047 MB; 
-	Avail virtual = 1975 MB; 
+	Avail virtual = 1973 MB; 
 	Avail extended virtual = 0 MB.
 
 
@@ -40,17 +40,17 @@ Mouse:
 
 Adapter 0:
 
-	IP Address	10.0.0.244
+	IP Address	10.0.0.168
 	Subnet Mask	255.255.255.0
 	Default Gateway	10.0.0.1
 
-	Adapter Name	{9A683412-8681-4353-B74C-E7A8DF575052}
-	Description	Intel(R) I211 Gigabit Network Connection
-	Physical Address	70-85-C2-5A-07-D4
+	Adapter Name	{DAF3C964-5C97-4C42-BC9B-D89D52CC515A}
+	Description	Intel(R) Ethernet Connection (7) I219-LM
+	Physical Address	0C-9D-92-5C-18-4F
 
 	DHCP Enabled	Yes
 	DHCP Server	10.0.0.1
-	Lease Obtained	Fri Dec 22 14:07:41 2023
+	Lease Obtained	Wed Jan 17 14:59:57 2024
 
 	Have WINS	No
 
@@ -60,41 +60,9 @@ Adapter 1:
 	Subnet Mask	0.0.0.0
 	Default Gateway	0.0.0.0
 
-	Adapter Name	{EAAFBEE9-312F-4CDC-8769-0BD06B5B8A30}
-	Description	Bluetooth Device (Personal Area Network)
-	Physical Address	F4-96-34-53-F1-32
-
-	DHCP Enabled	Yes
-	DHCP Server	
-	Lease Obtained	Wed Dec 31 16:00:00 1969
-
-	Have WINS	No
-
-Adapter 2:
-
-	IP Address	0.0.0.0
-	Subnet Mask	0.0.0.0
-	Default Gateway	0.0.0.0
-
-	Adapter Name	{DC61783D-3D05-4222-9851-6C5902308D1C}
-	Description	Intel(R) Ethernet Connection (2) I219-V
-	Physical Address	70-85-C2-5A-07-D6
-
-	DHCP Enabled	Yes
-	DHCP Server	
-	Lease Obtained	Wed Dec 31 16:00:00 1969
-
-	Have WINS	No
-
-Adapter 3:
-
-	IP Address	0.0.0.0
-	Subnet Mask	0.0.0.0
-	Default Gateway	0.0.0.0
-
-	Adapter Name	{F3F3597F-6C15-4F70-873D-D25FD9DBA472}
-	Description	Marvell AQtion 10Gbit Network Adapter
-	Physical Address	70-85-C2-5A-07-D2
+	Adapter Name	{847B313F-B885-487C-AF83-D0C1D78B2536}
+	Description	Intel(R) I210 Gigabit Network Connection
+	Physical Address	0C-9D-92-5C-18-50
 
 	DHCP Enabled	Yes
 	DHCP Server	
@@ -103,7 +71,8 @@ Adapter 3:
 	Have WINS	No
 
 HotkeyNet 0.1.45 build 210
-Start as client.
-This IP: 10.0.0.244
-Server IP: 
+Start as server.
+This IP: 10.0.0.168
 
+C:\d\sou\cpp\macro\wininet.cpp 88: InternetOpenUrl(); system error 12007: 
+C:\d\sou\cpp\macro\wininet.cpp 91: URL = http://hotkeynet.net/auth/auth.php?B8CAaNpm5pUC3hkzpAooXkEtrOo8RmuKTGos3qTk/VpFD5BADwjOo1clLgoC72lgMHFa0HgKKFyPm8rKwNDpupd5hQ3iEjd2PUOK/cRpc1xBSb5gLe56s3KPfq2Oce+oV5wJkaRFZF++a7VwmllGwgHz6FKTSvAs+etw23gUbSjlQZ+ztmTe0Dh+BbkEnBflIEvRV5knr60ODVpx29lyrNCb3vcrN1HbTPrv1g==

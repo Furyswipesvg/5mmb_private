@@ -1,9 +1,5 @@
 VER 3 0100000000000001 "hide" "132166"
 /script MultiBar5:Hide()
-/script MultiBarBottomLeft:Hide();
-/script MultiBarBottomRight:Hide();
-/script MultiBarRight:Hide();
-/script MultiBarLeft:Hide();
 END
 VER 3 0100000000000003 "SHEAL_FS_BEASTMASTER" "INV_MISC_QUESTIONMARK"
 #showtooltip

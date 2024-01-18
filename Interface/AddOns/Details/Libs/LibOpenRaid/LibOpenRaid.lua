@@ -43,7 +43,7 @@ if (WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE and not isExpansion_Dragonflight()) t
 end
 
 local major = "LibOpenRaid-1.0"
-local CONST_LIB_VERSION = 118
+local CONST_LIB_VERSION = 121
 
 if (LIB_OPEN_RAID_MAX_VERSION) then
     if (CONST_LIB_VERSION <= LIB_OPEN_RAID_MAX_VERSION) then
@@ -151,13 +151,13 @@ end
     end
 
     --make the 'pri-nt' word be only used once, this makes easier to find lost debug pri-nts in the code
-    local SendChatMessage = function(...)
+    local sendChatMessage = function(...)
         print(...)
     end
 
     openRaidLib.DiagnosticError = function(msg, ...)
         if (CONST_DIAGNOSTIC_ERRORS) then
-            --SendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
+            sendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
         end
     end
 
@@ -167,11 +167,11 @@ end
             if (diagnosticFilter) then
                 local lowerMessage = msg:lower()
                 if (lowerMessage:find(diagnosticFilter)) then
-                    --SendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
+                    sendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
                     --dumpt(msg)
                 end
             else
-                --SendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
+                sendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
             end
         end
     end
@@ -181,16 +181,16 @@ end
         if (diagnosticCommReceivedFilter) then
             local lowerMessage = msg:lower()
             if (lowerMessage:find(diagnosticCommReceivedFilter)) then
-                --SendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
+                sendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
             end
         else
-            --SendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
+            sendChatMessage("|cFFFF9922OpenRaidLib|r:", msg, ...)
         end
     end
 
 
     openRaidLib.DeprecatedMessage = function(msg)
-        --SendChatMessage("|cFFFF9922OpenRaidLib|r:", "|cFFFF5555" .. msg .. "|r")
+        sendChatMessage("|cFFFF9922OpenRaidLib|r:", "|cFFFF5555" .. msg .. "|r")
     end
 
     local isTimewalkWoW = function()
@@ -244,7 +244,7 @@ end
 --use debug cvar to find issues that occurred during the logoff process
 function openRaidLib.PrintTempCacheDebug()
     local debugMessage = C_CVar.GetCVar(CONST_CVAR_TEMPCACHE_DEBUG)
-    --SendChatMessage("|cFFFF9922OpenRaidLib|r Temp CVar Result:\n", debugMessage)
+    sendChatMessage("|cFFFF9922OpenRaidLib|r Temp CVar Result:\n", debugMessage)
 end
 
 function tempCache.SaveDebugText()
@@ -474,9 +474,9 @@ end
     local sendData = function(dataEncoded, channel)
         local aceComm = LibStub:GetLibrary("AceComm-3.0", true)
         if (aceComm) then
-            --aceComm:SendCommMessage(CONST_COMM_PREFIX, dataEncoded, channel, nil, "ALERT")
+            aceComm:SendCommMessage(CONST_COMM_PREFIX, dataEncoded, channel, nil, "ALERT")
         else
-            --C_ChatInfo.SendAddonMessage(CONST_COMM_PREFIX, dataEncoded, channel)
+            C_ChatInfo.SendAddonMessage(CONST_COMM_PREFIX, dataEncoded, channel)
         end
     end
 
@@ -563,8 +563,8 @@ end
         ["sendPvPTalent_Schedule"] = 14,
         ["leaveCombat_Schedule"] = 18,
         ["encounterEndCooldownsCheck_Schedule"] = 24,
-        ["sendKeystoneInfoToParty_Schedule"] = 7,
-        ["sendKeystoneInfoToGuild_Schedule"] = 7,
+        --["sendKeystoneInfoToParty_Schedule"] = 2,
+        --["sendKeystoneInfoToGuild_Schedule"] = 2,
     }
 
     openRaidLib.Schedules = {
@@ -589,7 +589,7 @@ end
 
         local result, errortext = xpcall(callback, geterrorhandler(), unpack(payload))
         if (not result) then
-            --SendChatMessage("openRaidLib: error on scheduler:", tickerObject.scheduleName, tickerObject.stack)
+            sendChatMessage("openRaidLib: error on scheduler:", tickerObject.scheduleName, tickerObject.stack)
         end
 
         return result
@@ -613,7 +613,7 @@ end
             if (openRaidLib.Schedules.IsUniqueTimerOnCooldown(namespace, scheduleName)) then
                 return
             end
-            time = defaultScheduleCooldownTimeByScheduleName[scheduleName]
+            time = defaultScheduleCooldownTimeByScheduleName[scheduleName] or time
         else
             openRaidLib.Schedules.CancelUniqueTimer(namespace, scheduleName)
         end
@@ -746,7 +746,7 @@ end
                 --if this isn't a function, xpcall trigger an error
                 local okay, errorMessage = xpcall(functionToCallback, geterrorhandler(), ...)
                 if (not okay) then
-                    --SendChatMessage("error on callback for event:", event)
+                    sendChatMessage("error on callback for event:", event)
                 end
             else
                 --the registered function wasn't found
@@ -2689,11 +2689,17 @@ openRaidLib.commHandler.RegisterComm(CONST_COMM_COOLDOWNREQUEST_PREFIX, openRaid
 
         local _, instanceType = GetInstanceInfo()
         if (instanceType == "party") then
-            openRaidLib.Schedules.NewUniqueTimer(0.01, openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToParty, "KeystoneInfoManager", "sendKeystoneInfoToParty_Schedule")
+            openRaidLib.Schedules.NewUniqueTimer(math.random(1), openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToParty, "KeystoneInfoManager", "sendKeystoneInfoToParty_Schedule")
+
+        elseif (instanceType == "raid" or instanceType == "pvp") then
+            openRaidLib.Schedules.NewUniqueTimer(math.random(0, 30) + math.random(1), openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToParty, "KeystoneInfoManager", "sendKeystoneInfoToParty_Schedule")
+
+        else
+            openRaidLib.Schedules.NewUniqueTimer(math.random(4), openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToParty, "KeystoneInfoManager", "sendKeystoneInfoToParty_Schedule")
         end
 
         if (IsInGuild()) then
-            openRaidLib.Schedules.NewUniqueTimer(math.random(0, 3) + math.random(), openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToGuild, "KeystoneInfoManager", "sendKeystoneInfoToGuild_Schedule")
+            openRaidLib.Schedules.NewUniqueTimer(math.random(0, 10) + math.random(), openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToGuild, "KeystoneInfoManager", "sendKeystoneInfoToGuild_Schedule")
         end
     end
     openRaidLib.commHandler.RegisterComm(CONST_COMM_KEYSTONE_DATAREQUEST_PREFIX, openRaidLib.KeystoneInfoManager.OnReceiveRequestData)

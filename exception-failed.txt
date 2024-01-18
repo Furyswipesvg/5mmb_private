@@ -1,0 +1,5 @@
+Exception handler died
+Original exception:
+0xc0000005 (ACCESS_VIOLATION) at 0023:00F52B06
+The instruction at "0x00F52B06" referenced memory at "0x00000010".
+The memory could not be read.

@@ -1,6 +1,6 @@
 
 
-local dversion = 496
+local dversion = 504
 local major, minor = "DetailsFramework-1.0", dversion
 local DF, oldminor = LibStub:NewLibrary(major, minor)
 
@@ -523,6 +523,21 @@ function DF.table.find(t, value)
 	end
 end
 
+---find a value inside a sub table
+---@param index number
+---@param value any
+---@return integer|nil
+function DF.table.findsubtable(t, index, value)
+	for i = 1, #t do
+		if (type(t[i]) == "table") then
+			if (t[i][index] == value) then
+				return i
+			end
+		end
+	end
+end
+
+
 function DF:GetParentKeyPath(object)
 	local parentKey = object:GetParentKey()
 	if (not parentKey) then
@@ -681,7 +696,7 @@ end
 function DF.table.duplicate(t1, t2)
 	for key, value in pairs(t2) do
 		if (key ~= "__index" and key ~= "__newindex") then
-			--preserve a wowObject passing it to the new table with copying it
+			--preserve a UIObject passing it to the new table with copying it
 			if (type(value) == "table" and table.GetObjectType and table:GetObjectType()) then
 				t1[key] = value
 
@@ -2784,7 +2799,6 @@ function DF:CreateAnimation(animation, animationType, order, duration, arg1, arg
 
 	elseif (animationType == "ROTATION") then
 		anim:SetDegrees(arg1) --degree
-		--print("SetOrigin", arg2, arg3, arg4)
 		anim:SetOrigin(arg2 or "center", arg3 or 0, arg4 or 0) --point, x, y
 
 	elseif (animationType == "TRANSLATION") then

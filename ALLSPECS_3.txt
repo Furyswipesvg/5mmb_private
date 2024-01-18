@@ -1,0 +1,40 @@
+#box furyswipesbloo.ns3@gmail.com	iso2tope	wow1 furyswipes-bladefist	tank
+#box thi.sismysecondfortymultibox@yahoo.com	iso2tope	wow1 badoinker-bladefist	healer
+#box ultramulti.box.test02@gmail.com 	iso2tope	wow1 springvalley-bladefist	caster
+#box furyswipesbloons3@gmail.com 	Iso222tope	wow1 elonlnside-bladefist	caster
+#box furyswipesbloon.s3@gmail.com	iso2tope	wow1 skullspriest-bladefist	healer
+
+#squad tanks must go first
+#box myfsmb17@maildrop.cc	iso2tope	wow1	jerkstore-bladefist		tank
+#box t.hisismysecondfortymultibox@yahoo.com	iso2tope	wow1 choinker-bladefist		hunter
+#box furyswipesbl.oons3@gmail.com	iso2tope	wow1 toofy-bladefist		melee
+#box ultramulti.box.test@gmail.com 	iso2tope	wow1 goodlivin-bladefist 	caster
+#box furyswipesblo.ons3@gmail.com	iso2tope	wow1 loonkin-bladefist		healer 
+
+box ultra.multiboxtest02@gmail.com	iso2tope	wow1 summerlin-bladefist	tank
+box ultramultibox.test@gmail.com	iso2tope	wow1 neversmile-bladefist	caster
+box ultramultibox.test02@gmail.com	iso2tope	wow1 itcantbee-bladefist	caster
+box ultramul.tiboxtest@gmail.com	iso2tope	wow1 sanguiner-bladefist	caster
+box ult.ramultiboxtest@gmail.com	iso2tope	wow1 funkmunk-bladefist		healer
+
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
+
+#box thisismysecondfortymultibox@yahoo.com	iso2tope	wow1 babadoink-bladefist	tank
+#box ultramultiboxtest.03@gmail.com	iso2tope	wow1 opmageikr-bladefist	caster
+#box ul.tramultiboxtest@gmail.com	iso2tope	wow1 punkmunk-bladefist		melee
+#box ultramultiboxtest@gmail.com		iso2tope	wow1 eversmile-bladefist	tank
+#box ultramulti.boxtest@gmail.com	iso2tope	wow1 aslf-bladefist 		healer
+#box more.bloons6@gmail.com		Iso222tope	wow1 anlmpulse-bladefist 	healer
+#box ultramultibox.test03@gmail.com	iso2tope	wow1 werldpiece-bladefist	melee
+#box ultramulti.boxtest03@gmail.com	iso2tope	wow1 cokecoke-bladefist		caster
+#box morebloons.5@gmail.com		Iso222tope	wow1 thelraq-bladefist 		melee
+#box ultra.multiboxtest03@gmail.com	iso2tope	wow1 onlt-bladefist		caster
+#box furyswipesvg@gmail.com 		Iso222tope	wow1 thelnsane-bladefist	tank
+#box myfsmb17@maildrop.cc	iso2tope	wow1	jerkstore-bladefist		tank
+
+# TWENTY CLUB
+#box furyswipesbloons.3@gmail.com	iso2tope	wow1 orclaw-bladefist		melee
+#box ultramulti.boxtest02@gmail.com	iso2tope	wow1 deadlnside-bladefist	melee
+#box ultram.ultiboxtest@gmail.com	iso2tope	wow1 maladin-bladefist		melee
+#box ultramultiboxtest02@gmail.com	iso2tope	wow1 getln-bladefist		tank
+#box ultra.multiboxtest@gmail.com	iso2tope	wow1 frawshawwk-bladefist	melee

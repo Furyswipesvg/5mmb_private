@@ -14,4 +14,4 @@ box ultramultiboxtest.02@gmail.com	iso2tope	wow1 mypetsux-bladefist		hunter
 box ultramultiboxtest.03@gmail.com	iso2tope	wow1 opmageikr-bladefist	caster
 box ultra.multiboxtest@gmail.com	iso2tope	wow1 frawshawwk-bladefist	caster
 box ult.ramultiboxtest@gmail.com	iso2tope	wow1 funkmunk-bladefist		melee
-
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
