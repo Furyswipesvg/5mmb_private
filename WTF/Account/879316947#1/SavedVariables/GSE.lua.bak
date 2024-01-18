@@ -102,10 +102,10 @@ GSEOptions = {
 	},
 	["use12"] = false,
 	["filterList"] = {
-		["All"] = false,
 		["Spec"] = true,
-		["Global"] = true,
 		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
 	},
 	["NormalColour"] = "|cFFFFFFFF",
 	["editorWidth"] = 700,

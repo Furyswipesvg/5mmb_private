@@ -76,10 +76,10 @@ GSEOptions = {
 	["editorWidth"] = 700,
 	["editorHeight"] = 700,
 	["filterList"] = {
-		["Class"] = true,
 		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["UseVerboseExportFormat"] = false,
 	["NUMBER"] = "|cffffaa00",
