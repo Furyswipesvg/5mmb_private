@@ -1,2 +1,0 @@
-
-HHTD_SavedVariables = nil

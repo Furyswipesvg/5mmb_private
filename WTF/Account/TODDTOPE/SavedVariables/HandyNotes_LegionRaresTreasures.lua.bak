@@ -1,9 +1,0 @@
-
-LegionRaresTreasuresDB = {
-	["profileKeys"] = {
-		["Egbert - Bonechewer"] = "Default",
-		["Menn - Bonechewer"] = "Default",
-		["Eregwynn - Bonechewer"] = "Default",
-		["Delfarias - Bonechewer"] = "Default",
-	},
-}

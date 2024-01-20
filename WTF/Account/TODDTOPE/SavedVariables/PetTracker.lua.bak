@@ -1,8 +1,0 @@
-
-PetTracker_Sets = {
-	["MapFilter"] = "",
-	["RivalHistory"] = {
-	},
-	["MainTutorial"] = 6,
-	["JournalTutorial"] = 3,
-}

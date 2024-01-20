@@ -1,7 +1,0 @@
-VER 3 0100000000000001 "SB" "INV_MISC_QUESTIONMARK"
-/cast shield block
-/cast devastate
-/cast [mod:alt] demoralizing shout
-/use 13
-/use 14
-END

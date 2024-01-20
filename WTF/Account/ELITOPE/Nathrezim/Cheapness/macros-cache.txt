@@ -1,7 +1,0 @@
-VER 3 0100000000000001 "Input" "INV_MISC_QUESTIONMARK"
-#showtooltip Input
-/cleartarget [dead][noharm]
-/targetenemy [dead][noharm]
-/startattack
-/cast Input
-END

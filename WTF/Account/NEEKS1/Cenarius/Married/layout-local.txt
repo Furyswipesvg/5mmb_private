@@ -1,8 +1,0 @@
-Version: 1
-Frame: EavesDropFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -129
-Y: -3
-W: 200
-H: 260

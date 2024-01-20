@@ -1,3 +1,0 @@
-!HealthWatch: disabled
-VoiceCoolDown: disabled
-VoiceCoolDown_enUS: disabled

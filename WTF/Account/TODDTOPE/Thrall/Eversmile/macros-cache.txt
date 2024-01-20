@@ -1,4 +1,0 @@
-VER 3 010000000000000B "ZGVMacro2" "0"
-/target Lord Thorval
-/run ZGV:MRM()
-END

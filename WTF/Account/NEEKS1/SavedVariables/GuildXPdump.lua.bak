@@ -1,2 +1,0 @@
-
-GADB = nil

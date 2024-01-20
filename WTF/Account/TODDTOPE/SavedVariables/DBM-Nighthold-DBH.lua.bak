@@ -1,2 +1,0 @@
-
-DBMNightholdDBM_AllSavedVars = nil

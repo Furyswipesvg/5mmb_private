@@ -1,2 +1,0 @@
-
-PetAttackDB = nil

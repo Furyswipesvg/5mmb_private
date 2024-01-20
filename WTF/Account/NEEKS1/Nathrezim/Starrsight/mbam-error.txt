@@ -1,3 +1,0 @@
-An error has occurred. Please report this error code to our support team.
-
-MBAM_ERROR_NOT_REGISTERED (0, 0)

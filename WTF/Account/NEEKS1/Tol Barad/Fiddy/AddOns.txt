@@ -1,3 +1,0 @@
-FollowerLocationInfo_Data: enabled
-TradeSkillMaster_ItemTracker: disabled
-HandyNotes_DraenorTreasures: enabled

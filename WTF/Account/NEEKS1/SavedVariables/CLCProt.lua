@@ -1,2 +1,0 @@
-
-clcprotDB = nil
