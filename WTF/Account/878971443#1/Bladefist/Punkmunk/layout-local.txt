@@ -1,11 +1,4 @@
 Version: 1
-Frame: ZygorGuidesViewerFrameMaster
-FrameLevel: 1
-Anchor: CENTER
-X: 364
-Y: 218
-W: 40
-H: 40
 Frame: ZygorPetBattleFrame
 FrameLevel: 1
 Anchor: TOPRIGHT

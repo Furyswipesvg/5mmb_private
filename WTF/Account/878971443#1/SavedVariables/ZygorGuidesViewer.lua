@@ -42,8 +42,8 @@ ZygorGuidesViewerSettings = {
 				[2143] = false,
 				[2114] = false,
 				[2009] = false,
-				[1954] = false,
 				[2112] = false,
+				[1954] = false,
 				[2120] = false,
 				["translation"] = {
 					["enUS"] = {
@@ -65,8 +65,16 @@ ZygorGuidesViewerSettings = {
 			["favourites"] = {
 			},
 			["statweightsmoved"] = true,
-			["lastlogin"] = 1705721452,
-			["initialFlightPathsLoaded"] = true,
+			["lastlogin"] = 1705778047,
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+					["step"] = 1,
+				}, -- [1]
+				{
+					["title"] = "LEVELING\\Startup Guide Wizard",
+				}, -- [2]
+			},
 			["gear_selected_spec"] = 3,
 			["faction"] = "Horde",
 			["guidestephistory"] = {
@@ -83,7 +91,7 @@ ZygorGuidesViewerSettings = {
 						44, -- [9]
 						45, -- [10]
 					},
-					["lasttime"] = 1705721461,
+					["lasttime"] = 1705778056,
 				},
 				["LEVELING\\Startup Guide Wizard"] = {
 					["steps"] = {
@@ -138,8 +146,8 @@ ZygorGuidesViewerSettings = {
 			},
 			["race"] = "Pandaren",
 			["timeperlevel"] = {
-				[20] = 3128,
-				["total"] = 196189,
+				[20] = 3864,
+				["total"] = 196925,
 				[15] = 4146,
 				[18] = 960,
 				[19] = 1438,
@@ -155,6 +163,13 @@ ZygorGuidesViewerSettings = {
 					["startmoney"] = 77302,
 					["loss"] = 1944,
 					["timestamp"] = 1705651200,
+				},
+				[1705737600] = {
+					["gain"] = 0,
+					["endmoney"] = 1637577,
+					["startmoney"] = 1637577,
+					["loss"] = 0,
+					["timestamp"] = 1705737600,
 				},
 			},
 			["QuestQueue"] = {
@@ -185,6 +200,12 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705712020,
 				}, -- [5]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["time"] = 1705712021,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -195,32 +216,14 @@ ZygorGuidesViewerSettings = {
 							["step"] = 21,
 						}, -- [2]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705712021,
 				}, -- [6]
 				{
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 46,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-							["step"] = 21,
-						}, -- [2]
-					},
+					["event"] = "GUIDES_LOADED",
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
 					},
-					["event"] = "GUIDES_LOADED",
 					["time"] = 1705712027,
-				}, -- [7]
-				{
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -231,12 +234,24 @@ ZygorGuidesViewerSettings = {
 							["step"] = 21,
 						}, -- [2]
 					},
+				}, -- [7]
+				{
+					["event"] = "GUIDES_LOADED",
 					["current"] = {
 						["title"] = "LEVELING\\Startup Guide Wizard",
 						["step"] = 1,
 					},
-					["event"] = "GUIDES_LOADED",
 					["time"] = 1705712027,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 46,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+							["step"] = 21,
+						}, -- [2]
+					},
 				}, -- [8]
 				{
 					["state"] = true,
@@ -257,27 +272,27 @@ ZygorGuidesViewerSettings = {
 				}, -- [11]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712057,
+					["name"] = "NextButton",
 				}, -- [12]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712060,
+					["name"] = "NextButton",
 				}, -- [13]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712062,
+					["name"] = "NextButton",
 				}, -- [14]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712064,
+					["name"] = "NextButton",
 				}, -- [15]
 				{
 					["num"] = 2,
@@ -286,71 +301,77 @@ ZygorGuidesViewerSettings = {
 				}, -- [16]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712116,
+					["name"] = "NextButton",
 				}, -- [17]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712117,
+					["name"] = "NextButton",
 				}, -- [18]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712118,
+					["name"] = "NextButton",
 				}, -- [19]
 				{
 					["button"] = "LeftButton",
-					["name"] = "GuideShareButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712135,
+					["name"] = "GuideShareButton",
 				}, -- [20]
 				{
 					["button"] = "LeftButton",
-					["name"] = "GuideShareButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712155,
+					["name"] = "GuideShareButton",
 				}, -- [21]
 				{
 					["button"] = "LeftButton",
-					["name"] = "MenuAdditionalButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712158,
+					["name"] = "MenuAdditionalButton",
 				}, -- [22]
 				{
 					["button"] = "LeftButton",
-					["name"] = "MenuAdditionalButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712160,
+					["name"] = "MenuAdditionalButton",
 				}, -- [23]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712161,
+					["name"] = "NextButton",
 				}, -- [24]
 				{
 					["button"] = "LeftButton",
-					["name"] = "GuideShareButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712177,
+					["name"] = "GuideShareButton",
 				}, -- [25]
 				{
 					["button"] = "LeftButton",
-					["name"] = "GuideShareButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712179,
+					["name"] = "GuideShareButton",
 				}, -- [26]
 				{
 					["button"] = "LeftButton",
-					["name"] = "GuideShareButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712191,
+					["name"] = "GuideShareButton",
 				}, -- [27]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["time"] = 1705712196,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -361,12 +382,6 @@ ZygorGuidesViewerSettings = {
 							["step"] = 21,
 						}, -- [2]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705712196,
 				}, -- [28]
 				{
 					["state"] = "master",
@@ -375,9 +390,9 @@ ZygorGuidesViewerSettings = {
 				}, -- [29]
 				{
 					["button"] = "LeftButton",
-					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705712209,
+					["name"] = "NextButton",
 				}, -- [30]
 				{
 					["button"] = "LeftButton",
@@ -426,12 +441,11 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705712432,
 				}, -- [39]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705712432,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
 					},
-					["time"] = 1705712432,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -441,6 +455,7 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [40]
 				{
 					["state"] = false,
@@ -448,12 +463,11 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705712432,
 				}, -- [41]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705712439,
 					["current"] = {
 						["title"] = "LEVELING\\Startup Guide Wizard",
 						["step"] = 21,
 					},
-					["time"] = 1705712439,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -463,14 +477,14 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [42]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705712439,
 					["current"] = {
 						["title"] = "LEVELING\\Startup Guide Wizard",
 						["step"] = 21,
 					},
-					["time"] = 1705712439,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -480,6 +494,7 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [43]
 				{
 					["state"] = true,
@@ -487,12 +502,11 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705712447,
 				}, -- [44]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705712456,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
 					},
-					["time"] = 1705712456,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -502,6 +516,7 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [45]
 				{
 					["button"] = "LeftButton",
@@ -552,9 +567,9 @@ ZygorGuidesViewerSettings = {
 				}, -- [53]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705716447,
 					["name"] = "GuideShareButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [54]
 				{
 					["button"] = "LeftButton",
@@ -576,9 +591,9 @@ ZygorGuidesViewerSettings = {
 				}, -- [57]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705717479,
 					["name"] = "GuideShareButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [58]
 				{
 					["time"] = 1705719196,
@@ -604,11 +619,6 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705719212,
 				}, -- [63]
 				{
-					["time"] = 1705719212,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -618,7 +628,12 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
 					["event"] = "GUIDES_LOADED",
+					["time"] = 1705719212,
 				}, -- [64]
 				{
 					["time"] = 1705721432,
@@ -644,6 +659,46 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705721461,
 				}, -- [69]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["time"] = 1705721461,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 1,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+				}, -- [70]
+				{
+					["time"] = 1705722995,
+					["event"] = "SHUTDOWN",
+				}, -- [71]
+				{
+					["time"] = 1705778052,
+					["event"] = "STARTUP",
+				}, -- [72]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705778052,
+				}, -- [73]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1705778052,
+				}, -- [74]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1705778056,
+				}, -- [75]
+				{
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -658,29 +713,22 @@ ZygorGuidesViewerSettings = {
 						["step"] = 1,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1705721461,
-				}, -- [70]
+					["time"] = 1705778056,
+				}, -- [76]
 				{
-					["time"] = 1705722995,
+					["time"] = 1705778659,
 					["event"] = "SHUTDOWN",
-				}, -- [71]
+				}, -- [77]
 			},
 			["debuglog"] = {
 				"16:53:35.137.113> Viewer started. ---------------------------", -- [1]
 				"17:00:28.816.470> Viewer started. ---------------------------", -- [2]
 				"18:53:25.362.591> Viewer started. ---------------------------", -- [3]
 				"19:30:54.585.055> Viewer started. ---------------------------", -- [4]
+				"11:14:10.225.776> Viewer started. ---------------------------", -- [5]
 			},
 			["gear_selected_class"] = 10,
-			["tabguides"] = {
-				{
-					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-					["step"] = 1,
-				}, -- [1]
-				{
-					["title"] = "LEVELING\\Startup Guide Wizard",
-				}, -- [2]
-			},
+			["initialFlightPathsLoaded"] = true,
 		},
 	},
 	["global"] = {
@@ -971,7 +1019,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			[72019] = {
 				"Trainee's Vest", -- [1]
@@ -1220,6 +1268,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705718366,
 			},
+			["item:155266::::::::20:269::11:1:3631:2:9:18:28:189:::::"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::20:269::11:1:3631:2:9:18:28:189:::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1674410, -- [10]
+				123, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["|cff1eff00|Hitem:159763::::::::16:269::11:1:3524::::::|h[Idol of Vol'jamba]|h|r"] = {
 				"Idol of Vol'jamba", -- [1]
 				"|cff1eff00|Hitem:159763::::::::16:269::11:1:3524::::::|h[Idol of Vol'jamba]|h|r", -- [2]
@@ -1467,6 +1534,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719566,
 			},
+			["|cff1eff00|Hitem:160125::::::::20:269:::2:6654:1705:2:9:17:28:189:::::|h[Direbone Frill Stompers of the Aurora]|h|r"] = {
+				"Direbone Frill Stompers of the Aurora", -- [1]
+				"|cff1eff00|Hitem:160125::::::::20:269:::2:6654:1705:2:9:17:28:189:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1672314, -- [10]
+				172, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
 			["|cff1eff00|Hitem:155266::::::::20:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r"] = {
 				"Jambani Waistwrap", -- [1]
 				"|cff1eff00|Hitem:155266::::::::20:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
@@ -1655,7 +1741,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["item:178169::::::::19:269::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Decrepit Dragonscale Drape", -- [1]
@@ -1694,6 +1780,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
+			},
+			["item:159600::::::::20:269:::2:6655:1698:2:9:17:28:189:::::"] = {
+				"Loa-Blessed Broadsword of the Feverflare", -- [1]
+				"|cff1eff00|Hitem:159600::::::::20:269:::2:6655:1698:2:9:17:28:189:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				14, -- [5]
+				"Weapon", -- [6]
+				"Two-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				1788661, -- [10]
+				410, -- [11]
+				2, -- [12]
+				8, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
 			},
 			["item:152576::::::::19:269:::::::::"] = {
 				"Tidespray Linen", -- [1]
@@ -1807,7 +1912,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["|cff9d9d9d|Hitem:154778::::::::20:269:::1:6656:2:28:189:9:19:::::|h[Ruptured Plate Vambraces]|h|r"] = {
 				"Ruptured Plate Vambraces", -- [1]
@@ -1845,7 +1950,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["|cff1eff00|Hitem:159600::::::::19:269:::2:6655:1698:2:28:189:9:17:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r"] = {
 				"Loa-Blessed Broadsword of the Feverflare", -- [1]
@@ -1902,7 +2007,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["|cff1eff00|Hitem:175161::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r"] = {
 				"Expeditionary Axe", -- [1]
@@ -1921,7 +2026,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["item:155257::::::::19:269::11:1:3631:2:28:189:9:16:::::"] = {
 				"Jambani Breeches", -- [1]
@@ -2225,7 +2330,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["item:178165::::::::15:269::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Tunk's Tooth", -- [1]
@@ -2245,6 +2350,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705712698,
+			},
+			["item:159763::::::::20:269::11:1:3631:2:9:16:28:189:::::"] = {
+				"Idol of Vol'jamba", -- [1]
+				"|cff1eff00|Hitem:159763::::::::20:269::11:1:3631:2:9:16:28:189:::::|h[Idol of Vol'jamba]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				16, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				236487, -- [10]
+				133, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
 			},
 			["|cff9d9d9d|Hitem:158869::::::::19:269:::::::::|h[Stone Tusk]|h|r"] = {
 				"Stone Tusk", -- [1]
@@ -2282,7 +2406,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["item:175211::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Tunic", -- [1]
@@ -2301,7 +2425,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705778052,
 			},
 			["item:154778::::::::19:269:::1:6656:2:28:189:9:19:::::"] = {
 				"Ruptured Plate Vambraces", -- [1]
@@ -2358,7 +2482,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705778052,
 			},
 			["item:178169::::::::16:269::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Decrepit Dragonscale Drape", -- [1]
@@ -2379,6 +2503,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717375,
 			},
+			["item:155305::::::::20:269::11:1:4790:2:9:18:28:189:::::"] = {
+				"Golden City Greatcloak", -- [1]
+				"|cff1eff00|Hitem:155305::::::::20:269::11:1:4790:2:9:18:28:189:::::|h[Golden City Greatcloak]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				2055323, -- [10]
+				269, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
+			["item:160947::::::::20:269::17:1:4776:2:9:17:28:189:::::"] = {
+				"Amani Berserker's Chopper", -- [1]
+				"|cff0070dd|Hitem:160947::::::::20:269::17:1:4776:2:9:17:28:189:::::|h[Amani Berserker's Chopper]|h|r", -- [2]
+				3, -- [3]
+				58, -- [4]
+				17, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				1698636, -- [10]
+				2839, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["item:174792::::::::20:269:::1:6499:2:9:2:28:741:::::"] = {
 				"Stitched Leather Boots", -- [1]
 				"|cffffffff|Hitem:174792::::::::20:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
@@ -2396,7 +2558,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["item:154778::::::::20:269:::1:6656:2:28:189:9:19:::::"] = {
 				"Ruptured Plate Vambraces", -- [1]
@@ -2472,7 +2634,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["|cff9d9d9d|Hitem:155631::::::::20:269:::::::::|h[Inert Stone]|h|r"] = {
 				"Inert Stone", -- [1]
@@ -2493,6 +2655,63 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720010,
 			},
+			["item:162672::::::::16:269:::::::::"] = {
+				"Witch Doctor's Juju Beads", -- [1]
+				"|cff9d9d9d|Hitem:162672::::::::16:269:::::::::|h[Witch Doctor's Juju Beads]|h|r", -- [2]
+				0, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1535057, -- [10]
+				167403, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714723,
+			},
+			["|cff1eff00|Hitem:159600::::::::20:269:::2:6655:1698:2:9:17:28:189:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r"] = {
+				"Loa-Blessed Broadsword of the Feverflare", -- [1]
+				"|cff1eff00|Hitem:159600::::::::20:269:::2:6655:1698:2:9:17:28:189:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				14, -- [5]
+				"Weapon", -- [6]
+				"Two-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				1788661, -- [10]
+				410, -- [11]
+				2, -- [12]
+				8, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
+			["item:159101::::::::20:269::11:1:4790:2:9:19:28:189:::::"] = {
+				"Loti's Favorite Longspear", -- [1]
+				"|cff1eff00|Hitem:159101::::::::20:269::11:1:4790:2:9:19:28:189:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				19, -- [5]
+				"Weapon", -- [6]
+				"Polearms", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				797721, -- [10]
+				835, -- [11]
+				2, -- [12]
+				6, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["item:106290::::::::15:269::1:1:6656:2:9:14:28:2217:::::"] = {
 				"Scraggly Cloth Bracers", -- [1]
 				"|cff9d9d9d|Hitem:106290::::::::15:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
@@ -2512,6 +2731,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712699,
 			},
+			["item:160125::::::::20:269:::2:6654:1705:2:9:17:28:189:::::"] = {
+				"Direbone Frill Stompers of the Aurora", -- [1]
+				"|cff1eff00|Hitem:160125::::::::20:269:::2:6654:1705:2:9:17:28:189:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1672314, -- [10]
+				172, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["|cffffffff|Hitem:6948::::::::19:269:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::19:269:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -2530,6 +2768,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719566,
+			},
+			["item:155257::::::::20:269::11:1:3631:2:9:16:28:189:::::"] = {
+				"Jambani Breeches", -- [1]
+				"|cff1eff00|Hitem:155257::::::::20:269::11:1:3631:2:9:16:28:189:::::|h[Jambani Breeches]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				16, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1674416, -- [10]
+				159, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
 			},
 			[155305] = {
 				"Golden City Greatcloak", -- [1]
@@ -2624,7 +2881,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["item:159600::::::::20:269:::2:6655:1698:2:28:189:9:17:::::"] = {
 				"Loa-Blessed Broadsword of the Feverflare", -- [1]
@@ -2645,24 +2902,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722158,
 			},
-			["item:72019::::::::19:269::75:::::::"] = {
-				"Trainee's Vest", -- [1]
-				"|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+			["item:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Axe", -- [1]
+				"|cff1eff00|Hitem:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				574616, -- [10]
-				8, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"INVTYPE_WEAPON", -- [9]
+				3736874, -- [10]
+				42, -- [11]
+				2, -- [12]
+				0, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705719207,
+				["timestamp"] = 1705722140,
 			},
 			["|cffffffff|Hitem:72019::::::::15:269::75:::::::|h[Trainee's Vest]|h|r"] = {
 				"Trainee's Vest", -- [1]
@@ -2721,82 +2978,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712699,
 			},
-			["item:77526::::::::16:269::75:::::::"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::16:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
-			["item:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Axe", -- [1]
-				"|cff1eff00|Hitem:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Axes", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736874, -- [10]
-				42, -- [11]
-				2, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["item:174787::::::::15:269::11:1:6499:2:9:5:28:741:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::15:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705712699,
-			},
-			["item:175226::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Legguards", -- [1]
-				"|cff1eff00|Hitem:175226::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1911975, -- [10]
-				30, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714662,
-			},
 			["item:106313::::::::19:269::1:1:6656:2:9:14:28:2217:::::"] = {
 				"Sun-Baked Boots", -- [1]
 				"|cff9d9d9d|Hitem:106313::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Sun-Baked Boots]|h|r", -- [2]
@@ -2815,6 +2996,82 @@ ZygorGuidesViewerSettings = {
 				5, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
+			},
+			["item:77509::::::::18:269::75:::::::"] = {
+				"Trainee's Cord", -- [1]
+				"|cffffffff|Hitem:77509::::::::18:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				574613, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705717856,
+			},
+			["item:175216::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				16, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705718202,
+			},
+			["item:174804::::::::19:269:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::19:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719207,
+			},
+			["item:72020::::::::20:268::75:::::::"] = {
+				"Trainee's Leggings", -- [1]
+				"|cffffffff|Hitem:72020::::::::20:268::75:::::::|h[Trainee's Leggings]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				574617, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
 			},
 			["item:175211::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Tunic", -- [1]
@@ -2873,24 +3130,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722158,
 			},
-			["item:175161::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Axe", -- [1]
-				"|cff1eff00|Hitem:175161::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Axes", -- [7]
+			["item:77509::::::::19:269::75:::::::"] = {
+				"Trainee's Cord", -- [1]
+				"|cffffffff|Hitem:77509::::::::19:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736874, -- [10]
-				42, -- [11]
-				2, -- [12]
-				0, -- [13]
+				"INVTYPE_WAIST", -- [9]
+				574613, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705716982,
+				["timestamp"] = 1705719207,
 			},
 			["item:175226::::::::18:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
@@ -2911,234 +3168,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717860,
 			},
-			["item:73209::::::::18:269::75:::::::"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::18:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717856,
-			},
-			["item:77526::::::::20:269::75:::::::"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
-			},
-			["item:77509::::::::18:269::75:::::::"] = {
-				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::18:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				574613, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717856,
-			},
-			["item:175226::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Legguards", -- [1]
-				"|cff1eff00|Hitem:175226::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1911975, -- [10]
-				30, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
-			["item:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::"] = {
-				"Tunk's Tooth", -- [1]
-				"|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Swords", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926043, -- [10]
-				480, -- [11]
-				2, -- [12]
-				7, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722157,
-			},
-			["item:175161::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Axe", -- [1]
-				"|cff1eff00|Hitem:175161::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Axes", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736874, -- [10]
-				42, -- [11]
-				2, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
-			["item:175216::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Gloves", -- [1]
-				"|cff1eff00|Hitem:175216::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1911960, -- [10]
-				16, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705718202,
-			},
-			["item:175237::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				16, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717375,
-			},
-			["item:178165::::::::19:269::1:1:6822:2:9:10:28:1729:::::"] = {
-				"Tunk's Tooth", -- [1]
-				"|cff0070dd|Hitem:178165::::::::19:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Swords", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926043, -- [10]
-				480, -- [11]
-				2, -- [12]
-				7, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
-			["item:174804::::::::19:269:::1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::19:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
-			["item:72020::::::::20:268::75:::::::"] = {
-				"Trainee's Leggings", -- [1]
-				"|cffffffff|Hitem:72020::::::::20:268::75:::::::|h[Trainee's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				574617, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["item:77509::::::::19:269::75:::::::"] = {
-				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::19:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				574613, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
 			["item:155257::::::::16:269::11:1:3524::::::"] = {
 				"Jambani Breeches", -- [1]
 				"|cff1eff00|Hitem:155257::::::::16:269::11:1:3524::::::|h[Jambani Breeches]|h|r", -- [2]
@@ -3158,19 +3187,38 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705714927,
 			},
-			["item:6948::::::::19:269:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::19:269:::::::::|h[Hearthstone]|h|r", -- [2]
+			["item:77526::::::::20:268::75:::::::"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::20:268::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
+				"INVTYPE_WRIST", -- [9]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["item:175161::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Axe", -- [1]
+				"|cff1eff00|Hitem:175161::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736874, -- [10]
+				42, -- [11]
+				2, -- [12]
 				0, -- [13]
 				1, -- [14]
 				0, -- [15]
@@ -3195,6 +3243,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
+			},
+			["item:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Tunk's Tooth", -- [1]
+				"|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926043, -- [10]
+				480, -- [11]
+				2, -- [12]
+				7, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
 			},
 			["item:174808::::::::19:269:::1:6499:2:9:4:28:741:::::"] = {
 				"Stitched Leather Cinch", -- [1]
@@ -3234,22 +3301,41 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712699,
 			},
-			["item:158869::::::::19:269:::::::::"] = {
-				"Stone Tusk", -- [1]
-				"|cff9d9d9d|Hitem:158869::::::::19:269:::::::::|h[Stone Tusk]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1029749, -- [10]
-				12924, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
+			["item:175237::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				16, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705717375,
+			},
+			["item:178165::::::::19:269::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Tunk's Tooth", -- [1]
+				"|cff0070dd|Hitem:178165::::::::19:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926043, -- [10]
+				480, -- [11]
+				2, -- [12]
+				7, -- [13]
+				1, -- [14]
+				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
@@ -3272,100 +3358,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r"] = {
-				"Scraggly Cloth Bracers", -- [1]
-				"|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
-				0, -- [3]
-				35, -- [4]
-				3, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				5, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["item:162672::::::::16:269:::::::::"] = {
-				"Witch Doctor's Juju Beads", -- [1]
-				"|cff9d9d9d|Hitem:162672::::::::16:269:::::::::|h[Witch Doctor's Juju Beads]|h|r", -- [2]
-				0, -- [3]
+			["|cff1eff00|Hitem:159101::::::::20:269::11:1:4790:2:9:19:28:189:::::|h[Loti's Favorite Longspear]|h|r"] = {
+				"Loti's Favorite Longspear", -- [1]
+				"|cff1eff00|Hitem:159101::::::::20:269::11:1:4790:2:9:19:28:189:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
+				2, -- [3]
 				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1535057, -- [10]
-				167403, -- [11]
-				15, -- [12]
-				0, -- [13]
+				19, -- [5]
+				"Weapon", -- [6]
+				"Polearms", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				797721, -- [10]
+				835, -- [11]
+				2, -- [12]
+				6, -- [13]
 				1, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705714723,
-			},
-			[174792] = {
-				"Stitched Leather Boots", -- [1]
-				"|cffffffff|Hitem:174792::::::::20:269:::::::::|h[Stitched Leather Boots]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				8, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720033,
-			},
-			["item:160125::::::::18:269:::2:6654:1705:2:28:189:9:17:::::"] = {
-				"Direbone Frill Stompers of the Aurora", -- [1]
-				"|cff1eff00|Hitem:160125::::::::18:269:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				1672314, -- [10]
-				172, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717859,
-			},
-			["item:155266::::::::20:268::11:1:3631:2:28:189:9:18:::::"] = {
-				"Jambani Waistwrap", -- [1]
-				"|cff1eff00|Hitem:155266::::::::20:268::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				18, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1674410, -- [10]
-				123, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705778056,
 			},
 			["item:163853::::::::17:269:::::::::"] = {
 				"Pilgrimage Scroll", -- [1]
@@ -3404,25 +3414,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705717858,
-			},
-			["item:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::"] = {
-				"Scraggly Cloth Bracers", -- [1]
-				"|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
-				0, -- [3]
-				35, -- [4]
-				3, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				5, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
 			},
 			["|cff1eff00|Hitem:159600::::::::20:268:::2:6655:1698:2:28:189:9:17:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r"] = {
 				"Loa-Blessed Broadsword of the Feverflare", -- [1]
@@ -3481,9 +3472,275 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705718211,
 			},
-			["item:174787::::::::20:268::11:1:6499:2:9:5:28:741:::::"] = {
+			["item:11847::::::::15:269:::1:6713:2:9:5:28:957:::::"] = {
+				"Battered Cloak", -- [1]
+				"|cffffffff|Hitem:11847::::::::15:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				5, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133753, -- [10]
+				8, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712699,
+			},
+			["item:158869::::::::17:269:::::::::"] = {
+				"Stone Tusk", -- [1]
+				"|cff9d9d9d|Hitem:158869::::::::17:269:::::::::|h[Stone Tusk]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1029749, -- [10]
+				12924, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705716983,
+			},
+			["item:72019::::::::15:269::75:::::::"] = {
+				"Trainee's Vest", -- [1]
+				"|cffffffff|Hitem:72019::::::::15:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				574616, -- [10]
+				8, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712699,
+			},
+			["|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r"] = {
+				"Scraggly Cloth Bracers", -- [1]
+				"|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
+				0, -- [3]
+				35, -- [4]
+				3, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				5, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719566,
+			},
+			["|cff1eff00|Hitem:160125::::::::20:268:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r"] = {
+				"Direbone Frill Stompers of the Aurora", -- [1]
+				"|cff1eff00|Hitem:160125::::::::20:268:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1672314, -- [10]
+				172, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			[174792] = {
+				"Stitched Leather Boots", -- [1]
+				"|cffffffff|Hitem:174792::::::::20:269:::::::::|h[Stitched Leather Boots]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				8, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705720033,
+			},
+			["|cffffffff|Hitem:152631::::::::19:269:::::::::|h[Briny Flesh]|h|r"] = {
+				"Briny Flesh", -- [1]
+				"|cffffffff|Hitem:152631::::::::19:269:::::::::|h[Briny Flesh]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2066003, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1705719566,
+			},
+			["item:155266::::::::20:268::11:1:3631:2:28:189:9:18:::::"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::20:268::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1674410, -- [10]
+				123, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["item:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::"] = {
+				"Scraggly Cloth Bracers", -- [1]
+				"|cff9d9d9d|Hitem:106290::::::::19:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
+				0, -- [3]
+				35, -- [4]
+				3, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				5, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719207,
+			},
+			["item:73209::::::::19:269::75:::::::"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::19:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719207,
+			},
+			["|cff9d9d9d|Hitem:155609::::::::19:269:::::::::|h[Springy Eyeball]|h|r"] = {
+				"Springy Eyeball", -- [1]
+				"|cff9d9d9d|Hitem:155609::::::::19:269:::::::::|h[Springy Eyeball]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				60, -- [8]
+				"", -- [9]
+				237297, -- [10]
+				3817, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719566,
+			},
+			["item:155302::::::::16:269::11:1:3524::::::"] = {
+				"Jambani Hex Focus", -- [1]
+				"|cff1eff00|Hitem:155302::::::::16:269::11:1:3524::::::|h[Jambani Hex Focus]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_HOLDABLE", -- [9]
+				1733401, -- [10]
+				129, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705715169,
+			},
+			["item:6948::::::::15:269:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::15:269:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712699,
+			},
+			["item:175161::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Axe", -- [1]
+				"|cff1eff00|Hitem:175161::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736874, -- [10]
+				42, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705716982,
+			},
+			["item:174787::::::::20:269::11:1:6499:2:9:5:28:741:::::"] = {
 				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::20:268::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				"|cffffffff|Hitem:174787::::::::20:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
@@ -3498,7 +3755,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705778052,
 			},
 			["item:106313::::::::15:269::1:1:6656:2:9:14:28:2217:::::"] = {
 				"Sun-Baked Boots", -- [1]
@@ -3519,24 +3776,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705714653,
 			},
-			["item:11847::::::::15:269:::1:6713:2:9:5:28:957:::::"] = {
-				"Battered Cloak", -- [1]
-				"|cffffffff|Hitem:11847::::::::15:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				5, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133753, -- [10]
-				8, -- [11]
-				4, -- [12]
-				1, -- [13]
+			["item:162672::::::::17:269:::::::::"] = {
+				"Witch Doctor's Juju Beads", -- [1]
+				"|cff9d9d9d|Hitem:162672::::::::17:269:::::::::|h[Witch Doctor's Juju Beads]|h|r", -- [2]
+				0, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1535057, -- [10]
+				167403, -- [11]
+				15, -- [12]
+				0, -- [13]
 				1, -- [14]
-				0, -- [15]
+				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705712699,
+				["timestamp"] = 1705716983,
 			},
 			[155631] = {
 				"Inert Stone", -- [1]
@@ -3557,9 +3814,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720010,
 			},
-			["item:158869::::::::17:269:::::::::"] = {
+			["item:158869::::::::19:269:::::::::"] = {
 				"Stone Tusk", -- [1]
-				"|cff9d9d9d|Hitem:158869::::::::17:269:::::::::|h[Stone Tusk]|h|r", -- [2]
+				"|cff9d9d9d|Hitem:158869::::::::19:269:::::::::|h[Stone Tusk]|h|r", -- [2]
 				0, -- [3]
 				40, -- [4]
 				1, -- [5]
@@ -3574,7 +3831,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705716983,
+				["timestamp"] = 1705719207,
 			},
 			["item:158859::::::::20:269:::::::::"] = {
 				"Jagged Fang", -- [1]
@@ -3633,43 +3890,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717375,
 			},
-			["item:72019::::::::15:269::75:::::::"] = {
-				"Trainee's Vest", -- [1]
-				"|cffffffff|Hitem:72019::::::::15:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["|cff0070dd|Hitem:178169::::::::20:268::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::20:268::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				574616, -- [10]
-				8, -- [11]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705712699,
-			},
-			["|cff1eff00|Hitem:160125::::::::20:268:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r"] = {
-				"Direbone Frill Stompers of the Aurora", -- [1]
-				"|cff1eff00|Hitem:160125::::::::20:268:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				1672314, -- [10]
-				172, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
 				["timestamp"] = 1705722140,
+			},
+			["item:73209::::::::18:269::75:::::::"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::18:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705717856,
 			},
 			["item:72020::::::::19:269::75:::::::"] = {
 				"Trainee's Leggings", -- [1]
@@ -3690,215 +3947,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["|cffffffff|Hitem:152631::::::::19:269:::::::::|h[Briny Flesh]|h|r"] = {
-				"Briny Flesh", -- [1]
-				"|cffffffff|Hitem:152631::::::::19:269:::::::::|h[Briny Flesh]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2066003, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1705719566,
-			},
-			["item:73209::::::::16:269::75:::::::"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::16:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
-			["|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r"] = {
-				"Pilgrimage Scroll", -- [1]
-				"|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1500882, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["item:6948::::::::20:268:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::20:268:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cff1eff00|Hitem:161139::::::::16:269::11:1:3524::::::|h[Spirit Twister's Band]|h|r"] = {
-				"Spirit Twister's Band", -- [1]
-				"|cff1eff00|Hitem:161139::::::::16:269::11:1:3524::::::|h[Spirit Twister's Band]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				133358, -- [10]
-				97, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714927,
-			},
-			["|cff9d9d9d|Hitem:155609::::::::19:269:::::::::|h[Springy Eyeball]|h|r"] = {
-				"Springy Eyeball", -- [1]
-				"|cff9d9d9d|Hitem:155609::::::::19:269:::::::::|h[Springy Eyeball]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				60, -- [8]
-				"", -- [9]
-				237297, -- [10]
-				3817, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["item:155302::::::::16:269::11:1:3524::::::"] = {
-				"Jambani Hex Focus", -- [1]
-				"|cff1eff00|Hitem:155302::::::::16:269::11:1:3524::::::|h[Jambani Hex Focus]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_HOLDABLE", -- [9]
-				1733401, -- [10]
-				129, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705715169,
-			},
-			["|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r"] = {
-				"Jambani Waistwrap", -- [1]
-				"|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				18, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1674410, -- [10]
-				123, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["item:6948::::::::15:269:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::15:269:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705712699,
-			},
-			[152631] = {
-				"Briny Flesh", -- [1]
-				"|cffffffff|Hitem:152631::::::::20:269:::::::::|h[Briny Flesh]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2066003, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1705720032,
-			},
-			["item:162672::::::::17:269:::::::::"] = {
-				"Witch Doctor's Juju Beads", -- [1]
-				"|cff9d9d9d|Hitem:162672::::::::17:269:::::::::|h[Witch Doctor's Juju Beads]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1535057, -- [10]
-				167403, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705716983,
-			},
 			["|cffffffff|Hitem:11847::::::::19:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r"] = {
 				"Battered Cloak", -- [1]
 				"|cffffffff|Hitem:11847::::::::19:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
@@ -3917,25 +3965,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719566,
-			},
-			["item:159101::::::::20:268::11:1:4790:2:28:189:9:19:::::"] = {
-				"Loti's Favorite Longspear", -- [1]
-				"|cff1eff00|Hitem:159101::::::::20:268::11:1:4790:2:28:189:9:19:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				19, -- [5]
-				"Weapon", -- [6]
-				"Polearms", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				797721, -- [10]
-				835, -- [11]
-				2, -- [12]
-				6, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
 			},
 			["|cffffffff|Hitem:73209::::::::19:269::75:::::::|h[Trainee's Staff]|h|r"] = {
 				"Trainee's Staff", -- [1]
@@ -3956,24 +3985,176 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719566,
 			},
-			["item:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+			["|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r"] = {
+				"Pilgrimage Scroll", -- [1]
+				"|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1500882, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["item:6948::::::::20:269:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::20:269:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
+			["|cff1eff00|Hitem:161139::::::::16:269::11:1:3524::::::|h[Spirit Twister's Band]|h|r"] = {
+				"Spirit Twister's Band", -- [1]
+				"|cff1eff00|Hitem:161139::::::::16:269::11:1:3524::::::|h[Spirit Twister's Band]|h|r", -- [2]
 				2, -- [3]
-				5, -- [4]
-				10, -- [5]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133358, -- [10]
+				97, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714927,
+			},
+			["|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				15, -- [11]
+				1674410, -- [10]
+				123, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719566,
+			},
+			["|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r"] = {
+				"Trainee's Vest", -- [1]
+				"|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				574616, -- [10]
+				8, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705719566,
+			},
+			["|cffffffff|Hitem:77509::::::::15:269::75:::::::|h[Trainee's Cord]|h|r"] = {
+				"Trainee's Cord", -- [1]
+				"|cffffffff|Hitem:77509::::::::15:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				574613, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712462,
+			},
+			["|cffffffff|Hitem:174792::::::::20:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
+				"Stitched Leather Boots", -- [1]
+				"|cffffffff|Hitem:174792::::::::20:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
+			[152631] = {
+				"Briny Flesh", -- [1]
+				"|cffffffff|Hitem:152631::::::::20:269:::::::::|h[Briny Flesh]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2066003, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1705720032,
+			},
+			["|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1674410, -- [10]
+				123, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705718202,
 			},
 			["item:175222::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Helm", -- [1]
@@ -3994,18 +4175,94 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["item:175237::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+			["item:159101::::::::20:268::11:1:4790:2:28:189:9:19:::::"] = {
+				"Loti's Favorite Longspear", -- [1]
+				"|cff1eff00|Hitem:159101::::::::20:268::11:1:4790:2:28:189:9:19:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				19, -- [5]
+				"Weapon", -- [6]
+				"Polearms", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				797721, -- [10]
+				835, -- [11]
+				2, -- [12]
+				6, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["item:155257::::::::20:269::11:1:3631:2:28:189:9:16:::::"] = {
+				"Jambani Breeches", -- [1]
+				"|cff1eff00|Hitem:155257::::::::20:269::11:1:3631:2:28:189:9:16:::::|h[Jambani Breeches]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				16, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1674416, -- [10]
+				159, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722157,
+			},
+			["item:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				15, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
+			["item:77526::::::::18:269::75:::::::"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::18:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
 				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				16, -- [11]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705717856,
+			},
+			["item:175227::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				23, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
@@ -4013,24 +4270,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722140,
 			},
-			["|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r"] = {
-				"Trainee's Vest", -- [1]
-				"|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175222::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Helm", -- [1]
+				"|cff1eff00|Hitem:175222::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
 				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				574616, -- [10]
-				8, -- [11]
+				"INVTYPE_HEAD", -- [9]
+				1911953, -- [10]
+				22, -- [11]
 				4, -- [12]
-				1, -- [13]
+				2, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705719566,
+				["timestamp"] = 1705778052,
 			},
 			["|cff1eff00|Hitem:175216::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r"] = {
 				"Expeditionary Leather Gloves", -- [1]
@@ -4089,62 +4346,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705715171,
 			},
-			["|cffffffff|Hitem:174808::::::::19:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r"] = {
-				"Stitched Leather Cinch", -- [1]
-				"|cffffffff|Hitem:174808::::::::19:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132493, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["|cffffffff|Hitem:174792::::::::19:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
-				"Stitched Leather Boots", -- [1]
-				"|cffffffff|Hitem:174792::::::::19:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["|cffffffff|Hitem:77509::::::::15:269::75:::::::|h[Trainee's Cord]|h|r"] = {
-				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::15:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+			[72020] = {
+				"Trainee's Leggings", -- [1]
+				"|cffffffff|Hitem:72020::::::::20:269:::::::::|h[Trainee's Leggings]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				574613, -- [10]
-				4, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				574617, -- [10]
+				7, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705712462,
+				["timestamp"] = 1705720033,
+			},
+			["|cff9d9d9d|Hitem:154778::::::::19:269:::1:6656:2:28:189:9:19:::::|h[Ruptured Plate Vambraces]|h|r"] = {
+				"Ruptured Plate Vambraces", -- [1]
+				"|cff9d9d9d|Hitem:154778::::::::19:269:::1:6656:2:28:189:9:19:::::|h[Ruptured Plate Vambraces]|h|r", -- [2]
+				0, -- [3]
+				37, -- [4]
+				11, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132606, -- [10]
+				36, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719566,
+			},
+			["|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
 			},
 			["item:159099::::::::19:269::11:1:3524::::::"] = {
 				"Pa'ku Adherent's Talons", -- [1]
@@ -4184,234 +4441,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722140,
 			},
-			["|cff9d9d9d|Hitem:154778::::::::19:269:::1:6656:2:28:189:9:19:::::|h[Ruptured Plate Vambraces]|h|r"] = {
-				"Ruptured Plate Vambraces", -- [1]
-				"|cff9d9d9d|Hitem:154778::::::::19:269:::1:6656:2:28:189:9:19:::::|h[Ruptured Plate Vambraces]|h|r", -- [2]
-				0, -- [3]
-				37, -- [4]
-				11, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132606, -- [10]
-				36, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719566,
-			},
-			["|cffffffff|Hitem:174792::::::::20:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
-				"Stitched Leather Boots", -- [1]
-				"|cffffffff|Hitem:174792::::::::20:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["item:163853::::::::20:268:::::::::"] = {
-				"Pilgrimage Scroll", -- [1]
-				"|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1500882, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r"] = {
-				"Jambani Waistwrap", -- [1]
-				"|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1674410, -- [10]
-				123, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705718202,
-			},
-			["item:106290::::::::16:269::1:1:6656:2:9:14:28:2217:::::"] = {
-				"Scraggly Cloth Bracers", -- [1]
-				"|cff9d9d9d|Hitem:106290::::::::16:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
-				0, -- [3]
-				35, -- [4]
-				3, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				5, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
-			["item:155257::::::::20:269::11:1:3631:2:28:189:9:16:::::"] = {
-				"Jambani Breeches", -- [1]
-				"|cff1eff00|Hitem:155257::::::::20:269::11:1:3631:2:28:189:9:16:::::|h[Jambani Breeches]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				16, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1674416, -- [10]
-				159, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722157,
-			},
-			["item:155246::::::::18:269::11:1:3524::::::"] = {
-				"Jambani Grips", -- [1]
-				"|cff1eff00|Hitem:155246::::::::18:269::11:1:3524::::::|h[Jambani Grips]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1674414, -- [10]
-				120, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705718202,
-			},
-			["item:77526::::::::18:269::75:::::::"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::18:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717856,
-			},
-			["item:175222::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Helm", -- [1]
-				"|cff1eff00|Hitem:175222::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1911953, -- [10]
-				22, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722157,
-			},
-			[72020] = {
-				"Trainee's Leggings", -- [1]
-				"|cffffffff|Hitem:72020::::::::20:269:::::::::|h[Trainee's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				574617, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720033,
-			},
-			["item:174808::::::::16:269:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Leather Cinch", -- [1]
-				"|cffffffff|Hitem:174808::::::::16:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132493, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
 			["item:72020::::::::15:269::75:::::::"] = {
 				"Trainee's Leggings", -- [1]
 				"|cffffffff|Hitem:72020::::::::15:269::75:::::::|h[Trainee's Leggings]|h|r", -- [2]
@@ -4450,24 +4479,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705716776,
 			},
-			["item:175161::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Axe", -- [1]
-				"|cff1eff00|Hitem:175161::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Axes", -- [7]
+			["item:106313::::::::20:269::1:1:6656:2:9:14:28:2217:::::"] = {
+				"Sun-Baked Boots", -- [1]
+				"|cff9d9d9d|Hitem:106313::::::::20:269::1:1:6656:2:9:14:28:2217:::::|h[Sun-Baked Boots]|h|r", -- [2]
+				0, -- [3]
+				35, -- [4]
+				3, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736874, -- [10]
-				42, -- [11]
-				2, -- [12]
-				0, -- [13]
-				1, -- [14]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				6, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				5, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
+			["|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778056,
 			},
 			["item:175227::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Spaulders", -- [1]
@@ -4486,7 +4534,26 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705778052,
+			},
+			["item:106290::::::::16:269::1:1:6656:2:9:14:28:2217:::::"] = {
+				"Scraggly Cloth Bracers", -- [1]
+				"|cff9d9d9d|Hitem:106290::::::::16:269::1:1:6656:2:9:14:28:2217:::::|h[Scraggly Cloth Bracers]|h|r", -- [2]
+				0, -- [3]
+				35, -- [4]
+				3, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				5, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
 			},
 			[155609] = {
 				"Springy Eyeball", -- [1]
@@ -4507,6 +4574,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720010,
 			},
+			["item:155246::::::::18:269::11:1:3524::::::"] = {
+				"Jambani Grips", -- [1]
+				"|cff1eff00|Hitem:155246::::::::18:269::11:1:3524::::::|h[Jambani Grips]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1674414, -- [10]
+				120, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705718202,
+			},
 			["item:175237::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Bracers", -- [1]
 				"|cff1eff00|Hitem:175237::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
@@ -4524,7 +4610,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705778052,
 			},
 			["item:77526::::::::15:269::75:::::::"] = {
 				"Trainee's Wristwraps", -- [1]
@@ -4564,24 +4650,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717859,
 			},
-			["item:174804::::::::20:268:::1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
+			["item:175226::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Legguards", -- [1]
+				"|cff1eff00|Hitem:175226::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
+				2, -- [3]
 				5, -- [4]
-				1, -- [5]
+				10, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				1911975, -- [10]
+				30, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705719207,
+			},
+			["item:175161::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Axe", -- [1]
+				"|cff1eff00|Hitem:175161::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736874, -- [10]
+				42, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
 			},
 			["item:163853::::::::18:269:::::::::"] = {
 				"Pilgrimage Scroll", -- [1]
@@ -4602,43 +4707,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717859,
 			},
-			["item:159101::::::::19:269::11:1:3524::::::"] = {
-				"Loti's Favorite Longspear", -- [1]
-				"|cff1eff00|Hitem:159101::::::::19:269::11:1:3524::::::|h[Loti's Favorite Longspear]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Weapon", -- [6]
-				"Polearms", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				797721, -- [10]
-				835, -- [11]
-				2, -- [12]
-				6, -- [13]
-				1, -- [14]
+			["item:158859::::::::18:269:::::::::"] = {
+				"Jagged Fang", -- [1]
+				"|cff9d9d9d|Hitem:158859::::::::18:269:::::::::|h[Jagged Fang]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1518091, -- [10]
+				10949, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705719492,
-			},
-			["|cffffffff|Hitem:11847::::::::20:268:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r"] = {
-				"Battered Cloak", -- [1]
-				"|cffffffff|Hitem:11847::::::::20:268:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				5, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133753, -- [10]
-				8, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705717901,
 			},
 			["item:159600::::::::18:269:::2:6655:1698:2:28:189:9:17:::::"] = {
 				"Loa-Blessed Broadsword of the Feverflare", -- [1]
@@ -4659,25 +4745,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717859,
 			},
-			["item:160933::::::::20:269:::1:6657:2:28:189:9:17:::::"] = {
-				"Splintered Longbow", -- [1]
-				"|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r", -- [2]
-				0, -- [3]
-				37, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Bows", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGED", -- [9]
-				135490, -- [10]
-				62, -- [11]
-				2, -- [12]
-				2, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719809,
-			},
 			["item:175226::::::::20:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
 				"|cff1eff00|Hitem:175226::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
@@ -4695,7 +4762,45 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
+			},
+			["item:175226::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Legguards", -- [1]
+				"|cff1eff00|Hitem:175226::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1911975, -- [10]
+				30, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714662,
+			},
+			["item:77526::::::::16:269::75:::::::"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::16:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
 			},
 			["item:155305::::::::17:269::11:1:3524::::::"] = {
 				"Golden City Greatcloak", -- [1]
@@ -4716,6 +4821,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705716776,
 			},
+			["item:174804::::::::20:269:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["item:163853::::::::20:269:::::::::"] = {
 				"Pilgrimage Scroll", -- [1]
 				"|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
@@ -4733,7 +4857,45 @@ ZygorGuidesViewerSettings = {
 				4, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
+			},
+			["item:159101::::::::19:269::11:1:3524::::::"] = {
+				"Loti's Favorite Longspear", -- [1]
+				"|cff1eff00|Hitem:159101::::::::19:269::11:1:3524::::::|h[Loti's Favorite Longspear]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Weapon", -- [6]
+				"Polearms", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				797721, -- [10]
+				835, -- [11]
+				2, -- [12]
+				6, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719492,
+			},
+			["item:174787::::::::16:269::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::16:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
 			},
 			["|cff1eff00|Hitem:175161::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r"] = {
 				"Expeditionary Axe", -- [1]
@@ -4754,6 +4916,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712462,
 			},
+			["item:160933::::::::20:269:::1:6657:2:28:189:9:17:::::"] = {
+				"Splintered Longbow", -- [1]
+				"|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r", -- [2]
+				0, -- [3]
+				37, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Bows", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGED", -- [9]
+				135490, -- [10]
+				62, -- [11]
+				2, -- [12]
+				2, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719809,
+			},
 			["item:175216::::::::15:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Gloves", -- [1]
 				"|cff1eff00|Hitem:175216::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
@@ -4772,6 +4953,82 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705714653,
+			},
+			["|cffffffff|Hitem:77526::::::::15:269::75:::::::|h[Trainee's Wristwraps]|h|r"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::15:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712462,
+			},
+			["item:160107::::::::17:269:::::::::"] = {
+				"Amani Head", -- [1]
+				"|cffffffff|Hitem:160107::::::::17:269:::::::::|h[Amani Head]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134177, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705716879,
+			},
+			["item:174792::::::::16:269:::1:6499:2:9:2:28:741:::::"] = {
+				"Stitched Leather Boots", -- [1]
+				"|cffffffff|Hitem:174792::::::::16:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
+			},
+			["|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r"] = {
+				"Splintered Longbow", -- [1]
+				"|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r", -- [2]
+				0, -- [3]
+				37, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Bows", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGED", -- [9]
+				135490, -- [10]
+				62, -- [11]
+				2, -- [12]
+				2, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705720009,
 			},
 			["item:175233::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Belt", -- [1]
@@ -4830,139 +5087,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722055,
 			},
-			["|cffffffff|Hitem:77526::::::::15:269::75:::::::|h[Trainee's Wristwraps]|h|r"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::15:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705712462,
-			},
-			[158869] = {
-				"Stone Tusk", -- [1]
-				"|cff9d9d9d|Hitem:158869::::::::20:269:::::::::|h[Stone Tusk]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1029749, -- [10]
-				12924, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720009,
-			},
-			[159600] = {
-				"Loa-Blessed Broadsword", -- [1]
-				"|cff1eff00|Hitem:159600::::::::20:269:::::::::|h[Loa-Blessed Broadsword]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				50, -- [5]
-				"Weapon", -- [6]
-				"Two-Handed Swords", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				1788661, -- [10]
-				3861, -- [11]
-				2, -- [12]
-				8, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720032,
-			},
-			["item:174792::::::::16:269:::1:6499:2:9:2:28:741:::::"] = {
-				"Stitched Leather Boots", -- [1]
-				"|cffffffff|Hitem:174792::::::::16:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
-			["item:73209::::::::20:268::75:::::::"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::20:268::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r"] = {
-				"Splintered Longbow", -- [1]
-				"|cff9d9d9d|Hitem:160933::::::::20:269:::1:6657:2:28:189:9:17:::::|h[Splintered Longbow]|h|r", -- [2]
-				0, -- [3]
-				37, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Bows", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGED", -- [9]
-				135490, -- [10]
-				62, -- [11]
-				2, -- [12]
-				2, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720009,
-			},
-			["item:155305::::::::20:269::11:1:4790:2:28:189:9:18:::::"] = {
-				"Golden City Greatcloak", -- [1]
-				"|cff1eff00|Hitem:155305::::::::20:269::11:1:4790:2:28:189:9:18:::::|h[Golden City Greatcloak]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				18, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				2055323, -- [10]
-				269, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722157,
-			},
 			["|cffffffff|Hitem:174808::::::::15:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r"] = {
 				"Stitched Leather Cinch", -- [1]
 				"|cffffffff|Hitem:174808::::::::15:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r", -- [2]
@@ -5001,43 +5125,100 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["item:155266::::::::18:269::11:1:3524::::::"] = {
-				"Jambani Waistwrap", -- [1]
-				"|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r", -- [2]
+			[159600] = {
+				"Loa-Blessed Broadsword", -- [1]
+				"|cff1eff00|Hitem:159600::::::::20:269:::::::::|h[Loa-Blessed Broadsword]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				50, -- [5]
+				"Weapon", -- [6]
+				"Two-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				1788661, -- [10]
+				3861, -- [11]
+				2, -- [12]
+				8, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705720032,
+			},
+			["item:175227::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				23, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714662,
+			},
+			["item:73209::::::::20:269::75:::::::"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
+			["item:155305::::::::20:269::11:1:4790:2:28:189:9:18:::::"] = {
+				"Golden City Greatcloak", -- [1]
+				"|cff1eff00|Hitem:155305::::::::20:269::11:1:4790:2:28:189:9:18:::::|h[Golden City Greatcloak]|h|r", -- [2]
 				2, -- [3]
 				50, -- [4]
-				0, -- [5]
+				18, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				2055323, -- [10]
+				269, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722157,
+			},
+			["|cffffffff|Hitem:174808::::::::19:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r"] = {
+				"Stitched Leather Cinch", -- [1]
+				"|cffffffff|Hitem:174808::::::::19:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				1674410, -- [10]
-				123, -- [11]
+				132493, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705718202,
-			},
-			["item:6948::::::::16:269:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::16:269:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705714663,
+				["timestamp"] = 1705719566,
 			},
 			["item:178165::::::::16:269::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Tunk's Tooth", -- [1]
@@ -5058,6 +5239,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705717856,
 			},
+			["item:155266::::::::18:269::11:1:3524::::::"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::18:269::11:1:3524::::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1674410, -- [10]
+				123, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705718202,
+			},
 			["item:175227::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Spaulders", -- [1]
 				"|cff1eff00|Hitem:175227::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
@@ -5076,6 +5276,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
+			},
+			["item:6948::::::::16:269:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::16:269:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
 			},
 			["item:159763::::::::20:269::11:1:3631:2:28:189:9:16:::::"] = {
 				"Idol of Vol'jamba", -- [1]
@@ -5115,6 +5334,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705714663,
 			},
+			["|cffffffff|Hitem:174792::::::::15:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
+				"Stitched Leather Boots", -- [1]
+				"|cffffffff|Hitem:174792::::::::15:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712462,
+			},
+			["|cffffffff|Hitem:174792::::::::19:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
+				"Stitched Leather Boots", -- [1]
+				"|cffffffff|Hitem:174792::::::::19:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132539, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719566,
+			},
 			["|cffffffff|Hitem:6948::::::::15:269:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::15:269:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -5152,25 +5409,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705720033,
-			},
-			["|cffffffff|Hitem:174792::::::::15:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r"] = {
-				"Stitched Leather Boots", -- [1]
-				"|cffffffff|Hitem:174792::::::::15:269:::1:6499:2:9:2:28:741:::::|h[Stitched Leather Boots]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705712462,
 			},
 			["item:160947::::::::17:269::17:1:4776:2:28:189:9:17:::::"] = {
 				"Amani Berserker's Chopper", -- [1]
@@ -5210,6 +5448,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705714663,
 			},
+			["|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
 			[152576] = {
 				"Tidespray Linen", -- [1]
 				"|cffffffff|Hitem:152576::::::::20:269:::::::::|h[Tidespray Linen]|h|r", -- [2]
@@ -5248,25 +5505,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722140,
 			},
-			["|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
-			},
 			["item:158869::::::::20:269:::::::::"] = {
 				"Stone Tusk", -- [1]
 				"|cff9d9d9d|Hitem:158869::::::::20:269:::::::::|h[Stone Tusk]|h|r", -- [2]
@@ -5285,25 +5523,6 @@ ZygorGuidesViewerSettings = {
 				7, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719809,
-			},
-			["item:175222::::::::15:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Helm", -- [1]
-				"|cff1eff00|Hitem:175222::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1911953, -- [10]
-				22, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705712698,
 			},
 			["item:160251::::::::15:269::::1:28:189:::::"] = {
 				"Blightcaller's Easy Death", -- [1]
@@ -5324,6 +5543,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712699,
 			},
+			["item:175222::::::::15:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Helm", -- [1]
+				"|cff1eff00|Hitem:175222::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1911953, -- [10]
+				22, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705712698,
+			},
 			["item:160125::::::::19:269:::2:6654:1705:2:28:189:9:17:::::"] = {
 				"Direbone Frill Stompers of the Aurora", -- [1]
 				"|cff1eff00|Hitem:160125::::::::19:269:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
@@ -5342,6 +5580,25 @@ ZygorGuidesViewerSettings = {
 				7, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719207,
+			},
+			["item:160125::::::::18:269:::2:6654:1705:2:28:189:9:17:::::"] = {
+				"Direbone Frill Stompers of the Aurora", -- [1]
+				"|cff1eff00|Hitem:160125::::::::18:269:::2:6654:1705:2:28:189:9:17:::::|h[Direbone Frill Stompers of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1672314, -- [10]
+				172, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705717859,
 			},
 			["item:106290::::::::20:269::1:1:6656:2:9:14:28:2217:::::"] = {
 				"Scraggly Cloth Bracers", -- [1]
@@ -5362,9 +5619,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719809,
 			},
-			["item:77509::::::::20:268::75:::::::"] = {
+			["item:77509::::::::20:269::75:::::::"] = {
 				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::20:268::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				"|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -5379,7 +5636,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705778052,
 			},
 			["item:178169::::::::20:269::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Decrepit Dragonscale Drape", -- [1]
@@ -5398,7 +5655,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["item:159763::::::::19:269::11:1:3631:2:28:189:9:16:::::"] = {
 				"Idol of Vol'jamba", -- [1]
@@ -5419,24 +5676,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["item:175239::::::::19:269:::::::::"] = {
-				"Standard Issue Knapsack", -- [1]
-				"|cffffffff|Hitem:175239::::::::19:269:::::::::|h[Standard Issue Knapsack]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				0, -- [5]
-				"Container", -- [6]
-				"Bag", -- [7]
-				1, -- [8]
-				"INVTYPE_BAG", -- [9]
-				133626, -- [10]
-				10, -- [11]
-				1, -- [12]
+			["item:155631::::::::19:269:::::::::"] = {
+				"Inert Stone", -- [1]
+				"|cff9d9d9d|Hitem:155631::::::::19:269:::::::::|h[Inert Stone]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				60, -- [8]
+				"", -- [9]
+				135233, -- [10]
+				3842, -- [11]
+				15, -- [12]
 				0, -- [13]
-				1, -- [14]
-				0, -- [15]
+				0, -- [14]
+				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705718366,
+				["timestamp"] = 1705719268,
 			},
 			["|cff9d9d9d|Hitem:155609::::::::20:269:::::::::|h[Springy Eyeball]|h|r"] = {
 				"Springy Eyeball", -- [1]
@@ -5493,7 +5750,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778052,
 			},
 			["item:162672::::::::20:269:::::::::"] = {
 				"Witch Doctor's Juju Beads", -- [1]
@@ -5514,6 +5771,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719809,
 			},
+			["item:175239::::::::19:269:::::::::"] = {
+				"Standard Issue Knapsack", -- [1]
+				"|cffffffff|Hitem:175239::::::::19:269:::::::::|h[Standard Issue Knapsack]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				0, -- [5]
+				"Container", -- [6]
+				"Bag", -- [7]
+				1, -- [8]
+				"INVTYPE_BAG", -- [9]
+				133626, -- [10]
+				10, -- [11]
+				1, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705718366,
+			},
+			["item:77509::::::::20:268::75:::::::"] = {
+				"Trainee's Cord", -- [1]
+				"|cffffffff|Hitem:77509::::::::20:268::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				574613, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
 			["item:159100::::::::19:269::11:1:3524::::::"] = {
 				"Crimson Cultist Scepter", -- [1]
 				"|cff1eff00|Hitem:159100::::::::19:269::11:1:3524::::::|h[Crimson Cultist Scepter]|h|r", -- [2]
@@ -5532,44 +5827,6 @@ ZygorGuidesViewerSettings = {
 				7, -- [15]
 				[17] = false,
 				["timestamp"] = 1705719492,
-			},
-			["item:155631::::::::19:269:::::::::"] = {
-				"Inert Stone", -- [1]
-				"|cff9d9d9d|Hitem:155631::::::::19:269:::::::::|h[Inert Stone]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				60, -- [8]
-				"", -- [9]
-				135233, -- [10]
-				3842, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719268,
-			},
-			["item:77509::::::::20:269::75:::::::"] = {
-				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				574613, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
 			},
 			["|cffffffff|Hitem:174787::::::::19:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
 				"Thick Leather Gauntlets", -- [1]
@@ -5647,6 +5904,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720009,
 			},
+			["item:175216::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				16, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
 			["item:175226::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
 				"|cff1eff00|Hitem:175226::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
@@ -5723,25 +5999,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720009,
 			},
-			["item:175227::::::::16:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::16:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				23, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714662,
-			},
 			[174808] = {
 				"Stitched Leather Cinch", -- [1]
 				"|cffffffff|Hitem:174808::::::::20:269:::::::::|h[Stitched Leather Cinch]|h|r", -- [2]
@@ -5761,24 +6018,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720033,
 			},
-			[11847] = {
-				"Battered Cloak", -- [1]
-				"|cffffffff|Hitem:11847::::::::20:269:::::::::|h[Battered Cloak]|h|r", -- [2]
+			["item:6948::::::::19:269:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::19:269:::::::::|h[Hearthstone]|h|r", -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133753, -- [10]
-				6, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705720033,
+				["timestamp"] = 1705719207,
 			},
 			["|cffffffff|Hitem:174808::::::::20:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r"] = {
 				"Stitched Leather Cinch", -- [1]
@@ -5797,7 +6054,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
 			["|cff0070dd|Hitem:160947::::::::20:269::17:1:4776:2:28:189:9:17:::::|h[Amani Berserker's Chopper]|h|r"] = {
 				"Amani Berserker's Chopper", -- [1]
@@ -5837,6 +6094,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712698,
 			},
+			[11847] = {
+				"Battered Cloak", -- [1]
+				"|cffffffff|Hitem:11847::::::::20:269:::::::::|h[Battered Cloak]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133753, -- [10]
+				6, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705720033,
+			},
+			["item:73209::::::::20:268::75:::::::"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::20:268::75:::::::|h[Trainee's Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
 			["item:175237::::::::15:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Bracers", -- [1]
 				"|cff1eff00|Hitem:175237::::::::15:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
@@ -5875,24 +6170,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["item:160107::::::::17:269:::::::::"] = {
-				"Amani Head", -- [1]
-				"|cffffffff|Hitem:160107::::::::17:269:::::::::|h[Amani Head]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
+			["|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r"] = {
+				"Tunk's Tooth", -- [1]
+				"|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Swords", -- [7]
 				1, -- [8]
-				"", -- [9]
-				134177, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
+				"INVTYPE_WEAPON", -- [9]
+				926043, -- [10]
+				480, -- [11]
+				2, -- [12]
+				7, -- [13]
+				1, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705716879,
+				["timestamp"] = 1705720066,
 			},
 			["|cff1eff00|Hitem:159600::::::::20:269:::2:6655:1698:2:28:189:9:17:::::|h[Loa-Blessed Broadsword of the Feverflare]|h|r"] = {
 				"Loa-Blessed Broadsword of the Feverflare", -- [1]
@@ -5913,24 +6208,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722962,
 			},
-			["|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r"] = {
-				"Tunk's Tooth", -- [1]
-				"|cff0070dd|Hitem:178165::::::::20:269::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Tooth]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Swords", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926043, -- [10]
-				480, -- [11]
-				2, -- [12]
-				7, -- [13]
-				1, -- [14]
-				0, -- [15]
+			[158869] = {
+				"Stone Tusk", -- [1]
+				"|cff9d9d9d|Hitem:158869::::::::20:269:::::::::|h[Stone Tusk]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1029749, -- [10]
+				12924, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705720066,
+				["timestamp"] = 1705720009,
 			},
 			["item:163853::::::::16:269:::::::::"] = {
 				"Pilgrimage Scroll", -- [1]
@@ -5951,25 +6246,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705714724,
 			},
-			["item:73209::::::::20:269::75:::::::"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::20:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
-			},
 			["|cffffffff|Hitem:72020::::::::19:269::75:::::::|h[Trainee's Leggings]|h|r"] = {
 				"Trainee's Leggings", -- [1]
 				"|cffffffff|Hitem:72020::::::::19:269::75:::::::|h[Trainee's Leggings]|h|r", -- [2]
@@ -5989,43 +6265,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719566,
 			},
-			["item:158869::::::::15:269:::::::::"] = {
-				"Stone Tusk", -- [1]
-				"|cff9d9d9d|Hitem:158869::::::::15:269:::::::::|h[Stone Tusk]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
+			["item:174787::::::::15:269::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::15:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
 				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1029749, -- [10]
-				12924, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705714472,
-			},
-			["item:158859::::::::18:269:::::::::"] = {
-				"Jagged Fang", -- [1]
-				"|cff9d9d9d|Hitem:158859::::::::18:269:::::::::|h[Jagged Fang]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1518091, -- [10]
-				10949, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705717901,
+				["timestamp"] = 1705712699,
 			},
 			["item:175233::::::::15:269::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Leather Belt", -- [1]
@@ -6046,6 +6303,63 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705712698,
 			},
+			["item:158869::::::::15:269:::::::::"] = {
+				"Stone Tusk", -- [1]
+				"|cff9d9d9d|Hitem:158869::::::::15:269:::::::::|h[Stone Tusk]|h|r", -- [2]
+				0, -- [3]
+				40, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1029749, -- [10]
+				12924, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714472,
+			},
+			["item:174804::::::::20:268:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::20:268:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["item:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::"] = {
+				"Jambani Waistwrap", -- [1]
+				"|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1674410, -- [10]
+				123, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719207,
+			},
 			["|cffffffff|Hitem:11847::::::::20:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r"] = {
 				"Battered Cloak", -- [1]
 				"|cffffffff|Hitem:11847::::::::20:269:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
@@ -6063,7 +6377,45 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
+			},
+			[6948] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::20:269:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705720033,
+			},
+			["item:175216::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				16, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705719207,
 			},
 			["item:11847::::::::19:269:::1:6713:2:9:5:28:957:::::"] = {
 				"Battered Cloak", -- [1]
@@ -6084,24 +6436,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705719207,
 			},
-			["item:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::"] = {
-				"Jambani Waistwrap", -- [1]
-				"|cff1eff00|Hitem:155266::::::::19:269::11:1:3631:2:28:189:9:18:::::|h[Jambani Waistwrap]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				18, -- [5]
+			["|cffffffff|Hitem:11847::::::::20:268:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r"] = {
+				"Battered Cloak", -- [1]
+				"|cffffffff|Hitem:11847::::::::20:268:::1:6713:2:9:5:28:957:::::|h[Battered Cloak]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				5, -- [5]
 				"Armor", -- [6]
-				"Leather", -- [7]
+				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1674410, -- [10]
-				123, -- [11]
+				"INVTYPE_CLOAK", -- [9]
+				133753, -- [10]
+				8, -- [11]
 				4, -- [12]
-				2, -- [13]
+				1, -- [13]
 				1, -- [14]
-				7, -- [15]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705719207,
+				["timestamp"] = 1705722140,
 			},
 			["|cffffffff|Hitem:174804::::::::15:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
 				"Stitched Leather Bracers", -- [1]
@@ -6141,25 +6493,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722140,
 			},
-			["item:175216::::::::19:269::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Gloves", -- [1]
-				"|cff1eff00|Hitem:175216::::::::19:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1911960, -- [10]
-				16, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
 			["item:158869::::::::16:269:::::::::"] = {
 				"Stone Tusk", -- [1]
 				"|cff9d9d9d|Hitem:158869::::::::16:269:::::::::|h[Stone Tusk]|h|r", -- [2]
@@ -6176,25 +6509,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [13]
 				0, -- [14]
 				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705714663,
-			},
-			["item:174787::::::::16:269::11:1:6499:2:9:5:28:741:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::16:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705714663,
 			},
@@ -6215,26 +6529,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["item:174804::::::::20:269:::1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
+				["timestamp"] = 1705778056,
 			},
 			["item:72020::::::::20:269::75:::::::"] = {
 				"Trainee's Leggings", -- [1]
@@ -6253,45 +6548,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722158,
-			},
-			["|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r"] = {
-				"Trainee's Cord", -- [1]
-				"|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				574613, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778052,
 			},
 			["item:152184::::::::17:269:::::::::"] = {
 				"Tongue of Gahz'ragon", -- [1]
@@ -6331,6 +6588,101 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720032,
 			},
+			["item:163853::::::::20:268:::::::::"] = {
+				"Pilgrimage Scroll", -- [1]
+				"|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1500882, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
+			["|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r"] = {
+				"Trainee's Cord", -- [1]
+				"|cffffffff|Hitem:77509::::::::20:269::75:::::::|h[Trainee's Cord]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				574613, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
+			["item:174808::::::::16:269:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Leather Cinch", -- [1]
+				"|cffffffff|Hitem:174808::::::::16:269:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Cinch]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132493, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705714663,
+			},
+			["item:159101::::::::20:269::11:1:4790:2:28:189:9:19:::::"] = {
+				"Loti's Favorite Longspear", -- [1]
+				"|cff1eff00|Hitem:159101::::::::20:269::11:1:4790:2:28:189:9:19:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				19, -- [5]
+				"Weapon", -- [6]
+				"Polearms", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				797721, -- [10]
+				835, -- [11]
+				2, -- [12]
+				6, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722158,
+			},
 			[163853] = {
 				"Pilgrimage Scroll", -- [1]
 				"|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
@@ -6369,6 +6721,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722962,
 			},
+			["item:175237::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				16, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
 			["item:174804::::::::16:269:::1:6499:2:9:5:28:741:::::"] = {
 				"Stitched Leather Bracers", -- [1]
 				"|cffffffff|Hitem:174804::::::::16:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
@@ -6387,6 +6758,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705714663,
+			},
+			["item:160947::::::::20:269::17:1:4776:2:28:189:9:17:::::"] = {
+				"Amani Berserker's Chopper", -- [1]
+				"|cff0070dd|Hitem:160947::::::::20:269::17:1:4776:2:28:189:9:17:::::|h[Amani Berserker's Chopper]|h|r", -- [2]
+				3, -- [3]
+				58, -- [4]
+				17, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				1698636, -- [10]
+				2839, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722157,
 			},
 			["|cffffffff|Hitem:152631::::::::20:268:::::::::|h[Briny Flesh]|h|r"] = {
 				"Briny Flesh", -- [1]
@@ -6407,44 +6797,6 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705722140,
 			},
-			["item:159101::::::::20:269::11:1:4790:2:28:189:9:19:::::"] = {
-				"Loti's Favorite Longspear", -- [1]
-				"|cff1eff00|Hitem:159101::::::::20:269::11:1:4790:2:28:189:9:19:::::|h[Loti's Favorite Longspear]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				19, -- [5]
-				"Weapon", -- [6]
-				"Polearms", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				797721, -- [10]
-				835, -- [11]
-				2, -- [12]
-				6, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
-			},
-			[6948] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::20:269:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705720033,
-			},
 			["|cff1eff00|Hitem:175226::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r"] = {
 				"Expeditionary Leather Legguards", -- [1]
 				"|cff1eff00|Hitem:175226::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
@@ -6462,64 +6814,83 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705778056,
 			},
-			["|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::20:269:::1:6499:2:9:5:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+			["item:73209::::::::16:269::75:::::::"] = {
+				"Trainee's Staff", -- [1]
+				"|cffffffff|Hitem:73209::::::::16:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
+				1, -- [4]
 				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+				"Weapon", -- [6]
+				"Staves", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				"INVTYPE_2HWEAPON", -- [9]
+				537770, -- [10]
+				13, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
+				["timestamp"] = 1705714663,
 			},
-			["item:106313::::::::20:269::1:1:6656:2:9:14:28:2217:::::"] = {
-				"Sun-Baked Boots", -- [1]
-				"|cff9d9d9d|Hitem:106313::::::::20:269::1:1:6656:2:9:14:28:2217:::::|h[Sun-Baked Boots]|h|r", -- [2]
-				0, -- [3]
-				35, -- [4]
-				3, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+			["item:6948::::::::20:268:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::20:268:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132539, -- [10]
-				6, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				5, -- [15]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705722140,
 			},
-			["item:160947::::::::20:269::17:1:4776:2:28:189:9:17:::::"] = {
-				"Amani Berserker's Chopper", -- [1]
-				"|cff0070dd|Hitem:160947::::::::20:269::17:1:4776:2:28:189:9:17:::::|h[Amani Berserker's Chopper]|h|r", -- [2]
-				3, -- [3]
-				58, -- [4]
-				17, -- [5]
-				"Weapon", -- [6]
-				"One-Handed Axes", -- [7]
+			["item:159763::::::::16:269::11:1:3524::::::"] = {
+				"Idol of Vol'jamba", -- [1]
+				"|cff1eff00|Hitem:159763::::::::16:269::11:1:3524::::::|h[Idol of Vol'jamba]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
 				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				1698636, -- [10]
-				2839, -- [11]
-				2, -- [12]
+				"INVTYPE_TRINKET", -- [9]
+				236487, -- [10]
+				133, -- [11]
+				4, -- [12]
 				0, -- [13]
 				1, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722157,
+				["timestamp"] = 1705715170,
+			},
+			["|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r"] = {
+				"Pilgrimage Scroll", -- [1]
+				"|cffffffff|Hitem:163853::::::::20:269:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1500882, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
 			},
 			["item:73209::::::::15:269::75:::::::"] = {
 				"Trainee's Staff", -- [1]
@@ -6557,121 +6928,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["item:73209::::::::19:269::75:::::::"] = {
-				"Trainee's Staff", -- [1]
-				"|cffffffff|Hitem:73209::::::::19:269::75:::::::|h[Trainee's Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				537770, -- [10]
-				13, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705719207,
-			},
-			["|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				15, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722962,
-			},
-			["item:159763::::::::16:269::11:1:3524::::::"] = {
-				"Idol of Vol'jamba", -- [1]
-				"|cff1eff00|Hitem:159763::::::::16:269::11:1:3524::::::|h[Idol of Vol'jamba]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TRINKET", -- [9]
-				236487, -- [10]
-				133, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705715170,
-			},
-			["item:175227::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				23, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r"] = {
-				"Pilgrimage Scroll", -- [1]
-				"|cffffffff|Hitem:163853::::::::20:268:::::::::|h[Pilgrimage Scroll]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1500882, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["|cffffffff|Hitem:152576::::::::20:268:::::::::|h[Tidespray Linen]|h|r"] = {
-				"Tidespray Linen", -- [1]
-				"|cffffffff|Hitem:152576::::::::20:268:::::::::|h[Tidespray Linen]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2067081, -- [10]
-				1, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1705722140,
+				["timestamp"] = 1705778056,
 			},
 			["item:160947::::::::20:268::17:1:4776:2:28:189:9:17:::::"] = {
 				"Amani Berserker's Chopper", -- [1]
@@ -6711,23 +6968,80 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720032,
 			},
-			["|cff0070dd|Hitem:178169::::::::20:268::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::20:268::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
+			["item:72019::::::::19:269::75:::::::"] = {
+				"Trainee's Vest", -- [1]
+				"|cffffffff|Hitem:72019::::::::19:269::75:::::::|h[Trainee's Vest]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				236, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				574616, -- [10]
+				8, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
+				["timestamp"] = 1705719207,
+			},
+			["|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::20:269::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				15, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778056,
+			},
+			["item:174787::::::::20:268::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::20:268::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705722140,
+			},
+			["|cffffffff|Hitem:152576::::::::20:268:::::::::|h[Tidespray Linen]|h|r"] = {
+				"Tidespray Linen", -- [1]
+				"|cffffffff|Hitem:152576::::::::20:268:::::::::|h[Tidespray Linen]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2067081, -- [10]
+				1, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
 				["timestamp"] = 1705722140,
 			},
 			["|cff1eff00|Hitem:175233::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Belt]|h|r"] = {
@@ -6768,25 +7082,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705722140,
 			},
-			["item:6948::::::::20:269:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::20:269:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
-			},
 			["|cffffffff|Hitem:6948::::::::20:268:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::20:268:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -6824,25 +7119,6 @@ ZygorGuidesViewerSettings = {
 				7, -- [15]
 				[17] = false,
 				["timestamp"] = 1705722140,
-			},
-			["item:174787::::::::20:269::11:1:6499:2:9:5:28:741:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::20:269::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722158,
 			},
 			["|cffffffff|Hitem:72020::::::::20:268::75:::::::|h[Trainee's Leggings]|h|r"] = {
 				"Trainee's Leggings", -- [1]
@@ -6913,25 +7189,6 @@ ZygorGuidesViewerSettings = {
 				"INVTYPE_LEGS", -- [9]
 				1911975, -- [10]
 				30, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["item:175216::::::::20:268::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Leather Gloves", -- [1]
-				"|cff1eff00|Hitem:175216::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1911960, -- [10]
-				16, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
@@ -7015,6 +7272,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705720032,
 			},
+			["item:77526::::::::20:269::75:::::::"] = {
+				"Trainee's Wristwraps", -- [1]
+				"|cffffffff|Hitem:77526::::::::20:269::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				574614, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778052,
+			},
 			["|cff1eff00|Hitem:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r"] = {
 				"Expeditionary Axe", -- [1]
 				"|cff1eff00|Hitem:175161::::::::20:268::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Axe]|h|r", -- [2]
@@ -7068,25 +7344,6 @@ ZygorGuidesViewerSettings = {
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705722140,
-			},
-			["item:77526::::::::20:268::75:::::::"] = {
-				"Trainee's Wristwraps", -- [1]
-				"|cffffffff|Hitem:77526::::::::20:268::75:::::::|h[Trainee's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				574614, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705722140,
@@ -7231,10 +7488,10 @@ ZygorGuidesViewerSettings = {
 					3, -- [3]
 					2, -- [4]
 				},
-				["guidesuggest"] = {
-					0, -- [1]
-					3, -- [2]
-					3, -- [3]
+				["timeplayed"] = {
+					2, -- [1]
+					0, -- [2]
+					2, -- [3]
 					2, -- [4]
 				},
 				["gold"] = {
@@ -7243,10 +7500,10 @@ ZygorGuidesViewerSettings = {
 					2, -- [3]
 					2, -- [4]
 				},
-				["timeplayed"] = {
-					2, -- [1]
-					0, -- [2]
-					2, -- [3]
+				["guidesuggest"] = {
+					0, -- [1]
+					3, -- [2]
+					3, -- [3]
 					2, -- [4]
 				},
 			},
@@ -7271,14 +7528,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2413] = true,
-				[2163] = true,
 				[2165] = true,
+				[2163] = true,
+				[2103] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2103] = true,
+				[2413] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -7304,10 +7561,10 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["gear"] = true,
+				[1560] = true,
 			},
 			["load_betaguides"] = true,
 			["usernamed"] = true,
@@ -7317,7 +7574,7 @@ ZygorGuidesViewerSettings = {
 				"CENTER", -- [1]
 				nil, -- [2]
 				"CENTER", -- [3]
-				363.8733215332031, -- [4]
+				363.873291015625, -- [4]
 				218.4920043945313, -- [5]
 			},
 			["sync_dontconfirm"] = true,
@@ -7357,14 +7614,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2413] = true,
-				[2163] = true,
 				[2165] = true,
+				[2163] = true,
+				[2103] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2103] = true,
+				[2413] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -7421,10 +7678,10 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["gear"] = true,
+				[1560] = true,
 			},
 			["maplines_alpha"] = 1,
 			["show_ui"] = true,
@@ -7487,10 +7744,9 @@ ZygorGuidesViewerSettings = {
 		["Bladefist"] = {
 			["characters"] = {
 				["Punkmunk"] = {
-					["statweights"] = {
-					},
 					["level"] = 20,
-					["classnum"] = 10,
+					["class"] = "MONK",
+					["dualwield"] = false,
 					["gear"] = {
 						{
 							3.57, -- [1]
@@ -7502,9 +7758,9 @@ ZygorGuidesViewerSettings = {
 							[9] = 2.770000000000001,
 							[5] = 3.97,
 							["specname"] = "Brewmaster",
-							["Scanned"] = true,
-							[3] = 4.13,
 							[6] = 10.59,
+							[3] = 4.13,
+							["Scanned"] = true,
 							[17] = 48.23200000000001,
 							[10] = 3.17,
 						}, -- [1]
@@ -7532,17 +7788,18 @@ ZygorGuidesViewerSettings = {
 							["specname"] = "Windwalker",
 							[17] = 76.258,
 							[3] = 4.810000000000001,
-							["Scanned"] = true,
-							[10] = 2.85,
 							[6] = 13.49,
+							[10] = 2.85,
+							["Scanned"] = true,
 						}, -- [3]
 						[5] = {
 							["specname"] = "",
 						},
 					},
-					["class"] = "MONK",
 					["classname"] = "Monk",
-					["dualwield"] = false,
+					["statweights"] = {
+					},
+					["classnum"] = 10,
 				},
 			},
 			["bankdata"] = {

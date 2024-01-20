@@ -3,854 +3,6 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
-		{
-			2325, -- [1]
-			"Tunk", -- [2]
-		}, -- [1]
-		[152962] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[268308] = {
-			2116, -- [1]
-			"Lady Waycrest", -- [2]
-		},
-		[260700] = {
-			2113, -- [1]
-			"Sister Malady", -- [2]
-		},
-		[266460] = {
-			2117, -- [1]
-			"Deathtouched Slaver", -- [2]
-		},
-		[264931] = {
-			2115, -- [1]
-			"Raal the Gluttonous", -- [2]
-		},
-		[256589] = {
-			2094, -- [1]
-			"Captain Raoul", -- [2]
-		},
-		[260701] = {
-			2113, -- [1]
-			"Sister Briar", -- [2]
-		},
-		[154175] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[255952] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[256494] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[256016] = {
-			2093, -- [1]
-			"[*] Vile Coating", -- [2]
-		},
-		[30923] = {
-			1922, -- [1]
-			"The Maker", -- [2]
-		},
-		[175755] = {
-			1749, -- [1]
-			"Fleshrender Nok'gar", -- [2]
-		},
-		[260702] = {
-			2113, -- [1]
-			"[*] Unstable Runic Mark", -- [2]
-		},
-		[198833] = {
-			1835, -- [1]
-			"Latosius", -- [2]
-		},
-		[152742] = {
-			1652, -- [1]
-			"Fiery Boulder", -- [2]
-		},
-		[150734] = {
-			1654, -- [1]
-			"Unstable Slag <Gug'rokk>", -- [2]
-		},
-		[260703] = {
-			2113, -- [1]
-			"Sister Malady", -- [2]
-		},
-		[164632] = {
-			1749, -- [1]
-			"Grom'kar Flameslinger", -- [2]
-		},
-		[150034] = {
-			1655, -- [1]
-			"[*] Choking Ashes", -- [2]
-		},
-		[152170] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[261438] = {
-			2116, -- [1]
-			"Lord Waycrest", -- [2]
-		},
-		[33111] = {
-			1922, -- [1]
-			"Shadowmoon Warlock", -- [2]
-		},
-		[256594] = {
-			2094, -- [1]
-			"Captain Raoul", -- [2]
-		},
-		[150801] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[164635] = {
-			1749, -- [1]
-			"Fleshrender Nok'gar", -- [2]
-		},
-		[149941] = {
-			1655, -- [1]
-			"Ruination", -- [2]
-		},
-		[261440] = {
-			2116, -- [1]
-			"Lord Waycrest", -- [2]
-		},
-		[150324] = {
-			1655, -- [1]
-			"Ruination", -- [2]
-		},
-		[198073] = {
-			1834, -- [1]
-			"Smashspite the Hateful", -- [2]
-		},
-		[258381] = {
-			2094, -- [1]
-			"Captain Eudora", -- [2]
-		},
-		[150038] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[256405] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[154469] = {
-			1682, -- [1]
-			"[*] Ritual of Bones", -- [2]
-		},
-		[149975] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[30641] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[168399] = {
-			1754, -- [1]
-			"Koramar", -- [2]
-		},
-		[264693] = {
-			2115, -- [1]
-			"Raal the Gluttonous", -- [2]
-		},
-		[257458] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[260805] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[321240] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[264694] = {
-			2115, -- [1]
-			"Raal the Gluttonous", -- [2]
-		},
-		[256056] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[266225] = {
-			2117, -- [1]
-			"Gorak Tul", -- [2]
-		},
-		[153164] = {
-			1677, -- [1]
-			"Defiled Spirit", -- [2]
-		},
-		[260551] = {
-			2114, -- [1]
-			"Soulbound Goliath", -- [2]
-		},
-		[258352] = {
-			2094, -- [1]
-			"Captain Eudora", -- [2]
-		},
-		[168401] = {
-			1754, -- [1]
-			"Koramar", -- [2]
-		},
-		[168390] = {
-			1754, -- [1]
-			"[*] Cannon Barrage", -- [2]
-		},
-		[257460] = {
-			2096, -- [1]
-			"[*] Fiery Debris", -- [2]
-		},
-		[168965] = {
-			1754, -- [1]
-			"Koramar", -- [2]
-		},
-		[166923] = {
-			1749, -- [1]
-			"Fleshrender Nok'gar", -- [2]
-		},
-		[264698] = {
-			2115, -- [1]
-			"Raal the Gluttonous", -- [2]
-		},
-		[169129] = {
-			1754, -- [1]
-			"Backdraft", -- [2]
-		},
-		[260699] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[168402] = {
-			1754, -- [1]
-			"Koramar", -- [2]
-		},
-		[163334] = {
-			1748, -- [1]
-			"Neesa Nox", -- [2]
-		},
-		[152939] = {
-			1652, -- [1]
-			"Roltall", -- [2]
-		},
-		[152688] = {
-			1677, -- [1]
-			"[*] Shadow Rune", -- [2]
-		},
-		[413146] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[150677] = {
-			1654, -- [1]
-			"Gug'rokk", -- [2]
-		},
-		[181089] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[261446] = {
-			2116, -- [1]
-			"Lady Waycrest", -- [2]
-		},
-		[168148] = {
-			1754, -- [1]
-			"[*] Cannon Barrage", -- [2]
-		},
-		[268271] = {
-			2116, -- [1]
-			"Lady Waycrest", -- [2]
-		},
-		[196517] = {
-			1832, -- [1]
-			"[*] Swirling Scythe", -- [2]
-		},
-		[163390] = {
-			1748, -- [1]
-			"Neesa Nox", -- [2]
-		},
-		[165152] = {
-			1748, -- [1]
-			"Makogg Emberblade", -- [2]
-		},
-		[152897] = {
-			1652, -- [1]
-			"Heat Wave", -- [2]
-		},
-		[256060] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[261447] = {
-			2116, -- [1]
-			"Lord Waycrest", -- [2]
-		},
-		[14032] = {
-			1893, -- [1]
-			"Hellfire Watcher", -- [2]
-		},
-		[194956] = {
-			1832, -- [1]
-			"Amalgam of Souls", -- [2]
-		},
-		[169132] = {
-			1754, -- [1]
-			"Backdraft", -- [2]
-		},
-		[256363] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[153232] = {
-			1677, -- [1]
-			"[*] Daggerfall", -- [2]
-		},
-		[149996] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[150682] = {
-			1654, -- [1]
-			"Gug'rokk", -- [2]
-		},
-		[153094] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[164835] = {
-			1749, -- [1]
-			"Dreadfang", -- [2]
-		},
-		[150776] = {
-			1654, -- [1]
-			"Gug'rokk", -- [2]
-		},
-		[153679] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[255966] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[308502] = {
-			2326, -- [1]
-			"Gor'groth", -- [2]
-		},
-		[260741] = {
-			2113, -- [1]
-			"Sister Briar", -- [2]
-		},
-		[260907] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[273658] = {
-			2117, -- [1]
-			"Deathtouched Slaver", -- [2]
-		},
-		[150045] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[150078] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[153680] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[256477] = {
-			2095, -- [1]
-			"Sawtooth Shark", -- [2]
-		},
-		[152979] = {
-			1688, -- [1]
-			"Possessed Soul", -- [2]
-		},
-		[268278] = {
-			2116, -- [1]
-			"Lady Waycrest", -- [2]
-		},
-		[260900] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[2818] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[257402] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[273657] = {
-			2117, -- [1]
-			"Deathtouched Slaver", -- [2]
-		},
-		[264923] = {
-			2115, -- [1]
-			"Raal the Gluttonous", -- [2]
-		},
-		[258773] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[162415] = {
-			1750, -- [1]
-			"Oshir", -- [2]
-		},
-		[152940] = {
-			1652, -- [1]
-			"Roltall", -- [2]
-		},
-		[30925] = {
-			1922, -- [1]
-			"The Maker", -- [2]
-		},
-		[168227] = {
-			1754, -- [1]
-			"Skulloc", -- [2]
-		},
-		[197478] = {
-			1833, -- [1]
-			"Illysanna Ravencrest", -- [2]
-		},
-		[194960] = {
-			1832, -- [1]
-			"[*] Soul Echoes", -- [2]
-		},
-		[149980] = {
-			1655, -- [1]
-			"[*] Dancing Flames", -- [2]
-		},
-		[261439] = {
-			2116, -- [1]
-			"Lord Waycrest", -- [2]
-		},
-		[256106] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[257308] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[31901] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[168398] = {
-			1754, -- [1]
-			"Blackhand's Might Turret", -- [2]
-		},
-		[152837] = {
-			1652, -- [1]
-			"Fiery Boulder", -- [2]
-		},
-		[154671] = {
-			1682, -- [1]
-			"Ner'zhul", -- [2]
-		},
-		[164648] = {
-			1749, -- [1]
-			"Grom'kar Flameslinger", -- [2]
-		},
-		[398206] = {
-			1688, -- [1]
-			"Exhumed Spirit", -- [2]
-		},
-		[149963] = {
-			1655, -- [1]
-			"[*] Shatter Earth", -- [2]
-		},
-		[150011] = {
-			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[150751] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[154353] = {
-			1682, -- [1]
-			"Omen of Death <Ner'zhul>", -- [2]
-		},
-		[266181] = {
-			2117, -- [1]
-			"Gorak Tul", -- [2]
-		},
-		[153804] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[150048] = {
-			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[164426] = {
-			1749, -- [1]
-			"Fleshrender Nok'gar", -- [2]
-		},
-		[178124] = {
-			1750, -- [1]
-			"Oshir", -- [2]
-		},
-		[257310] = {
-			2096, -- [1]
-			"Irontide Cannon", -- [2]
-		},
-		[152792] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[150784] = {
-			1654, -- [1]
-			"[*] Magma Eruption", -- [2]
-		},
-		[34645] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[153908] = {
-			1679, -- [1]
-			"[*] Inhale", -- [2]
-		},
-		[152835] = {
-			1652, -- [1]
-			"Fiery Boulder", -- [2]
-		},
-		[256551] = {
-			2095, -- [1]
-			"Sawtooth Shark", -- [2]
-		},
-		[30695] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[256546] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[168348] = {
-			1754, -- [1]
-			"Blackhand's Might Turret", -- [2]
-		},
-		[263274] = {
-			2093, -- [1]
-			"Skycap'n Kragg", -- [2]
-		},
-		[150753] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[261264] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[197546] = {
-			1833, -- [1]
-			"Illysanna Ravencrest", -- [2]
-		},
-		[153240] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[256005] = {
-			2093, -- [1]
-			"Sharkbait <Skycap'n Kragg>", -- [2]
-		},
-		[150032] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[256979] = {
-			2094, -- [1]
-			"Captain Eudora", -- [2]
-		},
-		[413131] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[153623] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[261265] = {
-			2113, -- [1]
-			"Sister Briar", -- [2]
-		},
-		[256706] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[150755] = {
-			1654, -- [1]
-			"Gug'rokk", -- [2]
-		},
-		[194966] = {
-			1832, -- [1]
-			"Amalgam of Souls", -- [2]
-		},
-		[33793] = {
-			1892, -- [1]
-			"Nazan", -- [2]
-		},
-		[258875] = {
-			2094, -- [1]
-			"Blackout Barrel <Captain Raoul>", -- [2]
-		},
-		[308455] = {
-			2325, -- [1]
-			"Tunk", -- [2]
-		},
-		[197484] = {
-			1833, -- [1]
-			"Illysanna Ravencrest", -- [2]
-		},
-		[261266] = {
-			2113, -- [1]
-			"Sister Malady", -- [2]
-		},
-		[163379] = {
-			1748, -- [1]
-			"Bombsquad", -- [2]
-		},
-		[163665] = {
-			1748, -- [1]
-			"Makogg Emberblade", -- [2]
-		},
-		[260852] = {
-			2113, -- [1]
-			"Sister Malady", -- [2]
-		},
-		[22857] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[256358] = {
-			2095, -- [1]
-			"Trothak", -- [2]
-		},
-		[165578] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[150055] = {
-			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[150023] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[195254] = {
-			1832, -- [1]
-			"Amalgam of Souls", -- [2]
-		},
-		[164686] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[199143] = {
-			1835, -- [1]
-			"Latosius", -- [2]
-		},
-		[413136] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[154327] = {
-			1688, -- [1]
-			"Shadowmoon Dominator", -- [2]
-		},
-		[165579] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[153093] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[35748] = {
-			1891, -- [1]
-			"Fiendish Hound <Omor the Unscarred>", -- [2]
-		},
-		[153686] = {
-			1679, -- [1]
-			"Bonemaw", -- [2]
-		},
-		[30691] = {
-			1892, -- [1]
-			"Nazan", -- [2]
-		},
-		[164974] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[266258] = {
-			2117, -- [1]
-			"Drust Slaver Summoning Portal", -- [2]
-		},
-		[197418] = {
-			1833, -- [1]
-			"Illysanna Ravencrest", -- [2]
-		},
-		[30707] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[153153] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[150344] = {
-			1655, -- [1]
-			"[*] Shatter Earth", -- [2]
-		},
-		[164837] = {
-			1749, -- [1]
-			"Dreadfang", -- [2]
-		},
-		[163668] = {
-			1748, -- [1]
-			"Makogg Emberblade", -- [2]
-		},
-		[198635] = {
-			1835, -- [1]
-			"Kur'talos Ravencrest", -- [2]
-		},
-		[256552] = {
-			2095, -- [1]
-			"Sawtooth Shark", -- [2]
-		},
-		[150759] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[260696] = {
-			2113, -- [1]
-			"Sister Malady", -- [2]
-		},
-		[308527] = {
-			2326, -- [1]
-			"Gor'groth", -- [2]
-		},
-		[202019] = {
-			1835, -- [1]
-			"Latosius", -- [2]
-		},
-		[153692] = {
-			1679, -- [1]
-			"[*] Necrotic Pitch", -- [2]
-		},
-		[154442] = {
-			1682, -- [1]
-			"Ner'zhul", -- [2]
-		},
-		[153501] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[256553] = {
-			2095, -- [1]
-			"Sawtooth Shark", -- [2]
-		},
-		[152800] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[260697] = {
-			2113, -- [1]
-			"Sister Briar", -- [2]
-		},
-		[168929] = {
-			1754, -- [1]
-			"Skulloc", -- [2]
-		},
-		[197521] = {
-			1833, -- [1]
-			"Illysanna Ravencrest", -- [2]
-		},
-		[150076] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[260570] = {
-			2113, -- [1]
-			"[*] Wildfire", -- [2]
-		},
-		[153247] = {
-			1652, -- [1]
-			"Roltall", -- [2]
-		},
-		[258338] = {
-			2094, -- [1]
-			"Captain Raoul", -- [2]
-		},
-		[152801] = {
-			1688, -- [1]
-			"Nhallish", -- [2]
-		},
-		[260698] = {
-			2113, -- [1]
-			"Sister Solena", -- [2]
-		},
-		[266266] = {
-			2117, -- [1]
-			"Gorak Tul", -- [2]
-		},
-		[413145] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[161256] = {
-			1750, -- [1]
-			"Oshir", -- [2]
-		},
-		[150290] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[152843] = {
-			1652, -- [1]
-			"Fiery Boulder", -- [2]
-		},
-		[268306] = {
-			2116, -- [1]
-			"Lady Waycrest", -- [2]
-		},
-		[149997] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[153089] = {
-			1677, -- [1]
-			"Sadana Bloodfury", -- [2]
-		},
-		[413147] = {
-			2096, -- [1]
-			"Harlan Sweete", -- [2]
-		},
-		[260508] = {
-			2114, -- [1]
-			"Soulbound Goliath", -- [2]
-		},
-		[150004] = {
-			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[164734] = {
-			1749, -- [1]
-			"Dreadfang", -- [2]
-		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -879,22 +31,22 @@ _detalhes_global = {
 		["Boulder Crush"] = 1,
 		["Vile Coating"] = 8,
 		["Wildfire"] = 8,
-		["Molten Barrage"] = 4,
+		["Discordant Cadenza"] = 32,
 		["Unleashed Flames"] = 4,
 		["Barbed Arrow Barrage"] = 1,
-		["Soul Manipulation"] = 32,
+		["Tainted Blood"] = 8,
 		["Primal Assault"] = 1,
 		["Inhale"] = 32,
-		["Rapid Fire"] = 4,
+		["Soul Manipulation"] = 32,
 		["Magma Barrage"] = 4,
 		["Unstable Shadows"] = 32,
-		["Tainted Blood"] = 8,
+		["Rapid Fire"] = 4,
 		["Berserker Leap"] = 8,
 		["Soul Thorns"] = 1,
 		["Dancing Flames"] = 4,
 		["Deep Wounds"] = 1,
 		["Heat Wave"] = 4,
-		["Rotten Expulsion"] = 32,
+		["Molten Barrage"] = 4,
 		["Shark Tornado"] = 1,
 		["Shadow Rune"] = 32,
 		["Molten Impact"] = 4,
@@ -907,26 +59,26 @@ _detalhes_global = {
 		["Pistol Shot"] = 4,
 		["Flailing Shark"] = 1,
 		["Barrel Smash"] = 1,
-		["Blazing Trail"] = 4,
+		["Fan of Knives"] = 1,
 		["Flaming Shrapnel"] = 4,
 		["Choking Ashes"] = 4,
 		["Swirling Scythe"] = 1,
-		["Melee"] = 1,
+		["Void Vortex"] = 32,
 		["Ritual of Bones"] = 32,
 		["Deathspike"] = 32,
 		["Body Slam"] = 32,
-		["Void Vortex"] = 32,
+		["Melee"] = 1,
 		["Firestorm"] = 4,
 		["Rearm"] = 1,
 		["Daggerfall"] = 32,
-		["Fan of Knives"] = 1,
+		["Blazing Trail"] = 4,
 		["Swiftwind Saber"] = 8,
 		["Whispers of the Dark Star"] = 32,
 		["Volcanic Tantrum"] = 4,
 		["Flaming Slash"] = 4,
 		["Soul Echoes"] = 32,
 		["Necrotic Pitch"] = 32,
-		["Discordant Cadenza"] = 32,
+		["Rotten Expulsion"] = 32,
 		["Dark Rush"] = 1,
 		["Fiery Boulder"] = 4,
 	},
@@ -945,57 +97,57 @@ _detalhes_global = {
 	["trinket_data"] = {
 		[214342] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Down Draft",
 		},
 		[214350] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Nightmare Essence",
 		},
 		[214169] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Brutal Haymaker",
 		},
 		[382426] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Spiteful Stormbolt",
 		},
 		[417534] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Time-Thief's Gambit",
 		},
 		[429221] = {
@@ -1012,112 +164,112 @@ _detalhes_global = {
 		},
 		[214052] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Fel Meteor",
 		},
 		[425127] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Dream Salvage",
 		},
 		[215407] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Dark Blast",
 		},
 		[397376] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Burning Embers",
 		},
 		[421994] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Rising Rage",
 		},
 		[407961] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Lava Wave",
 		},
 		[270827] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
 		},
 		[421996] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Ursine Reprisal",
 		},
 		[426674] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[426564] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Annihilating Flame",
 		},
 		[426431] = {
@@ -1134,13 +286,13 @@ _detalhes_global = {
 		},
 		[427037] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Lava Bolt",
 		},
 		[426486] = {
@@ -1157,347 +309,353 @@ _detalhes_global = {
 		},
 		[401428] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Ravenous Shadowflame",
 		},
 		[384290] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Smorf's Ambush",
 		},
 		[417458] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[426676] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Best Friends with Aerwynn",
 		},
 		[426553] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Annihilating Flame",
 		},
 		[424965] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Thorn Spirit",
 		},
 		[384325] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Barf's Ambush",
 		},
 		[426677] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[425181] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Thorn Burst",
 		},
 		[394453] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Broodkeeper's Blaze",
 		},
 		[422441] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Roots of the Tormented Ancient",
 		},
 		[401324] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Echoed Flare",
 		},
 		[389839] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Fire Shot",
 		},
 		[426647] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Best Friends with Pip",
 		},
 		[429246] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Primal Genesis",
 		},
 		[429262] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Aqueous Enrichment",
 		},
 		[381760] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Mutated Tentacle Slam",
 		},
 		[426648] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[385903] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Crystal Sickness",
 		},
 		[418527] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Mirror of Fractured Tomorrows",
 		},
 		[215270] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Fragile Echo",
 		},
 		[92174] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Carcinized Adaptation",
 		},
 		[388739] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Pure Decay",
 		},
 		[388755] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Soulseeker Arrow",
 		},
 		[213786] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Nightfall",
 		},
 		[417452] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[425154] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Vicious Brand",
 		},
 		[424324] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Hungering Shadowflame",
 		},
 		[423611] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Soul Ignition",
 		},
 		[271671] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Cacaphonous Chord",
 		},
 		[426672] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["maxTime"] = 0,
 			["minTime"] = 9999999,
+			["lastActivation"] = 0,
 			["spellName"] = "Best Friends with Urctos",
 		},
 	},
 	["global_plugin_database"] = {
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["encounter_timers_bw"] = {
+			},
+			["encounter_timers_dbm"] = {
+			},
+		},
 	},
 	["savedCustomSpells"] = {
 		{
@@ -1975,6 +1133,11 @@ _detalhes_global = {
 			"|T839910:14:14:0:0:14:14:1:12:1:12|t Water's Beating Hear", -- [2]
 			839910, -- [3]
 		}, -- [95]
+		{
+			426648, -- [1]
+			"|T5351062:14:14:0:0:14:14:1:12:1:12|t Pip's Emerald Friend (*mast*)", -- [2]
+			5342919, -- [3]
+		}, -- [96]
 	},
 	["keystone_cache"] = {
 	},
@@ -1995,9 +1158,9 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 464.0000610351563,
+		["blockcontainer_width"] = 463.9999084472656,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 420.9999389648438,
+		["spellcontainer_width"] = 421,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
@@ -2038,7 +1201,7 @@ _detalhes_global = {
 				["width"] = 30,
 			},
 		},
-		["phasecontainer_width"] = 289.9998779296875,
+		["phasecontainer_width"] = 289.9999389648438,
 		["phasecontainer_headers"] = {
 			["name"] = {
 				["enabled"] = true,
@@ -2171,7 +1334,7 @@ _detalhes_global = {
 				["width"] = 30,
 			},
 		},
-		["blockcontainer_height"] = 270.0001220703125,
+		["blockcontainer_height"] = 270.0000915527344,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 			["overheal"] = {
@@ -2260,255 +1423,17 @@ _detalhes_global = {
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = -0.0001678466796875,
-		["x"] = -1.52587890625e-05,
+		["y"] = -0.0002288818359375,
+		["x"] = -0.000152587890625,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 26534,
+	["last_changelog_size"] = 27716,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[0] = "[*] Soul Echoes",
-		[98970] = "Latosius",
-		[135240] = "Soul Essence",
-		[129602] = "Irontide Enforcer",
-		[102094] = "Risen Swordsman",
-		[74570] = "Ruination",
-		[83623] = "Bloodmaul Warder",
-		[156821] = "Darkmaul Shadowcaller",
-		[131863] = "Raal the Gluttonous",
-		[128551] = "Irontide Mastiff",
-		[75272] = "Bloodmaul Ogre Mage",
-		[84978] = "Bloodmaul Enforcer",
-		[76085] = "Stormwind Sea Wolf",
-		[74571] = "Calamity",
-		[131864] = "Gorak Tul",
-		[129699] = "Ludwig Von Tortollan",
-		[98366] = "Ghostly Retainer",
-		[81297] = "Dreadfang",
-		[75193] = "Bloodmaul Overseer",
-		[75209] = "Molten Earth Elemental",
-		[152998] = "Hunting Worg",
-		[102781] = "Fel Bat Pup",
-		[98542] = "Amalgam of Souls",
-		[98813] = "Bloodscent Felhound",
-		[74349] = "Bloodmaul Magma Binder",
-		[126847] = "Captain Raoul",
-		[131545] = "Lady Waycrest",
-		[162817] = "Torgok",
-		[83578] = "Ogron Laborer",
-		[17269] = "Bleeding Hollow Darkcaster",
-		[75210] = "Bloodmaul Warder",
-		[156825] = "Darkmaul Centurion",
-		[17281] = "Bonechewer Ripper",
-		[17540] = "Fiendish Hound <Omor the Unscarred>",
-		[74475] = "Magmolatus",
-		[84215] = "Blackhand's Might Turret",
-		[130896] = "Blackout Barrel <Captain Raoul>",
-		[126832] = "Skycap'n Kragg",
-		[126848] = "Captain Eudora",
-		[17309] = "Hellfire Watcher",
-		[83612] = "Skulloc",
-		[74366] = "Forgemaster Gog'duh",
-		[169162] = "Hunting Worg",
-		[98368] = "Ghostly Protector",
-		[83765] = "Grom'kar Footsoldier",
-		[80805] = "Makogg Emberblade",
-		[75211] = "Magma Lord",
-		[166262] = "Decaying Corpse",
-		[76518] = "Ritual of Bones",
-		[75194] = "Gnasher",
-		[152843] = "Harpy Boltcaller",
-		[137830] = "Pallid Gorger",
-		[98810] = "Wrathguard Bladelord",
-		[160394] = "Barrow Spider",
-		[76104] = "Monstrous Corpse Spider",
-		[75865] = "Heat Wave",
-		[75451] = "Defiled Spirit",
-		[17381] = "The Maker",
-		[130400] = "Irontide Crusher",
-		[151091] = "Geolord Grek'og",
-		[153964] = "Bloodbeak",
-		[17397] = "Shadowmoon Adept",
-		[129527] = "Bilge Rat Buccaneer",
-		[81603] = "Champion Druna",
-		[42707] = "Twilight Nightblade",
-		[130850] = "Irontide Cannon",
-		[75786] = "Roltall",
-		[76057] = "Carrion Worm",
-		[83025] = "Grom'kar Battlemaster",
-		[17477] = "Hellfire Imp",
-		[84520] = "Pitwarden Gwarnok",
-		[131585] = "Enthralled Guard",
-		[80808] = "Neesa Nox",
-		[129448] = "Hammer Shark",
-		[80816] = "Ahri'ok Dugru",
-		[98370] = "Ghostly Councilor",
-		[5990] = "Redstone Basilisk",
-		[75452] = "Bonemaw",
-		[5992] = "Ashmane Boar",
-		[83389] = "Ironwing Flamespitter",
-		[160433] = "Barrow Spiderling",
-		[133435] = "Drust Slaver Summoning Portal",
-		[17537] = "Vazruden",
-		[98243] = "Soul-Torn Champion",
-		[134041] = "Infected Peasant",
-		[98275] = "Risen Archer",
-		[127106] = "Irontide Officer",
-		[131587] = "Bewitched Captain",
-		[139269] = "Gloom Horror",
-		[153581] = "Grunk",
-		[77700] = "Shadowmoon Exhumer",
-		[17517] = "Hellfire Sentry",
-		[74927] = "Unstable Slag <Gug'rokk>",
-		[75198] = "Bloodmaul Geomancer",
-		[75979] = "Exhumed Spirit",
-		[83390] = "Thunderlord Wrangler",
-		[98706] = "Commander Shemdah'sohn",
-		[79852] = "Oshir",
-		[17264] = "Bonechewer Ravener",
-		[131812] = "Heartsbane Soulcharmer",
-		[75820] = "Vengeful Magma Elemental",
-		[75652] = "Void Spawn",
-		[17306] = "Watchkeeper Gargolmar",
-		[84028] = "Siegemaster Rokra",
-		[101839] = "Risen Companion",
-		[153583] = "Jugnug",
-		[131685] = "Runic Disciple",
-		[81750] = "Bloodmaul Ogron",
-		[157300] = "Tunk",
-		[89012] = "Ravenous Wolf",
-		[76407] = "Ner'zhul",
-		[98691] = "Risen Scout",
-		[150237] = "Quilboar Warrior",
-		[75406] = "Slagna",
-		[126928] = "Irontide Corsair",
-		[153582] = "Wug",
-		[131825] = "Sister Briar",
-		[131527] = "Lord Waycrest",
-		[17370] = "Laughing Skull Enforcer",
-		[131847] = "Waycrest Reveler",
-		[150238] = "Quilboar Geomancer",
-		[156900] = "Hrun the Exiled",
-		[98681] = "Rook Spinner",
-		[129743] = "Sharkbait",
-		[74579] = "Molten Elemental",
-		[17398] = "Nascent Fel Orc",
-		[75981] = "Shadow Burn",
-		[83392] = "Rampaging Clefthoof",
-		[102788] = "Felspite Dominator",
-		[17414] = "Shadowmoon Technician",
-		[134024] = "Devouring Maggot",
-		[83616] = "Zoggosh",
-		[81432] = "Grom'kar Technician",
-		[131849] = "Crazed Marksman",
-		[75854] = "Fiery Boulder",
-		[75360] = "Searing Ember",
-		[83026] = "Siegemaster Olugar",
-		[81767] = "Bloodmaul Flamespeaker",
-		[126918] = "Irontide Crackshot",
-		[76444] = "Subjugated Soul",
-		[81305] = "Fleshrender Nok'gar",
-		[75966] = "Defiled Spirit",
-		[98677] = "Rook Spiderling",
-		[129548] = "Blacktooth Brute",
-		[17478] = "Bleeding Hollow Scryer",
-		[80875] = "Bombsquad",
-		[76556] = "Ironmarch Grunt",
-		[74787] = "Slave Watcher Crushto",
-		[86565] = "Whirling Chains",
-		[83763] = "Grom'kar Technician",
-		[153238] = "Tamed Boar",
-		[131850] = "Maddened Survivalist",
-		[74357] = "Traumatic Strike",
-		[83808] = "Exploding Flames <Bloodmaul Flamespeaker>",
-		[126919] = "Irontide Stormcaller",
-		[153239] = "Ogre Brute",
-		[130011] = "Irontide Buccaneer",
-		[17271] = "Bonechewer Destroyer",
-		[126983] = "Harlan Sweete",
-		[98949] = "Smashspite the Hateful",
-		[98965] = "Kur'talos Ravencrest",
-		[127111] = "Irontide Oarsman",
-		[83697] = "Grom'kar Deckhand",
-		[134115] = "Sacrificial Acolyte",
-		[84464] = "Backdraft",
-		[98280] = "Risen Arcanist",
-		[17307] = "Nazan",
-		[17270] = "Bleeding Hollow Archer",
-		[83028] = "Grom'kar Deadeye",
-		[152571] = "Harpy Snatcher",
-		[75426] = "Bloodmaul Overseer",
-		[76446] = "Shadowmoon Dominator",
-		[130012] = "Irontide Ravager",
-		[75713] = "Shadowmoon Bone-Mender",
-		[131821] = "Faceless Maiden",
-		[17626] = "Laughing Skull Legionnaire",
-		[75506] = "Shadowmoon Loyalist",
-		[83762] = "Grom'kar Deckhand",
-		[126969] = "Trothak",
-		[129359] = "Sawtooth Shark",
-		[17395] = "Shadowmoon Summoner",
-		[126841] = "Sharkbait <Skycap'n Kragg>",
-		[17371] = "Shadowmoon Warlock",
-		[153242] = "Ogre Shadowcaster",
-		[17259] = "Bonechewer Hungerer",
-		[154103] = "Ogre Chef",
-		[76462] = "Omen of Death <Ner'zhul>",
-		[135552] = "Deathtouched Slaver",
-		[135329] = "Matron Bryndle",
-		[75459] = "Plagued Bat",
-		[131823] = "Sister Malady",
-		[98696] = "Illysanna Ravencrest",
-		[156501] = "Ravnyr",
-		[135234] = "Diseased Mastiff",
-		[101549] = "Arcane Minion <Risen Arcanist>",
-		[74790] = "Gug'rokk",
-		[98521] = "Lord Etheldrin Ravencrest",
-		[98792] = "Wyrmtongue Scavenger",
-		[131824] = "Sister Solena",
-		[131819] = "Coven Diviner",
-		[156814] = "Gor'groth",
-		[129788] = "Irontide Bonesaw",
-		[134112] = "Matron Christiane",
-		[17455] = "Bonechewer Beastmaster",
-		[98900] = "Wyrmtongue Trickster",
-		[75715] = "Reanimated Ritual Bones",
-		[77006] = "Corpse Skitterling",
-		[83613] = "Koramar",
-		[157328] = "Darkmaul Channeler",
-		[131666] = "Coven Thornshaper",
-		[17401] = "Felhound Manastalker <Shadowmoon Summoner>",
-		[75327] = "Pillar of Fire",
-		[17491] = "Laughing Skull Rogue",
-		[131677] = "Heartsbane Runeweaver",
-		[83764] = "Grom'kar Deadeye",
-		[131858] = "Thornguard",
-		[136330] = "Soul Thorns <[*] Soul Thorns>",
-		[131667] = "Soulbound Goliath",
-		[86526] = "Grom'kar Chainmaster",
-		[77724] = "Ironmarch Sentinel",
-		[129526] = "Bilge Rat Swabby",
-		[135365] = "Matron Alma",
-		[75829] = "Nhallish",
-		[17280] = "Shattered Hand Warhound",
-		[75509] = "Sadana Bloodfury",
-		[156913] = "Decaying Corpse",
-		[129601] = "Cutwater Harpooner",
-		[155192] = "Harpy Ambusher",
-		[102095] = "Risen Lancer",
-		[86809] = "Grom'kar Incinerator",
-		[17308] = "Omor the Unscarred",
-		[131586] = "Banquet Steward",
-		[81283] = "Grom'kar Footsoldier",
-		[131669] = "Jagged Hound",
-		[81279] = "Burning Arrows",
-		[135048] = "Gorestained Piglet",
-		[75191] = "Bloodmaul Slaver",
-		[17624] = "Laughing Skull Warden",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -2518,632 +1443,10 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
-		1, -- [1]
-		3, -- [2]
-		"Environment (Falling)", -- [3]
-		[318149] = "Warlord Breka Grimaxe",
-		[268278] = "Lady Waycrest",
-		[264698] = "Raal the Gluttonous",
-		[149996] = "Calamity",
-		[152170] = "Magmolatus",
-		[152298] = "Vengeful Magma Elemental",
-		[228128] = 1,
-		[256005] = "Sharkbait <Skycap'n Kragg>",
-		[257284] = 3,
-		[318152] = "Warlord Breka Grimaxe",
-		[172631] = 11,
-		[152427] = "Magma Lord",
-		[306389] = "Darkmaul Centurion",
-		[152939] = "Roltall",
-		[168540] = "[*] Cannon Barrage",
-		[156776] = "Shadowmoon Dominator",
-		[152940] = "Roltall",
-		[168541] = "[*] Cannon Barrage",
-		[40505] = "Bloodmaul Warder",
-		[273657] = "Gloom Horror",
-		[5215] = 11,
-		[426596] = "Coven Diviner",
-		[273658] = "Gloom Horror",
-		[152814] = "Shadowmoon Bone-Mender",
-		[200256] = "Arcane Minion <Risen Arcanist>",
-		[306396] = 1,
-		[164835] = "Dreadfang",
-		[263943] = "Heartsbane Runeweaver",
-		[152688] = "[*] Shadow Rune",
-		[306399] = "Darkmaul Centurion",
-		[161256] = "Oshir",
-		[168929] = "Skulloc",
-		[173149] = "[*] Flaming Arrows",
-		[150004] = "Molten Elemental",
-		[60103] = 7,
-		[164582] = "Bloodmaul Ogron",
-		[22427] = "Nascent Fel Orc",
-		[152690] = "[*] Shadow Rune",
-		[30659] = "Bleeding Hollow Scryer",
-		[18399] = "Shadowmoon Summoner",
-		[30691] = "Nazan",
-		[30707] = "Omor the Unscarred",
-		[225963] = "Risen Companion",
-		[152819] = "Shadowmoon Bone-Mender",
-		[265741] = "Matron Bryndle",
-		[6434] = "Laughing Skull Rogue",
-		[200261] = "Soul-Torn Champion",
-		[30851] = "Shadowmoon Summoner",
-		[321240] = "Tunk",
-		[256016] = "[*] Vile Coating",
-		[308455] = "Tunk",
-		[10966] = "Bonechewer Beastmaster",
-		[8936] = 11,
-		[150776] = "Gug'rokk",
-		[152183] = "Slagna",
-		[164587] = "Bloodmaul Ogron",
-		[1126] = 11,
-		[268306] = "Lady Waycrest",
-		[214459] = 4,
-		[152184] = "Slagna",
-		[83381] = "Boar <Choinker>",
-		[17057] = 11,
-		[151545] = "Bloodmaul Warder",
-		[152696] = "[*] Shadow Rune",
-		[258321] = "Irontide Bonesaw",
-		[150011] = "Molten Elemental",
-		[162415] = "Oshir",
-		[15242] = "Hellfire Imp",
-		[164974] = "Sadana Bloodfury",
-		[261264] = "Sister Solena",
-		[256405] = "Trothak",
-		[33763] = 11,
-		[151548] = "Bloodmaul Ogre Mage",
-		[260242] = 3,
-		[17505] = 7,
-		[325347] = 1,
-		[164592] = "Bloodmaul Geomancer",
-		[325348] = 1,
-		[259092] = "Irontide Stormcaller",
-		[261266] = "Sister Malady",
-		[265759] = "Matron Bryndle",
-		[6726] = "Shadowmoon Technician",
-		[265760] = "Matron Bryndle",
-		[305913] = "Darkmaul Shadowcaller",
-		[265761] = "Matron Bryndle",
-		[106785] = 11,
-		[272412] = "Cutwater Harpooner",
-		[3391] = "Shadowmoon Adept",
-		[272413] = "Cutwater Harpooner",
-		[225080] = 7,
-		[256921] = "Faceless Maiden",
-		[200784] = "Wyrmtongue Scavenger",
-		[40062] = "Shadowmoon Technician",
-		[75] = 3,
-		[256922] = "Faceless Maiden",
-		[200913] = "Wyrmtongue Scavenger",
-		[164597] = "Bloodmaul Geomancer",
-		[20271] = 2,
-		[200914] = "Wyrmtongue Scavenger",
-		[153089] = "Sadana Bloodfury",
-		[411547] = 1,
-		[257308] = "Harlan Sweete",
-		[152835] = "Fiery Boulder",
-		[198103] = 7,
-		[205648] = 7,
-		[151685] = "Vengeful Magma Elemental",
-		[178411] = "Ogron Laborer",
-		[152964] = "Void Spawn",
-		[204242] = 2,
-		[151558] = "Bloodmaul Ogre Mage",
-		[115804] = 1,
-		[152837] = "Fiery Boulder",
-		[153093] = "Sadana Bloodfury",
-		[267824] = "Soul Essence",
-		[173042] = "Grom'kar Chainmaster",
-		[35748] = "Fiendish Hound <Omor the Unscarred>",
-		[153094] = "Sadana Bloodfury",
-		[158337] = "Rampaging Clefthoof",
-		[256546] = "Trothak",
-		[188389] = 7,
-		[51637] = 4,
-		[193633] = "Risen Archer",
-		[258338] = "Captain Raoul",
-		[164734] = "Dreadfang",
-		[128594] = 3,
-		[77508] = "Vengeful Magma Elemental",
-		[12294] = 1,
-		[264510] = "Crazed Marksman",
-		[18562] = 11,
-		[5176] = 11,
-		[256551] = "Sawtooth Shark",
-		[308502] = "Gor'groth",
-		[151566] = "Bloodmaul Magma Binder",
-		[169341] = "Grom'kar Footsoldier",
-		[150032] = "Magmolatus",
-		[256552] = "Sawtooth Shark",
-		[260900] = "Sister Solena",
-		[256553] = "Sawtooth Shark",
-		[150801] = "Slave Watcher Crushto",
-		[105771] = 1,
-		[150290] = "Calamity",
-		[151697] = "Bloodmaul Overseer",
-		[264520] = "Maddened Survivalist",
-		[163334] = "Neesa Nox",
-		[6343] = 1,
-		[412346] = "Irontide Corsair",
-		[200291] = "Risen Scout",
-		[197478] = "Illysanna Ravencrest",
-		[17364] = 7,
-		[271174] = "Pallid Gorger",
-		[264525] = "Maddened Survivalist",
-		[271175] = "Pallid Gorger",
-		[150677] = "Gug'rokk",
-		[173311] = "Thunderlord Wrangler",
-		[152979] = "Possessed Soul",
-		[150038] = "Magmolatus",
-		[192109] = 7,
-		[164616] = "Bloodmaul Flamespeaker",
-		[178299] = "Grom'kar Technician",
-		[199143] = "Latosius",
-		[164617] = "Bloodmaul Flamespeaker",
-		[260907] = "Sister Solena",
-		[168965] = "Koramar",
-		[150807] = "Captured Miner",
-		[264531] = "Maddened Survivalist",
-		[167815] = "Thunderlord Wrangler",
-		[274507] = "Bilge Rat Swabby",
-		[262232] = 1,
-		[258352] = "Captain Eudora",
-		[197484] = "Illysanna Ravencrest",
-		[199658] = 1,
-		[150682] = "Gug'rokk",
-		[257458] = "Harlan Sweete",
-		[153240] = "Sadana Bloodfury",
-		[166923] = "Champion Druna",
-		[308527] = "Gor'groth",
-		[17253] = "Boar <Choinker>",
-		[264027] = "Heartsbane Soulcharmer",
-		[703] = 4,
-		[2818] = 4,
-		[257460] = "[*] Fiery Debris",
-		[355] = 1,
-		[164624] = "Gnasher",
-		[151581] = "Bloodmaul Overseer",
-		[151965] = "Bloodmaul Slaver",
-		[413136] = "Harlan Sweete",
-		[199663] = "Ghostly Councilor",
-		[256056] = "Skycap'n Kragg",
-		[12471] = "Bleeding Hollow Scryer",
-		[150048] = "Molten Elemental",
-		[8395] = 11,
-		[172810] = "Champion Druna",
-		[153501] = "Nhallish",
-		[184575] = 2,
-		[16870] = 11,
-		[31224] = 4,
-		[6795] = 11,
-		[132403] = 2,
-		[381684] = 7,
-		[153247] = "Roltall",
-		[190331] = "Shuja Grimaxe",
-		[132404] = 1,
-		[263274] = "Skycap'n Kragg",
-		[20243] = 1,
-		[321330] = "Darkmaul Channeler",
-		[1464] = 1,
-		[413145] = "Harlan Sweete",
-		[175755] = "Fleshrender Nok'gar",
-		[413146] = "Harlan Sweete",
-		[264556] = "Thornguard",
-		[413147] = "Harlan Sweete",
-		[172943] = "Pitwarden Gwarnok",
-		[17462] = 3,
-		[173455] = "Siegemaster Rokra",
-		[164632] = "Grom'kar Flameslinger",
-		[150055] = "Molten Elemental",
-		[264050] = "Coven Thornshaper",
-		[195707] = 1,
-		[335149] = 1,
-		[164634] = "Gnasher",
-		[152742] = "Fiery Boulder",
-		[32216] = 1,
-		[164635] = "Fleshrender Nok'gar",
-		[151720] = "Molten Earth Elemental",
-		[260798] = 1,
-		[261438] = "Lord Waycrest",
-		[78674] = 11,
-		[183435] = 2,
-		[261439] = "Lord Waycrest",
-		[405233] = 11,
-		[768] = 11,
-		[261440] = "Lord Waycrest",
-		[78675] = 11,
-		[231390] = 3,
-		[168348] = "Blackhand's Might Turret",
-		[143924] = 1,
-		[81297] = 2,
-		[172952] = "Siegemaster Rokra",
-		[165152] = "Makogg Emberblade",
-		[257478] = "Irontide Mastiff",
-		[164641] = "Gnasher",
-		[214001] = "Risen Lancer",
-		[5217] = 11,
-		[5221] = 11,
-		[214002] = "Risen Lancer",
-		[16856] = "Bonechewer Destroyer",
-		[34767] = 2,
-		[257736] = "Irontide Stormcaller",
-		[152495] = "Molten Earth Elemental",
-		[214003] = "Risen Swordsman",
-		[267907] = "[*] Soul Thorns",
-		[257737] = "Irontide Stormcaller",
-		[151601] = "Pillar of Fire",
-		[109304] = 3,
-		[260551] = "Soulbound Goliath",
-		[154671] = "Ner'zhul",
-		[113780] = 4,
-		[261447] = "Lord Waycrest",
-		[100] = 1,
-		[150324] = "Ruination",
-		[25504] = 7,
-		[156718] = "Monstrous Corpse Spider",
-		[168227] = "Skulloc",
-		[149941] = "Ruination",
-		[151092] = "Captured Miner",
-		[1604] = 4,
-		[404996] = 2,
-		[200325] = "Risen Scout",
-		[153395] = "Carrion Worm",
-		[30923] = "The Maker",
-		[258381] = "Captain Eudora",
-		[153268] = "Shadowmoon Exhumer",
-		[19750] = 2,
-		[255952] = "Skycap'n Kragg",
-		[153908] = "[*] Inhale",
-		[151990] = "Bloodmaul Slaver",
-		[23922] = 1,
-		[305515] = "Ravnyr",
-		[257871] = "Irontide Buccaneer",
-		[156722] = "Shadowmoon Exhumer",
-		[33778] = 11,
-		[265876] = "Matron Alma",
-		[164907] = "Reanimated Ritual Bones",
-		[6552] = 1,
-		[273294] = "[*] Wildfire",
-		[256594] = "Captain Raoul",
-		[343883] = "Shuja Grimaxe",
-		[265368] = "Bewitched Captain",
-		[256979] = "Captain Eudora",
-		[169129] = "Backdraft",
-		[173349] = "Rampaging Clefthoof",
-		[265881] = "Matron Alma",
-		[150076] = "Forgemaster Gog'duh",
-		[257747] = "Blacktooth Brute",
-		[30636] = "Shattered Hand Warhound",
-		[268440] = "Irontide Crackshot",
-		[265372] = "Bewitched Captain",
-		[115767] = 1,
-		[173351] = "Rampaging Clefthoof",
-		[150078] = "Forgemaster Gog'duh",
-		[30844] = "Shadowmoon Technician",
-		[53600] = 2,
-		[48517] = 11,
-		[164273] = 3,
-		[225909] = "Rook Spiderling",
-		[258773] = "Skycap'n Kragg",
-		[197521] = "Illysanna Ravencrest",
-		[163379] = "Bombsquad",
-		[196883] = "Lord Etheldrin Ravencrest",
-		[853] = 2,
-		[194966] = "Lord Etheldrin Ravencrest",
-		[264104] = "[*] Runic Mark",
-		[48518] = 11,
-		[154175] = "Bonemaw",
-		[258777] = "Irontide Oarsman",
-		[152897] = "Heat Wave",
-		[153153] = "Sadana Bloodfury",
-		[260696] = "Sister Malady",
-		[265642] = "Diseased Mastiff",
-		[30621] = "Bonechewer Ravener",
-		[200084] = "Ghostly Retainer",
-		[32747] = 4,
-		[260697] = "Sister Briar",
-		[258779] = "Irontide Oarsman",
-		[381755] = 7,
-		[260570] = "[*] Wildfire",
-		[260698] = "Sister Solena",
-		[257757] = "Bilge Rat Buccaneer",
-		[31900] = "Nascent Fel Orc",
-		[265391] = "Banquet Steward",
-		[30925] = "The Maker",
-		[260699] = "Sister Solena",
-		[173105] = "[*] Whirling Chains",
-		[265393] = "Banquet Steward",
-		[178298] = "Grom'kar Technician",
-		[173489] = "Ironwing Flamespitter",
-		[169132] = "Backdraft",
-		[260700] = "Sister Malady",
-		[150344] = "[*] Shatter Earth",
-		[440] = 1,
-		[34645] = "Watchkeeper Gargolmar",
-		[198635] = "Kur'talos Ravencrest",
-		[8676] = 4,
-		[315496] = 4,
-		[261265] = "Sister Briar",
-		[200344] = "Risen Archer",
-		[172963] = "Siegemaster Rokra",
-		[1766] = 4,
-		[173480] = "Ironwing Flamespitter",
-		[257426] = "Irontide Enforcer",
-		[194153] = 11,
-		[173307] = "Thunderlord Wrangler",
-		[173324] = "Thunderlord Wrangler",
-		[200345] = "Risen Archer",
-		[14032] = "Hellfire Watcher",
-		[152843] = "Fiery Boulder",
-		[33111] = "Shadowmoon Warlock",
-		[260508] = "Soulbound Goliath",
-		[173148] = "Grom'kar Flameslinger",
-		[149963] = "[*] Shatter Earth",
-		[163390] = "Neesa Nox",
-		[197277] = 2,
-		[263961] = "Heartsbane Soulcharmer",
-		[118779] = 1,
-		[264693] = "Raal the Gluttonous",
-		[264378] = "Coven Diviner",
-		[403876] = 2,
-		[172771] = "Grom'kar Incinerator",
-		[62124] = 2,
-		[164648] = "Grom'kar Flameslinger",
-		[257310] = "Irontide Cannon",
-		[172982] = "Siegemaster Rokra",
-		[265392] = "Banquet Steward",
-		[154353] = "Omen of Death <Ner'zhul>",
-		[260701] = "Sister Briar",
-		[265757] = "Matron Bryndle",
-		[266225] = "Gorak Tul",
-		[196819] = 4,
-		[273844] = "Shuja Grimaxe",
-		[225962] = "Risen Companion",
-		[150759] = "Slave Watcher Crushto",
-		[150784] = "[*] Magma Eruption",
-		[149997] = "Calamity",
-		[256358] = "Trothak",
-		[150734] = "Unstable Slag <Gug'rokk>",
-		[30846] = "Shadowmoon Technician",
-		[236282] = 1,
-		[31901] = "Omor the Unscarred",
-		[56641] = 3,
-		[36213] = "Greater Earth Elemental <Frawshawwk>",
-		[152962] = "Nhallish",
-		[394512] = "Void Spawn",
-		[153164] = "Defiled Spirit",
-		[344179] = 7,
-		[97547] = 11,
-		[266258] = "Drust Slaver Summoning Portal",
-		[173113] = "Grom'kar Deckhand",
-		[153804] = "Bonemaw",
-		[152818] = "Shadowmoon Bone-Mender",
-		[264105] = "Heartsbane Runeweaver",
-		[5374] = 4,
-		[260708] = 1,
-		[164615] = "Bloodmaul Flamespeaker",
-		[1822] = 11,
-		[262115] = 1,
-		[136] = 3,
-		[167232] = "Grom'kar Battlemaster",
-		[382889] = 7,
-		[190984] = 11,
-		[145110] = 11,
-		[194956] = "Amalgam of Souls",
-		[168148] = "[*] Cannon Barrage",
-		[386208] = 1,
-		[264390] = "Runic Disciple",
-		[167233] = "Grom'kar Battlemaster",
-		[265371] = "Enthralled Guard",
-		[266181] = "Gorak Tul",
-		[224266] = 2,
-		[172860] = "Grom'kar Battlemaster",
-		[196517] = "[*] Swirling Scythe",
-		[5302] = 1,
-		[48438] = 11,
-		[413131] = "Harlan Sweete",
-		[256363] = "Trothak",
-		[257476] = "Irontide Mastiff",
-		[398206] = "Exhumed Spirit",
-		[256477] = "Sawtooth Shark",
-		[153485] = "Carrion Worm",
-		[398151] = "Shadowmoon Loyalist",
-		[7384] = 1,
-		[173150] = "Grom'kar Flameslinger",
-		[172703] = "Grom'kar Technician",
-		[31598] = "Bleeding Hollow Darkcaster",
-		[154442] = "Ner'zhul",
-		[200343] = "Risen Archer",
-		[257899] = "Irontide Ravager",
-		[264140] = "Jagged Hound",
-		[264396] = "Runic Disciple",
-		[257260] = "Thornguard",
-		[19434] = 3,
-		[398154] = "Defiled Spirit",
-		[168402] = "Koramar",
-		[105421] = 2,
-		[256106] = "Skycap'n Kragg",
-		[150755] = "Gug'rokk",
-		[256589] = "Captain Raoul",
-		[202019] = "Latosius",
-		[150045] = "Magmolatus",
-		[256494] = "Trothak",
-		[260741] = "Sister Briar",
-		[264655] = "Infected Peasant",
-		[201846] = 7,
-		[406086] = 2,
-		[168401] = "Koramar",
-		[152089] = "Bloodmaul Slaver",
-		[149975] = "Calamity",
-		[30615] = "Bleeding Hollow Scryer",
-		[774] = 11,
-		[30991] = "Laughing Skull Rogue",
-		[257902] = "[*] Shell Bounce",
-		[151623] = "Magma Lord",
-		[260703] = "Sister Malady",
-		[167239] = "Grom'kar Deadeye",
-		[169413] = "Grom'kar Footsoldier",
-		[164426] = "Fleshrender Nok'gar",
-		[126664] = 1,
-		[197418] = "Illysanna Ravencrest",
-		[197546] = "Illysanna Ravencrest",
-		[22812] = 11,
-		[257756] = "Bilge Rat Buccaneer",
-		[167240] = "Grom'kar Deadeye",
-		[151446] = "Bloodmaul Enforcer",
-		[167095] = "Thunderlord Wrangler",
-		[165578] = "Bonemaw",
-		[165579] = "Bonemaw",
-		[257904] = "Ludwig Von Tortollan",
-		[264150] = "Thornguard",
-		[53351] = 3,
-		[34969] = "Laughing Skull Rogue",
-		[264407] = "Faceless Maiden",
-		[106830] = 11,
-		[258672] = "Irontide Crackshot",
-		[33793] = "Nazan",
-		[164812] = 11,
-		[262652] = 7,
-		[152792] = "Nhallish",
-		[127802] = 3,
-		[168399] = "Koramar",
-		[264153] = "Devouring Maggot",
-		[258673] = "Irontide Crackshot",
-		[257870] = "Irontide Buccaneer",
-		[285381] = 11,
-		[167120] = "Grom'kar Flameslinger",
-		[172649] = "Grom'kar Technician",
-		[158341] = "Rampaging Clefthoof",
-		[149980] = "[*] Dancing Flames",
-		[155722] = 11,
-		[185358] = 3,
-		[164686] = "Sadana Bloodfury",
-		[264923] = "Raal the Gluttonous",
-		[150023] = "Magmolatus",
-		[257908] = "Irontide Officer",
-		[6653] = 4,
-		[150034] = "[*] Choking Ashes",
-		[108366] = 9,
-		[2823] = 4,
-		[256706] = "Trothak",
-		[164815] = 11,
-		[1943] = 4,
-		[266460] = "Deathtouched Slaver",
-		[17501] = "Crimson Cannon <Orclaw>",
-		[257397] = "Irontide Bonesaw",
-		[30832] = "Laughing Skull Rogue",
-		[31884] = 2,
-		[163665] = "Makogg Emberblade",
-		[181089] = "Bonemaw",
-		[145109] = 11,
-		[6713] = "Bonechewer Hungerer",
-		[173384] = "Rampaging Clefthoof",
-		[1044] = 2,
-		[154327] = "Shadowmoon Dominator",
-		[261446] = "Lady Waycrest",
-		[152073] = "Bloodmaul Slaver",
-		[318125] = "Warlord Breka Grimaxe",
-		[153692] = "[*] Necrotic Pitch",
-		[150751] = "Slave Watcher Crushto",
-		[6673] = 1,
-		[168398] = "Blackhand's Might Turret",
-		[153680] = "Bonemaw",
-		[16244] = "Bonechewer Hungerer",
-		[260852] = "Sister Malady",
-		[264931] = "Raal the Gluttonous",
-		[305567] = "Ravnyr",
-		[198833] = "Latosius",
-		[257272] = "Sharkbait",
-		[173514] = "Ironwing Flamespitter",
-		[1784] = 4,
-		[153679] = "Slave Watcher Crushto",
-		[163668] = "Makogg Emberblade",
-		[260702] = "[*] Unstable Runic Mark",
-		[265410] = "Waycrest Reveler",
-		[150753] = "Slave Watcher Crushto",
-		[53385] = 2,
-		[391786] = 11,
-		[191034] = 11,
-		[195254] = "Amalgam of Souls",
-		[151447] = "Bloodmaul Enforcer",
-		[1966] = 4,
-		[265337] = "Gorestained Piglet",
-		[152800] = "Nhallish",
-		[257274] = "[*] Vile Coating",
-		[257402] = "Harlan Sweete",
-		[153686] = "Bonemaw",
-		[15655] = "Laughing Skull Enforcer",
-		[8599] = "Wrathguard Bladelord",
-		[81219] = "Bonechewer Beastmaster",
-		[271178] = "Pallid Gorger",
-		[152801] = "Nhallish",
-		[153623] = "Nhallish",
-		[173517] = "Ironwing Flamespitter",
-		[12739] = "Shadowmoon Warlock",
-		[386164] = 1,
-		[14516] = "Bonechewer Hungerer",
-		[20572] = 4,
-		[30641] = "Watchkeeper Gargolmar",
-		[173108] = "Whirling Chains",
-		[260805] = "Sister Solena",
-		[201139] = "Wrathguard Bladelord",
-		[191037] = 11,
-		[178412] = "Ogron Laborer",
-		[185311] = 4,
-		[173112] = "Grom'kar Deckhand",
-		[173135] = "Ogron Laborer",
-		[33917] = 11,
-		[34428] = 1,
-		[164618] = "Exploding Flames <Bloodmaul Flamespeaker>",
-		[30639] = "Shattered Hand Warhound",
-		[256060] = "Skycap'n Kragg",
-		[194960] = "[*] Soul Echoes",
-		[5938] = 4,
-		[1079] = 11,
-		[258875] = "Blackout Barrel <Captain Raoul>",
-		[168390] = "[*] Cannon Barrage",
-		[201141] = "Wrathguard Bladelord",
-		[8004] = 7,
-		[268308] = "Lady Waycrest",
-		[266266] = "Gorak Tul",
-		[178124] = "Oshir",
-		[263959] = "Heartsbane Soulcharmer",
-		[22857] = "Watchkeeper Gargolmar",
-		[24858] = 11,
-		[198073] = "Smashspite the Hateful",
-		[268271] = "Lady Waycrest",
-		[151602] = "Pillar of Fire",
-		[152043] = "Bloodmaul Slaver",
-		[365201] = "Void Spawn",
-		[11978] = "Shadowmoon Adept",
-		[164643] = "Gnasher",
-		[153232] = "[*] Daggerfall",
-		[202166] = 1,
-		[200248] = "Risen Arcanist",
-		[30695] = "Omor the Unscarred",
-		[154469] = "[*] Ritual of Bones",
-		[18989] = 1,
-		[255966] = "Skycap'n Kragg",
-		[118922] = 3,
-		[264694] = "Raal the Gluttonous",
-		[35395] = 2,
-		[283408] = "Warlord Breka Grimaxe",
-		[151415] = "Bloodmaul Enforcer",
-		[153524] = "Plagued Bat",
-		[192106] = 7,
-		[167516] = "Grom'kar Incinerator",
-		[162281] = "Ogron Laborer",
-		[164837] = "Dreadfang",
-		[202168] = 1,
-		[264024] = "Heartsbane Soulcharmer",
-		[15241] = "Bleeding Hollow Darkcaster",
-		[5487] = 11,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1704563337,
+	["latest_encounter_spell_pool_access"] = 1705774719,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["raid_data"] = {
@@ -3158,7 +1461,11 @@ _detalhes_global = {
 	},
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_shadow"] = true,
+		["damage_taken_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -3174,12 +1481,8 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["damage_taken_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
 		["realtime_dps_size"] = 12,
+		["damage_taken_shadow"] = true,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -3621,6 +1924,10 @@ _detalhes_global = {
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -3658,10 +1965,6 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -3684,14 +1987,16 @@ _detalhes_global = {
 				["menus"] = "Friz Quadrata TT",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
+			["segments_amount"] = 40,
+			["report_lines"] = 5,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -95.91888427734375,
-							["x"] = 586.3257446289062,
+							["y"] = -95.91885375976562,
+							["x"] = 560.6376953125,
 							["w"] = 310.0001831054688,
-							["h"] = 157.9999084472656,
+							["h"] = 157.9999389648438,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -4096,8 +2401,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -95.9188232421875,
-						["x"] = -126.559814453125,
+						["y"] = -95.91880798339844,
+						["x"] = -126.5599365234375,
 						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
@@ -4127,10 +2432,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -95.91888427734375,
-							["x"] = 586.3257446289062,
+							["y"] = -95.91885375976562,
+							["x"] = 560.6376953125,
 							["w"] = 310.0001831054688,
-							["h"] = 157.9999084472656,
+							["h"] = 157.9999389648438,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -4177,8 +2482,6 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
-			["report_lines"] = 5,
-			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
 			["capture_real"] = {
@@ -4195,26 +2498,32 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["realtimedps_always_arena"] = false,
 			["minimum_combat_time"] = 5,
+			["realtimedps_always_arena"] = false,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
 			["overall_clear_logout"] = false,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
+			},
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
 			},
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
 			},
-			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
 			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
@@ -4291,11 +2600,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -4321,11 +2630,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -4340,15 +2649,10 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
-			["total_abbreviation"] = 2,
-			["disable_alldisplays_window"] = false,
-			["trash_auto_remove"] = false,
-			["broadcaster_enabled"] = false,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
+			["disable_alldisplays_window"] = false,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -4360,10 +2664,10 @@ _detalhes_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -4405,10 +2709,10 @@ _detalhes_global = {
 					0.372, -- [2]
 					0.905, -- [3]
 				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["UNKNOW"] = {
 					0.2, -- [1]
@@ -4431,17 +2735,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
+				["version"] = 1,
 				["DEMONHUNTER"] = {
 					0.64, -- [1]
 					0.19, -- [2]
 					0.79, -- [3]
 				},
-				["version"] = 1,
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -4452,12 +2756,17 @@ _detalhes_global = {
 					0.5764, -- [2]
 					0.498, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 			},
+			["broadcaster_enabled"] = false,
+			["total_abbreviation"] = 2,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
+			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -4474,13 +2783,7 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
-			},
+			["memory_threshold"] = 3,
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["color_by_arena_team"] = true,
@@ -4678,7 +2981,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1704563337,
+		["latest_boss_mods_access"] = 1705774719,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -4689,10 +2992,10 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["WARRIOR"] = 84352.3080000002,
+			["WARRIOR"] = 85965.12300000014,
 		},
 	},
-	["latest_spell_pool_access"] = 1704563337,
+	["latest_spell_pool_access"] = 1705774719,
 	["slash_me_used"] = false,
 	["details_auras"] = {
 	},
@@ -4723,7 +3026,7 @@ _detalhes_global = {
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["latest_npcid_pool_access"] = 1704563337,
+	["latest_npcid_pool_access"] = 1705774719,
 	["exit_errors"] = {
 	},
 	["parser_options"] = {
@@ -4734,11 +3037,17 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["tutorial"] = {
 		["bookmark_tutorial"] = false,
-		["main_help_button"] = 96,
+		["main_help_button"] = 98,
 		["DETAILS_INFO_TUTORIAL1"] = true,
 		["alert_frames"] = {
 			false, -- [1]
@@ -4748,7 +3057,7 @@ _detalhes_global = {
 			false, -- [5]
 			false, -- [6]
 		},
-		["logons"] = 96,
+		["logons"] = 98,
 		["version_announce"] = 0,
 		["ctrl_click_close_tutorial"] = false,
 		["DETAILS_INFO_TUTORIAL2"] = 2,
@@ -4786,13 +3095,7 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["savedStyles"] = {
 	},
@@ -4802,7 +3105,7 @@ _detalhes_global = {
 	["spell_category_latest_query"] = 0,
 	["savedTimeCaptures"] = {
 	},
-	["latest_news_saw"] = "10.2.0 12190",
+	["latest_news_saw"] = "10.2.5 12222",
 	["damage_scroll_position"] = {
 		["scale"] = 1,
 	},
@@ -4904,6 +3207,10 @@ _detalhes_global = {
 	["deathlog_healingdone_min"] = 1,
 }
 __details_backup = {
+	["_exit_error"] = {
+	},
+	["_instance_backup"] = {
+	},
 	["_general_logs"] = {
 		"2024-01-14 14:04:20 | actor removed Mermejito-Cenarius (disposable)", -- [1]
 		"2024-01-14 14:04:10 | actor removed Mermejito-Cenarius (disposable)", -- [2]
@@ -4935,8 +3242,6 @@ __details_backup = {
 		"2024-01-14 11:47:03 | actor removed Nola-Hyjal (disposable)", -- [28]
 		"2024-01-14 11:47:03 | actor removed Chellys-Tortheldrin (disposable)", -- [29]
 	},
-	["_exit_error"] = {
-	},
-	["_instance_backup"] = {
-	},
+}
+__details_debug = {
 }

@@ -1,0 +1,107 @@
+
+DataStore_RaresDB = {
+	["profileKeys"] = {
+		["Anlronclad - Nathrezim"] = "Anlronclad - Nathrezim",
+		["Anlronclad - Illidan"] = "Anlronclad - Illidan",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Anlronclad"] = {
+				["lastUpdate"] = 1607637120,
+				["Rares"] = {
+					[139235] = {
+						["resetTime"] = 61679,
+						["name"] = "Tort Jaw",
+					},
+					[131520] = {
+						["resetTime"] = 61679,
+						["name"] = "Kulett the Ornery",
+					},
+					[131404] = {
+						["resetTime"] = 61679,
+						["name"] = "Foreman Scripps",
+					},
+					[134884] = {
+						["resetTime"] = 61679,
+						["name"] = "Ragna",
+					},
+					[133373] = {
+						["resetTime"] = 61679,
+						["name"] = "Jax'teb the Reanimated",
+					},
+					[139980] = {
+						["resetTime"] = 61679,
+						["name"] = "Taja the Tidehowler",
+					},
+					[127290] = {
+						["resetTime"] = 61679,
+						["name"] = "Saurolisk Tamer Mugg",
+					},
+					[106990] = {
+						["resetTime"] = 61679,
+						["name"] = "Chief Bitterbrine",
+					},
+					[89846] = {
+						["resetTime"] = 61679,
+						["name"] = "Captain Volo'ren",
+					},
+					[89816] = {
+						["resetTime"] = 61679,
+						["name"] = "Golza the Iron Fin",
+					},
+					[89850] = {
+						["resetTime"] = 61679,
+						["name"] = "The Oracle",
+					},
+					[90505] = {
+						["resetTime"] = 61679,
+						["name"] = "Syphonus",
+					},
+					[139280] = {
+						["resetTime"] = 61679,
+						["name"] = "Sythian the Swift",
+					},
+					[91113] = {
+						["resetTime"] = 61679,
+						["name"] = "Tide Behemoth",
+					},
+					[141059] = {
+						["resetTime"] = 61679,
+						["name"] = "Grimscowl the Harebrained",
+					},
+					[91100] = {
+						["resetTime"] = 61679,
+						["name"] = "Brogozog",
+					},
+					[107127] = {
+						["resetTime"] = 61679,
+						["name"] = "Brawlgoth",
+					},
+					[135939] = {
+						["resetTime"] = 61679,
+						["name"] = "Vinespeaker Ratha",
+					},
+					[90901] = {
+						["resetTime"] = 61679,
+						["name"] = "Pridelord Meowl",
+					},
+					[133356] = {
+						["resetTime"] = 61679,
+						["name"] = "Tempestria",
+					},
+					[89884] = {
+						["resetTime"] = 61679,
+						["name"] = "Flog the Captain-Eater",
+					},
+				},
+			},
+			["Default.Illidan.Stabsya"] = {
+				["lastUpdate"] = 1604366738,
+			},
+			["Default.Nathrezim.Anlronclad"] = {
+				["lastUpdate"] = 1603512246,
+			},
+		},
+	},
+}

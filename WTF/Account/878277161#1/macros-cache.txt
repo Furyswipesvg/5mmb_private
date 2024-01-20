@@ -145,3 +145,14 @@ END
 VER 3 0000000000000BF1 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
+VER 3 0000000000000BF2 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 0000000000000BF3 "ZygorAction2" "134327"
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Defiled Bone|r worth |cfff8f8ff31s|r |cffffaa9961c|r|nRight click to skip this item|n
+/run ZGV.Inventory:HandleTrashMacro()
+END

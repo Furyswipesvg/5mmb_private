@@ -17,7 +17,7 @@ AdvancedInterfaceOptionsSaved = {
 		["renderscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:837",
 		["useuiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:836",
 		["softtargetinteract"] = "Interface/FrameXML/SettingDefinitions/Controls.lua:96",
-		["autoquestwatch"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:844",
+		["alwaysshowactionbars"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:838",
 		["showclasscolorinfriendlynameplate"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:856",
 		["nameplateshowenemies"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:839",
 		["showtutorials"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:855",
@@ -30,7 +30,7 @@ AdvancedInterfaceOptionsSaved = {
 		["miniworldmap"] = "Interface/FrameXML/QuestLogOwnerMixin.lua:68",
 		["lootundermouse"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:852",
 		["libopenraidtempcache"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:260",
-		["alwaysshowactionbars"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:838",
+		["autoquestwatch"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:844",
 		["enablefloatingcombattext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:841",
 	},
 	["CharVars"] = {

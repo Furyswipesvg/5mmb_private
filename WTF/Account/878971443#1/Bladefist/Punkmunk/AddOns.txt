@@ -9,3 +9,5 @@ Blizzard_CompactRaidFrames: enabled
 Details: enabled
 ClassicUI: disabled
 DeleteGryphonFromClassicUI: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

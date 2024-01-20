@@ -15,3 +15,5 @@ Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 ZygorGuidesViewer: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -37,552 +37,552 @@ _detalhes_global = {
 	["trinket_data"] = {
 		[214342] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Down Draft",
 		},
 		[214350] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Nightmare Essence",
 		},
 		[214169] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Brutal Haymaker",
 		},
 		[382426] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Spiteful Stormbolt",
 		},
 		[417534] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Time-Thief's Gambit",
 		},
 		[429221] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Leviathan's Wisdom",
 		},
 		[214052] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Fel Meteor",
 		},
 		[425127] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Dream Salvage",
 		},
 		[215407] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Dark Blast",
 		},
 		[397376] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Burning Embers",
 		},
 		[421994] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Rising Rage",
 		},
 		[407961] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Lava Wave",
 		},
 		[270827] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
 		},
 		[421996] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Ursine Reprisal",
 		},
 		[426674] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[426564] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Annihilating Flame",
 		},
 		[426431] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Denizen of the Flame",
 		},
 		[427037] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Lava Bolt",
 		},
 		[426486] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Denizen of the Flame",
 		},
 		[401428] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Ravenous Shadowflame",
 		},
 		[384290] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Smorf's Ambush",
 		},
 		[417458] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[426676] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Best Friends with Aerwynn",
 		},
 		[426553] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Annihilating Flame",
 		},
 		[424965] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Thorn Spirit",
 		},
 		[384325] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Barf's Ambush",
 		},
 		[426677] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[425181] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Thorn Burst",
 		},
 		[394453] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Broodkeeper's Blaze",
 		},
 		[422441] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Roots of the Tormented Ancient",
 		},
 		[401324] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Echoed Flare",
 		},
 		[389839] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Fire Shot",
 		},
 		[426647] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Best Friends with Pip",
 		},
 		[429246] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Primal Genesis",
 		},
 		[429262] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Aqueous Enrichment",
 		},
 		[381760] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Mutated Tentacle Slam",
 		},
 		[426648] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "spell not found",
 		},
 		[385903] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Crystal Sickness",
 		},
 		[418527] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Mirror of Fractured Tomorrows",
 		},
 		[215270] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Fragile Echo",
 		},
 		[92174] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Carcinized Adaptation",
 		},
 		[388739] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Pure Decay",
 		},
 		[388755] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Soulseeker Arrow",
 		},
 		[213786] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Nightfall",
 		},
 		[417452] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[425154] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Vicious Brand",
 		},
 		[424324] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Hungering Shadowflame",
 		},
 		[423611] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Soul Ignition",
 		},
 		[271671] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Cacaphonous Chord",
 		},
 		[426672] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
-			["minTime"] = 9999999,
 			["lastActivation"] = 0,
+			["maxTime"] = 0,
 			["spellName"] = "Best Friends with Urctos",
 		},
 	},
@@ -1070,6 +1070,11 @@ _detalhes_global = {
 			"|T839910:14:14:0:0:14:14:1:12:1:12|t Water's Beating Hear", -- [2]
 			839910, -- [3]
 		}, -- [95]
+		{
+			426648, -- [1]
+			"|T5351062:14:14:0:0:14:14:1:12:1:12|t Pip's Emerald Friend (*mast*)", -- [2]
+			5342919, -- [3]
+		}, -- [96]
 	},
 	["keystone_cache"] = {
 	},
@@ -1090,9 +1095,9 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456,
+		["blockcontainer_width"] = 455.9999389648438,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 429.0000305175781,
+		["spellcontainer_width"] = 429.0001220703125,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
@@ -1103,7 +1108,7 @@ _detalhes_global = {
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 290,
+		["phasecontainer_width"] = 290.0000305175781,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1135,7 +1140,7 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 429.0000305175781,
+		["targetcontainer_width"] = 429.0001220703125,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
@@ -1146,7 +1151,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 269.9999389648438,
+		["blockcontainer_height"] = 269.9999694824219,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1171,14 +1176,14 @@ _detalhes_global = {
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[158629] = "Bitter Memory",
+		[157761] = "Larion Sire",
 		[165189] = "Unknown",
 		[158659] = "Herculon",
 		[158630] = "Excruciating Memory",
 		[168731] = "Copperfur Lurker",
 		[158610] = "Voidguard Invader",
 		[169114] = "Goldenpaw Lurker",
-		[157761] = "Larion Sire",
+		[158629] = "Bitter Memory",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1216,7 +1221,7 @@ _detalhes_global = {
 		[268616] = 9,
 		[42223] = 9,
 		[188196] = 7,
-		[386124] = 9,
+		[2061] = 5,
 		[108366] = 9,
 		[8092] = 5,
 		[121471] = 4,
@@ -1230,34 +1235,34 @@ _detalhes_global = {
 		[387847] = 9,
 		[202028] = 11,
 		[316220] = 4,
-		[27243] = 9,
-		[17962] = 9,
 		[702] = 9,
+		[17962] = 9,
+		[146739] = 9,
 		[10444] = 7,
-		[279043] = 4,
+		[387096] = 9,
 		[324540] = 9,
-		[1822] = 11,
+		[27243] = 9,
 		[6653] = 4,
 		[155722] = 11,
-		[19434] = 3,
-		[315584] = 4,
-		[23161] = 9,
+		[1822] = 11,
+		[21562] = 5,
 		[315585] = 4,
+		[279043] = 4,
 		[324161] = 9,
-		[2061] = 5,
+		[23161] = 9,
 		[1966] = 4,
+		[315584] = 4,
 		[75] = 3,
-		[146739] = 9,
-		[387096] = 9,
+		[5487] = 11,
 		[8936] = 11,
 		[52127] = 7,
-		[196819] = 4,
-		[5487] = 11,
-		[21562] = 5,
+		[386124] = 9,
+		[19434] = 3,
+		[316099] = 9,
 		[315496] = 4,
 		[686] = 9,
 		[61295] = 7,
-		[316099] = 9,
+		[196819] = 4,
 	},
 	["shield_spellid_cache"] = {
 	},
@@ -1276,11 +1281,7 @@ _detalhes_global = {
 	},
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
+		["realtime_dps_size"] = 12,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -1296,8 +1297,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["realtime_dps_size"] = 12,
 		["damage_taken_shadow"] = true,
+		["damage_taken_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -1735,14 +1740,10 @@ _detalhes_global = {
 			["use_self_color"] = false,
 			["data_cleanup_logout"] = false,
 			["instances_disable_bar_highlight"] = false,
-			["disable_lock_ungroup_buttons"] = false,
+			["profile_save_pos"] = true,
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
-			["profile_save_pos"] = true,
-			["standard_skin"] = false,
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -1780,36 +1781,41 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["disable_window_groups"] = false,
 			["death_tooltip_width"] = 350,
+			["disable_window_groups"] = false,
+			["clear_ungrouped"] = true,
 			["force_activity_time_pvp"] = true,
 			["instances_suppress_trash"] = 0,
-			["clear_ungrouped"] = true,
+			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["options_window"] = {
 				["scale"] = 1,
 			},
 			["animation_speed_maxtravel"] = 3,
-			["overall_clear_pvp"] = true,
-			["overall_clear_logout"] = false,
+			["time_type_original"] = 2,
+			["report_lines"] = 5,
 			["font_faces"] = {
 				["menus"] = "Friz Quadrata TT",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
-			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
-			["time_type_original"] = 2,
+			["player_details_window"] = {
+				["scale"] = 1,
+				["bar_texture"] = "Skyline",
+				["skin"] = "ElvUI",
+			},
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -364.2077941894531,
-							["x"] = 485.610595703125,
+							["y"] = -364.2078857421875,
+							["x"] = 507.9130859375,
 							["w"] = 310.0000610351563,
-							["h"] = 157.9999389648438,
+							["h"] = 157.9999542236328,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -1856,9 +1862,17 @@ _detalhes_global = {
 						["textL_offset"] = 0,
 						["text_yoffset"] = 0,
 						["texture_background_class_color"] = false,
-						["start_after_icon"] = true,
+						["textL_outline_small_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
 						["font_face_file"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
 						["faction_icon_size_offset"] = -10,
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["texture_custom_file"] = "Interface\\",
+						["font_size"] = 16,
 						["backdrop"] = {
 							["color"] = {
 								1, -- [1]
@@ -1870,27 +1884,12 @@ _detalhes_global = {
 							["enabled"] = false,
 							["texture"] = "Details BarBorder 2",
 						},
-						["percent_type"] = 1,
-						["models"] = {
-							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
-							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
-							["upper_alpha"] = 0.5,
-							["lower_enabled"] = false,
-							["lower_alpha"] = 0.1,
-							["upper_enabled"] = false,
-						},
-						["font_size"] = 16,
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["start_after_icon"] = true,
 						["textL_translit_text"] = false,
-						["texture_custom_file"] = "Interface\\",
+						["height"] = 21,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar_hyanda",
 						["icon_size_offset"] = 0,
-						["textL_outline_small_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
+						["percent_type"] = 1,
 						["textR_show_data"] = {
 							true, -- [1]
 							true, -- [2]
@@ -1952,7 +1951,14 @@ _detalhes_global = {
 						["show_faction_icon"] = true,
 						["fast_ps_update"] = false,
 						["textR_separator"] = "NONE",
-						["height"] = 21,
+						["models"] = {
+							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
+							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
+							["upper_alpha"] = 0.5,
+							["lower_enabled"] = false,
+							["lower_alpha"] = 0.1,
+							["upper_enabled"] = false,
+						},
 					},
 					["titlebar_texture"] = "Details Serenity",
 					["ignore_mass_showhide"] = false,
@@ -2214,8 +2220,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = 147.5615081787109,
-						["x"] = -179.28466796875,
+						["y"] = 147.5614318847656,
+						["x"] = -179.2847900390625,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
@@ -2245,10 +2251,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -364.2077941894531,
-							["x"] = 485.610595703125,
+							["y"] = -364.2078857421875,
+							["x"] = 507.9130859375,
 							["w"] = 310.0000610351563,
-							["h"] = 157.9999389648438,
+							["h"] = 157.9999542236328,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2295,27 +2301,12 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
-			["report_lines"] = 5,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["player_details_window"] = {
-				["scale"] = 1,
-				["bar_texture"] = "Skyline",
-				["skin"] = "ElvUI",
-			},
+			["segments_amount"] = 40,
+			["overall_clear_pvp"] = true,
+			["overall_clear_newboss"] = true,
+			["total_abbreviation"] = 2,
 			["skin"] = "Minimalistic",
 			["override_spellids"] = true,
-			["show_arena_role_icon"] = false,
-			["overall_clear_newboss"] = true,
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
-			},
-			["total_abbreviation"] = 2,
 			["realtimedps_always_arena"] = false,
 			["capture_real"] = {
 				["heal"] = true,
@@ -2325,18 +2316,25 @@ _detalhes_global = {
 				["energy"] = true,
 				["damage"] = true,
 			},
+			["windows_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["minimum_combat_time"] = 5,
+			["use_scroll"] = false,
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
-			["use_scroll"] = false,
+			["color_by_arena_team"] = true,
 			["close_shields"] = false,
 			["class_coords"] = {
 				["HUNTER"] = {
@@ -2411,11 +2409,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -2441,11 +2439,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -2460,10 +2458,15 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
-			["color_by_arena_team"] = true,
-			["disable_alldisplays_window"] = false,
 			["default_bg_color"] = 0.0941,
+			["disable_alldisplays_window"] = false,
+			["trash_auto_remove"] = false,
 			["broadcaster_enabled"] = false,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2475,10 +2478,10 @@ _detalhes_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -2520,10 +2523,10 @@ _detalhes_global = {
 					0.372, -- [2]
 					0.905, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 				["UNKNOW"] = {
 					0.2, -- [1]
@@ -2546,17 +2549,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -2567,15 +2570,12 @@ _detalhes_global = {
 					0.5764, -- [2]
 					0.498, -- [3]
 				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
 				},
 			},
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -2592,26 +2592,31 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["windows_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
 			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["overall_clear_logout"] = false,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
 			["overall_flag"] = 16,
-			["minimum_combat_time"] = 5,
 			["segments_panic_mode"] = false,
 			["realtimedps_order_bars"] = false,
-			["numerical_system"] = 1,
+			["show_arena_role_icon"] = false,
 			["row_fade_out"] = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["segments_amount"] = 40,
+			["numerical_system"] = 1,
 			["time_type"] = 2,
 			["update_speed"] = 0.2,
 			["report_schema"] = 1,
@@ -2807,7 +2812,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["SHAMAN"] = 3468.862999999998,
+			["SHAMAN"] = 5166.212999999989,
 		},
 	},
 	["latest_spell_pool_access"] = 1705734051,
@@ -2852,18 +2857,12 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 2,
-		["logons"] = 2,
+		["main_help_button"] = 4,
+		["logons"] = 4,
 		["version_announce"] = 0,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
@@ -2907,7 +2906,13 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["savedStyles"] = {
 	},
@@ -3019,26 +3024,40 @@ _detalhes_global = {
 	["deathlog_healingdone_min"] = 1,
 }
 __details_backup = {
-	["_exit_error"] = {
-	},
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-01-19 23:51:32 | actor removed Yemayarawr-Nazgrel (ungrouped)", -- [1]
-		"2024-01-19 23:51:32 | actor removed Eternalmoon-Aegwynn (ungrouped)", -- [2]
-		"2024-01-19 23:51:32 | actor removed Thebad-Nesingwary (ungrouped)", -- [3]
-		"2024-01-19 23:51:32 | actor removed Copperfur Lurker (ungrouped)", -- [4]
-		"2024-01-19 23:51:32 | actor removed Environment (Falling) (ungrouped)", -- [5]
-		"2024-01-19 23:51:32 | actor removed Bitter Memory (ungrouped)", -- [6]
-		"2024-01-19 23:51:32 | actor removed Dazed (ungrouped)", -- [7]
-		"2024-01-19 23:51:32 | actor removed Piercing Memory (ungrouped)", -- [8]
-		"2024-01-19 23:51:32 | actor removed Jofursdruid-Daggerspine (ungrouped)", -- [9]
-		"2024-01-19 23:51:32 | actor removed Bfeng-Tichondrius (ungrouped)", -- [10]
-		"2024-01-19 23:51:32 | actor removed Jofursdruid-Daggerspine (ungrouped)", -- [11]
-		"2024-01-19 23:51:32 | actor removed Tienshinhan-Bonechewer (ungrouped)", -- [12]
-		"2024-01-19 23:51:32 | actor removed Bfeng-Tichondrius (ungrouped)", -- [13]
-		"2024-01-19 23:51:32 | actor removed Jofursdruid-Daggerspine (ungrouped)", -- [14]
-		"2024-01-19 23:51:32 | actor removed Clinging Memory (ungrouped)", -- [15]
+		"2024-01-20 11:44:03 | actor removed Thorbalin-Darrowmere (ungrouped)", -- [1]
+		"2024-01-20 11:44:03 | actor removed Kanohjo-Bonechewer (ungrouped)", -- [2]
+		"2024-01-20 11:44:03 | actor removed Shimp-Garrosh (ungrouped)", -- [3]
+		"2024-01-20 11:44:03 | actor removed Warp Stalker <Bagda-Rexxar> (orphan)", -- [4]
+		"2024-01-20 11:44:03 | actor removed Wongwei-Rexxar (ungrouped)", -- [5]
+		"2024-01-20 11:44:03 | actor removed Bagda-Rexxar (ungrouped)", -- [6]
+		"2024-01-20 11:44:03 | actor removed Shimp-Garrosh (ungrouped)", -- [7]
+		"2024-01-20 11:44:03 | actor removed Warp Stalker <Bagda-Rexxar> (orphan)", -- [8]
+		"2024-01-20 11:44:03 | actor removed Aspirant Defender (ungrouped)", -- [9]
+		"2024-01-20 11:44:03 | actor removed Thorbalin-Darrowmere (ungrouped)", -- [10]
+		"2024-01-20 11:44:03 | actor removed Bagda-Rexxar (ungrouped)", -- [11]
+		"2024-01-20 11:44:03 | actor removed Shimp-Garrosh (ungrouped)", -- [12]
+		"2024-01-20 11:44:03 | actor removed Wongwei-Rexxar (ungrouped)", -- [13]
+		"2024-01-20 11:44:03 | actor removed Kanohjo-Bonechewer (ungrouped)", -- [14]
+		"2024-01-20 11:44:03 | actor removed Clinging Memory (ungrouped)", -- [15]
+		"2024-01-20 11:44:03 | actor removed Larion Sire (ungrouped)", -- [16]
+		"2024-01-20 11:44:03 | actor removed Cloudstrider Grazer (ungrouped)", -- [17]
+		"2024-01-20 10:30:53 | actor removed Luxyume-Misha (ungrouped)", -- [18]
+		"2024-01-20 10:30:53 | actor removed Sertralyne-Windrunner (ungrouped)", -- [19]
+		"2024-01-20 10:30:53 | actor removed Unknown (ungrouped)", -- [20]
+		"2024-01-20 10:30:53 | actor removed Luxyume-Misha (ungrouped)", -- [21]
+		"2024-01-20 10:30:53 | actor removed Fhengar-Suramar (ungrouped)", -- [22]
+		"2024-01-20 10:30:53 | actor removed Makio-Suramar (ungrouped)", -- [23]
+		"2024-01-20 10:30:53 | actor removed Darian-Eldre'Thalas (ungrouped)", -- [24]
+		"2024-01-20 10:30:53 | actor removed Murone-Aegwynn (ungrouped)", -- [25]
+		"2024-01-20 10:30:53 | actor removed Kotho-Eldre'Thalas (ungrouped)", -- [26]
+		"2024-01-20 10:30:53 | actor removed Sertralyne-Windrunner (ungrouped)", -- [27]
+		"2024-01-20 10:30:53 | actor removed Fox <Makio-Suramar> (orphan)", -- [28]
+		"2024-01-20 10:30:53 | actor removed Bear <Fhengar-Suramar> (orphan)", -- [29]
+	},
+	["_exit_error"] = {
 	},
 }
 __details_debug = {

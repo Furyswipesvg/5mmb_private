@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Sendhelp|Nathrezim|Horde|120|WARLOCK", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Sendhelp - Nathrezim"] = "Sendhelp - Nathrezim",
+	},
+	["profiles"] = {
+		["Sendhelp - Nathrezim"] = {
+		},
+	},
+}

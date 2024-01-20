@@ -1,16 +1,16 @@
 
 AutoTurnInDB = {
 	["profileKeys"] = {
-		["Opmageikr - Bladefist"] = "Opmageikr - Bladefist",
 		["Opmageikr - Blood Furnace"] = "Opmageikr - Blood Furnace",
 		["Erectus - Bladefist"] = "Erectus - Bladefist",
+		["Opmageikr - Bladefist"] = "Opmageikr - Bladefist",
 	},
 	["profiles"] = {
-		["Opmageikr - Bladefist"] = {
-		},
 		["Opmageikr - Blood Furnace"] = {
 		},
 		["Erectus - Bladefist"] = {
+		},
+		["Opmageikr - Bladefist"] = {
 		},
 	},
 }

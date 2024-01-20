@@ -218,62 +218,6 @@ EncounterDetailsDB = {
 			},
 		},
 		[167] = {
-			["Raid Damage Done"] = {
-				261, -- [1]
-				472, -- [2]
-				291, -- [3]
-				332, -- [4]
-				87, -- [5]
-				72, -- [6]
-				52, -- [7]
-				569, -- [8]
-				158, -- [9]
-				347, -- [10]
-				353, -- [11]
-				305, -- [12]
-				130, -- [13]
-				10, -- [14]
-				325, -- [15]
-				93, -- [16]
-				167, -- [17]
-				591, -- [18]
-				348, -- [19]
-				206, -- [20]
-				286, -- [21]
-				296, -- [22]
-				57, -- [23]
-				162, -- [24]
-				75, -- [25]
-				675, -- [26]
-				200, -- [27]
-				115, -- [28]
-				762, -- [29]
-				80, -- [30]
-				507, -- [31]
-				267, -- [32]
-				213, -- [33]
-				282, -- [34]
-				507, -- [35]
-				299, -- [36]
-				166, -- [37]
-				462, -- [38]
-				96, -- [39]
-				501, -- [40]
-				253, -- [41]
-				262, -- [42]
-				262, -- [43]
-				136, -- [44]
-				223, -- [45]
-				526, -- [46]
-				307, -- [47]
-				168, -- [48]
-				290, -- [49]
-				343, -- [50]
-				232, -- [51]
-				137, -- [52]
-				["max_value"] = 762,
-				["__time"] = 1705548752,
-			},
 		},
 		[185] = {
 			["Raid Damage Done"] = {
@@ -723,13 +667,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Test Subject",
 		},
-		[260829] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[34980] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Homing Missile Stalker",
+			["source"] = "Mennu the Betrayer",
 		},
 		[262019] = {
 			["school"] = 1,
@@ -753,20 +696,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerokk",
 		},
-		[34980] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mennu the Betrayer",
-		},
-		[260813] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
 		[22907] = {
 			["school"] = 1,
 			["token"] = {
@@ -775,6 +704,21 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Swamplord Musel'ek",
+		},
+		[260813] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[260829] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Homing Missile Stalker",
 		},
 		[32055] = {
 			["school"] = 1,
@@ -903,10 +847,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rokmar the Crackler",
 		},
-		[260323] = {
-			["school"] = 4,
+		[271456] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Mogul Razdunk",
 		},
@@ -919,11 +864,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Black Stalker",
 		},
-		[271456] = {
-			["school"] = 1,
+		[260323] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mogul Razdunk",
 		},

@@ -1,0 +1,83 @@
+VER 3 000000000000046C "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use The Refleshifier
+END
+VER 3 00000000000018DC "aoe_fs" "spell_fire_selfdestruct"
+/assist [@focus,exists][notarget,@Me,exists]
+/click VENGEANCE_AOE
+END
+VER 3 00000000000018E0 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 00000000000018D0 "f1_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Me!
+/focus Me
+END
+VER 3 00000000000018D1 "f2_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Im!
+/focus Im
+END
+VER 3 00000000000018D2 "f3_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Earthshock!
+/focus Earthshock
+END
+VER 3 00000000000018D3 "f4_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Palia!
+/focus Palia
+END
+VER 3 00000000000018D4 "f5_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Monique!
+/focus Monique
+END
+VER 3 00000000000010D7 "FARM" "413588"
+/click BALANCE_FARM
+END
+VER 3 00000000000018D5 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 00000000000018DD "int_fs" "INV_Misc_Questionmark"
+#noupdate
+#showtooltip disrupt
+/castsequence reset=combat/10 Disrupt,consume magic
+END
+VER 3 00000000000018DF "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 00000000000018D6 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+END
+VER 3 00000000000018DA "multi_fs" "ability_upgrademoonglaive"
+/assist [@focus,exists][notarget,@Me,exists]
+/click VENGEANCE_MULTI
+END
+VER 3 00000000000018CF "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 00000000000018D7 "passive_fs" "Spell_magic_polymorphchicken"
+/petfollow [mod:alt]
+/stopattack [mod:alt]
+END
+VER 3 00000000000018DE "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 00000000000018D8 "setup_fs" "Spell_magic_polymorphchicken"
+/assist [@focus,exists][notarget,@Me,exists]
+/click VENGEANCE_SETUP
+/stopcasting [mod:alt]
+END
+VER 3 0000000000001757 "sheal_fs" "INV_Misc_Questionmark"
+#noupdate
+#showtooltip Icebound fortitude
+/click BLOOD_SHEAL
+END
+VER 3 00000000000018D9 "single_fs" "ability_searingarrow"
+/assist [@focus,exists][notarget,@Me,exists]
+/click VENGEANCE_SINGLE
+END
+VER 3 00000000000018DB "turbo_fs" "Spell_nature_lightning"
+/click VENGEANCE_TURBO
+/run focusme()
+/petpassive [mod:alt]
+/run SetView(4)
+END
+VER 3 00000000000001EB "ZygorAction1" "134400"
+END

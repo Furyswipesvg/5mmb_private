@@ -1,375 +1,6 @@
 
 EncounterDetailsDB = {
 	["chartData"] = {
-		[519] = {
-			["Raid Damage Done"] = {
-				191, -- [1]
-				163, -- [2]
-				222, -- [3]
-				439, -- [4]
-				11, -- [5]
-				183, -- [6]
-				375, -- [7]
-				356, -- [8]
-				301, -- [9]
-				686, -- [10]
-				254, -- [11]
-				168, -- [12]
-				238, -- [13]
-				289, -- [14]
-				0, -- [15]
-				["max_value"] = 686,
-				["__time"] = 1705631196,
-			},
-		},
-		[521] = {
-			["Raid Damage Done"] = {
-				0, -- [1]
-				286, -- [2]
-				0, -- [3]
-				374, -- [4]
-				41, -- [5]
-				12, -- [6]
-				8, -- [7]
-				77, -- [8]
-				166, -- [9]
-				283, -- [10]
-				173, -- [11]
-				52, -- [12]
-				259, -- [13]
-				576, -- [14]
-				3, -- [15]
-				["max_value"] = 576,
-				["__time"] = 1705631289,
-			},
-		},
-		[523] = {
-			["Raid Damage Done"] = {
-				115, -- [1]
-				131, -- [2]
-				73, -- [3]
-				861, -- [4]
-				25, -- [5]
-				179, -- [6]
-				607, -- [7]
-				155, -- [8]
-				200, -- [9]
-				599, -- [10]
-				189, -- [11]
-				381, -- [12]
-				383, -- [13]
-				60, -- [14]
-				2, -- [15]
-				2, -- [16]
-				149, -- [17]
-				68, -- [18]
-				0, -- [19]
-				405, -- [20]
-				296, -- [21]
-				993, -- [22]
-				498, -- [23]
-				395, -- [24]
-				406, -- [25]
-				92, -- [26]
-				51, -- [27]
-				48, -- [28]
-				115, -- [29]
-				4, -- [30]
-				107, -- [31]
-				231, -- [32]
-				63, -- [33]
-				131, -- [34]
-				90, -- [35]
-				268, -- [36]
-				399, -- [37]
-				56, -- [38]
-				93, -- [39]
-				0, -- [40]
-				0, -- [41]
-				344, -- [42]
-				["max_value"] = 993,
-				["__time"] = 1705633009,
-			},
-		},
-		[525] = {
-			["Raid Damage Done"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				168, -- [5]
-				194, -- [6]
-				235, -- [7]
-				0, -- [8]
-				210, -- [9]
-				115, -- [10]
-				560, -- [11]
-				119, -- [12]
-				161, -- [13]
-				828, -- [14]
-				97, -- [15]
-				171, -- [16]
-				285, -- [17]
-				692, -- [18]
-				421, -- [19]
-				79, -- [20]
-				117, -- [21]
-				108, -- [22]
-				421, -- [23]
-				314, -- [24]
-				["max_value"] = 828,
-				["__time"] = 1705633055,
-			},
-		},
-		[527] = {
-			["Raid Damage Done"] = {
-				205, -- [1]
-				62, -- [2]
-				5, -- [3]
-				175, -- [4]
-				36, -- [5]
-				41, -- [6]
-				125, -- [7]
-				284, -- [8]
-				64, -- [9]
-				137, -- [10]
-				118, -- [11]
-				42, -- [12]
-				923, -- [13]
-				766, -- [14]
-				672, -- [15]
-				337, -- [16]
-				169, -- [17]
-				196, -- [18]
-				58, -- [19]
-				376, -- [20]
-				158, -- [21]
-				148, -- [22]
-				60, -- [23]
-				2, -- [24]
-				351, -- [25]
-				0, -- [26]
-				0, -- [27]
-				0, -- [28]
-				0, -- [29]
-				0, -- [30]
-				67, -- [31]
-				140, -- [32]
-				25, -- [33]
-				1217, -- [34]
-				45, -- [35]
-				312, -- [36]
-				2, -- [37]
-				95, -- [38]
-				300, -- [39]
-				2, -- [40]
-				2, -- [41]
-				2, -- [42]
-				0, -- [43]
-				0, -- [44]
-				45, -- [45]
-				0, -- [46]
-				0, -- [47]
-				173, -- [48]
-				0, -- [49]
-				0, -- [50]
-				124, -- [51]
-				2, -- [52]
-				1, -- [53]
-				78, -- [54]
-				44, -- [55]
-				2, -- [56]
-				2, -- [57]
-				2, -- [58]
-				2, -- [59]
-				0, -- [60]
-				0, -- [61]
-				0, -- [62]
-				0, -- [63]
-				142, -- [64]
-				0, -- [65]
-				0, -- [66]
-				1, -- [67]
-				2, -- [68]
-				2, -- [69]
-				300, -- [70]
-				1, -- [71]
-				44, -- [72]
-				137, -- [73]
-				0, -- [74]
-				43, -- [75]
-				5, -- [76]
-				40, -- [77]
-				0, -- [78]
-				0, -- [79]
-				0, -- [80]
-				0, -- [81]
-				0, -- [82]
-				0, -- [83]
-				0, -- [84]
-				0, -- [85]
-				0, -- [86]
-				0, -- [87]
-				0, -- [88]
-				0, -- [89]
-				0, -- [90]
-				0, -- [91]
-				0, -- [92]
-				0, -- [93]
-				0, -- [94]
-				0, -- [95]
-				0, -- [96]
-				0, -- [97]
-				0, -- [98]
-				0, -- [99]
-				0, -- [100]
-				0, -- [101]
-				0, -- [102]
-				0, -- [103]
-				0, -- [104]
-				0, -- [105]
-				0, -- [106]
-				0, -- [107]
-				0, -- [108]
-				["max_value"] = 1217,
-				["__time"] = 1705633376,
-			},
-		},
-		[529] = {
-			["Raid Damage Done"] = {
-				359, -- [1]
-				314, -- [2]
-				126, -- [3]
-				84, -- [4]
-				537, -- [5]
-				63, -- [6]
-				118, -- [7]
-				267, -- [8]
-				382, -- [9]
-				116, -- [10]
-				61, -- [11]
-				525, -- [12]
-				200, -- [13]
-				408, -- [14]
-				342, -- [15]
-				116, -- [16]
-				0, -- [17]
-				87, -- [18]
-				6, -- [19]
-				415, -- [20]
-				149, -- [21]
-				54, -- [22]
-				0, -- [23]
-				["max_value"] = 537,
-				["__time"] = 1705633464,
-			},
-		},
-		[531] = {
-			["Raid Damage Done"] = {
-				342, -- [1]
-				58, -- [2]
-				145, -- [3]
-				683, -- [4]
-				22, -- [5]
-				367, -- [6]
-				163, -- [7]
-				98, -- [8]
-				652, -- [9]
-				0, -- [10]
-				109, -- [11]
-				465, -- [12]
-				248, -- [13]
-				289, -- [14]
-				127, -- [15]
-				0, -- [16]
-				["max_value"] = 683,
-				["__time"] = 1705633498,
-			},
-		},
-		[533] = {
-			["Raid Damage Done"] = {
-				1065, -- [1]
-				289, -- [2]
-				537, -- [3]
-				464, -- [4]
-				488, -- [5]
-				471, -- [6]
-				62, -- [7]
-				33, -- [8]
-				113, -- [9]
-				27, -- [10]
-				509, -- [11]
-				["max_value"] = 1065,
-				["__time"] = 1705633816,
-			},
-		},
-		[535] = {
-			["Raid Damage Done"] = {
-				47, -- [1]
-				160, -- [2]
-				23, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				0, -- [7]
-				0, -- [8]
-				130, -- [9]
-				211, -- [10]
-				213, -- [11]
-				211, -- [12]
-				363, -- [13]
-				994, -- [14]
-				268, -- [15]
-				266, -- [16]
-				47, -- [17]
-				871, -- [18]
-				855, -- [19]
-				211, -- [20]
-				98, -- [21]
-				["max_value"] = 994,
-				["__time"] = 1705633872,
-			},
-		},
-		[537] = {
-			["Raid Damage Done"] = {
-				89, -- [1]
-				1158, -- [2]
-				93, -- [3]
-				249, -- [4]
-				447, -- [5]
-				59, -- [6]
-				444, -- [7]
-				266, -- [8]
-				261, -- [9]
-				232, -- [10]
-				61, -- [11]
-				158, -- [12]
-				204, -- [13]
-				["max_value"] = 1158,
-				["__time"] = 1705633945,
-			},
-		},
-		[539] = {
-			["Raid Damage Done"] = {
-				161, -- [1]
-				121, -- [2]
-				186, -- [3]
-				1175, -- [4]
-				394, -- [5]
-				300, -- [6]
-				330, -- [7]
-				235, -- [8]
-				570, -- [9]
-				438, -- [10]
-				242, -- [11]
-				296, -- [12]
-				390, -- [13]
-				217, -- [14]
-				17, -- [15]
-				["max_value"] = 1175,
-				["__time"] = 1705633995,
-			},
-		},
 		[541] = {
 			["Raid Damage Done"] = {
 				102, -- [1]
@@ -405,118 +36,6 @@ EncounterDetailsDB = {
 				376, -- [31]
 				["max_value"] = 919,
 				["__time"] = 1705634084,
-			},
-		},
-		[543] = {
-			["Raid Damage Done"] = {
-				212, -- [1]
-				164, -- [2]
-				246, -- [3]
-				581, -- [4]
-				488, -- [5]
-				439, -- [6]
-				162, -- [7]
-				318, -- [8]
-				480, -- [9]
-				287, -- [10]
-				113, -- [11]
-				600, -- [12]
-				674, -- [13]
-				455, -- [14]
-				708, -- [15]
-				149, -- [16]
-				87, -- [17]
-				369, -- [18]
-				201, -- [19]
-				339, -- [20]
-				504, -- [21]
-				158, -- [22]
-				13, -- [23]
-				147, -- [24]
-				0, -- [25]
-				271, -- [26]
-				236, -- [27]
-				163, -- [28]
-				145, -- [29]
-				40, -- [30]
-				["max_value"] = 708,
-				["__time"] = 1705634185,
-			},
-		},
-		[545] = {
-			["Raid Damage Done"] = {
-				71, -- [1]
-				284, -- [2]
-				82, -- [3]
-				124, -- [4]
-				75, -- [5]
-				141, -- [6]
-				366, -- [7]
-				366, -- [8]
-				229, -- [9]
-				125, -- [10]
-				969, -- [11]
-				515, -- [12]
-				259, -- [13]
-				156, -- [14]
-				140, -- [15]
-				0, -- [16]
-				706, -- [17]
-				115, -- [18]
-				319, -- [19]
-				126, -- [20]
-				39, -- [21]
-				130, -- [22]
-				["max_value"] = 969,
-				["__time"] = 1705634286,
-			},
-		},
-		[547] = {
-			["Raid Damage Done"] = {
-				228, -- [1]
-				73, -- [2]
-				157, -- [3]
-				3, -- [4]
-				337, -- [5]
-				218, -- [6]
-				163, -- [7]
-				186, -- [8]
-				115, -- [9]
-				531, -- [10]
-				100, -- [11]
-				568, -- [12]
-				253, -- [13]
-				77, -- [14]
-				96, -- [15]
-				385, -- [16]
-				["max_value"] = 568,
-				["__time"] = 1705634333,
-			},
-		},
-		[549] = {
-			["Raid Damage Done"] = {
-				152, -- [1]
-				210, -- [2]
-				639, -- [3]
-				122, -- [4]
-				327, -- [5]
-				406, -- [6]
-				107, -- [7]
-				443, -- [8]
-				87, -- [9]
-				400, -- [10]
-				115, -- [11]
-				240, -- [12]
-				344, -- [13]
-				0, -- [14]
-				["max_value"] = 639,
-				["__time"] = 1705634384,
-			},
-		},
-		[551] = {
-			["Raid Damage Done"] = {
-				0, -- [1]
-				["__time"] = 1705634444,
 			},
 		},
 		[506] = {
@@ -603,175 +122,6 @@ EncounterDetailsDB = {
 				171, -- [26]
 				["max_value"] = 921,
 				["__time"] = 1705630340,
-			},
-		},
-		[518] = {
-			["Raid Damage Done"] = {
-				342, -- [1]
-				0, -- [2]
-				126, -- [3]
-				372, -- [4]
-				503, -- [5]
-				25, -- [6]
-				452, -- [7]
-				264, -- [8]
-				1, -- [9]
-				725, -- [10]
-				81, -- [11]
-				160, -- [12]
-				594, -- [13]
-				139, -- [14]
-				["max_value"] = 725,
-				["__time"] = 1705631162,
-			},
-		},
-		[520] = {
-			["Raid Damage Done"] = {
-				267, -- [1]
-				159, -- [2]
-				210, -- [3]
-				755, -- [4]
-				188, -- [5]
-				481, -- [6]
-				0, -- [7]
-				0, -- [8]
-				0, -- [9]
-				0, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				194, -- [16]
-				0, -- [17]
-				180, -- [18]
-				536, -- [19]
-				166, -- [20]
-				8, -- [21]
-				0, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				0, -- [27]
-				0, -- [28]
-				0, -- [29]
-				["max_value"] = 755,
-				["__time"] = 1705631261,
-			},
-		},
-		[522] = {
-			["Raid Damage Done"] = {
-				44, -- [1]
-				0, -- [2]
-				43, -- [3]
-				49, -- [4]
-				51, -- [5]
-				543, -- [6]
-				0, -- [7]
-				0, -- [8]
-				["max_value"] = 543,
-				["__time"] = 1705632949,
-			},
-		},
-		[524] = {
-			["Raid Damage Done"] = {
-				136, -- [1]
-				0, -- [2]
-				140, -- [3]
-				294, -- [4]
-				93, -- [5]
-				612, -- [6]
-				155, -- [7]
-				237, -- [8]
-				79, -- [9]
-				81, -- [10]
-				23, -- [11]
-				0, -- [12]
-				["max_value"] = 612,
-				["__time"] = 1705633029,
-			},
-		},
-		[526] = {
-			["Raid Damage Done"] = {
-				125, -- [1]
-				103, -- [2]
-				81, -- [3]
-				553, -- [4]
-				292, -- [5]
-				304, -- [6]
-				547, -- [7]
-				561, -- [8]
-				709, -- [9]
-				819, -- [10]
-				823, -- [11]
-				707, -- [12]
-				284, -- [13]
-				60, -- [14]
-				118, -- [15]
-				76, -- [16]
-				77, -- [17]
-				48, -- [18]
-				104, -- [19]
-				54, -- [20]
-				40, -- [21]
-				116, -- [22]
-				77, -- [23]
-				49, -- [24]
-				1276, -- [25]
-				49, -- [26]
-				58, -- [27]
-				59, -- [28]
-				10, -- [29]
-				63, -- [30]
-				139, -- [31]
-				58, -- [32]
-				0, -- [33]
-				101, -- [34]
-				37, -- [35]
-				46, -- [36]
-				30, -- [37]
-				417, -- [38]
-				59, -- [39]
-				0, -- [40]
-				["max_value"] = 1276,
-				["__time"] = 1705633146,
-			},
-		},
-		[528] = {
-			["Raid Damage Done"] = {
-				167, -- [1]
-				68, -- [2]
-				115, -- [3]
-				638, -- [4]
-				250, -- [5]
-				226, -- [6]
-				202, -- [7]
-				134, -- [8]
-				26, -- [9]
-				75, -- [10]
-				23, -- [11]
-				115, -- [12]
-				135, -- [13]
-				["max_value"] = 638,
-				["__time"] = 1705633424,
-			},
-		},
-		[530] = {
-			["Raid Damage Done"] = {
-				230, -- [1]
-				119, -- [2]
-				630, -- [3]
-				14, -- [4]
-				445, -- [5]
-				334, -- [6]
-				414, -- [7]
-				51, -- [8]
-				161, -- [9]
-				187, -- [10]
-				0, -- [11]
-				["max_value"] = 630,
-				["__time"] = 1705633477,
 			},
 		},
 		[532] = {
@@ -871,190 +221,6 @@ EncounterDetailsDB = {
 				["__time"] = 1705633744,
 			},
 		},
-		[534] = {
-			["Raid Damage Done"] = {
-				297, -- [1]
-				35, -- [2]
-				220, -- [3]
-				215, -- [4]
-				845, -- [5]
-				157, -- [6]
-				42, -- [7]
-				122, -- [8]
-				246, -- [9]
-				253, -- [10]
-				["max_value"] = 845,
-				["__time"] = 1705633837,
-			},
-		},
-		[536] = {
-			["Raid Damage Done"] = {
-				181, -- [1]
-				137, -- [2]
-				0, -- [3]
-				288, -- [4]
-				187, -- [5]
-				446, -- [6]
-				318, -- [7]
-				396, -- [8]
-				68, -- [9]
-				633, -- [10]
-				69, -- [11]
-				71, -- [12]
-				328, -- [13]
-				801, -- [14]
-				["max_value"] = 801,
-				["__time"] = 1705633901,
-			},
-		},
-		[538] = {
-			["Raid Damage Done"] = {
-				157, -- [1]
-				31, -- [2]
-				229, -- [3]
-				215, -- [4]
-				630, -- [5]
-				49, -- [6]
-				312, -- [7]
-				61, -- [8]
-				207, -- [9]
-				239, -- [10]
-				67, -- [11]
-				342, -- [12]
-				0, -- [13]
-				["max_value"] = 630,
-				["__time"] = 1705633970,
-			},
-		},
-		[540] = {
-			["Raid Damage Done"] = {
-				201, -- [1]
-				0, -- [2]
-				0, -- [3]
-				118, -- [4]
-				334, -- [5]
-				117, -- [6]
-				71, -- [7]
-				945, -- [8]
-				70, -- [9]
-				155, -- [10]
-				1180, -- [11]
-				234, -- [12]
-				199, -- [13]
-				123, -- [14]
-				134, -- [15]
-				160, -- [16]
-				578, -- [17]
-				94, -- [18]
-				40, -- [19]
-				301, -- [20]
-				14, -- [21]
-				406, -- [22]
-				0, -- [23]
-				["max_value"] = 1180,
-				["__time"] = 1705634019,
-			},
-		},
-		[542] = {
-			["Raid Damage Done"] = {
-				104, -- [1]
-				214, -- [2]
-				434, -- [3]
-				359, -- [4]
-				696, -- [5]
-				384, -- [6]
-				340, -- [7]
-				1116, -- [8]
-				469, -- [9]
-				957, -- [10]
-				540, -- [11]
-				109, -- [12]
-				617, -- [13]
-				122, -- [14]
-				296, -- [15]
-				303, -- [16]
-				103, -- [17]
-				386, -- [18]
-				320, -- [19]
-				1, -- [20]
-				["max_value"] = 1116,
-				["__time"] = 1705634148,
-			},
-		},
-		[544] = {
-			["Raid Damage Done"] = {
-				155, -- [1]
-				1600, -- [2]
-				94, -- [3]
-				35, -- [4]
-				733, -- [5]
-				921, -- [6]
-				1211, -- [7]
-				945, -- [8]
-				521, -- [9]
-				278, -- [10]
-				301, -- [11]
-				289, -- [12]
-				607, -- [13]
-				0, -- [14]
-				9, -- [15]
-				89, -- [16]
-				39, -- [17]
-				0, -- [18]
-				["max_value"] = 1600,
-				["__time"] = 1705634247,
-			},
-		},
-		[546] = {
-			["Raid Damage Done"] = {
-				135, -- [1]
-				342, -- [2]
-				213, -- [3]
-				143, -- [4]
-				141, -- [5]
-				213, -- [6]
-				309, -- [7]
-				82, -- [8]
-				149, -- [9]
-				279, -- [10]
-				2106, -- [11]
-				547, -- [12]
-				405, -- [13]
-				324, -- [14]
-				363, -- [15]
-				116, -- [16]
-				30, -- [17]
-				44, -- [18]
-				164, -- [19]
-				0, -- [20]
-				["max_value"] = 2106,
-				["__time"] = 1705634313,
-			},
-		},
-		[548] = {
-			["Raid Damage Done"] = {
-				202, -- [1]
-				1213, -- [2]
-				39, -- [3]
-				269, -- [4]
-				139, -- [5]
-				92, -- [6]
-				826, -- [7]
-				65, -- [8]
-				147, -- [9]
-				272, -- [10]
-				86, -- [11]
-				505, -- [12]
-				398, -- [13]
-				113, -- [14]
-				53, -- [15]
-				385, -- [16]
-				255, -- [17]
-				0, -- [18]
-				["max_value"] = 1213,
-				["__time"] = 1705634356,
-			},
-		},
 		[550] = {
 			["Raid Damage Done"] = {
 				0, -- [1]
@@ -1088,62 +254,6 @@ EncounterDetailsDB = {
 			},
 		},
 		[475] = {
-			["Raid Damage Done"] = {
-				261, -- [1]
-				472, -- [2]
-				291, -- [3]
-				332, -- [4]
-				87, -- [5]
-				72, -- [6]
-				323, -- [7]
-				298, -- [8]
-				158, -- [9]
-				347, -- [10]
-				353, -- [11]
-				305, -- [12]
-				130, -- [13]
-				10, -- [14]
-				325, -- [15]
-				93, -- [16]
-				167, -- [17]
-				591, -- [18]
-				348, -- [19]
-				206, -- [20]
-				286, -- [21]
-				296, -- [22]
-				57, -- [23]
-				162, -- [24]
-				75, -- [25]
-				680, -- [26]
-				195, -- [27]
-				297, -- [28]
-				580, -- [29]
-				80, -- [30]
-				507, -- [31]
-				267, -- [32]
-				213, -- [33]
-				282, -- [34]
-				507, -- [35]
-				299, -- [36]
-				166, -- [37]
-				466, -- [38]
-				92, -- [39]
-				501, -- [40]
-				253, -- [41]
-				262, -- [42]
-				262, -- [43]
-				146, -- [44]
-				213, -- [45]
-				526, -- [46]
-				315, -- [47]
-				160, -- [48]
-				306, -- [49]
-				327, -- [50]
-				267, -- [51]
-				102, -- [52]
-				["max_value"] = 680,
-				["__time"] = 1705548752,
-			},
 		},
 		[493] = {
 			["Raid Damage Done"] = {
@@ -1179,11 +289,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Black Stalker",
 		},
-		[258628] = {
-			["school"] = 1,
+		[31717] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "The Black Stalker",
 		},
 		[259474] = {
 			["school"] = 4,
@@ -1193,12 +306,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rixxa Fluxflame",
 		},
-		[38163] = {
+		[34290] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Quagmirran",
+			["source"] = "Ghaz'an",
 		},
 		[260813] = {
 			["school"] = 4,
@@ -1207,13 +321,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[40504] = {
+		[260190] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Quagmirran",
+			["source"] = "Mogul Razdunk",
 		},
 		[260829] = {
 			["school"] = 4,
@@ -1223,14 +337,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Homing Missile Stalker",
 		},
-		[257544] = {
+		[34267] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Earthrager",
+			["source"] = "Ghaz'an",
 		},
 		[38153] = {
 			["school"] = 1,
@@ -1241,14 +353,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Quagmirran",
 		},
-		[34970] = {
+		[8269] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rokmar the Crackler",
+			["source"] = "Coilfang Collaborator",
 		},
 		[259853] = {
 			["school"] = 8,
@@ -1259,41 +371,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rixxa Fluxflame",
 		},
-		[31956] = {
+		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rokmar the Crackler",
+			["source"] = "Claw",
 		},
-		[31948] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rokmar the Crackler",
-		},
-		[260318] = {
+		[260323] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[35008] = {
-			["school"] = 16,
+		[38163] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rokmar the Crackler",
+			["source"] = "Quagmirran",
+		},
+		[270882] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Azerite Footbomb",
 		},
 		[260838] = {
 			["school"] = 4,
@@ -1304,78 +410,76 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[33132] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Corrupted Nova Totem",
-		},
-		[21096] = {
-			["school"] = 16,
+		[33787] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Coilfang Technician",
+			["source"] = "Coilfang Collaborator",
 		},
-		[256137] = {
-			["school"] = 4,
+		[258622] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Azerokk",
+		},
+		[40504] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Azerite Footbomb",
+			["source"] = "Quagmirran",
 		},
-		[8269] = {
+		[268362] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wanton Sapper",
+		},
+		[268865] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Weapons Tester",
+		},
+		[34268] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[257582] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthrager",
+		},
+		[34970] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Coilfang Collaborator",
-		},
-		[35010] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mennu the Betrayer",
-		},
-		[262347] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Coin-Operated Crowd Pummeler",
-		},
-		[260811] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[22907] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Swamplord Musel'ek",
+			["source"] = "Rokmar the Crackler",
 		},
 		[260280] = {
 			["school"] = 1,
@@ -1394,15 +498,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mennu the Betrayer",
 		},
-		[16005] = {
-			["school"] = 4,
+		[31429] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Coilfang Technician",
+			["source"] = "Claw",
 		},
 		[31983] = {
 			["school"] = 1,
@@ -1437,15 +540,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthrager",
 		},
-		[33787] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[34874] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Coilfang Collaborator",
+			["source"] = "Hungarfen",
 		},
 		[31547] = {
 			["school"] = 1,
@@ -1454,13 +554,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swamplord Musel'ek",
 		},
-		[268815] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[31566] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Test Subject",
+			["source"] = "Swamplord Musel'ek",
 		},
 		[259856] = {
 			["school"] = 8,
@@ -1494,49 +594,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swamplord Musel'ek",
 		},
-		[34874] = {
+		[258628] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Hungarfen",
-		},
-		[15716] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ghaz'an",
-		},
-		[31429] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Claw",
-		},
-		[34298] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Claw",
 		},
-		[257337] = {
-			["school"] = 8,
+		[21096] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Coin-Operated Crowd Pummeler",
+			["source"] = "Coilfang Technician",
+		},
+		[268815] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Test Subject",
 		},
 		[269493] = {
 			["school"] = 4,
@@ -1546,6 +627,24 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Coin-Operated Crowd Pummeler",
+		},
+		[35008] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rokmar the Crackler",
+		},
+		[35010] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
 		},
 		[260669] = {
 			["school"] = 8,
@@ -1565,20 +664,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swamplord Musel'ek",
 		},
-		[31566] = {
+		[257337] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Coin-Operated Crowd Pummeler",
+		},
+		[34298] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Swamplord Musel'ek",
-		},
-		[31946] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Swamplord Musel'ek",
+			["source"] = "Claw",
 		},
 		[271526] = {
 			["school"] = 1,
@@ -1587,49 +690,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthrager",
 		},
-		[257582] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Earthrager",
-		},
-		[34268] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Ghaz'an",
-		},
-		[268865] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Weapons Tester",
-		},
-		[268362] = {
+		[33132] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wanton Sapper",
+			["source"] = "Corrupted Nova Totem",
 		},
-		[258622] = {
-			["school"] = 8,
+		[16005] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coilfang Technician",
+		},
+		[260811] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Azerokk",
+			["source"] = "Mogul Razdunk",
+		},
+		[15716] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[31946] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
 		},
 		[34780] = {
 			["school"] = 8,
@@ -1640,28 +741,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Quagmirran",
 		},
-		[270882] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
-		[260323] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[1604] = {
+		[31948] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Claw",
+			["source"] = "Rokmar the Crackler",
+		},
+		[22907] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
+		[260318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
 		},
 		[34977] = {
 			["school"] = 1,
@@ -1670,37 +774,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mennu's Healing Ward",
 		},
-		[34267] = {
-			["school"] = 1,
+		[256137] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ghaz'an",
+			["source"] = "Azerite Footbomb",
 		},
-		[260190] = {
+		[257544] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Earthrager",
 		},
-		[34290] = {
+		[262347] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ghaz'an",
-		},
-		[31717] = {
-			["school"] = 8,
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Black Stalker",
+			["source"] = "Coin-Operated Crowd Pummeler",
+		},
+		[31956] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rokmar the Crackler",
 		},
 	},
 	["emotes"] = {

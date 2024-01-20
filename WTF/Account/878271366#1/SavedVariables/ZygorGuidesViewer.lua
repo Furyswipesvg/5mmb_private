@@ -61,8 +61,13 @@ ZygorGuidesViewerSettings = {
 			["statweightsmoved"] = true,
 			["AThiddenitems"] = {
 			},
-			["lastlogin"] = 1705732244,
-			["initialFlightPathsLoaded"] = true,
+			["lastlogin"] = 1705778678,
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+					["step"] = 126,
+				}, -- [1]
+			},
 			["previewhidden"] = true,
 			["gear_selected_spec"] = 1,
 			["restoreFullMap"] = false,
@@ -83,7 +88,7 @@ ZygorGuidesViewerSettings = {
 						47, -- [11]
 						48, -- [12]
 					},
-					["lasttime"] = 1705732257,
+					["lasttime"] = 1705778688,
 				},
 			},
 			["actionbarmacrowarning"] = false,
@@ -123,9 +128,9 @@ ZygorGuidesViewerSettings = {
 				[17] = 3715,
 				[15] = 3580,
 				[18] = 2502,
-				[19] = 1888,
+				[19] = 3606,
 				[16] = 1389,
-				["total"] = 220687,
+				["total"] = 222469,
 			},
 			["CurrentDeals"] = {
 			},
@@ -166,24 +171,24 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705723205,
 				}, -- [4]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705723205,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
 					},
-					["time"] = 1705723205,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 1,
 						}, -- [1]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [5]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705723234,
 					["name"] = "CloseButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [6]
 				{
 					["time"] = 1705724372,
@@ -227,18 +232,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705724395,
 				}, -- [15]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["time"] = 1705724395,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 47,
 						}, -- [1]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705724395,
 				}, -- [16]
 				{
 					["state"] = "party",
@@ -288,9 +293,9 @@ ZygorGuidesViewerSettings = {
 				}, -- [24]
 				{
 					["button"] = "LeftButton",
-					["name"] = "CloseButton",
 					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724712,
+					["name"] = "CloseButton",
 				}, -- [25]
 				{
 					["button"] = "LeftButton",
@@ -352,18 +357,18 @@ ZygorGuidesViewerSettings = {
 					["goalnum"] = 15,
 				}, -- [35]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 42,
+					},
+					["time"] = 1705724821,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 47,
 						}, -- [1]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 42,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705724821,
 				}, -- [36]
 				{
 					["button"] = "LeftButton",
@@ -412,18 +417,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705724969,
 				}, -- [45]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705724969,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 47,
 					},
-					["time"] = 1705724969,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [46]
 				{
 					["button"] = "LeftButton",
@@ -455,59 +460,59 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705725702,
 				}, -- [52]
 				{
-					["time"] = 1705725702,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
 					["event"] = "GUIDES_LOADED",
+					["time"] = 1705725702,
 				}, -- [53]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705725808,
 					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705725808,
 				}, -- [54]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705725813,
 					["name"] = "NextButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705725813,
 				}, -- [55]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705725820,
 					["name"] = "PrevButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705725820,
 				}, -- [56]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705725823,
 					["name"] = "PrevButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705725823,
 				}, -- [57]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705726777,
 					["name"] = "MenuSettingsButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705726777,
 				}, -- [58]
 				{
-					["time"] = 1705726780,
 					["item"] = "Guide Menu",
 					["event"] = "MAINMENU_ITEM",
+					["time"] = 1705726780,
 				}, -- [59]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705727387,
 					["name"] = "CloseButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705727387,
 				}, -- [60]
 				{
 					["time"] = 1705730795,
@@ -533,6 +538,62 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705732257,
 				}, -- [65]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1705732257,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+					},
+				}, -- [66]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705732262,
+				}, -- [67]
+				{
+					["time"] = 1705737092,
+					["event"] = "SHUTDOWN",
+				}, -- [68]
+				{
+					["time"] = 1705775170,
+					["event"] = "STARTUP",
+				}, -- [69]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705775170,
+				}, -- [70]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1705775170,
+				}, -- [71]
+				{
+					["time"] = 1705778684,
+					["event"] = "STARTUP",
+				}, -- [72]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705778684,
+				}, -- [73]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1705778684,
+				}, -- [74]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1705778688,
+				}, -- [75]
+				{
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -544,17 +605,12 @@ ZygorGuidesViewerSettings = {
 						["step"] = 126,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1705732257,
-				}, -- [66]
+					["time"] = 1705778688,
+				}, -- [76]
 				{
-					["state"] = "party",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705732262,
-				}, -- [67]
-				{
-					["time"] = 1705737092,
+					["time"] = 1705779843,
 					["event"] = "SHUTDOWN",
-				}, -- [68]
+				}, -- [77]
 			},
 			["debuglog"] = {
 				"19:59:58.706.845> Viewer started. ---------------------------", -- [1]
@@ -563,13 +619,10 @@ ZygorGuidesViewerSettings = {
 				"20:29:22.574.658> Viewer started. ---------------------------", -- [4]
 				"20:41:33.945.628> Viewer started. ---------------------------", -- [5]
 				"22:30:49.125.426> Viewer started. ---------------------------", -- [6]
+				"10:21:33.987.055> Viewer started. ---------------------------", -- [7]
+				"11:24:41.506.073> Viewer started. ---------------------------", -- [8]
 			},
-			["tabguides"] = {
-				{
-					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-					["step"] = 126,
-				}, -- [1]
-			},
+			["initialFlightPathsLoaded"] = true,
 			["GGbuyitems"] = {
 			},
 		},
@@ -594,7 +647,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778688,
 			},
 			["item:175624::::::::19:265::11:1:4790:2:28:2570:9:19:::::"] = {
 				"Pure Aspirant's Leggings", -- [1]
@@ -765,7 +818,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778688,
 			},
 			["item:174803::::::::15:265:::1:6499:2:9:5:28:741:::::"] = {
 				"Stitched Cloth Bracers", -- [1]
@@ -1031,7 +1084,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735526,
+				["timestamp"] = 1705778684,
 			},
 			["|cffffffff|Hitem:174786::::::::16:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r"] = {
 				"Stitched Cloth Gloves", -- [1]
@@ -1147,6 +1200,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728612,
 			},
+			["|cff1eff00|Hitem:175624::::::::19:265::11:1:4790:2:9:19:28:2570:::::|h[Pure Aspirant's Leggings]|h|r"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::19:265::11:1:4790:2:9:19:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				19, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				492, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778688,
+			},
 			["item:187754::::::::15:265::75:::::::"] = {
 				"Warlock's Wristwraps", -- [1]
 				"|cffffffff|Hitem:187754::::::::15:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
@@ -1165,6 +1237,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725696,
+			},
+			["|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				135006, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726011,
 			},
 			["item:11847::::::::15:265:::1:6713:2:9:4:28:957:::::"] = {
 				"Battered Cloak", -- [1]
@@ -1204,25 +1295,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705727295,
 			},
-			["|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
-				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				135006, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726011,
-			},
 			["item:178136::::::::19:265:::::::::"] = {
 				"Emotional Residue", -- [1]
 				"|cff9d9d9d|Hitem:178136::::::::19:265:::::::::|h[Emotional Residue]|h|r", -- [2]
@@ -1240,7 +1312,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705736983,
+				["timestamp"] = 1705778684,
 			},
 			["item:173874::::::::19:265:::::::::"] = {
 				"Twisted Sediment", -- [1]
@@ -1259,26 +1331,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705736982,
-			},
-			["|cff9d9d9d|Hitem:173874::::::::19:265:::::::::|h[Twisted Sediment]|h|r"] = {
-				"Twisted Sediment", -- [1]
-				"|cff9d9d9d|Hitem:173874::::::::19:265:::::::::|h[Twisted Sediment]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				876363, -- [10]
-				12932, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778684,
 			},
 			["item:187755::::::::17:265::75:::::::"] = {
 				"Warlock's Slippers", -- [1]
@@ -1299,43 +1352,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732252,
 			},
-			["|cffffffff|Hitem:187756::::::::16:265::75:::::::|h[Warlock's Sash]|h|r"] = {
-				"Warlock's Sash", -- [1]
-				"|cffffffff|Hitem:187756::::::::16:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
+			["|cff9d9d9d|Hitem:173874::::::::19:265:::::::::|h[Twisted Sediment]|h|r"] = {
+				"Twisted Sediment", -- [1]
+				"|cff9d9d9d|Hitem:173874::::::::19:265:::::::::|h[Twisted Sediment]|h|r", -- [2]
+				0, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				876363, -- [10]
+				12932, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727352,
-			},
-			[187751] = {
-				"Warlock's Robes", -- [1]
-				"|cffffffff|Hitem:187751::::::::15:265:::::::::|h[Warlock's Robes]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3946770, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728688,
+				["timestamp"] = 1705778688,
 			},
 			["item:175224::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Leggings", -- [1]
@@ -1356,25 +1390,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732252,
 			},
-			["item:6948::::::::19:265:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::19:265:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
-			},
 			["item:173204::::::::19:265:::::::::"] = {
 				"Lightless Silk", -- [1]
 				"|cff1eff00|Hitem:173204::::::::19:265:::::::::|h[Lightless Silk]|h|r", -- [2]
@@ -1392,7 +1407,83 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1705735177,
+				["timestamp"] = 1705778684,
+			},
+			[187751] = {
+				"Warlock's Robes", -- [1]
+				"|cffffffff|Hitem:187751::::::::15:265:::::::::|h[Warlock's Robes]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3946770, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728688,
+			},
+			["item:2589::::::::19:265:::::::::"] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778684,
+			},
+			["item:173202::::::::19:265:::::::::"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::19:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778684,
+			},
+			["|cffffffff|Hitem:187751::::::::17:265::75:::::::|h[Warlock's Robes]|h|r"] = {
+				"Warlock's Robes", -- [1]
+				"|cffffffff|Hitem:187751::::::::17:265::75:::::::|h[Warlock's Robes]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3946770, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728690,
 			},
 			["|cff9d9d9d|Hitem:176868::::::::15:265:::::::::|h[Sliver of Entropy]|h|r"] = {
 				"Sliver of Entropy", -- [1]
@@ -1413,47 +1504,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726011,
 			},
-			["item:2589::::::::19:265:::::::::"] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
+			["item:175229::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Mantle", -- [1]
+				"|cff1eff00|Hitem:175229::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1706391, -- [10]
+				23, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
 				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1705735177,
+				[17] = false,
+				["timestamp"] = 1705778684,
 			},
-			["item:173202::::::::19:265:::::::::"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::19:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
+			["item:175218::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705735177,
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
 			},
-			["|cffffffff|Hitem:174803::::::::15:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
+			["|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
 				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::15:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				"|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
@@ -1468,7 +1559,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726011,
+				["timestamp"] = 1705728692,
 			},
 			[187752] = {
 				"Warlock's Trousers", -- [1]
@@ -1489,24 +1580,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728688,
 			},
-			["item:175234::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+			["item:175164::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Staff", -- [1]
+				"|cff1eff00|Hitem:175164::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Weapon", -- [6]
+				"Staves", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				15, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"INVTYPE_2HWEAPON", -- [9]
+				3736978, -- [10]
+				53, -- [11]
+				2, -- [12]
+				10, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735177,
+				["timestamp"] = 1705778684,
 			},
 			[174811] = {
 				"Stitched Cloth Tunic", -- [1]
@@ -1527,62 +1618,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728688,
 			},
-			["item:175238::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
+			["|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
 				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705732589,
 			},
-			["item:175229::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Mantle", -- [1]
-				"|cff1eff00|Hitem:175229::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
+			["item:11847::::::::19:265:::1:6713:2:9:4:28:957:::::"] = {
+				"Battered Cloak", -- [1]
+				"|cffffffff|Hitem:11847::::::::19:265:::1:6713:2:9:4:28:957:::::|h[Battered Cloak]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1706391, -- [10]
-				23, -- [11]
+				"INVTYPE_CLOAK", -- [9]
+				133753, -- [10]
+				7, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735177,
+				["timestamp"] = 1705778684,
 			},
-			["item:175218::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+			["item:175224::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
-				14, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735177,
+				["timestamp"] = 1705778684,
 			},
 			["item:174786::::::::15:265::11:1:6499:2:9:5:28:741:::::"] = {
 				"Stitched Cloth Gloves", -- [1]
@@ -1603,24 +1694,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725696,
 			},
-			["item:178495::::::::16:265::11::1:28:2570:::::"] = {
-				"Shattered Helm of Domination", -- [1]
-				"|cffffffff|Hitem:178495::::::::16:265::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r", -- [2]
+			["|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r"] = {
+				"Warlock's Trousers", -- [1]
+				"|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"", -- [9]
-				341221, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726847,
+				["timestamp"] = 1705726011,
 			},
 			[187753] = {
 				"Warlock's Mitts", -- [1]
@@ -1660,139 +1751,6 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705726011,
 			},
-			["item:175164::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Staff", -- [1]
-				"|cff1eff00|Hitem:175164::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				3736978, -- [10]
-				53, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
-			},
-			["item:187755::::::::19:265::75:::::::"] = {
-				"Warlock's Slippers", -- [1]
-				"|cffffffff|Hitem:187755::::::::19:265::75:::::::|h[Warlock's Slippers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3946768, -- [10]
-				5, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
-			},
-			["item:11847::::::::19:265:::1:6713:2:9:4:28:957:::::"] = {
-				"Battered Cloak", -- [1]
-				"|cffffffff|Hitem:11847::::::::19:265:::1:6713:2:9:4:28:957:::::|h[Battered Cloak]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				4, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133753, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
-			},
-			["|cff9d9d9d|Hitem:176862::::::::15:265:::::::::|h[Marred Skin]|h|r"] = {
-				"Marred Skin", -- [1]
-				"|cff9d9d9d|Hitem:176862::::::::15:265:::::::::|h[Marred Skin]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				377272, -- [10]
-				3525, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726011,
-			},
-			["item:175224::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735176,
-			},
-			["|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r"] = {
-				"Warlock's Trousers", -- [1]
-				"|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726011,
-			},
-			["item:175224::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
-			},
 			["|cffffffff|Hitem:173202::::::::19:265:::::::::|h[Shrouded Cloth]|h|r"] = {
 				"Shrouded Cloth", -- [1]
 				"|cffffffff|Hitem:173202::::::::19:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
@@ -1810,26 +1768,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1705737055,
-			},
-			["|cff1eff00|Hitem:173204::::::::19:265:::::::::|h[Lightless Silk]|h|r"] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::19:265:::::::::|h[Lightless Silk]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778688,
 			},
 			["|cffffffff|Hitem:174786::::::::15:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r"] = {
 				"Stitched Cloth Gloves", -- [1]
@@ -1850,25 +1789,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726011,
 			},
-			["item:175220::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
-			},
 			["item:1805::::::::18:265::11:1:3524::::::"] = {
 				"Tough Leather Bracers", -- [1]
 				"|cff9d9d9d|Hitem:1805::::::::18:265::11:1:3524::::::|h[Tough Leather Bracers]|h|r", -- [2]
@@ -1887,25 +1807,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705734396,
-			},
-			["item:175208::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Robe", -- [1]
-				"|cff1eff00|Hitem:175208::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_ROBE", -- [9]
-				1706379, -- [10]
-				30, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705733052,
 			},
 			["item:2589::::::::18:265:::::::::"] = {
 				"Linen Cloth", -- [1]
@@ -1964,43 +1865,24 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705733053,
 			},
-			["item:173202::::::::18:265:::::::::"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
+			["item:175224::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705733053,
-			},
-			["item:6948::::::::16:265:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::16:265:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
 				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
+				4, -- [12]
+				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726043,
+				["timestamp"] = 1705725696,
 			},
 			["item:175234::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Cuffs", -- [1]
@@ -2021,43 +1903,119 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705733052,
 			},
-			["item:175238::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+			["item:173202::::::::17:265:::::::::"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705732252,
+			},
+			["item:173202::::::::18:265:::::::::"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705733053,
+			},
+			["item:175220::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705733052,
+				["timestamp"] = 1705725696,
 			},
-			["item:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Cloth Gloves", -- [1]
-				"|cffffffff|Hitem:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r", -- [2]
+			["item:6948::::::::19:265:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::19:265:::::::::|h[Hearthstone]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
-				1, -- [5]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
+			},
+			["item:175624::::::::19:265::11:1:4790:2:9:19:28:2570:::::"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::19:265::11:1:4790:2:9:19:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				19, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132961, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				492, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
+			},
+			["item:187755::::::::18:265::75:::::::"] = {
+				"Warlock's Slippers", -- [1]
+				"|cffffffff|Hitem:187755::::::::18:265::75:::::::|h[Warlock's Slippers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3946768, -- [10]
+				5, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727443,
+				["timestamp"] = 1705733052,
 			},
 			["item:175218::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Gloves", -- [1]
@@ -2078,62 +2036,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705733052,
 			},
-			[187756] = {
-				"Warlock's Sash", -- [1]
-				"|cffffffff|Hitem:187756::::::::15:265:::::::::|h[Warlock's Sash]|h|r", -- [2]
+			["item:6948::::::::17:265:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::17:265:::::::::|h[Hearthstone]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728688,
+				["timestamp"] = 1705732252,
 			},
-			["item:175164::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Staff", -- [1]
-				"|cff1eff00|Hitem:175164::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
+			["|cffffffff|Hitem:35::::::::15:265::75:::::::|h[Bent Staff]|h|r"] = {
+				"Bent Staff", -- [1]
+				"|cffffffff|Hitem:35::::::::15:265::75:::::::|h[Bent Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 				"Weapon", -- [6]
 				"Staves", -- [7]
 				1, -- [8]
 				"INVTYPE_2HWEAPON", -- [9]
-				3736978, -- [10]
-				53, -- [11]
+				135145, -- [10]
+				14, -- [11]
 				2, -- [12]
 				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705733052,
-			},
-			["item:187755::::::::18:265::75:::::::"] = {
-				"Warlock's Slippers", -- [1]
-				"|cffffffff|Hitem:187755::::::::18:265::75:::::::|h[Warlock's Slippers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3946768, -- [10]
-				5, -- [11]
-				4, -- [12]
-				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705733052,
+				["timestamp"] = 1705726011,
+			},
+			["item:175234::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
 			},
 			["item:11847::::::::18:265:::1:6713:2:9:4:28:957:::::"] = {
 				"Battered Cloak", -- [1]
@@ -2173,25 +2131,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
-			["item:175238::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::17:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732252,
-			},
 			["item:175208::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Robe", -- [1]
 				"|cff1eff00|Hitem:175208::::::::17:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
@@ -2211,43 +2150,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732252,
 			},
-			["|cffffffff|Hitem:35::::::::15:265::75:::::::|h[Bent Staff]|h|r"] = {
-				"Bent Staff", -- [1]
-				"|cffffffff|Hitem:35::::::::15:265::75:::::::|h[Bent Staff]|h|r", -- [2]
+			["item:175238::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::17:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732252,
+			},
+			[187756] = {
+				"Warlock's Sash", -- [1]
+				"|cffffffff|Hitem:187756::::::::15:265:::::::::|h[Warlock's Sash]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				135145, -- [10]
-				14, -- [11]
-				2, -- [12]
-				10, -- [13]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728688,
+			},
+			["|cffffffff|Hitem:187754::::::::15:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
+				"Warlock's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187754::::::::15:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705726011,
-			},
-			["|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705735088,
 			},
 			["|cff1eff00|Hitem:173204::::::::18:265:::::::::|h[Lightless Silk]|h|r"] = {
 				"Lightless Silk", -- [1]
@@ -2268,43 +2226,24 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705735088,
 			},
-			["item:174811::::::::17:265:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::17:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+			["item:11847::::::::17:265:::1:6713:2:9:4:28:957:::::"] = {
+				"Battered Cloak", -- [1]
+				"|cffffffff|Hitem:11847::::::::17:265:::1:6713:2:9:4:28:957:::::|h[Battered Cloak]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
-				1, -- [5]
+				2, -- [4]
+				4, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				135006, -- [10]
+				"INVTYPE_CLOAK", -- [9]
+				133753, -- [10]
 				7, -- [11]
 				4, -- [12]
 				1, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727443,
-			},
-			["item:187756::::::::15:265::75:::::::"] = {
-				"Warlock's Sash", -- [1]
-				"|cffffffff|Hitem:187756::::::::15:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
+				["timestamp"] = 1705732252,
 			},
 			["item:187755::::::::15:265::75:::::::"] = {
 				"Warlock's Slippers", -- [1]
@@ -2325,6 +2264,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725696,
 			},
+			["item:175218::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::17:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732252,
+			},
 			["item:176862::::::::15:265:::::::::"] = {
 				"Marred Skin", -- [1]
 				"|cff9d9d9d|Hitem:176862::::::::15:265:::::::::|h[Marred Skin]|h|r", -- [2]
@@ -2344,62 +2302,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725696,
 			},
-			["item:175220::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+			["item:175238::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705733052,
-			},
-			["item:175229::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Mantle", -- [1]
-				"|cff1eff00|Hitem:175229::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1706391, -- [10]
-				23, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726042,
-			},
-			["|cffffffff|Hitem:187756::::::::17:265::75:::::::|h[Warlock's Sash]|h|r"] = {
-				"Warlock's Sash", -- [1]
-				"|cffffffff|Hitem:187756::::::::17:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				4, -- [11]
+				1706370, -- [10]
+				14, -- [11]
 				4, -- [12]
 				1, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728691,
+				["timestamp"] = 1705725696,
 			},
 			["item:187753::::::::15:265::75:::::::"] = {
 				"Warlock's Mitts", -- [1]
@@ -2420,9 +2340,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725696,
 			},
-			["|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r"] = {
+			["item:187752::::::::15:265::75:::::::"] = {
 				"Warlock's Trousers", -- [1]
-				"|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
+				"|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -2437,7 +2357,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728692,
+				["timestamp"] = 1705725696,
 			},
 			["item:175234::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Cuffs", -- [1]
@@ -2477,25 +2397,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
-			["item:178120::::::::17:265::14::1:28:741:::::"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::17:265::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728910,
-			},
 			["|cffffffff|Hitem:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r"] = {
 				"Stitched Cloth Gloves", -- [1]
 				"|cffffffff|Hitem:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r", -- [2]
@@ -2534,43 +2435,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726043,
 			},
-			["|cffffffff|Hitem:187754::::::::17:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
-				"Warlock's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187754::::::::17:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+			["item:175220::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705733052,
+			},
+			["item:175229::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Mantle", -- [1]
+				"|cff1eff00|Hitem:175229::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1706391, -- [10]
+				23, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726042,
+			},
+			["|cffffffff|Hitem:187756::::::::15:265::75:::::::|h[Warlock's Sash]|h|r"] = {
+				"Warlock's Sash", -- [1]
+				"|cffffffff|Hitem:187756::::::::15:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				4, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728690,
-			},
-			[174786] = {
-				"Stitched Cloth Gloves", -- [1]
-				"|cffffffff|Hitem:174786::::::::15:265:::::::::|h[Stitched Cloth Gloves]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132961, -- [10]
-				5, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728688,
+				["timestamp"] = 1705726011,
 			},
 			["item:175218::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Gloves", -- [1]
@@ -2591,43 +2511,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725696,
 			},
-			["item:176862::::::::16:265:::::::::"] = {
-				"Marred Skin", -- [1]
-				"|cff9d9d9d|Hitem:176862::::::::16:265:::::::::|h[Marred Skin]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				377272, -- [10]
-				3525, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
+			["|cffffffff|Hitem:187753::::::::15:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
+				"Warlock's Mitts", -- [1]
+				"|cffffffff|Hitem:187753::::::::15:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726043,
-			},
-			["item:184390::::::::17:265:::::::::"] = {
-				"Foul Ectoplasm", -- [1]
-				"|cff9d9d9d|Hitem:184390::::::::17:265:::::::::|h[Foul Ectoplasm]|h|r", -- [2]
-				0, -- [3]
-				55, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1003600, -- [10]
-				20359, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728221,
+				["timestamp"] = 1705726011,
 			},
 			["item:11847::::::::16:265:::1:6713:2:9:4:28:957:::::"] = {
 				"Battered Cloak", -- [1]
@@ -2648,6 +2549,63 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
+			["item:175238::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
+			},
+			["item:178120::::::::17:265::14::1:28:741:::::"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::17:265::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728910,
+			},
+			["|cff1eff00|Hitem:173204::::::::19:265:::::::::|h[Lightless Silk]|h|r"] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::19:265:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778688,
+			},
 			["|cff9d9d9d|Hitem:176862::::::::16:265:::::::::|h[Marred Skin]|h|r"] = {
 				"Marred Skin", -- [1]
 				"|cff9d9d9d|Hitem:176862::::::::16:265:::::::::|h[Marred Skin]|h|r", -- [2]
@@ -2666,6 +2624,44 @@ ZygorGuidesViewerSettings = {
 				8, -- [15]
 				[17] = false,
 				["timestamp"] = 1705726847,
+			},
+			["|cffffffff|Hitem:187754::::::::16:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
+				"Warlock's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187754::::::::16:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727352,
+			},
+			["|cffffffff|Hitem:2589::::::::17:265:::::::::|h[Linen Cloth]|h|r"] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::17:265:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1705732589,
 			},
 			["item:187756::::::::16:265::75:::::::"] = {
 				"Warlock's Sash", -- [1]
@@ -2705,17 +2701,36 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726043,
 			},
-			["item:175218::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+			["item:184390::::::::17:265:::::::::"] = {
+				"Foul Ectoplasm", -- [1]
+				"|cff9d9d9d|Hitem:184390::::::::17:265:::::::::|h[Foul Ectoplasm]|h|r", -- [2]
+				0, -- [3]
+				55, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1003600, -- [10]
+				20359, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728221,
+			},
+			["item:175238::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
 				14, -- [11]
 				4, -- [12]
 				1, -- [13]
@@ -2724,24 +2739,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
-			["item:187751::::::::15:265::75:::::::"] = {
-				"Warlock's Robes", -- [1]
-				"|cffffffff|Hitem:187751::::::::15:265::75:::::::|h[Warlock's Robes]|h|r", -- [2]
+			["item:184313::::::::16:265::11::1:28:2570:::::"] = {
+				"Shattered Helm of Domination", -- [1]
+				"|cffffffff|Hitem:184313::::::::16:265::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3946770, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
+				"", -- [9]
+				341221, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725696,
+				["timestamp"] = 1705727247,
 			},
 			["item:174803::::::::16:265:::1:6499:2:9:5:28:741:::::"] = {
 				"Stitched Cloth Bracers", -- [1]
@@ -2781,6 +2796,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726043,
 			},
+			["item:175218::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726042,
+			},
 			["item:187754::::::::16:265::75:::::::"] = {
 				"Warlock's Wristwraps", -- [1]
 				"|cffffffff|Hitem:187754::::::::16:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
@@ -2819,6 +2853,44 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705726043,
 			},
+			["item:174811::::::::15:265:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				135006, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725696,
+			},
+			["item:178495::::::::16:265::11::1:28:2570:::::"] = {
+				"Shattered Helm of Domination", -- [1]
+				"|cffffffff|Hitem:178495::::::::16:265::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				341221, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726847,
+			},
 			["item:175164::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Staff", -- [1]
 				"|cff1eff00|Hitem:175164::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
@@ -2837,25 +2909,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725696,
-			},
-			["item:35::::::::16:265::75:::::::"] = {
-				"Bent Staff", -- [1]
-				"|cffffffff|Hitem:35::::::::16:265::75:::::::|h[Bent Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				135145, -- [10]
-				14, -- [11]
-				2, -- [12]
-				10, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726043,
 			},
 			["item:187751::::::::16:265::75:::::::"] = {
 				"Warlock's Robes", -- [1]
@@ -2876,24 +2929,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726043,
 			},
-			["|cffffffff|Hitem:187753::::::::17:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
-				"Warlock's Mitts", -- [1]
-				"|cffffffff|Hitem:187753::::::::17:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
+			["item:35::::::::17:265::75:::::::"] = {
+				"Bent Staff", -- [1]
+				"|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"INVTYPE_2HWEAPON", -- [9]
+				135145, -- [10]
+				14, -- [11]
+				2, -- [12]
+				10, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728676,
+				["timestamp"] = 1705727443,
 			},
 			["item:187753::::::::16:265::75:::::::"] = {
 				"Warlock's Mitts", -- [1]
@@ -2913,6 +2966,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705726043,
+			},
+			["|cffffffff|Hitem:187753::::::::16:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
+				"Warlock's Mitts", -- [1]
+				"|cffffffff|Hitem:187753::::::::16:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727352,
 			},
 			["item:176868::::::::16:265:::::::::"] = {
 				"Sliver of Entropy", -- [1]
@@ -2952,6 +3024,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728688,
 			},
+			["|cffffffff|Hitem:187753::::::::17:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
+				"Warlock's Mitts", -- [1]
+				"|cffffffff|Hitem:187753::::::::17:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728676,
+			},
 			["|cff9d9d9d|Hitem:176868::::::::16:265:::::::::|h[Sliver of Entropy]|h|r"] = {
 				"Sliver of Entropy", -- [1]
 				"|cff9d9d9d|Hitem:176868::::::::16:265:::::::::|h[Sliver of Entropy]|h|r", -- [2]
@@ -2971,24 +3062,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726847,
 			},
-			["item:187752::::::::17:265::75:::::::"] = {
-				"Warlock's Trousers", -- [1]
-				"|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
+			["item:35::::::::16:265::75:::::::"] = {
+				"Bent Staff", -- [1]
+				"|cffffffff|Hitem:35::::::::16:265::75:::::::|h[Bent Staff]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Weapon", -- [6]
+				"Staves", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"INVTYPE_2HWEAPON", -- [9]
+				135145, -- [10]
+				14, -- [11]
+				2, -- [12]
+				10, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727443,
+				["timestamp"] = 1705726043,
 			},
 			["|cffffffff|Hitem:6948::::::::15:265:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -3009,6 +3100,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726011,
 			},
+			["item:187752::::::::17:265::75:::::::"] = {
+				"Warlock's Trousers", -- [1]
+				"|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727443,
+			},
 			["item:6948::::::::15:265:::::::::"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::15:265:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -3027,6 +3137,44 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725696,
+			},
+			["item:175208::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726042,
+			},
+			["item:174811::::::::17:265:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::17:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				135006, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727443,
 			},
 			["|cffffffff|Hitem:187751::::::::16:265::75:::::::|h[Warlock's Robes]|h|r"] = {
 				"Warlock's Robes", -- [1]
@@ -3047,24 +3195,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705727352,
 			},
-			["item:175238::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
+			["|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r"] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
 				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
 				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726042,
+				[17] = true,
+				["timestamp"] = 1705778688,
 			},
 			["item:187756::::::::17:265::75:::::::"] = {
 				"Warlock's Sash", -- [1]
@@ -3104,43 +3252,100 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705727352,
 			},
-			["|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r"] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::19:265:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1705737055,
-			},
-			["|cffffffff|Hitem:187753::::::::15:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
-				"Warlock's Mitts", -- [1]
-				"|cffffffff|Hitem:187753::::::::15:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
+			["item:187751::::::::15:265::75:::::::"] = {
+				"Warlock's Robes", -- [1]
+				"|cffffffff|Hitem:187751::::::::15:265::75:::::::|h[Warlock's Robes]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				3946770, -- [10]
+				7, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
+				["timestamp"] = 1705725696,
+			},
+			["|cff1eff00|Hitem:173204::::::::17:265:::::::::|h[Lightless Silk]|h|r"] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::17:265:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705732589,
+			},
+			["item:175208::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
+			},
+			["|cff9d9d9d|Hitem:176862::::::::15:265:::::::::|h[Marred Skin]|h|r"] = {
+				"Marred Skin", -- [1]
+				"|cff9d9d9d|Hitem:176862::::::::15:265:::::::::|h[Marred Skin]|h|r", -- [2]
+				0, -- [3]
+				120, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				377272, -- [10]
+				3525, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
 				["timestamp"] = 1705726011,
+			},
+			["item:175229::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Mantle", -- [1]
+				"|cff1eff00|Hitem:175229::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1706391, -- [10]
+				23, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725696,
 			},
 			["item:35::::::::15:265::75:::::::"] = {
 				"Bent Staff", -- [1]
@@ -3180,138 +3385,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726883,
 			},
-			["|cff1eff00|Hitem:173204::::::::17:265:::::::::|h[Lightless Silk]|h|r"] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::17:265:::::::::|h[Lightless Silk]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705732589,
-			},
-			["item:175208::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Robe", -- [1]
-				"|cff1eff00|Hitem:175208::::::::19:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_ROBE", -- [9]
-				1706379, -- [10]
-				30, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735177,
-			},
-			["item:187752::::::::15:265::75:::::::"] = {
-				"Warlock's Trousers", -- [1]
-				"|cffffffff|Hitem:187752::::::::15:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
+			[174786] = {
+				"Stitched Cloth Gloves", -- [1]
+				"|cffffffff|Hitem:174786::::::::15:265:::::::::|h[Stitched Cloth Gloves]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				5, -- [4]
+				8, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
+				"INVTYPE_HAND", -- [9]
+				132961, -- [10]
+				5, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725696,
-			},
-			["item:175229::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Mantle", -- [1]
-				"|cff1eff00|Hitem:175229::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1706391, -- [10]
-				23, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
-			},
-			["item:174811::::::::15:265:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::15:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				135006, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
-			},
-			["item:175238::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725696,
-			},
-			["item:184313::::::::16:265::11::1:28:2570:::::"] = {
-				"Shattered Helm of Domination", -- [1]
-				"|cffffffff|Hitem:184313::::::::16:265::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				1, -- [8]
-				"", -- [9]
-				341221, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705727247,
+				["timestamp"] = 1705728688,
 			},
 			["item:175234::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Cuffs", -- [1]
@@ -3332,24 +3423,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
-			["item:175208::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Robe", -- [1]
-				"|cff1eff00|Hitem:175208::::::::16:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
+			["|cffffffff|Hitem:187754::::::::17:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
+				"Warlock's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187754::::::::17:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_ROBE", -- [9]
-				1706379, -- [10]
-				30, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
 				4, -- [12]
 				1, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726042,
+				["timestamp"] = 1705728690,
 			},
 			["item:175220::::::::19:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Hood", -- [1]
@@ -3368,26 +3459,26 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735177,
+				["timestamp"] = 1705778684,
 			},
-			["item:11847::::::::17:265:::1:6713:2:9:4:28:957:::::"] = {
-				"Battered Cloak", -- [1]
-				"|cffffffff|Hitem:11847::::::::17:265:::1:6713:2:9:4:28:957:::::|h[Battered Cloak]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				4, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133753, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
+			["item:176862::::::::16:265:::::::::"] = {
+				"Marred Skin", -- [1]
+				"|cff9d9d9d|Hitem:176862::::::::16:265:::::::::|h[Marred Skin]|h|r", -- [2]
+				0, -- [3]
+				120, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				377272, -- [10]
+				3525, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705732252,
+				["timestamp"] = 1705726043,
 			},
 			["item:174021::::::::19:265::::1:28:2570:::::"] = {
 				"Age-Worn Shortblade", -- [1]
@@ -3406,45 +3497,45 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735526,
+				["timestamp"] = 1705778684,
 			},
-			["|cffffffff|Hitem:2589::::::::17:265:::::::::|h[Linen Cloth]|h|r"] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::17:265:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1705732589,
-			},
-			["|cffffffff|Hitem:187754::::::::15:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
-				"Warlock's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187754::::::::15:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+			["|cffffffff|Hitem:187756::::::::16:265::75:::::::|h[Warlock's Sash]|h|r"] = {
+				"Warlock's Sash", -- [1]
+				"|cffffffff|Hitem:187756::::::::16:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				4, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726011,
+				["timestamp"] = 1705727352,
+			},
+			["|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r"] = {
+				"Warlock's Trousers", -- [1]
+				"|cffffffff|Hitem:187752::::::::17:265::75:::::::|h[Warlock's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728692,
 			},
 			["|cffffffff|Hitem:6948::::::::19:265:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -3463,26 +3554,26 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778688,
 			},
-			["item:176868::::::::15:265:::::::::"] = {
-				"Sliver of Entropy", -- [1]
-				"|cff9d9d9d|Hitem:176868::::::::15:265:::::::::|h[Sliver of Entropy]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1003594, -- [10]
-				4438, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
+			["|cffffffff|Hitem:187756::::::::17:265::75:::::::|h[Warlock's Sash]|h|r"] = {
+				"Warlock's Sash", -- [1]
+				"|cffffffff|Hitem:187756::::::::17:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725874,
+				["timestamp"] = 1705728691,
 			},
 			["|cffffffff|Hitem:178495::::::::16:265::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r"] = {
 				"Shattered Helm of Domination", -- [1]
@@ -3522,26 +3613,7 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705737055,
 			},
-			["item:6948::::::::17:265:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::17:265:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732252,
-			},
-			["|cffffffff|Hitem:187756::::::::15:265::75:::::::|h[Warlock's Sash]|h|r"] = {
+			["item:187756::::::::15:265::75:::::::"] = {
 				"Warlock's Sash", -- [1]
 				"|cffffffff|Hitem:187756::::::::15:265::75:::::::|h[Warlock's Sash]|h|r", -- [2]
 				1, -- [3]
@@ -3558,26 +3630,45 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726011,
+				["timestamp"] = 1705725696,
 			},
-			["item:174803::::::::17:265:::1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
+			["item:176868::::::::15:265:::::::::"] = {
+				"Sliver of Entropy", -- [1]
+				"|cff9d9d9d|Hitem:176868::::::::15:265:::::::::|h[Sliver of Entropy]|h|r", -- [2]
+				0, -- [3]
+				120, -- [4]
 				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1003594, -- [10]
+				4438, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727443,
+				["timestamp"] = 1705725874,
+			},
+			["|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::18:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705735088,
 			},
 			["|cffffffff|Hitem:6948::::::::16:265:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -3617,24 +3708,24 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705735088,
 			},
-			["item:173202::::::::17:265:::::::::"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+			["item:174803::::::::17:265:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
 				1, -- [3]
-				50, -- [4]
+				5, -- [4]
 				1, -- [5]
-				"Tradeskill", -- [6]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705732252,
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727443,
 			},
 			["item:175220::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Hood", -- [1]
@@ -3674,24 +3765,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705733052,
 			},
-			["item:35::::::::17:265::75:::::::"] = {
-				"Bent Staff", -- [1]
-				"|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+			["item:175164::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Staff", -- [1]
+				"|cff1eff00|Hitem:175164::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
 				"Weapon", -- [6]
 				"Staves", -- [7]
 				1, -- [8]
 				"INVTYPE_2HWEAPON", -- [9]
-				135145, -- [10]
-				14, -- [11]
+				3736978, -- [10]
+				53, -- [11]
 				2, -- [12]
 				10, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727443,
+				["timestamp"] = 1705733052,
 			},
 			["|cffffffff|Hitem:172451::::::::19:265:::::::::|h[Weak Anima Mote]|h|r"] = {
 				"Weak Anima Mote", -- [1]
@@ -3731,6 +3822,82 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705733052,
 			},
+			["item:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Cloth Gloves", -- [1]
+				"|cffffffff|Hitem:174786::::::::17:265::11:1:6499:2:9:5:28:741:::::|h[Stitched Cloth Gloves]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132961, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705727443,
+			},
+			["item:175238::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705733052,
+			},
+			["item:175208::::::::18:265::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::18:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705733052,
+			},
+			["item:6948::::::::16:265:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::16:265:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726043,
+			},
 			["item:187751::::::::17:265::75:::::::"] = {
 				"Warlock's Robes", -- [1]
 				"|cffffffff|Hitem:187751::::::::17:265::75:::::::|h[Warlock's Robes]|h|r", -- [2]
@@ -3749,25 +3916,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705727443,
-			},
-			["|cffffffff|Hitem:187753::::::::16:265::75:::::::|h[Warlock's Mitts]|h|r"] = {
-				"Warlock's Mitts", -- [1]
-				"|cffffffff|Hitem:187753::::::::16:265::75:::::::|h[Warlock's Mitts]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705727352,
 			},
 			["item:187753::::::::17:265::75:::::::"] = {
 				"Warlock's Mitts", -- [1]
@@ -3826,25 +3974,6 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705732252,
 			},
-			["item:175218::::::::17:265::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::17:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732252,
-			},
 			["item:175208::::::::15:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Robe", -- [1]
 				"|cff1eff00|Hitem:175208::::::::15:265::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
@@ -3863,44 +3992,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725696,
-			},
-			["|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::17:265:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705732589,
-			},
-			["|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r"] = {
-				"Bent Staff", -- [1]
-				"|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				135145, -- [10]
-				14, -- [11]
-				2, -- [12]
-				10, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728691,
 			},
 			["|cffffffff|Hitem:6948::::::::18:265:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -3921,6 +4012,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705735088,
 			},
+			["|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r"] = {
+				"Bent Staff", -- [1]
+				"|cffffffff|Hitem:35::::::::17:265::75:::::::|h[Bent Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				135145, -- [10]
+				14, -- [11]
+				2, -- [12]
+				10, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728691,
+			},
+			["item:187755::::::::19:265::75:::::::"] = {
+				"Warlock's Slippers", -- [1]
+				"|cffffffff|Hitem:187755::::::::19:265::75:::::::|h[Warlock's Slippers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3946768, -- [10]
+				5, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778684,
+			},
 			["|cffffffff|Hitem:174811::::::::17:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
 				"Stitched Cloth Tunic", -- [1]
 				"|cffffffff|Hitem:174811::::::::17:265:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
@@ -3939,44 +4068,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705728693,
-			},
-			["|cffffffff|Hitem:187751::::::::17:265::75:::::::|h[Warlock's Robes]|h|r"] = {
-				"Warlock's Robes", -- [1]
-				"|cffffffff|Hitem:187751::::::::17:265::75:::::::|h[Warlock's Robes]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3946770, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728690,
-			},
-			["|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::17:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728692,
 			},
 			["item:175164::::::::16:265::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Staff", -- [1]
@@ -3997,24 +4088,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726042,
 			},
-			["|cffffffff|Hitem:187754::::::::16:265::75:::::::|h[Warlock's Wristwraps]|h|r"] = {
-				"Warlock's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187754::::::::16:265::75:::::::|h[Warlock's Wristwraps]|h|r", -- [2]
+			["|cffffffff|Hitem:174803::::::::15:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::15:265:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+				5, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
+				132609, -- [10]
+				4, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705727352,
+				["timestamp"] = 1705726011,
 			},
 			[184390] = {
 				"Foul Ectoplasm", -- [1]
@@ -4090,7 +4181,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737055,
+				["timestamp"] = 1705778688,
 			},
 			[176868] = {
 				"Sliver of Entropy", -- [1]
@@ -4180,14 +4271,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2165] = true,
-				[2163] = true,
 				[2103] = true,
+				[2163] = true,
+				[2413] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2413] = true,
+				[2165] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -4244,13 +4335,13 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				["gear"] = true,
+				[1560] = true,
 				["resources"] = true,
 				[1553] = true,
-				[1560] = true,
+				["gear"] = true,
 			},
-			["show_ui"] = true,
 			["load_mail"] = true,
+			["show_ui"] = true,
 			["stickycolored"] = false,
 			["widgets"] = {
 				["timeplayed"] = {
@@ -4377,14 +4468,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2165] = true,
-				[2163] = true,
 				[2103] = true,
+				[2163] = true,
+				[2413] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2413] = true,
+				[2165] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -4409,10 +4500,10 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				["gear"] = true,
+				[1560] = true,
 				["resources"] = true,
 				[1553] = true,
-				[1560] = true,
+				["gear"] = true,
 			},
 			["load_betaguides"] = true,
 			["usernamed"] = true,
@@ -4459,9 +4550,9 @@ ZygorGuidesViewerSettings = {
 		["Bladefist"] = {
 			["characters"] = {
 				["Onlt"] = {
-					["level"] = 19,
 					["class"] = "WARLOCK",
-					["dualwield"] = false,
+					["classname"] = "Warlock",
+					["classnum"] = 9,
 					["gear"] = {
 						{
 							2.51, -- [1]
@@ -4527,10 +4618,10 @@ ZygorGuidesViewerSettings = {
 							["specname"] = "",
 						},
 					},
-					["classname"] = "Warlock",
 					["statweights"] = {
 					},
-					["classnum"] = 9,
+					["level"] = 19,
+					["dualwield"] = false,
 				},
 			},
 			["bankdata"] = {

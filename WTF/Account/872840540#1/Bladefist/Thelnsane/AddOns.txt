@@ -16,3 +16,5 @@ Details_DataStorage: enabled
 Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

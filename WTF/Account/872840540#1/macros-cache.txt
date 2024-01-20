@@ -103,3 +103,14 @@ END
 VER 3 000000000000074B "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
+VER 3 000000000000074C "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 000000000000074D "ZygorAction2" "134327"
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Fish Oil|r worth |cffffaa997c|r|nRight click to skip this item|n
+/run ZGV.Inventory:HandleTrashMacro()
+END

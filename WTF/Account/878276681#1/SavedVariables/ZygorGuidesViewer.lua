@@ -61,15 +61,10 @@ ZygorGuidesViewerSettings = {
 			["statweightsmoved"] = true,
 			["AThiddenitems"] = {
 			},
-			["lastlogin"] = 1705734041,
-			["tabguides"] = {
-				{
-					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-					["step"] = 126,
-				}, -- [1]
-			},
+			["lastlogin"] = 1705778049,
+			["initialFlightPathsLoaded"] = true,
 			["previewhidden"] = true,
-			["gear_selected_spec"] = 5,
+			["gear_selected_spec"] = 1,
 			["faction"] = "Horde",
 			["guidestephistory"] = {
 				["LEVELING\\Starter Guides\\Chromie Time"] = {
@@ -79,7 +74,7 @@ ZygorGuidesViewerSettings = {
 						47, -- [3]
 						48, -- [4]
 					},
-					["lasttime"] = 1705734049,
+					["lasttime"] = 1705778058,
 				},
 			},
 			["actionbarmacrowarning"] = false,
@@ -122,8 +117,8 @@ ZygorGuidesViewerSettings = {
 			["timeperlevel"] = {
 				[13] = 98771,
 				[15] = 2368,
-				[18] = 1422,
-				["total"] = 225601,
+				[18] = 2513,
+				["total"] = 226709,
 				[14] = 646,
 				[16] = 2773,
 				[17] = 2722,
@@ -167,18 +162,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705723272,
 				}, -- [4]
 				{
-					["time"] = 1705723273,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 1,
 						}, -- [1]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
 					["event"] = "GUIDES_LOADED",
+					["time"] = 1705723273,
 				}, -- [5]
 				{
 					["time"] = 1705724373,
@@ -222,18 +217,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705724396,
 				}, -- [14]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705724396,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
 					},
-					["time"] = 1705724396,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 47,
 						}, -- [1]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [15]
 				{
 					["state"] = "party",
@@ -265,53 +260,53 @@ ZygorGuidesViewerSettings = {
 				}, -- [20]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724717,
 					["name"] = "CloseButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [21]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724844,
 					["name"] = "PrevButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [22]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724845,
 					["name"] = "PrevButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [23]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724846,
 					["name"] = "PrevButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [24]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705724847,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 42,
 					},
-					["time"] = 1705724847,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 47,
 						}, -- [1]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [25]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724848,
 					["name"] = "PrevButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [26]
 				{
 					["button"] = "LeftButton",
-					["event"] = "BUTTON_CLICKED",
 					["time"] = 1705724849,
 					["name"] = "PrevButton",
+					["event"] = "BUTTON_CLICKED",
 				}, -- [27]
 				{
 					["button"] = "LeftButton",
@@ -348,18 +343,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705724972,
 				}, -- [34]
 				{
-					["time"] = 1705724972,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 47,
-					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 47,
+					},
 					["event"] = "GUIDES_LOADED",
+					["time"] = 1705724972,
 				}, -- [35]
 				{
 					["button"] = "LeftButton",
@@ -369,9 +364,9 @@ ZygorGuidesViewerSettings = {
 				}, -- [36]
 				{
 					["button"] = "LeftButton",
-					["time"] = 1705727391,
 					["name"] = "CloseButton",
 					["event"] = "BUTTON_CLICKED",
+					["time"] = 1705727391,
 				}, -- [37]
 				{
 					["time"] = 1705730781,
@@ -397,18 +392,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705732258,
 				}, -- [42]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1705732258,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705732258,
 				}, -- [43]
 				{
 					["state"] = "party",
@@ -439,18 +434,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705733280,
 				}, -- [49]
 				{
-					["event"] = "GUIDES_LOADED",
+					["time"] = 1705733281,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
 					},
-					["time"] = 1705733281,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
+					["event"] = "GUIDES_LOADED",
 				}, -- [50]
 				{
 					["time"] = 1705733291,
@@ -476,18 +471,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705733354,
 				}, -- [55]
 				{
-					["time"] = 1705733354,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 							["step"] = 126,
 						}, -- [1]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
 					["event"] = "GUIDES_LOADED",
+					["time"] = 1705733354,
 				}, -- [56]
 				{
 					["time"] = 1705733843,
@@ -513,6 +508,61 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1705734049,
 				}, -- [61]
 				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1705734049,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+					},
+				}, -- [62]
+				{
+					["time"] = 1705737092,
+					["event"] = "SHUTDOWN",
+				}, -- [63]
+				{
+					["time"] = 1705775066,
+					["event"] = "STARTUP",
+				}, -- [64]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705775066,
+				}, -- [65]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1705775066,
+				}, -- [66]
+				{
+					["time"] = 1705775437,
+					["event"] = "SHUTDOWN",
+				}, -- [67]
+				{
+					["time"] = 1705778055,
+					["event"] = "STARTUP",
+				}, -- [68]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705778055,
+				}, -- [69]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1705778055,
+				}, -- [70]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1705778058,
+				}, -- [71]
+				{
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -524,12 +574,12 @@ ZygorGuidesViewerSettings = {
 						["step"] = 126,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1705734049,
-				}, -- [62]
+					["time"] = 1705778058,
+				}, -- [72]
 				{
-					["time"] = 1705737092,
+					["time"] = 1705778657,
 					["event"] = "SHUTDOWN",
-				}, -- [63]
+				}, -- [73]
 			},
 			["debuglog"] = {
 				"20:01:00.478.378> Viewer started. ---------------------------", -- [1]
@@ -540,10 +590,17 @@ ZygorGuidesViewerSettings = {
 				"22:47:55.207.457> Viewer started. ---------------------------", -- [6]
 				"22:49:08.139.832> Viewer started. ---------------------------", -- [7]
 				"23:00:42.838.228> Viewer started. ---------------------------", -- [8]
+				"10:21:15.138.088> Viewer started. ---------------------------", -- [9]
+				"11:14:12.505.974> Viewer started. ---------------------------", -- [10]
 			},
 			["GGbuyitems"] = {
 			},
-			["initialFlightPathsLoaded"] = true,
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+					["step"] = 126,
+				}, -- [1]
+			},
 		},
 	},
 	["global"] = {
@@ -587,6 +644,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734045,
 			},
+			["item:175224::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
 			["item:187768::::::::18:1452::75:::::::"] = {
 				"Priest's Mitts", -- [1]
 				"|cffffffff|Hitem:187768::::::::18:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
@@ -604,7 +680,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["|cffffffff|Hitem:35::::::::15:1452::75:::::::|h[Bent Staff]|h|r"] = {
 				"Bent Staff", -- [1]
@@ -758,6 +834,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705735935,
 			},
+			["item:174022::::::::18:256:::::::::"] = {
+				"Ceremonial Hand Bell", -- [1]
+				"|cff9d9d9d|Hitem:174022::::::::18:256:::::::::|h[Ceremonial Hand Bell]|h|r", -- [2]
+				0, -- [3]
+				60, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				1769027, -- [10]
+				10305, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:175164::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Staff", -- [1]
+				"|cff1eff00|Hitem:175164::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				3736978, -- [10]
+				53, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
 			["item:187764::::::::13:1452::75:::::::"] = {
 				"Priest's Trousers", -- [1]
 				"|cffffffff|Hitem:187764::::::::13:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
@@ -871,6 +985,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725465,
+			},
+			["item:178136::::::::18:256:::::::::"] = {
+				"Emotional Residue", -- [1]
+				"|cff9d9d9d|Hitem:178136::::::::18:256:::::::::|h[Emotional Residue]|h|r", -- [2]
+				0, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1500930, -- [10]
+				3449, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
 			},
 			["item:35::::::::14:1452::75:::::::"] = {
 				"Bent Staff", -- [1]
@@ -1155,7 +1288,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["|cff9d9d9d|Hitem:184393::::::::14:1452:::::::::|h[Everburning Mange]|h|r"] = {
 				"Everburning Mange", -- [1]
@@ -1212,7 +1345,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
 			},
 			["item:187764::::::::15:1452::75:::::::"] = {
 				"Priest's Trousers", -- [1]
@@ -1288,7 +1421,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:175218::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Gloves", -- [1]
@@ -1326,7 +1459,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["|cff9d9d9d|Hitem:174022::::::::17:1452:::::::::|h[Ceremonial Hand Bell]|h|r"] = {
 				"Ceremonial Hand Bell", -- [1]
@@ -1421,7 +1554,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:187768::::::::13:1452::75:::::::"] = {
 				"Priest's Mitts", -- [1]
@@ -1461,6 +1594,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732253,
 			},
+			["item:174807::::::::18:256:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::18:256:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
 			["|cffffffff|Hitem:174807::::::::16:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r"] = {
 				"Stitched Cloth Belt", -- [1]
 				"|cffffffff|Hitem:174807::::::::16:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
@@ -1480,6 +1632,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732589,
 			},
+			["item:175241::::::::18:256:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::18:256:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:187765::::::::18:256::75:::::::"] = {
+				"Priest's Slippers", -- [1]
+				"|cffffffff|Hitem:187765::::::::18:256::75:::::::|h[Priest's Slippers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3946768, -- [10]
+				5, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
 			["item:187764::::::::18:1452::75:::::::"] = {
 				"Priest's Trousers", -- [1]
 				"|cffffffff|Hitem:187764::::::::18:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
@@ -1497,7 +1687,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:175164::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Staff", -- [1]
@@ -1668,7 +1858,26 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
+			},
+			["item:172451::::::::18:256:::::::::"] = {
+				"Weak Anima Mote", -- [1]
+				"|cffffffff|Hitem:172451::::::::18:256:::::::::|h[Weak Anima Mote]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Reagent", -- [6]
+				"Reagent", -- [7]
+				10, -- [8]
+				"", -- [9]
+				132841, -- [10]
+				0, -- [11]
+				5, -- [12]
+				0, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
 			},
 			["item:175245::::::::13:1452::::1:28:741:::::"] = {
 				"Runetusk Necklace", -- [1]
@@ -1726,6 +1935,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705732253,
+			},
+			["item:175220::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
 			},
 			["item:175229::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Mantle", -- [1]
@@ -1822,6 +2050,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728647,
 			},
+			["item:175208::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
 			["|cffffffff|Hitem:187763::::::::17:1452::75:::::::|h[Priest's Wristwraps]|h|r"] = {
 				"Priest's Wristwraps", -- [1]
 				"|cffffffff|Hitem:187763::::::::17:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
@@ -1898,6 +2145,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726884,
 			},
+			["item:187766::::::::16:1452::75:::::::"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::16:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732253,
+			},
 			["|cffffffff|Hitem:184313::::::::15:1452::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r"] = {
 				"Shattered Helm of Domination", -- [1]
 				"|cffffffff|Hitem:184313::::::::15:1452::11::1:28:2570:::::|h[Shattered Helm of Domination]|h|r", -- [2]
@@ -1917,6 +2183,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705727295,
 			},
+			["item:187768::::::::18:256::75:::::::"] = {
+				"Priest's Mitts", -- [1]
+				"|cffffffff|Hitem:187768::::::::18:256::75:::::::|h[Priest's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:187767::::::::18:256::75:::::::"] = {
+				"Priest's Robes", -- [1]
+				"|cffffffff|Hitem:187767::::::::18:256::75:::::::|h[Priest's Robes]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3946770, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
 			["|cffffffff|Hitem:6948::::::::18:1452:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::18:1452:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -1934,7 +2238,64 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			["item:175224::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732253,
+			},
+			["item:175218::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
+			["item:174811::::::::18:256:::1:6499:2:9:10:28:741:::::"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::18:256:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				135006, -- [10]
+				26, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
 			},
 			["item:174803::::::::17:1452:::1:6499:2:9:5:28:741:::::"] = {
 				"Stitched Cloth Bracers", -- [1]
@@ -2031,6 +2392,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732253,
 			},
+			["item:187763::::::::18:256::75:::::::"] = {
+				"Priest's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187763::::::::18:256::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
 			["|cffffffff|Hitem:35::::::::13:1452::75:::::::|h[Bent Staff]|h|r"] = {
 				"Bent Staff", -- [1]
 				"|cffffffff|Hitem:35::::::::13:1452::75:::::::|h[Bent Staff]|h|r", -- [2]
@@ -2067,7 +2447,83 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705778055,
+			},
+			["item:187766::::::::18:256::75:::::::"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::18:256::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:173204::::::::18:256:::::::::"] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::18:256:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778608,
+			},
+			["item:187764::::::::18:256::75:::::::"] = {
+				"Priest's Trousers", -- [1]
+				"|cffffffff|Hitem:187764::::::::18:256::75:::::::|h[Priest's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:173202::::::::18:256:::::::::"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::18:256:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778608,
 			},
 			["item:6948::::::::15:1452:::::::::"] = {
 				"Hearthstone", -- [1]
@@ -2088,6 +2544,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726218,
 			},
+			["item:175224::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725464,
+			},
 			["item:187765::::::::15:1452::75:::::::"] = {
 				"Priest's Slippers", -- [1]
 				"|cffffffff|Hitem:187765::::::::15:1452::75:::::::|h[Priest's Slippers]|h|r", -- [2]
@@ -2106,6 +2581,63 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705726217,
+			},
+			["item:175245::::::::16:1452::::1:28:741:::::"] = {
+				"Runetusk Necklace", -- [1]
+				"|cff1eff00|Hitem:175245::::::::16:1452::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				466970, -- [10]
+				8, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732253,
+			},
+			["item:175234::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
+			["item:175238::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
 			},
 			[175241] = {
 				"Expedition Healing Potion", -- [1]
@@ -2126,6 +2658,63 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734414,
 			},
+			["item:175229::::::::18:256::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Mantle", -- [1]
+				"|cff1eff00|Hitem:175229::::::::18:256::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1706391, -- [10]
+				23, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778607,
+			},
+			["item:35::::::::18:256::75:::::::"] = {
+				"Bent Staff", -- [1]
+				"|cffffffff|Hitem:35::::::::18:256::75:::::::|h[Bent Staff]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				135145, -- [10]
+				14, -- [11]
+				2, -- [12]
+				10, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:175229::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Mantle", -- [1]
+				"|cff1eff00|Hitem:175229::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1706391, -- [10]
+				23, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705734045,
+			},
 			["|cffffffff|Hitem:6948::::::::13:1452:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::13:1452:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -2145,9 +2734,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725559,
 			},
-			["item:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::"] = {
+			["|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:9:18:28:2570:::::|h[Pure Aspirant's Leggings]|h|r"] = {
 				"Pure Aspirant's Leggings", -- [1]
-				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:9:18:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
 				2, -- [3]
 				85, -- [4]
 				18, -- [5]
@@ -2162,7 +2751,45 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			["item:175624::::::::18:256::11:1:4790:2:9:18:28:2570:::::"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::18:256::11:1:4790:2:9:18:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				370, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["|cff9d9d9d|Hitem:178136::::::::18:1452:::::::::|h[Emotional Residue]|h|r"] = {
+				"Emotional Residue", -- [1]
+				"|cff9d9d9d|Hitem:178136::::::::18:1452:::::::::|h[Emotional Residue]|h|r", -- [2]
+				0, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1500930, -- [10]
+				3449, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778059,
 			},
 			["item:184393::::::::15:1452:::::::::"] = {
 				"Everburning Mange", -- [1]
@@ -2183,44 +2810,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726218,
 			},
-			["item:175224::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732253,
-			},
-			["|cff9d9d9d|Hitem:178136::::::::18:1452:::::::::|h[Emotional Residue]|h|r"] = {
-				"Emotional Residue", -- [1]
-				"|cff9d9d9d|Hitem:178136::::::::18:1452:::::::::|h[Emotional Residue]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1500930, -- [10]
-				3449, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
 			["item:178136::::::::18:1452:::::::::"] = {
 				"Emotional Residue", -- [1]
 				"|cff9d9d9d|Hitem:178136::::::::18:1452:::::::::|h[Emotional Residue]|h|r", -- [2]
@@ -2238,7 +2827,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705736982,
+				["timestamp"] = 1705778055,
 			},
 			["|cffffffff|Hitem:187764::::::::18:1452::75:::::::|h[Priest's Trousers]|h|r"] = {
 				"Priest's Trousers", -- [1]
@@ -2257,7 +2846,45 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			["|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r"] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778059,
+			},
+			["|cffffffff|Hitem:187768::::::::18:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
+				"Priest's Mitts", -- [1]
+				"|cffffffff|Hitem:187768::::::::18:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778059,
 			},
 			["|cffffffff|Hitem:6948::::::::16:1452:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -2278,138 +2905,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732589,
 			},
-			["|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r"] = {
-				"Stitched Cloth Belt", -- [1]
-				"|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
-				1, -- [3]
+			["item:175164::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Staff", -- [1]
+				"|cff1eff00|Hitem:175164::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
+				2, -- [3]
 				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
+				"INVTYPE_2HWEAPON", -- [9]
+				3736978, -- [10]
+				53, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["|cffffffff|Hitem:187766::::::::18:1452::75:::::::|h[Priest's Sash]|h|r"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::18:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["|cffffffff|Hitem:187768::::::::18:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
-				"Priest's Mitts", -- [1]
-				"|cffffffff|Hitem:187768::::::::18:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["item:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726218,
-			},
-			["|cffffffff|Hitem:187766::::::::17:1452::75:::::::|h[Priest's Sash]|h|r"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::17:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735526,
-			},
-			["|cffffffff|Hitem:174803::::::::18:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::18:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			[187763] = {
-				"Priest's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187763::::::::13:1452:::::::::|h[Priest's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705734414,
+				["timestamp"] = 1705734045,
 			},
 			["|cffffffff|Hitem:187763::::::::18:1452::75:::::::|h[Priest's Wristwraps]|h|r"] = {
 				"Priest's Wristwraps", -- [1]
@@ -2428,7 +2941,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
 			},
 			[35] = {
 				"Bent Staff", -- [1]
@@ -2449,24 +2962,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734414,
 			},
-			["|cffffffff|Hitem:187767::::::::18:1452::75:::::::|h[Priest's Robes]|h|r"] = {
-				"Priest's Robes", -- [1]
-				"|cffffffff|Hitem:187767::::::::18:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
+			["item:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726218,
+			},
+			["|cffffffff|Hitem:187766::::::::13:1452::75:::::::|h[Priest's Sash]|h|r"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::13:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3946770, -- [10]
-				7, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705725559,
 			},
 			["|cffffffff|Hitem:174811::::::::18:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
 				"Stitched Cloth Tunic", -- [1]
@@ -2485,7 +3017,26 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			[187763] = {
+				"Priest's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187763::::::::13:1452:::::::::|h[Priest's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705734414,
 			},
 			["|cffffffff|Hitem:178553::::::::15:1452:::::::::|h[Mawsworn Key]|h|r"] = {
 				"Mawsworn Key", -- [1]
@@ -2525,63 +3076,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705735526,
 			},
-			["item:173202::::::::18:1452:::::::::"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::18:1452:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705735646,
-			},
-			[187764] = {
-				"Priest's Trousers", -- [1]
-				"|cffffffff|Hitem:187764::::::::13:1452:::::::::|h[Priest's Trousers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705734414,
-			},
-			[173204] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::16:1452:::::::::|h[Lightless Silk]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705734413,
-			},
 			["|cffffffff|Hitem:175241::::::::18:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
 				"Expedition Healing Potion", -- [1]
 				"|cffffffff|Hitem:175241::::::::18:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
@@ -2599,26 +3093,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["item:187766::::::::15:1452::75:::::::"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::15:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726218,
+				["timestamp"] = 1705778059,
 			},
 			["item:175229::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Mantle", -- [1]
@@ -2675,7 +3150,45 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			["item:173202::::::::18:1452:::::::::"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::18:1452:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778055,
+			},
+			[187764] = {
+				"Priest's Trousers", -- [1]
+				"|cffffffff|Hitem:187764::::::::13:1452:::::::::|h[Priest's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705734414,
 			},
 			["|cffffffff|Hitem:6948::::::::14:1452:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -2696,43 +3209,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726212,
 			},
-			["item:174807::::::::13:1452:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Cloth Belt", -- [1]
-				"|cffffffff|Hitem:174807::::::::13:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
-				1, -- [3]
+			["item:175208::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
 				5, -- [4]
-				1, -- [5]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725464,
+			},
+			["item:187766::::::::15:1452::75:::::::"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::15:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
+				3946767, -- [10]
 				3, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725465,
-			},
-			["|cffffffff|Hitem:174803::::::::14:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::14:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726212,
+				["timestamp"] = 1705726218,
 			},
 			["|cffffffff|Hitem:174807::::::::13:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r"] = {
 				"Stitched Cloth Belt", -- [1]
@@ -2772,6 +3285,120 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725565,
 			},
+			["item:174780::::::::18:1452:::::::::"] = {
+				"Emptied First Aid Kit", -- [1]
+				"|cffffffff|Hitem:174780::::::::18:1452:::::::::|h[Emptied First Aid Kit]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				0, -- [5]
+				"Container", -- [6]
+				"Bag", -- [7]
+				1, -- [8]
+				"INVTYPE_BAG", -- [9]
+				1529271, -- [10]
+				10, -- [11]
+				1, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705735703,
+			},
+			["|cffffffff|Hitem:174803::::::::18:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::18:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778059,
+			},
+			["|cffffffff|Hitem:187763::::::::14:1452::75:::::::|h[Priest's Wristwraps]|h|r"] = {
+				"Priest's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187763::::::::14:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726212,
+			},
+			["|cffffffff|Hitem:174803::::::::14:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::14:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726212,
+			},
+			["item:175234::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732253,
+			},
+			["|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728569,
+			},
 			[173202] = {
 				"Shrouded Cloth", -- [1]
 				"|cffffffff|Hitem:173202::::::::15:1452:::::::::|h[Shrouded Cloth]|h|r", -- [2]
@@ -2791,28 +3418,9 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705734413,
 			},
-			["|cffffffff|Hitem:172451::::::::18:1452:::::::::|h[Weak Anima Mote]|h|r"] = {
-				"Weak Anima Mote", -- [1]
-				"|cffffffff|Hitem:172451::::::::18:1452:::::::::|h[Weak Anima Mote]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Reagent", -- [6]
-				"Reagent", -- [7]
-				10, -- [8]
-				"", -- [9]
-				132841, -- [10]
-				0, -- [11]
-				5, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["item:175241::::::::14:1452:::::::::"] = {
+			["|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
 				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::14:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				"|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
 				3, -- [4]
 				0, -- [5]
@@ -2827,7 +3435,26 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725565,
+				["timestamp"] = 1705728569,
+			},
+			["item:173204::::::::18:1452:::::::::"] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::18:1452:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705778055,
 			},
 			["item:174807::::::::15:1452:::1:6499:2:9:4:28:741:::::"] = {
 				"Stitched Cloth Belt", -- [1]
@@ -2903,45 +3530,45 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
-			["item:174780::::::::18:1452:::::::::"] = {
-				"Emptied First Aid Kit", -- [1]
-				"|cffffffff|Hitem:174780::::::::18:1452:::::::::|h[Emptied First Aid Kit]|h|r", -- [2]
+			["|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
+				"Priest's Mitts", -- [1]
+				"|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				0, -- [5]
-				"Container", -- [6]
-				"Bag", -- [7]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_BAG", -- [9]
-				1529271, -- [10]
-				10, -- [11]
-				1, -- [12]
-				0, -- [13]
-				0, -- [14]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735703,
+				["timestamp"] = 1705732589,
 			},
-			["item:175238::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+			["item:175224::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				29, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705732253,
+				["timestamp"] = 1705725564,
 			},
 			["|cff1eff00|Hitem:173204::::::::17:1452:::::::::|h[Lightless Silk]|h|r"] = {
 				"Lightless Silk", -- [1]
@@ -2962,43 +3589,43 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705735526,
 			},
-			["|cffffffff|Hitem:187766::::::::14:1452::75:::::::|h[Priest's Sash]|h|r"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::14:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+			["item:174807::::::::14:1452:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::14:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+				5, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
+				132511, -- [10]
 				3, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726212,
+				["timestamp"] = 1705725565,
 			},
-			["|cffffffff|Hitem:187763::::::::14:1452::75:::::::|h[Priest's Wristwraps]|h|r"] = {
-				"Priest's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187763::::::::14:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175220::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
 				4, -- [12]
 				1, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726212,
+				["timestamp"] = 1705732253,
 			},
 			[187767] = {
 				"Priest's Robes", -- [1]
@@ -3038,28 +3665,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732253,
 			},
-			["item:175234::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				15, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732253,
-			},
-			["item:174811::::::::18:1452:::1:6499:2:9:10:28:741:::::"] = {
+			["|cffffffff|Hitem:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
 				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::18:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				"|cffffffff|Hitem:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
@@ -3074,7 +3682,26 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705726212,
+			},
+			["item:175234::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725564,
 			},
 			["|cff9d9d9d|Hitem:174022::::::::18:1452:::::::::|h[Ceremonial Hand Bell]|h|r"] = {
 				"Ceremonial Hand Bell", -- [1]
@@ -3093,30 +3720,30 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
 			},
-			["item:173204::::::::18:1452:::::::::"] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::18:1452:::::::::|h[Lightless Silk]|h|r", -- [2]
+			["item:175238::::::::15:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::15:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
 				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705735646,
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726217,
 			},
-			["|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
+			["|cffffffff|Hitem:187768::::::::14:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
 				"Priest's Mitts", -- [1]
-				"|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
+				"|cffffffff|Hitem:187768::::::::14:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -3131,7 +3758,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705732589,
+				["timestamp"] = 1705726212,
 			},
 			["item:187763::::::::16:1452::75:::::::"] = {
 				"Priest's Wristwraps", -- [1]
@@ -3228,24 +3855,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726045,
 			},
-			["item:175224::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
+			["|cffffffff|Hitem:175241::::::::16:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::16:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
 				1, -- [13]
-				1, -- [14]
-				0, -- [15]
+				0, -- [14]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725564,
+				["timestamp"] = 1705732589,
 			},
 			["item:187768::::::::14:1452::75:::::::"] = {
 				"Priest's Mitts", -- [1]
@@ -3302,45 +3929,45 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705778055,
 			},
-			["item:174807::::::::14:1452:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Cloth Belt", -- [1]
-				"|cffffffff|Hitem:174807::::::::14:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
+			["item:175241::::::::14:1452:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::14:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				3, -- [11]
-				4, -- [12]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
 				1, -- [13]
-				2, -- [14]
-				0, -- [15]
+				0, -- [14]
+				8, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725565,
 			},
-			["item:175220::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+			["item:175234::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705732253,
+				["timestamp"] = 1705778055,
 			},
 			["|cff1eff00|Hitem:173204::::::::18:1452:::::::::|h[Lightless Silk]|h|r"] = {
 				"Lightless Silk", -- [1]
@@ -3359,45 +3986,45 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
 			},
-			["|cffffffff|Hitem:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
-				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				135006, -- [10]
-				26, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726212,
-			},
-			["item:175234::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+			["item:175238::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				15, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725564,
+				["timestamp"] = 1705778055,
+			},
+			["item:175238::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725464,
 			},
 			[174803] = {
 				"Stitched Cloth Bracers", -- [1]
@@ -3418,120 +4045,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734414,
 			},
-			["|cffffffff|Hitem:187764::::::::14:1452::75:::::::|h[Priest's Trousers]|h|r"] = {
-				"Priest's Trousers", -- [1]
-				"|cffffffff|Hitem:187764::::::::14:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726212,
-			},
-			["|cffffffff|Hitem:187768::::::::14:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
-				"Priest's Mitts", -- [1]
-				"|cffffffff|Hitem:187768::::::::14:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726212,
-			},
-			["item:187768::::::::16:1452::75:::::::"] = {
-				"Priest's Mitts", -- [1]
-				"|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732253,
-			},
-			["|cffffffff|Hitem:175241::::::::16:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::16:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732589,
-			},
-			["item:175234::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				15, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735645,
-			},
-			["item:175238::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735645,
-			},
 			["item:176809::::::::18:1452:::::::::"] = {
 				"Cracked Actuator", -- [1]
 				"|cff9d9d9d|Hitem:176809::::::::18:1452:::::::::|h[Cracked Actuator]|h|r", -- [2]
@@ -3549,7 +4062,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:187767::::::::13:1452::75:::::::"] = {
 				"Priest's Robes", -- [1]
@@ -3570,24 +4083,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725465,
 			},
-			["item:187765::::::::14:1452::75:::::::"] = {
-				"Priest's Slippers", -- [1]
-				"|cffffffff|Hitem:187765::::::::14:1452::75:::::::|h[Priest's Slippers]|h|r", -- [2]
+			["item:187768::::::::16:1452::75:::::::"] = {
+				"Priest's Mitts", -- [1]
+				"|cffffffff|Hitem:187768::::::::16:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3946768, -- [10]
-				5, -- [11]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725564,
+				["timestamp"] = 1705732253,
 			},
 			["item:175229::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Mantle", -- [1]
@@ -3606,7 +4119,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705778055,
 			},
 			["item:187763::::::::15:1452::75:::::::"] = {
 				"Priest's Wristwraps", -- [1]
@@ -3627,25 +4140,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726218,
 			},
-			["item:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::"] = {
-				"Stitched Cloth Belt", -- [1]
-				"|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735646,
-			},
 			["item:175218::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Gloves", -- [1]
 				"|cff1eff00|Hitem:175218::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
@@ -3663,7 +4157,26 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705778055,
+			},
+			["item:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				370, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705737056,
 			},
 			["item:175208::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Robe", -- [1]
@@ -3682,7 +4195,121 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705778055,
+			},
+			["item:187765::::::::14:1452::75:::::::"] = {
+				"Priest's Slippers", -- [1]
+				"|cffffffff|Hitem:187765::::::::14:1452::75:::::::|h[Priest's Slippers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3946768, -- [10]
+				5, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725564,
+			},
+			["item:175164::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Staff", -- [1]
+				"|cff1eff00|Hitem:175164::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Staves", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				3736978, -- [10]
+				53, -- [11]
+				2, -- [12]
+				10, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778055,
+			},
+			["item:174807::::::::13:1452:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::13:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725465,
+			},
+			["item:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::18:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778055,
+			},
+			["item:175234::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				15, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705734045,
+			},
+			["item:175220::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778055,
 			},
 			["item:187766::::::::14:1452::75:::::::"] = {
 				"Priest's Sash", -- [1]
@@ -3722,81 +4349,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734045,
 			},
-			["item:175164::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Staff", -- [1]
-				"|cff1eff00|Hitem:175164::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
-				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				3736978, -- [10]
-				53, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735645,
-			},
-			["item:175234::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
+			["item:1804::::::::17:1452::11:1:3524::::::"] = {
+				"Tough Leather Boots", -- [1]
+				"|cff9d9d9d|Hitem:1804::::::::17:1452::11:1:3524::::::|h[Tough Leather Boots]|h|r", -- [2]
+				0, -- [3]
+				16, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
-				"Cloth", -- [7]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				15, -- [11]
+				"INVTYPE_FEET", -- [9]
+				132543, -- [10]
+				27, -- [11]
 				4, -- [12]
-				1, -- [13]
-				1, -- [14]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705734045,
-			},
-			["item:175220::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735645,
-			},
-			["item:175224::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735645,
+				["timestamp"] = 1705734396,
 			},
 			["|cffffffff|Hitem:175241::::::::14:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
 				"Expedition Healing Potion", -- [1]
@@ -3874,25 +4444,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725564,
 			},
-			["item:187763::::::::13:1452::75:::::::"] = {
-				"Priest's Wristwraps", -- [1]
-				"|cffffffff|Hitem:187763::::::::13:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				3946769, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725465,
-			},
 			["|cffffffff|Hitem:187767::::::::16:1452::75:::::::|h[Priest's Robes]|h|r"] = {
 				"Priest's Robes", -- [1]
 				"|cffffffff|Hitem:187767::::::::16:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
@@ -3950,81 +4501,81 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726217,
 			},
-			["|cffffffff|Hitem:174811::::::::15:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
-				"Stitched Cloth Tunic", -- [1]
-				"|cffffffff|Hitem:174811::::::::15:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+			["item:187763::::::::13:1452::75:::::::"] = {
+				"Priest's Wristwraps", -- [1]
+				"|cffffffff|Hitem:187763::::::::13:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
-				1, -- [5]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				3946769, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725465,
+			},
+			["|cffffffff|Hitem:187767::::::::13:1452::75:::::::|h[Priest's Robes]|h|r"] = {
+				"Priest's Robes", -- [1]
+				"|cffffffff|Hitem:187767::::::::13:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_CHEST", -- [9]
-				135006, -- [10]
-				26, -- [11]
+				3946770, -- [10]
+				7, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705728569,
+				["timestamp"] = 1705725559,
 			},
-			["|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r"] = {
-				"Pure Aspirant's Leggings", -- [1]
-				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+			["|cffffffff|Hitem:175241::::::::13:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::13:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725559,
+			},
+			["item:175224::::::::18:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::18:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
 				2, -- [3]
-				85, -- [4]
-				18, -- [5]
+				5, -- [4]
+				10, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_LEGS", -- [9]
-				3386281, -- [10]
-				370, -- [11]
+				1706388, -- [10]
+				29, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705737056,
-			},
-			["item:1804::::::::17:1452::11:1:3524::::::"] = {
-				"Tough Leather Boots", -- [1]
-				"|cff9d9d9d|Hitem:1804::::::::17:1452::11:1:3524::::::|h[Tough Leather Boots]|h|r", -- [2]
-				0, -- [3]
-				16, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				132543, -- [10]
-				27, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705734396,
-			},
-			[174807] = {
-				"Stitched Cloth Belt", -- [1]
-				"|cffffffff|Hitem:174807::::::::13:1452:::::::::|h[Stitched Cloth Belt]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				5, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705734414,
+				["timestamp"] = 1705778055,
 			},
 			["item:175229::::::::15:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Mantle", -- [1]
@@ -4045,43 +4596,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726217,
 			},
-			["|cffffffff|Hitem:187768::::::::17:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
-				"Priest's Mitts", -- [1]
-				"|cffffffff|Hitem:187768::::::::17:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:28:2570:9:18:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				18, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3946771, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				370, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705737056,
+			},
+			["item:175220::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705725564,
+			},
+			[174807] = {
+				"Stitched Cloth Belt", -- [1]
+				"|cffffffff|Hitem:174807::::::::13:1452:::::::::|h[Stitched Cloth Belt]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				5, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735526,
-			},
-			["item:174780::::::::17:1452:::::::::"] = {
-				"Emptied First Aid Kit", -- [1]
-				"|cffffffff|Hitem:174780::::::::17:1452:::::::::|h[Emptied First Aid Kit]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				0, -- [5]
-				"Container", -- [6]
-				"Bag", -- [7]
-				1, -- [8]
-				"INVTYPE_BAG", -- [9]
-				1529271, -- [10]
-				10, -- [11]
-				1, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705735472,
+				["timestamp"] = 1705734414,
 			},
 			["|cffffffff|Hitem:174811::::::::17:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
 				"Stitched Cloth Tunic", -- [1]
@@ -4120,6 +4690,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705735526,
+			},
+			["item:174780::::::::17:1452:::::::::"] = {
+				"Emptied First Aid Kit", -- [1]
+				"|cffffffff|Hitem:174780::::::::17:1452:::::::::|h[Emptied First Aid Kit]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				0, -- [5]
+				"Container", -- [6]
+				"Bag", -- [7]
+				1, -- [8]
+				"INVTYPE_BAG", -- [9]
+				1529271, -- [10]
+				10, -- [11]
+				1, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705735472,
 			},
 			["item:174811::::::::13:1452:::1:6499:2:9:10:28:741:::::"] = {
 				"Stitched Cloth Tunic", -- [1]
@@ -4178,24 +4767,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732589,
 			},
-			["item:175241::::::::15:1452:::::::::"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+			["|cffffffff|Hitem:172451::::::::18:1452:::::::::|h[Weak Anima Mote]|h|r"] = {
+				"Weak Anima Mote", -- [1]
+				"|cffffffff|Hitem:172451::::::::18:1452:::::::::|h[Weak Anima Mote]|h|r", -- [2]
 				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
+				1, -- [4]
+				1, -- [5]
+				"Reagent", -- [6]
+				"Reagent", -- [7]
+				10, -- [8]
 				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
+				132841, -- [10]
+				0, -- [11]
+				5, -- [12]
+				0, -- [13]
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705726218,
+				["timestamp"] = 1705778059,
 			},
 			["|cffffffff|Hitem:174803::::::::13:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
 				"Stitched Cloth Bracers", -- [1]
@@ -4215,6 +4804,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705725559,
+			},
+			["item:175241::::::::15:1452:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726218,
 			},
 			["item:187767::::::::15:1452::75:::::::"] = {
 				"Priest's Robes", -- [1]
@@ -4254,9 +4862,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732253,
 			},
-			["item:175245::::::::16:1452::::1:28:741:::::"] = {
+			["item:176809::::::::18:256:::::::::"] = {
+				"Cracked Actuator", -- [1]
+				"|cff9d9d9d|Hitem:176809::::::::18:256:::::::::|h[Cracked Actuator]|h|r", -- [2]
+				0, -- [3]
+				120, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				200, -- [8]
+				"", -- [9]
+				1405817, -- [10]
+				4534, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:174803::::::::18:256:::1:6499:2:9:5:28:741:::::"] = {
+				"Stitched Cloth Bracers", -- [1]
+				"|cffffffff|Hitem:174803::::::::18:256:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132609, -- [10]
+				4, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705778608,
+			},
+			["item:175245::::::::18:256::::1:28:741:::::"] = {
 				"Runetusk Necklace", -- [1]
-				"|cff1eff00|Hitem:175245::::::::16:1452::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				"|cff1eff00|Hitem:175245::::::::18:256::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				0, -- [5]
@@ -4271,64 +4917,26 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705732253,
+				["timestamp"] = 1705778607,
 			},
-			["|cffffffff|Hitem:187764::::::::16:1452::75:::::::|h[Priest's Trousers]|h|r"] = {
-				"Priest's Trousers", -- [1]
-				"|cffffffff|Hitem:187764::::::::16:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+			["item:175624::::::::18:1452::11:1:4790:2:9:18:28:2570:::::"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::18:1452::11:1:4790:2:9:18:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				18, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_LEGS", -- [9]
-				3946772, -- [10]
-				7, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732589,
-			},
-			["item:175229::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Mantle", -- [1]
-				"|cff1eff00|Hitem:175229::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Mantle]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1706391, -- [10]
-				23, -- [11]
+				3386281, -- [10]
+				370, -- [11]
 				4, -- [12]
 				1, -- [13]
 				1, -- [14]
-				0, -- [15]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705734045,
-			},
-			["item:187766::::::::16:1452::75:::::::"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::16:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705732253,
+				["timestamp"] = 1705778055,
 			},
 			["item:175224::::::::15:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Leggings", -- [1]
@@ -4482,6 +5090,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725464,
 			},
+			["|cffffffff|Hitem:187768::::::::17:1452::75:::::::|h[Priest's Mitts]|h|r"] = {
+				"Priest's Mitts", -- [1]
+				"|cffffffff|Hitem:187768::::::::17:1452::75:::::::|h[Priest's Mitts]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3946771, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705735526,
+			},
 			["item:173202::::::::15:1452:::::::::"] = {
 				"Shrouded Cloth", -- [1]
 				"|cffffffff|Hitem:173202::::::::15:1452:::::::::|h[Shrouded Cloth]|h|r", -- [2]
@@ -4500,25 +5127,6 @@ ZygorGuidesViewerSettings = {
 				8, -- [15]
 				[17] = true,
 				["timestamp"] = 1705726452,
-			},
-			["item:175220::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::14:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725564,
 			},
 			["item:175238::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Cord", -- [1]
@@ -4539,6 +5147,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734045,
 			},
+			["|cffffffff|Hitem:174811::::::::15:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::15:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				135006, -- [10]
+				26, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705728569,
+			},
 			[6948] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::13:1452:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -4558,24 +5185,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705734414,
 			},
-			["|cffffffff|Hitem:175241::::::::13:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::13:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+			["|cffffffff|Hitem:187767::::::::18:1452::75:::::::|h[Priest's Robes]|h|r"] = {
+				"Priest's Robes", -- [1]
+				"|cffffffff|Hitem:187767::::::::18:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
 				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3946770, -- [10]
+				7, -- [11]
+				4, -- [12]
 				1, -- [13]
-				0, -- [14]
-				8, -- [15]
+				2, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725559,
+				["timestamp"] = 1705778059,
 			},
 			["|cffffffff|Hitem:6948::::::::17:1452:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -4860,7 +5487,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:175208::::::::14:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Robe", -- [1]
@@ -4900,6 +5527,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726217,
 			},
+			["item:175238::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Cord", -- [1]
+				"|cff1eff00|Hitem:175238::::::::16:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1706370, -- [10]
+				14, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732253,
+			},
 			["|cffffffff|Hitem:187767::::::::14:1452::75:::::::|h[Priest's Robes]|h|r"] = {
 				"Priest's Robes", -- [1]
 				"|cffffffff|Hitem:187767::::::::14:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
@@ -4938,25 +5584,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726217,
 			},
-			["item:175238::::::::15:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::15:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705726217,
-			},
 			["item:175245::::::::14:1452::::1:28:741:::::"] = {
 				"Runetusk Necklace", -- [1]
 				"|cff1eff00|Hitem:175245::::::::14:1452::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
@@ -4976,6 +5603,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725564,
 			},
+			["|cffffffff|Hitem:187764::::::::14:1452::75:::::::|h[Priest's Trousers]|h|r"] = {
+				"Priest's Trousers", -- [1]
+				"|cffffffff|Hitem:187764::::::::14:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726212,
+			},
 			["|cffffffff|Hitem:187763::::::::15:1452::75:::::::|h[Priest's Wristwraps]|h|r"] = {
 				"Priest's Wristwraps", -- [1]
 				"|cffffffff|Hitem:187763::::::::15:1452::75:::::::|h[Priest's Wristwraps]|h|r", -- [2]
@@ -4994,6 +5640,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705728569,
+			},
+			[173204] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::16:1452:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1705734413,
 			},
 			["|cffffffff|Hitem:174811::::::::16:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r"] = {
 				"Stitched Cloth Tunic", -- [1]
@@ -5071,44 +5736,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725559,
 			},
-			["|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::15:1452:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728569,
-			},
-			["|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r"] = {
-				"Stitched Cloth Bracers", -- [1]
-				"|cffffffff|Hitem:174803::::::::15:1452:::1:6499:2:9:5:28:741:::::|h[Stitched Cloth Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132609, -- [10]
-				4, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705728569,
-			},
 			["item:6948::::::::17:1452:::::::::"] = {
 				"Hearthstone", -- [1]
 				"|cffffffff|Hitem:6948::::::::17:1452:::::::::|h[Hearthstone]|h|r", -- [2]
@@ -5147,24 +5774,24 @@ ZygorGuidesViewerSettings = {
 				[17] = true,
 				["timestamp"] = 1705732253,
 			},
-			["|cffffffff|Hitem:187767::::::::13:1452::75:::::::|h[Priest's Robes]|h|r"] = {
-				"Priest's Robes", -- [1]
-				"|cffffffff|Hitem:187767::::::::13:1452::75:::::::|h[Priest's Robes]|h|r", -- [2]
+			["item:174811::::::::18:1452:::1:6499:2:9:10:28:741:::::"] = {
+				"Stitched Cloth Tunic", -- [1]
+				"|cffffffff|Hitem:174811::::::::18:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+				5, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Cloth", -- [7]
 				1, -- [8]
 				"INVTYPE_CHEST", -- [9]
-				3946770, -- [10]
-				7, -- [11]
+				135006, -- [10]
+				26, -- [11]
 				4, -- [12]
 				1, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725559,
+				["timestamp"] = 1705778055,
 			},
 			["item:187766::::::::18:1452::75:::::::"] = {
 				"Priest's Sash", -- [1]
@@ -5183,7 +5810,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
 			},
 			["item:175241::::::::18:1452:::::::::"] = {
 				"Expedition Healing Potion", -- [1]
@@ -5202,7 +5829,26 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705735646,
+				["timestamp"] = 1705778055,
+			},
+			["|cffffffff|Hitem:187766::::::::14:1452::75:::::::|h[Priest's Sash]|h|r"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::14:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705726212,
 			},
 			["|cffffffff|Hitem:174807::::::::17:1452:::1:6499:2:9:4:28:741:::::|h[Stitched Cloth Belt]|h|r"] = {
 				"Stitched Cloth Belt", -- [1]
@@ -5241,25 +5887,6 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1705726212,
-			},
-			["item:175208::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Robe", -- [1]
-				"|cff1eff00|Hitem:175208::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_ROBE", -- [9]
-				1706379, -- [10]
-				30, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725464,
 			},
 			["item:175241::::::::16:1452:::::::::"] = {
 				"Expedition Healing Potion", -- [1]
@@ -5318,24 +5945,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705725464,
 			},
-			["item:175224::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
+			["item:6948::::::::18:256:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::18:256:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				29, -- [11]
-				4, -- [12]
-				1, -- [13]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705725464,
+				["timestamp"] = 1705778608,
 			},
 			["item:175234::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Cuffs", -- [1]
@@ -5451,24 +6078,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705726217,
 			},
-			["item:175164::::::::17:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Staff", -- [1]
-				"|cff1eff00|Hitem:175164::::::::17:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Staff]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Staves", -- [7]
+			["|cffffffff|Hitem:187766::::::::18:1452::75:::::::|h[Priest's Sash]|h|r"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::18:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
 				1, -- [8]
-				"INVTYPE_2HWEAPON", -- [9]
-				3736978, -- [10]
-				53, -- [11]
-				2, -- [12]
-				10, -- [13]
-				1, -- [14]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705734045,
+				["timestamp"] = 1705778059,
 			},
 			["|cffffffff|Hitem:35::::::::18:1452::75:::::::|h[Bent Staff]|h|r"] = {
 				"Bent Staff", -- [1]
@@ -5487,7 +6114,26 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705737056,
+				["timestamp"] = 1705778059,
+			},
+			["|cffffffff|Hitem:187766::::::::17:1452::75:::::::|h[Priest's Sash]|h|r"] = {
+				"Priest's Sash", -- [1]
+				"|cffffffff|Hitem:187766::::::::17:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3946767, -- [10]
+				3, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705735526,
 			},
 			["item:175208::::::::16:1452::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Cloth Robe", -- [1]
@@ -5527,44 +6173,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705728569,
 			},
-			["|cffffffff|Hitem:187766::::::::13:1452::75:::::::|h[Priest's Sash]|h|r"] = {
-				"Priest's Sash", -- [1]
-				"|cffffffff|Hitem:187766::::::::13:1452::75:::::::|h[Priest's Sash]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3946767, -- [10]
-				3, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725559,
-			},
-			["item:175238::::::::13:1452::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Cord", -- [1]
-				"|cff1eff00|Hitem:175238::::::::13:1452::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Cord]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1706370, -- [10]
-				14, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705725464,
-			},
 			["item:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::"] = {
 				"Stitched Cloth Tunic", -- [1]
 				"|cffffffff|Hitem:174811::::::::14:1452:::1:6499:2:9:10:28:741:::::|h[Stitched Cloth Tunic]|h|r", -- [2]
@@ -5603,6 +6211,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1705732589,
 			},
+			["|cffffffff|Hitem:187764::::::::16:1452::75:::::::|h[Priest's Trousers]|h|r"] = {
+				"Priest's Trousers", -- [1]
+				"|cffffffff|Hitem:187764::::::::16:1452::75:::::::|h[Priest's Trousers]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3946772, -- [10]
+				7, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1705732589,
+			},
 		},
 		["questnames"] = {
 		},
@@ -5634,14 +6261,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
-				[2163] = true,
 				[2413] = true,
+				[2163] = true,
+				[2165] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2165] = true,
+				[2103] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -5698,13 +6325,13 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["gear"] = true,
+				[1560] = true,
 			},
-			["load_mail"] = true,
 			["show_ui"] = true,
+			["load_mail"] = true,
 			["stickycolored"] = false,
 			["widgets"] = {
 				["timeplayed"] = {
@@ -5827,14 +6454,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
-				[2163] = true,
 				[2413] = true,
+				[2163] = true,
+				[2165] = true,
 				[1894] = true,
 				[2510] = true,
 				[1948] = true,
 				[2465] = true,
-				[2165] = true,
+				[2103] = true,
 				[2507] = true,
 				[2511] = true,
 				[2503] = true,
@@ -5858,7 +6485,7 @@ ZygorGuidesViewerSettings = {
 				"CENTER", -- [1]
 				nil, -- [2]
 				"CENTER", -- [3]
-				331.7196655273438, -- [4]
+				331.7196960449219, -- [4]
 				-117.9829025268555, -- [5]
 			},
 			["show_ui"] = true,
@@ -5869,10 +6496,10 @@ ZygorGuidesViewerSettings = {
 				[1533] = true,
 				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["gear"] = true,
+				[1560] = true,
 			},
 			["load_betaguides"] = true,
 			["usernamed"] = true,
@@ -5904,21 +6531,22 @@ ZygorGuidesViewerSettings = {
 		["Bladefist"] = {
 			["characters"] = {
 				["Aslf"] = {
-					["class"] = "PRIEST",
 					["classname"] = "Priest",
-					["classnum"] = 5,
+					["statweights"] = {
+					},
+					["dualwield"] = false,
 					["gear"] = {
 						{
-							2.64, -- [1]
-							2.22, -- [2]
-							4.89, -- [3]
+							1.32, -- [1]
+							0.95, -- [2]
+							2.29, -- [3]
 							nil, -- [4]
-							2.64, -- [5]
-							2.63, -- [6]
-							2.64, -- [7]
+							1.32, -- [5]
+							1.31, -- [6]
+							1.32, -- [7]
 							0.01, -- [8]
-							2.62, -- [9]
-							2.63, -- [10]
+							1.3, -- [9]
+							1.31, -- [10]
 							nil, -- [11]
 							nil, -- [12]
 							nil, -- [13]
@@ -5989,10 +6617,9 @@ ZygorGuidesViewerSettings = {
 							["Scanned"] = true,
 						},
 					},
-					["statweights"] = {
-					},
 					["level"] = 18,
-					["dualwield"] = false,
+					["class"] = "PRIEST",
+					["classnum"] = 5,
 				},
 			},
 			["bankdata"] = {

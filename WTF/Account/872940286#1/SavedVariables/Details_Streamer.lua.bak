@@ -15,8 +15,8 @@ Details_StreamerDB = {
 			},
 			["author"] = "Terciob",
 			["main_frame_size"] = {
-				300, -- [1]
-				500.0000305175781, -- [2]
+				299.9999694824219, -- [1]
+				500, -- [2]
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
@@ -53,14 +53,14 @@ Details_StreamerDB = {
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 1.52587890625e-05,
+				["y"] = 0,
 				["x"] = 0,
 				["attribute_type"] = 1,
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
 			["y"] = 0,
-			["x"] = 0,
+			["x"] = 0.00067138671875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
 			["point"] = "CENTER",
