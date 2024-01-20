@@ -1,646 +1,542 @@
 
 EncounterDetailsDB = {
 	["chartData"] = {
-		[31] = {
+		[224] = {
 			["Raid Damage Done"] = {
-				147, -- [1]
-				209, -- [2]
-				94, -- [3]
-				58, -- [4]
-				26, -- [5]
-				108, -- [6]
-				0, -- [7]
-				172, -- [8]
-				47, -- [9]
-				231, -- [10]
-				144, -- [11]
-				226, -- [12]
-				100, -- [13]
-				421, -- [14]
-				138, -- [15]
-				52, -- [16]
-				87, -- [17]
-				109, -- [18]
-				12, -- [19]
-				28, -- [20]
-				123, -- [21]
-				25, -- [22]
-				368, -- [23]
-				63, -- [24]
-				83, -- [25]
-				193, -- [26]
-				70, -- [27]
-				84, -- [28]
-				93, -- [29]
-				94, -- [30]
-				95, -- [31]
-				111, -- [32]
-				22, -- [33]
-				206, -- [34]
-				72, -- [35]
-				123, -- [36]
-				132, -- [37]
-				115, -- [38]
-				55, -- [39]
-				225, -- [40]
-				25, -- [41]
-				228, -- [42]
-				38, -- [43]
-				105, -- [44]
-				67, -- [45]
-				136, -- [46]
-				29, -- [47]
-				129, -- [48]
-				149, -- [49]
-				24, -- [50]
-				25, -- [51]
-				110, -- [52]
-				139, -- [53]
-				56, -- [54]
-				212, -- [55]
-				224, -- [56]
-				157, -- [57]
-				85, -- [58]
-				180, -- [59]
-				40, -- [60]
-				136, -- [61]
-				57, -- [62]
-				68, -- [63]
-				["max_value"] = 421,
-				["__time"] = 1705467305,
+				311, -- [1]
+				284, -- [2]
+				40, -- [3]
+				434, -- [4]
+				418, -- [5]
+				685, -- [6]
+				541, -- [7]
+				1305, -- [8]
+				196, -- [9]
+				352, -- [10]
+				44, -- [11]
+				348, -- [12]
+				116, -- [13]
+				392, -- [14]
+				121, -- [15]
+				551, -- [16]
+				455, -- [17]
+				38, -- [18]
+				68, -- [19]
+				27, -- [20]
+				307, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				108, -- [28]
+				148, -- [29]
+				24, -- [30]
+				358, -- [31]
+				540, -- [32]
+				45, -- [33]
+				432, -- [34]
+				176, -- [35]
+				384, -- [36]
+				189, -- [37]
+				506, -- [38]
+				86, -- [39]
+				443, -- [40]
+				81, -- [41]
+				320, -- [42]
+				364, -- [43]
+				18, -- [44]
+				179, -- [45]
+				128, -- [46]
+				231, -- [47]
+				202, -- [48]
+				60, -- [49]
+				180, -- [50]
+				14, -- [51]
+				12, -- [52]
+				104, -- [53]
+				33, -- [54]
+				441, -- [55]
+				25, -- [56]
+				156, -- [57]
+				91, -- [58]
+				42, -- [59]
+				192, -- [60]
+				168, -- [61]
+				269, -- [62]
+				0, -- [63]
+				56, -- [64]
+				30, -- [65]
+				30, -- [66]
+				94, -- [67]
+				28, -- [68]
+				38, -- [69]
+				65, -- [70]
+				28, -- [71]
+				285, -- [72]
+				108, -- [73]
+				9, -- [74]
+				83, -- [75]
+				512, -- [76]
+				549, -- [77]
+				74, -- [78]
+				111, -- [79]
+				0, -- [80]
+				190, -- [81]
+				678, -- [82]
+				85, -- [83]
+				12, -- [84]
+				108, -- [85]
+				129, -- [86]
+				284, -- [87]
+				305, -- [88]
+				74, -- [89]
+				198, -- [90]
+				188, -- [91]
+				["max_value"] = 1305,
+				["__time"] = 1705633744,
 			},
 		},
-		[39] = {
+		[242] = {
 			["Raid Damage Done"] = {
-				168, -- [1]
-				180, -- [2]
-				141, -- [3]
-				17, -- [4]
-				124, -- [5]
-				482, -- [6]
-				35, -- [7]
-				13, -- [8]
-				13, -- [9]
-				30, -- [10]
-				17, -- [11]
-				163, -- [12]
-				279, -- [13]
-				99, -- [14]
-				197, -- [15]
-				128, -- [16]
-				32, -- [17]
-				500, -- [18]
-				226, -- [19]
-				6, -- [20]
-				153, -- [21]
-				145, -- [22]
-				24, -- [23]
-				50, -- [24]
-				209, -- [25]
-				11, -- [26]
-				415, -- [27]
-				72, -- [28]
-				72, -- [29]
-				207, -- [30]
-				86, -- [31]
-				54, -- [32]
-				7, -- [33]
-				14, -- [34]
-				6, -- [35]
-				28, -- [36]
-				2, -- [37]
-				24, -- [38]
-				2, -- [39]
-				10, -- [40]
-				2, -- [41]
-				8, -- [42]
-				0, -- [43]
-				15, -- [44]
-				2, -- [45]
-				8, -- [46]
-				14, -- [47]
-				24, -- [48]
-				8, -- [49]
-				30, -- [50]
-				261, -- [51]
-				107, -- [52]
-				12, -- [53]
-				183, -- [54]
-				16, -- [55]
-				157, -- [56]
-				66, -- [57]
-				47, -- [58]
-				80, -- [59]
-				288, -- [60]
-				178, -- [61]
-				108, -- [62]
-				217, -- [63]
-				49, -- [64]
-				6, -- [65]
-				351, -- [66]
-				103, -- [67]
-				209, -- [68]
-				168, -- [69]
-				["max_value"] = 500,
-				["__time"] = 1705467964,
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				214, -- [5]
+				98, -- [6]
+				134, -- [7]
+				0, -- [8]
+				1013, -- [9]
+				539, -- [10]
+				404, -- [11]
+				88, -- [12]
+				811, -- [13]
+				125, -- [14]
+				98, -- [15]
+				279, -- [16]
+				137, -- [17]
+				48, -- [18]
+				275, -- [19]
+				136, -- [20]
+				645, -- [21]
+				36, -- [22]
+				709, -- [23]
+				192, -- [24]
+				389, -- [25]
+				349, -- [26]
+				0, -- [27]
+				["max_value"] = 1013,
+				["__time"] = 1705634443,
 			},
 		},
-		[80] = {
+		[204] = {
 			["Raid Damage Done"] = {
-				43, -- [1]
-				52, -- [2]
-				10, -- [3]
-				77, -- [4]
-				207, -- [5]
-				221, -- [6]
-				315, -- [7]
-				100, -- [8]
-				511, -- [9]
-				48, -- [10]
-				61, -- [11]
-				34, -- [12]
-				418, -- [13]
-				133, -- [14]
-				53, -- [15]
-				263, -- [16]
-				81, -- [17]
-				333, -- [18]
-				233, -- [19]
-				197, -- [20]
-				29, -- [21]
-				87, -- [22]
-				86, -- [23]
-				67, -- [24]
-				114, -- [25]
-				24, -- [26]
-				41, -- [27]
-				134, -- [28]
-				119, -- [29]
-				128, -- [30]
-				179, -- [31]
-				88, -- [32]
-				112, -- [33]
-				69, -- [34]
-				184, -- [35]
-				101, -- [36]
-				213, -- [37]
-				84, -- [38]
-				79, -- [39]
-				305, -- [40]
-				422, -- [41]
-				45, -- [42]
-				201, -- [43]
-				82, -- [44]
-				107, -- [45]
-				146, -- [46]
-				47, -- [47]
-				54, -- [48]
-				49, -- [49]
-				64, -- [50]
-				101, -- [51]
-				154, -- [52]
-				39, -- [53]
-				53, -- [54]
-				307, -- [55]
-				27, -- [56]
-				61, -- [57]
-				28, -- [58]
-				61, -- [59]
-				24, -- [60]
-				18, -- [61]
-				103, -- [62]
-				153, -- [63]
-				151, -- [64]
-				81, -- [65]
-				26, -- [66]
-				4, -- [67]
-				88, -- [68]
-				["max_value"] = 511,
-				["__time"] = 1705472061,
+				413, -- [1]
+				99, -- [2]
+				136, -- [3]
+				165, -- [4]
+				33, -- [5]
+				305, -- [6]
+				323, -- [7]
+				181, -- [8]
+				288, -- [9]
+				719, -- [10]
+				198, -- [11]
+				304, -- [12]
+				260, -- [13]
+				6, -- [14]
+				69, -- [15]
+				78, -- [16]
+				264, -- [17]
+				215, -- [18]
+				39, -- [19]
+				187, -- [20]
+				505, -- [21]
+				364, -- [22]
+				263, -- [23]
+				["max_value"] = 719,
+				["__time"] = 1705630088,
 			},
 		},
-		[22] = {
-			["Raid Damage Done"] = {
-				177, -- [1]
-				130, -- [2]
-				13, -- [3]
-				290, -- [4]
-				118, -- [5]
-				45, -- [6]
-				29, -- [7]
-				15, -- [8]
-				77, -- [9]
-				132, -- [10]
-				39, -- [11]
-				43, -- [12]
-				308, -- [13]
-				90, -- [14]
-				60, -- [15]
-				301, -- [16]
-				123, -- [17]
-				32, -- [18]
-				["max_value"] = 308,
-				["__time"] = 1705466379,
-			},
-		},
-		[23] = {
-			["Raid Damage Done"] = {
-				156, -- [1]
-				68, -- [2]
-				90, -- [3]
-				87, -- [4]
-				113, -- [5]
-				80, -- [6]
-				112, -- [7]
-				143, -- [8]
-				51, -- [9]
-				12, -- [10]
-				5, -- [11]
-				206, -- [12]
-				51, -- [13]
-				218, -- [14]
-				291, -- [15]
-				80, -- [16]
-				209, -- [17]
-				81, -- [18]
-				63, -- [19]
-				90, -- [20]
-				320, -- [21]
-				172, -- [22]
-				273, -- [23]
-				92, -- [24]
-				120, -- [25]
-				52, -- [26]
-				111, -- [27]
-				151, -- [28]
-				49, -- [29]
-				52, -- [30]
-				143, -- [31]
-				16, -- [32]
-				60, -- [33]
-				111, -- [34]
-				65, -- [35]
-				191, -- [36]
-				217, -- [37]
-				157, -- [38]
-				13, -- [39]
-				296, -- [40]
-				113, -- [41]
-				67, -- [42]
-				12, -- [43]
-				26, -- [44]
-				120, -- [45]
-				5, -- [46]
-				32, -- [47]
-				27, -- [48]
-				225, -- [49]
-				136, -- [50]
-				153, -- [51]
-				204, -- [52]
-				79, -- [53]
-				44, -- [54]
-				64, -- [55]
-				50, -- [56]
-				44, -- [57]
-				125, -- [58]
-				155, -- [59]
-				269, -- [60]
-				36, -- [61]
-				303, -- [62]
-				96, -- [63]
-				102, -- [64]
-				165, -- [65]
-				9, -- [66]
-				21, -- [67]
-				142, -- [68]
-				90, -- [69]
-				55, -- [70]
-				176, -- [71]
-				238, -- [72]
-				20, -- [73]
-				13, -- [74]
-				173, -- [75]
-				75, -- [76]
-				121, -- [77]
-				149, -- [78]
-				52, -- [79]
-				69, -- [80]
-				194, -- [81]
-				190, -- [82]
-				240, -- [83]
-				43, -- [84]
-				286, -- [85]
-				128, -- [86]
-				118, -- [87]
-				["max_value"] = 320,
-				["__time"] = 1705466537,
-			},
-		},
-		[71] = {
-			["Raid Damage Done"] = {
-				65, -- [1]
-				91, -- [2]
-				167, -- [3]
-				312, -- [4]
-				376, -- [5]
-				28, -- [6]
-				92, -- [7]
-				496, -- [8]
-				16, -- [9]
-				3, -- [10]
-				100, -- [11]
-				100, -- [12]
-				285, -- [13]
-				347, -- [14]
-				416, -- [15]
-				20, -- [16]
-				308, -- [17]
-				65, -- [18]
-				267, -- [19]
-				217, -- [20]
-				337, -- [21]
-				192, -- [22]
-				260, -- [23]
-				211, -- [24]
-				64, -- [25]
-				102, -- [26]
-				62, -- [27]
-				389, -- [28]
-				44, -- [29]
-				66, -- [30]
-				383, -- [31]
-				22, -- [32]
-				7, -- [33]
-				58, -- [34]
-				45, -- [35]
-				4, -- [36]
-				63, -- [37]
-				21, -- [38]
-				7, -- [39]
-				57, -- [40]
-				7, -- [41]
-				0, -- [42]
-				65, -- [43]
-				82, -- [44]
-				126, -- [45]
-				107, -- [46]
-				70, -- [47]
-				322, -- [48]
-				34, -- [49]
-				416, -- [50]
-				224, -- [51]
-				181, -- [52]
-				233, -- [53]
-				121, -- [54]
-				298, -- [55]
-				66, -- [56]
-				3, -- [57]
-				86, -- [58]
-				66, -- [59]
-				318, -- [60]
-				173, -- [61]
-				99, -- [62]
-				17, -- [63]
-				226, -- [64]
-				69, -- [65]
-				46, -- [66]
-				98, -- [67]
-				410, -- [68]
-				139, -- [69]
-				82, -- [70]
-				147, -- [71]
-				295, -- [72]
-				376, -- [73]
-				["max_value"] = 496,
-				["__time"] = 1705471206,
-			},
-		},
-		[55] = {
+		[208] = {
 			["Raid Damage Done"] = {
 				263, -- [1]
-				366, -- [2]
-				17, -- [3]
-				237, -- [4]
-				74, -- [5]
-				26, -- [6]
-				69, -- [7]
-				116, -- [8]
-				334, -- [9]
-				67, -- [10]
-				265, -- [11]
-				244, -- [12]
-				186, -- [13]
-				101, -- [14]
-				417, -- [15]
-				83, -- [16]
-				176, -- [17]
-				33, -- [18]
-				236, -- [19]
-				200, -- [20]
-				200, -- [21]
-				91, -- [22]
-				377, -- [23]
-				216, -- [24]
-				88, -- [25]
-				346, -- [26]
-				34, -- [27]
-				56, -- [28]
-				160, -- [29]
-				48, -- [30]
-				5, -- [31]
-				11, -- [32]
-				4, -- [33]
-				5, -- [34]
-				3, -- [35]
-				66, -- [36]
-				85, -- [37]
-				157, -- [38]
-				87, -- [39]
-				48, -- [40]
-				260, -- [41]
-				37, -- [42]
-				32, -- [43]
-				199, -- [44]
-				177, -- [45]
-				50, -- [46]
-				115, -- [47]
-				40, -- [48]
-				16, -- [49]
-				14, -- [50]
-				14, -- [51]
-				28, -- [52]
-				14, -- [53]
-				18, -- [54]
-				18, -- [55]
-				153, -- [56]
-				119, -- [57]
-				77, -- [58]
-				36, -- [59]
-				27, -- [60]
-				88, -- [61]
-				104, -- [62]
-				62, -- [63]
-				32, -- [64]
-				1, -- [65]
-				2, -- [66]
-				1, -- [67]
-				0, -- [68]
-				0, -- [69]
-				0, -- [70]
-				0, -- [71]
-				0, -- [72]
-				0, -- [73]
-				0, -- [74]
-				0, -- [75]
-				0, -- [76]
-				1, -- [77]
-				0, -- [78]
-				0, -- [79]
-				0, -- [80]
-				0, -- [81]
-				45, -- [82]
-				45, -- [83]
-				0, -- [84]
-				45, -- [85]
-				45, -- [86]
-				0, -- [87]
-				0, -- [88]
-				2, -- [89]
-				1, -- [90]
-				1, -- [91]
-				1, -- [92]
-				1, -- [93]
-				1, -- [94]
-				1, -- [95]
-				1, -- [96]
-				1, -- [97]
-				0, -- [98]
-				0, -- [99]
-				2, -- [100]
-				2, -- [101]
-				2, -- [102]
-				2, -- [103]
-				1, -- [104]
-				1, -- [105]
-				1, -- [106]
-				1, -- [107]
-				1, -- [108]
-				1, -- [109]
-				0, -- [110]
-				1, -- [111]
-				8, -- [112]
-				3, -- [113]
-				3, -- [114]
-				3, -- [115]
-				3, -- [116]
-				3, -- [117]
-				113, -- [118]
-				6, -- [119]
-				63, -- [120]
-				33, -- [121]
-				7, -- [122]
-				48, -- [123]
-				3, -- [124]
-				47, -- [125]
-				27, -- [126]
-				3, -- [127]
-				3, -- [128]
-				23, -- [129]
-				3, -- [130]
-				3, -- [131]
-				3, -- [132]
-				6, -- [133]
-				47, -- [134]
-				3, -- [135]
-				75, -- [136]
-				44, -- [137]
-				107, -- [138]
-				47, -- [139]
-				25, -- [140]
-				74, -- [141]
-				28, -- [142]
-				31, -- [143]
-				3, -- [144]
-				25, -- [145]
-				3, -- [146]
-				11, -- [147]
-				3, -- [148]
-				95, -- [149]
-				65, -- [150]
-				11, -- [151]
-				71, -- [152]
-				132, -- [153]
-				37, -- [154]
-				3, -- [155]
-				0, -- [156]
-				6, -- [157]
-				7, -- [158]
-				46, -- [159]
-				23, -- [160]
-				29, -- [161]
-				22, -- [162]
-				65, -- [163]
-				14, -- [164]
-				23, -- [165]
-				51, -- [166]
-				7, -- [167]
-				3, -- [168]
-				3, -- [169]
-				44, -- [170]
-				3, -- [171]
-				131, -- [172]
-				3, -- [173]
-				3, -- [174]
-				3, -- [175]
-				28, -- [176]
-				0, -- [177]
-				44, -- [178]
-				81, -- [179]
-				0, -- [180]
-				26, -- [181]
-				6, -- [182]
-				3, -- [183]
-				27, -- [184]
-				3, -- [185]
-				134, -- [186]
-				3, -- [187]
-				28, -- [188]
-				28, -- [189]
-				3, -- [190]
-				3, -- [191]
-				3, -- [192]
-				3, -- [193]
-				110, -- [194]
-				47, -- [195]
-				23, -- [196]
-				65, -- [197]
-				9, -- [198]
-				23, -- [199]
-				57, -- [200]
-				23, -- [201]
-				46, -- [202]
-				7, -- [203]
-				23, -- [204]
-				3, -- [205]
-				23, -- [206]
-				9, -- [207]
-				3, -- [208]
-				79, -- [209]
-				3, -- [210]
-				49, -- [211]
-				49, -- [212]
-				3, -- [213]
-				3, -- [214]
-				3, -- [215]
-				3, -- [216]
-				3, -- [217]
-				9, -- [218]
-				["max_value"] = 417,
-				["__time"] = 1705468838,
+				322, -- [2]
+				128, -- [3]
+				148, -- [4]
+				469, -- [5]
+				148, -- [6]
+				467, -- [7]
+				192, -- [8]
+				24, -- [9]
+				783, -- [10]
+				80, -- [11]
+				426, -- [12]
+				135, -- [13]
+				246, -- [14]
+				172, -- [15]
+				316, -- [16]
+				397, -- [17]
+				94, -- [18]
+				606, -- [19]
+				268, -- [20]
+				398, -- [21]
+				259, -- [22]
+				111, -- [23]
+				868, -- [24]
+				331, -- [25]
+				147, -- [26]
+				["max_value"] = 868,
+				["__time"] = 1705630340,
+			},
+		},
+		[198] = {
+			["Raid Damage Done"] = {
+				291, -- [1]
+				264, -- [2]
+				171, -- [3]
+				364, -- [4]
+				132, -- [5]
+				304, -- [6]
+				175, -- [7]
+				73, -- [8]
+				348, -- [9]
+				18, -- [10]
+				314, -- [11]
+				80, -- [12]
+				58, -- [13]
+				167, -- [14]
+				119, -- [15]
+				328, -- [16]
+				262, -- [17]
+				641, -- [18]
+				369, -- [19]
+				["max_value"] = 641,
+				["__time"] = 1705629818,
+			},
+		},
+		[167] = {
+			["Raid Damage Done"] = {
+				261, -- [1]
+				472, -- [2]
+				291, -- [3]
+				332, -- [4]
+				87, -- [5]
+				72, -- [6]
+				52, -- [7]
+				569, -- [8]
+				158, -- [9]
+				347, -- [10]
+				353, -- [11]
+				305, -- [12]
+				130, -- [13]
+				10, -- [14]
+				325, -- [15]
+				93, -- [16]
+				167, -- [17]
+				591, -- [18]
+				348, -- [19]
+				206, -- [20]
+				286, -- [21]
+				296, -- [22]
+				57, -- [23]
+				162, -- [24]
+				75, -- [25]
+				675, -- [26]
+				200, -- [27]
+				115, -- [28]
+				762, -- [29]
+				80, -- [30]
+				507, -- [31]
+				267, -- [32]
+				213, -- [33]
+				282, -- [34]
+				507, -- [35]
+				299, -- [36]
+				166, -- [37]
+				462, -- [38]
+				96, -- [39]
+				501, -- [40]
+				253, -- [41]
+				262, -- [42]
+				262, -- [43]
+				136, -- [44]
+				223, -- [45]
+				526, -- [46]
+				307, -- [47]
+				168, -- [48]
+				290, -- [49]
+				343, -- [50]
+				232, -- [51]
+				137, -- [52]
+				["max_value"] = 762,
+				["__time"] = 1705548752,
+			},
+		},
+		[185] = {
+			["Raid Damage Done"] = {
+				465, -- [1]
+				169, -- [2]
+				379, -- [3]
+				663, -- [4]
+				131, -- [5]
+				175, -- [6]
+				113, -- [7]
+				561, -- [8]
+				171, -- [9]
+				385, -- [10]
+				523, -- [11]
+				249, -- [12]
+				23, -- [13]
+				116, -- [14]
+				772, -- [15]
+				101, -- [16]
+				426, -- [17]
+				["max_value"] = 772,
+				["__time"] = 1705629272,
+			},
+		},
+		[233] = {
+			["Raid Damage Done"] = {
+				89, -- [1]
+				168, -- [2]
+				142, -- [3]
+				790, -- [4]
+				194, -- [5]
+				170, -- [6]
+				174, -- [7]
+				386, -- [8]
+				318, -- [9]
+				396, -- [10]
+				168, -- [11]
+				302, -- [12]
+				246, -- [13]
+				523, -- [14]
+				281, -- [15]
+				8, -- [16]
+				788, -- [17]
+				59, -- [18]
+				618, -- [19]
+				348, -- [20]
+				102, -- [21]
+				108, -- [22]
+				111, -- [23]
+				799, -- [24]
+				50, -- [25]
+				772, -- [26]
+				521, -- [27]
+				745, -- [28]
+				157, -- [29]
+				156, -- [30]
+				326, -- [31]
+				["max_value"] = 799,
+				["__time"] = 1705634084,
 			},
 		},
 	},
 	["encounter_spells"] = {
+		[35010] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
+		},
+		[34268] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[281621] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Venture Co. Skyscorcher",
+		},
+		[258627] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthrager",
+		},
+		[269493] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coin-Operated Crowd Pummeler",
+		},
+		[31623] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
+		[271526] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthrager",
+		},
+		[262287] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Venture Co. Skyscorcher",
+		},
+		[258628] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[21096] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Coilfang Technician",
+		},
+		[268702] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Stonefury",
+		},
+		[260280] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[270926] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[256137] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Azerite Footbomb",
+		},
+		[263275] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Taskmaster Askari",
+		},
+		[257582] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthrager",
+		},
+		[263276] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Taskmaster Askari",
+		},
+		[260202] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[268865] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Weapons Tester",
+		},
+		[31429] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Claw",
+		},
+		[15716] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[260838] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[31566] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
 		[259474] = {
 			["school"] = 4,
 			["token"] = {
@@ -648,6 +544,339 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Rixxa Fluxflame",
+		},
+		[268362] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wanton Sapper",
+		},
+		[260189] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[38163] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Quagmirran",
+		},
+		[268712] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Wanton Sapper",
+		},
+		[259856] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rixxa Fluxflame",
+		},
+		[31981] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
+		},
+		[31983] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Tainted Earthgrab Totem",
+		},
+		[31985] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
+		},
+		[260190] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[31991] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
+		},
+		[260318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[34290] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[34298] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Claw",
+		},
+		[260811] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[34780] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Quagmirran",
+		},
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Claw",
+		},
+		[40504] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Quagmirran",
+		},
+		[16005] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coilfang Technician",
+		},
+		[260669] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rixxa Fluxflame",
+		},
+		[35008] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rokmar the Crackler",
+		},
+		[34977] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Mennu's Healing Ward",
+		},
+		[268815] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Test Subject",
+		},
+		[260829] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Homing Missile Stalker",
+		},
+		[262019] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[34874] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hungarfen",
+		},
+		[258622] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Azerokk",
+		},
+		[34980] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mennu the Betrayer",
+		},
+		[260813] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[22907] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
+		[32055] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Quagmirran",
+		},
+		[31547] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
+		[34267] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ghaz'an",
+		},
+		[257337] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Coin-Operated Crowd Pummeler",
+		},
+		[33132] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Corrupted Nova Totem",
+		},
+		[270882] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Azerite Footbomb",
+		},
+		[271579] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Venture Co. Earthshaper",
+		},
+		[34970] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rokmar the Crackler",
+		},
+		[257544] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Earthrager",
+		},
+		[33787] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coilfang Collaborator",
+		},
+		[31946] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Swamplord Musel'ek",
+		},
+		[31948] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rokmar the Crackler",
 		},
 		[263262] = {
 			["school"] = 8,
@@ -658,21 +887,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shalebiter",
 		},
-		[268712] = {
+		[263278] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[31956] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wanton Sapper",
+			["source"] = "Rokmar the Crackler",
 		},
-		[271579] = {
-			["school"] = 8,
+		[260323] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mogul Razdunk",
+		},
+		[31704] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Black Stalker",
+		},
+		[271456] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Venture Co. Earthshaper",
+			["source"] = "Mogul Razdunk",
 		},
 		[259853] = {
 			["school"] = 8,
@@ -691,181 +944,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerokk",
 		},
-		[260318] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[260838] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[256137] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
-		[271456] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[260280] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[268702] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Stonefury",
-		},
-		[258627] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Earthrager",
-		},
-		[260202] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[262513] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Venture Co. Skyscorcher",
-		},
-		[260190] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[259856] = {
+		[31717] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Rixxa Fluxflame",
-		},
-		[263276] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Taskmaster Askari",
-		},
-		[262287] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Venture Co. Skyscorcher",
-		},
-		[281621] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Venture Co. Skyscorcher",
-		},
-		[258628] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[260829] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Homing Missile Stalker",
-		},
-		[268815] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Test Subject",
-		},
-		[260813] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[257337] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Coin-Operated Crowd Pummeler",
+			["source"] = "The Black Stalker",
 		},
-		[269493] = {
-			["school"] = 4,
+		[38153] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Coin-Operated Crowd Pummeler",
+			["source"] = "Quagmirran",
 		},
-		[267367] = {
+		[8269] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mechanized Peacekeeper",
+			["source"] = "Coilfang Collaborator",
 		},
 		[3600] = {
 			["school"] = 8,
@@ -875,104 +979,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthbind Totem",
 		},
-		[268362] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Wanton Sapper",
-		},
-		[268865] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Weapons Tester",
-		},
-		[271526] = {
+		[262513] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Earthrager",
-		},
-		[260669] = {
-			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rixxa Fluxflame",
-		},
-		[258622] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Azerokk",
-		},
-		[260811] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[260189] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mogul Razdunk",
-		},
-		[260323] = {
-			["school"] = 4,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mogul Razdunk",
-		},
-		[257582] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Earthrager",
-		},
-		[270882] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Azerite Footbomb",
-		},
-		[263275] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Taskmaster Askari",
-		},
-		[270926] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Venture Co. Skyscorcher",
 		},
 		[262515] = {
 			["school"] = 1,
@@ -992,14 +1006,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Venture Co. Skyscorcher",
 		},
-		[257544] = {
-			["school"] = 1,
+		[31615] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Earthrager",
+			["source"] = "Swamplord Musel'ek",
 		},
 		[262347] = {
 			["school"] = 8,
@@ -1013,23 +1027,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coin-Operated Crowd Pummeler",
 		},
-		[262019] = {
+		[267367] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Mechanized Peacekeeper",
 		},
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Azerokk",
+			["boss"] = "Quagmirran",
 		}, -- [1]
 		{
-			["boss"] = "Coin-Operated Crowd Pummeler",
+			["boss"] = "Rokmar the Crackler",
 		}, -- [2]
 		{
-			["boss"] = "Mogul Razdunk",
+			["boss"] = "Mennu the Betrayer",
 		}, -- [3]
 	},
 }

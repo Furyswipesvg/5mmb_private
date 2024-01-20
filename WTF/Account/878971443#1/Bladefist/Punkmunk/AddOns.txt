@@ -6,4 +6,6 @@ GSE_GUI: enabled
 GSE_LDB: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
-Details: disabled
+Details: enabled
+ClassicUI: disabled
+DeleteGryphonFromClassicUI: disabled

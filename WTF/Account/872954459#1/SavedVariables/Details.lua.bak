@@ -3,6 +3,102 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
+		{
+			2105, -- [1]
+			"Coin-Operated Crowd Pummeler", -- [2]
+		}, -- [1]
+		[257337] = {
+			2105, -- [1]
+			"Coin-Operated Crowd Pummeler", -- [2]
+		},
+		[260813] = {
+			2108, -- [1]
+			"Mogul Razdunk", -- [2]
+		},
+		[259856] = {
+			2107, -- [1]
+			"Rixxa Fluxflame", -- [2]
+		},
+		[271526] = {
+			2106, -- [1]
+			"Earthrager", -- [2]
+		},
+		[258628] = {
+			2106, -- [1]
+			"[*] Resonant Quake", -- [2]
+		},
+		[257582] = {
+			2106, -- [1]
+			"Earthrager", -- [2]
+		},
+		[259853] = {
+			2107, -- [1]
+			"Rixxa Fluxflame", -- [2]
+		},
+		[256137] = {
+			2105, -- [1]
+			"Azerite Footbomb", -- [2]
+		},
+		[257544] = {
+			2106, -- [1]
+			"Earthrager", -- [2]
+		},
+		[259474] = {
+			2107, -- [1]
+			"Rixxa Fluxflame", -- [2]
+		},
+		[260811] = {
+			2108, -- [1]
+			"Mogul Razdunk", -- [2]
+		},
+		[260323] = {
+			2108, -- [1]
+			"Mogul Razdunk", -- [2]
+		},
+		[258622] = {
+			2106, -- [1]
+			"Azerokk", -- [2]
+		},
+		[260279] = {
+			2108, -- [1]
+			"[*] Gatling Gun", -- [2]
+		},
+		[260280] = {
+			2108, -- [1]
+			"Mogul Razdunk", -- [2]
+		},
+		[262347] = {
+			2105, -- [1]
+			"Coin-Operated Crowd Pummeler", -- [2]
+		},
+		[268865] = {
+			2105, -- [1]
+			"Weapons Tester", -- [2]
+		},
+		[269493] = {
+			2105, -- [1]
+			"Coin-Operated Crowd Pummeler", -- [2]
+		},
+		[260318] = {
+			2108, -- [1]
+			"Mogul Razdunk", -- [2]
+		},
+		[268362] = {
+			2105, -- [1]
+			"Wanton Sapper", -- [2]
+		},
+		[260669] = {
+			2107, -- [1]
+			"Rixxa Fluxflame", -- [2]
+		},
+		[258627] = {
+			2106, -- [1]
+			"Earthrager", -- [2]
+		},
+		[259533] = {
+			2107, -- [1]
+			"[*] Azerite Catalyst", -- [2]
+		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -21,54 +117,24 @@ _detalhes_global = {
 	["always_use_profile"] = false,
 	["deathlog_healingdone_min_arena"] = 400,
 	["spell_school_cache"] = {
+		["Chemical Burn"] = 8,
+		["Melee"] = 1,
+		["Jagged Cut"] = 1,
+		["Cover"] = 1,
+		["Black Powder Special"] = 4,
+		["Gatling Gun"] = 1,
+		["Azerite Catalyst"] = 4,
+		["Resonant Quake"] = 1,
+		["Homing Missile"] = 4,
+		["Timed Detonation"] = 4,
+		["Alpha Cannon"] = 4,
+		["Shale Spit"] = 8,
+		["Searing Reagent"] = 4,
 	},
 	["spell_category_latest_sent"] = 0,
-	["plater"] = {
-		["realtime_dps_enabled"] = false,
-		["damage_taken_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
-		["realtime_dps_player_shadow"] = true,
-		["damage_taken_enabled"] = false,
-		["realtime_dps_player_size"] = 12,
-		["damage_taken_size"] = 12,
-		["realtime_dps_color"] = {
-			1, -- [1]
-			1, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
-		["realtime_dps_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
-		["realtime_dps_size"] = 12,
-		["damage_taken_shadow"] = true,
-		["damage_taken_color"] = {
-			1, -- [1]
-			1, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
-		["realtime_dps_player_color"] = {
-			1, -- [1]
-			1, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
-		["realtime_dps_player_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
-		["realtime_dps_player_enabled"] = false,
-		["realtime_dps_shadow"] = true,
-	},
+	["damage_scroll_auto_open"] = true,
 	["show_warning_id1_amount"] = 0,
-	["latest_shield_spellid_cache_access"] = 1702921116,
+	["latest_shield_spellid_cache_access"] = 1703804717,
 	["current_exp_raid_encounters"] = {
 	},
 	["keystone_frame"] = {
@@ -1136,16 +1202,16 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456.0000305175781,
+		["blockcontainer_width"] = 456,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 429,
+		["spellcontainer_width"] = 429.0000915527344,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 139.9999847412109,
+		["phasecontainer_height"] = 140.0000152587891,
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
@@ -1181,18 +1247,18 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 429,
+		["targetcontainer_width"] = 429.0000915527344,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 139.9999847412109,
+		["targetcontainer_height"] = 140.0000152587891,
 		["nest_pet_spells_by_name"] = false,
 		["nest_players_spells_with_same_name"] = true,
 		["blockspell_spark_offset"] = -1,
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 270,
+		["blockcontainer_height"] = 269.9999389648438,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1202,21 +1268,53 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 0,
+	["combat_id_global"] = 105,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 0.000102996826171875,
-		["x"] = -7.62939453125e-06,
+		["y"] = -1.52587890625e-05,
+		["x"] = 6.103515625e-05,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 25305,
+	["last_changelog_size"] = 27716,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
+		[130635] = "Stonefury",
+		[134232] = "Hired Assassin",
+		[129802] = "Earthrager",
+		[129246] = "Blazing Azerite",
+		[130488] = "Mech Jockey",
+		[136139] = "Mechanized Peacekeeper",
+		[133345] = "Feckless Assistant",
+		[136643] = "Azerite Extractor",
+		[134012] = "Taskmaster Askari",
+		[130653] = "Wanton Sapper",
+		[136934] = "Weapons Tester",
+		[129231] = "Rixxa Fluxflame",
+		[133436] = "Venture Co. Skyscorcher",
+		[130661] = "Venture Co. Earthshaper",
+		[134005] = "Shalebiter",
+		[133482] = "Crawler Mine",
+		[137029] = "Ordnance Specialist",
+		[133463] = "Venture Co. War Machine",
+		[129214] = "Coin-Operated Crowd Pummeler",
+		[133963] = "Test Subject",
+		[133593] = "Expert Technician",
+		[133753] = "Leech Globule",
+		[133430] = "Venture Co. Mastermind",
+		[133432] = "Venture Co. Alchemist",
+		[130435] = "Addled Thug",
+		[130437] = "Mine Rat",
+		[136688] = "Fanatical Driller",
+		[129232] = "Mogul Razdunk",
+		[129227] = "Azerokk",
+		[0] = "[*] Cover",
+		[136470] = "Refreshment Vendor",
+		[130436] = "Off-Duty Laborer",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1224,22 +1322,226 @@ _detalhes_global = {
 		["show_life_percent"] = false,
 		["relevance_time"] = 7,
 	},
+	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
+		1, -- [1]
+		3, -- [2]
+		[257544] = "Earthrager",
+		[394087] = 9,
+		[183435] = 2,
+		[195707] = 1,
+		[263209] = "Mine Rat",
+		[260318] = "Mogul Razdunk",
+		[267354] = "Hired Assassin",
+		[6673] = 1,
+		[263275] = "Taskmaster Askari",
+		[262383] = "Venture Co. War Machine",
+		[268185] = "Refreshment Vendor",
+		[267357] = "Hired Assassin",
+		[53351] = 3,
+		[184362] = 1,
+		[386124] = 9,
+		[275773] = 2,
+		[17962] = 9,
+		[81297] = 2,
+		[104773] = 9,
+		[387847] = 9,
+		[404996] = 2,
+		[262515] = "Venture Co. Skyscorcher",
+		[89808] = "Tarmat <Chaostard>",
+		[228128] = 1,
+		[234153] = 9,
+		[268702] = "Stonefury",
+		[257582] = "Earthrager",
+		[268129] = "Refreshment Vendor",
+		[3110] = "Tarmat <Chaostard>",
+		[386196] = 1,
+		[16827] = "Bear <Babadoink>",
+		[262268] = "Venture Co. Alchemist",
+		[269090] = "Ordnance Specialist",
+		[262270] = "Venture Co. Alchemist",
+		[268709] = "Venture Co. Earthshaper",
+		[269092] = "Ordnance Specialist",
+		[271579] = "Venture Co. Earthshaper",
+		[75] = 3,
+		[185358] = 3,
+		[387096] = 9,
+		[263103] = "Feckless Assistant",
+		[193455] = 3,
+		[263105] = "Feckless Assistant",
+		[262019] = "Mech Jockey",
+		[259533] = "[*] Azerite Catalyst",
+		[25912] = 2,
+		[269099] = "Venture Co. War Machine",
+		[269100] = "Venture Co. War Machine",
+		[6262] = 9,
+		[259853] = "Rixxa Fluxflame",
+		[268846] = "Weapons Tester",
+		[853] = 2,
+		[258674] = "Off-Duty Laborer",
+		[348] = 9,
+		[415091] = 2,
+		[982] = 3,
+		[262347] = "Coin-Operated Crowd Pummeler",
+		[257337] = "Coin-Operated Crowd Pummeler",
+		[262794] = "Venture Co. Mastermind",
+		[262348] = "Crawler Mine",
+		[262412] = "Mechanized Peacekeeper",
+		[85288] = 1,
+		[269298] = "Hired Assassin",
+		[2643] = 3,
+		[259474] = "Rixxa Fluxflame",
+		[5784] = 9,
+		[108366] = 9,
+		[6552] = 1,
+		[32216] = 1,
+		[269429] = "Venture Co. War Machine",
+		[269493] = "Coin-Operated Crowd Pummeler",
+		[100] = 1,
+		[287280] = 2,
+		[17462] = 3,
+		[136] = 3,
+		[42223] = 9,
+		[29722] = 9,
+		[202166] = 1,
+		[23881] = 1,
+		[262804] = "Venture Co. Mastermind",
+		[126664] = 1,
+		[268797] = "Venture Co. Alchemist",
+		[262092] = "Addled Thug",
+		[5308] = 1,
+		[262232] = 1,
+		[702] = 9,
+		[202168] = 1,
+		[263636] = "Addled Thug",
+		[260372] = "Venture Co. Skyscorcher",
+		[333889] = 9,
+		[263637] = "Addled Thug",
+		[105771] = 1,
+		[268865] = "Weapons Tester",
+		[267551] = "Coin-Operated Crowd Pummeler",
+		[325984] = 2,
+		[53563] = 2,
+		[53652] = 2,
+		[157736] = 9,
+		[225311] = 2,
+		[262811] = "Leech Globule",
+		[204242] = 2,
+		[260813] = "Mogul Razdunk",
+		[35395] = 2,
+		[80240] = 9,
+		[260323] = "Mogul Razdunk",
+		[262940] = "Leech Globule",
+		[260279] = "[*] Gatling Gun",
+		[260280] = "Mogul Razdunk",
+		[260811] = "Mogul Razdunk",
+		[268417] = "Azerite Extractor",
+		[258622] = "Azerokk",
+		[262513] = "Venture Co. Skyscorcher",
+		[262377] = "Crawler Mine",
+		[1715] = 1,
+		[281621] = "Mech Jockey",
+		[269302] = "Hired Assassin",
+		[257284] = 3,
+		[118459] = "Bear <Babadoink>",
+		[280602] = "Mech Jockey",
+		[96103] = 1,
+		[256137] = "Azerite Footbomb",
+		[19750] = 2,
+		[262066] = "Mechanized Peacekeeper",
+		[268415] = "Azerite Extractor",
+		[83381] = "Bear <Babadoink>",
+		[268810] = "Test Subject",
+		[258628] = "[*] Resonant Quake",
+		[263583] = "Taskmaster Askari",
+		[127802] = 3,
+		[269831] = "[*] Toxic Sludge",
+		[268365] = "[*] Mining Charge",
+		[414019] = 2,
+		[262287] = "Mech Jockey",
+		[263202] = "Venture Co. Earthshaper",
+		[259856] = "Rixxa Fluxflame",
+		[24275] = 2,
+		[414022] = 2,
+		[260669] = "Rixxa Fluxflame",
+		[268877] = 3,
+		[69826] = 2,
+		[263278] = "[*] Cover",
+		[117313] = 1,
+		[263628] = "Mechanized Peacekeeper",
+		[116858] = 9,
+		[259014] = 3,
+		[268362] = "Wanton Sapper",
+		[355] = 1,
+		[6653] = 1,
+		[199658] = 1,
+		[231390] = 3,
+		[258627] = "Earthrager",
+		[271526] = "Earthrager",
+		[32223] = 2,
+		[69820] = 2,
+		[263262] = "Shalebiter",
+		[268722] = "Venture Co. Earthshaper",
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1702921116,
+	["latest_encounter_spell_pool_access"] = 1705543002,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["raid_data"] = {
 	},
-	["damage_scroll_auto_open"] = true,
 	["merge_pet_abilities"] = false,
+	["deathlog_line_height"] = 16,
+	["installed_skins_cache"] = {
+	},
 	["all_switch_config"] = {
 		["scale"] = 1,
 		["font_size"] = 10,
 	},
-	["deathlog_line_height"] = 16,
+	["plater"] = {
+		["realtime_dps_enabled"] = false,
+		["damage_taken_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
+		["realtime_dps_player_shadow"] = true,
+		["damage_taken_enabled"] = false,
+		["realtime_dps_player_size"] = 12,
+		["damage_taken_size"] = 12,
+		["realtime_dps_color"] = {
+			1, -- [1]
+			1, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
+		["realtime_dps_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
+		["realtime_dps_size"] = 12,
+		["damage_taken_shadow"] = true,
+		["damage_taken_color"] = {
+			1, -- [1]
+			1, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
+		["realtime_dps_player_color"] = {
+			1, -- [1]
+			1, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
+		["realtime_dps_player_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
+		["realtime_dps_player_enabled"] = false,
+		["realtime_dps_shadow"] = true,
+	},
 	["__profiles"] = {
 		["Thelraq-Bladefist"] = {
 			["overall_clear_newtorghast"] = true,
@@ -1588,8 +1890,8 @@ _detalhes_global = {
 				["line_height"] = 17,
 				["tooltip_max_targets"] = 2,
 				["icon_size"] = {
-					["W"] = 13,
-					["H"] = 13,
+					["W"] = 17,
+					["H"] = 17,
 				},
 				["anchor_relative"] = "top",
 				["anchored_to"] = 1,
@@ -1728,10 +2030,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = 0,
-							["x"] = 0.0001220703125,
-							["w"] = 309.9999694824219,
-							["h"] = 158.0000305175781,
+							["y"] = -185.6455688476563,
+							["x"] = 608.9866333007812,
+							["w"] = 310.0001525878906,
+							["h"] = 158.0000762939453,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2136,9 +2438,9 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = 6.103515625e-05,
-						["x"] = 3.0517578125e-05,
-						["point"] = "CENTER",
+						["y"] = -185.6455688476563,
+						["x"] = -108.7208251953125,
+						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
 					["statusbar_info"] = {
@@ -2167,10 +2469,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = 0,
-							["x"] = 0.0001220703125,
-							["w"] = 309.9999694824219,
-							["h"] = 158.0000305175781,
+							["y"] = -185.6455688476563,
+							["x"] = 608.9866333007812,
+							["w"] = 310.0001525878906,
+							["h"] = 158.0000762939453,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2555,15 +2857,6 @@ _detalhes_global = {
 		},
 	},
 	["immersion_special_units"] = true,
-	["latest_spell_pool_access"] = 1702921116,
-	["boss_mods_timers"] = {
-		["encounter_timers_bw"] = {
-		},
-		["latest_boss_mods_access"] = 1702921116,
-		["encounter_timers_dbm"] = {
-		},
-	},
-	["check_stuttering"] = false,
 	["custom"] = {
 		{
 			["source"] = false,
@@ -2724,20 +3017,34 @@ _detalhes_global = {
 			["script_version"] = 1,
 		}, -- [11]
 	},
-	["played_class_time"] = true,
-	["latest_news_saw"] = "10.2.0 12109",
-	["class_time_played"] = {
-		[8] = {
-			["WARLOCK"] = 210.3489999999874,
+	["boss_mods_timers"] = {
+		["encounter_timers_bw"] = {
+		},
+		["latest_boss_mods_access"] = 1705543002,
+		["encounter_timers_dbm"] = {
 		},
 	},
-	["parser_options"] = {
-		["energy_overflow"] = false,
-		["shield_overheal"] = false,
+	["check_stuttering"] = false,
+	["spell_category_savedtable"] = {
 	},
-	["slash_me_used"] = false,
+	["played_class_time"] = true,
 	["report_where"] = "SAY",
+	["class_time_played"] = {
+		[8] = {
+			["WARLOCK"] = 6502.620999999985,
+		},
+	},
+	["latest_spell_pool_access"] = 1705543002,
+	["slash_me_used"] = false,
 	["details_auras"] = {
+	},
+	["run_code"] = {
+		["on_groupchange"] = "\n-- this code runs when the player enter or leave a group",
+		["on_zonechanged"] = "\n-- when the player changes zone, this code will run",
+		["on_init"] = "\n-- code to run when Details! initializes, put here code which only will run once\n-- this also will run then the profile is changed\n\n--size of the death log tooltip in the Deaths display (default 350)\nDetails.death_tooltip_width = 350;\n\n--when in arena or battleground, details! silently switch to activity time (goes back to the old setting on leaving, default true)\nDetails.force_activity_time_pvp = true;\n\n--speed of the bar animations (default 33)\nDetails.animation_speed = 33;\n\n--threshold to trigger slow or fast speed (default 0.45)\nDetails.animation_speed_mintravel = 0.45;\n\n--call to update animations\nDetails:RefreshAnimationFunctions();\n\n--max window size, does require a /reload to work (default 480 x 450)\nDetails.max_window_size.width = 480;\nDetails.max_window_size.height = 450;\n\n--use the arena team color as the class color (default true)\nDetails.color_by_arena_team = true;\n\n--how much time the update warning is shown (default 10)\nDetails.update_warning_timeout = 10;",
+		["on_specchanged"] = "\n-- run when the player changes its spec",
+		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
+		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
 	},
 	["show_warning_id1"] = true,
 	["mythic_plus"] = {
@@ -2758,10 +3065,13 @@ _detalhes_global = {
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["latest_npcid_pool_access"] = 1702921116,
+	["latest_npcid_pool_access"] = 1705543002,
 	["exit_errors"] = {
 	},
-	["spell_category_latest_save"] = 0,
+	["parser_options"] = {
+		["energy_overflow"] = false,
+		["shield_overheal"] = false,
+	},
 	["spellid_ignored"] = {
 	},
 	["createauraframe"] = {
@@ -2774,12 +3084,12 @@ _detalhes_global = {
 		["11"] = false,
 		["10"] = false,
 	},
-	["spell_category_latest_query"] = 0,
 	["tutorial"] = {
 		["unlock_button"] = 0,
 		["main_help_button"] = 2,
 		["logons"] = 2,
 		["version_announce"] = 0,
+		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
 			false, -- [1]
@@ -2820,6 +3130,7 @@ _detalhes_global = {
 		["position"] = {
 		},
 	},
+	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
 	["item_level_pool"] = {
 	},
@@ -2828,18 +3139,10 @@ _detalhes_global = {
 	["always_use_profile_exception"] = {
 	},
 	["merge_player_abilities"] = false,
-	["run_code"] = {
-		["on_groupchange"] = "\n-- this code runs when the player enter or leave a group",
-		["on_zonechanged"] = "\n-- when the player changes zone, this code will run",
-		["on_init"] = "\n-- code to run when Details! initializes, put here code which only will run once\n-- this also will run then the profile is changed\n\n--size of the death log tooltip in the Deaths display (default 350)\nDetails.death_tooltip_width = 350;\n\n--when in arena or battleground, details! silently switch to activity time (goes back to the old setting on leaving, default true)\nDetails.force_activity_time_pvp = true;\n\n--speed of the bar animations (default 33)\nDetails.animation_speed = 33;\n\n--threshold to trigger slow or fast speed (default 0.45)\nDetails.animation_speed_mintravel = 0.45;\n\n--call to update animations\nDetails:RefreshAnimationFunctions();\n\n--max window size, does require a /reload to work (default 480 x 450)\nDetails.max_window_size.width = 480;\nDetails.max_window_size.height = 450;\n\n--use the arena team color as the class color (default true)\nDetails.color_by_arena_team = true;\n\n--how much time the update warning is shown (default 10)\nDetails.update_warning_timeout = 10;",
-		["on_specchanged"] = "\n-- run when the player changes its spec",
-		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
-		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
-	},
+	["spell_category_latest_query"] = 0,
 	["savedTimeCaptures"] = {
 	},
-	["spell_category_savedtable"] = {
-	},
+	["latest_news_saw"] = "10.2.5 12222",
 	["damage_scroll_position"] = {
 		["scale"] = 1,
 	},
@@ -2935,7 +3238,7 @@ _detalhes_global = {
 		"8 - Saving nicktag cache.", -- [7]
 		"9 - Saving Auto Run Code.", -- [8]
 	},
-	["installed_skins_cache"] = {
+	["encounter_journal_cache"] = {
 	},
 	["update_warning_timeout"] = 10,
 	["deathlog_healingdone_min"] = 1,
@@ -2946,5 +3249,8 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
+		"2024-01-17 19:38:01 | actor removed Echo Blade (disposable)", -- [1]
 	},
+}
+__details_debug = {
 }

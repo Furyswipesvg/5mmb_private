@@ -1,11 +1,11 @@
 FSMB_version="011124_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Furyswipes",[2]="Summerlin",[3]="Jerkstore",[4]="Getln",[5]="Deadlnside",[6]="Maladin",[7]="Frawshawwk",[8]="Neversmile",[9]="Itcantbee",[10]="Sanguiner",[11]="Funkmunk",[12]="Choinker",[13]="Toofy",[14]="Goodlivin",[15]="Loonkin",[16]="Orclaw",[17]="Badoinker",[18]="Springvalley",[19]="Elonlnside",[20]="Skullspriest",[21]="Babadoink",[22]="Opmageikr",[23]="Punkmunk",[24]="Eversmile",[25]="Aslf",[26]="Anlmpulse",[27]="Werldpiece",[28]="Cokecoke",[29]="Thelraq",[30]="Onlt",[31]="Thelnsane",[32]="Chaostard"}
-FSMB_invitelist={[1]="Furyswipes-bladefist",[2]="Summerlin-bladefist",[3]="Jerkstore-bladefist",[4]="Getln-bladefist",[5]="Deadlnside-bladefist",[6]="Maladin-bladefist",[7]="Frawshawwk-bladefist",[8]="Neversmile-bladefist",[9]="Itcantbee-bladefist",[10]="Sanguiner-bladefist",[11]="Funkmunk-bladefist",[12]="Choinker-bladefist",[13]="Toofy-bladefist",[14]="Goodlivin-bladefist",[15]="Loonkin-bladefist",[16]="Orclaw-bladefist",[17]="Badoinker-bladefist",[18]="Springvalley-bladefist",[19]="Elonlnside-bladefist",[20]="Skullspriest-bladefist",[21]="Babadoink-bladefist",[22]="Opmageikr-bladefist",[23]="Punkmunk-bladefist",[24]="Eversmile-bladefist",[25]="Aslf-bladefist",[26]="Anlmpulse-bladefist",[27]="Werldpiece-bladefist",[28]="Cokecoke-bladefist",[29]="Thelraq-bladefist",[30]="Onlt-bladefist",[31]="Thelnsane-bladefist",[32]="Chaostard-bladefist"}
-FSMB_tank="Furyswipes"
+FSMB_toonlist={[1]="Onlt",[2]="Chaostard",[3]="Aslf",[4]="Anlmpulse",[5]="Cokecoke"}
+FSMB_invitelist={[1]="Onlt-bladefist",[2]="Chaostard-bladefist",[3]="Aslf-bladefist",[4]="Anlmpulse-bladefist",[5]="Cokecoke-bladefist"}
+FSMB_tank=""
 FSMB_nomacros=nil
-FSMB_healerlist={"Loonkin","Skullspriest","Punkmunk","Eversmile","Aslf","Anlmpulse"}
+FSMB_healerlist={"Aslf","Anlmpulse","Cokecoke"}
 FSMB_maxheal={Druid=3,Priest=3,Shaman=5,Paladin=3}
 FSMB_squads=nil
 -- Find players region and set the spelling for Rank and some other flakey things.
@@ -859,21 +859,36 @@ end
 	SetCVar("nameplateMotion", true)
 	SetCVar("autoSelfCast", false)
 	SetCVar("showTutorials", false)
+	SetCVar("classicUI", true)
 	SetCVar("ShowClassColorInFriendlyNameplate", true)
 	SetCVar("showTargetOfTarget", true)
 	SetModifiedClick("SELFCAST","NONE")
-	SetActionBarToggles(true,true,true,true,true)
-	ALWAYS_SHOW_MULTI_ACTIONBAR=1
-	SHOW_MULTI_ACTIONBAR_1=true
-	SHOW_MULTI_ACTIONBAR_2=true
-	SHOW_MULTI_ACTIONBAR_3=true
-	SHOW_MULTI_ACTIONBAR_4=true
-	MultiActionBar_Update()
-	MultiBar5:Hide()
-	ClearTutorials()
+	--SetActionBarToggles(true,true,true,true,true)
+	--ALWAYS_SHOW_MULTI_ACTIONBAR=1
+	--SHOW_MULTI_ACTIONBAR_1=true
+	--SHOW_MULTI_ACTIONBAR_2=true
+	--SHOW_MULTI_ACTIONBAR_3=true
+	--SHOW_MULTI_ACTIONBAR_4=true
+	--MultiActionBar_Update()
+	--MultiBar5:Hide()
+	--ClearTutorials()
 	ReloadUI()
 end
+function MyLay()
+  -- LAYOUT
+  --C_EditMode.Enter()
+  for setting,value in pairs(
+C_EditMode.ConvertStringToLayoutInfo("1 39 0 0 0 4 4 UIParent 0.0 -548.8 -1 ##$$%/&&'%)$+$,$ 0 1 0 8 2 MainMenuBar 0.0 4.0 -1 ##$$%/&&'%(#,$ 0 2 0 6 0 MultiBarBottomLeft 0.0 4.0 -1 ##$$%/&&'%(#,$ 0 3 1 5 5 UIParent -5.0 -77.0 -1 #$$$%/&('%(#,$ 0 4 1 5 5 UIParent -5.0 -77.0 -1 #$$$%/&('%(#,$ 0 5 0 8 6 MultiBarLeft -4.0 0.0 -1 #$$$%/&%'%(#,$ 0 6 0 8 6 MultiBar5 -4.0 0.0 -1 #$$$%/&%'%(#,$ 0 7 0 8 6 MultiBar6 -4.0 0.0 -1 #$$$%/&%'%(#,$ 0 10 1 7 7 UIParent 0.0 45.0 -1 ##$$&('% 0 11 1 7 7 UIParent 0.0 45.0 -1 ##$$&('%,# 0 12 1 7 7 UIParent 0.0 45.0 -1 ##$$&('% 1 -1 1 4 4 UIParent 0.0 0.0 -1 ##$#%# 2 -1 1 2 2 UIParent 0.0 0.0 -1 ##$#%( 3 0 1 0 0 UIParent 4.0 -4.0 -1 $#3# 3 1 1 0 0 UIParent 250.0 -4.0 -1 %#3# 3 2 0 0 0 UIParent 339.5 -201.3 -1 %#&#3# 3 3 1 0 2 CompactRaidFrameManager 0.0 -7.0 -1 '#(#)#-#.#/#1$3# 3 4 1 0 2 CompactRaidFrameManager 0.0 -5.0 -1 ,#-#.#/#0#1#2( 3 5 0 2 2 UIParent -307.9 -0.0 -1 &#*$3# 3 6 0 2 2 UIParent -226.9 -294.8 -1 -#.#/#4& 3 7 1 4 4 UIParent 0.0 0.0 -1 3# 4 -1 1 7 7 UIParent 0.0 45.0 -1 # 5 -1 1 7 7 UIParent 0.0 45.0 -1 # 6 0 1 2 2 UIParent -255.0 -10.0 -1 ##$#%#&.(()( 6 1 1 2 2 UIParent -270.0 -155.0 -1 ##$#%#'+(()( 7 -1 1 7 7 UIParent 0.0 45.0 -1 # 8 -1 0 3 3 UIParent 34.0 -445.5 -1 #&$A%$&7 9 -1 1 7 7 UIParent 0.0 45.0 -1 # 10 -1 1 0 0 UIParent 16.0 -116.0 -1 # 11 -1 1 8 8 UIParent -9.0 85.0 -1 # 12 -1 0 5 3 MultiBar7 -4.0 -17.1 -1 #.$# 13 -1 1 8 8 MicroButtonAndBagsBar 0.0 0.0 -1 ##$#%)&- 14 -1 1 2 2 MicroButtonAndBagsBar 0.0 10.0 -1 ##$#%( 15 0 1 7 7 StatusTrackingBarManager 0.0 0.0 -1 # 15 1 1 7 7 StatusTrackingBarManager 0.0 17.0 -1 # 16 -1 1 5 5 UIParent 0.0 0.0 -1 #( 17 -1 1 1 1 UIParent 0.0 -100.0 -1 ## 18 -1 1 5 5 UIParent 0.0 0.0 -1 #- 19 -1 1 7 7 UIParent 0.0 0.0 -1 ##")) do
+print("DEBUG setting: "..setting)
+print("DEBUG value: "..value)
+  C_EditMode.SetAccountSetting(setting,value)
+end
+  --C_EditMode.Exit()
+  --printt(C_EditMode.GetAccountSettings())
+end
+
 function FindKeyInTable(table,string)
+
 	if not table then return end
 	for i,v in pairs(table) do
 		if i==string and v then return true end
@@ -1610,9 +1625,9 @@ function automount()
 	if GetZoneText()=="The Maw" and SecureCmdOptionParse"[nodead,nomod,nocombat,nomounted]" then C_MountJournal.SummonByID(1442) 
 	elseif FSMB_hivemind and myname~="Mootalia" and not (inInst and instType=="party") then
 		if FSMB_raidleader==myname or FSMB_tank==myname then 
-			if SecureCmdOptionParse"[nodead,nomod,nocombat,nomounted]" then C_MountJournal.SummonByID(1025) end
+			if SecureCmdOptionParse"[nomod,nocombat,nomounted]" then C_MountJournal.SummonByID(1025) end
 		end
-	elseif SecureCmdOptionParse"[nodead,nomod,nocombat,outdoors,nomounted]"then C_MountJournal.SummonByID(0)end
+	elseif SecureCmdOptionParse"[nomod,nocombat,outdoors,nomounted]"then C_MountJournal.SummonByID(0)end
 end
 function melee_follow()
 		if IsAltKeyDown() or IsControlKeyDown() then return end

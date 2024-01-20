@@ -9,3 +9,10 @@ Blizzard_CompactRaidFrames: enabled
 Details: enabled
 _DevPad: disabled
 _DevPad.GUI: disabled
+Details_Compare2: enabled
+Details_EncounterDetails: enabled
+Details_RaidCheck: enabled
+Details_DataStorage: enabled
+Details_Streamer: enabled
+Details_TinyThreat: enabled
+Details_Vanguard: enabled
