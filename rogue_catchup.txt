@@ -9,3 +9,7 @@ box mbrogthrash02@maildrop.cc	iso2tope	rogue brotarecall-bladefist		melee
 box mbrogthrash03@maildrop.cc	iso2tope	rogue bilbro-bladefist		melee
 box mbrogthrash04@maildrop.cc	iso2tope	rogue bromedown-bladefist		melee
 box mbrogthrash05@maildrop.cc	iso2tope	rogue brolly-bladefist		melee
+#box mbrogbash08@maildrop.cc	iso2tope	rogue everland-bladefist		melee
+#box mbrogbash09@maildrop.cc	iso2tope	rogue defconsix-bladefist		melee
+#box mbrogbash10@maildrop.cc	iso2tope	rogue skinnygirl-bladefist		melee
+
