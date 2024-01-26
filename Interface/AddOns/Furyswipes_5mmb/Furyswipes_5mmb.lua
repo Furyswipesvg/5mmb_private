@@ -1,11 +1,11 @@
 FSMB_version="011124_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Onlt",[2]="Chaostard",[3]="Aslf",[4]="Anlmpulse",[5]="Cokecoke"}
-FSMB_invitelist={[1]="Onlt-bladefist",[2]="Chaostard-bladefist",[3]="Aslf-bladefist",[4]="Anlmpulse-bladefist",[5]="Cokecoke-bladefist"}
+FSMB_toonlist={[1]="Flashmob",[2]="Shivlt",[3]="Healmesucka",[4]="Nowudunit",[5]="Notbanned",[6]="Inyoface",[7]="Havingfun",[8]="Everland",[9]="Defconsix",[10]="Skinnygirl",[11]="Chaostard"}
+FSMB_invitelist={[1]="Flashmob-bladefist",[2]="Shivlt-bladefist",[3]="Healmesucka-bladefist",[4]="Nowudunit-bladefist",[5]="Notbanned-bladefist",[6]="Inyoface-bladefist",[7]="Havingfun-bladefist",[8]="Everland-bladefist",[9]="Defconsix-bladefist",[10]="Skinnygirl-bladefist",[11]="Chaostard-bladefist"}
 FSMB_tank=""
 FSMB_nomacros=nil
-FSMB_healerlist={"Aslf","Anlmpulse","Cokecoke"}
+FSMB_healerlist={}
 FSMB_maxheal={Druid=3,Priest=3,Shaman=5,Paladin=3}
 FSMB_squads=nil
 -- Find players region and set the spelling for Rank and some other flakey things.

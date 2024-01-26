@@ -1,0 +1,8 @@
+
+box myfsmb17@maildrop.cc	iso2tope	protwarrior	jerkstore-bladefist	tank
+box furyswipesbl.oons3@gmail.com	iso2tope	feral toofy-bladefist		melee
+box furyswipesbloo.ns3@gmail.com	iso2tope	guarddru furyswipes-bladefist	tank
+box ultramulti.box.test@gmail.com 	iso2tope	baldru goodlivin-bladefist 	caster
+box furyswipesblo.ons3@gmail.com	iso2tope	restodru loonkin-bladefist	healer 
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
+

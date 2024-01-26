@@ -1,0 +1,11 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box mbrogthrash01@maildrop.cc	iso2tope	rogue broyota-bladefist		melee
+box mbrogthrash02@maildrop.cc	iso2tope	rogue brotarecall-bladefist		melee
+box mbrogthrash03@maildrop.cc	iso2tope	rogue bilbro-bladefist		melee
+box mbrogthrash04@maildrop.cc	iso2tope	rogue bromedown-bladefist		melee
+box mbrogthrash05@maildrop.cc	iso2tope	rogue brolly-bladefist		melee

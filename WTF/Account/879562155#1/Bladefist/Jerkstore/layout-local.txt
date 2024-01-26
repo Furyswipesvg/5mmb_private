@@ -2,7 +2,7 @@ Version: 1
 Frame: ZygorGuidesViewerFrameMaster
 FrameLevel: 1
 Anchor: CENTER
-X: 356
+X: 320
 Y: -226
 W: 40
 H: 40
