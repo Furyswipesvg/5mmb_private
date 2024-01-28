@@ -1,6 +1,0 @@
-ZygorGuidesViewer: enabled
-Postal: disabled
-TomCats-Hivemind: disabled
-Altoholic: disabled
-AllTheThings: disabled
-Simulationcraft: disabled

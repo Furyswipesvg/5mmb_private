@@ -1,2 +1,0 @@
-RareScanner: disabled
-NPCScan: disabled
