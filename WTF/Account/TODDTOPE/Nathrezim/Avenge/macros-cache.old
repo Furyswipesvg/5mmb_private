@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "HDHCODES" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HDHCODES RightButton; [button:3] HDHCODES MiddleButton; [button:4] HDHCODES Button4; [button:5] HDHCODES Button5; HDHCODES
+END

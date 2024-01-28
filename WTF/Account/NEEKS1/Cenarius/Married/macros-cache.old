@@ -1,0 +1,23 @@
+VER 3 0100000000000006 "BARR" "INV_MISC_QUESTIONMARK"
+/cast [@player] Power Word: Barrier
+END
+VER 3 0100000000000004 "DISC_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_AOE RightButton; [button:3] DISC_AOE MiddleButton; [button:4] DISC_AOE Button4; [button:5] DISC_AOE Button5; DISC_AOE
+END
+VER 3 0100000000000002 "DISC_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_MULTI RightButton; [button:3] DISC_MULTI MiddleButton; [button:4] DISC_MULTI Button4; [button:5] DISC_MULTI Button5; DISC_MULTI
+END
+VER 3 0100000000000001 "DISC_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_SINGLE RightButton; [button:3] DISC_SINGLE MiddleButton; [button:4] DISC_SINGLE Button4; [button:5] DISC_SINGLE Button5; DISC_SINGLE
+END
+VER 3 0100000000000005 "DISC_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_TURBO RightButton; [button:3] DISC_TURBO MiddleButton; [button:4] DISC_TURBO Button4; [button:5] DISC_TURBO Button5; DISC_TURBO
+END
+VER 3 0100000000000003 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+END

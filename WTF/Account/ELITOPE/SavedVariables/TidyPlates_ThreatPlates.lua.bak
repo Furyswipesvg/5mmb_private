@@ -1,0 +1,162 @@
+
+ThreatPlatesDB = {
+	["char"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["welcome"] = true,
+		},
+		["Zapdos - Bonechewer"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
+		["Peopledied - Shattered Hand"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
+		["Jetrat - Gorgonnash"] = {
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+		},
+		["Basilina - Zul'jin"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
+		["Defenseless - Nathrezim"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["welcome"] = true,
+		},
+		["Elitope - Borean Tundra"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = "Default",
+		["Zapdos - Bonechewer"] = "Default",
+		["Peopledied - Shattered Hand"] = "Default",
+		["Jetrat - Gorgonnash"] = "Default",
+		["Basilina - Zul'jin"] = "Default",
+		["Defenseless - Nathrezim"] = "Default",
+		["Elitope - Borean Tundra"] = "Default",
+	},
+	["global"] = {
+		["version"] = "6.008",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["nameplate"] = {
+				["toggle"] = {
+					["Totem"] = true,
+				},
+			},
+			["uniqueSettings"] = {
+				[33] = {
+				},
+				[34] = {
+				},
+				[38] = {
+				},
+				[40] = {
+				},
+				[41] = {
+				},
+				[42] = {
+				},
+				[48] = {
+				},
+				[49] = {
+				},
+				[50] = {
+				},
+				["list"] = {
+				},
+			},
+			["cache"] = {
+			},
+		},
+	},
+}

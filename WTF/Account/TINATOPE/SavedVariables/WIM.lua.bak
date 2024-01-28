@@ -1,0 +1,615 @@
+
+WIM3_Data = {
+	["escapeToHide"] = true,
+	["hoverLinks"] = false,
+	["pop_rules"] = {
+		["whisper"] = {
+			["other"] = {
+				["keepfocus"] = false,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = false,
+				["onReceive"] = true,
+			},
+			["combat"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["obeyAutoFocusRules"] = false,
+			["intercept"] = true,
+			["resting"] = {
+				["keepfocus"] = true,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = true,
+				["onReceive"] = true,
+			},
+			["pvp"] = {
+				["keepfocus"] = false,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = false,
+				["onReceive"] = true,
+			},
+			["party"] = {
+				["keepfocus"] = false,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = false,
+				["onReceive"] = true,
+			},
+			["raid"] = {
+				["keepfocus"] = false,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = false,
+				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["alwaysOther"] = false,
+		},
+		["chat"] = {
+			["other"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["bn"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["combat"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["obeyAutoFocusRules"] = false,
+			["intercept"] = false,
+			["resting"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["pvp"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["party"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["raid"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["alwaysOther"] = true,
+		},
+	},
+	["timeStampFormat"] = "%H:%M",
+	["windowAlpha"] = 80,
+	["sounds"] = {
+		["force_game_sound"] = true,
+		["whispers"] = {
+			["msgout_sml"] = "IM",
+			["msgout"] = false,
+			["guild"] = false,
+			["bnet_sml"] = "IM",
+			["msgin_sml"] = "IM",
+			["msgin"] = true,
+			["friend_sml"] = "IM",
+			["guild_sml"] = "IM",
+			["bnet"] = false,
+			["friend"] = false,
+		},
+		["chat"] = {
+			["msgout_sml"] = "Chat Blip",
+			["msgout"] = false,
+			["world_sml"] = "Chat Blip",
+			["msgin_sml"] = "Chat Blip",
+			["msgin"] = true,
+			["party_sml"] = "Chat Blip",
+			["custom_sml"] = "Chat Blip",
+			["say_sml"] = "Chat Blip",
+			["raid_sml"] = "Chat Blip",
+			["raidleader_sml"] = "Chat Blip",
+			["officer_sml"] = "Chat Blip",
+			["guild_sml"] = "Chat Blip",
+			["battlegroundleader_sml"] = "Chat Blip",
+			["battleground_sml"] = "Chat Blip",
+		},
+	},
+	["formatting"] = {
+		["bracketing"] = {
+			["enabled"] = true,
+			["type"] = 1,
+		},
+	},
+	["keepFocusRested"] = true,
+	["wordwrap_indent"] = false,
+	["enabled"] = true,
+	["keepFocus"] = true,
+	["alertedPrivateServer"] = false,
+	["autoFocus"] = false,
+	["winCascade"] = {
+		["enabled"] = true,
+		["direction"] = 8,
+	},
+	["lastState"] = "other",
+	["messageFormat"] = "Default",
+	["displayColors"] = {
+		["wispOut"] = {
+			["r"] = 1,
+			["g"] = 0.0784313725490196,
+			["b"] = 0.9882352941176471,
+		},
+		["wispIn"] = {
+			["r"] = 0.5607843137254902,
+			["g"] = 0.03137254901960784,
+			["b"] = 0.7607843137254902,
+		},
+		["sysMsg"] = {
+			["r"] = 1,
+			["g"] = 0.6627450980392157,
+			["b"] = 0,
+		},
+		["BNwispOut"] = {
+			["r"] = 0.1725490196078431,
+			["g"] = 0.6352941176470588,
+			["b"] = 1,
+		},
+		["historyIn"] = {
+			["r"] = 0.4705882352941176,
+			["g"] = 0.4705882352941176,
+			["b"] = 0.4705882352941176,
+		},
+		["errorMsg"] = {
+			["r"] = 1,
+			["g"] = 0,
+			["b"] = 0,
+		},
+		["useSkin"] = true,
+		["BNwispIn"] = {
+			["r"] = 0,
+			["g"] = 0.4862745098039216,
+			["b"] = 0.6549019607843137,
+		},
+		["historyOut"] = {
+			["r"] = 0.7058823529411764,
+			["g"] = 0.7058823529411764,
+			["b"] = 0.7058823529411764,
+		},
+		["webAddress"] = {
+			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
+		},
+	},
+	["fontSize"] = 12,
+	["showToolTips"] = true,
+	["minimap"] = {
+		["free_position"] = {
+			["y"] = -94.12129809441115,
+			["x"] = -125.9816852268828,
+			["point"] = "TOPRIGHT",
+		},
+		["position"] = 200,
+		["rightClickNew"] = false,
+		["free"] = false,
+	},
+	["winAnimation"] = true,
+	["expose"] = {
+		["protect"] = 1,
+		["borderSize"] = 20,
+		["combat"] = false,
+		["direction"] = 1,
+		["border"] = false,
+		["groupOnly"] = false,
+	},
+	["alias"] = {
+		["title_string"] = "{n} - {a}",
+	},
+	["winSize"] = {
+		["height"] = 220,
+		["strata"] = "DIALOG",
+		["scale"] = 100,
+		["width"] = 333,
+	},
+	["windowOnTop"] = true,
+	["modules"] = {
+		["ChatSounds"] = {
+			["enabled"] = true,
+		},
+		["ShortcutBar"] = {
+			["enabled"] = true,
+		},
+		["Emoticons"] = {
+			["enabled"] = true,
+		},
+		["ChatAlerts"] = {
+			["enabled"] = true,
+		},
+		["Sounds"] = {
+			["enabled"] = true,
+		},
+		["Expose"] = {
+			["enabled"] = true,
+		},
+		["WhisperEngine"] = {
+			["enabled"] = true,
+		},
+		["MinimapIcon"] = {
+			["enabled"] = true,
+		},
+		["TimeStamps"] = {
+			["enabled"] = true,
+		},
+		["OffScreenTracker"] = {
+			["enabled"] = true,
+		},
+		["History"] = {
+			["enabled"] = true,
+		},
+		["LDB"] = {
+			["enabled"] = true,
+		},
+		["URLHandler"] = {
+			["enabled"] = true,
+		},
+		["Filters"] = {
+			["enabled"] = true,
+		},
+		["Menu"] = {
+			["enabled"] = true,
+		},
+		["ClickControl"] = {
+			["enabled"] = true,
+		},
+		["Tabs"] = {
+			["enabled"] = true,
+		},
+	},
+	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
+	["winLoc"] = {
+		["left"] = 217.0000276476148,
+		["top"] = 664.000009894371,
+	},
+	["clampToScreen"] = true,
+	["stats"] = {
+		["startDate"] = "",
+		["versions"] = 1,
+		["whispers"] = 0,
+		["mostConvos"] = 0,
+	},
+	["winFade"] = true,
+	["skin"] = {
+		["font_outline"] = "",
+		["selected"] = "WIM Classic",
+		["font"] = "ChatFontNormal",
+		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
+	},
+	["history"] = {
+		["ageLimit"] = true,
+		["maxPer"] = true,
+		["previewCount"] = 25,
+		["whispers"] = {
+			["friends"] = true,
+			["all"] = false,
+			["guild"] = true,
+		},
+		["maxAge"] = 1209600,
+		["preview"] = true,
+		["maxCount"] = 500,
+		["chat"] = {
+			["ageLimit"] = true,
+			["maxAge"] = 1209600,
+			["maxPer"] = true,
+			["preview"] = true,
+			["maxCount"] = 500,
+			["previewCount"] = 25,
+		},
+	},
+	["chat"] = {
+		["bn"] = {
+			["showAlerts"] = true,
+		},
+		["guild"] = {
+			["showAlerts"] = true,
+		},
+		["party"] = {
+			["showAlerts"] = true,
+		},
+		["custom"] = {
+			["enabled"] = false,
+			["channelSettings"] = {
+			},
+		},
+		["say"] = {
+		},
+		["world"] = {
+			["enabled"] = false,
+			["channelSettings"] = {
+			},
+		},
+		["raid"] = {
+			["showAlerts"] = true,
+		},
+		["officer"] = {
+			["showAlerts"] = true,
+		},
+		["battleground"] = {
+		},
+	},
+	["tabAdvance"] = false,
+	["whoLookups"] = true,
+	["menuSortActivity"] = true,
+}
+WIM3_Cache = {
+	["Nathrezim"] = {
+		["Us"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["Sendhelp"] = 1,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Nanoknight"] = {
+			["friendList"] = {
+				["Illene262CC8"] = 1,
+				["Bladew210B38"] = 1,
+				["|Kq1|k"] = 2,
+				["Duh"] = 1,
+				["Squirm"] = 1,
+				["|Kq2|k"] = 2,
+			},
+			["guildList"] = {
+				["Avenge"] = 2,
+				["Nanoknight"] = 3,
+				["Anlnmate"] = 1,
+			},
+		},
+		["Squirm"] = {
+			["friendList"] = {
+				[""] = 1,
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Giantits"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Nerfpallys"] = {
+			["friendList"] = {
+				[""] = 1,
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Bcenya"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Duh"] = {
+			["friendList"] = {
+				[""] = 1,
+				["Twiddledeath"] = 1,
+				["Nerfpa207E39"] = 1,
+				["Nanokn25DC22"] = 1,
+				["Squirm24E94E"] = 1,
+				["|Kq1|k"] = 2,
+				["Romaris"] = 1,
+				["|Kq2|k"] = 2,
+			},
+		},
+	},
+	["Cenarius"] = {
+		["Us"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Frazzled"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+			["guildList"] = {
+				["Kelthez-Frostmane"] = 23,
+				["Joynerx-Korgath"] = 46,
+				["Howboudah-Frostmane"] = 80,
+				["Kyobon-Frostmane"] = 90,
+				["Hordepaly-Frostmane"] = 42,
+				["Pookformer-Frostmane"] = 58,
+				["Frazzled"] = 38,
+				["Kande-Frostmane"] = 12,
+				["Pyraxxis-Frostmane"] = 59,
+				["Dreadful-Frostmane"] = 35,
+				["Horniboii-Frostmane"] = 11,
+				["Behr-Frostmane"] = 77,
+				["Bobthepally-Frostmane"] = 8,
+				["Dahwinnamon-Frostmane"] = 78,
+				["Frostyboii-Frostmane"] = 6,
+				["Sakora-Frostmane"] = 21,
+				["Parched-Korgath"] = 55,
+				["Algaraz-Frostmane"] = 28,
+				["Tealeaf-Frostmane"] = 64,
+				["Erodrella-Frostmane"] = 36,
+				["Jonrah-Frostmane"] = 45,
+				["Gubblebuum-Ner'zhul"] = 40,
+				["Nikora-Frostmane"] = 15,
+				["Moltenlava-Frostmane"] = 51,
+				["Ðeathbringa-Frostmane"] = 3,
+				["Shamakazee-Frostmane"] = 61,
+				["Epicfailures-Frostmane"] = 93,
+				["Balphqt-Korgath"] = 30,
+				["Kitsuu-Frostmane"] = 67,
+				["Boysauce-Korgath"] = 31,
+				["Kaariel-Frostmane"] = 47,
+				["Knewb-Frostmane"] = 50,
+				["Pumpamonk-Frostmane"] = 84,
+				["Pokerindabak-Frostmane"] = 69,
+				["Spacesnacks-Frostmane"] = 75,
+				["Revanant-Frostmane"] = 71,
+				["Sobi-Frostmane"] = 62,
+				["Melenu-Frostmane"] = 91,
+				["Holyester-Frostmane"] = 18,
+				["Pookcaster-Frostmane"] = 56,
+				["Tinky-Tortheldrin"] = 13,
+				["Daoko-Frostmane"] = 14,
+				["Hotpocket-Frostmane"] = 43,
+				["Krimbl-Frostmane"] = 10,
+				["Ishind-Frostmane"] = 20,
+				["Sathaestus-Frostmane"] = 60,
+				["Meåtshield-Ner'zhul"] = 68,
+				["Dontezrezzed-Ner'zhul"] = 34,
+				["Holynorris-Frostmane"] = 41,
+				["Randomcat-Frostmane"] = 4,
+				["Spacesnax-Frostmane"] = 63,
+				["Kelda-Frostmane"] = 49,
+				["Ahnku-Frostmane"] = 76,
+				["Kajek-Frostmane"] = 48,
+				["Kaluta-Frostmane"] = 19,
+				["Garb-Frostmane"] = 39,
+				["Norinestra-Frostmane"] = 53,
+				["Shelob-Frostmane"] = 74,
+				["Seteh-Ner'zhul"] = 73,
+				["Mahntklip-Frostmane"] = 24,
+				["Rayre-Frostmane"] = 70,
+				["Online-Frostmane"] = 54,
+				["Hotzsauce-Frostmane"] = 44,
+				["Dauntis-Ner'zhul"] = 33,
+				["Mecbeth-Frostmane"] = 82,
+				["Phoass-Frostmane"] = 83,
+				["Pookdeadster-Frostmane"] = 57,
+				["Thørn-Frostmane"] = 7,
+				["Orgish-Frostmane"] = 2,
+				["Frenchie-Korgath"] = 22,
+				["Cinderz-Frostmane"] = 32,
+				["Gardénia-Frostmane"] = 26,
+				["Furryz-Frostmane"] = 16,
+				["Rocoko-Frostmane"] = 92,
+				["Inhuman-Frostmane"] = 88,
+				["Unkindbagel-Frostmane"] = 65,
+				["Backlash-Frostmane"] = 29,
+				["Dëæthßrîngör-Frostmane"] = 79,
+				["Darthreza-Frostmane"] = 25,
+				["Arcàna-Frostmane"] = 5,
+				["Qweefnut-Frostmane"] = 9,
+				["Zarixu-Frostmane"] = 66,
+				["Sparki-Frostmane"] = 85,
+				["Nightynight-Frostmane"] = 52,
+				["Kangfupanda-Frostmane"] = 81,
+				["Sandrolas-Frostmane"] = 72,
+				["Lysendral-Frostmane"] = 17,
+				["Fekdu-Ner'zhul"] = 37,
+				["Absolùtzero-Frostmane"] = 27,
+				["Valstre-Frostmane"] = 86,
+				["Kahua-Frostmane"] = 89,
+				["Ashoo-Frostmane"] = 87,
+				["Myrokototem-Frostmane"] = 1,
+			},
+		},
+		["Neekie"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+	},
+}
+WIM3_Filters = {
+	{
+		"^OQ[,S]", -- [1]
+		["enabled"] = true,
+		["type"] = 1,
+		["pattern"] = "^<T>PartyQuests[^A-Z]+\n^<M_N>\n^ItemDB-Request:\n^LVBM\n^YOU ARE BEING WATCHED!\n^YOU ARE MARKED!\n^YOU ARE CURSED!\n^YOU HAVE THE PLAGUE!\n^YOU ARE BURNING!\n^YOU ARE THE BOMB!\nVOLATILE INFECTION\n^/^GA[^A-Z]+\n^<METAMAP\n^<CT",
+		["sent"] = true,
+		["name"] = "Whispers Sent by Addons",
+		["received"] = true,
+		["protected"] = true,
+		["stats"] = 0,
+		["action"] = 2,
+		["tag"] = "addons",
+	}, -- [1]
+	{
+		["enabled"] = false,
+		["type"] = 2,
+		["action"] = 1,
+		["friend"] = true,
+		["party"] = true,
+		["name"] = "WhisperSelect Part 1",
+		["stats"] = 0,
+		["raid"] = true,
+		["received"] = true,
+		["guild"] = true,
+	}, -- [2]
+	{
+		["enabled"] = false,
+		["type"] = 2,
+		["name"] = "WhisperSelect Part 2",
+		["stats"] = 0,
+		["all"] = true,
+		["received"] = true,
+		["action"] = 2,
+	}, -- [3]
+}
+WIM3_History = {
+}
+WIM3_ChatFilters = {
+}
+WIM3_Alias = nil

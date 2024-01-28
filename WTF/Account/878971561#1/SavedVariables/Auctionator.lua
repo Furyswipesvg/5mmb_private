@@ -57,11 +57,11 @@ AUCTIONATOR_CONFIG = {
 	},
 	["cancel_undercut_shortcut"] = "SPACE",
 	["auction_mean_days_limit"] = 21,
-	["crafting_info_show_cost"] = true,
 	["columns_shopping"] = {
 	},
-	["save_last_duration_as_default"] = false,
 	["vendor_tooltips"] = true,
+	["save_last_duration_as_default"] = false,
+	["crafting_info_show_cost"] = true,
 	["auction_mean_tooltips"] = false,
 	["default_quantities"] = {
 		0, -- [1]

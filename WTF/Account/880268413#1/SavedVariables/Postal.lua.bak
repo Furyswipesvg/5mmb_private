@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Flashmob - Bladefist"] = "Flashmob - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Flashmob|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Flashmob - Bladefist"] = {
+		},
+	},
+}

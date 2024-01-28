@@ -1,0 +1,25 @@
+
+TidyPlatesWidgetData = {
+	["UnitLastSeen"] = {
+		["Guyo Crystalgear"] = 3719,
+		["Reeler Uko"] = 3719,
+		["Defenseless"] = 3719,
+		["Vaultkeeper Shifen"] = 3719,
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Guyo Crystalgear"] = "Explosive Expeditions",
+		["Reeler Uko"] = "Fishing Supplies",
+		["Defenseless"] = "Youll Need Help",
+		["Vaultkeeper Shifen"] = "Banker",
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Guyo Crystalgear"] = "NPC",
+		["Reeler Uko"] = "NPC",
+		["Defenseless"] = "ROGUE",
+		["Vaultkeeper Shifen"] = "NPC",
+	},
+}

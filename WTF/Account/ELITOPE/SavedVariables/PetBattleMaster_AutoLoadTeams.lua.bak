@@ -1,0 +1,13 @@
+
+PetBattleMaster_AutoLoadTeams = {
+	["modules"] = {
+	},
+	["baseName"] = "PetBattleMaster_AutoLoadTeams",
+	["name"] = "PetBattleMaster_AutoLoadTeams",
+	["orderedModules"] = {
+	},
+	["defaultModuleLibraries"] = {
+	},
+	["enabledState"] = true,
+	["defaultModuleState"] = true,
+}

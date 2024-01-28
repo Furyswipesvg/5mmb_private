@@ -1,0 +1,8 @@
+
+GuildSlackerDB = {
+	["profileKeys"] = {
+		["Realmhoperyo - Tol Barad"] = "Default",
+		["Ee - Tol Barad"] = "Default",
+		["Ux - Cenarius"] = "Default",
+	},
+}

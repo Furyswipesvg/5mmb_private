@@ -1,0 +1,10 @@
+
+GearingGuideDB1 = {
+	["profileKeys"] = {
+		["Chaostard - Nathrezim"] = "Chaostard - Nathrezim",
+	},
+	["profiles"] = {
+		["Chaostard - Nathrezim"] = {
+		},
+	},
+}

@@ -55,13 +55,13 @@ AUCTIONATOR_CONFIG = {
 	["columns_selling_search_3"] = {
 	},
 	["cancel_undercut_shortcut"] = "SPACE",
-	["show_selling_bid_price"] = false,
 	["auction_mean_days_limit"] = 21,
 	["autoscan_interval"] = 15,
-	["save_last_duration_as_default"] = false,
 	["autoscan_2"] = false,
-	["auction_mean_tooltips"] = false,
+	["save_last_duration_as_default"] = false,
 	["vendor_tooltips"] = true,
+	["auction_mean_tooltips"] = false,
+	["show_selling_bid_price"] = false,
 	["columns_shopping_buy_commodity"] = {
 	},
 	["hide_splash_screen"] = false,
@@ -83,17 +83,17 @@ AUCTIONATOR_CONFIG = {
 		0, -- [7]
 		0, -- [8]
 		0, -- [9]
-		[12] = 0,
-		[15] = 0,
-		[16] = 0,
-		[17] = 1,
 		[0] = 0,
+		[17] = 1,
+		[15] = 0,
+		[12] = 0,
 		[19] = 0,
+		[16] = 0,
 	},
 	["selling_bag_collapsed"] = false,
+	["crafting_info_show_cost"] = true,
 	["columns_shopping"] = {
 	},
-	["crafting_info_show_cost"] = true,
 	["auction_sales_preference"] = "percentage",
 	["columns_cancelling"] = {
 	},

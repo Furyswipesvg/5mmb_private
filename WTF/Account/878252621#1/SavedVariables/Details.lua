@@ -3,434 +3,6 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
-		{
-			1893, -- [1]
-			"Hellfire Watcher", -- [2]
-		}, -- [1]
-		[320069] = {
-			2391, -- [1]
-			"Dessia the Decapitator", -- [2]
-		},
-		[34645] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[34653] = {
-			1892, -- [1]
-			"Nazan", -- [2]
-		},
-		[14032] = {
-			1893, -- [1]
-			"Hellfire Watcher", -- [2]
-		},
-		[22858] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[149963] = {
-			1655, -- [1]
-			"[*] Shatter Earth", -- [2]
-		},
-		[150011] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[703] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[13787] = {
-			474, -- [1]
-			"Skeletal Guardian", -- [2]
-		},
-		[42702] = {
-			2026, -- [1]
-			"Vrykul Skeleton", -- [2]
-		},
-		[149980] = {
-			1655, -- [1]
-			"[*] Dancing Flames", -- [2]
-		},
-		[153679] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[31901] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[42730] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[30641] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[150759] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[150045] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[320300] = {
-			2391, -- [1]
-			"Sathel the Accursed", -- [2]
-		},
-		[198401] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[80750] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[150078] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[12542] = {
-			1885, -- [1]
-			"Postmaster Malown", -- [2]
-		},
-		[76583] = {
-			477, -- [1]
-			"Risen Monk", -- [2]
-		},
-		[196354] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[110762] = {
-			475, -- [1]
-			"Willey Hopebreaker", -- [2]
-		},
-		[3391] = {
-			477, -- [1]
-			"Risen Monk", -- [2]
-		},
-		[17399] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[33975] = {
-			477, -- [1]
-			"Instructor Galford", -- [2]
-		},
-		[333292] = {
-			2391, -- [1]
-			"Sathel the Accursed", -- [2]
-		},
-		[320272] = {
-			2391, -- [1]
-			"Sathel the Accursed", -- [2]
-		},
-		[13444] = {
-			472, -- [1]
-			"Rockwing Gargoyle", -- [2]
-		},
-		[5137] = {
-			1885, -- [1]
-			"Undead Postman", -- [2]
-		},
-		[150032] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[150048] = {
-			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[150344] = {
-			1655, -- [1]
-			"[*] Shatter Earth", -- [2]
-		},
-		[17366] = {
-			477, -- [1]
-			"Instructor Galford", -- [2]
-		},
-		[17353] = {
-			475, -- [1]
-			"Risen Rifleman <Willey Hopebreaker>", -- [2]
-		},
-		[149997] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[30707] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[13704] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[42751] = {
-			2025, -- [1]
-			"[*] Shadow Axe", -- [2]
-		},
-		[324085] = {
-			2391, -- [1]
-			"Dessia the Decapitator", -- [2]
-		},
-		[320180] = {
-			2391, -- [1]
-			"Paceran the Virulent", -- [2]
-		},
-		[59146] = {
-			475, -- [1]
-			"Willey Hopebreaker", -- [2]
-		},
-		[40505] = {
-			472, -- [1]
-			"Plague Ghoul", -- [2]
-		},
-		[15615] = {
-			475, -- [1]
-			"Willey Hopebreaker", -- [2]
-		},
-		[7713] = {
-			1885, -- [1]
-			"Undead Postman", -- [2]
-		},
-		[6253] = {
-			1885, -- [1]
-			"Postmaster Malown", -- [2]
-		},
-		[150034] = {
-			1655, -- [1]
-			"[*] Choking Ashes", -- [2]
-		},
-		[333231] = {
-			2391, -- [1]
-			"Sathel the Accursed", -- [2]
-		},
-		[22857] = {
-			1893, -- [1]
-			"Watchkeeper Gargolmar", -- [2]
-		},
-		[198386] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[66290] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[17405] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[13338] = {
-			1885, -- [1]
-			"Postmaster Malown", -- [2]
-		},
-		[17279] = {
-			475, -- [1]
-			"Willey Hopebreaker", -- [2]
-		},
-		[320120] = {
-			2391, -- [1]
-			"Paceran the Virulent", -- [2]
-		},
-		[17278] = {
-			475, -- [1]
-			"Cannonball", -- [2]
-		},
-		[326892] = {
-			2391, -- [1]
-			"Dessia the Decapitator", -- [2]
-		},
-		[42705] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[15245] = {
-			476, -- [1]
-			"Commander Malor", -- [2]
-		},
-		[150004] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[17293] = {
-			477, -- [1]
-			"Instructor Galford", -- [2]
-		},
-		[150023] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[150290] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[42724] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[149941] = {
-			1655, -- [1]
-			"Ruination", -- [2]
-		},
-		[30638] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[198408] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[150751] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[48400] = {
-			2026, -- [1]
-			"Frost Tomb", -- [2]
-		},
-		[196376] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[15654] = {
-			477, -- [1]
-			"Risen Inquisitor", -- [2]
-		},
-		[12734] = {
-			476, -- [1]
-			"Commander Malor", -- [2]
-		},
-		[43649] = {
-			2024, -- [1]
-			"Dalronn the Controller", -- [2]
-		},
-		[149975] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[43667] = {
-			2026, -- [1]
-			"Prince Keleseth", -- [2]
-		},
-		[150324] = {
-			1655, -- [1]
-			"Ruination", -- [2]
-		},
-		[149996] = {
-			1655, -- [1]
-			"Calamity", -- [2]
-		},
-		[30695] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[150038] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
-		[43650] = {
-			2024, -- [1]
-			"Dalronn the Controller", -- [2]
-		},
-		[320063] = {
-			2391, -- [1]
-			"Dessia the Decapitator", -- [2]
-		},
-		[42669] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[30926] = {
-			1892, -- [1]
-			"Nazan", -- [2]
-		},
-		[150753] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[42723] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[17470] = {
-			474, -- [1]
-			"Timmy the Cruel", -- [2]
-		},
-		[150801] = {
-			1653, -- [1]
-			"Slave Watcher Crushto", -- [2]
-		},
-		[16458] = {
-			472, -- [1]
-			"Plague Ghoul", -- [2]
-		},
-		[198376] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[30686] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[12741] = {
-			1885, -- [1]
-			"Postmaster Malown", -- [2]
-		},
-		[198379] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[16172] = {
-			476, -- [1]
-			"Commander Malor", -- [2]
-		},
-		[30637] = {
-			1891, -- [1]
-			"Omor the Unscarred", -- [2]
-		},
-		[320293] = {
-			2391, -- [1]
-			"Sathel the Accursed", -- [2]
-		},
-		[2818] = {
-			478, -- [1]
-			"Balnazzar", -- [2]
-		},
-		[42729] = {
-			2025, -- [1]
-			"Ingvar the Plunderer", -- [2]
-		},
-		[35748] = {
-			1891, -- [1]
-			"Fiendish Hound <Omor the Unscarred>", -- [2]
-		},
-		[150076] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
-		},
-		[48583] = {
-			2024, -- [1]
-			"Skarvald the Constructor", -- [2]
-		},
-		[198269] = {
-			1836, -- [1]
-			"Archdruid Glaidalis", -- [2]
-		},
-		[122832] = {
-			472, -- [1]
-			"The Unforgiven", -- [2]
-		},
-		[8599] = {
-			474, -- [1]
-			"Timmy the Cruel", -- [2]
-		},
-		[152170] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
-		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -500,57 +72,57 @@ _detalhes_global = {
 	["trinket_data"] = {
 		[214342] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Down Draft",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[214350] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Nightmare Essence",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[214169] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Brutal Haymaker",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[382426] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Spiteful Stormbolt",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[417534] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Time-Thief's Gambit",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[429221] = {
@@ -567,134 +139,134 @@ _detalhes_global = {
 		},
 		[214052] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Fel Meteor",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[425127] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Dream Salvage",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[215407] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Dark Blast",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[397376] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Burning Embers",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[417458] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[407961] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Lava Wave",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[270827] = {
 			["lastCombatId"] = 678,
-			["maxTime"] = 0,
+			["lastActivation"] = 1704947943.198,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
 			["lastPlayerName"] = "Springvalley",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 1704947943.198,
 			["totalCooldownTime"] = 0,
 		},
 		[421996] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Ursine Reprisal",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426674] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "spell not found",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426564] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Annihilating Flame",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[421994] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Rising Rage",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[427037] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Lava Bolt",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426486] = {
@@ -711,332 +283,332 @@ _detalhes_global = {
 		},
 		[401428] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Ravenous Shadowflame",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[384290] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Smorf's Ambush",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[424324] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Hungering Shadowflame",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426676] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Best Friends with Aerwynn",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426672] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Best Friends with Urctos",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[425154] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Vicious Brand",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[384325] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Barf's Ambush",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426677] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "spell not found",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[425181] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Thorn Burst",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[394453] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Broodkeeper's Blaze",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[422441] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Roots of the Tormented Ancient",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[417452] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Accelerating Sandglass",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[389839] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Fire Shot",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426647] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Best Friends with Pip",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[429246] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Primal Genesis",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426553] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Annihilating Flame",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[213786] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Nightfall",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426648] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "spell not found",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[385903] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Crystal Sickness",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[418527] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Mirror of Fractured Tomorrows",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[215270] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Fragile Echo",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[92174] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Carcinized Adaptation",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[388739] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Pure Decay",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[388755] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Soulseeker Arrow",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[381760] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Mutated Tentacle Slam",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[401324] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Echoed Flare",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[424965] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Thorn Spirit",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[429262] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Aqueous Enrichment",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[423611] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Soul Ignition",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[271671] = {
 			["lastCombatId"] = 0,
-			["maxTime"] = 0,
+			["lastActivation"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Cacaphonous Chord",
 			["lastPlayerName"] = "",
+			["maxTime"] = 0,
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
 			["totalCooldownTime"] = 0,
 		},
 		[426431] = {
@@ -1573,7 +1145,7 @@ _detalhes_global = {
 		["phasecontainer_height"] = 140.0001373291016,
 		["phasecontainer_enabled"] = true,
 		["targetcontainer_islocked"] = true,
-		["phasecontainer_width"] = 290.0000610351563,
+		["phasecontainer_width"] = 290.0000305175781,
 		["phasecontainer_headers"] = {
 			["name"] = {
 				["enabled"] = true,
@@ -1691,7 +1263,7 @@ _detalhes_global = {
 		["blockspell_spark_show"] = true,
 		["spellcontainer_header_fontsize"] = 10,
 		["blockcontainer_islocked"] = true,
-		["targetcontainer_width"] = 336.9999694824219,
+		["targetcontainer_width"] = 336.9999389648438,
 		["blockspell_spark_offset"] = -1,
 		["blockspell_padding"] = 5,
 		["genericcontainer_islocked"] = true,
@@ -1826,7 +1398,7 @@ _detalhes_global = {
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 6.103515625e-05,
+		["y"] = -1.52587890625e-05,
 		["x"] = -0.0007476806640625,
 		["point"] = "CENTER",
 		["scale"] = 1,
@@ -1837,149 +1409,6 @@ _detalhes_global = {
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[0] = "[*] Shadow Word: Death",
-		[23970] = "Vrykul Skeleton",
-		[42975] = "Plague Ghoul",
-		[74570] = "Ruination",
-		[4127] = "Hecklefang Hyena",
-		[74475] = "Magmolatus",
-		[75272] = "Bloodmaul Ogre Mage",
-		[84978] = "Bloodmaul Enforcer",
-		[74571] = "Calamity",
-		[167532] = "Heavin the Breaker",
-		[29684] = "Ticking Bomb <Dragonflayer Strategist>",
-		[24078] = "Dragonflayer Metalworker",
-		[24082] = "Proto-Drake Handler",
-		[75193] = "Bloodmaul Overseer",
-		[75209] = "Molten Earth Elemental",
-		[167533] = "Advent Nevermore",
-		[10808] = "Timmy the Cruel",
-		[101841] = "Image of Mythana <[*] Nightmare Images>",
-		[167534] = "Rek the Hardened",
-		[74349] = "Bloodmaul Magma Binder",
-		[17269] = "Bleeding Hollow Darkcaster",
-		[75210] = "Bloodmaul Warder",
-		[170850] = "Raging Bloodhorn",
-		[174197] = "Battlefield Ritualist",
-		[17540] = "Fiendish Hound <Omor the Unscarred>",
-		[3110] = "Dreadmaw Crocolisk",
-		[17309] = "Hellfire Watcher",
-		[74366] = "Forgemaster Gog'duh",
-		[75211] = "Magma Lord",
-		[167538] = "Dokigg the Brutalizer",
-		[95771] = "Dreadsoul Ruiner",
-		[10382] = "Mangled Cadaver",
-		[10390] = "Skeletal Guardian",
-		[109908] = "Nightmare Abomination",
-		[95772] = "Frenzied Nightclaw",
-		[99358] = "Rotheart Dryad",
-		[10414] = "Patchwork Horror",
-		[24083] = "Enslaved Proto-Drake",
-		[10418] = "Risen Guardsman",
-		[10420] = "Risen Initiate",
-		[10422] = "Risen Sorcerer",
-		[10424] = "Risen Gallant",
-		[10426] = "Risen Inquisitor",
-		[99359] = "Rotheart Keeper",
-		[17517] = "Hellfire Sentry",
-		[75198] = "Bloodmaul Geomancer",
-		[164451] = "Dessia the Decapitator",
-		[6010] = "Felhound",
-		[75820] = "Vengeful Magma Elemental",
-		[17306] = "Watchkeeper Gargolmar",
-		[99360] = "Vilethorn Blossom",
-		[23956] = "Dragonflayer Strategist",
-		[23960] = "Dragonflayer Runecaster",
-		[42971] = "Rockwing Gargoyle",
-		[3276] = "Witchwing Harpy",
-		[3277] = "Witchwing Roguefeather",
-		[3278] = "Witchwing Slayer",
-		[75327] = "Pillar of Fire",
-		[3279] = "Witchwing Ambusher",
-		[3280] = "Witchwing Windcaller",
-		[3282] = "Venture Co. Mercenary",
-		[10516] = "The Unforgiven",
-		[11032] = "Commander Malor",
-		[74579] = "Molten Elemental",
-		[10536] = "Plagued Maggot",
-		[101641] = "Mythana",
-		[24080] = "Dragonflayer Weaponsmith",
-		[24084] = "Tunneling Ghoul",
-		[11058] = "Ezra Grimm",
-		[17478] = "Bleeding Hollow Scryer",
-		[10813] = "Balnazzar",
-		[74787] = "Slave Watcher Crushto",
-		[74357] = "Captured Miner",
-		[11082] = "Stratholme Courier",
-		[17259] = "Bonechewer Hungerer",
-		[3425] = "Savannah Prowler",
-		[17271] = "Bonechewer Destroyer",
-		[17307] = "Nazan",
-		[24200] = "Skarvald the Constructor",
-		[23953] = "Prince Keleseth",
-		[75426] = "Bloodmaul Overseer",
-		[23961] = "Dragonflayer Ironhelm",
-		[23965] = "Frost Tomb",
-		[164461] = "Sathel the Accursed",
-		[11143] = "Postmaster Malown",
-		[11054] = "Risen Rifleman <Willey Hopebreaker>",
-		[11043] = "Risen Monk",
-		[96512] = "Archdruid Glaidalis",
-		[11142] = "Undead Postman",
-		[95779] = "Festerhide Grizzly",
-		[10381] = "Ravaged Cadaver",
-		[10383] = "Broken Cadaver <Ravaged Cadaver>",
-		[23954] = "Ingvar the Plunderer",
-		[10387] = "Vengeful Phantom",
-		[10389] = "Wrath Phantom <Getln>",
-		[164463] = "Paceran the Virulent",
-		[10393] = "Skul",
-		[11120] = "Risen Hammersmith",
-		[45412] = "Lord Aurius Rivendare",
-		[5830] = "Sister Rathtalon",
-		[5990] = "Redstone Basilisk",
-		[170838] = "Unyielding Contender",
-		[75360] = "Searing Ember",
-		[167536] = "Harugia the Bloodthirsty",
-		[24069] = "Dragonflayer Bonecrusher",
-		[10411] = "Eye of Naxxramas",
-		[17455] = "Bonechewer Beastmaster",
-		[10421] = "Risen Defender",
-		[24085] = "Dragonflayer Overseer",
-		[10419] = "Risen Conjuror",
-		[100960] = "Vile Mushroom <Rotheart Keeper>",
-		[10423] = "Risen Priest",
-		[10425] = "Risen Battle Mage",
-		[162744] = "Nekthara the Mangler",
-		[3452] = "Serena Bloodfeather",
-		[24079] = "Dragonflayer Forge Master",
-		[42707] = "Twilight Nightblade",
-		[101642] = "Mythana's Tentacle",
-		[29735] = "Savage Worg",
-		[3284] = "Venture Co. Drudger",
-		[10441] = "Plagued Rat",
-		[28419] = "Frenzied Geist",
-		[10955] = "Summoned Water Elemental <Risen Conjuror>",
-		[27390] = "Dazed",
-		[17264] = "Bonechewer Ravener",
-		[95769] = "Mindshattered Screecher",
-		[210886] = "Legion Flak Cannon",
-		[3256] = "Sunscale Scytheclaw",
-		[17280] = "Shattered Hand Warhound",
-		[10391] = "Skeletal Berserker",
-		[24849] = "Proto-Drake Rider",
-		[10997] = "Willey Hopebreaker",
-		[28410] = "Dragonflayer Spiritualist",
-		[17281] = "Bonechewer Ripper",
-		[24071] = "Dragonflayer Heartsplitter",
-		[17308] = "Omor the Unscarred",
-		[95766] = "Crazed Razorbeak",
-		[24201] = "Dalronn the Controller",
-		[17537] = "Vazruden",
-		[101679] = "Dreadsoul Poisoner",
-		[17270] = "Bleeding Hollow Archer",
-		[75191] = "Bloodmaul Slaver",
-		[10811] = "Instructor Galford",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1989,431 +1418,10 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
-		8, -- [1]
-		[17445] = "Risen Hammersmith",
-		[115546] = 10,
-		[324085] = "Dessia the Decapitator",
-		[8092] = 5,
-		[16172] = "Commander Malor",
-		[17501] = "Crimson Cannon <Orclaw>",
-		[185358] = 3,
-		[271071] = 5,
-		[280398] = 5,
-		[195707] = 1,
-		[16244] = "Bonechewer Hungerer",
-		[77478] = 7,
-		[15230] = "Skul",
-		[17150] = "Risen Sorcerer",
-		[8599] = "Dragonflayer Metalworker",
-		[34795] = 8,
-		[257284] = 3,
-		[150038] = "Magmolatus",
-		[153679] = "Slave Watcher Crushto",
-		[13737] = "Risen Gallant",
-		[336996] = "Nekthara the Mangler",
-		[260798] = 1,
-		[33917] = 11,
-		[333292] = "Sathel the Accursed",
-		[119381] = 10,
-		[17278] = "Cannonball",
-		[16324] = "Ravaged Cadaver",
-		[198904] = "Rotheart Dryad",
-		[235313] = 8,
-		[42780] = "Dragonflayer Ironhelm",
-		[6653] = 7,
-		[56641] = 3,
-		[200630] = "Mindshattered Screecher",
-		[151638] = "[*] Suppression Field",
-		[270827] = 8,
-		[126664] = 1,
-		[151447] = "Bloodmaul Enforcer",
-		[50653] = "Enslaved Proto-Drake",
-		[200631] = "Mindshattered Screecher",
-		[17462] = 3,
-		[17470] = "Timmy the Cruel",
-		[122832] = "The Unforgiven",
-		[163201] = 1,
-		[7713] = "Undead Postman",
-		[201846] = 7,
-		[54965] = "Dragonflayer Runecaster",
-		[149980] = "[*] Dancing Flames",
-		[5176] = 11,
-		[6713] = "Bonechewer Hungerer",
-		[204402] = "Dreadsoul Ruiner",
-		[55077] = "Savage Worg",
-		[34653] = "Nazan",
-		[152089] = "Bloodmaul Slaver",
-		[66] = 8,
-		[81219] = "Bonechewer Beastmaster",
-		[108366] = 9,
-		[8364] = "Skeletal Guardian",
-		[116670] = 10,
-		[14516] = "Bonechewer Hungerer",
-		[15043] = "Risen Conjuror",
-		[36554] = 4,
-		[54966] = "Dragonflayer Strategist",
-		[133] = 8,
-		[150048] = "Molten Elemental",
-		[30621] = "Bonechewer Ravener",
-		[150751] = "Slave Watcher Crushto",
-		[30637] = "Omor the Unscarred",
-		[118779] = 1,
-		[12544] = "Risen Sorcerer",
-		[17399] = "Balnazzar",
-		[15618] = "Stratholme Courier",
-		[1833] = 4,
-		[124273] = 10,
-		[150753] = "Slave Watcher Crushto",
-		[15654] = "Risen Initiate",
-		[333827] = "Advent Nevermore",
-		[69820] = 2,
-		[200768] = "Crazed Razorbeak",
-		[198916] = "Vile Mushroom <Rotheart Keeper>",
-		[54983] = "Proto-Drake Handler",
-		[43757] = "Dragonflayer Forge Master",
-		[185311] = 4,
-		[317605] = "Nekthara the Mangler",
-		[124274] = 10,
-		[331275] = "Advent Nevermore",
-		[10101] = "Bonechewer Destroyer",
-		[386208] = 1,
-		[186270] = 3,
-		[200642] = "Dreadsoul Ruiner",
-		[342135] = "Heavin the Breaker",
-		[34767] = 2,
-		[100] = 1,
-		[382889] = 7,
-		[188443] = 7,
-		[200771] = "Crazed Razorbeak",
-		[198408] = "Archdruid Glaidalis",
-		[320293] = "Sathel the Accursed",
-		[200580] = "Festerhide Grizzly",
-		[217699] = "Mythana's Tentacle",
-		[117952] = 10,
-		[8676] = 4,
-		[25504] = 7,
-		[5374] = 4,
-		[30638] = "Omor the Unscarred",
-		[164812] = 11,
-		[333839] = "Rek the Hardened",
-		[404996] = 2,
-		[30686] = "Omor the Unscarred",
-		[13323] = "Risen Sorcerer",
-		[18989] = 10,
-		[320300] = "Sathel the Accursed",
-		[16458] = "Plague Ghoul",
-		[34433] = 5,
-		[331288] = "Heavin the Breaker",
-		[151720] = "Molten Earth Elemental",
-		[42705] = "Ingvar the Plunderer",
-		[17057] = 11,
-		[31884] = 2,
-		[42669] = "Ingvar the Plunderer",
-		[110762] = "Willey Hopebreaker",
-		[18813] = "Patchwork Horror",
-		[146739] = 9,
-		[12555] = "Skeletal Berserker",
-		[124275] = 10,
-		[149997] = "Calamity",
-		[30926] = "Nazan",
-		[43928] = "Dragonflayer Metalworker",
-		[43935] = "Dragonflayer Bonecrusher",
-		[25054] = "Risen Priest",
-		[34769] = 2,
-		[15499] = "Skul",
-		[17279] = "Willey Hopebreaker",
-		[108853] = 8,
-		[686] = 9,
-		[320180] = "Paceran the Virulent",
-		[23922] = 1,
-		[152298] = "Vengeful Magma Elemental",
-		[196819] = 4,
-		[188196] = 7,
-		[326892] = "Dessia the Decapitator",
-		[152043] = "Bloodmaul Slaver",
-		[45181] = 4,
-		[43664] = "Proto-Drake Handler",
-		[198401] = "Archdruid Glaidalis",
-		[17294] = "Ezra Grimm",
-		[54954] = "Ticking Bomb <Dragonflayer Strategist>",
-		[62124] = 2,
-		[344179] = 7,
-		[1329] = 4,
-		[188389] = 7,
-		[30615] = "Bleeding Hollow Scryer",
-		[19131] = "Risen Guardsman",
-		[15587] = "Risen Initiate",
-		[322101] = 10,
-		[15586] = "Risen Priest",
-		[30636] = "Shattered Hand Warhound",
-		[14032] = "Hellfire Watcher",
-		[17293] = "Instructor Galford",
-		[42751] = "[*] Shadow Axe",
-		[43936] = "Dragonflayer Bonecrusher",
-		[30695] = "Omor the Unscarred",
-		[151601] = "Pillar of Fire",
-		[48583] = "Skarvald the Constructor",
-		[31230] = 4,
-		[80750] = "Balnazzar",
-		[11972] = "Risen Guardsman",
-		[6552] = 1,
-		[76583] = "Risen Monk",
-		[33860] = "Risen Battle Mage",
-		[15655] = "Risen Defender",
-		[196376] = "Archdruid Glaidalis",
-		[151092] = "Captured Miner",
-		[17505] = 7,
-		[45182] = 4,
-		[43665] = "Dragonflayer Heartsplitter",
-		[215479] = 10,
-		[22858] = "Watchkeeper Gargolmar",
-		[320063] = "Dessia the Decapitator",
-		[9613] = "Skeletal Guardian",
-		[42723] = "Ingvar the Plunderer",
-		[150004] = "Forgemaster Gog'duh",
-		[178173] = 10,
-		[149975] = "Calamity",
-		[31901] = "Omor the Unscarred",
-		[151446] = "Bloodmaul Enforcer",
-		[322109] = 10,
-		[9080] = "Skeletal Berserker",
-		[149941] = "Ruination",
-		[7068] = "Ghostly Citizen",
-		[151602] = "Pillar of Fire",
-		[116841] = 10,
-		[17353] = "Risen Rifleman <Willey Hopebreaker>",
-		[408] = 4,
-		[29426] = "Risen Gallant",
-		[150801] = "Slave Watcher Crushto",
-		[148187] = 10,
-		[333845] = "Rek the Hardened",
-		[702] = 9,
-		[57846] = "Dragonflayer Ironhelm",
-		[143924] = 1,
-		[13730] = "Skeletal Berserker",
-		[320069] = "Dessia the Decapitator",
-		[6673] = 1,
-		[152170] = "Magmolatus",
-		[201129] = "Vilethorn Blossom",
-		[43650] = "Dalronn the Controller",
-		[124507] = 10,
-		[12741] = "Postmaster Malown",
-		[32612] = 8,
-		[31598] = "Bleeding Hollow Darkcaster",
-		[198103] = 7,
-		[35570] = "Dragonflayer Overseer",
-		[42740] = "Dragonflayer Runecaster",
-		[13787] = "Skeletal Guardian",
-		[285452] = 7,
-		[2818] = 4,
-		[333231] = "Sathel the Accursed",
-		[205708] = 8,
-		[116189] = 10,
-		[228128] = 10,
-		[2823] = 4,
-		[331316] = "Dokigg the Brutalizer",
-		[151581] = "Bloodmaul Overseer",
-		[335149] = 10,
-		[197277] = 2,
-		[5137] = "Undead Postman",
-		[151415] = "Bloodmaul Enforcer",
-		[151990] = "Bloodmaul Slaver",
-		[13338] = "Postmaster Malown",
-		[81297] = 2,
-		[40505] = "Bloodmaul Warder",
-		[15615] = "Willey Hopebreaker",
-		[35395] = 2,
-		[150011] = "Forgemaster Gog'duh",
-		[42729] = "Ingvar the Plunderer",
-		[115804] = 1,
-		[17506] = 10,
-		[411547] = 1,
-		[43667] = "Prince Keleseth",
-		[42702] = "Vrykul Skeleton",
-		[585] = 5,
-		[117962] = 10,
-		[38621] = "Proto-Drake Handler",
-		[198723] = "Rotheart Dryad",
-		[151545] = "Bloodmaul Warder",
-		[204242] = 2,
-		[327873] = 10,
-		[100780] = 10,
-		[17139] = "Risen Priest",
-		[34645] = "Watchkeeper Gargolmar",
-		[60211] = "Dragonflayer Forge Master",
-		[205648] = 7,
-		[53600] = 2,
-		[1943] = 4,
-		[231390] = 3,
-		[13444] = "Rockwing Gargoyle",
-		[333241] = "Raging Bloodhorn",
-		[15496] = "Skeletal Berserker",
-		[150078] = "Forgemaster Gog'duh",
-		[122] = 8,
-		[333242] = "Raging Bloodhorn",
-		[19750] = 2,
-		[214807] = 3,
-		[262115] = 1,
-		[121253] = 10,
-		[225080] = 7,
-		[33975] = "Instructor Galford",
-		[31551] = "Proto-Drake Rider",
-		[151548] = "Bloodmaul Ogre Mage",
-		[192109] = 7,
-		[113780] = 4,
-		[11975] = "Skeletal Guardian",
-		[6253] = "Postmaster Malown",
-		[205523] = 10,
-		[42972] = "Dragonflayer Strategist",
-		[6770] = 4,
-		[15572] = "Dragonflayer Metalworker",
-		[3391] = "Risen Monk",
-		[38232] = "Dragonflayer Overseer",
-		[48400] = "Frost Tomb",
-		[13446] = "Tunneling Ghoul",
-		[30641] = "Watchkeeper Gargolmar",
-		[16143] = "Mangled Cadaver",
-		[37361] = "Skeletal Guardian",
-		[1449] = 8,
-		[12542] = "Postmaster Malown",
-		[116847] = 10,
-		[66290] = "Balnazzar",
-		[75] = 3,
-		[51637] = 4,
-		[853] = 2,
-		[319836] = 8,
-		[5784] = 9,
-		[127802] = 8,
-		[16799] = "Skul",
-		[17467] = "Lord Aurius Rivendare",
-		[200658] = "Dreadsoul Ruiner",
-		[381755] = 7,
-		[7384] = 1,
-		[164597] = "Bloodmaul Geomancer",
-		[77508] = "Vengeful Magma Elemental",
-		[151965] = "Bloodmaul Slaver",
-		[150324] = "Ruination",
-		[1966] = 4,
-		[333861] = "Harugia the Bloodthirsty",
-		[315496] = 4,
-		[12626] = "Patchwork Horror",
-		[42724] = "Ingvar the Plunderer",
-		[20572] = 4,
-		[330784] = "Battlefield Ritualist",
-		[30639] = "Shattered Hand Warhound",
-		[1459] = 8,
-		[331510] = "Unyielding Contender",
-		[12654] = 8,
-		[1766] = 4,
-		[31224] = 4,
-		[15732] = "Risen Battle Mage",
-		[198269] = "Archdruid Glaidalis",
-		[1464] = 1,
-		[9672] = "Skeletal Guardian",
-		[13704] = "Balnazzar",
-		[15241] = "Bleeding Hollow Darkcaster",
-		[15245] = "Commander Malor",
-		[260708] = 1,
-		[201123] = "Vilethorn Blossom",
-		[196354] = "Archdruid Glaidalis",
-		[337178] = "Unyielding Contender",
-		[49722] = "Enslaved Proto-Drake",
-		[151697] = "Bloodmaul Overseer",
-		[198376] = "Archdruid Glaidalis",
-		[22857] = "Watchkeeper Gargolmar",
-		[13748] = "Risen Sorcerer",
-		[150023] = "Magmolatus",
-		[12734] = "Commander Malor",
-		[195630] = 10,
-		[57994] = 7,
-		[262232] = 1,
-		[150807] = "Captured Miner",
-		[150759] = "Slave Watcher Crushto",
-		[396719] = 1,
-		[3] = "Environment (Falling)",
-		[150045] = "Magmolatus",
-		[151685] = "Vengeful Magma Elemental",
-		[341902] = "Battlefield Ritualist",
-		[12294] = 1,
-		[150344] = "[*] Shatter Earth",
-		[17364] = 7,
-		[36213] = "Greater Earth Elemental <Frawshawwk>",
-		[151558] = "Bloodmaul Ogre Mage",
-		[386164] = 1,
-		[34428] = 1,
-		[32223] = 2,
-		[218755] = "Festerhide Grizzly",
-		[198379] = "Archdruid Glaidalis",
-		[107270] = 10,
-		[35748] = "Fiendish Hound <Omor the Unscarred>",
-		[703] = 4,
-		[151623] = "Magma Lord",
-		[150290] = "Calamity",
-		[48107] = 8,
-		[127290] = 8,
-		[7964] = "Ezra Grimm",
-		[43649] = "Dalronn the Controller",
-		[149963] = "[*] Shatter Earth",
-		[9791] = "Dragonflayer Bonecrusher",
-		[199658] = 1,
-		[17162] = "Risen Conjuror",
-		[15063] = "Risen Conjuror",
-		[23161] = 9,
-		[192106] = 7,
-		[5938] = 4,
-		[60103] = 7,
-		[16856] = "Bonechewer Destroyer",
-		[16448] = "Plagued Rat",
-		[150076] = "Forgemaster Gog'duh",
-		[183435] = 2,
-		[164592] = "Bloodmaul Geomancer",
-		[1784] = 4,
-		[150034] = "[*] Choking Ashes",
-		[320272] = "Sathel the Accursed",
-		[152073] = "Bloodmaul Slaver",
-		[8004] = 7,
-		[17141] = "Risen Priest",
-		[14145] = "Risen Sorcerer",
-		[218759] = "Festerhide Grizzly",
-		[17165] = "Risen Inquisitor",
-		[1752] = 4,
-		[105771] = 1,
-		[152495] = "Molten Earth Elemental",
-		[152427] = "Magma Lord",
-		[20271] = 2,
-		[263140] = 3,
-		[115129] = 10,
-		[87090] = 8,
-		[228597] = 8,
-		[12471] = "Bleeding Hollow Scryer",
-		[200620] = "Frenzied Nightclaw",
-		[200684] = "Dreadsoul Poisoner",
-		[8395] = 8,
-		[11976] = "Skeletal Berserker",
-		[5487] = 11,
-		[54962] = "Dragonflayer Strategist",
-		[10966] = "Bonechewer Beastmaster",
-		[42730] = "Ingvar the Plunderer",
-		[150032] = "Magmolatus",
-		[320120] = "Paceran the Virulent",
-		[17366] = "Instructor Galford",
-		[59146] = "Willey Hopebreaker",
-		[132403] = 2,
-		[198386] = "Archdruid Glaidalis",
-		[214802] = 3,
-		[30659] = "Bleeding Hollow Scryer",
-		[151566] = "Bloodmaul Magma Binder",
-		[200686] = "Dreadsoul Poisoner",
-		[32216] = 1,
-		[17405] = "Balnazzar",
-		[132404] = 1,
-		[30707] = "Omor the Unscarred",
-		[214803] = 3,
-		[149996] = "Calamity",
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1704906110,
+	["latest_encounter_spell_pool_access"] = 1706344006,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["deathlog_healingdone_min"] = 1,
@@ -2428,7 +1436,7 @@ _detalhes_global = {
 	},
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_shadow"] = true,
+		["realtime_dps_size"] = 12,
 		["realtime_dps_player_shadow"] = true,
 		["realtime_dps_player_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -2444,12 +1452,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["damage_taken_shadow"] = true,
 		["damage_taken_anchor"] = {
 			["y"] = 0,
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["realtime_dps_size"] = 12,
 		["realtime_dps_player_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -3091,10 +2099,10 @@ _detalhes_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -3126,20 +2134,20 @@ _detalhes_global = {
 					0.12, -- [2]
 					0.23, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 				["ARENA_GREEN"] = {
 					0.686, -- [1]
 					0.372, -- [2]
 					0.905, -- [3]
 				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["UNKNOW"] = {
 					0.2, -- [1]
@@ -3241,10 +2249,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -69.69683837890625,
+							["y"] = -69.697021484375,
 							["x"] = 568.75732421875,
 							["w"] = 296.052978515625,
-							["h"] = 176.7542114257813,
+							["h"] = 176.7542877197266,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -3649,7 +2657,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -69.69676208496094,
+						["y"] = -69.697021484375,
 						["x"] = -125.4140625,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -3680,10 +2688,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -69.69683837890625,
+							["y"] = -69.697021484375,
 							["x"] = 568.75732421875,
 							["w"] = 296.052978515625,
-							["h"] = 176.7542114257813,
+							["h"] = 176.7542877197266,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -3794,7 +2802,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1704906110,
+		["latest_boss_mods_access"] = 1706344006,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -3804,7 +2812,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["MONK"] = 149183.2009999999,
+			["MONK"] = 150106.2919999999,
 		},
 	},
 	["spell_category_latest_query"] = 0,
@@ -3839,7 +2847,7 @@ _detalhes_global = {
 	},
 	["exit_errors"] = {
 	},
-	["latest_npcid_pool_access"] = 1704906110,
+	["latest_npcid_pool_access"] = 1706344006,
 	["item_level_pool"] = {
 	},
 	["spellid_ignored"] = {
@@ -3887,7 +2895,7 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["bookmark_tutorial"] = false,
-		["main_help_button"] = 166,
+		["main_help_button"] = 170,
 		["DETAILS_INFO_TUTORIAL1"] = true,
 		["alert_frames"] = {
 			false, -- [1]
@@ -3897,7 +2905,7 @@ _detalhes_global = {
 			false, -- [5]
 			false, -- [6]
 		},
-		["logons"] = 166,
+		["logons"] = 170,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -3914,7 +2922,7 @@ _detalhes_global = {
 	},
 	["details_auras"] = {
 	},
-	["latest_spell_pool_access"] = 1704906110,
+	["latest_spell_pool_access"] = 1706344006,
 	["savedTimeCaptures"] = {
 	},
 	["spell_category_savedtable"] = {
@@ -4177,11 +3185,6 @@ _detalhes_global = {
 	},
 }
 __details_backup = {
-	["_exit_error"] = {
-		"2024-01-06 15:39:54 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
-	},
-	["_instance_backup"] = {
-	},
 	["_general_logs"] = {
 		"2024-01-13 10:35:48 | actor removed Advent Nevermore (disposable)", -- [1]
 		"2024-01-13 10:35:48 | actor removed Rek the Hardened (disposable)", -- [2]
@@ -4212,6 +3215,11 @@ __details_backup = {
 		"2024-01-12 22:44:49 | actor removed Kantana-EchoIsles (ungrouped)", -- [27]
 		"2024-01-12 22:44:49 | actor removed Kantana-EchoIsles (ungrouped)", -- [28]
 		"2024-01-12 22:44:49 | actor removed Kantana-EchoIsles (ungrouped)", -- [29]
+	},
+	["_exit_error"] = {
+		"2024-01-06 15:39:54 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
+	},
+	["_instance_backup"] = {
 	},
 }
 __details_debug = {

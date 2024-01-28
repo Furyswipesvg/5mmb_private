@@ -1,0 +1,1036 @@
+
+TradeSkillMasterDB = {
+	["f@Horde - Nathrezim@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Nathrezim@characters"] = {
+		["Defenseless"] = "ROGUE",
+	},
+	["g@ @frameStatus"] = {
+		["TSMDestroyingFrame"] = {
+			["y"] = 450,
+			["x"] = 850.000061035156,
+			["width"] = 300,
+			["height"] = 300,
+			["scale"] = 1,
+			["defaults"] = {
+				["y"] = 450,
+				["x"] = 850,
+				["height"] = 300,
+				["scale"] = 1,
+				["width"] = 300,
+			},
+			["hasLoaded"] = true,
+		},
+		["TSMCraftingTradeSkillFrame"] = {
+			["y"] = 299,
+			["x"] = 100,
+			["width"] = 450,
+			["height"] = 500.000061035156,
+			["scale"] = 1,
+			["defaults"] = {
+				["y"] = 300,
+				["x"] = 100,
+				["height"] = 500,
+				["scale"] = 1,
+				["width"] = 450,
+			},
+			["hasLoaded"] = true,
+		},
+		["TSMCraftingGatherFrame"] = {
+			["y"] = 300,
+			["x"] = 100,
+			["height"] = 400,
+			["defaults"] = {
+				["y"] = 300,
+				["x"] = 100,
+				["height"] = 400,
+				["scale"] = 1,
+				["width"] = 500,
+			},
+			["scale"] = 1,
+			["width"] = 500,
+		},
+	},
+	["f@Horde - Zul'jin@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Basilina"] = {
+				["lastUpdate"] = 1457512837,
+				["owner"] = "Zul'jin830058775",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Basilina"] = {
+				["lastUpdate"] = 1457512777,
+				["owner"] = "Zul'jin830058775",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+		},
+	},
+	["p@Default@detailedDestroyTooltip"] = false,
+	["_hash"] = 1503086,
+	["f@Alliance - Bonechewer@ignoreGuilds"] = {
+	},
+	["p@Default@operationTooltips"] = {
+	},
+	["f@Horde - Borean Tundra@characterGuilds"] = {
+		["Elitope"] = "messengers of death",
+	},
+	["p@Default@minimapIcon"] = {
+		["minimapPos"] = 220,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["p@Default@vendorBuyTooltip"] = true,
+	["p@Default@exportOperations"] = false,
+	["f@Horde - Shattered Hand@inventory"] = {
+		["Hjdatgoyxabn"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:4769"] = 3,
+				["i:3296"] = 1,
+				["i:6217"] = 1,
+				["i:159"] = 2,
+				["i:2650"] = 1,
+				["i:6948"] = 1,
+				["i:3295"] = 1,
+				["i:3491"] = 1,
+				["i:1376"] = 1,
+				["i:1368"] = 1,
+				["i:21100"] = 1,
+				["i:4604"] = 20,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+		["Peopledied"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:1380"] = 1,
+				["i:4604"] = 14,
+				["i:7074"] = 2,
+				["i:3294"] = 1,
+				["i:3363"] = 1,
+				["i:2210"] = 1,
+				["i:2211"] = 1,
+				["i:159"] = 7,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["c@Peopledied - Shattered Hand@auctionPrices"] = {
+	},
+	["f@Alliance - Bonechewer@inventory"] = {
+		["Zapdos"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:2947"] = 67,
+				["i:7100"] = 13,
+				["i:4865"] = 2,
+				["i:1367"] = 1,
+				["i:6948"] = 1,
+				["i:7101"] = 10,
+				["i:2139"] = 1,
+				["i:2092"] = 1,
+				["i:1476"] = 14,
+				["i:117"] = 7,
+				["i:961"] = 3,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["p@Default@protectAH"] = false,
+	["f@Alliance - Bonechewer@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["p@Default@customPriceSourceTreeStatus"] = {
+	},
+	["g@ @bankUITab"] = "Warehousing",
+	["f@Alliance - Gorgonnash@pendingMail"] = {
+		["Jetrat"] = {
+		},
+	},
+	["f@Horde - Zul'jin@pendingMail"] = {
+		["Basilina"] = {
+		},
+	},
+	["p@Default@defaultAuctionTab"] = "Shopping",
+	["g@ @operations"] = {
+	},
+	["g@ @customPriceTooltips"] = {
+	},
+	["p@Default@destroyValueSource"] = "dbmarket",
+	["p@Default@keepInParent"] = true,
+	["f@Horde - Zul'jin@inventory"] = {
+		["Basilina"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:7096"] = 3,
+				["i:2516"] = 185,
+				["i:4865"] = 1,
+				["i:2653"] = 1,
+				["i:159"] = 2,
+				["i:6948"] = 1,
+				["i:117"] = 4,
+				["i:37"] = 1,
+				["i:4757"] = 2,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["f@Alliance - Bonechewer@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Shattered Hand@guildVaults"] = {
+	},
+	["p@Default@gotoNewGroup"] = true,
+	["f@Horde - Shattered Hand@syncAccounts"] = {
+	},
+	["p@Default@moveImportedItems"] = false,
+	["g@ @ignoreRandomEnchants"] = false,
+	["f@Horde - Zul'jin@characterGuilds"] = {
+	},
+	["f@Horde - Shattered Hand@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Shattered Hand@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Shattered Hand@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Hjdatgoyxabn"] = {
+				["lastUpdate"] = 1457511799,
+				["owner"] = "Shattered Hand423450849",
+			},
+			["Peopledied"] = {
+				["lastUpdate"] = 1457511718,
+				["owner"] = "Shattered Hand423450849",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Hjdatgoyxabn"] = {
+				["lastUpdate"] = 1457511794,
+				["owner"] = "Shattered Hand423450849",
+			},
+			["Peopledied"] = {
+				["lastUpdate"] = 1457511712,
+				["owner"] = "Shattered Hand423450849",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+			["Hjdatgoyxabn"] = {
+				["lastUpdate"] = 1457511799,
+				["owner"] = "Shattered Hand423450849",
+			},
+		},
+	},
+	["p@Default@millTooltip"] = true,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Defenseless - Nathrezim", -- [1]
+			"Peopledied - Shattered Hand", -- [2]
+			"Hjdatgoyxabn - Shattered Hand", -- [3]
+			"Zapdos - Bonechewer", -- [4]
+			"Jetrat - Gorgonnash", -- [5]
+			"Basilina - Zul'jin", -- [6]
+			"Elitope - Borean Tundra", -- [7]
+		},
+		["factionrealm"] = {
+			"Horde - Nathrezim", -- [1]
+			"Horde - Shattered Hand", -- [2]
+			"Alliance - Bonechewer", -- [3]
+			"Alliance - Gorgonnash", -- [4]
+			"Horde - Zul'jin", -- [5]
+			"Horde - Borean Tundra", -- [6]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Nathrezim", -- [1]
+			"Shattered Hand", -- [2]
+			"Bonechewer", -- [3]
+			"Gorgonnash", -- [4]
+			"Zul'jin", -- [5]
+			"Borean Tundra", -- [6]
+		},
+	},
+	["g@ @globalOperations"] = false,
+	["f@Alliance - Gorgonnash@guildVaults"] = {
+		["The Execution of Hades"] = {
+		},
+	},
+	["p@Default@groups"] = {
+	},
+	["f@Horde - Zul'jin@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["p@Default@groupTreeCollapsedStatus"] = {
+		["Warehousing_Bank"] = {
+		},
+		["Crafting_Profession"] = {
+		},
+		["Auctioning_Bank"] = {
+		},
+		["Mailing_Bank"] = {
+		},
+		["Vendoring_Vendor"] = {
+		},
+		["Mailing_Send"] = {
+		},
+	},
+	["p@Default@groupTreeStatus"] = {
+	},
+	["p@Default@savedThemes"] = {
+	},
+	["c@Zapdos - Bonechewer@auctionMessages"] = {
+	},
+	["p@Default@inventoryTooltipFormat"] = "full",
+	["g@ @customPriceSources"] = {
+	},
+	["f@Horde - Zul'jin@ignoreGuilds"] = {
+	},
+	["f@Horde - Nathrezim@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Defenseless"] = {
+				["lastUpdate"] = 1457511658,
+				["owner"] = "Nathrezim599870296",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Defenseless"] = {
+				["lastUpdate"] = 1457511295,
+				["owner"] = "Nathrezim599870296",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+			["Defenseless"] = {
+				["lastUpdate"] = 1457511302,
+				["owner"] = "Nathrezim599870296",
+			},
+		},
+	},
+	["c@Peopledied - Shattered Hand@auctionMessages"] = {
+	},
+	["g@ @appMessageId"] = 0,
+	["f@Horde - Shattered Hand@characters"] = {
+		["Hjdatgoyxabn"] = "ROGUE",
+		["Peopledied"] = "WARRIOR",
+	},
+	["f@Horde - Shattered Hand@pendingMail"] = {
+		["Hjdatgoyxabn"] = {
+		},
+		["Peopledied"] = {
+		},
+	},
+	["f@Alliance - Gorgonnash@accountKey"] = "Gorgonnash1290831192",
+	["p@Default@groupFilterPrice"] = "dbmarket",
+	["f@Horde - Borean Tundra@pendingMail"] = {
+		["Elitope"] = {
+		},
+	},
+	["c@Defenseless - Nathrezim@auctionMessages"] = {
+	},
+	["g@ @chatFrame"] = "",
+	["c@Jetrat - Gorgonnash@auctionMessages"] = {
+	},
+	["g@ @auctionSaleSound"] = "TSM_NO_SOUND",
+	["f@Horde - Borean Tundra@characters"] = {
+		["Elitope"] = "WARRIOR",
+	},
+	["f@Horde - Borean Tundra@syncAccounts"] = {
+	},
+	["f@Horde - Borean Tundra@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Elitope"] = {
+				["lastUpdate"] = 1457512970,
+				["owner"] = "Borean Tundra1258507770",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Elitope"] = {
+				["lastUpdate"] = 1457512963,
+				["owner"] = "Borean Tundra1258507770",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+		},
+	},
+	["f@Horde - Shattered Hand@ignoreGuilds"] = {
+	},
+	["f@Alliance - Bonechewer@guildVaults"] = {
+		["Doomed Whiners"] = {
+		},
+	},
+	["g@ @infoMessagesShown"] = {
+		["resetDesign"] = true,
+	},
+	["f@Alliance - Bonechewer@accountKey"] = "Bonechewer1002479145",
+	["c@Hjdatgoyxabn - Shattered Hand@auctionPrices"] = {
+	},
+	["c@Zapdos - Bonechewer@auctionPrices"] = {
+	},
+	["f@Alliance - Bonechewer@characterGuilds"] = {
+		["Zapdos"] = "Doomed Whiners",
+	},
+	["f@Horde - Zul'jin@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Alliance - Gorgonnash@inventory"] = {
+		["Jetrat"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:6339"] = 1,
+				["i:10940"] = 13,
+				["i:8492"] = 1,
+				["i:2320"] = 6,
+				["i:1081"] = 1,
+				["i:6948"] = 1,
+				["i:6218"] = 1,
+				["i:2681"] = 13,
+				["i:1557"] = 1,
+				["i:2592"] = 6,
+				["i:2455"] = 3,
+				["i:2589"] = 2,
+				["i:774"] = 2,
+				["i:769"] = 1,
+				["i:11083"] = 1,
+				["i:10938"] = 1,
+				["i:2677"] = 1,
+				["i:10978"] = 1,
+				["i:858"] = 3,
+				["i:2296"] = 1,
+				["i:10998"] = 2,
+				["i:118"] = 17,
+				["i:10939"] = 2,
+				["i:4345"] = 1,
+				["i:1322"] = 5,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["p@Default@cleanReagentBank"] = false,
+	["f@Horde - Nathrezim@ignoreGuilds"] = {
+	},
+	["p@Default@groupTreeSelectedGroupStatus"] = {
+		["Warehousing_Bank"] = {
+		},
+		["Crafting_Profession"] = {
+		},
+		["Auctioning_Bank"] = {
+		},
+		["Mailing_Bank"] = {
+		},
+		["Vendoring_Vendor"] = {
+		},
+		["Mailing_Send"] = {
+		},
+	},
+	["p@Default@auctionResultRows"] = 16,
+	["c@Elitope - Borean Tundra@auctionMessages"] = {
+	},
+	["g@ @moduleOperationsTreeStatus"] = {
+	},
+	["f@Alliance - Gorgonnash@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["c@Hjdatgoyxabn - Shattered Hand@auctionMessages"] = {
+	},
+	["p@Default@embeddedTooltip"] = true,
+	["f@Horde - Borean Tundra@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Borean Tundra@accountKey"] = "Borean Tundra1258507770",
+	["p@Default@auctionFrameMovable"] = true,
+	["f@Horde - Borean Tundra@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["f@Horde - Borean Tundra@ignoreGuilds"] = {
+	},
+	["f@Horde - Zul'jin@syncAccounts"] = {
+	},
+	["p@Default@importParentOnly"] = false,
+	["f@Horde - Borean Tundra@guildVaults"] = {
+		["messengers of death"] = {
+		},
+	},
+	["p@Default@cleanBags"] = false,
+	["f@Horde - Borean Tundra@inventory"] = {
+		["Elitope"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:4813"] = 4,
+				["i:4923"] = 1,
+				["i:4873"] = 1,
+				["i:4865"] = 1,
+				["i:4540"] = 5,
+				["i:159"] = 3,
+				["i:4874"] = 1,
+				["i:6948"] = 1,
+				["i:4814"] = 2,
+				["i:2656"] = 1,
+				["i:7074"] = 1,
+				["i:7073"] = 1,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+			},
+		},
+	},
+	["f@Horde - Shattered Hand@accountKey"] = "Shattered Hand423450849",
+	["p@Default@deTooltip"] = true,
+	["c@Elitope - Borean Tundra@auctionPrices"] = {
+	},
+	["p@Default@operations"] = {
+		["Mailing"] = {
+		},
+		["Auctioning"] = {
+		},
+		["Crafting"] = {
+		},
+		["TradeSkillMaster"] = {
+		},
+		["Vendoring"] = {
+		},
+		["Shopping"] = {
+		},
+		["Warehousing"] = {
+		},
+	},
+	["f@Alliance - Gorgonnash@ignoreGuilds"] = {
+	},
+	["f@Alliance - Gorgonnash@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Jetrat"] = {
+				["lastUpdate"] = 1457512569,
+				["owner"] = "Gorgonnash1290831192",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Jetrat"] = {
+				["lastUpdate"] = 1457512563,
+				["owner"] = "Gorgonnash1290831192",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+			["Jetrat"] = {
+				["lastUpdate"] = 1457512899,
+				["owner"] = "Gorgonnash1290831192",
+			},
+		},
+	},
+	["f@Alliance - Gorgonnash@characters"] = {
+		["Jetrat"] = "PALADIN",
+	},
+	["f@Horde - Nathrezim@syncAccounts"] = {
+	},
+	["f@Horde - Shattered Hand@characterGuilds"] = {
+	},
+	["g@ @optionsTreeStatus"] = {
+	},
+	["p@Default@tooltipPriceFormat"] = "text",
+	["f@Alliance - Gorgonnash@syncAccounts"] = {
+	},
+	["f@Alliance - Bonechewer@syncMetadata"] = {
+		["TSM_INVENTORY"] = {
+			["Zapdos"] = {
+				["lastUpdate"] = 1457512474,
+				["owner"] = "Bonechewer1002479145",
+			},
+		},
+		["TSM_CHARACTERS"] = {
+			["Zapdos"] = {
+				["lastUpdate"] = 1457512459,
+				["owner"] = "Bonechewer1002479145",
+			},
+		},
+		["CRAFTING_PROFESSIONS"] = {
+		},
+	},
+	["p@Default@gotoNewCustomPriceSource"] = true,
+	["f@Horde - Zul'jin@characters"] = {
+		["Basilina"] = "HUNTER",
+	},
+	["f@Horde - Nathrezim@characterGuilds"] = {
+		["Defenseless"] = "Youll Need Help",
+	},
+	["p@Default@exportSubGroups"] = false,
+	["g@ @auctionSaleEnabled"] = true,
+	["c@Basilina - Zul'jin@auctionMessages"] = {
+	},
+	["f@Horde - Nathrezim@accountKey"] = "Nathrezim599870296",
+	["g@ @vendorItems"] = {
+		["i:17194"] = 10,
+		["i:17183"] = 35,
+		["i:44854"] = 25,
+		["i:49908"] = 1500000,
+		["i:159"] = 25,
+		["i:27860"] = 6400,
+		["i:8343"] = 2000,
+		["i:10647"] = 2000,
+		["i:90146"] = 20000,
+		["i:4291"] = 500,
+		["i:30183"] = 700000,
+		["i:39354"] = 15,
+		["i:83092"] = 200000000,
+		["i:4340"] = 350,
+		["i:74854"] = 7000,
+		["i:39684"] = 9000,
+		["i:1200"] = 78,
+		["i:79740"] = 23,
+		["i:2594"] = 1500,
+		["i:17202"] = 10,
+		["i:40533"] = 50000,
+		["i:30817"] = 25,
+		["i:11291"] = 4500,
+		["i:4342"] = 2500,
+		["i:43102"] = 750000,
+		["i:74832"] = 12000,
+		["i:58278"] = 16000,
+		["i:102539"] = 5000,
+		["i:2134"] = 79,
+		["i:46793"] = 25,
+		["i:2325"] = 1000,
+		["i:2387"] = 44,
+		["i:2604"] = 50,
+		["i:47556"] = 1250000,
+		["i:2880"] = 100,
+		["i:6217"] = 124,
+		["i:4399"] = 200,
+		["i:1194"] = 100,
+		["i:6260"] = 50,
+		["i:74852"] = 16000,
+		["i:34412"] = 1000,
+		["i:85583"] = 12000,
+		["i:2595"] = 2000,
+		["i:4470"] = 38,
+		["i:102540"] = 5000,
+		["i:2386"] = 87,
+		["i:3466"] = 2000,
+		["i:4537"] = 125,
+		["i:14341"] = 5000,
+		["i:7005"] = 82,
+		["i:2596"] = 120,
+		["i:35948"] = 16000,
+		["i:2389"] = 66,
+		["i:2678"] = 10,
+		["i:2901"] = 81,
+		["i:58265"] = 20000,
+		["i:46784"] = 25,
+		["i:44855"] = 25,
+		["i:44500"] = 15000000,
+		["i:2132"] = 98,
+		["i:2480"] = 69,
+		["i:38426"] = 30000,
+		["i:85584"] = 17000,
+		["i:35949"] = 8500,
+		["i:44853"] = 25,
+		["i:4341"] = 500,
+		["i:44501"] = 10000000,
+		["i:17196"] = 50,
+		["i:2131"] = 52,
+		["i:3371"] = 100,
+		["i:2130"] = 52,
+		["i:4289"] = 50,
+		["i:6530"] = 100,
+		["i:46797"] = 25,
+		["i:2139"] = 55,
+		["i:65893"] = 30000000,
+		["i:52188"] = 15000,
+		["i:2321"] = 100,
+		["i:74659"] = 30000,
+		["i:10290"] = 2500,
+		["i:62323"] = 60000,
+		["i:74845"] = 35000,
+		["i:4400"] = 2000,
+		["i:74851"] = 14000,
+		["i:1179"] = 125,
+		["i:2391"] = 44,
+		["i:67319"] = 328990,
+		["i:23572"] = 500000,
+		["i:6261"] = 1000,
+		["i:2324"] = 25,
+		["i:5956"] = 18,
+		["i:67335"] = 445561,
+		["i:18567"] = 30000,
+		["i:85585"] = 27000,
+		["i:2388"] = 88,
+		["i:74660"] = 15000,
+		["i:44499"] = 30000000,
+		["i:2320"] = 10,
+		["i:65892"] = 50000000,
+		["i:2605"] = 100,
+		["i:3857"] = 500,
+		["i:45087"] = 1000000,
+		["i:46796"] = 25,
+		["i:2479"] = 103,
+		["i:2390"] = 44,
+		["i:34249"] = 1000000,
+		["i:2593"] = 150,
+		["i:44835"] = 10,
+		["i:80433"] = 2000000,
+	},
+	["c@Basilina - Zul'jin@auctionPrices"] = {
+	},
+	["_version"] = 4,
+	["f@Horde - Zul'jin@accountKey"] = "Zul'jin830058775",
+	["f@Alliance - Bonechewer@characters"] = {
+		["Zapdos"] = "ROGUE",
+	},
+	["f@Horde - Nathrezim@pendingMail"] = {
+		["Defenseless"] = {
+		},
+	},
+	["p@Default@vendorSellTooltip"] = true,
+	["p@Default@defaultGroupTab"] = 2,
+	["g@ @moduleOperationTabs"] = {
+	},
+	["p@Default@design"] = {
+		["fonts"] = {
+			["content"] = "Fonts\\ARIALN.TTF",
+			["bold"] = "Interface\\Addons\\TradeSkillMaster\\Media\\DroidSans-Bold.ttf",
+		},
+		["edgeSize"] = 1.5,
+		["textColors"] = {
+			["iconRegion"] = {
+				["enabled"] = {
+					249, -- [1]
+					255, -- [2]
+					247, -- [3]
+					1, -- [4]
+				},
+			},
+			["title"] = {
+				["enabled"] = {
+					132, -- [1]
+					219, -- [2]
+					9, -- [3]
+					1, -- [4]
+				},
+			},
+			["label"] = {
+				["enabled"] = {
+					216, -- [1]
+					225, -- [2]
+					211, -- [3]
+					1, -- [4]
+				},
+				["disabled"] = {
+					150, -- [1]
+					148, -- [2]
+					140, -- [3]
+					1, -- [4]
+				},
+			},
+			["text"] = {
+				["enabled"] = {
+					255, -- [1]
+					254, -- [2]
+					250, -- [3]
+					1, -- [4]
+				},
+				["disabled"] = {
+					147, -- [1]
+					151, -- [2]
+					139, -- [3]
+					1, -- [4]
+				},
+			},
+			["link"] = {
+				["enabled"] = {
+					49, -- [1]
+					56, -- [2]
+					133, -- [3]
+					1, -- [4]
+				},
+			},
+		},
+		["fontSizes"] = {
+			["normal"] = 15,
+			["small"] = 12,
+			["medium"] = 13,
+		},
+		["inlineColors"] = {
+			["link"] = {
+				153, -- [1]
+				255, -- [2]
+				255, -- [3]
+				1, -- [4]
+			},
+			["link2"] = {
+				153, -- [1]
+				255, -- [2]
+				255, -- [3]
+				1, -- [4]
+			},
+			["tooltip"] = {
+				130, -- [1]
+				130, -- [2]
+				250, -- [3]
+				1, -- [4]
+			},
+			["category"] = {
+				36, -- [1]
+				106, -- [2]
+				36, -- [3]
+				1, -- [4]
+			},
+			["category2"] = {
+				85, -- [1]
+				180, -- [2]
+				8, -- [3]
+				1, -- [4]
+			},
+		},
+		["frameColors"] = {
+			["frameBG"] = {
+				["backdrop"] = {
+					24, -- [1]
+					24, -- [2]
+					24, -- [3]
+					0.93, -- [4]
+				},
+				["border"] = {
+					50, -- [1]
+					50, -- [2]
+					50, -- [3]
+					1, -- [4]
+				},
+			},
+			["content"] = {
+				["backdrop"] = {
+					45, -- [1]
+					45, -- [2]
+					45, -- [3]
+					1, -- [4]
+				},
+				["border"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+			},
+			["frame"] = {
+				["backdrop"] = {
+					24, -- [1]
+					24, -- [2]
+					24, -- [3]
+					1, -- [4]
+				},
+				["border"] = {
+					100, -- [1]
+					100, -- [2]
+					100, -- [3]
+					0.3, -- [4]
+				},
+			},
+		},
+	},
+	["g@ @tsmItemTweetEnabled"] = true,
+	["c@Defenseless - Nathrezim@auctionPrices"] = {
+	},
+	["g@ @moveDelay"] = 0,
+	["p@Default@groupOperationTooltip"] = true,
+	["f@Alliance - Gorgonnash@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["p@Default@pricePerUnit"] = true,
+	["f@Horde - Nathrezim@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["g@ @auctionBuyEnabled"] = true,
+	["p@Default@prospectTooltip"] = true,
+	["_currentProfile"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = "Default",
+		["Zapdos - Bonechewer"] = "Default",
+		["Peopledied - Shattered Hand"] = "Default",
+		["Jetrat - Gorgonnash"] = "Default",
+		["Basilina - Zul'jin"] = "Default",
+		["Defenseless - Nathrezim"] = "Default",
+		["Elitope - Borean Tundra"] = "Default",
+	},
+	["p@Default@tooltipOptions"] = {
+		["AuctionDB"] = {
+			["regionMinBuyout"] = false,
+			["regionHistorical"] = false,
+			["historical"] = false,
+			["regionSalePercent"] = true,
+			["minBuyout"] = true,
+			["regionMarketValue"] = true,
+			["regionSale"] = true,
+			["globalSale"] = false,
+			["globalHistorical"] = false,
+			["globalMinBuyout"] = false,
+			["marketValue"] = true,
+			["globalMarketValue"] = false,
+			["_version"] = 2,
+			["regionSoldPerDay"] = true,
+		},
+		["Auctioning"] = {
+			["operationPrices"] = false,
+		},
+		["Crafting"] = {
+			["matPrice"] = false,
+			["craftingCost"] = true,
+			["detailedMats"] = false,
+		},
+		["Accounting"] = {
+			["sale"] = true,
+			["expiredAuctions"] = false,
+			["cancelledAuctions"] = false,
+			["saleRate"] = false,
+			["purchase"] = true,
+		},
+		["Shopping"] = {
+			["maxPrice"] = false,
+		},
+	},
+	["f@Alliance - Gorgonnash@characterGuilds"] = {
+		["Jetrat"] = "The Execution of Hades",
+	},
+	["p@Default@items"] = {
+	},
+	["p@Default@inventoryViewerPriceSource"] = "dbmarket",
+	["p@Default@isBankui"] = true,
+	["c@Jetrat - Gorgonnash@auctionPrices"] = {
+	},
+	["p@Default@openAllBags"] = true,
+	["f@Alliance - Bonechewer@pendingMail"] = {
+		["Zapdos"] = {
+		},
+	},
+	["f@Horde - Nathrezim@inventory"] = {
+		["Defenseless"] = {
+			["reagentBank"] = {
+			},
+			["bag"] = {
+				["i:2589"] = 1,
+				["i:57198"] = 1,
+				["i:14530"] = 48,
+				["i:11847"] = 1,
+				["i:33458"] = 3,
+				["i:32960"] = 1,
+				["i:43300"] = 1,
+				["i:19505"] = 1,
+				["i:6833"] = 1,
+				["i:1477"] = 3,
+				["i:210"] = 1,
+				["i:18231"] = 1,
+				["i:2516"] = 1000,
+				["i:92738"] = 1,
+				["i:4757"] = 2,
+				["i:56151"] = 2,
+				["i:5114"] = 1,
+				["i:57220"] = 1,
+				["i:7005"] = 1,
+				["i:37604"] = 4,
+				["i:37094"] = 3,
+				["i:5976"] = 1,
+				["i:44792"] = 1,
+				["i:20923"] = 1,
+				["i:7074"] = 1,
+				["i:1731"] = 1,
+				["i:15197"] = 1,
+				["i:21254"] = 5,
+				["i:56968"] = 1,
+				["i:1413"] = 1,
+				["i:21151"] = 235,
+				["i:117"] = 3,
+				["i:21100"] = 2,
+				["i:19221"] = 8,
+				["i:3685"] = 2,
+				["i:6948"] = 1,
+				["i:5466"] = 1,
+				["i:37892"] = 1,
+				["i:19031"] = 1,
+				["i:4877"] = 3,
+				["i:34086"] = 1,
+				["i:21235"] = 5,
+				["i:19994"] = 10,
+				["i:71083"] = 16,
+				["i:2304"] = 9,
+				["i:769"] = 1,
+				["i:55983"] = 1,
+				["i:2289"] = 3,
+				["i:25861"] = 1,
+				["i:71634"] = 1,
+			},
+			["mail"] = {
+			},
+			["auction"] = {
+			},
+			["bank"] = {
+				["i:4908"] = 1,
+				["i:20993"] = 1,
+				["i:45073"] = 1,
+				["i:11174"] = 2,
+				["i:44792"] = 2,
+				["i:45067"] = 1,
+				["i:44803"] = 1,
+				["i:1835"] = 1,
+				["i:20838"] = 1,
+				["i:20920"] = 1,
+				["i:19028"] = 1,
+			},
+		},
+	},
+	["p@Default@auctionFrameScale"] = 1,
+	["f@Alliance - Bonechewer@syncAccounts"] = {
+	},
+	["f@Horde - Zul'jin@guildVaults"] = {
+	},
+	["f@Horde - Nathrezim@guildVaults"] = {
+		["Youll Need Help"] = {
+		},
+	},
+	["p@Default@cleanBank"] = false,
+	["p@Default@tooltipShowModifier"] = "none",
+	["p@Default@transformTooltip"] = true,
+}

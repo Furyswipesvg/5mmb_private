@@ -1,0 +1,1296 @@
+
+ArchyDB = {
+	["char"] = {
+		["Neversmiles - Illidan"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Mootalia - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+					[54137] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354249] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[307960] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354093] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56555] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363056] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363025] = {
+						["fragments"] = 66,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 28,
+					},
+					[346531] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[307995] = {
+						["fragments"] = 62,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 46,
+					},
+					[307948] = {
+						["fragments"] = 64,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 65,
+					},
+					[346504] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354033] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363058] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56439] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363027] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[60367] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[66967] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308013] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346522] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346475] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55452] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[92178] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56333] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[307987] = {
+						["fragments"] = 64,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 59,
+					},
+					[307936] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346508] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56412] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354037] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56560] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353977] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354022] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55414] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56566] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[307954] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54097] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354041] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363064] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363017] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346527] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56564] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354245] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[346512] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[177517] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[177525] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56448] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363019] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56441] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55404] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[308005] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55450] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354027] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363036] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[353987] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363021] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354031] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Felslaughter - Illidan"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+					[55418] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55462] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55422] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54862] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54124] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55400] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55478] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56345] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+				},
+			},
+		},
+		["Hepagor - Nazjatar"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Eversmîle - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+					[55402] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56430] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55418] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56394] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54138] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56362] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56434] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55462] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54140] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54127] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55356] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56437] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Xtharsa - Maiev"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Gâto - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+					[56375] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354047] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[307958] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[346531] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54864] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354049] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56327] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363056] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363062] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353985] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353977] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54140] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56364] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363017] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346527] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363027] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346481] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[307975] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55440] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354045] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308011] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54136] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56343] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[307983] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Tazzwaz - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Wachuhunt - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Bubblyböö - Illidan"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+					[346475] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[353993] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56347] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308013] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354033] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55422] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56384] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308007] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308015] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363025] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354043] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55404] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363019] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55468] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353991] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55452] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55472] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308011] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55474] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[363021] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354041] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+				},
+			},
+		},
+		["Stabsya - Illidan"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+					[354047] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55478] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55356] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308013] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54862] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354033] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354041] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308007] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308015] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56329] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55402] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55468] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353983] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[353991] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54139] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[308011] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55410] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346478] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
+			},
+		},
+		["Elixyia - Rivendare"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Snöbgoblin - Illidan"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Brokeurarmor - Illidan"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["Jannil - Stormreaver"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+	},
+	["global"] = {
+		["surveyNodes"] = {
+			[307987] = {
+				{
+					["m"] = 950,
+					["x"] = 0.403071396613436,
+					["y"] = 0.565801617720268,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 950,
+					["x"] = 0.396269617290749,
+					["y"] = 0.526841359410045,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 950,
+					["x"] = 0.392498709388767,
+					["y"] = 0.575872110459608,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 950,
+					["x"] = 0.37817266657489,
+					["y"] = 0.563475617702393,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 950,
+					["x"] = 0.382066956910793,
+					["y"] = 0.51499995757123,
+					["f"] = 0,
+				}, -- [5]
+				{
+					["m"] = 950,
+					["x"] = 0.384269600082599,
+					["y"] = 0.529088051506655,
+					["f"] = 0,
+				}, -- [6]
+				{
+					["m"] = 950,
+					["x"] = 0.40090394410793,
+					["y"] = 0.550682714399754,
+					["f"] = 0,
+				}, -- [7]
+				{
+					["m"] = 950,
+					["x"] = 0.397573564840308,
+					["y"] = 0.540506520785693,
+					["f"] = 0,
+				}, -- [8]
+			},
+			[307948] = {
+				{
+					["m"] = 948,
+					["x"] = 0.311537820008761,
+					["y"] = 0.455822134005499,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 948,
+					["x"] = 0.31628993363763,
+					["y"] = 0.475403386878718,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 948,
+					["x"] = 0.336008038840484,
+					["y"] = 0.431215616749293,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 948,
+					["x"] = 0.318088513010897,
+					["y"] = 0.468422452466876,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 948,
+					["x"] = 0.321289595147626,
+					["y"] = 0.453049573043395,
+					["f"] = 0,
+				}, -- [5]
+				{
+					["m"] = 948,
+					["x"] = 0.334061011307419,
+					["y"] = 0.456416253672047,
+					["f"] = 0,
+				}, -- [6]
+				{
+					["m"] = 948,
+					["x"] = 0.316388952790081,
+					["y"] = 0.416857688293621,
+					["f"] = 0,
+				}, -- [7]
+				{
+					["m"] = 948,
+					["x"] = 0.321850636537451,
+					["y"] = 0.44777674306051,
+					["f"] = 0,
+				}, -- [8]
+				{
+					["m"] = 948,
+					["x"] = 0.304805605321945,
+					["y"] = 0.443469366034737,
+					["f"] = 0,
+				}, -- [9]
+			},
+			[307995] = {
+				{
+					["m"] = 950,
+					["x"] = 0.75896561811674,
+					["y"] = 0.112181280484789,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 950,
+					["x"] = 0.766084543639868,
+					["y"] = 0.112472054685941,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 950,
+					["x"] = 0.747194727422908,
+					["y"] = 0.13023406064849,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 950,
+					["x"] = 0.753732189564978,
+					["y"] = 0.108004998915727,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 950,
+					["x"] = 0.766084543639868,
+					["y"] = 0.126745157417351,
+					["f"] = 0,
+				}, -- [5]
+				{
+					["m"] = 950,
+					["x"] = 0.753573530424009,
+					["y"] = 0.126427925732294,
+					["f"] = 0,
+				}, -- [6]
+				{
+					["m"] = 950,
+					["x"] = 0.751952436674009,
+					["y"] = 0.0874147524542624,
+					["f"] = 0,
+				}, -- [7]
+				{
+					["m"] = 950,
+					["x"] = 0.76823435779185,
+					["y"] = 0.121141591387328,
+					["f"] = 0,
+				}, -- [8]
+			},
+			[363025] = {
+				{
+					["m"] = 1014,
+					["x"] = 0.544707167666262,
+					["y"] = 0.374348652510285,
+					["f"] = 10,
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Neversmiles - Illidan"] = "Default",
+		["Mootalia - Illidan"] = "Default",
+		["Felslaughter - Illidan"] = "Default",
+		["Hepagor - Nazjatar"] = "Default",
+		["Eversmîle - Illidan"] = "Default",
+		["Xtharsa - Maiev"] = "Default",
+		["Gâto - Illidan"] = "Default",
+		["Tazzwaz - Illidan"] = "Default",
+		["Wachuhunt - Illidan"] = "Default",
+		["Bubblyböö - Illidan"] = "Default",
+		["Stabsya - Illidan"] = "Default",
+		["Elixyia - Rivendare"] = "Default",
+		["Snöbgoblin - Illidan"] = "Default",
+		["Brokeurarmor - Illidan"] = "Default",
+		["Jannil - Stormreaver"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["general"] = {
+				["stealthMode"] = true,
+				["locked"] = true,
+				["show"] = false,
+				["icon"] = {
+					["minimapPos"] = 111.161195033209,
+				},
+			},
+			["digsite"] = {
+				["position"] = {
+					nil, -- [1]
+					nil, -- [2]
+					-517.333312988281, -- [3]
+					-164.00016784668, -- [4]
+				},
+			},
+		},
+	},
+}

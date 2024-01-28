@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Wyominger|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Wyominger - Bladefist"] = "Wyominger - Bladefist",
+	},
+	["profiles"] = {
+		["Wyominger - Bladefist"] = {
+		},
+	},
+}

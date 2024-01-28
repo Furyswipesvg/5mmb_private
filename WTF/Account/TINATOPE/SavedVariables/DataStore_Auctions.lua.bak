@@ -1,0 +1,18 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Nanoknight - Nathrezim"] = "Nanoknight - Nathrezim",
+		["Us - Nathrezim"] = "Us - Nathrezim",
+		["Frazzled - Cenarius"] = "Frazzled - Cenarius",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Nathrezim.Nanoknight"] = {
+				["lastUpdate"] = 1604264175,
+			},
+			["Default.Cenarius.Frazzled"] = {
+				["lastUpdate"] = 1604863834,
+			},
+		},
+	},
+}

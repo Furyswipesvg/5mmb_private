@@ -1,0 +1,313 @@
+VER 3 00000000000009F3 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000001ADB "aoe_fs" "spell_fire_selfdestruct"
+/assist [@focus,exists][@Me,exists]
+/click ARCANE_AOE
+END
+VER 3 000000000000002E "as" "INV_Misc_QuestionMark"
+/cast [nomod] arcane shot
+/cast [nomod] kill command
+/cast [nomod] bestial wrath
+/cast [nomod] rapid fire
+/cast [nomod]fervor
+/use [nomod] 10
+/cast [nomod]focus fire
+/cast [mod:alt]  tranquilizing shot
+/cast [mod:ctrl] flare
+END
+VER 3 0000000000001AD4 "b1_fs" "INV_Misc_QuestionMark"
+/cast [@player] Arcane Intellect
+END
+VER 3 0000000000001AD5 "bufft_fs" "INV_Misc_QuestionMark"
+/castsequence reset=combat/target Arcane Intellect
+END
+VER 3 0000000000000038 "burr" "INV_Misc_QuestionMark"
+/cast burrow attack
+/cast steady shot
+/cast kill command
+END
+VER 3 000000000000003F "CollectMeRC" "INV_PET_BABYBLIZZARDBEAR"
+/cm rc
+END
+VER 3 0000000000000040 "CollectMeRM" "ABILITY_MOUNT_BIGBLIZZARDBEAR"
+/cm rm
+END
+VER 3 000000000000003C "CS" "INV_MISC_QUESTIONMARK"
+/cast [nomod] Cobra Shot
+/cancelaura [nomod] Deterrence
+/castsequence [nomod] reset=1 !Aspect of the Fox, null
+/cast [mod:alt]disengage
+/use [mod:alt]10
+/cast [mod:alt] raptor strike
+/cast [mod:ctrl] scare beast
+/use [mod:alt] healthstone
+/startattack
+END
+VER 3 000000000000003D "cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip cyclone
+/cast [focusexist,@focus] cyclone ; cyclone
+END
+VER 3 0000000000001AE0 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 000000000000003A "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 0000000000000033 "exptr" "INV_Misc_QuestionMark"
+#showtooltip Explosive Trap
+/castsequence reset=9 Trap Launcher, !Explosive Trap(Fire - Trap Launcher), nil
+/petattack
+END
+VER 3 0000000000001ACD "f1_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Me!
+/focus Me
+END
+VER 3 0000000000001ACE "f2_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Im!
+/focus Im
+END
+VER 3 0000000000001ACF "f3_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Earthshock!
+/focus Earthshock
+END
+VER 3 0000000000001AD0 "f4_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Palia!
+/focus Palia
+END
+VER 3 0000000000001AD1 "f5_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Monique!
+/focus Monique
+END
+VER 3 0000000000001535 "FARM" "252268"
+/click ARCANE_FARM
+END
+VER 3 0000000000000037 "farmsteady" "INV_Misc_QuestionMark"
+/cast [nomod] steady shot
+/cast [nomod] rapid fire
+/cast [mod:alt] kill shot
+/cast [mod:ctrl] tranquilizing shot
+/cast [@pet] misdirection
+/startattack [nomod]
+END
+VER 3 0000000000000023 "frost1" "Ability_DualWieldSpecialization"
+/tar  frost
+/cast chimera shot
+/startattack
+END
+VER 3 0000000000000035 "gather" "Ability_Druid_KingoftheJungle"
+/petattack
+/petautocastoff thunderstomp
+END
+VER 3 0000000000000030 "ht" "INV_Misc_QuestionMark"
+/cast [nomod] healing touch
+/cast [mod:alt] nature's grasp
+END
+VER 3 0000000000001AD2 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 000000000000001E "InnF" "INV_Misc_QuestionMark"
+/cast [@focus] innervate
+END
+VER 3 0000000000001ADD "int_fs" "INV_Misc_Questionmark"
+/cast Counterspell
+END
+VER 3 000000000000002D "kcharge" "INV_Misc_QuestionMark"
+/cast [nomod] feral charge(cat form),
+/cast [stealth,nomod] pounce
+/cast [nomod,nostealth] ravage
+/cast [mod:ctrl] faerie fire (feral)
+/cast [mod:alt,@player] rejuvenation
+/startattack [nomod,nostealth]
+END
+VER 3 0000000000000014 "kill" "INV_Misc_QuestionMark"
+/cast [nomod] kill command
+/cast [mod:alt] freezing trap
+/cast [mod:ctrl] disengage
+/cast [nomod] bestial wrath
+/cast [nomod] fervor
+/cast [nomod] rapid fire
+/use [mod:ctrl] healthstone
+/startattack [nomod]
+/cast [@player] spirit mend
+/assist starrsight
+END
+VER 3 000000000000001B "kitty swipe" "INV_Misc_QuestionMark"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/cast [modifier:ctrl] rivendare's deathcharger
+/cast [nomod] Swipe(Cat Form)
+/startattack
+END
+VER 3 000000000000001C "kstand" "INV_Misc_QuestionMark"
+/cast barkskin
+/cast Survival Instincts
+/use Battlemaster's Fury
+/use Healthstone
+/cast lifeblood
+/use mysterious potion
+/use endless healing potion
+END
+VER 3 0000000000000005 "lac" "INV_Misc_QuestionMark"
+/cast [nomod] Mangle(Bear Form)
+/cast [nomod] maul
+/cast [mod:ctrl] berserk
+/cast [mod:alt] nature's grasp
+/startattack [nomod]
+END
+VER 3 0000000000000688 "lasso" "133562"
+/tar Ivory Cloud Serpent
+/use Zan-Tien Lasso
+END
+VER 3 0000000000000039 "last stand" "INV_Misc_QuestionMark"
+/cast last stand
+END
+VER 3 0000000000000001 "laststand" "INV_Misc_QuestionMark"
+/cast frenzied regeneration
+/cast survival instincts
+/cast lifeblood
+/use Battlemaster's Fury
+/use Healthstone
+/cast barkskin
+/use mysterious potion
+/use endless healing potion
+/use Healthstone
+END
+VER 3 0000000000000031 "LB" "INV_Misc_QuestionMark"
+/cast [mod:ctrl] faerie fire
+/cast [nomod:ctrl] lifebloom
+END
+VER 3 0000000000001ADF "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000001AD3 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Earthshock
+END
+VER 3 0000000000000008 "mdfocus" "INV_Misc_QuestionMark"
+/cast [@focus] misdirection
+/cast [combat] kill shot
+/cast [combat] kill command
+END
+VER 3 000000000000000B "mf" "INV_Misc_QuestionMark"
+/cast [nomod] moonfire
+/cast [mod:alt] rejuvenation
+/cast [mod:alt] barkskin
+/cast [mod:alt] lifeblood
+/use [combat] Platinum Disks of Sorcery
+/use [mod:alt] endless healing potion
+/use [mod:alt] fel healthstone
+END
+VER 3 000000000000000E "mk" "INV_Misc_QuestionMark"
+/cast [nomod] moonkin form
+/cast [mod:alt] lifebloom
+/cast [mod:alt] barkskin
+/cast [mod:alt] lifeblood
+/use [mod:alt] endless healing potion
+END
+VER 3 0000000000001AD9 "multi_fs" "ability_upgrademoonglaive"
+/assist [@focus,exists][@Me,exists]
+/click ARCANE_MULTI
+END
+VER 3 000000000000000F "nvent info" "INV_Misc_QuestionMark"
+/raid ventrilo.nathrezim.org  port: 4135 channel: shadow stalker
+END
+VER 3 0000000000001ACC "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000000034 "phoenix" "INV_Misc_QuestionMark"
+/cast heart of the phoenix
+END
+VER 3 0000000000001AD6 "poly_fs" "INV_Misc_QuestionMark"
+/cast Polymorph
+END
+VER 3 0000000000000003 "pot" "Spell_Shadow_LifeDrain"
+/use fel healthstone
+/use Resurgent Healing Potion
+/use super healing potion
+/use major healing potion
+/cast barkskin
+/cast frenzied regeneration
+END
+VER 3 0000000000001ADE "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000020 "rezF" "INV_Misc_QuestionMark"
+/cast [@focus] rebirth
+END
+VER 3 0000000000000019 "rj" "INV_Misc_QuestionMark"
+/cast [mod:ctrl,@focus] remove corruption
+/cast [mod:alt,@player] rejuvenation
+/cast rejuvenation
+END
+VER 3 000000000000003E "roots" "INV_MISC_QUESTIONMARK"
+#showtooltip entangling roots
+/cast [noform,mod:alt] bear form
+/cast [noform] cat form
+/cast [@mouseover,harm,nodead] entangling roots
+END
+VER 3 0000000000000013 "sb" "INV_Misc_QuestionMark"
+/petattack
+/cast shadow bolt
+END
+VER 3 0000000000001AD7 "setup_fs" "Spell_magic_polymorphchicken"
+/assist [@focus,exists][@Me,exists]
+/click ARCANE_SETUP
+/stopcasting [mod:alt]
+END
+VER 3 000000000000000D "sf" "INV_Misc_QuestionMark"
+/cast [nomod] starfire
+/cast [mod:alt] starfall
+/cast [mod:ctrl,@player] abolish poison
+/use [combat] Platinum Disks of Sorcery
+END
+VER 3 0000000000001ADC "sheal_fs" "spell_nature_healingtouch"
+/click ARCANE_SHEAL
+END
+VER 3 0000000000001AD8 "single_fs" "ability_searingarrow"
+/assist [@focus,exists][@Me,exists]
+/click ARCANE_SINGLE
+END
+VER 3 0000000000000017 "sm" "INV_Misc_QuestionMark"
+/cast [modifier:alt,target=player]swiftmend 
+/cast [modifier:ctrl]great brown kodo
+/cast [nomodifier] swiftmend
+END
+VER 3 000000000000003B "sting" "INV_MISC_QUESTIONMARK"
+/cast [nomod] serpent sting
+/cast [nomod] kill command
+/cast [nomod] bestial wrath
+/cast [nomod] rapid fire
+/cast [nomod] fervor
+/cast [nomod] focus fire
+/cast [mod:alt] kill shot
+/cast [mod:ctrl] freezing trap
+END
+VER 3 0000000000001ADA "turbo_fs" "Spell_nature_lightning"
+/click ARCANE_TURBO
+/run focusme()
+/petpassive [mod:alt]
+/run SetView(4)
+END
+VER 3 0000000000000016 "WG" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] wild growth
+/cast [mod:alt] rejuvenation
+/cast [mod:alt] barkskin
+/cast [mod:alt] lifeblood
+/use [combat] Platinum Disks of Sorcery
+/use [mod:alt] endless healing potion
+/use [mod:alt] healthstone
+END
+VER 3 0000000000000006 "zerkheal" "INV_Misc_QuestionMark"
+#showtootlip
+/cast [nomod] mangle (bear)
+/cast [nomod] maul
+/cast [mod:alt,@player] regrowth
+/cast barkskin
+END
+VER 3 000000000000011A "ZygorAction1" "132848"
+#showtooltip Kill Ingra Maloch
+/run ZGV:MCM(8)
+/cleartarget
+/target Ingra Maloch
+/run ZGV:MRM()
+END

@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Neversmile|Bladefist|Horde|20|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Neversmile - Bladefist"] = "Neversmile - Bladefist",
+	},
+	["profiles"] = {
+		["Neversmile - Bladefist"] = {
+		},
+	},
+}

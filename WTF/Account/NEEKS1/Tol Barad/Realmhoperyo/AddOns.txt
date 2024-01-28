@@ -1,0 +1,2 @@
+HandyNotes_DraenorTreasures: enabled
+FollowerLocationInfo_Data: enabled

@@ -1,0 +1,16 @@
+VER 3 0100000000000003 "BMAOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BMAOE RightButton; [button:3] BMAOE MiddleButton; [button:4] BMAOE Button4; [button:5] BMAOE Button5; BMAOE
+END
+VER 3 0100000000000002 "BMSOLO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BMSOLO RightButton; [button:3] BMSOLO MiddleButton; [button:4] BMSOLO Button4; [button:5] BMSOLO Button5; BMSOLO
+END
+VER 3 0100000000000004 "HUNTER_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HUNTER_SETUP RightButton; [button:3] HUNTER_SETUP MiddleButton; [button:4] HUNTER_SETUP Button4; [button:5] HUNTER_SETUP Button5; HUNTER_SETUP
+END
+VER 3 0100000000000001 "HUNTER_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HUNTER_TURBO RightButton; [button:3] HUNTER_TURBO MiddleButton; [button:4] HUNTER_TURBO Button4; [button:5] HUNTER_TURBO Button5; HUNTER_TURBO
+END

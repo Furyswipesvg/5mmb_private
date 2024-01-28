@@ -1,0 +1,20 @@
+VER 3 0100000000000005 "ARCANE_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ARCANE_AOE RightButton; [button:3] ARCANE_AOE MiddleButton; [button:4] ARCANE_AOE Button4; [button:5] ARCANE_AOE Button5; ARCANE_AOE
+END
+VER 3 0100000000000002 "ARCANE_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ARCANE_SETUP RightButton; [button:3] ARCANE_SETUP MiddleButton; [button:4] ARCANE_SETUP Button4; [button:5] ARCANE_SETUP Button5; ARCANE_SETUP
+END
+VER 3 0100000000000001 "ARCANE_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ARCANE_TURBO RightButton; [button:3] ARCANE_TURBO MiddleButton; [button:4] ARCANE_TURBO Button4; [button:5] ARCANE_TURBO Button5; ARCANE_TURBO
+END
+VER 3 0100000000000004 "KARL_ARC_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KARL_ARC_AOE RightButton; [button:3] KARL_ARC_AOE MiddleButton; [button:4] KARL_ARC_AOE Button4; [button:5] KARL_ARC_AOE Button5; KARL_ARC_AOE
+END
+VER 3 0100000000000003 "MYARCANE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MYARCANE RightButton; [button:3] MYARCANE MiddleButton; [button:4] MYARCANE Button4; [button:5] MYARCANE Button5; MYARCANE
+END

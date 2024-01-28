@@ -16,3 +16,7 @@ Details_TinyThreat: enabled
 Details_Vanguard: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+_DevPad: disabled
+_DevPad.GUI: disabled
+BlockChinese: disabled
+HandyNotes: disabled

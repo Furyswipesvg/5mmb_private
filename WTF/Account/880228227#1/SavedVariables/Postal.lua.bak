@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Massacree - Bladefist"] = "Massacree - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Massacree|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Massacree - Bladefist"] = {
+		},
+	},
+}

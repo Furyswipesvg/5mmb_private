@@ -1,0 +1,73 @@
+VER 3 010000000000001B "ELEMENTAR_MULTI_FULL_MOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELEMENTAR_MULTI_FULL_MOE RightButton; [button:3] ELEMENTAR_MULTI_FULL_MOE MiddleButton; [button:4] ELEMENTAR_MULTI_FULL_MOE Button4; [button:5] ELEMENTAR_MULTI_FULL_MOE Button5; ELEMENTAR_MULTI_FULL_MOE
+END
+VER 3 010000000000001A "ELEMENTAR_MULTI_MOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELEMENTAR_MULTI_MOE RightButton; [button:3] ELEMENTAR_MULTI_MOE MiddleButton; [button:4] ELEMENTAR_MULTI_MOE Button4; [button:5] ELEMENTAR_MULTI_MOE Button5; ELEMENTAR_MULTI_MOE
+END
+VER 3 0100000000000019 "ELEMENTAR_SINGLE_MOE_MAGHAR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELEMENTAR_SINGLE_MOE_MAGHAR RightButton; [button:3] ELEMENTAR_SINGLE_MOE_MAGHAR MiddleButton; [button:4] ELEMENTAR_SINGLE_MOE_MAGHAR Button4; [button:5] ELEMENTAR_SINGLE_MOE_MAGHAR Button5; ELEMENTAR_SINGLE_MOE_MAGHAR
+END
+VER 3 0100000000000018 "ELFELESHAST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELFELESHAST RightButton; [button:3] ELFELESHAST MiddleButton; [button:4] ELFELESHAST Button4; [button:5] ELFELESHAST Button5; ELFELESHAST
+END
+VER 3 0100000000000006 "ES" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt,@player] earth shield
+/cast [nomod] earth shield
+/cast [mod:ctrl] water shield
+END
+VER 3 0100000000000017 "FLAMF" "INV_MISC_QUESTIONMARK"
+/cast [exists,@focus] flame shock ; flame shock
+END
+VER 3 010000000000000E "Frostshock" "INV_MISC_QUESTIONMARK"
+/cast [mod:ctrl,@mouseover] purge
+/cast [mod:alt,@player][help]Unleash Elements;[harm]Frost Shock
+END
+VER 3 0100000000000015 "hexf" "INV_MISC_QUESTIONMARK"
+/cast [exists,@focus] hex ; hex
+END
+VER 3 0100000000000009 "panic" "INV_MISC_QUESTIONMARK"
+/castsequence [mod:alt,@player] reset=120 nature's swiftness, greater healing wave
+/castsequence [nomod] reset=120 nature's swiftness, greater healing wave
+/use [mod:alt] healthstone
+END
+VER 3 0100000000000007 "RIP" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt,@player] riptide
+/cast [nomod] riptide
+/cast [mod:ctrl,exists,@focus] cleanse spirit
+END
+VER 3 0100000000000010 "roboaoe" "INV_MISC_QUESTIONMARK"
+/castsequence reset=combat call of the ancestors,flame shock, fire nova,chain lightning,chain lightning, chain lightning, chain lightning, flame shock, fire nova,chain lightning, chain lightning
+/cast elemental mastery
+/assist starsight
+/follow stream
+END
+VER 3 010000000000000F "robotorch" "INV_MISC_QUESTIONMARK"
+/castsequence reset=combat call of the ancestors,flame shock, fire nova, lava burst, lightning bolt, lightning bolt, lightning bolt, unleash elements, flame shock, lava burst, lightning bolt,lightning bolt
+/cast elemental mastery
+/assist starsight
+END
+VER 3 0100000000000012 "statue" "INV_MISC_QUESTIONMARK"
+/follow statue
+/target statue
+/cast  Riptide
+/cast healing surge
+END
+VER 3 010000000000000C "SURGE" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt,@player] healing surge
+/cast [nomod] healing surge
+/cast [mod:ctrl,flyable] Blue Proto-Drake
+/cast [mod:ctrl] great white kodo
+END
+VER 3 010000000000000D "wave" "INV_MISC_QUESTIONMARK"
+/cast [swimming,@player] water walking
+/cast [mod:ctrl] ghost wolf
+/cast [mod:alt,@player] healing wave
+/cast [nomod] healing wave
+END
+VER 3 0100000000000016 "WSf" "INV_MISC_QUESTIONMARK"
+/cast [exists, @focus] aawind shear ; wind shear
+END

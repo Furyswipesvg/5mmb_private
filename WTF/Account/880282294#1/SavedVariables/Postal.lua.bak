@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Skinnygirl - Bladefist"] = "Skinnygirl - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Skinnygirl|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Skinnygirl - Bladefist"] = {
+		},
+	},
+}

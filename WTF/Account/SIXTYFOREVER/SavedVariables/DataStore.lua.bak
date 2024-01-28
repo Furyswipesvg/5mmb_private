@@ -1,0 +1,67 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Chaostard - Illidan"] = "Chaostard - Illidan",
+		["Monique - Nathrezim"] = "Monique - Nathrezim",
+		["Verylntense - Illidan"] = "Verylntense - Illidan",
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+		["Wickerman - Nathrezim"] = "Wickerman - Nathrezim",
+		["Bloodlust - Nathrezim"] = "Bloodlust - Nathrezim",
+		["Thatslnsane - Illidan"] = "Thatslnsane - Illidan",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Nathrezim.Suppressed"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Anub'arak.Joker Guild"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Anub'arak.Boyz in Da Hood"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Drenden.Arthas Inc"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Illidan.Crudelis"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.In Service of the Horde"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Illidan.Verylntense"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Bloodlust"] = {
+				["guildName"] = "Suppressed",
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Monique"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Wickerman"] = {
+				["guildName"] = "Joker Guild",
+				["faction"] = "Alliance",
+			},
+			["Default.Illidan.Chaostard"] = {
+				["guildName"] = "Crudelis",
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.Thatslnsane"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "In Service of the Horde",
+			},
+			["Default.Nathrezim.Basilar"] = {
+				["guildName"] = "Boyz in Da Hood",
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Nathrezim"] = "Nathrezim",
+			["Illidan"] = "Illidan",
+		},
+	},
+}

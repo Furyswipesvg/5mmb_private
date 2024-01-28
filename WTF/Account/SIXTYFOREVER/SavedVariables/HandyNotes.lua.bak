@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+	},
+	["profiles"] = {
+		["Basilar - Nathrezim"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+	},
+	["profiles"] = {
+		["Basilar - Nathrezim"] = {
+		},
+	},
+}

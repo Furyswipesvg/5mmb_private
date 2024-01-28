@@ -1,0 +1,103 @@
+VER 3 010000000000001A "AOE" "INV_MISC_QUESTIONMARK"
+/cast multi-shot
+/cast rabid
+/cast rapid fire
+/use Dreadful Gladiator's Badge of Conquest
+/use Dreadful Gladiator's Chain Gauntlets
+/startattack
+/petattack
+END
+VER 3 0100000000000018 "ARCANE" "INV_MISC_QUESTIONMARK"
+/cast [nomod] arcane shot
+/cast [mod:alt] disengage
+/cast [mod:ctrl] deterrence
+/startattack
+/cast [mod:alt] exhilaration
+/use [mod:alt] healthstone
+/cast [nomod,@pet] spirit mend
+/use Potion of Brawler's Deftness
+END
+VER 3 0100000000000020 "BULLHEAD" "INV_MISC_QUESTIONMARK"
+/cast bullheaded
+END
+VER 3 0100000000000019 "COBRA" "INV_MISC_QUESTIONMARK"
+/cast [nomod] cobra shot
+/cast [mod:alt] focus fire
+/startattack [nomod:ctrl] 
+/cast [mod:ctrl,noflyable] swift zulian tiger
+/cast [mod:ctrl,flyable] armored blue wind rider
+/cancelaura [mod:ctrl] deterrence
+END
+VER 3 0100000000000023 "DISMOUNT" "INV_MISC_QUESTIONMARK"
+/use [harm] widow venom
+/cast flare
+/cast [harm] web
+END
+VER 3 010000000000001D "EXP" "INV_MISC_QUESTIONMARK"
+#showtooltip explosive trap
+/cast !trap launcher
+/cast explosive trap
+END
+VER 3 0100000000000025 "FEIGN" "INV_MISC_QUESTIONMARK"
+/cast !feign death
+END
+VER 3 0100000000000022 "HOTP" "INV_MISC_QUESTIONMARK"
+/cast heart of the phoenix
+END
+VER 3 010000000000001F "ICE" "INV_MISC_QUESTIONMARK"
+#showtooltip ice trap
+/cast !trap launcher
+/cast ice trap
+END
+VER 3 0100000000000016 "KILL" "INV_MISC_QUESTIONMARK"
+/castsequence  [nomod]  reset=10 kill command,kill command
+/cancelaura [mod:ctrl] trap launcher
+/cast [mod:ctrl] freezing trap
+/petfollow [mod:ctrl]
+/cast [mod:alt] kill shot
+/startattack[nomod:ctrl]
+END
+VER 3 0100000000000026 "LUST" "INV_MISC_QUESTIONMARK"
+/cast Ancient Hysteria(Exotic Ability)
+END
+VER 3 0100000000000024 "master's " "INV_MISC_QUESTIONMARK"
+/cast [@player] master's call
+END
+VER 3 010000000000001C "MOREFOCUS" "INV_MISC_QUESTIONMARK"
+/cast focus fire
+/cast fervor
+END
+VER 3 0100000000000014 "RABID" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast rabid
+END
+VER 3 0100000000000021 "SAC" "INV_MISC_QUESTIONMARK"
+/cast roar of sacrifice
+/cast exhilaration
+END
+VER 3 010000000000001E "SNAKE" "INV_MISC_QUESTIONMARK"
+#showtooltip snake trap
+/cast !trap launcher
+/cast snake trap
+END
+VER 3 0100000000000017 "Sting_Pet" "INV_MISC_QUESTIONMARK"
+/cast [mounted] serpent sting
+/cast [mod:ctrl] tranquilizing shot
+/cast [nopet] call pet 3
+/cast [nomod] serpent sting
+/cast [mod:alt] concussive shot
+/petattack
+/petattack [@focus,exists] 
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [@pet] mend pet
+END
+VER 3 0100000000000010 "turbo" "INV_Misc_QuestionMark"
+/castsequence reset=55 bestial wrath, stampede
+/cast blood fury
+/cast rabid
+/cast rapid fire
+/use Malevolent Gladiator's Badge of Conquest
+/use Tyrannical Gladiator's Chain Gauntlets
+/startattack
+/cast [mod:alt] bestial wrath
+END

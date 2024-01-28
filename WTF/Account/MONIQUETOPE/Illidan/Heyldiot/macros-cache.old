@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "BM-SGL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BM-SGL RightButton; [button:3] BM-SGL MiddleButton; [button:4] BM-SGL Button4; [button:5] BM-SGL Button5; BM-SGL
+END

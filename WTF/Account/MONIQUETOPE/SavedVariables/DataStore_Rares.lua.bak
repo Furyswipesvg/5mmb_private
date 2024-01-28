@@ -1,0 +1,99 @@
+
+DataStore_RaresDB = {
+	["profileKeys"] = {
+		["Peghanaiste - Frostmourne"] = "Peghanaiste - Frostmourne",
+		["Dazarugavin - Sargeras"] = "Dazarugavin - Sargeras",
+		["Thelnfinite - Cenarius"] = "Thelnfinite - Cenarius",
+		["Heyldiot - Illidan"] = "Heyldiot - Illidan",
+		["Anlnmate - Nathrezim"] = "Anlnmate - Nathrezim",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Heyldiot"] = {
+				["lastUpdate"] = 1604726602,
+			},
+			["Default.Frostmourne.Peghanaiste"] = {
+				["lastUpdate"] = 1603506779,
+			},
+			["Default.Cenarius.Thelnfinite"] = {
+				["Rares"] = {
+					[129961] = {
+						["resetTime"] = 42958,
+						["name"] = "Atal'zul Gotaka",
+					},
+					[129343] = {
+						["resetTime"] = 42958,
+						["name"] = "Avatar of Xolotal",
+					},
+					[133539] = {
+						["resetTime"] = 42958,
+						["name"] = "Lo'kuno",
+					},
+					[132179] = {
+						["resetTime"] = 42958,
+						["name"] = "Raging Swell",
+					},
+					[131718] = {
+						["resetTime"] = 42958,
+						["name"] = "Bramblewing",
+					},
+					[122004] = {
+						["resetTime"] = 42958,
+						["name"] = "Umbra'jin",
+					},
+					[139290] = {
+						["resetTime"] = 42958,
+						["name"] = "Maison the Portable",
+					},
+					[132211] = {
+						["resetTime"] = 42958,
+						["name"] = "Fowlmouth",
+					},
+					[127939] = {
+						["resetTime"] = 42958,
+						["name"] = "Torraske the Eternal",
+					},
+					[136346] = {
+						["resetTime"] = 42958,
+						["name"] = "Captain Stef 'Marrow' Quin",
+					},
+					[134738] = {
+						["resetTime"] = 42958,
+						["name"] = "Hakbi the Risen",
+					},
+					[136428] = {
+						["resetTime"] = 42958,
+						["name"] = "Dark Chronicler",
+					},
+					[131476] = {
+						["resetTime"] = 42958,
+						["name"] = "Zayoos",
+					},
+					[132280] = {
+						["resetTime"] = 42958,
+						["name"] = "Squacks",
+					},
+					[124185] = {
+						["resetTime"] = 42958,
+						["name"] = "Golrakahn",
+					},
+					[120899] = {
+						["resetTime"] = 42958,
+						["name"] = "Kul'krazahn",
+					},
+					[139233] = {
+						["resetTime"] = 42958,
+						["name"] = "Gulliver",
+					},
+				},
+				["lastUpdate"] = 1605323041,
+			},
+			["Default.Sargeras.Dazarugavin"] = {
+				["lastUpdate"] = 1603505782,
+			},
+			["Default.Nathrezim.Anlnmate"] = {
+				["lastUpdate"] = 1604274658,
+			},
+		},
+	},
+}

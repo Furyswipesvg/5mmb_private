@@ -1,0 +1,1613 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Central <Central>"] = {
+			["GUID"] = "Pet-0-3885-0-6274-165189-0D013CE9DE",
+			["LastEventHealth"] = {
+				9825, -- [1]
+				9825, -- [2]
+				9825, -- [3]
+				9825, -- [4]
+				9825, -- [5]
+				9825, -- [6]
+				9825, -- [7]
+				9825, -- [8]
+				9825, -- [9]
+				9825, -- [10]
+				9825, -- [11]
+				9825, -- [12]
+				9825, -- [13]
+				9825, -- [14]
+				9825, -- [15]
+				9825, -- [16]
+				9825, -- [17]
+				9825, -- [18]
+				9825, -- [19]
+				9825, -- [20]
+				9825, -- [21]
+				9825, -- [22]
+				9825, -- [23]
+				9825, -- [24]
+				9825, -- [25]
+				9825, -- [26]
+				9825, -- [27]
+				9825, -- [28]
+				9825, -- [29]
+				9825, -- [30]
+				9825, -- [31]
+				9825, -- [32]
+				9825, -- [33]
+				9825, -- [34]
+				9825, -- [35]
+				9825, -- [36]
+				9825, -- [37]
+				9825, -- [38]
+				9825, -- [39]
+				9825, -- [40]
+				9825, -- [41]
+				9825, -- [42]
+				9825, -- [43]
+				9825, -- [44]
+				9825, -- [45]
+				9825, -- [46]
+				9825, -- [47]
+				9825, -- [48]
+				9825, -- [49]
+				9825, -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					6741, -- [1]
+				},
+				["TimeDamage"] = {
+					55.23, -- [1]
+				},
+				["ActiveTime"] = {
+					55.23, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Central",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["LastActive"] = 36295.631,
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["ownerName"] = "Central",
+			["LastEventHealthMax"] = {
+				9825, -- [1]
+				9825, -- [2]
+				9825, -- [3]
+				9825, -- [4]
+				9825, -- [5]
+				9825, -- [6]
+				9825, -- [7]
+				9825, -- [8]
+				9825, -- [9]
+				9825, -- [10]
+				9825, -- [11]
+				9825, -- [12]
+				9825, -- [13]
+				9825, -- [14]
+				9825, -- [15]
+				9825, -- [16]
+				9825, -- [17]
+				9825, -- [18]
+				9825, -- [19]
+				9825, -- [20]
+				9825, -- [21]
+				9825, -- [22]
+				9825, -- [23]
+				9825, -- [24]
+				9825, -- [25]
+				9825, -- [26]
+				9825, -- [27]
+				9825, -- [28]
+				9825, -- [29]
+				9825, -- [30]
+				9825, -- [31]
+				9825, -- [32]
+				9825, -- [33]
+				9825, -- [34]
+				9825, -- [35]
+				9825, -- [36]
+				9825, -- [37]
+				9825, -- [38]
+				9825, -- [39]
+				9825, -- [40]
+				9825, -- [41]
+				9825, -- [42]
+				9825, -- [43]
+				9825, -- [44]
+				9825, -- [45]
+				9825, -- [46]
+				9825, -- [47]
+				9825, -- [48]
+				9825, -- [49]
+				9825, -- [50]
+			},
+			["LastEventTimes"] = {
+				36294.148, -- [1]
+				36295.865, -- [2]
+				36295.865, -- [3]
+				36240.232, -- [4]
+				36240.965, -- [5]
+				36242.765, -- [6]
+				36243.415, -- [7]
+				36244.482, -- [8]
+				36246.282, -- [9]
+				36246.715, -- [10]
+				36248.098, -- [11]
+				36249.782, -- [12]
+				36249.965, -- [13]
+				36251.632, -- [14]
+				36253.249, -- [15]
+				36253.349, -- [16]
+				36255.165, -- [17]
+				36256.582, -- [18]
+				36256.932, -- [19]
+				36258.748, -- [20]
+				36259.848, -- [21]
+				36260.432, -- [22]
+				36262.233, -- [23]
+				36263.031, -- [24]
+				36264.048, -- [25]
+				36265.815, -- [26]
+				36266.325, -- [27]
+				36267.593, -- [28]
+				36269.349, -- [29]
+				36269.598, -- [30]
+				36271.099, -- [31]
+				36272.865, -- [32]
+				36272.865, -- [33]
+				36274.588, -- [34]
+				36276.131, -- [35]
+				36276.398, -- [36]
+				36278.134, -- [37]
+				36279.398, -- [38]
+				36279.952, -- [39]
+				36281.731, -- [40]
+				36282.615, -- [41]
+				36283.489, -- [42]
+				36285.298, -- [43]
+				36285.965, -- [44]
+				36286.982, -- [45]
+				36288.848, -- [46]
+				36289.265, -- [47]
+				36290.598, -- [48]
+				36292.415, -- [49]
+				36292.531, -- [50]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["NextEventNum"] = 4,
+			["LastDamageTime"] = 36295.865,
+			["LastEvents"] = {
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [1]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [2]
+				"Central <Central> Melee Training Dummy Crit -112 (Physical)", -- [3]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [4]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [5]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [6]
+				"Central <Central> Claw Training Dummy Hit -195 (Physical)", -- [7]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [8]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [9]
+				"Central <Central> Claw Training Dummy Hit -195 (Physical)", -- [10]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [11]
+				"Central <Central> Melee Training Dummy Crit -112 (Physical)", -- [12]
+				"Central <Central> Claw Training Dummy Crit -392 (Physical)", -- [13]
+				"Central <Central> Melee Training Dummy Crit -112 (Physical)", -- [14]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [15]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [16]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [17]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [18]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [19]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [20]
+				"Central <Central> Claw Training Dummy Hit -195 (Physical)", -- [21]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [22]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [23]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [24]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [25]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [26]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [27]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [28]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [29]
+				"Central <Central> Claw Training Dummy Crit -392 (Physical)", -- [30]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [31]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [32]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [33]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [34]
+				"Central <Central> Claw Training Dummy Crit -391 (Physical)", -- [35]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [36]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [37]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [38]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [39]
+				"Central <Central> Melee Training Dummy Crit -112 (Physical)", -- [40]
+				"Central <Central> Claw Training Dummy Hit -195 (Physical)", -- [41]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [42]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [43]
+				"Central <Central> Claw Training Dummy Crit -392 (Physical)", -- [44]
+				"Central <Central> Melee Training Dummy Crit -112 (Physical)", -- [45]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [46]
+				"Central <Central> Claw Training Dummy Hit -196 (Physical)", -- [47]
+				"Central <Central> Melee Training Dummy Hit -56 (Physical)", -- [48]
+				"Central <Central> Melee Training Dummy Crit -111 (Physical)", -- [49]
+				"Central <Central> Claw Training Dummy Hit -195 (Physical)", -- [50]
+			},
+			["Name"] = "Central",
+			["Fights"] = {
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2239,
+						["Physical"] = 4502,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2239,
+								},
+								["Claw"] = {
+									["count"] = 4502,
+								},
+							},
+							["amount"] = 6741,
+						},
+					},
+					["TimeDamage"] = 55.23,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 56,
+									["count"] = 28,
+									["amount"] = 1568,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2239,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 392,
+									["min"] = 391,
+									["count"] = 4,
+									["amount"] = 1567,
+								},
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 195,
+									["count"] = 15,
+									["amount"] = 2935,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 4502,
+						},
+					},
+					["ActiveTime"] = 55.23,
+					["Damage"] = 6741,
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2239,
+						["Physical"] = 4502,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2239,
+								},
+								["Claw"] = {
+									["count"] = 4502,
+								},
+							},
+							["amount"] = 6741,
+						},
+					},
+					["TimeDamage"] = 55.23,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 56,
+									["count"] = 28,
+									["amount"] = 1568,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2239,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 392,
+									["min"] = 391,
+									["count"] = 4,
+									["amount"] = 1567,
+								},
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 195,
+									["count"] = 15,
+									["amount"] = 2935,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 4502,
+						},
+					},
+					["ActiveTime"] = 55.23,
+					["Damage"] = 6741,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2239,
+						["Physical"] = 4502,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2239,
+								},
+								["Claw"] = {
+									["count"] = 4502,
+								},
+							},
+							["amount"] = 6741,
+						},
+					},
+					["TimeDamage"] = 55.23,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.97,
+								},
+								["Claw"] = {
+									["count"] = 17.26,
+								},
+							},
+							["amount"] = 55.23,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 56,
+									["count"] = 28,
+									["amount"] = 1568,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2239,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 392,
+									["min"] = 391,
+									["count"] = 4,
+									["amount"] = 1567,
+								},
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 195,
+									["count"] = 15,
+									["amount"] = 2935,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 4502,
+						},
+					},
+					["ActiveTime"] = 55.23,
+					["Damage"] = 6741,
+				},
+			},
+			["LastFlags"] = 4648,
+			["TimeLast"] = {
+				["Damage"] = 36295.631,
+				["OVERALL"] = 36295.631,
+				["TimeDamage"] = 36295.631,
+				["ActiveTime"] = 36295.631,
+			},
+			["UnitLockout"] = 36236.632,
+			["LastAbility"] = 70697.278,
+		},
+		["Central"] = {
+			["GUID"] = "Player-1138-062D89BF",
+			["LastEventHealth"] = {
+				9098, -- [1]
+				7249, -- [2]
+				4884, -- [3]
+				5271, -- [4]
+				7375, -- [5]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					10875, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Central",
+			["LastActive"] = 38348.416,
+			["level"] = 50,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 1,
+			["LastEventHealthMax"] = {
+				9120, -- [1]
+				9120, -- [2]
+				9120, -- [3]
+				9120, -- [4]
+				9804, -- [5]
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["GuardianReverseGUIDs"] = {
+				["Safari Lounge Cushion"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Vehicle-0-3885-0-6274-85952-00000B4123",
+					},
+				},
+				["Central"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Pet-0-3885-0-6274-165189-0D013CE9DE",
+					},
+				},
+				["Pineapple Lounge Cushion"] = {
+					["LatestGuardian"] = 3,
+					["GUIDs"] = {
+						"Vehicle-0-3885-0-6274-85947-00000B3F0F", -- [1]
+						"Vehicle-0-3885-0-6274-85947-00000B410F", -- [2]
+						"Vehicle-0-3885-0-6274-85947-00000B4765", -- [3]
+						[0] = "Vehicle-0-3885-0-6274-85947-00000B3E96",
+					},
+				},
+				["Zhevra Lounge Cushion"] = {
+					["LatestGuardian"] = 1,
+					["GUIDs"] = {
+						"Vehicle-0-3885-0-6274-85953-00000B4140", -- [1]
+						[0] = "Vehicle-0-3885-0-6274-85953-00000B3D44",
+					},
+				},
+				["Unknown"] = {
+					["LatestGuardian"] = 2,
+					["GUIDs"] = {
+						"Vehicle-0-3885-0-6274-85952-00000B3C4A", -- [1]
+						"Vehicle-0-3885-0-6274-85953-00000B3C6E", -- [2]
+						[0] = "Vehicle-0-3885-0-6274-85947-00000B3C2A",
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 38348.416,
+				["OVERALL"] = 38348.416,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Central <Central>", -- [1]
+				"MyBIGassWorm <Central>", -- [2]
+				"Unknown <Central>", -- [3]
+				"Zhevra Lounge Cushion <Central>", -- [4]
+				"Pineapple Lounge Cushion <Central>", -- [5]
+				"Safari Lounge Cushion <Central>", -- [6]
+			},
+			["NextEventNum"] = 6,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+			},
+			["LastEvents"] = {
+				"Environment Falling Central Hit -22 (Physical)", -- [1]
+				"Environment Falling Central Hit -1871 (Physical)", -- [2]
+				"Environment Falling Central Hit -4236 (Physical)", -- [3]
+				"Environment Falling Central Hit -3849 (Physical)", -- [4]
+				"Environment Falling Central Hit -897 (Physical)", -- [5]
+			},
+			["Name"] = "Central",
+			["LastEventTimes"] = {
+				36846.544, -- [1]
+				37576.705, -- [2]
+				37668.655, -- [3]
+				38295.883, -- [4]
+				38348.749, -- [5]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 10875,
+								},
+							},
+							["amount"] = 10875,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 10875,
+					},
+					["DamageTaken"] = 10875,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+				},
+			},
+			["LastDamageTaken"] = 897,
+			["UnitLockout"] = 36845.628,
+			["LastAbility"] = 70697.278,
+		},
+		["MyBIGassWorm <Central>"] = {
+			["GUID"] = "Pet-0-3885-0-13080-165189-01013CE9DC",
+			["TimeLast"] = {
+				["Damage"] = 36295.631,
+				["OVERALL"] = 36295.631,
+				["TimeDamage"] = 36295.631,
+				["ActiveTime"] = 36295.631,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					2238, -- [1]
+				},
+				["TimeDamage"] = {
+					51, -- [1]
+				},
+				["ActiveTime"] = {
+					51, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["ownerName"] = "Central",
+			["LastActive"] = 36752.635,
+			["NextEventNum"] = 36,
+			["LastDamageTime"] = 36295.998,
+			["LastEvents"] = {
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [1]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [2]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [3]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [4]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -112 (Physical)", -- [5]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [6]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [7]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [8]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [9]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -112 (Physical)", -- [10]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [11]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -111 (Physical)", -- [12]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [13]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [14]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [15]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [16]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [17]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [18]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [19]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [20]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [21]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [22]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [23]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -112 (Physical)", -- [24]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [25]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -112 (Physical)", -- [26]
+				"MyBIGassWorm <Central> Melee Training Dummy Crit -112 (Physical)", -- [27]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [28]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -55 (Physical)", -- [29]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [30]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [31]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [32]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [33]
+				"MyBIGassWorm <Central> Melee Training Dummy Hit -56 (Physical)", -- [34]
+				"Allawynn-Uldum Light of the Martyr MyBIGassWorm <Central> Crit +3400 (3400 Overheal)", -- [35]
+			},
+			["Name"] = "MyBIGassWorm",
+			["LastEventTimes"] = {
+				36237.399, -- [1]
+				36239.165, -- [2]
+				36240.965, -- [3]
+				36242.765, -- [4]
+				36244.482, -- [5]
+				36246.282, -- [6]
+				36248.098, -- [7]
+				36249.782, -- [8]
+				36251.632, -- [9]
+				36253.349, -- [10]
+				36255.165, -- [11]
+				36256.932, -- [12]
+				36258.748, -- [13]
+				36260.432, -- [14]
+				36262.233, -- [15]
+				36264.048, -- [16]
+				36265.815, -- [17]
+				36267.593, -- [18]
+				36269.349, -- [19]
+				36271.099, -- [20]
+				36272.865, -- [21]
+				36274.588, -- [22]
+				36276.398, -- [23]
+				36278.134, -- [24]
+				36279.952, -- [25]
+				36281.731, -- [26]
+				36283.596, -- [27]
+				36285.298, -- [28]
+				36287.115, -- [29]
+				36288.848, -- [30]
+				36290.598, -- [31]
+				36292.415, -- [32]
+				36294.148, -- [33]
+				36295.998, -- [34]
+				36753.202, -- [35]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2238,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2238,
+								},
+							},
+							["amount"] = 2238,
+						},
+					},
+					["TimeDamage"] = 51,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 55,
+									["count"] = 28,
+									["amount"] = 1567,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2238,
+						},
+					},
+					["ActiveTime"] = 51,
+					["Damage"] = 2238,
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2238,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2238,
+								},
+							},
+							["amount"] = 2238,
+						},
+					},
+					["TimeDamage"] = 51,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 55,
+									["count"] = 28,
+									["amount"] = 1567,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2238,
+						},
+					},
+					["ActiveTime"] = 51,
+					["Damage"] = 2238,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2238,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2238,
+								},
+							},
+							["amount"] = 2238,
+						},
+					},
+					["TimeDamage"] = 51,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 111,
+									["count"] = 6,
+									["amount"] = 671,
+								},
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 55,
+									["count"] = 28,
+									["amount"] = 1567,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2238,
+						},
+					},
+					["ActiveTime"] = 51,
+					["Damage"] = 2238,
+				},
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+			},
+			["UnitLockout"] = 36752.635,
+			["LastAbility"] = 70697.278,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			36236.632, -- [1]
+			36297.631, -- [2]
+			"11:33:44", -- [3]
+			"11:34:45", -- [4]
+			"Training Dummy", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Training Dummy 11:33:44-11:34:45", -- [1]
+	},
+}

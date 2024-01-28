@@ -151,3 +151,14 @@ END
 VER 3 0000000000000CE9 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
+VER 3 0000000000000CEA "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 0000000000000CEB "ZygorAction2" "134327"
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Cracked Hide Vest|r worth |cffffaa9972c|r|nRight click to skip this item|n
+/run ZGV.Inventory:HandleTrashMacro()
+END

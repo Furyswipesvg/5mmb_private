@@ -1,0 +1,8 @@
+
+BattlePetDailyTamerSettings = {
+	["TaxiPaws"] = false,
+	["TrackSatchels"] = true,
+	["TrackFables"] = true,
+	["TrackNonSatchels"] = true,
+	["StableMasters"] = false,
+}

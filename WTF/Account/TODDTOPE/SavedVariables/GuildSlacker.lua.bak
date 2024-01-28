@@ -1,0 +1,11 @@
+
+GuildSlackerDB = {
+	["profileKeys"] = {
+		["Neversmiles - Illidan"] = "Default",
+		["Gâto - Illidan"] = "Default",
+		["Felslaughter - Illidan"] = "Default",
+		["Eversmîle - Illidan"] = "Default",
+		["Mootalia - Illidan"] = "Default",
+		["Bubblyböö - Illidan"] = "Default",
+	},
+}

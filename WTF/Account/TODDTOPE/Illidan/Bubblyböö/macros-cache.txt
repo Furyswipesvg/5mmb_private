@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "CYS-TANKADIN" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] CYS-TANKADIN RightButton; [button:3] CYS-TANKADIN MiddleButton; [button:4] CYS-TANKADIN Button4; [button:5] CYS-TANKADIN Button5; CYS-TANKADIN
+END

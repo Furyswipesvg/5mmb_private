@@ -1,0 +1,117 @@
+VER 3 0100000000000030 "bear" "INV_Misc_QuestionMark"
+/cast [nostance:1] !bear form
+END
+VER 3 010000000000002C "bshtaunt" "INV_Misc_QuestionMark"
+/castsequence reset=5 lacerate,faerie fire,lacerate,thrash,Lacerate,Lacerate,Thrash
+/cast Mangle
+/cast [mod:ctrl] Frenzied Regeneration; [mod:alt] Maul; Savage Defense
+/cast Enrage
+/cast Barkskin
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000003 "cat" "Ability_Druid_CatForm"
+/cast [nostance:3] !cat form
+/cast [nostealth,nostance:3] prowl
+/cast [stealth] track humanoids
+END
+VER 3 0100000000000024 "ch" "INV_Misc_QuestionMark"
+/cast [mod:alt,@player] frenzied regeneration
+/cast [modifier:ctrl] Faerie Fire
+#show
+/cast [nomod] wild charge
+END
+VER 3 0100000000000034 "dash" "INV_Misc_QuestionMark"
+/cast [stance:1] stampeding roar
+/cast [stance:3] dash
+/cast [stance:3] stampeding roar(cat form)
+END
+VER 3 010000000000001F "FF" "INV_Misc_QuestionMark"
+/cast [mod:alt,@player] lifebloom
+/cast [nomod] lifebloom
+/cast [mod:ctrl] faerie fire
+END
+VER 3 0100000000000035 "kcharge" "INV_MISC_QUESTIONMARK"
+/cast [nomod]  wild charge
+/cast [stealth,nomod] pounce
+/cast [nomod,nostealth] ravage
+/cast [mod:ctrl]faerie fire
+/cast [mod:alt,@player] rejuvenation
+/startattack [nostealth,nomod]
+/cast [stance] tiger's fury
+END
+VER 3 0100000000000037 "kstand" "INV_MISC_QUESTIONMARK"
+/cast barkskin
+/cast Survival Instincts
+/use Healthstone
+END
+VER 3 0100000000000036 "kswipe" "INV_MISC_QUESTIONMARK"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/castsequence [nomod] reset=combat thrash,Swipe,swipe,swipe,swipe
+/startattack
+/cast Battle Standard of Coor
+END
+VER 3 010000000000001B "ktymag" "INV_Misc_QuestionMark"
+/cast [stealth]ravage
+/cast [nostealth,nocombat]prowl
+/castsequence [nomod] reset=combat/target Mangle,rake,Mangle
+/cast [mod:alt]tiger's fury
+/cast [mod:alt]ferocious bite
+/cast [mod:ctrl]savage roar
+/startattack[nostealth]
+END
+VER 3 0100000000000038 "lac" "INV_MISC_QUESTIONMARK"
+/castsequence reset=5 Thrash,Swipe,Mangle,Swipe
+/cast [mod:ctrl] Frenzied Regeneration; [mod:alt] Maul; Savage Defense
+/cast Enrage
+/cast Barkskin
+/cast Berserk
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000039 "last stand" "INV_MISC_QUESTIONMARK"
+/cast frenzied regeneration
+/cast survival instincts
+/use Ruthless Gladiator's Emblem of Tenacity
+/use Healthstone
+/cast barkskin
+/use mythical healing potion
+END
+VER 3 0100000000000031 "maim" "INV_Misc_QuestionMark"
+/cast [nomod] maim
+/stopattack [nomod]
+/cast [mod:alt] nature's grasp
+/cast [mod:ctrl]  berserk
+/cast [mod:ctrl] lifeblood
+/use [mod:ctrl] Cataclysmic Gladiator's Badge of Conquest
+END
+VER 3 0100000000000026 "mang" "INV_Misc_QuestionMark"
+/cast [modifier:alt] growl
+/cast [modifier:ctrl] Demoralizing Roar
+/castsequence  [nomod] reset=combat Mangle,faerie fire,Lacerate,Lacerate,Lacerate
+/cast [nomod] maul
+/startattack [nomod:ctrl]
+END
+VER 3 0100000000000029 "ngrun" "Spell_Nature_NaturesWrath"
+/cast [modifier:alt, swimming] Aquatic Form; [modifier:alt, flyable, nocombat] swift Flight Form; [modifier:alt, outdoors,noswimming] Travel Form 
+/cast [modifier:ctrl]mechano-hog
+/cast [nomodifier] nature's grasp
+END
+VER 3 0100000000000025 "RGRdc" "INV_Misc_QuestionMark"
+/cast [nomod] regrowth
+/cast [mod:alt,@player] regrowth
+/cast [mod:ctrl,@player] remove corruption
+END
+VER 3 0100000000000010 "RIP" "INV_Misc_QuestionMark"
+/cast [stealth] pounce
+/cast [nomod] rip
+/cast [mod:ctrl] Skull Bash
+/castsequence [mod:alt] shred,rake,shred,shred,shred
+/startattack [nomod]
+END
+VER 3 0100000000000027 "swipe" "INV_Misc_QuestionMark"
+/castsequence [nomod] reset=combat Swipe,thrash,swipe,Lacerate
+/cast [nomod] maul
+/cast [mod:ctrl] Skull Bash
+/cast [mod:alt] Mangle
+/cast [nomod] enrage
+/startattack
+END

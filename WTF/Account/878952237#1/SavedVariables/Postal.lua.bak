@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Furyswipes|Bladefist|Horde|20|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Furyswipes - Bladefist"] = "Furyswipes - Bladefist",
+	},
+	["profiles"] = {
+		["Furyswipes - Bladefist"] = {
+		},
+	},
+}

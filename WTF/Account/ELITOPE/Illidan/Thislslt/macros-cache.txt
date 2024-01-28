@@ -1,0 +1,41 @@
+VER 3 010000000000000A "BLADEPRO_TANKING" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLADEPRO_TANKING RightButton; [button:3] BLADEPRO_TANKING MiddleButton; [button:4] BLADEPRO_TANKING Button4; [button:5] BLADEPRO_TANKING Button5; BLADEPRO_TANKING
+END
+VER 3 0100000000000003 "DEMONHUNTER_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DEMONHUNTER_TURBO RightButton; [button:3] DEMONHUNTER_TURBO MiddleButton; [button:4] DEMONHUNTER_TURBO Button4; [button:5] DEMONHUNTER_TURBO Button5; DEMONHUNTER_TURBO
+END
+VER 3 0100000000000005 "DV8-RAID" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DV8-RAID RightButton; [button:3] DV8-RAID MiddleButton; [button:4] DV8-RAID Button4; [button:5] DV8-RAID Button5; DV8-RAID
+END
+VER 3 0100000000000007 "HAVOC_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_SETUP RightButton; [button:3] HAVOC_SETUP MiddleButton; [button:4] HAVOC_SETUP Button4; [button:5] HAVOC_SETUP Button5; HAVOC_SETUP
+END
+VER 3 0100000000000006 "HAVOC_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_TURBO RightButton; [button:3] HAVOC_TURBO MiddleButton; [button:4] HAVOC_TURBO Button4; [button:5] HAVOC_TURBO Button5; HAVOC_TURBO
+END
+VER 3 0100000000000002 "HAVOCELF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOCELF RightButton; [button:3] HAVOCELF MiddleButton; [button:4] HAVOCELF Button4; [button:5] HAVOCELF Button5; HAVOCELF
+END
+VER 3 010000000000000B "LUTECHI_HAVOC_AIO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] LUTECHI_HAVOC_AIO RightButton; [button:3] LUTECHI_HAVOC_AIO MiddleButton; [button:4] LUTECHI_HAVOC_AIO Button4; [button:5] LUTECHI_HAVOC_AIO Button5; LUTECHI_HAVOC_AIO
+END
+VER 3 0100000000000004 "PACMANSHUGEWIENER" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] PACMANSHUGEWIENER RightButton; [button:3] PACMANSHUGEWIENER MiddleButton; [button:4] PACMANSHUGEWIENER Button4; [button:5] PACMANSHUGEWIENER Button5; PACMANSHUGEWIENER
+END
+VER 3 0100000000000009 "stop" "132092"
+/stopattack
+/run local s=16 if GetInventoryItemLink("player",s) then PickupInventoryItem(s)PutItemInBackpack() end
+/run local s=17 if GetInventoryItemLink("player",s) then PickupInventoryItem(s)PutItemInBackpack() end
+END
+VER 3 0100000000000008 "TANK&SPANK_M+" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] TANK&SPANK_M+ RightButton; [button:3] TANK&SPANK_M+ MiddleButton; [button:4] TANK&SPANK_M+ Button4; [button:5] TANK&SPANK_M+ Button5; TANK&SPANK_M+
+END

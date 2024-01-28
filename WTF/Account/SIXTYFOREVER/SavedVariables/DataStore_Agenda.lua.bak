@@ -1,0 +1,96 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Chaostard - Illidan"] = "Chaostard - Illidan",
+		["Monique - Nathrezim"] = "Monique - Nathrezim",
+		["Verylntense - Illidan"] = "Verylntense - Illidan",
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+		["Wickerman - Nathrezim"] = "Wickerman - Nathrezim",
+		["Bloodlust - Nathrezim"] = "Bloodlust - Nathrezim",
+		["Thatslnsane - Illidan"] = "Thatslnsane - Illidan",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-12-15",
+		},
+		["Characters"] = {
+			["Default.Illidan.Verylntense"] = {
+				["lastUpdate"] = 1604883061,
+				["DungeonBosses"] = {
+					["Hellfire Citadel Mythic|371916544"] = {
+						["Hellfire Assault"] = true,
+						["Shadow-Lord Iskar"] = true,
+						["Kormrok"] = true,
+						["Fel Lord Zakuun"] = true,
+						["Iron Reaver"] = true,
+						["Kilrogg Deadeye"] = true,
+						["Mannoroth"] = true,
+						["Socrethar the Eternal"] = true,
+						["Gorefiend"] = true,
+						["Hellfire High Council"] = true,
+						["Xhul'horac"] = true,
+						["Tyrant Velhari"] = true,
+						["Archimonde"] = true,
+					},
+					["Terrace of Endless Spring 25 Player|371944012"] = {
+						["Sha of Fear"] = true,
+						["Protectors of the Endless"] = true,
+						["Tsulong"] = true,
+						["Lei Shi"] = true,
+					},
+					["Nalak|3"] = {
+					},
+					["Throne of Thunder 25 Player|371947647"] = {
+						["Twin Consorts"] = true,
+						["Jin'rokh the Breaker"] = true,
+						["Ji-Kun"] = true,
+						["Council of Elders"] = true,
+						["Dark Animus"] = true,
+						["Durumu the Forgotten"] = true,
+						["Megaera"] = true,
+						["Tortos"] = true,
+						["Lei Shen"] = true,
+						["Horridon"] = true,
+						["Primordius"] = true,
+						["Iron Qon"] = true,
+					},
+				},
+			},
+			["Default.Nathrezim.Bloodlust"] = {
+				["lastUpdate"] = 1603512500,
+			},
+			["Default.Nathrezim.Monique"] = {
+				["lastUpdate"] = 1606171067,
+				["DungeonBosses"] = {
+					["Antorus, the Burning Throne Normal|196468725"] = {
+						["Varimathras"] = false,
+						["The Defense of Eonar"] = false,
+						["Imonar the Soulhunter"] = false,
+						["Aggramar"] = false,
+						["Portal Keeper Hasabel"] = true,
+						["Garothi Worldbreaker"] = true,
+						["Felhounds of Sargeras"] = true,
+						["Kin'garoth"] = false,
+						["Argus the Unmaker"] = false,
+						["The Coven of Shivarra"] = false,
+						["Antoran High Command"] = true,
+					},
+				},
+			},
+			["Default.Nathrezim.Wickerman"] = {
+				["lastUpdate"] = 1605485812,
+			},
+			["Default.Illidan.Chaostard"] = {
+				["lastUpdate"] = 1589176152,
+			},
+			["Default.Illidan.Thatslnsane"] = {
+				["lastUpdate"] = 1607637115,
+			},
+			["Default.Nathrezim.Basilar"] = {
+				["lastUpdate"] = 1606167492,
+			},
+		},
+	},
+}

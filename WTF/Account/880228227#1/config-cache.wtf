@@ -1,6 +1,7 @@
 SET statusTextDisplay "NUMERIC"
 SET playerIdentityDefaultChoices "v11##$#%h#%h#%h#%h"
 SET showTutorials "0"
+SET autoInteract "1"
 SET flaggedTutorials "v11##5##[##]##$##(##)##+##;##E##8##%##K##:##D##I##=##,##B##6"
 SET petJournalTab "5"
 SET alwaysShowActionBars "1"

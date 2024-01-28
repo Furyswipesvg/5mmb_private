@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "ELE_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELE_SETUP RightButton; [button:3] ELE_SETUP MiddleButton; [button:4] ELE_SETUP Button4; [button:5] ELE_SETUP Button5; ELE_SETUP
+END
+VER 3 0100000000000001 "ELE_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELE_TURBO RightButton; [button:3] ELE_TURBO MiddleButton; [button:4] ELE_TURBO Button4; [button:5] ELE_TURBO Button5; ELE_TURBO
+END

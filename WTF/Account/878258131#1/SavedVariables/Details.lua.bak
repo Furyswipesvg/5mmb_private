@@ -91,61 +91,61 @@ _detalhes_global = {
 			2105, -- [1]
 			"Coin-Operated Crowd Pummeler", -- [2]
 		},
-		[93581] = {
-			1069, -- [1]
-			"Baron Ashbury", -- [2]
-		},
-		[150048] = {
+		[149975] = {
 			1655, -- [1]
-			"Molten Elemental", -- [2]
-		},
-		[93857] = {
-			1070, -- [1]
-			"Baron Silverlaine", -- [2]
-		},
-		[260685] = {
-			2111, -- [1]
-			"Elder Leaxa", -- [2]
+			"Calamity", -- [2]
 		},
 		[93424] = {
 			1069, -- [1]
 			"[*] Asphyxiate", -- [2]
 		},
-		[150032] = {
-			1655, -- [1]
-			"Magmolatus", -- [2]
+		[93857] = {
+			1070, -- [1]
+			"Baron Silverlaine", -- [2]
 		},
 		[93505] = {
 			1073, -- [1]
 			"Lord Walden", -- [2]
 		},
-		[257337] = {
-			2105, -- [1]
-			"Coin-Operated Crowd Pummeler", -- [2]
+		[93928] = {
+			1070, -- [1]
+			"Razorclaw the Butcher", -- [2]
+		},
+		[150032] = {
+			1655, -- [1]
+			"Magmolatus", -- [2]
+		},
+		[149996] = {
+			1655, -- [1]
+			"Calamity", -- [2]
+		},
+		[150048] = {
+			1655, -- [1]
+			"Molten Elemental", -- [2]
 		},
 		[269493] = {
 			2105, -- [1]
 			"Coin-Operated Crowd Pummeler", -- [2]
 		},
-		[149963] = {
-			1655, -- [1]
-			"[*] Shatter Earth", -- [2]
+		[7485] = {
+			1070, -- [1]
+			"Razorclaw the Butcher", -- [2]
 		},
 		[150324] = {
 			1655, -- [1]
 			"Ruination", -- [2]
 		},
-		[268362] = {
-			2105, -- [1]
-			"Wanton Sapper", -- [2]
-		},
-		[150290] = {
+		[149963] = {
 			1655, -- [1]
-			"Calamity", -- [2]
+			"[*] Shatter Earth", -- [2]
 		},
-		[93535] = {
-			1073, -- [1]
-			"Lord Walden", -- [2]
+		[150004] = {
+			1655, -- [1]
+			"Forgemaster Gog'duh", -- [2]
+		},
+		[268865] = {
+			2105, -- [1]
+			"Weapons Tester", -- [2]
 		},
 		[93527] = {
 			1073, -- [1]
@@ -155,25 +155,25 @@ _detalhes_global = {
 			1069, -- [1]
 			"Baron Ashbury", -- [2]
 		},
-		[268865] = {
-			2105, -- [1]
-			"Weapons Tester", -- [2]
+		[93535] = {
+			1073, -- [1]
+			"Lord Walden", -- [2]
 		},
 		[150038] = {
 			1655, -- [1]
 			"Magmolatus", -- [2]
 		},
-		[150004] = {
-			1655, -- [1]
-			"Forgemaster Gog'duh", -- [2]
+		[260685] = {
+			2111, -- [1]
+			"Elder Leaxa", -- [2]
 		},
 		[52042] = {
 			2111, -- [1]
 			"Healing Stream Totem <Cokecoke>", -- [2]
 		},
-		[7485] = {
-			1070, -- [1]
-			"Razorclaw the Butcher", -- [2]
+		[268362] = {
+			2105, -- [1]
+			"Wanton Sapper", -- [2]
 		},
 		[150034] = {
 			1655, -- [1]
@@ -183,13 +183,13 @@ _detalhes_global = {
 			1071, -- [1]
 			"Commander Springvale", -- [2]
 		},
-		[149996] = {
-			1655, -- [1]
-			"Calamity", -- [2]
+		[93581] = {
+			1069, -- [1]
+			"Baron Ashbury", -- [2]
 		},
-		[149975] = {
-			1655, -- [1]
-			"Calamity", -- [2]
+		[257337] = {
+			2105, -- [1]
+			"Coin-Operated Crowd Pummeler", -- [2]
 		},
 		[93697] = {
 			1073, -- [1]
@@ -199,9 +199,9 @@ _detalhes_global = {
 			1655, -- [1]
 			"Forgemaster Gog'duh", -- [2]
 		},
-		[93928] = {
-			1070, -- [1]
-			"Razorclaw the Butcher", -- [2]
+		[150290] = {
+			1655, -- [1]
+			"Calamity", -- [2]
 		},
 	},
 	["immersion_pets_on_solo_play"] = false,
@@ -273,57 +273,57 @@ _detalhes_global = {
 	["trinket_data"] = {
 		[214342] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Down Draft",
 		},
 		[214350] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Nightmare Essence",
 		},
 		[214169] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Brutal Haymaker",
 		},
 		[382426] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Spiteful Stormbolt",
 		},
 		[417534] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Time-Thief's Gambit",
 		},
 		[429221] = {
@@ -340,112 +340,112 @@ _detalhes_global = {
 		},
 		[214052] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Fel Meteor",
 		},
 		[425127] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Dream Salvage",
 		},
 		[215407] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Dark Blast",
 		},
 		[397376] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Burning Embers",
 		},
 		[421994] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Rising Rage",
 		},
 		[407961] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Lava Wave",
 		},
 		[270827] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Webweaver's Soul Gem",
 		},
 		[421996] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Ursine Reprisal",
 		},
 		[426674] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "spell not found",
 		},
 		[426564] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Annihilating Flame",
 		},
 		[426431] = {
@@ -462,13 +462,13 @@ _detalhes_global = {
 		},
 		[427037] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Lava Bolt",
 		},
 		[426486] = {
@@ -485,343 +485,343 @@ _detalhes_global = {
 		},
 		[401428] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Ravenous Shadowflame",
 		},
 		[384290] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Smorf's Ambush",
 		},
 		[417458] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[426676] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Best Friends with Aerwynn",
 		},
 		[426553] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Annihilating Flame",
 		},
 		[424965] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Thorn Spirit",
 		},
 		[384325] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Barf's Ambush",
 		},
 		[426677] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "spell not found",
 		},
 		[425181] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Thorn Burst",
 		},
 		[394453] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Broodkeeper's Blaze",
 		},
 		[422441] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Roots of the Tormented Ancient",
 		},
 		[401324] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Echoed Flare",
 		},
 		[389839] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Fire Shot",
 		},
 		[426647] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Best Friends with Pip",
 		},
 		[429246] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Primal Genesis",
 		},
 		[429262] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Aqueous Enrichment",
 		},
 		[381760] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Mutated Tentacle Slam",
 		},
 		[426648] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "spell not found",
 		},
 		[385903] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Crystal Sickness",
 		},
 		[418527] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Mirror of Fractured Tomorrows",
 		},
 		[215270] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Fragile Echo",
 		},
 		[92174] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Carcinized Adaptation",
 		},
 		[388739] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Pure Decay",
 		},
 		[388755] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Soulseeker Arrow",
 		},
 		[213786] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Nightfall",
 		},
 		[417452] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Accelerating Sandglass",
 		},
 		[425154] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Vicious Brand",
 		},
 		[424324] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Hungering Shadowflame",
 		},
 		[423611] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Soul Ignition",
 		},
 		[271671] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Cacaphonous Chord",
 		},
 		[426672] = {
 			["lastCombatId"] = 0,
-			["lastActivation"] = 0,
+			["minTime"] = 9999999,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
 			["lastPlayerName"] = "",
+			["lastActivation"] = 0,
 			["maxTime"] = 0,
-			["minTime"] = 9999999,
 			["spellName"] = "Best Friends with Urctos",
 		},
 	},
@@ -1334,9 +1334,9 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 455.9997863769531,
+		["blockcontainer_width"] = 455.9999389648438,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 429.0000610351563,
+		["spellcontainer_width"] = 429.0001220703125,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
@@ -1347,7 +1347,7 @@ _detalhes_global = {
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 289.9999694824219,
+		["phasecontainer_width"] = 290.0000305175781,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1379,7 +1379,7 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 429.0000610351563,
+		["targetcontainer_width"] = 429.0001220703125,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
@@ -1404,8 +1404,8 @@ _detalhes_global = {
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 9.1552734375e-05,
-		["x"] = 7.62939453125e-05,
+		["y"] = -1.52587890625e-05,
+		["x"] = 0.0001068115234375,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1435,66 +1435,66 @@ _detalhes_global = {
 		[122078] = "Savage Cursespitter",
 		[75820] = "Vengeful Magma Elemental",
 		[75193] = "Bloodmaul Overseer",
-		[133685] = "Befouled Spirit",
-		[75209] = "Molten Earth Elemental",
 		[74366] = "Forgemaster Gog'duh",
+		[75209] = "Molten Earth Elemental",
+		[134156] = "Jambani Crusher",
 		[130436] = "Off-Duty Laborer",
 		[75360] = "Searing Ember",
 		[134091] = "7th Legion Battlemage",
 		[136139] = "Mechanized Peacekeeper",
 		[120850] = "Gahz'ragon",
-		[120946] = "Disciple of Akil'zon",
-		[130756] = "Vicious Diemetradon",
+		[120899] = "Kul'krazahn",
+		[127073] = "Guardian of the Rites",
 		[47231] = "Shadowy Attendant",
-		[127072] = "Guardian of the Tombs",
+		[120946] = "Disciple of Akil'zon",
 		[121017] = "Sandfury Axe Thrower",
-		[134232] = "Hired Assassin",
 		[4278] = "Commander Springvale",
-		[3870] = "Stone Sleeper",
+		[130242] = "Sandfury Speaker",
+		[4958] = "Haunting Spirit <Werldpiece>",
 		[136934] = "Weapons Tester",
 		[47132] = "Dark Creeper",
 		[47136] = "Unstable Ravager",
 		[47140] = "Sorcerous Skeleton",
 		[127078] = "Crimson Cultist",
 		[27893] = "Rune Weapon <Cheeto-EchoIsles>",
-		[4958] = "Haunting Spirit <Werldpiece>",
-		[129487] = "Jambani Crusher",
-		[0] = "[*] Asphyxiate",
+		[130713] = "Ten'gor",
+		[127074] = "Guardian of the Dead",
+		[133663] = "Fanatical Headhunter",
 		[130229] = "Glasshide Basilisk",
 		[26125] = "Risen Ghoul <Cheeto-EchoIsles>",
 		[134951] = "Gnomish Gyro-Engineer",
 		[131402] = "Underrot Tick",
 		[75814] = "Bloodmaul Earthbreaker",
 		[130305] = "Fist of Vol'jamba",
-		[127073] = "Guardian of the Rites",
-		[130713] = "Ten'gor",
+		[130909] = "Fetid Maggot",
+		[74579] = "Molten Elemental",
 		[75211] = "Magma Lord",
-		[133663] = "Fanatical Headhunter",
+		[129487] = "Jambani Crusher",
 		[134005] = "Shalebiter",
 		[75191] = "Bloodmaul Slaver",
 		[130488] = "Mech Jockey",
 		[46962] = "Baron Ashbury",
-		[134156] = "Jambani Crusher",
-		[3875] = "Haunted Servitor",
+		[3870] = "Stone Sleeper",
+		[0] = "[*] Asphyxiate",
 		[131492] = "Devout Blood Priest",
 		[47232] = "Ghostly Cook",
 		[134191] = "Gilnean Mauler",
 		[75426] = "Bloodmaul Overseer",
 		[120900] = "Amani Warrior",
 		[131318] = "Elder Leaxa",
-		[47137] = "Mindless Horror",
-		[3873] = "Tormented Officer",
-		[128933] = "Howling Voodoo Mask",
+		[3875] = "Haunted Servitor",
 		[134938] = "Teldrassil Sentinel",
+		[128933] = "Howling Voodoo Mask",
+		[47137] = "Mindless Horror",
 		[130219] = "Mindslaved Berserker",
 		[47145] = "Spitebone Guardian",
 		[130489] = "Dazarian Stalker",
-		[120899] = "Kul'krazahn",
-		[130260] = "Zuvembi Brewer Zekal",
 		[132213] = "Weakened Sacrifice",
+		[130260] = "Zuvembi Brewer Zekal",
+		[134193] = "Stormwind Battlemage",
 		[3877] = "Wailing Guardsman",
 		[129513] = "Jambani Spirit Twister",
-		[134193] = "Stormwind Battlemage",
+		[134701] = "Blood Effigy",
 		[130741] = "Nol'ixwan",
 		[131558] = "Invasive Razorwing",
 		[137720] = "Soaring Eagle",
@@ -1506,7 +1506,7 @@ _detalhes_global = {
 		[74475] = "Magmolatus",
 		[134083] = "7th Legion Enforcer",
 		[46963] = "Lord Walden",
-		[134701] = "Blood Effigy",
+		[133685] = "Befouled Spirit",
 		[129752] = "Mindslaved Gurubashi",
 		[134163] = "Mage-Commander Lyra",
 		[138018] = "Frost Elemental <Mage-Commander Lyra>",
@@ -1520,18 +1520,18 @@ _detalhes_global = {
 		[121577] = "Reckless Cutter",
 		[130221] = "Jambani Chosen",
 		[74349] = "Bloodmaul Magma Binder",
-		[127074] = "Guardian of the Dead",
-		[130242] = "Sandfury Speaker",
+		[127072] = "Guardian of the Tombs",
+		[3873] = "Tormented Officer",
 		[99773] = "Bloodworm",
-		[74579] = "Molten Elemental",
+		[130756] = "Vicious Diemetradon",
 		[126586] = "Crimson Cultist",
 		[134943] = "Exodar Peacekeeper",
-		[130653] = "Wanton Sapper",
+		[134232] = "Hired Assassin",
 		[137769] = "Healing Totem <Disciple of Halazzi>",
 		[126618] = "Bloodraged Pterrordax",
 		[50869] = "Razorclaw the Butcher",
 		[84978] = "Bloodmaul Enforcer",
-		[130909] = "Fetid Maggot",
+		[130653] = "Wanton Sapper",
 		[3887] = "Baron Silverlaine",
 		[75210] = "Bloodmaul Warder",
 	},
@@ -1571,7 +1571,7 @@ _detalhes_global = {
 		[265081] = "Chosen Blood Matron",
 		[13877] = 4,
 		[183897] = "Exodar Peacekeeper",
-		[269298] = "Hired Assassin",
+		[27243] = 9,
 		[149980] = "[*] Dancing Flames",
 		[86392] = 4,
 		[265084] = "Devout Blood Priest",
@@ -1620,7 +1620,7 @@ _detalhes_global = {
 		[77489] = 5,
 		[265625] = "Befouled Spirit",
 		[149996] = "Calamity",
-		[187874] = 7,
+		[277124] = 10,
 		[146739] = 9,
 		[149997] = "Calamity",
 		[52127] = 7,
@@ -1657,7 +1657,7 @@ _detalhes_global = {
 		[702] = 9,
 		[324540] = 9,
 		[93687] = "Commander Springvale",
-		[260894] = "Elder Leaxa",
+		[116267] = 8,
 		[157736] = 9,
 		[193315] = 4,
 		[285452] = 7,
@@ -1705,30 +1705,30 @@ _detalhes_global = {
 		[1966] = 4,
 		[1766] = 4,
 		[315496] = 4,
-		[185684] = "7th Legion Enforcer",
-		[225080] = 7,
+		[271670] = "Princess Talanji",
+		[315585] = 4,
 		[289308] = 8,
 		[91522] = "Dark Creeper",
 		[195627] = 4,
 		[100784] = 10,
 		[23224] = "Baron Silverlaine",
-		[117952] = 10,
 		[150045] = "Magmolatus",
+		[185684] = "7th Legion Enforcer",
 		[31935] = 2,
-		[260685] = "Elder Leaxa",
-		[382440] = 8,
 		[80240] = 9,
+		[382440] = 8,
 		[93424] = "[*] Asphyxiate",
 		[87081] = "Spitebone Guardian",
 		[40505] = "Bloodmaul Warder",
+		[280615] = 7,
 		[268616] = 10,
 		[394087] = 9,
 		[93535] = "Lord Walden",
 		[394195] = 8,
-		[280615] = 7,
 		[265016] = "Chosen Blood Matron",
+		[1459] = 8,
 		[268362] = "Wanton Sapper",
-		[258674] = "Off-Duty Laborer",
+		[281265] = 5,
 		[113656] = 10,
 		[263636] = "Addled Thug",
 		[150023] = "Magmolatus",
@@ -1737,42 +1737,42 @@ _detalhes_global = {
 		[263637] = "Addled Thug",
 		[84721] = 8,
 		[382445] = 8,
-		[586] = 5,
 		[27285] = 9,
 		[44544] = 8,
+		[21562] = 5,
 		[194545] = "Stormwind Battlemage",
 		[151685] = "Vengeful Magma Elemental",
 		[265376] = "Fanatical Headhunter",
-		[27243] = 9,
+		[143924] = 7,
 		[150344] = "[*] Shatter Earth",
 		[17364] = 7,
 		[22482] = 4,
 		[151558] = "Bloodmaul Magma Binder",
 		[151720] = "Molten Earth Elemental",
-		[116267] = 8,
+		[117952] = 10,
 		[267354] = "Hired Assassin",
 		[192106] = 7,
-		[91420] = "Spitebone Skeleton",
+		[263262] = "Shalebiter",
 		[107270] = 10,
 		[93505] = "Lord Walden",
 		[265568] = "Befouled Spirit",
-		[151623] = "Magma Lord",
+		[13341] = "Sorcerous Skeleton",
 		[275779] = 2,
 		[381684] = 7,
-		[129914] = 10,
+		[151623] = "Magma Lord",
 		[93697] = "Lord Walden",
-		[13341] = "Sorcerous Skeleton",
+		[586] = 5,
 		[149963] = "[*] Shatter Earth",
 		[257337] = "Coin-Operated Crowd Pummeler",
 		[270543] = "7th Legion Battlemage",
 		[93857] = "Baron Silverlaine",
 		[14914] = 5,
 		[23161] = 9,
-		[243241] = 5,
+		[11426] = 8,
 		[5938] = 4,
 		[60103] = 7,
-		[205708] = 8,
-		[277124] = 10,
+		[129914] = 10,
+		[116858] = 9,
 		[17962] = 9,
 		[392883] = 10,
 		[164592] = "Bloodmaul Geomancer",
@@ -1782,39 +1782,39 @@ _detalhes_global = {
 		[152073] = "Bloodmaul Slaver",
 		[8004] = 7,
 		[262066] = "Mechanized Peacekeeper",
-		[116858] = 9,
+		[258674] = "Off-Duty Laborer",
 		[205473] = 8,
 		[15497] = "Sorcerous Skeleton",
 		[191293] = "7th Legion Battlemage",
-		[196840] = 7,
-		[263262] = "Shalebiter",
-		[91562] = "Fetid Ghoul",
 		[3242] = "Unstable Ravager",
-		[281265] = 5,
+		[260894] = "Elder Leaxa",
+		[91562] = "Fetid Ghoul",
+		[187874] = 7,
+		[243241] = 5,
 		[115129] = 10,
-		[21562] = 5,
+		[91420] = "Spitebone Skeleton",
 		[228597] = 8,
-		[387096] = 9,
+		[205708] = 8,
 		[267357] = "Hired Assassin",
 		[390636] = 5,
 		[11972] = "Spitebone Guardian",
-		[1459] = 8,
-		[11426] = 8,
-		[143924] = 7,
-		[228598] = 8,
-		[150324] = "Ruination",
-		[150032] = "Magmolatus",
-		[315585] = 4,
-		[12739] = "Shadowy Attendant",
+		[387096] = 9,
+		[196840] = 7,
 		[93685] = "Commander Springvale",
+		[228598] = 8,
 		[151446] = "Bloodmaul Enforcer",
+		[150032] = "Magmolatus",
+		[150324] = "Ruination",
 		[151447] = "Bloodmaul Enforcer",
+		[225080] = 7,
+		[269298] = "Hired Assassin",
+		[12739] = "Shadowy Attendant",
 		[7040] = 8,
-		[271670] = "Princess Talanji",
+		[150048] = "Molten Elemental",
 		[151566] = "Bloodmaul Magma Binder",
 		[257918] = 10,
 		[77508] = "Vengeful Magma Elemental",
-		[150048] = "Molten Elemental",
+		[260685] = "Elder Leaxa",
 		[378760] = 8,
 		[7054] = "Tormented Officer",
 		[268129] = "Refreshment Vendor",
@@ -1837,7 +1837,7 @@ _detalhes_global = {
 	},
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_shadow"] = true,
+		["realtime_dps_size"] = 12,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -1853,12 +1853,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["damage_taken_shadow"] = true,
 		["damage_taken_anchor"] = {
 			["y"] = 0,
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["realtime_dps_size"] = 12,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -2370,7 +2370,7 @@ _detalhes_global = {
 					["__pos"] = {
 						["normal"] = {
 							["y"] = -159.3941955566406,
-							["x"] = 443.758056640625,
+							["x"] = 466.0604248046875,
 							["w"] = 310.0000610351563,
 							["h"] = 157.9999389648438,
 						},
@@ -2777,7 +2777,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -159.3941345214844,
+						["y"] = -159.3942108154297,
 						["x"] = -221.137451171875,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -2809,7 +2809,7 @@ _detalhes_global = {
 					["posicao"] = {
 						["normal"] = {
 							["y"] = -159.3941955566406,
-							["x"] = 443.758056640625,
+							["x"] = 466.0604248046875,
 							["w"] = 310.0000610351563,
 							["h"] = 157.9999389648438,
 						},
@@ -3040,10 +3040,10 @@ _detalhes_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -3085,10 +3085,10 @@ _detalhes_global = {
 					0.372, -- [2]
 					0.905, -- [3]
 				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 				["UNKNOW"] = {
 					0.2, -- [1]
@@ -3132,10 +3132,10 @@ _detalhes_global = {
 					0.5764, -- [2]
 					0.498, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
 				},
 			},
 			["broadcaster_enabled"] = false,
@@ -3368,7 +3368,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["ROGUE"] = 23734.88899999997,
+			["ROGUE"] = 25437.62799999993,
 		},
 	},
 	["latest_spell_pool_access"] = 1705640520,
@@ -3423,8 +3423,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 30,
-		["logons"] = 30,
+		["main_help_button"] = 34,
+		["logons"] = 34,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -3581,15 +3581,36 @@ _detalhes_global = {
 	["deathlog_healingdone_min"] = 1,
 }
 __details_backup = {
+	["_instance_backup"] = {
+	},
 	["_general_logs"] = {
-		"2024-01-19 13:11:29 | actor removed Beatdown (disposable)", -- [1]
-		"2024-01-19 13:11:29 | actor removed Crush (disposable)", -- [2]
-		"2024-01-18 21:45:34 | actor removed Ravage (disposable)", -- [3]
-		"2024-01-18 21:45:34 | actor removed Dazed (disposable)", -- [4]
+		"2024-01-27 01:02:50 | actor removed Earthbind Totem <Cokecoke> (disposable)", -- [1]
+		"2024-01-27 01:02:50 | actor removed Child of Gonk <Opmageikr> (disposable)", -- [2]
+		"2024-01-27 01:02:50 | actor removed Child of Gonk <Chaostard> (disposable)", -- [3]
+		"2024-01-27 01:02:50 | actor removed Loti's Totem <Punkmunk> (disposable)", -- [4]
+		"2024-01-27 01:02:50 | actor removed Loti's Totem <Opmageikr> (disposable)", -- [5]
+		"2024-01-27 01:02:50 | actor removed Kernel-KhazModan (disposable)", -- [6]
+		"2024-01-27 01:02:50 | actor removed Daddio-Frostmane (disposable)", -- [7]
+		"2024-01-27 00:58:14 | actor removed Earthbind Totem <Cokecoke> (disposable)", -- [8]
+		"2024-01-27 00:58:14 | actor removed Child of Gonk <Opmageikr> (disposable)", -- [9]
+		"2024-01-27 00:58:14 | actor removed Child of Gonk <Chaostard> (disposable)", -- [10]
+		"2024-01-27 00:58:14 | actor removed Loti's Totem <Punkmunk> (disposable)", -- [11]
+		"2024-01-27 00:58:14 | actor removed Loti's Totem <Opmageikr> (disposable)", -- [12]
+		"2024-01-27 00:58:14 | actor removed Kernel-KhazModan (disposable)", -- [13]
+		"2024-01-27 00:58:14 | actor removed Daddio-Frostmane (disposable)", -- [14]
+		"2024-01-27 00:30:22 | actor removed Earthbind Totem <Cokecoke> (disposable)", -- [15]
+		"2024-01-27 00:30:22 | actor removed Child of Gonk <Opmageikr> (disposable)", -- [16]
+		"2024-01-27 00:30:22 | actor removed Child of Gonk <Chaostard> (disposable)", -- [17]
+		"2024-01-27 00:30:22 | actor removed Loti's Totem <Punkmunk> (disposable)", -- [18]
+		"2024-01-27 00:30:22 | actor removed Loti's Totem <Opmageikr> (disposable)", -- [19]
+		"2024-01-27 00:30:22 | actor removed Kernel-KhazModan (disposable)", -- [20]
+		"2024-01-27 00:30:22 | actor removed Daddio-Frostmane (disposable)", -- [21]
+		"2024-01-19 13:11:29 | actor removed Beatdown (disposable)", -- [22]
+		"2024-01-19 13:11:29 | actor removed Crush (disposable)", -- [23]
+		"2024-01-18 21:45:34 | actor removed Ravage (disposable)", -- [24]
+		"2024-01-18 21:45:34 | actor removed Dazed (disposable)", -- [25]
 	},
 	["_exit_error"] = {
-	},
-	["_instance_backup"] = {
 	},
 }
 __details_debug = {

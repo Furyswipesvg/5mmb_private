@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Inyoface|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Inyoface - Bladefist"] = "Inyoface - Bladefist",
+	},
+	["profiles"] = {
+		["Inyoface - Bladefist"] = {
+		},
+	},
+}

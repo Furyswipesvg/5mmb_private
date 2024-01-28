@@ -1,0 +1,34 @@
+VER 3 0100000000000001 "BLOOD_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_AOE RightButton; [button:3] BLOOD_AOE MiddleButton; [button:4] BLOOD_AOE Button4; [button:5] BLOOD_AOE Button5; BLOOD_AOE
+END
+VER 3 0100000000000002 "BLOOD_INT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_INT RightButton; [button:3] BLOOD_INT MiddleButton; [button:4] BLOOD_INT Button4; [button:5] BLOOD_INT Button5; BLOOD_INT
+END
+VER 3 0100000000000003 "BLOOD_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_MULTI RightButton; [button:3] BLOOD_MULTI MiddleButton; [button:4] BLOOD_MULTI Button4; [button:5] BLOOD_MULTI Button5; BLOOD_MULTI
+END
+VER 3 0100000000000006 "BLOOD_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_SETUP RightButton; [button:3] BLOOD_SETUP MiddleButton; [button:4] BLOOD_SETUP Button4; [button:5] BLOOD_SETUP Button5; BLOOD_SETUP
+END
+VER 3 0100000000000004 "BLOOD_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_SINGLE RightButton; [button:3] BLOOD_SINGLE MiddleButton; [button:4] BLOOD_SINGLE Button4; [button:5] BLOOD_SINGLE Button5; BLOOD_SINGLE
+END
+VER 3 0100000000000005 "BLOOD_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BLOOD_TURBO RightButton; [button:3] BLOOD_TURBO MiddleButton; [button:4] BLOOD_TURBO Button4; [button:5] BLOOD_TURBO Button5; BLOOD_TURBO
+END
+VER 3 0100000000000007 "BUY" "INV_MISC_QUESTIONMARK"
+#showtooltip Nylon Thread
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find(159959) then BuyMerchantItem(i, 200)end end end
+END
+VER 3 0100000000000008 "SELL" "INV_MISC_QUESTIONMARK"
+/run for b=0,4 do for s=1,GetContainerNumSlots(b)do local n= GetContainerItemLink(b,s); if n and string.find(n,"Tidespray Linen Pants")then UseContainerItem(b,s)end end end
+END
+VER 3 0100000000000009 "trade" "132093"
+/trade
+END

@@ -1,0 +1,74 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Nanoknight - Nathrezim"] = "Nanoknight - Nathrezim",
+		["Us - Nathrezim"] = "Us - Nathrezim",
+		["Frazzled - Cenarius"] = "Frazzled - Cenarius",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Nathrezim.Nanoknight"] = {
+				["lastUpdate"] = 1604264156,
+				["Mails"] = {
+					{
+						["link"] = "|cffa335ee|Hitem:163575::::::::48:250:::::::|h[Reins of a Tamed Bloodfeaster]|h|r",
+						["sender"] = "Auction House",
+						["itemID"] = 163575,
+						["returned"] = false,
+						["icon"] = 1618564,
+						["count"] = 1,
+						["lastCheck"] = 1604264156,
+						["daysLeft"] = 16.32476806640625,
+					}, -- [1]
+					{
+						["link"] = "|cffa335ee|Hitem:163575::::::::48:250::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r",
+						["sender"] = "Auction House",
+						["itemID"] = 163575,
+						["returned"] = false,
+						["icon"] = 1618564,
+						["count"] = 1,
+						["lastCheck"] = 1604264156,
+						["daysLeft"] = 17.3960075378418,
+					}, -- [2]
+					{
+						["link"] = "|cffa335ee|Hitem:163575::::::::48:250::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r",
+						["sender"] = "Anltch",
+						["itemID"] = 163575,
+						["returned"] = false,
+						["icon"] = 1618564,
+						["count"] = 1,
+						["lastCheck"] = 1604264156,
+						["daysLeft"] = 22.19842529296875,
+					}, -- [3]
+					{
+						["link"] = "|cffa335ee|Hitem:163575::::::::48:250:::::::|h[Reins of a Tamed Bloodfeaster]|h|r",
+						["sender"] = "Auction House",
+						["itemID"] = 163575,
+						["returned"] = false,
+						["icon"] = 1618564,
+						["count"] = 1,
+						["lastCheck"] = 1604264156,
+						["daysLeft"] = 25.87629699707031,
+					}, -- [4]
+				},
+				["lastVisitDate"] = "2020/11/01 12:55",
+			},
+			["Default.Cenarius.Frazzled"] = {
+				["lastUpdate"] = 1604300744,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "The WoW Dev Team",
+						["subject"] = "WoW's 16th Anniversary!",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nWe hope that you will join us for a celebration in the Caverns of Time!\r\n\r\nThe WoW Dev Team",
+						["lastCheck"] = 1604300744,
+						["daysLeft"] = 29.8099308013916,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2020/11/01 23:05",
+			},
+		},
+	},
+}

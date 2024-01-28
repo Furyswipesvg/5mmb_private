@@ -1,8 +1,8 @@
-FSMB_version="011124_retail"
+FSMB_version="012724_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Flashmob",[2]="Shivlt",[3]="Healmesucka",[4]="Nowudunit",[5]="Notbanned",[6]="Inyoface",[7]="Havingfun",[8]="Everland",[9]="Defconsix",[10]="Skinnygirl",[11]="Chaostard"}
-FSMB_invitelist={[1]="Flashmob-bladefist",[2]="Shivlt-bladefist",[3]="Healmesucka-bladefist",[4]="Nowudunit-bladefist",[5]="Notbanned-bladefist",[6]="Inyoface-bladefist",[7]="Havingfun-bladefist",[8]="Everland-bladefist",[9]="Defconsix-bladefist",[10]="Skinnygirl-bladefist",[11]="Chaostard-bladefist"}
+FSMB_toonlist={[1]="Bromedown",[2]="Oopsididdat",[3]="Stabsya",[4]="Nostabface",[5]="Mcstabinator",[6]="Chaostard"}
+FSMB_invitelist={[1]="Bromedown-bladefist",[2]="Oopsididdat-bladefist",[3]="Stabsya-bladefist",[4]="Nostabface-bladefist",[5]="Mcstabinator-bladefist",[6]="Chaostard-bladefist"}
 FSMB_tank=""
 FSMB_nomacros=nil
 FSMB_healerlist={}
@@ -656,8 +656,10 @@ end
 			PlaceAction(111)
 		end
 		ClearCursor()
-		if myClass=="DRUID" then
-			index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/cancelform [nocombat]\n/run mountup()\n/run SetView(4)",hunterpersonal)
+		if myClass=="ROGUE" then
+			index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/cast [stealth,mod:ctrl] stealth\n/run mountup()\n/run SetView(4)",hunterpersonal)
+		elseif myClass=="DRUID" then
+			index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/cast [stealth,mod:ctrl] prowl\n/cancelform [nocombat]\n/run mountup()\n/run SetView(4)",hunterpersonal)
 		elseif myClass=="PALADIN" then
 			index=CreateMacroFS("TURBO_FS_"..myspec,"Spell_nature_lightning","#showtooltip\n/click [button:1] TURBO_FS_"..myspec.." LeftButton t;\n/petpassive [mod:alt]\n/run mountup()\n/cast [mounted] "..crusaderAura.."\n/run SetView(4)",hunterpersonal)
 		else

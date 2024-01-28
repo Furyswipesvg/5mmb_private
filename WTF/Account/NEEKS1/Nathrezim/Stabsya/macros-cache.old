@@ -1,0 +1,113 @@
+MACRO 16777218 "amb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nocombat,nomod] pick pocket
+/stopcasting [nomod] 
+/cast  [nomod] ambush
+/cast [mod:alt] eviscerate
+/cast [mod:ctrl] recuperate
+/cast [mod:ctrl] premeditation
+END
+MACRO 16777225 "bfar" "Ability_CheapShot"
+/cast [modifier:ctrl] tyrael's charger
+/cast [modifier:alt] rupture
+/cast [nomod] adrenaline rush
+END
+MACRO 16777239 "blfoc" "INV_MISC_QUESTIONMARK"
+/cast [@focus] blind
+END
+MACRO 16777223 "bsev" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:alt] eviscerate
+/cast [mod:ctrl] recuperate
+/cast [mod:ctrl] premiditation
+/cast [nomod] backstab
+/startattack [nomod]
+END
+MACRO 16777231 "cos" "INV_Misc_QuestionMark"
+#showtooltip
+/cast cloak of shadows
+/cast vanish
+END
+MACRO 16777219 "cs" "INV_Misc_QuestionMark"
+#showtooltip cheap shot
+/cast [nocombat] pick pocket
+/stopcasting
+/cast cheap shot
+/startattack
+END
+MACRO 16777238 "dance" "INV_MISC_QUESTIONMARK"
+/cast [nomod] shadow dance
+/cast [mod:alt] rupture
+/cast [mod:ctrl] tyrael's charger
+END
+MACRO 16777236 "del" "INV_MISC_QUESTIONMARK"
+/run f=string.find;for b=0,4 do for s=1,32 do n=GetContainerItemLink(b,s);if n and(f(n,"Homemade Cherry Pie")or f(n,"An Exotic Cookbook")or f(n,"Roasted Quail")or f(n,"Superior Healing Potion")) then PickupContainerItem(b,s);DeleteCursorItem();end;end;end
+END
+MACRO 16777228 "env" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:alt]  rupture
+/cast [mod:ctrl] recuperate
+/cast [nomod] envenom
+/cast [nomod] cold blood
+/startattack [nomod]
+END
+MACRO 16777230 "garr" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl,noflyable] Red Skeletal Horse
+/cast [mod:ctrl] green wind rider
+/cast [modifier:alt] backstab
+/cast [nomod] garrote
+END
+MACRO 16777221 "gouge" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl] blind
+/cast [modifier:alt] kidney shot
+/cast gouge
+END
+MACRO 16777233 "kick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] kick
+/cast [mod:ctrl] cannibalize
+END
+MACRO 16777241 "mind" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [mod:shift] crippling poison
+/use [mod:shift] 18
+/use [nomod:shift,btn:1] mind-numbing poison; [nomod:shift,btn:2] wound Poison 
+/use [nomod:shift,btn:1] 16; [nomod:shift,btn:2] 17
+/click StaticPopup1Button1
+END
+MACRO 16777227 "mut" "INV_Misc_QuestionMark"
+/cast [nocombat, nostealth] stealth
+/cast [mod:alt] slice and dice
+/cast [mod:ctrl] eviscerate
+/cast [nomod] mutilate
+/cast [nomod,exists,@focus]tricks of the trade
+/startattack [nostealth,combat]
+END
+MACRO 16777232 "poison" "INV_Misc_QuestionMark"
+#showtooltip 
+/use [mod:shift] deadly poison
+/use [mod:shift] 18
+/use [nomod:shift,btn:1] Instant Poison; [nomod:shift,btn:2] Deadly Poison 
+/use [nomod:shift,btn:1] 16; [nomod:shift,btn:2] 17
+/click StaticPopup1Button1
+END
+MACRO 16777217 "ss" "INV_Misc_QuestionMark"
+/cast [nocombat, nostealth] stealth
+/cast [modifier:alt] slice and dice
+/cast [mod:ctrl] eviscerate
+/cast [nomod]  Hemorrhage
+/csat [exists,@focus] tricks of the trade
+END
+MACRO 16777240 "throw" "INV_MISC_QUESTIONMARK"
+/cast deadly throw
+/cast throw
+END
+MACRO 16777229 "vend" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl,noflyable] Purple Skeletal warHorse
+/cast [mod:ctrl] green wind rider
+/cast [modifier:alt] cold blood
+/cast [nomod] vendetta
+END

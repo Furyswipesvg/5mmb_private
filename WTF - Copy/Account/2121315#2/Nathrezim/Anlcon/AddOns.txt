@@ -1,3 +1,0 @@
-WeakAurasCompanion: enabled
-ZygorGuidesViewer: enabled
-Postal: disabled

@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Eversmile_Nathrezim::Horde"] = {
+		["show"] = true,
+		["name"] = "Eversmile",
+		["gold"] = 5240126,
+	},
+}

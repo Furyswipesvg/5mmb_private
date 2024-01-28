@@ -1,0 +1,1586 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Eye of Acherus <Eversmilee>"] = {
+			["GUID"] = "0xF1306F5F0008B40B",
+			["LastEventHealth"] = {
+				"2562 (98%)", -- [1]
+				"2501 (95%)", -- [2]
+				"2438 (93%)", -- [3]
+				"2377 (90%)", -- [4]
+				"2316 (88%)", -- [5]
+				"2257 (86%)", -- [6]
+				"2200 (84%)", -- [7]
+				"2136 (81%)", -- [8]
+				"1586 (60%)", -- [9]
+				"1525 (58%)", -- [10]
+				"1871 (71%)", -- [11]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"MISC", -- [11]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					1089, -- [1]
+				},
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Eye of Acherus",
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Eye of Acherus <Eversmilee> dies.", -- [1]
+					},
+					["DeathAt"] = 1345757265,
+					["HealthNum"] = {
+						71.5761285386381, -- [1]
+					},
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["KilledBy"] = "Scarlet Crusader",
+					["Health"] = {
+						"1871 (71%)", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["level"] = 1,
+			["LastDamageAbility"] = "Shoot",
+			["LastFightIn"] = 2,
+			["LastEventNum"] = {
+				1.98928844682479, -- [1]
+				2.333588370313696, -- [2]
+				2.410099464422341, -- [3]
+				2.333588370313696, -- [4]
+				2.333588370313696, -- [5]
+				2.25707727620505, -- [6]
+				2.180566182096404, -- [7]
+				2.448355011476664, -- [8]
+				21.04055087987758, -- [9]
+				2.333588370313696, -- [10]
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["LastDamageTaken"] = 61,
+			["Owner"] = "Eversmilee",
+			["TimeLast"] = {
+				["OVERALL"] = 1345757263,
+				["DamageTaken"] = 1345757224,
+				["DeathCount"] = 1345757263,
+			},
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				98.01071155317521, -- [1]
+				95.67712318286152, -- [2]
+				93.26702371843918, -- [3]
+				90.93343534812549, -- [4]
+				88.59984697781178, -- [5]
+				86.34276970160673, -- [6]
+				84.16220351951033, -- [7]
+				81.71384850803366, -- [8]
+				60.67329762815609, -- [9]
+				58.33970925784239, -- [10]
+				71.5761285386381, -- [11]
+			},
+			["LastEvents"] = {
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -52 (Physical)", -- [1]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -61 (Physical)", -- [2]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -63 (Physical)", -- [3]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -61 (Physical)", -- [4]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -61 (Physical)", -- [5]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -59 (Physical)", -- [6]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -57 (Physical)", -- [7]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -64 (Physical)", -- [8]
+				"Scarlet Preacher Holy Smite Eye of Acherus <Eversmilee> Hit -550 (Holy)", -- [9]
+				"Scarlet Crusader Shoot Eye of Acherus <Eversmilee> Hit -61 (Physical)", -- [10]
+				"Eye of Acherus <Eversmilee> dies.", -- [11]
+			},
+			["Name"] = "Eye of Acherus",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+			},
+			["LastEventTimes"] = {
+				398500.74, -- [1]
+				398501.948, -- [2]
+				398502.05, -- [3]
+				398504.345, -- [4]
+				398504.345, -- [5]
+				398504.453, -- [6]
+				398506.767, -- [7]
+				398506.767, -- [8]
+				398507.729, -- [9]
+				398508.087, -- [10]
+				398546.699, -- [11]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 357,
+								},
+							},
+							["amount"] = 357,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 357,
+					},
+					["DamageTaken"] = 357,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 357,
+								},
+							},
+							["amount"] = 357,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 357,
+					},
+					["DamageTaken"] = 357,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Holy"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Scarlet Preacher"] = {
+							["Details"] = {
+								["Holy Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Holy Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Scarlet Preacher"] = {
+							["Details"] = {
+								["Holy Smite"] = {
+									["count"] = 550,
+								},
+							},
+							["amount"] = 550,
+						},
+						["Scarlet Crusader"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 539,
+								},
+							},
+							["amount"] = 539,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 550,
+						["Physical"] = 539,
+					},
+					["DamageTaken"] = 1089,
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1345757217,
+			["LastActive"] = 1345757224,
+		},
+		["Eversmilee"] = {
+			["GUID"] = "0x05000000056A30CB",
+			["LastEventHealth"] = {
+				"3349 (100%)", -- [1]
+				"3349 (100%)", -- [2]
+				"3258 (97%)", -- [3]
+				"3258 (97%)", -- [4]
+				"3258 (97%)", -- [5]
+				"3161 (94%)", -- [6]
+				"3161 (94%)", -- [7]
+				"3161 (94%)", -- [8]
+				"3161 (94%)", -- [9]
+				"3053 (91%)", -- [10]
+				"3053 (91%)", -- [11]
+				"3053 (91%)", -- [12]
+				"3053 (91%)", -- [13]
+				"3053 (91%)", -- [14]
+				"2947 (87%)", -- [15]
+				"2947 (87%)", -- [16]
+				"2947 (87%)", -- [17]
+				"2947 (87%)", -- [18]
+				"2947 (87%)", -- [19]
+				"2840 (84%)", -- [20]
+			},
+			["LastAttackedBy"] = "Unworthy Initiate",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					14.29, -- [1]
+				},
+				["DOT_Time"] = {
+					12, -- [1]
+				},
+				["TimeDamage"] = {
+					14.29, -- [1]
+				},
+				["DamageTaken"] = {
+					509, -- [1]
+				},
+				["Damage"] = {
+					4091, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Eversmilee",
+			["TimeLast"] = {
+				["DOT_Time"] = 1345757009,
+				["ActiveTime"] = 1345757011,
+				["TimeDamage"] = 1345757011,
+				["OVERALL"] = 1345757011,
+				["DamageTaken"] = 1345757009,
+				["Damage"] = 1345757011,
+			},
+			["LastAbility"] = 398294.781,
+			["level"] = 55,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				2.717229023589131, -- [1]
+				[17] = 3.19498357718722,
+				[14] = 3.165123917587339,
+				[5] = 2.896386981188415,
+				[9] = 3.224843236787101,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 2,
+			["GuardianReverseGUIDs"] = {
+				["Eye of Acherus"] = {
+					["LatestGuardian"] = 1,
+					["GUIDs"] = {
+						"0xF1306F5F0008B40B", -- [1]
+						[0] = "0xF1306F5F0008B2E5",
+					},
+				},
+			},
+			["LastDamageTaken"] = 107,
+			["Owner"] = false,
+			["Pet"] = {
+				"Eye of Acherus <Eversmilee>", -- [1]
+			},
+			["NextEventNum"] = 21,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				97.28277097641087, -- [3]
+				97.28277097641087, -- [4]
+				97.28277097641087, -- [5]
+				94.38638399522246, -- [6]
+				94.38638399522246, -- [7]
+				94.38638399522246, -- [8]
+				94.38638399522246, -- [9]
+				91.16154075843535, -- [10]
+				91.16154075843535, -- [11]
+				91.16154075843535, -- [12]
+				91.16154075843535, -- [13]
+				91.16154075843535, -- [14]
+				87.99641684084801, -- [15]
+				87.99641684084801, -- [16]
+				87.99641684084801, -- [17]
+				87.99641684084801, -- [18]
+				87.99641684084801, -- [19]
+				84.8014332636608, -- [20]
+			},
+			["LastEvents"] = {
+				"Unworthy Initiate Melee Eversmilee Hit -91 (Physical)", -- [1]
+				"Eversmilee Melee Unworthy Initiate Hit -233 (Physical)", -- [2]
+				"Eversmilee Icy Touch Unworthy Initiate Hit -333 (Frost)", -- [3]
+				"Eversmilee Blood Strike Unworthy Initiate Hit -385 (Physical)", -- [4]
+				"Unworthy Initiate Melee Eversmilee Hit -97 (Physical)", -- [5]
+				"Eversmilee Frost Fever (DoT) Unworthy Initiate Tick -71 (Frost)", -- [6]
+				"Eversmilee Melee Unworthy Initiate Hit -239 (Physical)", -- [7]
+				"Eversmilee Blood Strike Unworthy Initiate Hit -358 (Physical)", -- [8]
+				"Unworthy Initiate Melee Eversmilee Hit -108 (Physical)", -- [9]
+				"Eversmilee Plague Strike Unworthy Initiate Hit -321 (Physical)", -- [10]
+				"Eversmilee Frost Fever (DoT) Unworthy Initiate Crit -143 (Frost)", -- [11]
+				"Eversmilee Icy Touch Unworthy Initiate Hit -327 (Frost)", -- [12]
+				"Eversmilee Melee Unworthy Initiate Hit -223 (Physical)", -- [13]
+				"Unworthy Initiate Melee Eversmilee Hit -106 (Physical)", -- [14]
+				"Eversmilee Blood Plague (DoT) Unworthy Initiate Tick -77 (Shadow)", -- [15]
+				"Eversmilee Frost Fever (DoT) Unworthy Initiate Tick -71 (Frost)", -- [16]
+				"Unworthy Initiate Melee Eversmilee Hit -107 (Physical)", -- [17]
+				"Eversmilee Plague Strike Unworthy Initiate Hit -317 (Physical)", -- [18]
+				"Eversmilee Melee Unworthy Initiate Crit -487 (Physical)", -- [19]
+				"Eversmilee Death Coil Unworthy Initiate Hit -506 (Shadow)", -- [20]
+			},
+			["Name"] = "Eversmilee",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+			},
+			["LastEventTimes"] = {
+				398283.647, -- [1]
+				398283.975, -- [2]
+				398283.975, -- [3]
+				398285.63, -- [4]
+				398285.951, -- [5]
+				398286.974, -- [6]
+				398287.161, -- [7]
+				398287.161, -- [8]
+				398288.36, -- [9]
+				398288.854, -- [10]
+				398290.036, -- [11]
+				398290.036, -- [12]
+				398290.371, -- [13]
+				398290.763, -- [14]
+				398291.842, -- [15]
+				398292.972, -- [16]
+				398293.205, -- [17]
+				398293.205, -- [18]
+				398293.573, -- [19]
+				398294.781, -- [20]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Unworthy Initiate"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Unworthy Initiate"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.21,
+								},
+								["Melee"] = {
+									["count"] = 4.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.47,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.65,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.92,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.65,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.29,
+						},
+					},
+					["DamageTaken"] = 509,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 14.29,
+					["ElementTaken"] = {
+						["Melee"] = 509,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 4091,
+					["Attacks"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 506,
+									["min"] = 506,
+									["count"] = 1,
+									["amount"] = 506,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 506,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 487,
+									["min"] = 487,
+									["count"] = 1,
+									["amount"] = 487,
+								},
+								["Hit"] = {
+									["max"] = 239,
+									["min"] = 223,
+									["count"] = 3,
+									["amount"] = 695,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1182,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 77,
+									["min"] = 77,
+									["count"] = 1,
+									["amount"] = 77,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 77,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 385,
+									["min"] = 358,
+									["count"] = 2,
+									["amount"] = 743,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 743,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 321,
+									["min"] = 317,
+									["count"] = 2,
+									["amount"] = 638,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 638,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 143,
+									["min"] = 143,
+									["count"] = 1,
+									["amount"] = 143,
+								},
+								["Tick"] = {
+									["max"] = 71,
+									["min"] = 71,
+									["count"] = 2,
+									["amount"] = 142,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 285,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 333,
+									["min"] = 327,
+									["count"] = 2,
+									["amount"] = 660,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 660,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 506,
+								},
+								["Melee"] = {
+									["count"] = 1182,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 77,
+								},
+								["Blood Strike"] = {
+									["count"] = 743,
+								},
+								["Plague Strike"] = {
+									["count"] = 638,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 285,
+								},
+								["Icy Touch"] = {
+									["count"] = 660,
+								},
+							},
+							["amount"] = 4091,
+						},
+					},
+					["TimeDamage"] = 14.29,
+					["WhoDamaged"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 509,
+								},
+							},
+							["amount"] = 509,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 583,
+						["Frost"] = 945,
+						["Melee"] = 1182,
+						["Physical"] = 1381,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamaging"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.21,
+								},
+								["Melee"] = {
+									["count"] = 4.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.47,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.65,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.92,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.65,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.29,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Unworthy Initiate"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Unworthy Initiate"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.21,
+								},
+								["Melee"] = {
+									["count"] = 4.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.47,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.65,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.92,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.65,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.29,
+						},
+					},
+					["DamageTaken"] = 509,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 14.29,
+					["ElementTaken"] = {
+						["Melee"] = 509,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 4091,
+					["Attacks"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 506,
+									["min"] = 506,
+									["count"] = 1,
+									["amount"] = 506,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 506,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 487,
+									["min"] = 487,
+									["count"] = 1,
+									["amount"] = 487,
+								},
+								["Hit"] = {
+									["max"] = 239,
+									["min"] = 223,
+									["count"] = 3,
+									["amount"] = 695,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1182,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 77,
+									["min"] = 77,
+									["count"] = 1,
+									["amount"] = 77,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 77,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 385,
+									["min"] = 358,
+									["count"] = 2,
+									["amount"] = 743,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 743,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 321,
+									["min"] = 317,
+									["count"] = 2,
+									["amount"] = 638,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 638,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 143,
+									["min"] = 143,
+									["count"] = 1,
+									["amount"] = 143,
+								},
+								["Tick"] = {
+									["max"] = 71,
+									["min"] = 71,
+									["count"] = 2,
+									["amount"] = 142,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 285,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 333,
+									["min"] = 327,
+									["count"] = 2,
+									["amount"] = 660,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 660,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 506,
+								},
+								["Melee"] = {
+									["count"] = 1182,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 77,
+								},
+								["Blood Strike"] = {
+									["count"] = 743,
+								},
+								["Plague Strike"] = {
+									["count"] = 638,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 285,
+								},
+								["Icy Touch"] = {
+									["count"] = 660,
+								},
+							},
+							["amount"] = 4091,
+						},
+					},
+					["TimeDamage"] = 14.29,
+					["WhoDamaged"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 509,
+								},
+							},
+							["amount"] = 509,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 583,
+						["Frost"] = 945,
+						["Melee"] = 1182,
+						["Physical"] = 1381,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamaging"] = {
+						["Unworthy Initiate"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 1.21,
+								},
+								["Melee"] = {
+									["count"] = 4.39,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.47,
+								},
+								["Blood Strike"] = {
+									["count"] = 1.65,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.92,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3.65,
+								},
+								["Icy Touch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14.29,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1345757000,
+			["LastActive"] = 1345757011,
+		},
+	},
+	["FightNum"] = 2,
+	["CombatTimes"] = {
+		{
+			1345757000, -- [1]
+			1345757013, -- [2]
+			"14:23:20", -- [3]
+			"14:23:33", -- [4]
+			"Unworthy Initiate", -- [5]
+		}, -- [1]
+		{
+			1345757217, -- [1]
+			1345757223, -- [2]
+			"14:26:57", -- [3]
+			"14:27:03", -- [4]
+			"Scarlet Crusader", -- [5]
+		}, -- [2]
+	},
+	["FoughtWho"] = {
+		"Scarlet Crusader 14:26:57-14:27:03", -- [1]
+		"Unworthy Initiate 14:23:20-14:23:33", -- [2]
+	},
+}

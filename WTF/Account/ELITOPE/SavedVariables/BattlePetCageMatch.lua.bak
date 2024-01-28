@@ -1,0 +1,27 @@
+
+BattlePetCageMatch_Data = {
+	["Illidan"] = {
+		["Neeks"] = {
+		},
+		["Anlmage"] = {
+		},
+		["Thislslt"] = {
+		},
+	},
+	["Nathrezim"] = {
+		["Palia"] = {
+		},
+	},
+}
+BattlePetCageMatch_Options = {
+	["profileKeys"] = {
+		["Thislslt - Illidan"] = "Default",
+		["Palia - Nathrezim"] = "Default",
+		["Anlmage - Illidan"] = "Default",
+		["Neeks - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

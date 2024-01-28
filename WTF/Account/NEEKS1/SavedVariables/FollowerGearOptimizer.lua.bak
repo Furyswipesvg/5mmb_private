@@ -1,0 +1,10 @@
+
+FGODB = {
+	["profileKeys"] = {
+		["Hoverboard - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

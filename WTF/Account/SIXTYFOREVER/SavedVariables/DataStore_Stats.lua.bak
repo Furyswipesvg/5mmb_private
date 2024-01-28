@@ -1,0 +1,107 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Chaostard - Illidan"] = "Chaostard - Illidan",
+		["Monique - Nathrezim"] = "Monique - Nathrezim",
+		["Verylntense - Illidan"] = "Verylntense - Illidan",
+		["Basilar - Nathrezim"] = "Basilar - Nathrezim",
+		["Wickerman - Nathrezim"] = "Wickerman - Nathrezim",
+		["Bloodlust - Nathrezim"] = "Bloodlust - Nathrezim",
+		["Thatslnsane - Illidan"] = "Thatslnsane - Illidan",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Verylntense"] = {
+				["lastUpdate"] = 1604883142,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|17.714168548584",
+					["HealthMax"] = 12900,
+					["Melee"] = "212-231|2.1710000038147|432|0|17.714168548584|0",
+					["MaxPower"] = "0|2000",
+					["Spell"] = "467|467|0|17.714168548584|199|320",
+					["PVP"] = "1331|0",
+					["Base"] = "432|55|645|157|0",
+					["Defense"] = "0|0|3|11.370670318604|10|0",
+				},
+			},
+			["Default.Nathrezim.Bloodlust"] = {
+				["lastUpdate"] = 1603512515,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|23.274103164673",
+					["HealthMax"] = 8380,
+					["Melee"] = "85-90|2.2900002002716|153|0|23.274103164673|0",
+					["MaxPower"] = "0|10000",
+					["Defense"] = "0|0|6.1897487640381|0|10|0",
+					["PVP"] = "1|0",
+					["Base"] = "69|153|419|422|0",
+					["Spell"] = "422|422|0|23.274103164673|136|400",
+				},
+			},
+			["Default.Nathrezim.Monique"] = {
+				["lastUpdate"] = 1606171070,
+				["Stats"] = {
+					["Ranged"] = "268-289|2.5430002212524|452|0|24.05700302124",
+					["HealthMax"] = 13330,
+					["Melee"] = "232-233|2.5430002212524|452|0|24.05700302124|0",
+					["MaxPower"] = "2|120",
+					["Defense"] = "0|0|11.741678237915|0|0|0",
+					["PVP"] = "2|0",
+					["Base"] = "92|452|620|129|0",
+					["Spell"] = "129|132|0|24.05700302124|181|0",
+				},
+			},
+			["Default.Nathrezim.Wickerman"] = {
+				["lastUpdate"] = 1605485812,
+				["Stats"] = {
+					["Ranged"] = "192-207|2.6400001049042|306|0|30.586090087891",
+					["HealthMax"] = 8620,
+					["Melee"] = "160-161|2.6400001049042|306|0|30.586090087891|0",
+					["MaxPower"] = "2|120",
+					["Defense"] = "0|0|9.1079216003418|0|0|0",
+					["PVP"] = "22|0",
+					["Base"] = "97|306|431|125|0",
+					["Spell"] = "125|125|0|30.586090087891|137|0",
+				},
+			},
+			["Default.Illidan.Chaostard"] = {
+				["lastUpdate"] = 1589177798,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|13.870668411255",
+					["HealthMax"] = 1690,
+					["Melee"] = "9-13|3.2180001735687|0|0|13.870668411255|0",
+					["MaxPower"] = "0|1620",
+					["Spell"] = "178|178|0|13.870668411255|48|81",
+					["PVP"] = "0|0",
+					["Base"] = "24|58|169|178|0",
+					["Defense"] = "0|0|3|0|0|0",
+				},
+			},
+			["Default.Illidan.Thatslnsane"] = {
+				["lastUpdate"] = 1607637206,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|23.648954391479",
+					["HealthMax"] = 8380,
+					["Melee"] = "84-89|2.3050000667572|153|0|23.648954391479|0",
+					["MaxPower"] = "0|10000",
+					["Spell"] = "391|422|0|23.648954391479|129|400",
+					["PVP"] = "1|0",
+					["Base"] = "69|153|419|391|0",
+					["Defense"] = "0|0|6.1897487640381|0|10|0",
+				},
+			},
+			["Default.Nathrezim.Basilar"] = {
+				["lastUpdate"] = 1606167495,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|16.433027267456",
+					["HealthMax"] = 16164,
+					["Melee"] = "127-138|3.114000082016|153|0|16.433027267456|0",
+					["MaxPower"] = "11|100",
+					["Defense"] = "0|0|6.1897487640381|0|10|0",
+					["PVP"] = "10393|9",
+					["Base"] = "69|153|786|550|0",
+					["Spell"] = "550|587|0|16.433027267456|157|320",
+				},
+			},
+		},
+	},
+}

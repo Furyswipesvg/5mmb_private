@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Choinker|Bladefist|Horde|20|HUNTER", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Choinker - Bladefist"] = "Choinker - Bladefist",
+	},
+	["profiles"] = {
+		["Choinker - Bladefist"] = {
+		},
+	},
+}

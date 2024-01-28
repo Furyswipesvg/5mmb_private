@@ -1,0 +1,65 @@
+VER 3 010000000000000E "glide" "INV_MISC_QUESTIONMARK"
+#showtooltip glide
+/dismount
+/cast glide
+END
+VER 3 0100000000000003 "HAVOC_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_AOE RightButton; [button:3] HAVOC_AOE MiddleButton; [button:4] HAVOC_AOE Button4; [button:5] HAVOC_AOE Button5; HAVOC_AOE
+END
+VER 3 0100000000000010 "HAVOC_CODES" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_CODES RightButton; [button:3] HAVOC_CODES MiddleButton; [button:4] HAVOC_CODES Button4; [button:5] HAVOC_CODES Button5; HAVOC_CODES
+END
+VER 3 0100000000000004 "HAVOC_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_MULTI RightButton; [button:3] HAVOC_MULTI MiddleButton; [button:4] HAVOC_MULTI Button4; [button:5] HAVOC_MULTI Button5; HAVOC_MULTI
+END
+VER 3 0100000000000005 "HAVOC_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_SETUP RightButton; [button:3] HAVOC_SETUP MiddleButton; [button:4] HAVOC_SETUP Button4; [button:5] HAVOC_SETUP Button5; HAVOC_SETUP
+END
+VER 3 0100000000000001 "HAVOC_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_SINGLE RightButton; [button:3] HAVOC_SINGLE MiddleButton; [button:4] HAVOC_SINGLE Button4; [button:5] HAVOC_SINGLE Button5; HAVOC_SINGLE
+END
+VER 3 0100000000000002 "HAVOC_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOC_TURBO RightButton; [button:3] HAVOC_TURBO MiddleButton; [button:4] HAVOC_TURBO Button4; [button:5] HAVOC_TURBO Button5; HAVOC_TURBO
+END
+VER 3 0100000000000012 "SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] SINGLE LeftButton t; SINGLE
+END
+VER 3 010000000000000F "TEST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] TEST RightButton; [button:3] TEST MiddleButton; [button:4] TEST Button4; [button:5] TEST Button5; TEST
+END
+VER 3 0100000000000011 "test" "236550"
+/run printt(FSMB_clicktimes)
+/run PrintClicksPerSecond()
+END
+VER 3 0100000000000007 "VENGEANCE_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] VENGEANCE_MULTI RightButton; [button:3] VENGEANCE_MULTI MiddleButton; [button:4] VENGEANCE_MULTI Button4; [button:5] VENGEANCE_MULTI Button5; VENGEANCE_MULTI
+END
+VER 3 0100000000000008 "VENGEANCE_SETUP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] VENGEANCE_SETUP RightButton; [button:3] VENGEANCE_SETUP MiddleButton; [button:4] VENGEANCE_SETUP Button4; [button:5] VENGEANCE_SETUP Button5; VENGEANCE_SETUP
+END
+VER 3 010000000000000D "VENGEANCE_SHEAL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] VENGEANCE_SHEAL RightButton; [button:3] VENGEANCE_SHEAL MiddleButton; [button:4] VENGEANCE_SHEAL Button4; [button:5] VENGEANCE_SHEAL Button5; VENGEANCE_SHEAL
+END
+VER 3 0100000000000009 "VENGEANCE_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] VENGEANCE_SINGLE RightButton; [button:3] VENGEANCE_SINGLE MiddleButton; [button:4] VENGEANCE_SINGLE Button4; [button:5] VENGEANCE_SINGLE Button5; VENGEANCE_SINGLE
+END
+VER 3 010000000000000A "VENGEANCE_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] VENGEANCE_TURBO RightButton; [button:3] VENGEANCE_TURBO MiddleButton; [button:4] VENGEANCE_TURBO Button4; [button:5] VENGEANCE_TURBO Button5; VENGEANCE_TURBO
+END
+VER 3 010000000000000B "ZygorAction2" "134400"
+END
+VER 3 010000000000000C "ZygorAction3" "134400"
+END

@@ -1,0 +1,42 @@
+
+DataStore_KeystonesDB = {
+	["profileKeys"] = {
+		["Dungeonrunna - Illidan"] = "Dungeonrunna - Illidan",
+		["Avenge - Nathrezim"] = "Avenge - Nathrezim",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Felslaughter - Illidan"] = "Felslaughter - Illidan",
+		["Anldol - Illidan"] = "Anldol - Illidan",
+		["Anldol - Nathrezim"] = "Anldol - Nathrezim",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Brokeurarmor - Illidan"] = "Brokeurarmor - Illidan",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Mootalia"] = {
+				["currentKeystone"] = {
+					["keystoneLevel"] = 7,
+					["name"] = "The Necrotic Wake",
+					["texture"] = 3759930,
+				},
+				["lastUpdate"] = 1608279835,
+			},
+		},
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-12-22",
+		},
+	},
+}
+DataStore_KeystonesRefDB = {
+	["profileKeys"] = {
+		["Dungeonrunna - Illidan"] = "Dungeonrunna - Illidan",
+		["Avenge - Nathrezim"] = "Avenge - Nathrezim",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Felslaughter - Illidan"] = "Felslaughter - Illidan",
+		["Anldol - Illidan"] = "Anldol - Illidan",
+		["Anldol - Nathrezim"] = "Anldol - Nathrezim",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Brokeurarmor - Illidan"] = "Brokeurarmor - Illidan",
+	},
+}

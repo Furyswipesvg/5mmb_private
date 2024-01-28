@@ -1,0 +1,43 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Im - Nathrezim"] = "Im - Nathrezim",
+		["Anltem - Nathrezim"] = "Anltem - Nathrezim",
+		["Anltem - Illidan"] = "Anltem - Illidan",
+		["Severe - Nathrezim"] = "Severe - Nathrezim",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Nathrezim.Suppressed"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Drenden.Arthas Inc"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Illidan.In Service of the Horde"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Nathrezim.Im"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Anltem"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Suppressed",
+			},
+			["Default.Nathrezim.Severe"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.Anltem"] = {
+				["guildName"] = "In Service of the Horde",
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Illidan"] = "Illidan",
+			["Nathrezim"] = "Nathrezim",
+		},
+	},
+}

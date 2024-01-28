@@ -1,0 +1,52 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Frazzled - Cenarius"] = "Frazzled - Cenarius",
+		["Nerfpallys - Nathrezim"] = "Nerfpallys - Nathrezim",
+		["Nanoknight - Nathrezim"] = "Nanoknight - Nathrezim",
+		["Squirm - Nathrezim"] = "Squirm - Nathrezim",
+		["Giantits - Nathrezim"] = "Giantits - Nathrezim",
+		["Us - Cenarius"] = "Us - Cenarius",
+		["Bcenya - Nathrezim"] = "Bcenya - Nathrezim",
+		["Neekie - Cenarius"] = "Neekie - Cenarius",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Bcenya|Nathrezim|Alliance|13|WARLOCK", -- [1]
+				"Frazzled|Cenarius|Horde|120|MAGE", -- [2]
+				"Giantits|Nathrezim|Alliance|13|HUNTER", -- [3]
+				"Nanoknight|Nathrezim|Alliance|111|DEATHKNIGHT", -- [4]
+				"Neekie|Cenarius|Alliance|120|MAGE", -- [5]
+				"Nerfpallys|Nathrezim|Alliance|1|PALADIN", -- [6]
+				"Squirm|Nathrezim|Alliance|61|WARRIOR", -- [7]
+				"Us|Cenarius|Horde|108|DEMONHUNTER", -- [8]
+			},
+		},
+	},
+	["profiles"] = {
+		["Frazzled - Cenarius"] = {
+		},
+		["Nerfpallys - Nathrezim"] = {
+		},
+		["Nanoknight - Nathrezim"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"AnlRONCLAD|Nathrezim|Alliance", -- [1]
+					"Amigood|Nathrezim|Alliance", -- [2]
+					"Anlmage|Nathrezim|Alliance", -- [3]
+				},
+			},
+		},
+		["Squirm - Nathrezim"] = {
+		},
+		["Giantits - Nathrezim"] = {
+		},
+		["Us - Cenarius"] = {
+		},
+		["Bcenya - Nathrezim"] = {
+		},
+		["Neekie - Cenarius"] = {
+		},
+	},
+}

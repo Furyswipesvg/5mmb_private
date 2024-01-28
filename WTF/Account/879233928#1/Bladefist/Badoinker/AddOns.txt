@@ -9,3 +9,7 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+_DevPad: disabled
+_DevPad.GUI: disabled
+BlockChinese: disabled
+HandyNotes: disabled

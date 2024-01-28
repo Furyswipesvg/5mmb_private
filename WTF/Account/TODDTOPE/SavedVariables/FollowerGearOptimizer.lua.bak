@@ -1,0 +1,10 @@
+
+FGODB = {
+	["profileKeys"] = {
+		["Gâto - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

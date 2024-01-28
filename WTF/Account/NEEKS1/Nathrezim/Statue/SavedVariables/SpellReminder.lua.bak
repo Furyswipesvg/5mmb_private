@@ -1,0 +1,34 @@
+
+SpellReminderDBPerChar = {
+	["char"] = {
+		["Statue - Nathrezim"] = {
+			["spellSetup"] = {
+				["Honorless Target"] = {
+					["active"] = true,
+					["displayName"] = "Honorless Target",
+					["installed"] = true,
+					["category"] = "Buffs",
+					["detected"] = true,
+					["last_seen"] = 1352859555,
+					["r"] = 5,
+					["d"] = 30,
+					["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+				},
+				["Deserter"] = {
+					["active"] = true,
+					["displayName"] = "Deserter",
+					["installed"] = true,
+					["category"] = "Debuffs",
+					["detected"] = true,
+					["last_seen"] = 1352859555,
+					["r"] = 5,
+					["d"] = 29,
+					["icon"] = "Interface\\Icons\\Ability_Druid_Cower",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Statue - Nathrezim"] = "Default",
+	},
+}

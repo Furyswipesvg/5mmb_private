@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Jerkstore|Bladefist|Horde|20|WARRIOR", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Jerkstore - Bladefist"] = "Jerkstore - Bladefist",
+	},
+	["profiles"] = {
+		["Jerkstore - Bladefist"] = {
+		},
+	},
+}

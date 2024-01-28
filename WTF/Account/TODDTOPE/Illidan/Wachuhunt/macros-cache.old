@@ -1,0 +1,4 @@
+VER 3 0100000000000002 "HAVOCELF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HAVOCELF RightButton; [button:3] HAVOCELF MiddleButton; [button:4] HAVOCELF Button4; [button:5] HAVOCELF Button5; HAVOCELF
+END

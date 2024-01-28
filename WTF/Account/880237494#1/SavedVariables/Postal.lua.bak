@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Oopsididdat - Bladefist"] = "Oopsididdat - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Oopsididdat|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Oopsididdat - Bladefist"] = {
+		},
+	},
+}

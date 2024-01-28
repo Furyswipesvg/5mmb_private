@@ -1111,7 +1111,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 310.9998779296875,
+		["spellcontainer_height"] = 310.9998474121094,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1126,7 +1126,7 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456.0000305175781,
+		["blockcontainer_width"] = 456.0001220703125,
 		["spellbar_background_alpha"] = 0.92,
 		["spellcontainer_width"] = 428.9999084472656,
 		["spellcontainer_header_fontcolor"] = {
@@ -1182,7 +1182,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 270,
+		["blockcontainer_height"] = 270.0000305175781,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1196,7 +1196,7 @@ _detalhes_global = {
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = -7.62939453125e-05,
+		["y"] = -0.000152587890625,
 		["x"] = -1.52587890625e-05,
 		["point"] = "CENTER",
 		["scale"] = 1,
@@ -1209,34 +1209,34 @@ _detalhes_global = {
 	["npcid_pool"] = {
 		[156986] = "Ogre Taskmaster",
 		[155192] = "Harpy Ambusher",
-		[156501] = "Ravnyr",
+		[157300] = "Tunk",
 		[153964] = "Bloodbeak",
 		[156913] = "Decaying Corpse",
 		[169162] = "Hunting Worg",
-		[153583] = "Jugnug",
+		[154103] = "Ogre Chef",
 		[157328] = "Darkmaul Channeler",
 		[153581] = "Grunk",
 		[150237] = "Quilboar Warrior",
-		[166262] = "Decaying Corpse",
-		[157300] = "Tunk",
+		[153239] = "Ogre Brute",
+		[153583] = "Jugnug",
 		[156821] = "Darkmaul Shadowcaller",
 		[156825] = "Darkmaul Centurion",
 		[160394] = "Barrow Spider",
-		[154103] = "Ogre Chef",
+		[156501] = "Ravnyr",
 		[160433] = "Barrow Spiderling",
 		[150238] = "Quilboar Geomancer",
 		[156814] = "Gor'groth",
 		[152571] = "Harpy Snatcher",
-		[153239] = "Ogre Brute",
+		[166262] = "Decaying Corpse",
 		[151091] = "Geolord Grek'og",
 		[156900] = "Hrun the Exiled",
 		[162817] = "Torgok",
 		[153242] = "Ogre Shadowcaster",
 		[152998] = "Hunting Worg",
-		[152843] = "Harpy Boltcaller",
 		[153582] = "Wug",
-		[156676] = "Ogre Overseer",
+		[152843] = "Harpy Boltcaller",
 		[153266] = "Killclaw the Terrible",
+		[156676] = "Ogre Overseer",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1247,38 +1247,38 @@ _detalhes_global = {
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
 		4, -- [1]
-		[305567] = "Ravnyr",
+		[318149] = "Warlord Breka Grimaxe",
 		[1449] = 8,
 		[315584] = 4,
-		[305515] = "Ravnyr",
-		[308502] = "Gor'groth",
+		[305913] = "Darkmaul Shadowcaller",
 		[308527] = "Gor'groth",
+		[308455] = "Tunk",
 		[315585] = 4,
 		[308463] = "Tunk",
-		[1766] = 4,
-		[185438] = 4,
-		[283408] = "Warlord Breka Grimaxe",
-		[318152] = "Warlord Breka Grimaxe",
+		[308502] = "Gor'groth",
 		[321240] = "Tunk",
-		[1833] = 4,
-		[308455] = "Tunk",
-		[321330] = "Darkmaul Channeler",
+		[283408] = "Warlord Breka Grimaxe",
+		[305515] = "Ravnyr",
+		[127802] = 4,
+		[318152] = "Warlord Breka Grimaxe",
+		[305567] = "Ravnyr",
+		[185438] = 4,
 		[306396] = 4,
 		[343883] = "Shuja Grimaxe",
 		[190331] = "Shuja Grimaxe",
 		[306389] = "Darkmaul Centurion",
-		[127802] = 4,
+		[321330] = "Darkmaul Channeler",
 		[273844] = "Shuja Grimaxe",
 		[315496] = 4,
 		[1752] = 4,
-		[305913] = "Darkmaul Shadowcaller",
+		[196819] = 4,
 		[7744] = 4,
 		[1784] = 4,
 		[8676] = 4,
 		[306399] = "Darkmaul Centurion",
 		[318125] = "Warlord Breka Grimaxe",
-		[196819] = 4,
-		[318149] = "Warlord Breka Grimaxe",
+		[1833] = 4,
+		[1766] = 4,
 	},
 	["shield_spellid_cache"] = {
 	},
@@ -1760,10 +1760,6 @@ _detalhes_global = {
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -1801,6 +1797,10 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -1823,16 +1823,14 @@ _detalhes_global = {
 				["menus"] = "Friz Quadrata TT",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
-			["segments_amount"] = 40,
-			["report_lines"] = 5,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -113.5444946289063,
-							["x"] = 606.0132446289062,
-							["w"] = 309.9998779296875,
-							["h"] = 157.9999084472656,
+							["y"] = -113.5445556640625,
+							["x"] = 611.2323608398438,
+							["w"] = 310.0000610351563,
+							["h"] = 157.9999694824219,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2237,7 +2235,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -113.5444641113281,
+						["y"] = -113.5445404052734,
 						["x"] = -106.8724365234375,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -2268,10 +2266,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -113.5444946289063,
-							["x"] = 606.0132446289062,
-							["w"] = 309.9998779296875,
-							["h"] = 157.9999084472656,
+							["y"] = -113.5445556640625,
+							["x"] = 611.2323608398438,
+							["w"] = 310.0000610351563,
+							["h"] = 157.9999694824219,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2318,6 +2316,8 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
+			["report_lines"] = 5,
+			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
 			["capture_real"] = {
@@ -2334,29 +2334,26 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["minimum_combat_time"] = 5,
 			["realtimedps_always_arena"] = false,
+			["minimum_combat_time"] = 5,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
 			["overall_clear_logout"] = false,
-			["color_by_arena_team"] = true,
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
+			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
 			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
@@ -2433,11 +2430,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -2463,11 +2460,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -2482,10 +2479,15 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
+			["total_abbreviation"] = 2,
+			["disable_alldisplays_window"] = false,
+			["trash_auto_remove"] = false,
+			["broadcaster_enabled"] = false,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["disable_alldisplays_window"] = false,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2568,17 +2570,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -2595,11 +2597,6 @@ _detalhes_global = {
 					0.87, -- [3]
 				},
 			},
-			["broadcaster_enabled"] = false,
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -2616,13 +2613,16 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["memory_threshold"] = 3,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
+			["color_by_arena_team"] = true,
 			["use_scroll"] = false,
 			["overall_flag"] = 16,
 			["segments_panic_mode"] = false,
@@ -2828,7 +2828,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["ROGUE"] = 6995.271999999997,
+			["ROGUE"] = 12585.584,
 		},
 	},
 	["latest_spell_pool_access"] = 1706043542,
@@ -2873,18 +2873,12 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 6,
-		["logons"] = 6,
+		["main_help_button"] = 12,
+		["logons"] = 12,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -2969,7 +2963,13 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["savedStyles"] = {
 	},

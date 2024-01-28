@@ -1,0 +1,58 @@
+VER 3 0100000000000002 "amb" "INV_Misc_QuestionMark"
+#showtooltip ambush
+/equipslot17 Nightstalker Dagger of the Eagle
+/cast [nocombat] pick pocket
+/stopcasting
+/cast [equipped:daggers] ambush
+END
+VER 3 0100000000000006 "bfar" "INV_Misc_QuestionMark"
+#showtooltip adrenaline rush
+/cast [modifier:ctrl] swift zhevra
+/cast [modifier:alt] rupture
+/castrandom [nomodifier]  blade flurry, adrenaline rush
+END
+VER 3 0100000000000007 "bndg" "Spell_Shadow_UnstableAffliction_2"
+/use [target=player] Heavy Netherweave Bandage
+/use [target=player] Netherweave Bandage
+/use [target=player] heavy runecloth bandage
+/use [target=player] mageweave bandage
+END
+VER 3 0100000000000009 "bsrup" "INV_Misc_QuestionMark"
+#showtooltip backstab
+/cast [modifier:alt] rupture
+/cast [equipped:daggers] backstab
+END
+VER 3 010000000000000B "follow" "Ability_Ambush"
+/follow denwyn
+END
+VER 3 010000000000000A "gar" "INV_Misc_QuestionMark"
+#showtooltip Garrote
+/CAST [modifier:ctrl] swift zhevra
+/cast [nomodifier] garrote
+END
+VER 3 0100000000000004 "gouge" "Ability_Druid_Disembowel"
+#showtooltip blind
+/cast [modifier:ctrl] blind
+/cast [modifier:alt] kidney shot
+/cast gouge
+END
+VER 3 0100000000000008 "pot" "INV_Misc_QuestionMark"
+/use Superior Healing Potion
+/use Greater Healing Potion
+END
+VER 3 0100000000000005 "riposte" "INV_Misc_QuestionMark"
+#showtooltip riposte
+/equipslot16 foe reaver
+/cast [modifier:ctrl] backstab
+/cast [modifier:alt] slice and dice
+/castrandom riposte,dismantle
+END
+VER 3 0100000000000003 "ss" "INV_Misc_QuestionMark"
+#showtooltip sinister strike
+/cast [nocombat, nostealth] stealth
+#stopcasting
+/equipslot16 foe reaver
+/cast [modifier:ctrl] killing spree
+/cast [modifier:alt] eviscerate
+/userandom [combat] Bladefist's Breadth,drums of war,charm of a
+END

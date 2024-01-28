@@ -1,0 +1,19 @@
+VER 3 010000000000002F "charge_moo" "134400"
+/cast [nomod] charge
+/cast [mod:alt] execute
+/cast [mod:ctrl] battle shout
+END
+VER 3 0100000000000030 "ENRAGE_MOO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] ENRAGE_MOO LeftButton t; ENRAGE_MOO
+END
+VER 3 010000000000002E "SINGLE_MOO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] SINGLE_MOO LeftButton t; SINGLE_MOO
+END
+VER 3 010000000000002D "TURBO_MOO" "134400"
+#showtooltip
+/click [button:1] TURBO_MOO LeftButton t
+/dismount [mod:ctrl]
+/run automount()
+END

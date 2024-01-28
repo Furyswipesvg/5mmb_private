@@ -1,0 +1,93 @@
+VER 3 0100000000000006 "BEAR" "INV_Misc_QuestionMark"
+/cast [nostance:1] bear form
+/cast [combat] Might of Ursoc
+/cast [combat] Barkskin
+/cast frenzied regeneration
+/use [combat] healthstone
+END
+VER 3 0100000000000007 "CAT" "INV_Misc_QuestionMark"
+/castsequence reset=6 cat form,prowl,nil
+END
+VER 3 0100000000000015 "DASH" "INV_MISC_QUESTIONMARK"
+/cast [stance:3] dash
+/cast stampeding roar
+END
+VER 3 010000000000001A "I:Cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip cyclone
+/castsequence reset=45 nature's swiftness,cyclone
+END
+VER 3 010000000000001B "I:Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip healing touch
+/castsequence reset=45 nature's swiftness,healing touch
+END
+VER 3 0100000000000019 "I:root" "INV_MISC_QUESTIONMARK"
+#showtooltip entangling roots
+/castsequence reset=45 nature's swiftness,entangling roots
+END
+VER 3 0100000000000001 "MANG" "INV_Misc_QuestionMark"
+/castsequence [nomod] reset=combat mangle,lacerate,mangle,mangle
+/cast [nomod] maul
+/cast [mod:ctrl] demoralizing roar
+/cast [mod:altj,@player] rejuvenation
+/startattack [nomod]
+END
+VER 3 010000000000000D "MF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance:3,nomod] moonfire
+/cast [stance:3,stealth,nomod] pounce
+/cast [stance:3,nomod,nostealth] maim
+/cast [mod:alt,@player] healing touch
+/cast [mod:ctrl,@player] remove corruption
+/cast [mod:alt] barkskin
+END
+VER 3 010000000000000F "ngrun" "INV_Misc_QuestionMark"
+/cast [nomod] nature's grasp
+/cast [mod:alt,swimming] aquatic form
+/cast [mod:alt,flyable] swift flight form
+/cast [mod:alt] travel form
+/cast [mod:ctrl] swift frostsaber
+END
+VER 3 0100000000000012 "rejuv" "INV_Misc_QuestionMark"
+/cast [mod:ctrl,@player] remove curse
+/cast [mod:alt,@player] rejuvenation
+/cast rejuvenation
+END
+VER 3 010000000000000B "SF" "INV_MISC_QUESTIONMARK"
+/cast [stance:3,stealth] rake
+/castsequence [stance:3,nomod] reset=combat mangle,rake,mangle,mangle
+/cast [mod:alt,@player] rejuvenation
+/startattack [nomod,stance:3]
+/cast [nomod,nostance:3] sunfire
+/cast [mod:ctrl,nostance:3] healing touch
+END
+VER 3 010000000000000E "STARSURGE" "INV_MISC_QUESTIONMARK"
+/cast [nomod,nostance:5] moonkin form
+/cast [nomod,stance:5] starsurge
+/cast [mod:alt,swimming] aquatic form
+/cast [mod:alt,flyable] swift flight form
+/cast [mod:alt] travel form
+/cast [mod:ctrl] swift frostsaber
+END
+VER 3 0100000000000003 "SWIPE" "INV_Misc_QuestionMark"
+/cast [nomod] swipe
+/cast [nomod] maul
+/cast [mod:ctrl,@player] remove corruption
+/cast [mod:alt,@player] healing touch
+/cast [mod:alt] barkskin
+/startattack 
+END
+VER 3 0100000000000017 "turbo" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt,nostance:5] mookin form
+/cast [nostance:5] moonkin form
+/cast [nomod] Incarnation: Chosen of Elune
+/cast [nomod] Celestial Alignment
+/cast [nomod] Wild Mushroom: Detonate
+/use [nomod] 14
+/cast [mod:alt] nature's grasp
+END
+VER 3 0100000000000014 "TYPHOON" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] typhoon
+/cast [mod:alt] entangling roots
+/cast [mod:ctrl] faerie fire
+END

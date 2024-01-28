@@ -1,0 +1,39 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Nanoknight - Nathrezim"] = "Nanoknight - Nathrezim",
+		["Us - Nathrezim"] = "Us - Nathrezim",
+		["Frazzled - Cenarius"] = "Frazzled - Cenarius",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Arathor.The Council of Crunch"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Suppressed"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmane.Crits And Giggles"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Nathrezim.Us"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Nanoknight"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Suppressed",
+			},
+			["Default.Cenarius.Frazzled"] = {
+				["guildName"] = "Crits And Giggles",
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Cenarius"] = "Cenarius",
+			["Nathrezim"] = "Nathrezim",
+		},
+	},
+}

@@ -1,0 +1,43 @@
+
+DataStore_RaresDB = {
+	["profileKeys"] = {
+		["Anltem - Illidan"] = "Anltem - Illidan",
+		["Anltem - Nathrezim"] = "Anltem - Nathrezim",
+		["Im - Nathrezim"] = "Im - Nathrezim",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Nathrezim.Im"] = {
+				["lastUpdate"] = 1606170839,
+			},
+			["Default.Nathrezim.Anltem"] = {
+				["lastUpdate"] = 1603511498,
+			},
+			["Default.Illidan.Anltem"] = {
+				["lastUpdate"] = 1607637122,
+				["Rares"] = {
+					[89884] = {
+						["resetTime"] = 61677,
+						["name"] = "Flog the Captain-Eater",
+					},
+					[98890] = {
+						["resetTime"] = 61677,
+						["name"] = "Slumber",
+					},
+					[106990] = {
+						["resetTime"] = 61677,
+						["name"] = "Chief Bitterbrine",
+					},
+					[89816] = {
+						["resetTime"] = 61677,
+						["name"] = "Golza the Iron Fin",
+					},
+					[107127] = {
+						["resetTime"] = 61677,
+						["name"] = "Brawlgoth",
+					},
+				},
+			},
+		},
+	},
+}

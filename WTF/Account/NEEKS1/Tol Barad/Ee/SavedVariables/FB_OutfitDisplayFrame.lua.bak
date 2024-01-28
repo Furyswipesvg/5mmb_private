@@ -1,0 +1,2 @@
+
+FBODF_PlayerInfo = nil

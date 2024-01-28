@@ -1,0 +1,8 @@
+Version: 1
+Frame: Recount_DetailWindow
+FrameLevel: 10
+Anchor: LEFT
+X: -92
+Y: -112
+W: 560
+H: 346

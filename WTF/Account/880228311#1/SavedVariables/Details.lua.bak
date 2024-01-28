@@ -3,6 +3,34 @@ _detalhes_global = {
 	["boss_icon_cache"] = {
 	},
 	["encounter_spell_pool"] = {
+		{
+			2325, -- [1]
+			"Tunk", -- [2]
+		}, -- [1]
+		[321240] = {
+			2325, -- [1]
+			"Tunk", -- [2]
+		},
+		[308502] = {
+			2326, -- [1]
+			"Gor'groth", -- [2]
+		},
+		[308455] = {
+			2325, -- [1]
+			"Tunk", -- [2]
+		},
+		[308527] = {
+			2326, -- [1]
+			"Gor'groth", -- [2]
+		},
+		[305913] = {
+			2326, -- [1]
+			"Gor'groth", -- [2]
+		},
+		[308463] = {
+			2325, -- [1]
+			"Tunk", -- [2]
+		},
 	},
 	["immersion_pets_on_solo_play"] = false,
 	["npcid_ignored"] = {
@@ -21,6 +49,9 @@ _detalhes_global = {
 	["always_use_profile"] = false,
 	["deathlog_healingdone_min_arena"] = 400,
 	["spell_school_cache"] = {
+		["Seismic Slam"] = 1,
+		["Melee"] = 1,
+		["Unstable Shadows"] = 32,
 	},
 	["spell_category_latest_sent"] = 0,
 	["damage_scroll_auto_open"] = true,
@@ -1080,7 +1111,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 311,
+		["spellcontainer_height"] = 311.0000610351563,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1095,7 +1126,7 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 455.9999694824219,
+		["blockcontainer_width"] = 456.0000610351563,
 		["spellbar_background_alpha"] = 0.92,
 		["spellcontainer_width"] = 428.9999694824219,
 		["spellcontainer_header_fontcolor"] = {
@@ -1104,11 +1135,11 @@ _detalhes_global = {
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 140.0000152587891,
+		["phasecontainer_height"] = 139.9999847412109,
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 289.9999084472656,
+		["phasecontainer_width"] = 289.9999694824219,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1144,7 +1175,7 @@ _detalhes_global = {
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 140.0000152587891,
+		["targetcontainer_height"] = 139.9999847412109,
 		["nest_pet_spells_by_name"] = false,
 		["nest_players_spells_with_same_name"] = true,
 		["blockspell_spark_offset"] = -1,
@@ -1161,12 +1192,12 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 57,
+	["combat_id_global"] = 97,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
 		["y"] = -1.52587890625e-05,
-		["x"] = -0.000274658203125,
+		["x"] = -0.0003814697265625,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1176,29 +1207,107 @@ _detalhes_global = {
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[153266] = "Killclaw the Terrible",
-		[155192] = "Harpy Ambusher",
-		[153964] = "Bloodbeak",
-		[169162] = "Hunting Worg",
-		[153581] = "Grunk",
-		[150237] = "Quilboar Warrior",
-		[153238] = "Tamed Boar",
-		[160394] = "Barrow Spider",
-		[153239] = "Ogre Brute",
-		[160433] = "Barrow Spiderling",
-		[150238] = "Quilboar Geomancer",
-		[154103] = "Ogre Chef",
-		[152571] = "Harpy Snatcher",
-		[153583] = "Jugnug",
-		[151091] = "Geolord Grek'og",
-		[153242] = "Ogre Shadowcaster",
-		[162817] = "Torgok",
-		[156900] = "Hrun the Exiled",
-		[152843] = "Harpy Boltcaller",
+		[17252] = "Kirghun",
+		[105203] = "Felguard Invader",
+		[157328] = "Darkmaul Channeler",
 		[153582] = "Wug",
-		[156986] = "Ogre Taskmaster",
-		[156676] = "Ogre Overseer",
+		[156900] = "Hrun the Exiled",
+		[156821] = "Darkmaul Shadowcaller",
+		[110617] = "Shadowsworn Harbinger",
+		[113038] = "Fel Lord Kurrz",
+		[153964] = "Bloodbeak",
+		[113951] = "Sahale",
+		[105450] = "Akaari Shadowgore",
+		[151091] = "Geolord Grek'og",
+		[153266] = "Killclaw the Terrible",
+		[160394] = "Barrow Spider",
+		[105609] = "Akaari Shadowgore <Akaari Shadowgore>",
+		[102696] = "Felslag Imp",
+		[93719] = "Fel Commander Azgalor",
+		[110618] = "Anchoring Crystal",
+		[157300] = "Tunk",
 		[152998] = "Hunting Worg",
+		[7379] = "Deadwind Ogre Mage",
+		[97387] = "Mana Seeper",
+		[109587] = "Fel Lord Zardak",
+		[156825] = "Darkmaul Centurion",
+		[150237] = "Quilboar Warrior",
+		[91704] = "Anchoring Crystal",
+		[152571] = "Harpy Snatcher",
+		[113953] = "Faala",
+		[153238] = "Tamed Boar",
+		[150238] = "Quilboar Geomancer",
+		[94189] = "Living Felblaze",
+		[102706] = "Grinning Shadowstalker",
+		[153239] = "Ogre Brute",
+		[169162] = "Hunting Worg",
+		[156986] = "Ogre Taskmaster",
+		[91967] = "Infernal Siegebreaker",
+		[152843] = "Harpy Boltcaller",
+		[105199] = "Felstalker Dreadhound",
+		[97587] = "Crazed Mage",
+		[105596] = "Chaos Guard",
+		[101667] = "Shielded Anchor",
+		[90677] = "Wrathguard Dreadblade",
+		[94190] = "Burning Sentry",
+		[92801] = "Winged Nightmare",
+		[97381] = "Screek",
+		[114407] = "Spellstalker",
+		[105537] = "Shadowgore Bloodmaiden",
+		[105660] = "Akaari Shadowgore",
+		[105539] = "Shadowgore Stalker",
+		[103898] = "Sickly Imp <Dark Worshipper>",
+		[160433] = "Barrow Spiderling",
+		[106053] = "Beaming Eye",
+		[105536] = "Akaari Shadowgore",
+		[153242] = "Ogre Shadowcaster",
+		[156814] = "Gor'groth",
+		[105580] = "Soulkeeper",
+		[97388] = "Xullorax",
+		[111074] = "Grinning Shadowstalker",
+		[51987] = "Deadwind Widow",
+		[94191] = "Burning Terrorhound",
+		[113053] = "Mother Sepestra",
+		[97390] = "Thieving Scoundrel",
+		[114406] = "Spellfiend Devourer",
+		[92564] = "Mo'arg Painbringer",
+		[105542] = "Xirus",
+		[103899] = "Shadowflame Imp <Dark Worshipper>",
+		[101104] = "Shard of Hate",
+		[113059] = "Fel Lord Garzan",
+		[101100] = "Felblade Assassin",
+		[102534] = "Vanessa VanCleef",
+		[105205] = "Mo'arg Spinebreaker",
+		[156501] = "Ravnyr",
+		[162817] = "Torgok",
+		[166262] = "Decaying Corpse",
+		[102701] = "Mo'arg Painbringer",
+		[90525] = "Eredar Chaos Guard",
+		[97510] = "Soulbound Destructor",
+		[90544] = "Krosus",
+		[109591] = "Felguard Legionnaire",
+		[105339] = "Shadowgore Darkcaster",
+		[113036] = "Fel Lord Razzar",
+		[90506] = "Felfire Imp",
+		[91970] = "Felguard Invader",
+		[154103] = "Ogre Chef",
+		[113957] = "Ja'kala",
+		[103897] = "Fiery Trickster <Dark Worshipper>",
+		[156913] = "Decaying Corpse",
+		[113948] = "Arienne Black",
+		[105200] = "Felguard Invader",
+		[103896] = "Felfire Imp <Dark Worshipper>",
+		[102702] = "Wrathguard Dreadblade",
+		[114401] = "Doomguard Firebrand",
+		[153583] = "Jugnug",
+		[156676] = "Ogre Overseer",
+		[109592] = "Felguard Legionnaire",
+		[110616] = "Dark Worshipper",
+		[113037] = "Fel Lord Darakk",
+		[90686] = "Felstalker Dreadhound",
+		[153581] = "Grunk",
+		[113950] = "Lonan",
+		[155192] = "Harpy Ambusher",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1209,18 +1318,113 @@ _detalhes_global = {
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
 		4, -- [1]
-		[1752] = 4,
-		[315584] = 4,
-		[8676] = 4,
-		[315585] = 4,
-		[196819] = 4,
 		[31224] = 4,
-		[1784] = 4,
-		[1833] = 4,
-		[185311] = 4,
-		[315496] = 4,
-		[306396] = 4,
+		[36554] = 4,
+		[343883] = "Shuja Grimaxe",
+		[218765] = "Infernal Siegebreaker",
+		[11366] = 8,
+		[210161] = "Beaming Eye",
+		[224782] = "Lady Sylvanas Windrunner",
+		[273844] = "Shuja Grimaxe",
+		[185857] = "Bilgewater Blastmaster",
 		[127802] = 4,
+		[171919] = "Silvermoon Blood Knight",
+		[306389] = "Darkmaul Centurion",
+		[305913] = "Darkmaul Shadowcaller",
+		[167014] = "Thrall",
+		[203368] = "Fiery Trickster <Dark Worshipper>",
+		[224990] = "Akaari Shadowgore",
+		[182096] = "Sickly Imp <Dark Worshipper>",
+		[12654] = 8,
+		[224721] = "Earthen Ring Shaman",
+		[305567] = "Ravnyr",
+		[215387] = 4,
+		[202703] = "Shadowsworn Harbinger",
+		[224722] = "Earthen Ring Shaman",
+		[106785] = "Muffs-Proudmoore",
+		[283408] = "Warlord Breka Grimaxe",
+		[202704] = "Shadowsworn Harbinger",
+		[203609] = "Felslag Imp",
+		[306396] = 4,
+		[210013] = "Shadowgore Bloodmaiden",
+		[202419] = "Shadowsworn Harbinger",
+		[210012] = "Shadowgore Bloodmaiden",
+		[308455] = "Tunk",
+		[316220] = 4,
+		[1752] = 4,
+		[182217] = "Soulkeeper",
+		[1784] = 4,
+		[164812] = 11,
+		[306399] = "Darkmaul Centurion",
+		[308463] = "Tunk",
+		[202833] = "Dark Worshipper",
+		[203611] = "Felslag Imp",
+		[206867] = "Akaari Shadowgore",
+		[181545] = "Eredar Chaos Guard",
+		[17253] = "Bacon",
+		[224991] = "Akaari Shadowgore",
+		[209238] = "Akaari Shadowgore",
+		[1833] = 4,
+		[318149] = "Warlord Breka Grimaxe",
+		[83381] = "Bacon",
+		[225218] = "Lady Sylvanas Windrunner",
+		[196819] = 4,
+		[215598] = 4,
+		[133] = 8,
+		[5938] = 4,
+		[172673] = "Darkspear Witch Doctor",
+		[172816] = "Darkspear Witch Doctor",
+		[164815] = 11,
+		[305515] = "Ravnyr",
+		[202936] = "Dark Worshipper",
+		[215599] = 4,
+		[75] = "Hëngal-AeriePeak",
+		[315585] = 4,
+		[84622] = "Baine Bloodhoof",
+		[185358] = "Hëngal-AeriePeak",
+		[182098] = "Sickly Imp <Dark Worshipper>",
+		[175944] = "Argent Lightbringer <Bromedown>",
+		[183707] = "Mo'arg Painbringer",
+		[308502] = "Gor'groth",
+		[178532] = "Vol'jin",
+		[257542] = 8,
+		[202821] = "Shadowsworn Harbinger",
+		[185438] = 4,
+		[315584] = 4,
+		[140592] = "Vol'jin",
+		[218760] = "Mother Sepestra",
+		[194519] = "Xirus",
+		[211571] = "Eredar Chaos Guard",
+		[180327] = "Felfire Imp",
+		[318125] = "Warlord Breka Grimaxe",
+		[8676] = 4,
+		[203108] = "Soulbound Destructor",
+		[183345] = "Dark Worshipper",
+		[419800] = 8,
+		[1766] = 4,
+		[17462] = 4,
+		[224953] = "Dark Ranger",
+		[185311] = 4,
+		[108853] = 8,
+		[203109] = "Soulbound Destructor",
+		[318152] = "Warlord Breka Grimaxe",
+		[218762] = "Mother Sepestra",
+		[222588] = "Infernal Siegebreaker",
+		[321240] = "Tunk",
+		[218683] = "Mo'arg Painbringer",
+		[1966] = 4,
+		[131942] = "Felstalker Dreadhound",
+		[321330] = "Darkmaul Channeler",
+		[308527] = "Gor'groth",
+		[218763] = "Living Felblaze",
+		[190331] = "Shuja Grimaxe",
+		[218622] = "Fel Lord Darakk",
+		[183378] = "Soulbound Destructor",
+		[215607] = 4,
+		[315496] = 4,
+		[106830] = "Muffs-Proudmoore",
+		[218621] = "Fel Lord Kurrz",
+		[197835] = 4,
 	},
 	["shield_spellid_cache"] = {
 	},
@@ -1756,24 +1960,23 @@ _detalhes_global = {
 			},
 			["animation_speed_maxtravel"] = 3,
 			["time_type_original"] = 2,
-			["report_lines"] = 5,
-			["font_faces"] = {
-				["menus"] = "Friz Quadrata TT",
-			},
-			["auto_swap_to_dynamic_overall"] = false,
 			["player_details_window"] = {
 				["scale"] = 1,
 				["bar_texture"] = "Skyline",
 				["skin"] = "ElvUI",
 			},
+			["font_faces"] = {
+				["menus"] = "Friz Quadrata TT",
+			},
+			["auto_swap_to_dynamic_overall"] = false,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -201.556640625,
-							["x"] = 643.99462890625,
-							["w"] = 309.9996337890625,
-							["h"] = 158.0000305175781,
+							["y"] = -201.5565490722656,
+							["x"] = 596.2698974609375,
+							["w"] = 309.9996948242188,
+							["h"] = 157.9999847412109,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2178,8 +2381,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -201.5566558837891,
-						["x"] = -68.62548828125,
+						["y"] = -201.5565490722656,
+						["x"] = -68.6256103515625,
 						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
@@ -2209,10 +2412,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -201.556640625,
-							["x"] = 643.99462890625,
-							["w"] = 309.9996337890625,
-							["h"] = 158.0000305175781,
+							["y"] = -201.5565490722656,
+							["x"] = 596.2698974609375,
+							["w"] = 309.9996948242188,
+							["h"] = 157.9999847412109,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2259,13 +2462,10 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
+			["report_lines"] = 5,
 			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
-			["total_abbreviation"] = 2,
-			["skin"] = "Minimalistic",
-			["override_spellids"] = true,
-			["realtimedps_always_arena"] = false,
 			["capture_real"] = {
 				["heal"] = true,
 				["spellcast"] = true,
@@ -2274,15 +2474,24 @@ _detalhes_global = {
 				["energy"] = true,
 				["damage"] = true,
 			},
+			["skin"] = "Minimalistic",
+			["override_spellids"] = true,
 			["windows_fade_out"] = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
+			["realtimedps_always_arena"] = false,
+			["minimum_combat_time"] = 5,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
-			["minimum_combat_time"] = 5,
-			["use_scroll"] = false,
+			["overall_clear_logout"] = false,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
@@ -2292,7 +2501,7 @@ _detalhes_global = {
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
-			["color_by_arena_team"] = true,
+			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
 			["class_coords"] = {
 				["HUNTER"] = {
@@ -2416,7 +2625,7 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
-			["default_bg_color"] = 0.0941,
+			["total_abbreviation"] = 2,
 			["disable_alldisplays_window"] = false,
 			["trash_auto_remove"] = false,
 			["broadcaster_enabled"] = false,
@@ -2559,13 +2768,8 @@ _detalhes_global = {
 			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["overall_clear_logout"] = false,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
+			["color_by_arena_team"] = true,
+			["use_scroll"] = false,
 			["overall_flag"] = 16,
 			["segments_panic_mode"] = false,
 			["realtimedps_order_bars"] = false,
@@ -2770,7 +2974,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["ROGUE"] = 5043.77900000001,
+			["ROGUE"] = 20774.09500000001,
 		},
 	},
 	["latest_spell_pool_access"] = 1705987235,
@@ -2819,9 +3023,10 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 4,
-		["logons"] = 4,
+		["main_help_button"] = 16,
+		["logons"] = 16,
 		["version_announce"] = 0,
+		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
 			false, -- [1]
@@ -2985,35 +3190,35 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [1]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [2]
-		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [3]
-		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [4]
-		"2024-01-22 22:45:07 | actor removed Ogre Shadowcaster (ungrouped)", -- [5]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [6]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [7]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [8]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [9]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [10]
-		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [11]
-		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [12]
-		"2024-01-22 22:45:07 | actor removed Jugnug (ungrouped)", -- [13]
-		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [14]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [15]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [16]
-		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [17]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [18]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [19]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [20]
-		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [21]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [22]
-		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [23]
-		"2024-01-22 22:45:07 | actor removed Ogre Shadowcaster (ungrouped)", -- [24]
+		"2024-01-27 18:32:58 | actor removed Vanessa VanCleef (ungrouped)", -- [1]
+		"2024-01-27 18:32:58 | actor removed Backslash (ungrouped)", -- [2]
+		"2024-01-27 18:32:58 | actor removed Dazed (ungrouped)", -- [3]
+		"2024-01-27 18:32:58 | actor removed Backslash (disposable)", -- [4]
+		"2024-01-27 18:32:58 | actor removed Dazed (disposable)", -- [5]
+		"2024-01-27 18:04:17 | actor removed Turtletime-Cairne (ungrouped)", -- [6]
+		"2024-01-27 18:04:17 | actor removed Alisteus-KhazModan (ungrouped)", -- [7]
+		"2024-01-27 18:04:17 | actor removed Turtletime-Cairne (ungrouped)", -- [8]
+		"2024-01-27 18:04:17 | actor removed Jourdan-Proudmoore (ungrouped)", -- [9]
+		"2024-01-27 18:04:17 | actor removed Molocstrider-Frostwolf (ungrouped)", -- [10]
+		"2024-01-27 18:04:17 | actor removed Ahnoh-Aegwynn (ungrouped)", -- [11]
+		"2024-01-27 18:04:17 | actor removed Greater Storm Elemental <Ahnoh-Aegwynn> (orphan)", -- [12]
+		"2024-01-27 18:04:17 | actor removed Ahnoh-Aegwynn (ungrouped)", -- [13]
+		"2024-01-27 18:04:17 | actor removed Veekryz (ungrouped)", -- [14]
+		"2024-01-27 18:04:17 | actor removed Molocstrider-Frostwolf (ungrouped)", -- [15]
+		"2024-01-27 18:04:17 | actor removed Crazed Mage (ungrouped)", -- [16]
+		"2024-01-27 18:04:17 | actor removed Wild Imp (ungrouped)", -- [17]
+		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [18]
+		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [19]
+		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [20]
+		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [21]
+		"2024-01-22 22:45:07 | actor removed Ogre Shadowcaster (ungrouped)", -- [22]
+		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [23]
+		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [24]
 		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [25]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [26]
-		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [27]
-		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [28]
-		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [29]
+		"2024-01-22 22:45:07 | actor removed Behindjoo (ungrouped)", -- [26]
+		"2024-01-22 22:45:07 | actor removed Pikyerpoison (ungrouped)", -- [27]
+		"2024-01-22 22:45:07 | actor removed Massacree (ungrouped)", -- [28]
+		"2024-01-22 22:45:07 | actor removed Mcstabinator (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
 	},

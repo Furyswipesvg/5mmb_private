@@ -1,0 +1,37 @@
+VER 3 0100000000000003 "JAB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] jab
+/cast [mod:alt] guard
+/startattack [nomod]
+/cast [mod:ctrl,@player] detox
+END
+VER 3 0100000000000002 "KEG" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] keg smash
+/cast [mod:alt] provoke
+/startattack [nomod]
+/cast [mod:ctrl] zen sphere
+/cast [nomod] elusive brew
+END
+VER 3 0100000000000006 "MONK_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MONK_TURBO RightButton; [button:3] MONK_TURBO MiddleButton; [button:4] MONK_TURBO Button4; [button:5] MONK_TURBO Button5; MONK_TURBO
+END
+VER 3 0100000000000001 "roll" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] roll
+/cast [mod:alt] touch of death
+/cast [mod:ctrl] disable
+END
+VER 3 0100000000000004 "tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] tiger palm
+/cast [mod:alt] expel harm
+/startattack [nomod]
+/cast [mod:ctrl,flyable] azure netherwing drake
+/cast [mod:ctrl] swift zulian tiger
+END
+VER 3 0100000000000005 "W/W_ONE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] W/W_ONE RightButton; [button:3] W/W_ONE MiddleButton; [button:4] W/W_ONE Button4; [button:5] W/W_ONE Button5; W/W_ONE
+END

@@ -1,0 +1,16 @@
+
+PetBattleMaster_AutoLoadTeams = {
+	["modules"] = {
+	},
+	["baseName"] = "PetBattleMaster_AutoLoadTeams",
+	["name"] = "PetBattleMaster_AutoLoadTeams",
+	["profileKeys"] = {
+		["Palia - Nathrezim"] = "Default",
+	},
+	["defaultModuleState"] = true,
+	["defaultModuleLibraries"] = {
+	},
+	["enabledState"] = true,
+	["orderedModules"] = {
+	},
+}

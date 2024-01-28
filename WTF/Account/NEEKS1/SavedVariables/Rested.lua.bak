@@ -1,0 +1,18 @@
+
+Rested_restedState = {
+	["Nathrezim"] = {
+		["Skadooch"] = {
+			["updated"] = 1353877543,
+			["isResting"] = 1,
+			["restedPC"] = 19.67844092570037,
+			["xpNow"] = 356214,
+			["xpMax"] = 821000,
+			["initAt"] = 1353877504,
+			["lvlNow"] = 71,
+		},
+	},
+}
+Rested_options = {
+	["maxStale"] = 10,
+	["maxCutOff"] = 7,
+}

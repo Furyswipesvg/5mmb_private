@@ -36,8 +36,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161032,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D1",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -242,7 +242,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D1",
 							["nome"] = "Bilbro",
 							["custom"] = 0,
 							["last_event"] = 1706161019,
@@ -277,8 +277,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161032,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D2",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -456,7 +456,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D2",
 							["nome"] = "Bromedown",
 							["custom"] = 0,
 							["last_event"] = 1706161019,
@@ -491,8 +491,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161032,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86CE",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -670,7 +670,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86CE",
 							["nome"] = "Broyota",
 							["custom"] = 0,
 							["last_event"] = 1706161018,
@@ -705,8 +705,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161032,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86CF",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -884,7 +884,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86CF",
 							["nome"] = "Brotarecall",
 							["custom"] = 0,
 							["last_event"] = 1706161019,
@@ -919,8 +919,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161032,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D3",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1098,7 +1098,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D3",
 							["nome"] = "Brolly",
 							["custom"] = 0,
 							["last_event"] = 1706161019,
@@ -1555,15 +1555,15 @@ _detalhes_database = {
 							["targets"] = {
 								["Bilbro"] = 20,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.004998,
 							["healing_taken"] = 20.004998,
-							["start_time"] = 1706161031,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706161032,
-							["aID"] = "1147-094D86D1",
 							["healing_from"] = {
 								["Bilbro"] = true,
 							},
+							["start_time"] = 1706161031,
 							["nome"] = "Bilbro",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1596,13 +1596,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D1",
 							["last_event"] = 1706161015,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004998,
 							["delay"] = 1706161015,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -1626,14 +1626,14 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.006939,
 							["healing_taken"] = 0.006939,
-							["start_time"] = 1706161031,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706161032,
-							["aID"] = "1147-094D86D3",
 							["healing_from"] = {
 							},
+							["start_time"] = 1706161031,
 							["nome"] = "Brolly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1667,13 +1667,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D3",
 							["last_event"] = 1706161003,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006939,
 							["delay"] = 1706161003,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
@@ -1808,14 +1808,14 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.00797,
 							["healing_taken"] = 0.00797,
-							["start_time"] = 1706161031,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706161032,
-							["aID"] = "1147-094D86CF",
 							["healing_from"] = {
 							},
+							["start_time"] = 1706161031,
 							["nome"] = "Brotarecall",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1849,13 +1849,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86CF",
 							["last_event"] = 1706161004,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00797,
 							["delay"] = 1706161004,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [5]
 						{
 							["flag_original"] = 1297,
@@ -1879,14 +1879,14 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.005378,
 							["healing_taken"] = 0.005378,
-							["start_time"] = 1706161031,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706161032,
-							["aID"] = "1147-094D86CE",
 							["healing_from"] = {
 							},
+							["start_time"] = 1706161031,
 							["nome"] = "Broyota",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1920,13 +1920,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86CE",
 							["last_event"] = 1706161009,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005378,
 							["delay"] = 1706161009,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [6]
 						{
 							["flag_original"] = 1298,
@@ -1950,15 +1950,15 @@ _detalhes_database = {
 							["targets"] = {
 								["Bromedown"] = 12,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.004497,
 							["healing_taken"] = 12.004497,
-							["start_time"] = 1706161031,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706161032,
-							["aID"] = "1147-094D86D2",
 							["healing_from"] = {
 								["Bromedown"] = true,
 							},
+							["start_time"] = 1706161031,
 							["nome"] = "Bromedown",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1991,13 +1991,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D2",
 							["last_event"] = 1706161010,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004497,
 							["delay"] = 1706161010,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [7]
 					},
 				}, -- [2]
@@ -2189,16 +2189,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Bilbro",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Bilbro",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D1",
-							["serial"] = "Player-1147-094D86D1",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706161032,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D1",
+							["aID"] = "1147-094D86D1",
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -2256,16 +2256,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Bromedown",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Bromedown",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D2",
-							["serial"] = "Player-1147-094D86D2",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706161032,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D2",
+							["aID"] = "1147-094D86D2",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -2311,16 +2311,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Brolly",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Brolly",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D3",
-							["serial"] = "Player-1147-094D86D3",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706161032,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D3",
+							["aID"] = "1147-094D86D3",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -2366,16 +2366,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Brotarecall",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Brotarecall",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86CF",
-							["serial"] = "Player-1147-094D86CF",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706161032,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86CF",
+							["aID"] = "1147-094D86CF",
 						}, -- [5]
 						{
 							["flag_original"] = 1047,
@@ -2421,16 +2421,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Broyota",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86CE",
-							["serial"] = "Player-1147-094D86CE",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706161032,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86CE",
+							["aID"] = "1147-094D86CE",
 						}, -- [6]
 						{
 							["flag_original"] = 2584,
@@ -2489,7 +2489,7 @@ _detalhes_database = {
 				},
 				["combat_counter"] = 97,
 				["totals"] = {
-					3040, -- [1]
+					3533, -- [1]
 					302, -- [2]
 					{
 						0, -- [1]
@@ -2532,11 +2532,12 @@ _detalhes_database = {
 						["Charge"] = 2,
 						["Shield Slam"] = 1,
 					},
-					["Brolly"] = {
+					["Bilbro"] = {
 						["Eviscerate"] = 2,
 						["Slice and Dice"] = 1,
-						["Sinister Strike"] = 3,
 						["Shadowstrike"] = 1,
+						["Shiv"] = 1,
+						["Sinister Strike"] = 2,
 					},
 					["Brotarecall"] = {
 						["Eviscerate"] = 1,
@@ -2553,12 +2554,11 @@ _detalhes_database = {
 						["Lightning Bolt"] = 3,
 						["Healing Surge"] = 3,
 					},
-					["Bilbro"] = {
+					["Brolly"] = {
 						["Eviscerate"] = 2,
 						["Slice and Dice"] = 1,
+						["Sinister Strike"] = 3,
 						["Shadowstrike"] = 1,
-						["Shiv"] = 1,
-						["Sinister Strike"] = 2,
 					},
 				},
 				["instance_type"] = "party",
@@ -2687,8 +2687,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160933,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86CE",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2894,7 +2894,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86CE",
 							["nome"] = "Broyota",
 							["custom"] = 0,
 							["last_event"] = 1706160932,
@@ -2930,8 +2930,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160761,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D1",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3108,7 +3108,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D1",
 							["nome"] = "Bilbro",
 							["custom"] = 0,
 							["last_event"] = 1706160761,
@@ -3144,8 +3144,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160761,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D2",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3323,7 +3323,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D2",
 							["nome"] = "Bromedown",
 							["custom"] = 0,
 							["last_event"] = 1706160761,
@@ -3359,8 +3359,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160761,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86D3",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3538,7 +3538,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86D3",
 							["nome"] = "Brolly",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -3574,8 +3574,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160761,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D86CF",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3752,7 +3752,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D86CF",
 							["nome"] = "Brotarecall",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -4191,16 +4191,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Brotarecall"] = 18,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.003156,
 							["healing_taken"] = 89.003156,
-							["start_time"] = 1706160757,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706160761,
-							["aID"] = "1147-094D86CF",
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Brotarecall"] = true,
 							},
+							["start_time"] = 1706160757,
 							["nome"] = "Brotarecall",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4234,13 +4234,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86CF",
 							["last_event"] = 1706160757,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003156,
 							["delay"] = 1706160730,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -4264,16 +4264,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Bromedown"] = 18,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.005511,
 							["healing_taken"] = 168.005511,
-							["start_time"] = 1706160760,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706160761,
-							["aID"] = "1147-094D86D2",
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Bromedown"] = true,
 							},
+							["start_time"] = 1706160760,
 							["nome"] = "Bromedown",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4306,13 +4306,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D2",
 							["last_event"] = 1706160747,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005511,
 							["delay"] = 1706160747,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -4337,16 +4337,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Brolly"] = 9,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.003386,
 							["healing_taken"] = 80.003386,
-							["start_time"] = 1706160752,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706160761,
-							["aID"] = "1147-094D86D3",
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Brolly"] = true,
 							},
+							["start_time"] = 1706160752,
 							["nome"] = "Brolly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4380,13 +4380,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D3",
 							["last_event"] = 1706160752,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003386,
 							["delay"] = 1706160732,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [3]
 						{
 							["flag_original"] = 1297,
@@ -4410,16 +4410,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 18,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.001097,
 							["healing_taken"] = 157.001097,
-							["start_time"] = 1706160756,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706160761,
-							["aID"] = "1147-094D86CE",
 							["healing_from"] = {
 								["Broyota"] = true,
 								["Shuja Grimaxe"] = true,
 							},
+							["start_time"] = 1706160756,
 							["nome"] = "Broyota",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4452,13 +4452,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86CE",
 							["last_event"] = 1706160756,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001097,
 							["delay"] = 1706160732,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -4483,16 +4483,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Bilbro"] = 18,
 							},
-							["spec"] = 260,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.006695,
 							["healing_taken"] = 92.006695,
-							["start_time"] = 1706160760,
+							["heal_enemy_amt"] = 0,
 							["end_time"] = 1706160761,
-							["aID"] = "1147-094D86D1",
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Bilbro"] = true,
 							},
+							["start_time"] = 1706160760,
 							["nome"] = "Bilbro",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4526,13 +4526,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D86D1",
 							["last_event"] = 1706160750,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006695,
 							["delay"] = 1706160750,
-							["boss_fight_component"] = true,
+							["spec"] = 260,
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
@@ -4847,16 +4847,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Bromedown",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Bromedown",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D2",
-							["serial"] = "Player-1147-094D86D2",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706160761,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D2",
+							["aID"] = "1147-094D86D2",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -4891,16 +4891,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Brolly",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Brolly",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D3",
-							["serial"] = "Player-1147-094D86D3",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706160761,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D3",
+							["aID"] = "1147-094D86D3",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -4935,16 +4935,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Bilbro",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Bilbro",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86D1",
-							["serial"] = "Player-1147-094D86D1",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706160761,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86D1",
+							["aID"] = "1147-094D86D1",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -4979,16 +4979,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Brotarecall",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["nome"] = "Brotarecall",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86CF",
-							["serial"] = "Player-1147-094D86CF",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706160761,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86CF",
+							["aID"] = "1147-094D86CF",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -5023,16 +5023,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Broyota",
-							["tipo"] = 4,
-							["aID"] = "1147-094D86CE",
-							["serial"] = "Player-1147-094D86CE",
+							["boss_fight_component"] = true,
 							["last_event"] = 1706160761,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D86CE",
+							["aID"] = "1147-094D86CE",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
@@ -6513,7 +6513,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.004155,
 							["healing_taken"] = 8.004155,
 							["fight_component"] = true,
@@ -6559,7 +6559,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.004155,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
@@ -6829,7 +6829,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 14,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315496] = {
@@ -6869,7 +6869,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -6879,7 +6879,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -7145,16 +7145,16 @@ _detalhes_database = {
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
 					["Brotarecall"] = {
-						["Slice and Dice"] = 1,
-						["Stealth"] = 1,
-						["Sinister Strike"] = 1,
 						["Ambush"] = 1,
+						["Slice and Dice"] = 1,
+						["Sinister Strike"] = 1,
+						["Stealth"] = 1,
 					},
 					["Bromedown"] = {
-						["Slice and Dice"] = 1,
-						["Stealth"] = 1,
-						["Sinister Strike"] = 1,
 						["Ambush"] = 1,
+						["Slice and Dice"] = 1,
+						["Sinister Strike"] = 1,
+						["Stealth"] = 1,
 					},
 					["Bilbro"] = {
 						["Eviscerate"] = 1,
@@ -7166,10 +7166,10 @@ _detalhes_database = {
 						["Stealth"] = 1,
 					},
 					["Brolly"] = {
-						["Slice and Dice"] = 1,
-						["Stealth"] = 1,
-						["Sinister Strike"] = 1,
 						["Ambush"] = 1,
+						["Slice and Dice"] = 1,
+						["Sinister Strike"] = 1,
+						["Stealth"] = 1,
 					},
 				},
 				["instance_type"] = "none",
@@ -10029,7 +10029,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.001834,
 							["healing_taken"] = 8.001834,
 							["fight_component"] = true,
@@ -10075,7 +10075,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.001834,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -10204,7 +10204,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 9,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -10233,7 +10233,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -10243,7 +10243,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -11085,7 +11085,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.003706,
 							["healing_taken"] = 8.003706,
 							["fight_component"] = true,
@@ -11131,7 +11131,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.003706,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -11433,7 +11433,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 11,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315496] = {
@@ -11473,7 +11473,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -11483,7 +11483,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [5]
 					},
 				}, -- [4]
@@ -13134,7 +13134,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.001321,
 							["healing_taken"] = 8.001321,
 							["fight_component"] = true,
@@ -13180,7 +13180,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.001321,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -13197,7 +13197,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 8,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -13215,7 +13215,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -13225,7 +13225,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -13923,7 +13923,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.001203,
 							["healing_taken"] = 8.001203,
 							["fight_component"] = true,
@@ -13969,7 +13969,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.001203,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -14015,7 +14015,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 2,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -14033,7 +14033,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -14043,7 +14043,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -14542,7 +14542,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.002739,
 							["healing_taken"] = 8.002739,
 							["fight_component"] = true,
@@ -14588,7 +14588,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.002739,
 							["delay"] = 1706159986,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -14605,7 +14605,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 18,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1784] = {
@@ -14634,7 +14634,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -14644,7 +14644,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15497,7 +15497,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 8,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.008272,
 							["healing_taken"] = 8.008272,
 							["fight_component"] = true,
@@ -15543,7 +15543,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.008272,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -15589,7 +15589,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 15,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315496] = {
@@ -15629,7 +15629,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -15639,7 +15639,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -16912,7 +16912,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Broyota"] = 9,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["totalover_without_pet"] = 0.005784,
 							["healing_taken"] = 9.005784,
 							["fight_component"] = true,
@@ -16958,7 +16958,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["totaldenied"] = 0.005784,
 							["delay"] = 0,
-							["aID"] = "1147-094D86CE",
+							["spec"] = 260,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -17004,7 +17004,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 6,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D86CE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -17022,7 +17022,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D86CE",
+							["tipo"] = 4,
 							["nome"] = "Broyota",
 							["buff_uptime_targets"] = {
 							},
@@ -17032,7 +17032,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D86CE",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -21529,12 +21529,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 7.004505,
 							["total_without_pet"] = 1.004505,
 							["total"] = 1.004505,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21552,7 +21551,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Bilbro"] = true,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86D1",
 							["nome"] = "Bilbro",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21587,12 +21586,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706158953,
-							["aID"] = "1147-094D86D1",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004505,
 							["delay"] = 1706158904,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -21601,12 +21601,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.008825,
 							["total_without_pet"] = 7.008825,
 							["total"] = 7.008825,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21624,7 +21623,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Broyota"] = true,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CE",
 							["nome"] = "Broyota",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21658,12 +21657,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706158953,
-							["aID"] = "1147-094D86CE",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008825,
 							["delay"] = 1706158907,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -21673,12 +21673,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 6.006993,
 							["total_without_pet"] = 9.006993,
 							["total"] = 9.006993,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21696,7 +21695,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Brotarecall"] = true,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86CF",
 							["nome"] = "Brotarecall",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21731,12 +21730,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706158945,
-							["aID"] = "1147-094D86CF",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006993,
 							["delay"] = 1706158916,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
@@ -21746,12 +21746,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 7.002444,
 							["total_without_pet"] = 9.002444,
 							["total"] = 9.002444,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21769,7 +21768,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Bromedown"] = true,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86D2",
 							["nome"] = "Bromedown",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21804,12 +21803,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706158945,
-							["aID"] = "1147-094D86D2",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002444,
 							["delay"] = 1706158927,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -21819,12 +21819,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 5.005142,
 							["total_without_pet"] = 2.005142,
 							["total"] = 2.005142,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21842,7 +21841,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Brolly"] = true,
 							},
-							["spec"] = 260,
+							["aID"] = "1147-094D86D3",
 							["nome"] = "Brolly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21877,12 +21876,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706158953,
-							["aID"] = "1147-094D86D3",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005142,
 							["delay"] = 1706158935,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [5]
 					},
 				}, -- [2]
@@ -26640,10 +26640,10 @@ _detalhes_database = {
 			["defensive-personal"] = false,
 		},
 		["width"] = 120,
-		["cooldowns"] = {
-		},
 		["height"] = 18,
 		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
@@ -26693,10 +26693,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -223.7167358398438,
-					["x"] = 654.0875244140625,
-					["w"] = 310,
-					["h"] = 157.9998931884766,
+					["y"] = -223.7169799804688,
+					["x"] = 659.5784912109375,
+					["w"] = 310.0001525878906,
+					["h"] = 158,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -26765,23 +26765,22 @@ _detalhes_database = {
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
-	["on_death_menu"] = false,
+	["data_harvested_for_charts"] = {
+	},
 	["mythic_plus_log"] = {
+	},
+	["on_death_menu"] = false,
+	["cached_roles"] = {
 	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1707441985,
 		["last_version"] = 16,
 	},
-	["cached_roles"] = {
-	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
-	["combat_counter"] = 98,
+	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["enabled"] = true,
@@ -26930,9 +26929,9 @@ _detalhes_database = {
 	["combat_id"] = 87,
 	["savedStyles"] = {
 	},
-	["last_day"] = "25",
+	["last_day"] = "27",
 	["character_data"] = {
-		["logons"] = 7,
+		["logons"] = 15,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -26980,8 +26979,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160617,
-					["on_hold"] = false,
 					["aID"] = "1147-094D86CE",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -27334,8 +27333,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160617,
-					["on_hold"] = false,
 					["aID"] = "1147-094D86D1",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -27616,8 +27615,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160617,
-					["on_hold"] = false,
 					["aID"] = "1147-094D86D2",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -27895,8 +27894,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160617,
-					["on_hold"] = false,
 					["aID"] = "1147-094D86D3",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -28174,8 +28173,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160617,
-					["on_hold"] = false,
 					["aID"] = "1147-094D86CF",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -28482,9 +28481,9 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 86,
 								["a_amt"] = 0,
-								["total"] = 410,
-								["c_max"] = 9,
 								["r_amt"] = 0,
+								["c_max"] = 9,
+								["n_max"] = 7,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -28496,7 +28495,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 44,
 								["n_amt"] = 66,
-								["n_max"] = 7,
+								["total"] = 410,
 								["MISS"] = 6,
 							}, -- [1]
 							[283408] = {
@@ -29606,7 +29605,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "ROGUE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 37.037005,
 					["total_without_pet"] = 85.037005,
 					["total"] = 85.037005,
@@ -29620,18 +29619,19 @@ _detalhes_database = {
 					["targets"] = {
 						["Broyota"] = 85,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094D86CE",
 					["totalover_without_pet"] = 0.037005,
 					["healing_taken"] = 224.037005,
+					["start_time"] = 1706160577,
+					["fight_component"] = true,
+					["end_time"] = 1706160617,
 					["healing_from"] = {
 						["Broyota"] = true,
 						["Shuja Grimaxe"] = true,
 					},
-					["fight_component"] = true,
-					["end_time"] = 1706160617,
-					["aID"] = "1147-094D86CE",
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Broyota",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -29664,14 +29664,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160577,
+					["classe"] = "ROGUE",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.037005,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
@@ -29681,7 +29680,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "ROGUE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 51.047777,
 					["total_without_pet"] = 85.047777,
 					["total"] = 85.047777,
@@ -29695,18 +29694,19 @@ _detalhes_database = {
 					["targets"] = {
 						["Bromedown"] = 85,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094D86D2",
 					["totalover_without_pet"] = 0.047777,
 					["healing_taken"] = 484.047777,
+					["start_time"] = 1706160586,
+					["fight_component"] = true,
+					["end_time"] = 1706160617,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Bromedown"] = true,
 					},
-					["fight_component"] = true,
-					["end_time"] = 1706160617,
-					["aID"] = "1147-094D86D2",
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Bromedown",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -29739,14 +29739,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160586,
+					["classe"] = "ROGUE",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.047777,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
@@ -29880,7 +29879,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "ROGUE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 75.034279,
 					["total_without_pet"] = 49.034279,
 					["total"] = 49.034279,
@@ -29894,18 +29893,19 @@ _detalhes_database = {
 					["targets"] = {
 						["Brolly"] = 49,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094D86D3",
 					["totalover_without_pet"] = 0.034279,
 					["healing_taken"] = 281.034279,
+					["start_time"] = 1706160581,
+					["fight_component"] = true,
+					["end_time"] = 1706160617,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Brolly"] = true,
 					},
-					["fight_component"] = true,
-					["end_time"] = 1706160617,
-					["aID"] = "1147-094D86D3",
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Brolly",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -29938,14 +29938,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160581,
+					["classe"] = "ROGUE",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.034279,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 1298,
@@ -29955,7 +29954,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "ROGUE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 59.059487,
 					["total_without_pet"] = 65.059487,
 					["total"] = 65.059487,
@@ -29969,18 +29968,19 @@ _detalhes_database = {
 					["targets"] = {
 						["Brotarecall"] = 65,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094D86CF",
 					["totalover_without_pet"] = 0.059487,
 					["healing_taken"] = 215.059487,
+					["start_time"] = 1706160580,
+					["fight_component"] = true,
+					["end_time"] = 1706160617,
 					["healing_from"] = {
 						["Brotarecall"] = true,
 						["Shuja Grimaxe"] = true,
 					},
-					["fight_component"] = true,
-					["end_time"] = 1706160617,
-					["aID"] = "1147-094D86CF",
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Brotarecall",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -30013,14 +30013,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160580,
+					["classe"] = "ROGUE",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.059487,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 1298,
@@ -30030,7 +30029,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "ROGUE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 60.048208,
 					["total_without_pet"] = 65.048208,
 					["total"] = 65.048208,
@@ -30044,18 +30043,19 @@ _detalhes_database = {
 					["targets"] = {
 						["Bilbro"] = 65,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094D86D1",
 					["totalover_without_pet"] = 0.048208,
 					["healing_taken"] = 370.0482079999999,
+					["start_time"] = 1706160626,
+					["fight_component"] = true,
+					["end_time"] = 1706160652,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Bilbro"] = true,
 					},
-					["fight_component"] = true,
-					["end_time"] = 1706160652,
-					["aID"] = "1147-094D86D1",
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Bilbro",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -30088,14 +30088,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160626,
+					["classe"] = "ROGUE",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.048208,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [7]
 			},
 		}, -- [2]
@@ -30104,7 +30103,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1298,
-					["resource"] = 62.079443,
+					["resource"] = 262.383371,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D86D2",
@@ -30119,7 +30118,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.041452,
 					["last_event"] = 0,
-					["nome"] = "Bromedown",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -30129,12 +30128,12 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["totalover"] = 0.002,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Bromedown",
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["resource"] = 73.16959,
+					["resource"] = 466.126742,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -30149,7 +30148,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.049946,
 					["last_event"] = 0,
-					["nome"] = "Broyota",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -30159,12 +30158,12 @@ _detalhes_database = {
 					["aID"] = "1147-094D86CE",
 					["totalover"] = 0.00643,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Broyota",
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 68.09453099999999,
+					["resource"] = 308.4688670000001,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D86D3",
@@ -30179,7 +30178,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.047739,
 					["last_event"] = 0,
-					["nome"] = "Brolly",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -30189,12 +30188,12 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["totalover"] = 0.006264,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Brolly",
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 65.077604,
+					["resource"] = 289.4165320000002,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -30209,7 +30208,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.035238,
 					["last_event"] = 0,
-					["nome"] = "Brotarecall",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -30219,12 +30218,12 @@ _detalhes_database = {
 					["aID"] = "1147-094D86CF",
 					["totalover"] = 0.008022,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Brotarecall",
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 56.084768,
+					["resource"] = 216.367952,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D86D1",
@@ -30239,7 +30238,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.04937,
 					["last_event"] = 0,
-					["nome"] = "Bilbro",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -30249,8 +30248,8 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["totalover"] = 0.007394,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Bilbro",
 				}, -- [5]
 			},
 		}, -- [3]
@@ -30310,9 +30309,9 @@ _detalhes_database = {
 					},
 					["spec"] = 260,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D86D2",
 					["aID"] = "1147-094D86D2",
 				}, -- [1]
@@ -30369,11 +30368,11 @@ _detalhes_database = {
 					["nome"] = "Brolly",
 					["spec"] = 260,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["aID"] = "1147-094D86D3",
-					["serial"] = "Player-1147-094D86D3",
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Player-1147-094D86D3",
+					["aID"] = "1147-094D86D3",
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
@@ -30428,11 +30427,11 @@ _detalhes_database = {
 					["nome"] = "Bilbro",
 					["spec"] = 260,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["aID"] = "1147-094D86D1",
-					["serial"] = "Player-1147-094D86D1",
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Player-1147-094D86D1",
+					["aID"] = "1147-094D86D1",
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
@@ -30487,9 +30486,9 @@ _detalhes_database = {
 					},
 					["spec"] = 260,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D86CF",
 					["aID"] = "1147-094D86CF",
 				}, -- [4]
@@ -30546,9 +30545,9 @@ _detalhes_database = {
 					},
 					["spec"] = 261,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D86CE",
 					["aID"] = "1147-094D86CE",
 				}, -- [5]
@@ -30644,91 +30643,91 @@ _detalhes_database = {
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "153581",
+					["fight_component"] = true,
 					["nome"] = "Grunk",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
 					["last_event"] = 0,
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153239-000031EF4B",
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "153239",
+					["fight_component"] = true,
 					["nome"] = "Ogre Brute",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3884-2175-7008-153239-000031EF4B",
 					["last_event"] = 0,
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153242-000031ECF3",
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "153242",
+					["fight_component"] = true,
 					["nome"] = "Ogre Shadowcaster",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3884-2175-7008-153242-000031ECF3",
 					["last_event"] = 0,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "153582",
+					["fight_component"] = true,
 					["nome"] = "Wug",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
 					["last_event"] = 0,
 				}, -- [16]
 				{
 					["flag_original"] = 2584,
-					["tipo"] = 4,
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-3884-2175-7008-163036-0004B1EB2C",
 					["aID"] = "163036",
+					["fight_component"] = true,
 					["nome"] = "Ogre Berserker",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-7008-163036-0004B1EB2C",
+					["tipo"] = 4,
 				}, -- [17]
 				{
 					["flag_original"] = 2600,
-					["tipo"] = 4,
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-3884-2175-7008-163036-000031EB2C",
 					["aID"] = "163036",
+					["fight_component"] = true,
 					["nome"] = "Gutgruk the Tough",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-7008-163036-000031EB2C",
+					["tipo"] = 4,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153266-000031E604",
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "153266",
+					["fight_component"] = true,
 					["nome"] = "Killclaw the Terrible",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3884-2175-7008-153266-000031E604",
 					["last_event"] = 0,
 				}, -- [19]
 			},
@@ -30886,13 +30885,6 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "21:30:06",
 		["end_time"] = 80751.82,
-		["frags"] = {
-		},
-		["is_challenge"] = false,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = "21:38:32",
-		["overall_enemy_name"] = "-- x -- x --",
 		["segments_added"] = {
 			{
 				["elapsed"] = 73.07700000000477,
@@ -30943,6 +30935,13 @@ _detalhes_database = {
 				["clock"] = "21:30:06",
 			}, -- [8]
 		},
+		["is_challenge"] = false,
+		["frags"] = {
+		},
+		["data_fim"] = "21:38:32",
+		["overall_enemy_name"] = "-- x -- x --",
+		["spells_cast_timeline"] = {
+		},
 		["cleu_timeline"] = {
 		},
 		["start_time"] = 80541.91700000003,
@@ -30954,9 +30953,10 @@ _detalhes_database = {
 		},
 	},
 	["last_realversion"] = 155,
-	["data_harvested_for_charts"] = {
+	["combat_counter"] = 98,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
-	["ignore_nicktag"] = false,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -30973,6 +30973,5 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1147-094D86CE"] = 261,
 	},
 }

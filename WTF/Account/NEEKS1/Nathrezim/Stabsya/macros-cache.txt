@@ -1,0 +1,116 @@
+VER 3 0100000000000002 "amb" "INV_Misc_QuestionMark"
+#showtooltip ambush
+/cast [nocombat] pick pocket
+/stopcasting
+/cast [equipped:daggers] ambush
+/cast [equipped:daggers] cold blood
+END
+VER 3 0100000000000006 "bandage" "Ability_Druid_EmpoweredRejuvination"
+/use [target=player] HEAVY FROSTWEAVE bandage
+/use [target=player] FROSTWEAVE bandage
+/use [target=player] Heavy Netherweave Bandage
+/use [target=player] Netherweave Bandage
+/use [target=player] heavy mageweave bandage
+END
+VER 3 0100000000000009 "bfar" "Ability_CheapShot"
+#showtooltip adrenaline rush
+/cast [modifier:ctrl] Red Skeletal Horse
+/cast [modifier:alt] rupture
+/castsequence reset=combat blade flurry, adrenaline rush
+END
+VER 3 0100000000000007 "bsrup" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:alt] rupture
+/cast [mod:ctrl] envenom
+/cast [equipped:daggers] backstab
+/startattack [nomod]
+END
+VER 3 010000000000000F "cos" "INV_Misc_QuestionMark"
+#showtooltip
+/cast cloak of shadows
+/cast vanish
+END
+VER 3 0100000000000003 "cs" "INV_Misc_QuestionMark"
+#showtooltip cheap shot
+/cast [nocombat] pick pocket
+/stopcasting
+/cast cheap shot
+/startattack
+END
+VER 3 0100000000000013 "deadly" "INV_Misc_QuestionMark"
+#showtooltip
+/cast deadly throw
+/cast throw
+/cast cold blood
+/startattack
+END
+VER 3 010000000000000C "env" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:alt] dispatch
+/cast [mod:ctrl] envenom
+/cast [mod:ctrl] cold blood
+/cast [nomod] envenom
+/startattack [nomod]
+/use [combat] Juju of Nimbleness
+END
+VER 3 010000000000000E "garr" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl,noflyable] Red Skeletal Horse
+/cast [mod:ctrl] green wind rider
+/cast [modifier:alt] backstab
+/cast [nomod] garrote
+END
+VER 3 0100000000000005 "gouge" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl] blind
+/cast [modifier:alt] kidney shot
+/cast gouge
+END
+VER 3 0100000000000011 "kick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] kick
+/cast [mod:ctrl] cannibalize
+END
+VER 3 010000000000000B "mut" "INV_Misc_QuestionMark"
+/cast [nocombat, nostealth] stealth
+/cast [mod:alt] slice and dice
+/cast [mod:ctrl] eviscerate
+/cast [nomod] mutilate
+/startattack [nostealth,combat]
+/use [combat] warsong's fervor
+/use [combat] First Mate's Pocketwatch
+END
+VER 3 0100000000000010 "poison" "INV_Misc_QuestionMark"
+#showtooltip 
+/use [btn:1] Instant Poison; [btn:2] Deadly Poison 
+/use [btn:1] 16; [btn:2] 17
+/click StaticPopup1Button1
+END
+VER 3 0100000000000008 "pot" "INV_Misc_QuestionMark"
+/use runic healing potion
+/use Super Healing Potion
+/use major healing potion
+/use Greater Healing Potion
+END
+VER 3 0100000000000001 "ss" "INV_Misc_QuestionMark"
+/cast [nocombat, nostealth] stealth
+/cast [modifier:alt] slice and dice
+/cast [mod:ctrl] eviscerate
+/cast [nomod] sinister strike
+/use Bladefist's Breadth
+END
+VER 3 0100000000000014 "tnt" "INV_Misc_QuestionMark"
+/cast [@focus] tricks of the trade
+END
+VER 3 010000000000000D "vend" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [modifier:ctrl,noflyable] Purple Skeletal warHorse
+/cast [mod:ctrl] green wind rider
+/cast [modifier:alt] fan of knives
+/cast [nomod] vendetta
+END
+VER 3 010000000000000A "wotf" "INV_Misc_QuestionMark"
+#showtooltip will of the forsaken
+/cast [nostealth,nocombat] stealth
+/cast [combat] will of the forsaken
+END

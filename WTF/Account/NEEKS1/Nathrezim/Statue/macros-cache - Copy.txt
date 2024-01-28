@@ -1,0 +1,48 @@
+MACRO64 0000000001000003 "corr" "INV_Misc_QuestionMark"
+/castsequence [nomod] reset=combat/target corruption,curse of agony, immolate
+/cast [mod:alt] rain of fire
+/petfollow [mod:ctrl]
+/starattack
+END
+MACRO64 0000000001000009 "corrup" "INV_Misc_QuestionMark"
+/cast [nomod] corruption
+/use [nomod] Shifting Naaru Sliver
+/cast [mod:ctrl] swift purple hawkstrider
+/cast [mod:alt] seed of corruption
+END
+MACRO64 0000000001000007 "ds/dl" "INV_Misc_QuestionMark"
+/cast [nomod] drain soul
+/cast [mod:alt] drain life
+/cast [mod:ctrl] drain mana
+END
+MACRO64 0000000001000004 "fear" "INV_Misc_QuestionMark"
+/cast [nomod] fear
+/cast [mod:alt] drain life
+/cast [mod:ctrl] Health Funnel(Rank 8)
+END
+MACRO64 0000000001000002 "insig" "INV_Misc_QuestionMark"
+/use [nomod] insignia of the horde
+/cast [mod:alt] shoot
+END
+MACRO64 0000000001000008 "kickass" "INV_Misc_QuestionMark"
+/cast Demonic Empowerment
+/petattack
+END
+MACRO64 0000000001000006 "sb" "INV_Misc_QuestionMark"
+/cast [nomod] shadow bolt
+/cast [nomod] Shifting Naaru Sliver
+/cast [mod:alt] drain soul
+/cast [mod:ctrl] dreadsteed
+/assist pet
+END
+MACRO64 0000000001000005 "sc" "INV_Misc_QuestionMark"
+/cast [nomod] shadow cleave
+/cast [nomod] immolation aura
+/use [nomod] Shifting Naaru Sliver
+/cast [mod:alt] master healthstone
+/cast [mod:ctrl] challenging howl
+/starattack
+END
+MACRO64 0000000001000001 "send pet" "Ability_Ambush"
+/petattack
+END

@@ -1,3 +1,0 @@
-VER 3 0100000000000002 "getdeadguy" "136103"
-/run getdeadguy()
-END

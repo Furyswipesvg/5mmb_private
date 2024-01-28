@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Orclaw|Bladefist|Horde|20|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Orclaw - Bladefist"] = "Orclaw - Bladefist",
+	},
+	["profiles"] = {
+		["Orclaw - Bladefist"] = {
+		},
+	},
+}

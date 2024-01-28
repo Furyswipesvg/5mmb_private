@@ -1,0 +1,4263 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Rune Weapon <Anlnmate>"] = {
+			["GUID"] = "Creature-0-3778-1642-784-27893-00001EF9CA",
+			["TimeLast"] = {
+				["Damage"] = 485155.353,
+				["OVERALL"] = 485155.353,
+				["TimeDamage"] = 485155.353,
+				["ActiveTime"] = 485155.353,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					85, -- [1]
+				},
+				["TimeDamage"] = {
+					1.5, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["ownerName"] = "Anlnmate",
+			["NextEventNum"] = 2,
+			["LastDamageTime"] = 485155.37,
+			["LastEvents"] = {
+				"Rune Weapon <Anlnmate> Melee Nazmani Warrior Hit -85 (Physical)", -- [1]
+			},
+			["Name"] = "Rune Weapon",
+			["LastEventTimes"] = {
+				485155.37, -- [1]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 85,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 85,
+								},
+							},
+							["amount"] = 85,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 85,
+									["min"] = 85,
+									["count"] = 1,
+									["amount"] = 85,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 85,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Damage"] = 85,
+				},
+			},
+			["UnitLockout"] = 485155.353,
+			["LastActive"] = 485155.353,
+		},
+		["Rune Weapon <Nanoknight>"] = {
+			["GUID"] = "Creature-0-3778-1642-784-27893-00001EF9CF",
+			["TimeLast"] = {
+				["Damage"] = 485160.373,
+				["OVERALL"] = 485160.373,
+				["TimeDamage"] = 485160.373,
+				["ActiveTime"] = 485160.373,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					92, -- [1]
+				},
+				["TimeDamage"] = {
+					1.5, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["ownerName"] = "Nanoknight",
+			["NextEventNum"] = 2,
+			["LastDamageTime"] = 485160.573,
+			["LastEvents"] = {
+				"Rune Weapon <Nanoknight> Melee Nazmani Warrior Hit -92 (Physical)", -- [1]
+			},
+			["Name"] = "Rune Weapon",
+			["LastEventTimes"] = {
+				485160.573, -- [1]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 92,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 92,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 92,
+									["min"] = 92,
+									["count"] = 1,
+									["amount"] = 92,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 92,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Damage"] = 92,
+				},
+			},
+			["UnitLockout"] = 485160.373,
+			["LastActive"] = 485160.373,
+		},
+		["Nanoknight"] = {
+			["GUID"] = "Player-1138-0625DC22",
+			["TimeLast"] = {
+				["OVERALL"] = 486912.367,
+				["DamageTaken"] = 486912.367,
+				["HealingTaken"] = 486912.367,
+				["Overhealing"] = 485159.372,
+				["ActiveTime"] = 486897.367,
+				["TimeDamage"] = 486897.367,
+				["RunicPowerGain"] = 485160.373,
+				["Healing"] = 485160.373,
+				["Damage"] = 486897.367,
+			},
+			["LastAttackedBy"] = "Nazmani Warrior",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					38.96, -- [1]
+				},
+				["HealingTaken"] = {
+					15195, -- [1]
+				},
+				["Overhealing"] = {
+					76, -- [1]
+				},
+				["ActiveTime"] = {
+					38.96, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["RunicPowerGain"] = {
+					80, -- [1]
+				},
+				["DamageTaken"] = {
+					20099, -- [1]
+				},
+				["Damage"] = {
+					2214, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Nanoknight",
+			["LastDamageTaken"] = 43,
+			["level"] = 48,
+			["LastDamageAbility"] = "Bloodletting (DoT)",
+			["LastFightIn"] = 20,
+			["LastEventHealthMax"] = {
+				9481, -- [1]
+				9481, -- [2]
+				9481, -- [3]
+				9481, -- [4]
+				9481, -- [5]
+				9481, -- [6]
+				9481, -- [7]
+				9481, -- [8]
+				9481, -- [9]
+				9481, -- [10]
+				9481, -- [11]
+				9481, -- [12]
+				9481, -- [13]
+				9481, -- [14]
+				9481, -- [15]
+				9481, -- [16]
+				9481, -- [17]
+				9481, -- [18]
+				9481, -- [19]
+				9481, -- [20]
+				9481, -- [21]
+				9481, -- [22]
+				9481, -- [23]
+				9481, -- [24]
+				9481, -- [25]
+				9481, -- [26]
+				9481, -- [27]
+				9481, -- [28]
+				9481, -- [29]
+				9481, -- [30]
+				9481, -- [31]
+				9481, -- [32]
+				9481, -- [33]
+				9481, -- [34]
+				9481, -- [35]
+				9481, -- [36]
+				9481, -- [37]
+				9481, -- [38]
+				9481, -- [39]
+				9481, -- [40]
+				9481, -- [41]
+				9481, -- [42]
+				9481, -- [43]
+				9481, -- [44]
+				9481, -- [45]
+				9481, -- [46]
+				9481, -- [47]
+				9481, -- [48]
+				9481, -- [49]
+				9481, -- [50]
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Rune Weapon"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3778-1642-784-27893-00001EF9CF",
+					},
+				},
+			},
+			["LastEventHealth"] = {
+				9481, -- [1]
+				9481, -- [2]
+				9481, -- [3]
+				9481, -- [4]
+				9481, -- [5]
+				9481, -- [6]
+				9481, -- [7]
+				9481, -- [8]
+				9481, -- [9]
+				9481, -- [10]
+				9481, -- [11]
+				9481, -- [12]
+				9481, -- [13]
+				9481, -- [14]
+				9481, -- [15]
+				9481, -- [16]
+				9481, -- [17]
+				9481, -- [18]
+				9481, -- [19]
+				9481, -- [20]
+				9481, -- [21]
+				9481, -- [22]
+				9481, -- [23]
+				9481, -- [24]
+				9481, -- [25]
+				9481, -- [26]
+				9481, -- [27]
+				9481, -- [28]
+				9481, -- [29]
+				9481, -- [30]
+				9481, -- [31]
+				9481, -- [32]
+				9481, -- [33]
+				9481, -- [34]
+				9481, -- [35]
+				9481, -- [36]
+				9481, -- [37]
+				9481, -- [38]
+				9481, -- [39]
+				9481, -- [40]
+				9481, -- [41]
+				9481, -- [42]
+				9481, -- [43]
+				9481, -- [44]
+				9481, -- [45]
+				9481, -- [46]
+				9481, -- [47]
+				9481, -- [48]
+				9481, -- [49]
+				9481, -- [50]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Rune Weapon <Nanoknight>", -- [1]
+			},
+			["NextEventNum"] = 34,
+			["LastDamageTime"] = 486897.841,
+			["LastEvents"] = {
+				"Anltch-Illidan Wild Growth Nanoknight Crit +261 (261 Overheal)", -- [1]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +201 (201 Overheal)", -- [2]
+				"Anltch-Illidan Wild Growth Nanoknight Crit +249 (249 Overheal)", -- [3]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +117 (117 Overheal)", -- [4]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +113 (113 Overheal)", -- [5]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +106 (106 Overheal)", -- [6]
+				"Anltch-Illidan Wild Growth Nanoknight Crit +200 (200 Overheal)", -- [7]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +93 (93 Overheal)", -- [8]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +245 (245 Overheal)", -- [9]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +88 (88 Overheal)", -- [10]
+				"Anltch-Illidan Wild Growth Nanoknight Crit +54 (54 Overheal)", -- [11]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +245 (245 Overheal)", -- [12]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +122 (122 Overheal)", -- [13]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +248 (248 Overheal)", -- [14]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +126 (126 Overheal)", -- [15]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +124 (124 Overheal)", -- [16]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +126 (126 Overheal)", -- [17]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +118 (118 Overheal)", -- [18]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +113 (113 Overheal)", -- [19]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +106 (106 Overheal)", -- [20]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +254 (254 Overheal)", -- [21]
+				"Anlcon-Illidan Wild Growth Nanoknight Crit +198 (198 Overheal)", -- [22]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +93 (93 Overheal)", -- [23]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +124 (124 Overheal)", -- [24]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +87 (87 Overheal)", -- [25]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +81 (81 Overheal)", -- [26]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +123 (123 Overheal)", -- [27]
+				"Anlcon-Illidan Wild Growth Nanoknight Tick +29 (29 Overheal)", -- [28]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +163 (163 Overheal)", -- [29]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +253 (253 Overheal)", -- [30]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +126 (126 Overheal)", -- [31]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +120 (120 Overheal)", -- [32]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +124 (124 Overheal)", -- [33]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +91 (91 Overheal)", -- [34]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +87 (87 Overheal)", -- [35]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +11 (11 Overheal)", -- [36]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +136 (136 Overheal)", -- [37]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +131 (131 Overheal)", -- [38]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +124 (124 Overheal)", -- [39]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +117 (117 Overheal)", -- [40]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +111 (111 Overheal)", -- [41]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +105 (105 Overheal)", -- [42]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +120 (120 Overheal)", -- [43]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +99 (99 Overheal)", -- [44]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +92 (92 Overheal)", -- [45]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Hit +120 (120 Overheal)", -- [46]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +87 (87 Overheal)", -- [47]
+				"Anltem-Illidan Wild Growth Nanoknight Tick +11 (11 Overheal)", -- [48]
+				"Anltch-Illidan Wild Growth Nanoknight Tick +136 (136 Overheal)", -- [49]
+				"Thatslnsane-Illidan Healing Rain Nanoknight Crit +250 (250 Overheal)", -- [50]
+			},
+			["Name"] = "Nanoknight",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				486968.363, -- [1]
+				486969.072, -- [2]
+				486969.072, -- [3]
+				486969.874, -- [4]
+				486970.641, -- [5]
+				486971.374, -- [6]
+				486972.141, -- [7]
+				486972.941, -- [8]
+				486973.374, -- [9]
+				486973.574, -- [10]
+				486973.874, -- [11]
+				486978.674, -- [12]
+				486980.408, -- [13]
+				486982.208, -- [14]
+				486992.952, -- [15]
+				486993.875, -- [16]
+				486994.575, -- [17]
+				486994.708, -- [18]
+				486995.541, -- [19]
+				486996.308, -- [20]
+				486996.308, -- [21]
+				486997.208, -- [22]
+				486997.975, -- [23]
+				486998.108, -- [24]
+				486998.875, -- [25]
+				486999.742, -- [26]
+				486999.842, -- [27]
+				487000.042, -- [28]
+				487002.875, -- [29]
+				487004.875, -- [30]
+				487006.642, -- [31]
+				487010.208, -- [32]
+				487013.775, -- [33]
+				486940.059, -- [34]
+				486940.626, -- [35]
+				486940.626, -- [36]
+				486960.463, -- [37]
+				486961.296, -- [38]
+				486961.996, -- [39]
+				486962.83, -- [40]
+				486963.529, -- [41]
+				486964.396, -- [42]
+				486964.396, -- [43]
+				486965.163, -- [44]
+				486965.863, -- [45]
+				486965.996, -- [46]
+				486966.629, -- [47]
+				486966.729, -- [48]
+				486967.629, -- [49]
+				486967.729, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 386,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 386,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting"] = {
+									["count"] = 257,
+								},
+								["Bloodletting (DoT)"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 386,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 382,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["OverHeals"] = {
+						["Bone Spike Graveyard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 6.28,
+								},
+							},
+							["amount"] = 6.28,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 2246,
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["Overhealing"] = 0,
+					["ActiveTime"] = 6.28,
+					["ElementTaken"] = {
+						["Physical"] = 2246,
+					},
+					["Damage"] = 515,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 515,
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 500,
+					},
+					["ShieldedWho"] = {
+						["Nanoknight"] = {
+							["Details"] = {
+								["Anti-Magic Shell"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 138,
+									["min"] = 138,
+									["count"] = 1,
+									["amount"] = 138,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 138,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 43,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 86,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 86,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 138,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 276,
+						},
+					},
+					["Healing"] = 0,
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 1431,
+								},
+							},
+							["amount"] = 1431,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting (DoT)"] = {
+									["count"] = 301,
+								},
+								["Bloodletting"] = {
+									["count"] = 514,
+								},
+							},
+							["amount"] = 815,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["Bone Spike Graveyard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 142,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 515,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 515,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 1718,
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 515,
+								},
+							},
+							["amount"] = 515,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.28,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 6.28,
+								},
+							},
+							["amount"] = 6.28,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["RunicPowerGainedFrom"] = {
+						["Nanoknight"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 0,
+								},
+								["Death and Decay"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Nanoknight"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Nanoknight"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting"] = {
+									["count"] = 0,
+								},
+								["Bloodletting (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 344,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 43,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 344,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 44,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 44,
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 43,
+									["min"] = 43,
+									["count"] = 1,
+									["amount"] = 43,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 43,
+						},
+					},
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting"] = {
+									["count"] = 258,
+								},
+								["Bloodletting (DoT)"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 344,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 1.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 44,
+									["count"] = 1,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 44,
+						},
+					},
+					["HealingTaken"] = 296,
+					["RageGain"] = 0,
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1421,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 1421,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 1421,
+								},
+							},
+							["amount"] = 1421,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting"] = {
+									["count"] = 0,
+								},
+								["Bloodletting (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 883,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 387,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 387,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting (DoT)"] = {
+									["count"] = 129,
+								},
+								["Bloodletting"] = {
+									["count"] = 258,
+								},
+							},
+							["amount"] = 387,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 340,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 387,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 387,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting (DoT)"] = {
+									["count"] = 129,
+								},
+								["Bloodletting"] = {
+									["count"] = 258,
+								},
+							},
+							["amount"] = 387,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 340,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["OverHeals"] = {
+						["Bone Spike Graveyard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
+						},
+					},
+					["TimeSpent"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 34.49,
+								},
+							},
+							["amount"] = 34.49,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 0.23,
+								},
+								["Death and Decay"] = {
+									["count"] = 4.24,
+								},
+							},
+							["amount"] = 4.47,
+						},
+					},
+					["DamageTaken"] = 20099,
+					["PartialResist"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 84,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 84,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 30,
+						},
+					},
+					["Overhealing"] = 76,
+					["ActiveTime"] = 38.96,
+					["ElementTaken"] = {
+						["Physical"] = 20099,
+					},
+					["Damage"] = 2214,
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 1966,
+					},
+					["ElementDone"] = {
+						["Shadow"] = 127,
+						["Physical"] = 56,
+						["Nature"] = 2031,
+					},
+					["ShieldedWho"] = {
+						["Nanoknight"] = {
+							["Details"] = {
+								["Anti-Magic Shell"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 28,
+								},
+								["Hit"] = {
+									["count"] = 29,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 64,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 124,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Furious Charge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 138,
+									["min"] = 138,
+									["count"] = 2,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 276,
+						},
+						["Bloodletting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 64,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 44,
+									["min"] = 43,
+									["count"] = 20,
+									["amount"] = 862,
+								},
+							},
+							["count"] = 84,
+							["amount"] = 862,
+						},
+						["Bloodletting"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 138,
+									["min"] = 138,
+									["count"] = 6,
+									["amount"] = 828,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 828,
+						},
+					},
+					["Healing"] = 0,
+					["WhoDamaged"] = {
+						["Nazmani Ravager"] = {
+							["Details"] = {
+								["Furious Charge"] = {
+									["count"] = 11071,
+								},
+							},
+							["amount"] = 11071,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bloodletting (DoT)"] = {
+									["count"] = 3617,
+								},
+								["Bloodletting"] = {
+									["count"] = 5411,
+								},
+							},
+							["amount"] = 9028,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["Attacks"] = {
+						["Bone Spike Graveyard"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 56,
+									["min"] = 56,
+									["count"] = 1,
+									["amount"] = 56,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 56,
+						},
+						["Earthen Wall"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 142,
+									["min"] = 44,
+									["count"] = 28,
+									["amount"] = 2031,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 2031,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 1,
+									["amount"] = 52,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 24,
+									["count"] = 3,
+									["amount"] = 75,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 127,
+						},
+					},
+					["HealingTaken"] = 15195,
+					["DamagedWho"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 2031,
+								},
+							},
+							["amount"] = 2031,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 56,
+								},
+								["Death and Decay"] = {
+									["count"] = 127,
+								},
+							},
+							["amount"] = 183,
+						},
+					},
+					["TimeDamage"] = 38.96,
+					["TimeDamaging"] = {
+						["Earthen Wall Totem"] = {
+							["Details"] = {
+								["Earthen Wall"] = {
+									["count"] = 34.49,
+								},
+							},
+							["amount"] = 34.49,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Bone Spike Graveyard"] = {
+									["count"] = 0.23,
+								},
+								["Death and Decay"] = {
+									["count"] = 4.24,
+								},
+							},
+							["amount"] = 4.47,
+						},
+					},
+					["RunicPowerGain"] = 80,
+					["RunicPowerGainedFrom"] = {
+						["Nanoknight"] = {
+							["Details"] = {
+								["Rune Tap"] = {
+									["count"] = 10,
+								},
+								["Death and Decay"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 80,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Rune Tap"] = {
+							["Details"] = {
+								["Nanoknight"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Nanoknight"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 485158.372,
+			["LastActive"] = 487013.375,
+		},
+		["Anlnmate"] = {
+			["GUID"] = "Player-1138-086D7780",
+			["TimeLast"] = {
+				["TimeHeal"] = 485160.373,
+				["OVERALL"] = 485162.353,
+				["DamageTaken"] = 485160.373,
+				["Absorbs"] = 485160.373,
+				["HealingTaken"] = 485160.373,
+				["ActiveTime"] = 485162.353,
+				["TimeDamage"] = 485162.353,
+				["RunicPowerGain"] = 485159.372,
+				["Healing"] = 485155.353,
+				["Damage"] = 485162.353,
+			},
+			["LastAttackedBy"] = "Nazmani Warrior",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"DAMAGE", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					192, -- [1]
+				},
+				["Absorbs"] = {
+					192, -- [1]
+				},
+				["HealingTaken"] = {
+					192, -- [1]
+				},
+				["TimeDamage"] = {
+					4.93, -- [1]
+				},
+				["RunicPowerGain"] = {
+					110, -- [1]
+				},
+				["ActiveTime"] = {
+					6.43, -- [1]
+				},
+				["Damage"] = {
+					890, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Anlnmate",
+			["LastEventHealth"] = {
+				12560, -- [1]
+				12560, -- [2]
+				12560, -- [3]
+				12560, -- [4]
+				12560, -- [5]
+				12560, -- [6]
+				12560, -- [7]
+				12560, -- [8]
+				12560, -- [9]
+				12560, -- [10]
+				12560, -- [11]
+				12560, -- [12]
+				12560, -- [13]
+				12560, -- [14]
+				12560, -- [15]
+				12560, -- [16]
+				12560, -- [17]
+				12560, -- [18]
+				12560, -- [19]
+				12560, -- [20]
+				12560, -- [21]
+				12560, -- [22]
+				12560, -- [23]
+				12560, -- [24]
+				12560, -- [25]
+				12560, -- [26]
+				12560, -- [27]
+				12560, -- [28]
+				12560, -- [29]
+				12560, -- [30]
+				12560, -- [31]
+				12560, -- [32]
+				12560, -- [33]
+				12560, -- [34]
+				12560, -- [35]
+				12560, -- [36]
+				12560, -- [37]
+				12560, -- [38]
+				12560, -- [39]
+				12560, -- [40]
+				12560, -- [41]
+				12560, -- [42]
+				12560, -- [43]
+				12560, -- [44]
+				12560, -- [45]
+				12560, -- [46]
+				12560, -- [47]
+				12560, -- [48]
+				12560, -- [49]
+				12560, -- [50]
+			},
+			["LastHealTime"] = 485161.373,
+			["level"] = 50,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 0,
+			["LastDamageTaken"] = 192,
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Rune Weapon"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3778-1642-784-27893-00001EF9CA",
+					},
+				},
+			},
+			["LastEventHealthMax"] = {
+				12560, -- [1]
+				12560, -- [2]
+				12560, -- [3]
+				12560, -- [4]
+				12560, -- [5]
+				12560, -- [6]
+				12560, -- [7]
+				12560, -- [8]
+				12560, -- [9]
+				12560, -- [10]
+				12560, -- [11]
+				12560, -- [12]
+				12560, -- [13]
+				12560, -- [14]
+				12560, -- [15]
+				12560, -- [16]
+				12560, -- [17]
+				12560, -- [18]
+				12560, -- [19]
+				12560, -- [20]
+				12560, -- [21]
+				12560, -- [22]
+				12560, -- [23]
+				12560, -- [24]
+				12560, -- [25]
+				12560, -- [26]
+				12560, -- [27]
+				12560, -- [28]
+				12560, -- [29]
+				12560, -- [30]
+				12560, -- [31]
+				12560, -- [32]
+				12560, -- [33]
+				12560, -- [34]
+				12560, -- [35]
+				12560, -- [36]
+				12560, -- [37]
+				12560, -- [38]
+				12560, -- [39]
+				12560, -- [40]
+				12560, -- [41]
+				12560, -- [42]
+				12560, -- [43]
+				12560, -- [44]
+				12560, -- [45]
+				12560, -- [46]
+				12560, -- [47]
+				12560, -- [48]
+				12560, -- [49]
+				12560, -- [50]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Rune Weapon <Anlnmate>", -- [1]
+			},
+			["NextEventNum"] = 9,
+			["LastDamageTime"] = 485162.503,
+			["LastEvents"] = {
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +123 (123 Overheal)", -- [1]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +28 (28 Overheal)", -- [2]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +127 (127 Overheal)", -- [3]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +168 (168 Overheal)", -- [4]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +125 (125 Overheal)", -- [5]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +252 (252 Overheal)", -- [6]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +123 (123 Overheal)", -- [7]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +83 (83 Overheal)", -- [8]
+				"Anlnmate Melee Nazmani Warrior Hit -197 (Physical)", -- [9]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +123 (123 Overheal)", -- [10]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +126 (126 Overheal)", -- [11]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +123 (123 Overheal)", -- [12]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +250 (250 Overheal)", -- [13]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +122 (122 Overheal)", -- [14]
+				"Anltch-Illidan Wild Growth Anlnmate Crit +274 (274 Overheal)", -- [15]
+				"Anltch-Illidan Wild Growth Anlnmate Crit +261 (261 Overheal)", -- [16]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +125 (125 Overheal)", -- [17]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +118 (118 Overheal)", -- [18]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +113 (113 Overheal)", -- [19]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +105 (105 Overheal)", -- [20]
+				"Anltch-Illidan Wild Growth Anlnmate Crit +200 (200 Overheal)", -- [21]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +93 (93 Overheal)", -- [22]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +124 (124 Overheal)", -- [23]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +88 (88 Overheal)", -- [24]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +27 (27 Overheal)", -- [25]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +126 (126 Overheal)", -- [26]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +249 (249 Overheal)", -- [27]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +126 (126 Overheal)", -- [28]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +126 (126 Overheal)", -- [29]
+				"Anltch-Illidan Wild Growth Anlnmate Crit +273 (273 Overheal)", -- [30]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +124 (124 Overheal)", -- [31]
+				"Anltch-Illidan Wild Growth Anlnmate Crit +258 (258 Overheal)", -- [32]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Hit +123 (123 Overheal)", -- [33]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +118 (118 Overheal)", -- [34]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +122 (122 Overheal)", -- [35]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +112 (112 Overheal)", -- [36]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +115 (115 Overheal)", -- [37]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +106 (106 Overheal)", -- [38]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +254 (254 Overheal)", -- [39]
+				"Healing Stream Totem Healing Stream Totem Anlnmate Crit +401 (401 Overheal)", -- [40]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +108 (108 Overheal)", -- [41]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +99 (99 Overheal)", -- [42]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +101 (101 Overheal)", -- [43]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +93 (93 Overheal)", -- [44]
+				"Thatslnsane-Illidan Healing Rain Anlnmate Crit +251 (251 Overheal)", -- [45]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +94 (94 Overheal)", -- [46]
+				"Anlcon-Illidan Wild Growth Anlnmate Crit +175 (175 Overheal)", -- [47]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +87 (87 Overheal)", -- [48]
+				"Anltch-Illidan Wild Growth Anlnmate Tick +20 (20 Overheal)", -- [49]
+				"Anlcon-Illidan Wild Growth Anlnmate Tick +81 (81 Overheal)", -- [50]
+			},
+			["Name"] = "Anlnmate",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				486999.842, -- [1]
+				487000.042, -- [2]
+				487001.642, -- [3]
+				487002.875, -- [4]
+				487006.642, -- [5]
+				487008.475, -- [6]
+				487010.208, -- [7]
+				487015.008, -- [8]
+				485162.503, -- [9]
+				486959.096, -- [10]
+				486960.763, -- [11]
+				486962.563, -- [12]
+				486964.396, -- [13]
+				486965.996, -- [14]
+				486967.629, -- [15]
+				486968.476, -- [16]
+				486969.072, -- [17]
+				486969.874, -- [18]
+				486970.641, -- [19]
+				486971.374, -- [20]
+				486972.141, -- [21]
+				486972.941, -- [22]
+				486973.374, -- [23]
+				486973.574, -- [24]
+				486973.874, -- [25]
+				486975.141, -- [26]
+				486976.974, -- [27]
+				486982.208, -- [28]
+				486992.952, -- [29]
+				486993.252, -- [30]
+				486993.875, -- [31]
+				486994.141, -- [32]
+				486994.575, -- [33]
+				486994.708, -- [34]
+				486994.941, -- [35]
+				486995.541, -- [36]
+				486995.775, -- [37]
+				486996.308, -- [38]
+				486996.308, -- [39]
+				486996.442, -- [40]
+				486996.575, -- [41]
+				486997.208, -- [42]
+				486997.442, -- [43]
+				486997.975, -- [44]
+				486998.108, -- [45]
+				486998.342, -- [46]
+				486998.875, -- [47]
+				486999.208, -- [48]
+				486999.475, -- [49]
+				486999.742, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Anlnmate"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Anlnmate"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Marrowrend"] = {
+									["count"] = 0.3,
+								},
+								["Melee"] = {
+									["count"] = 0.8999999999999999,
+								},
+								["Death and Decay"] = {
+									["count"] = 3.73,
+								},
+							},
+							["amount"] = 4.93,
+						},
+					},
+					["DamageTaken"] = 192,
+					["WhoHealed"] = {
+						["Anlnmate"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 192,
+								},
+							},
+							["amount"] = 192,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 116,
+						["Melee"] = 609,
+						["Physical"] = 165,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 192,
+									["min"] = 192,
+									["count"] = 1,
+									["amount"] = 192,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 192,
+						},
+					},
+					["ActiveTime"] = 6.43,
+					["HealedWho"] = {
+						["Anlnmate"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 192,
+								},
+							},
+							["amount"] = 192,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 192,
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 192,
+									["min"] = 192,
+									["count"] = 1,
+									["amount"] = 192,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 192,
+						},
+					},
+					["Damage"] = 890,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Anlnmate"] = {
+									["max"] = 192,
+									["min"] = 192,
+									["count"] = 1,
+									["amount"] = 192,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 192,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["Absorbs"] = 192,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 192,
+					},
+					["WhoDamaged"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 192,
+								},
+							},
+							["amount"] = 192,
+						},
+					},
+					["Healing"] = 0,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Marrowrend"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 165,
+									["min"] = 165,
+									["count"] = 1,
+									["amount"] = 165,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 165,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 412,
+									["min"] = 412,
+									["count"] = 1,
+									["amount"] = 412,
+								},
+								["Hit"] = {
+									["max"] = 197,
+									["min"] = 197,
+									["count"] = 1,
+									["amount"] = 197,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 609,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 43,
+									["min"] = 43,
+									["count"] = 1,
+									["amount"] = 43,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 24,
+									["count"] = 3,
+									["amount"] = 73,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 116,
+						},
+					},
+					["HealingTaken"] = 192,
+					["DamagedWho"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Marrowrend"] = {
+									["count"] = 165,
+								},
+								["Melee"] = {
+									["count"] = 609,
+								},
+								["Death and Decay"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 890,
+						},
+					},
+					["TimeDamage"] = 4.93,
+					["TimeDamaging"] = {
+						["Nazmani Warrior"] = {
+							["Details"] = {
+								["Marrowrend"] = {
+									["count"] = 0.3,
+								},
+								["Melee"] = {
+									["count"] = 0.8999999999999999,
+								},
+								["Death and Decay"] = {
+									["count"] = 3.73,
+								},
+							},
+							["amount"] = 4.93,
+						},
+					},
+					["RunicPowerGain"] = 110,
+					["RunicPowerGainedFrom"] = {
+						["Anlnmate"] = {
+							["Details"] = {
+								["Marrowrend"] = {
+									["count"] = 20,
+								},
+								["Death and Decay"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 110,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Marrowrend"] = {
+							["Details"] = {
+								["Anlnmate"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Death and Decay"] = {
+							["Details"] = {
+								["Anlnmate"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 485158.372,
+			["LastActive"] = 487014.375,
+		},
+	},
+	["FightNum"] = 20,
+	["CombatTimes"] = {
+		{
+			485155.353, -- [1]
+			485163.353, -- [2]
+			"10:09:13", -- [3]
+			"10:09:21", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [1]
+		{
+			486481.376, -- [1]
+			486488.375, -- [2]
+			"10:31:20", -- [3]
+			"10:31:26", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [2]
+		{
+			486524.372, -- [1]
+			486531.374, -- [2]
+			"10:32:03", -- [3]
+			"10:32:09", -- [4]
+			"Nazmani Ravager", -- [5]
+		}, -- [3]
+		{
+			486567.391, -- [1]
+			486574.354, -- [2]
+			"10:32:45", -- [3]
+			"10:32:52", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [4]
+		{
+			486590.354, -- [1]
+			486596.365, -- [2]
+			"10:33:09", -- [3]
+			"10:33:14", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [5]
+		{
+			486609.357, -- [1]
+			486633.361, -- [2]
+			"10:33:28", -- [3]
+			"10:33:51", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [6]
+		{
+			486646.379, -- [1]
+			486653.368, -- [2]
+			"10:34:05", -- [3]
+			"10:34:11", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [7]
+		{
+			486659.369, -- [1]
+			486666.355, -- [2]
+			"10:34:18", -- [3]
+			"10:34:24", -- [4]
+			"Nazmani Ravager", -- [5]
+		}, -- [8]
+		{
+			486670.36, -- [1]
+			486682.381, -- [2]
+			"10:34:28", -- [3]
+			"10:34:40", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [9]
+		{
+			486689.386, -- [1]
+			486696.357, -- [2]
+			"10:34:48", -- [3]
+			"10:34:54", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [10]
+		{
+			486725.355, -- [1]
+			486735.376, -- [2]
+			"10:35:23", -- [3]
+			"10:35:33", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [11]
+		{
+			486738.361, -- [1]
+			486746.378, -- [2]
+			"10:35:37", -- [3]
+			"10:35:44", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [12]
+		{
+			486756.385, -- [1]
+			486766.376, -- [2]
+			"10:35:55", -- [3]
+			"10:36:04", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [13]
+		{
+			486766.376, -- [1]
+			486772.386, -- [2]
+			"10:36:04", -- [3]
+			"10:36:10", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [14]
+		{
+			486792.363, -- [1]
+			486799.362, -- [2]
+			"10:36:30", -- [3]
+			"10:36:37", -- [4]
+			"Nazmani Ravager", -- [5]
+		}, -- [15]
+		{
+			486839.376, -- [1]
+			486848.374, -- [2]
+			"10:37:18", -- [3]
+			"10:37:26", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [16]
+		{
+			486858.381, -- [1]
+			486864.357, -- [2]
+			"10:37:37", -- [3]
+			"10:37:42", -- [4]
+			"Nazmani Ravager", -- [5]
+		}, -- [17]
+		{
+			486880.365, -- [1]
+			486886.372, -- [2]
+			"10:37:59", -- [3]
+			"10:38:04", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [18]
+		{
+			486890.355, -- [1]
+			486903.383, -- [2]
+			"10:38:09", -- [3]
+			"10:38:21", -- [4]
+			"Nazmani Ravager", -- [5]
+		}, -- [19]
+		{
+			486904.375, -- [1]
+			486911.365, -- [2]
+			"10:38:23", -- [3]
+			"10:38:29", -- [4]
+			"Nazmani Warrior", -- [5]
+		}, -- [20]
+	},
+	["FoughtWho"] = {
+		"Nazmani Warrior 10:38:23-10:38:29", -- [1]
+		"Nazmani Ravager 10:38:09-10:38:21", -- [2]
+		"Nazmani Warrior 10:37:59-10:38:04", -- [3]
+		"Nazmani Ravager 10:37:37-10:37:42", -- [4]
+		"Nazmani Warrior 10:37:18-10:37:26", -- [5]
+	},
+}

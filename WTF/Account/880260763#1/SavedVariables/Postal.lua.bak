@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Notbanned|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Notbanned - Bladefist"] = "Notbanned - Bladefist",
+	},
+	["profiles"] = {
+		["Notbanned - Bladefist"] = {
+		},
+	},
+}

@@ -36,8 +36,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161040,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863D",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -215,7 +215,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863D",
 							["nome"] = "Everland",
 							["custom"] = 0,
 							["last_event"] = 1706161027,
@@ -250,8 +250,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161040,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863B",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -374,7 +374,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863B",
 							["nome"] = "Defconsix",
 							["custom"] = 0,
 							["last_event"] = 1706161042,
@@ -409,8 +409,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161040,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D8634",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -531,7 +531,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D8634",
 							["nome"] = "Chernobilly",
 							["custom"] = 0,
 							["last_event"] = 1706161027,
@@ -566,8 +566,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161040,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D862F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -689,7 +689,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D862F",
 							["nome"] = "Corolla",
 							["custom"] = 0,
 							["last_event"] = 1706161027,
@@ -725,8 +725,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706161042,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863A",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -906,7 +906,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863A",
 							["nome"] = "Skinnygirl",
 							["custom"] = 0,
 							["last_event"] = 1706161042,
@@ -919,16 +919,16 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "156814",
 							["total_without_pet"] = 1234.007924,
 							["last_dps_realtime"] = 0,
 							["monster"] = true,
 							["total"] = 1234.007924,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-27395-156814-000031F1BD",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["damage_from"] = {
 								["Skinnygirl"] = true,
 								["Corolla"] = true,
@@ -952,7 +952,7 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.007924,
 							["end_time"] = 1706161040,
 							["nome"] = "Gor'groth",
-							["aID"] = "156814",
+							["classe"] = "UNKNOW",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1055,72 +1055,6 @@ _detalhes_database = {
 							["delay"] = 1706161020,
 							["last_dps"] = 0,
 						}, -- [6]
-						{
-							["flag_original"] = -2147483648,
-							["totalabsorbed"] = 0.002279,
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["total_without_pet"] = 198.002279,
-							["last_dps_realtime"] = 0,
-							["dps_started"] = true,
-							["total"] = 198.002279,
-							["on_hold"] = true,
-							["total_extra"] = 0,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Eligaux-Draka"] = 198,
-							},
-							["serial"] = "",
-							["aID"] = "",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["nome"] = "Environment (Falling)",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[3] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 198,
-										["targets"] = {
-											["Eligaux-Draka"] = 198,
-										},
-										["n_total"] = 198,
-										["n_min"] = 198,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 198,
-										["c_max"] = 0,
-										["id"] = 3,
-										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["c_total"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.002279,
-							["start_time"] = 1706211528,
-							["delay"] = 1706211528,
-							["last_event"] = 1706211528,
-						}, -- [7]
 						{
 							["flag_original"] = 2584,
 							["pets"] = {
@@ -1276,7 +1210,7 @@ _detalhes_database = {
 							["start_time"] = 1706161014,
 							["delay"] = 1706161026,
 							["last_dps"] = 0,
-						}, -- [8]
+						}, -- [7]
 						{
 							["flag_original"] = 2584,
 							["pets"] = {
@@ -1373,7 +1307,7 @@ _detalhes_database = {
 							["start_time"] = 1706161034,
 							["delay"] = 1706161019,
 							["last_dps"] = 0,
-						}, -- [9]
+						}, -- [8]
 					},
 				}, -- [1]
 				{
@@ -1388,7 +1322,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 10.007866,
 							["total_without_pet"] = 0.007866,
 							["total"] = 0.007866,
@@ -1402,15 +1336,15 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.007866,
 							["healing_taken"] = 76.007866,
-							["start_time"] = 1706161039,
-							["end_time"] = 1706161040,
 							["aID"] = "1147-094D8634",
+							["end_time"] = 1706161040,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 							},
+							["start_time"] = 1706161039,
 							["nome"] = "Chernobilly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1444,13 +1378,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706161002,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007866,
 							["delay"] = 1706161002,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -1518,8 +1452,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["aID"] = "167664",
 							["heal_enemy_amt"] = 0,
+							["aID"] = "167664",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006244,
@@ -1561,8 +1495,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["aID"] = "167663",
 							["heal_enemy_amt"] = 0,
+							["aID"] = "167663",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00313,
@@ -1577,7 +1511,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 20.002148,
 							["total_without_pet"] = 10.002148,
 							["total"] = 10.002148,
@@ -1592,15 +1526,15 @@ _detalhes_database = {
 							["targets"] = {
 								["Skinnygirl"] = 10,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.002148,
 							["healing_taken"] = 10.002148,
-							["start_time"] = 1706161039,
-							["end_time"] = 1706161040,
 							["aID"] = "1147-094D863A",
+							["end_time"] = 1706161040,
 							["healing_from"] = {
 								["Skinnygirl"] = true,
 							},
+							["start_time"] = 1706161039,
 							["nome"] = "Skinnygirl",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1634,13 +1568,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706161026,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002148,
 							["delay"] = 1706161026,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -1649,7 +1583,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007073,
 							["total_without_pet"] = 12.007073,
 							["total"] = 12.007073,
@@ -1664,16 +1598,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 12,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.007073,
 							["healing_taken"] = 97.007073,
-							["start_time"] = 1706161039,
-							["end_time"] = 1706161040,
 							["aID"] = "1147-094D863D",
+							["end_time"] = 1706161040,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Everland"] = true,
 							},
+							["start_time"] = 1706161039,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1706,13 +1640,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706161011,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007073,
 							["delay"] = 1706161011,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [5]
 						{
 							["flag_original"] = 1297,
@@ -1722,7 +1656,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 10.004738,
 							["total_without_pet"] = 0.004738,
 							["total"] = 0.004738,
@@ -1736,14 +1670,14 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.004738,
 							["healing_taken"] = 0.004738,
-							["start_time"] = 1706161039,
-							["end_time"] = 1706161040,
 							["aID"] = "1147-094D863B",
+							["end_time"] = 1706161040,
 							["healing_from"] = {
 							},
+							["start_time"] = 1706161039,
 							["nome"] = "Defconsix",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1777,13 +1711,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706161013,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004738,
 							["delay"] = 1706161013,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [6]
 						{
 							["flag_original"] = 1298,
@@ -1793,7 +1727,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 10.004749,
 							["total_without_pet"] = 0.004749,
 							["total"] = 0.004749,
@@ -1807,15 +1741,15 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.004749,
 							["healing_taken"] = 76.004749,
-							["start_time"] = 1706161039,
-							["end_time"] = 1706161040,
 							["aID"] = "1147-094D862F",
+							["end_time"] = 1706161040,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 							},
+							["start_time"] = 1706161039,
 							["nome"] = "Corolla",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1849,82 +1783,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706161015,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004749,
 							["delay"] = 1706161015,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [7]
-						{
-							["flag_original"] = 1304,
-							["pets"] = {
-							},
-							["iniciar_hps"] = true,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 52.001037,
-							["total_without_pet"] = 0.001037,
-							["total"] = 0.001037,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = true,
-							["totalabsorb"] = 0.001037,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["aID"] = "1168-0AB255B6",
-							["totalover_without_pet"] = 0.001037,
-							["healing_from"] = {
-							},
-							["healing_taken"] = 0.001037,
-							["spec"] = 256,
-							["classe"] = "PRIEST",
-							["serial"] = "Player-1168-0AB255B6",
-							["targets_overheal"] = {
-								["Wrongdawg-Frostmane"] = 52,
-							},
-							["start_time"] = 1706211479,
-							["nome"] = "Wrongdawg-Frostmane",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[139] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Wrongdawg-Frostmane"] = 52,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Wrongdawg-Frostmane"] = 0,
-										},
-										["n_total"] = 0,
-										["n_min"] = 0,
-										["counter"] = 5,
-										["overheal"] = 52,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 139,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["spellschool"] = 2,
-										["c_total"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1706211486,
-							["totaldenied"] = 0.001037,
-							["delay"] = 1706211486,
-							["tipo"] = 2,
-						}, -- [8]
 					},
 				}, -- [2]
 				{
@@ -2084,7 +1950,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 78,
+							["pets"] = {
+							},
 							["classe"] = "ROGUE",
 							["interrupt_spells"] = {
 								["_ActorTable"] = {
@@ -2131,22 +1998,21 @@ _detalhes_database = {
 							["interrompeu_oque"] = {
 								[305913] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["boss_fight_component"] = true,
 							["interrupt_targets"] = {
 								["Gor'groth"] = 1,
 							},
 							["grupo"] = true,
-							["interrupt"] = 1.002051,
-							["aID"] = "1147-094D863D",
-							["pets"] = {
-							},
+							["nome"] = "Everland",
 							["last_event"] = 1706161040,
+							["buff_uptime"] = 78,
+							["aID"] = "1147-094D863D",
 							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 261,
 							["serial"] = "Player-1147-094D863D",
-							["nome"] = "Everland",
+							["interrupt"] = 1.002051,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -2181,16 +2047,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Corolla",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Corolla",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D862F",
-							["serial"] = "Player-1147-094D862F",
 							["last_event"] = 1706161040,
+							["serial"] = "Player-1147-094D862F",
+							["aID"] = "1147-094D862F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -2225,16 +2091,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Chernobilly",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Chernobilly",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D8634",
-							["serial"] = "Player-1147-094D8634",
 							["last_event"] = 1706161040,
+							["serial"] = "Player-1147-094D8634",
+							["aID"] = "1147-094D8634",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -2269,16 +2135,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Skinnygirl",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Skinnygirl",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D863A",
-							["serial"] = "Player-1147-094D863A",
 							["last_event"] = 1706161040,
+							["serial"] = "Player-1147-094D863A",
+							["aID"] = "1147-094D863A",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -2313,16 +2179,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Defconsix",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Defconsix",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D863B",
-							["serial"] = "Player-1147-094D863B",
 							["last_event"] = 1706161040,
+							["serial"] = "Player-1147-094D863B",
+							["aID"] = "1147-094D863B",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
@@ -2352,46 +2218,15 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "156814",
 							["monster"] = true,
 							["nome"] = "Gor'groth",
 							["boss_fight_component"] = true,
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["tipo"] = 4,
 							["serial"] = "Creature-0-3135-2236-27395-156814-000031F1BD",
-							["aID"] = "156814",
+							["classe"] = "UNKNOW",
 						}, -- [8]
-						{
-							["flag_original"] = 1304,
-							["pets"] = {
-							},
-							["serial"] = "Player-1168-0AB255B6",
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[194384] = {
-										["activedamt"] = 1,
-										["id"] = 194384,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 9,
-							["aID"] = "1168-0AB255B6",
-							["nome"] = "Wrongdawg-Frostmane",
-							["spec"] = 256,
-							["last_event"] = 1706211486,
-							["tipo"] = 4,
-						}, -- [9]
 					},
 				}, -- [4]
 				{
@@ -2423,7 +2258,7 @@ _detalhes_database = {
 				},
 				["combat_counter"] = 94,
 				["totals"] = {
-					3210, -- [1]
+					3703, -- [1]
 					711, -- [2]
 					{
 						0, -- [1]
@@ -2615,8 +2450,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160760,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D862F",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2795,7 +2630,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D862F",
 							["nome"] = "Corolla",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -2831,8 +2666,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160760,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863D",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3009,7 +2844,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863D",
 							["nome"] = "Everland",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -3045,8 +2880,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160760,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863A",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3224,7 +3059,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863A",
 							["nome"] = "Skinnygirl",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -3260,8 +3095,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160760,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D863B",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3440,7 +3275,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D863B",
 							["nome"] = "Defconsix",
 							["custom"] = 0,
 							["last_event"] = 1706160760,
@@ -3476,8 +3311,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706160760,
+							["tipo"] = 1,
 							["on_hold"] = false,
-							["aID"] = "1147-094D8634",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3654,7 +3489,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["aID"] = "1147-094D8634",
 							["nome"] = "Chernobilly",
 							["custom"] = 0,
 							["last_event"] = 1706160759,
@@ -3667,16 +3502,16 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "157300",
 							["total_without_pet"] = 1974.007074,
 							["last_dps_realtime"] = 0,
 							["monster"] = true,
 							["total"] = 1974.007074,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-27395-157300-000031F1BD",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["damage_from"] = {
 								["Skinnygirl"] = true,
 								["Corolla"] = true,
@@ -3701,7 +3536,7 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.007074,
 							["end_time"] = 1706160760,
 							["nome"] = "Tunk",
-							["aID"] = "157300",
+							["classe"] = "UNKNOW",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4074,7 +3909,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 9.007523,
 							["total_without_pet"] = 9.007523,
 							["total"] = 9.007523,
@@ -4089,16 +3924,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Chernobilly"] = 9,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.007523,
 							["healing_taken"] = 85.007523,
-							["start_time"] = 1706160759,
-							["end_time"] = 1706160760,
 							["aID"] = "1147-094D8634",
+							["end_time"] = 1706160760,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Chernobilly"] = true,
 							},
+							["start_time"] = 1706160759,
 							["nome"] = "Chernobilly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4132,13 +3967,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706160746,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007523,
 							["delay"] = 1706160746,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -4147,7 +3982,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001409,
 							["total_without_pet"] = 27.001409,
 							["total"] = 27.001409,
@@ -4162,16 +3997,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Corolla"] = 27,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.001409,
 							["healing_taken"] = 103.001409,
-							["start_time"] = 1706160759,
-							["end_time"] = 1706160760,
 							["aID"] = "1147-094D862F",
+							["end_time"] = 1706160760,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Corolla"] = true,
 							},
+							["start_time"] = 1706160759,
 							["nome"] = "Corolla",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4204,13 +4039,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706160760,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001409,
 							["delay"] = 1706160744,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
@@ -4220,7 +4055,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 9.00195,
 							["total_without_pet"] = 9.00195,
 							["total"] = 9.00195,
@@ -4235,16 +4070,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Defconsix"] = 9,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.00195,
 							["healing_taken"] = 83.00195,
-							["start_time"] = 1706160759,
-							["end_time"] = 1706160760,
 							["aID"] = "1147-094D863B",
+							["end_time"] = 1706160760,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Defconsix"] = true,
 							},
+							["start_time"] = 1706160759,
 							["nome"] = "Defconsix",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4278,13 +4113,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706160745,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00195,
 							["delay"] = 1706160745,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
@@ -4356,8 +4191,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["aID"] = "167664",
 							["heal_enemy_amt"] = 0,
+							["aID"] = "167664",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008393,
@@ -4371,7 +4206,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001075,
 							["total_without_pet"] = 18.001075,
 							["total"] = 18.001075,
@@ -4386,16 +4221,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 18,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.001075,
 							["healing_taken"] = 231.001075,
-							["start_time"] = 1706160752,
-							["end_time"] = 1706160760,
 							["aID"] = "1147-094D863D",
+							["end_time"] = 1706160760,
 							["healing_from"] = {
 								["Shuja Grimaxe"] = true,
 								["Everland"] = true,
 							},
+							["start_time"] = 1706160752,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4428,13 +4263,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706160752,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001075,
 							["delay"] = 1706160737,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [5]
 						{
 							["flag_original"] = 1298,
@@ -4444,7 +4279,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 9.002677,
 							["total_without_pet"] = 9.002677,
 							["total"] = 9.002677,
@@ -4459,16 +4294,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Skinnygirl"] = 9,
 							},
-							["spec"] = 261,
+							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.002677,
 							["healing_taken"] = 80.002677,
-							["start_time"] = 1706160759,
-							["end_time"] = 1706160760,
 							["aID"] = "1147-094D863A",
+							["end_time"] = 1706160760,
 							["healing_from"] = {
 								["Skinnygirl"] = true,
 								["Shuja Grimaxe"] = true,
 							},
+							["start_time"] = 1706160759,
 							["nome"] = "Skinnygirl",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4502,13 +4337,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706160749,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002677,
 							["delay"] = 1706160749,
-							["boss_fight_component"] = true,
+							["spec"] = 261,
 						}, -- [6]
 						{
 							["flag_original"] = 2584,
@@ -4545,8 +4380,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["aID"] = "167663",
 							["heal_enemy_amt"] = 0,
+							["aID"] = "167663",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007969,
@@ -4743,16 +4578,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Everland",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Everland",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D863D",
-							["serial"] = "Player-1147-094D863D",
 							["last_event"] = 1706160760,
+							["serial"] = "Player-1147-094D863D",
+							["aID"] = "1147-094D863D",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -4787,16 +4622,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Corolla",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Corolla",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D862F",
-							["serial"] = "Player-1147-094D862F",
 							["last_event"] = 1706160760,
+							["serial"] = "Player-1147-094D862F",
+							["aID"] = "1147-094D862F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -4831,16 +4666,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Chernobilly",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Chernobilly",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D8634",
-							["serial"] = "Player-1147-094D8634",
 							["last_event"] = 1706160760,
+							["serial"] = "Player-1147-094D8634",
+							["aID"] = "1147-094D8634",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -4875,16 +4710,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Skinnygirl",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Skinnygirl",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D863A",
-							["serial"] = "Player-1147-094D863A",
 							["last_event"] = 1706160760,
+							["serial"] = "Player-1147-094D863A",
+							["aID"] = "1147-094D863A",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -4919,16 +4754,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["nome"] = "Defconsix",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 261,
 							["grupo"] = true,
-							["nome"] = "Defconsix",
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D863B",
-							["serial"] = "Player-1147-094D863B",
 							["last_event"] = 1706160760,
+							["serial"] = "Player-1147-094D863B",
+							["aID"] = "1147-094D863B",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
@@ -4958,7 +4793,7 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["aID"] = "157300",
+							["classe"] = "UNKNOW",
 							["interrupt_spells"] = {
 								["_ActorTable"] = {
 									[321240] = {
@@ -4978,16 +4813,16 @@ _detalhes_database = {
 								[343883] = 1,
 							},
 							["monster"] = true,
-							["interrupt"] = 1.0067,
-							["boss_fight_component"] = true,
+							["aID"] = "157300",
+							["nome"] = "Tunk",
 							["interrupt_targets"] = {
 								["Shuja Grimaxe"] = 1,
 							},
-							["nome"] = "Tunk",
-							["last_event"] = 1706160734,
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
+							["interrupt"] = 1.0067,
 							["serial"] = "Creature-0-3135-2236-27395-157300-000031F1BD",
-							["classe"] = "UNKNOW",
+							["last_event"] = 1706160734,
 						}, -- [8]
 					},
 				}, -- [4]
@@ -7704,7 +7539,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Chernobilly"] = 8,
 							},
 							["pets"] = {
 							},
@@ -7728,8 +7564,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.001058,
 							["end_time"] = 1706160170,
 							["aID"] = "1147-094D8634",
-							["targets_overheal"] = {
-								["Chernobilly"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Chernobilly",
 							["spells"] = {
@@ -7774,7 +7609,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -7798,8 +7634,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.008214,
 							["end_time"] = 1706160170,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -7844,7 +7679,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Defconsix"] = 8,
 							},
 							["pets"] = {
 							},
@@ -7868,8 +7704,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.007453,
 							["end_time"] = 1706160170,
 							["aID"] = "1147-094D863B",
-							["targets_overheal"] = {
-								["Defconsix"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Defconsix",
 							["spells"] = {
@@ -9753,7 +9588,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Chernobilly"] = 16,
 							},
 							["pets"] = {
 							},
@@ -9777,8 +9613,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.005124,
 							["end_time"] = 1706160111,
 							["aID"] = "1147-094D8634",
-							["targets_overheal"] = {
-								["Chernobilly"] = 16,
+							["healing_from"] = {
 							},
 							["nome"] = "Chernobilly",
 							["spells"] = {
@@ -9823,7 +9658,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -9847,8 +9683,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.00352,
 							["end_time"] = 1706160111,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -10095,14 +9930,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153581",
 							["fight_component"] = true,
 							["nome"] = "Grunk",
 							["monster"] = true,
-							["tipo"] = 4,
-							["aID"] = "153581",
-							["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
 							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
+							["tipo"] = 4,
 						}, -- [6]
 					},
 				}, -- [4]
@@ -11591,7 +11426,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -11615,8 +11451,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.003888,
 							["end_time"] = 1706159952,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -13095,7 +12930,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Skinnygirl"] = 4,
 							},
 							["pets"] = {
 							},
@@ -13119,8 +12955,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.004327,
 							["end_time"] = 1706159901,
 							["aID"] = "1147-094D863A",
-							["targets_overheal"] = {
-								["Skinnygirl"] = 4,
+							["healing_from"] = {
 							},
 							["nome"] = "Skinnygirl",
 							["spells"] = {
@@ -14106,7 +13941,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Skinnygirl"] = 8,
 							},
 							["pets"] = {
 							},
@@ -14130,8 +13966,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.003164,
 							["end_time"] = 1706159886,
 							["aID"] = "1147-094D863A",
-							["targets_overheal"] = {
-								["Skinnygirl"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Skinnygirl",
 							["spells"] = {
@@ -15148,7 +14983,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.002492,
 							["total_without_pet"] = 8.002492,
 							["total"] = 8.002492,
@@ -15163,14 +14998,14 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 8,
 							},
-							["spec"] = 260,
+							["last_event"] = 1706159874,
 							["totalover_without_pet"] = 0.002492,
 							["healing_taken"] = 8.002492,
 							["fight_component"] = true,
 							["end_time"] = 1706159876,
-							["start_time"] = 1706159874,
 							["targets_overheal"] = {
 							},
+							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15203,17 +15038,18 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "ROGUE",
-							["last_event"] = 1706159874,
+							["start_time"] = 1706159874,
+							["aID"] = "1147-094D863D",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002492,
 							["delay"] = 0,
-							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Defconsix"] = 8,
 							},
 							["pets"] = {
 							},
@@ -15237,8 +15073,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.00333,
 							["end_time"] = 1706159876,
 							["aID"] = "1147-094D863B",
-							["targets_overheal"] = {
-								["Defconsix"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Defconsix",
 							["spells"] = {
@@ -15426,17 +15261,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D863D",
+							["last_event"] = 1706159876,
 							["nome"] = "Everland",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["last_event"] = 1706159876,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D863D",
-							["tipo"] = 4,
+							["aID"] = "1147-094D863D",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -16446,7 +16281,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -16470,8 +16306,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.005597,
 							["end_time"] = 1706159865,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -17776,7 +17611,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.001178,
 							["total_without_pet"] = 8.001178,
 							["total"] = 8.001178,
@@ -17791,14 +17626,14 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 8,
 							},
-							["spec"] = 260,
+							["last_event"] = 1706159854,
 							["totalover_without_pet"] = 0.001178,
 							["healing_taken"] = 8.001178,
 							["fight_component"] = true,
 							["end_time"] = 1706159856,
-							["start_time"] = 1706159854,
 							["targets_overheal"] = {
 							},
+							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17831,13 +17666,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "ROGUE",
-							["last_event"] = 1706159854,
+							["start_time"] = 1706159854,
+							["aID"] = "1147-094D863D",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001178,
 							["delay"] = 0,
-							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -18024,17 +17859,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D863D",
+							["last_event"] = 1706159856,
 							["nome"] = "Everland",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["last_event"] = 1706159856,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D863D",
-							["tipo"] = 4,
+							["aID"] = "1147-094D863D",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -19330,7 +19165,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.003321,
 							["total_without_pet"] = 8.003321,
 							["total"] = 8.003321,
@@ -19345,14 +19180,14 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 8,
 							},
-							["spec"] = 260,
+							["last_event"] = 1706159820,
 							["totalover_without_pet"] = 0.003321,
 							["healing_taken"] = 8.003321,
 							["fight_component"] = true,
 							["end_time"] = 1706159826,
-							["start_time"] = 1706159820,
 							["targets_overheal"] = {
 							},
+							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19385,17 +19220,18 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "ROGUE",
-							["last_event"] = 1706159820,
+							["start_time"] = 1706159820,
+							["aID"] = "1147-094D863D",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003321,
 							["delay"] = 0,
-							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -19419,8 +19255,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.006359,
 							["end_time"] = 1706159826,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -19465,7 +19300,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Defconsix"] = 8,
 							},
 							["pets"] = {
 							},
@@ -19489,8 +19325,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.004049,
 							["end_time"] = 1706159826,
 							["aID"] = "1147-094D863B",
-							["targets_overheal"] = {
-								["Defconsix"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Defconsix",
 							["spells"] = {
@@ -19707,17 +19542,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D863D",
+							["last_event"] = 1706159826,
 							["nome"] = "Everland",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["last_event"] = 1706159826,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D863D",
-							["tipo"] = 4,
+							["aID"] = "1147-094D863D",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -19887,7 +19722,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 70,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					531, -- [1]
 					8, -- [2]
@@ -19911,7 +19748,26 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					252, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -19959,31 +19815,10 @@ _detalhes_database = {
 				},
 				["TimeData"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["combat_counter"] = 70,
+				["player_last_events"] = {
 				},
 				["spells_cast_timeline"] = {
-				},
-				["totals_grupo"] = {
-					252, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
 				},
 				["start_time"] = 79459.084,
 				["contra"] = "Jugnug",
@@ -22690,7 +22525,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Chernobilly"] = 8,
 							},
 							["pets"] = {
 							},
@@ -22714,8 +22550,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.007516,
 							["end_time"] = 1706159760,
 							["aID"] = "1147-094D8634",
-							["targets_overheal"] = {
-								["Chernobilly"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Chernobilly",
 							["spells"] = {
@@ -22760,7 +22595,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -22784,8 +22620,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.001141,
 							["end_time"] = 1706159760,
 							["aID"] = "1147-094D862F",
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Corolla",
 							["spells"] = {
@@ -22830,7 +22665,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Skinnygirl"] = 8,
 							},
 							["pets"] = {
 							},
@@ -22854,8 +22690,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.0082,
 							["end_time"] = 1706159760,
 							["aID"] = "1147-094D863A",
-							["targets_overheal"] = {
-								["Skinnygirl"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Skinnygirl",
 							["spells"] = {
@@ -22900,7 +22735,8 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Defconsix"] = 8,
 							},
 							["pets"] = {
 							},
@@ -22924,8 +22760,7 @@ _detalhes_database = {
 							["healing_taken"] = 0.005553,
 							["end_time"] = 1706159760,
 							["aID"] = "1147-094D863B",
-							["targets_overheal"] = {
-								["Defconsix"] = 8,
+							["healing_from"] = {
 							},
 							["nome"] = "Defconsix",
 							["spells"] = {
@@ -22976,7 +22811,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.006604,
 							["total_without_pet"] = 9.006604,
 							["total"] = 9.006604,
@@ -22991,14 +22826,14 @@ _detalhes_database = {
 							["targets"] = {
 								["Everland"] = 9,
 							},
-							["spec"] = 260,
+							["last_event"] = 1706159757,
 							["totalover_without_pet"] = 0.006604,
 							["healing_taken"] = 9.006604,
 							["fight_component"] = true,
 							["end_time"] = 1706159760,
-							["start_time"] = 1706159757,
 							["targets_overheal"] = {
 							},
+							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23031,13 +22866,13 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "ROGUE",
-							["last_event"] = 1706159757,
+							["start_time"] = 1706159757,
+							["aID"] = "1147-094D863D",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006604,
 							["delay"] = 0,
-							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 						}, -- [5]
 					},
 				}, -- [2]
@@ -23213,17 +23048,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["aID"] = "1147-094D863D",
+							["last_event"] = 1706159760,
 							["nome"] = "Everland",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["last_event"] = 1706159760,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["serial"] = "Player-1147-094D863D",
-							["tipo"] = 4,
+							["aID"] = "1147-094D863D",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -23357,14 +23192,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153582",
 							["fight_component"] = true,
 							["nome"] = "Wug",
 							["monster"] = true,
-							["tipo"] = 4,
-							["aID"] = "153582",
-							["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
 							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
+							["tipo"] = 4,
 						}, -- [6]
 					},
 				}, -- [4]
@@ -24279,12 +24114,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.00536,
 							["total_without_pet"] = 7.00536,
 							["total"] = 7.00536,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -24299,10 +24133,10 @@ _detalhes_database = {
 							["healing_taken"] = 7.00536,
 							["fight_component"] = true,
 							["end_time"] = 1706158991,
+							["start_time"] = 1706158990,
 							["healing_from"] = {
 								["Everland"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24335,13 +24169,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158990,
 							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00536,
 							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -24358,7 +24193,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 2,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -24394,10 +24229,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158991,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863D",
-							["aID"] = "1147-094D863D",
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -25384,12 +25219,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 5.004745,
 							["total_without_pet"] = 10.004745,
 							["total"] = 10.004745,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -25404,10 +25238,10 @@ _detalhes_database = {
 							["healing_taken"] = 10.004745,
 							["fight_component"] = true,
 							["end_time"] = 1706158976,
+							["start_time"] = 1706158975,
 							["healing_from"] = {
 								["Defconsix"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Defconsix",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -25441,13 +25275,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158975,
 							["aID"] = "1147-094D863B",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004745,
 							["delay"] = 1706158963,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -25457,12 +25292,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 4.003029,
 							["total_without_pet"] = 11.003029,
 							["total"] = 11.003029,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -25477,10 +25311,10 @@ _detalhes_database = {
 							["healing_taken"] = 11.003029,
 							["fight_component"] = true,
 							["end_time"] = 1706158976,
+							["start_time"] = 1706158968,
 							["healing_from"] = {
 								["Skinnygirl"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Skinnygirl",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -25514,13 +25348,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158968,
 							["aID"] = "1147-094D863A",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003029,
 							["delay"] = 1706158953,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [2]
@@ -25623,7 +25458,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 68,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863B",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -25670,10 +25505,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158976,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863B",
-							["aID"] = "1147-094D863B",
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -25840,7 +25675,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 66,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863A",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -25887,10 +25722,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158976,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863A",
-							["aID"] = "1147-094D863A",
+							["classe"] = "ROGUE",
 						}, -- [5]
 						{
 							["flag_original"] = 68136,
@@ -25945,7 +25780,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 64,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					311, -- [1]
 					21, -- [2]
@@ -26114,9 +25951,7 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 64,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -26578,12 +26413,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 6.002864,
 							["total_without_pet"] = 8.002864,
 							["total"] = 8.002864,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -26598,10 +26432,10 @@ _detalhes_database = {
 							["healing_taken"] = 8.002864,
 							["fight_component"] = true,
 							["end_time"] = 1706158945,
+							["start_time"] = 1706158944,
 							["healing_from"] = {
 								["Corolla"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Corolla",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26635,13 +26469,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158944,
 							["aID"] = "1147-094D862F",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002864,
 							["delay"] = 1706158918,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -26651,12 +26486,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 5.006771,
 							["total_without_pet"] = 2.006771,
 							["total"] = 2.006771,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -26671,10 +26505,10 @@ _detalhes_database = {
 							["healing_taken"] = 2.006771,
 							["fight_component"] = true,
 							["end_time"] = 1706158945,
+							["start_time"] = 1706158944,
 							["healing_from"] = {
 								["Everland"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26708,13 +26542,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158944,
 							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006771,
 							["delay"] = 1706158904,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -26724,12 +26559,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 5.0088,
 							["total_without_pet"] = 18.0088,
 							["total"] = 18.0088,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -26744,10 +26578,10 @@ _detalhes_database = {
 							["healing_taken"] = 18.0088,
 							["fight_component"] = true,
 							["end_time"] = 1706158945,
+							["start_time"] = 1706158944,
 							["healing_from"] = {
 								["Chernobilly"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Chernobilly",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26781,13 +26615,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158944,
 							["aID"] = "1147-094D8634",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.0088,
 							["delay"] = 1706158907,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [3]
 					},
 				}, -- [2]
@@ -26890,7 +26725,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1298,
 							["buff_uptime"] = 90,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D8634",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -26926,15 +26761,15 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158945,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D8634",
-							["aID"] = "1147-094D8634",
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
 							["buff_uptime"] = 113,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D862F",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -26981,15 +26816,15 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158945,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D862F",
-							["aID"] = "1147-094D862F",
+							["classe"] = "ROGUE",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 108,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -27036,10 +26871,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158945,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863D",
-							["aID"] = "1147-094D863D",
+							["classe"] = "ROGUE",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -28318,7 +28153,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Skinnygirl"] = 7,
 							},
 							["pets"] = {
 							},
@@ -28340,8 +28176,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D863A",
 							["healing_taken"] = 0.003463,
 							["end_time"] = 1706158859,
-							["targets_overheal"] = {
-								["Skinnygirl"] = 7,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158858,
 							["nome"] = "Skinnygirl",
@@ -28388,7 +28223,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Defconsix"] = 7,
 							},
 							["pets"] = {
 							},
@@ -28410,8 +28246,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D863B",
 							["healing_taken"] = 0.004196,
 							["end_time"] = 1706158859,
-							["targets_overheal"] = {
-								["Defconsix"] = 7,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158858,
 							["nome"] = "Defconsix",
@@ -28463,12 +28298,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.006698,
 							["total_without_pet"] = 7.006698,
 							["total"] = 7.006698,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -28483,10 +28317,10 @@ _detalhes_database = {
 							["healing_taken"] = 7.006698,
 							["fight_component"] = true,
 							["end_time"] = 1706158859,
+							["start_time"] = 1706158858,
 							["healing_from"] = {
 								["Everland"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28519,17 +28353,19 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158858,
 							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006698,
 							["delay"] = 1706158845,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Chernobilly"] = 7,
 							},
 							["pets"] = {
 							},
@@ -28551,8 +28387,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D8634",
 							["healing_taken"] = 0.003708,
 							["end_time"] = 1706158859,
-							["targets_overheal"] = {
-								["Chernobilly"] = 7,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158858,
 							["nome"] = "Chernobilly",
@@ -28599,7 +28434,8 @@ _detalhes_database = {
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Corolla"] = 8,
 							},
 							["pets"] = {
 							},
@@ -28621,8 +28457,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D862F",
 							["healing_taken"] = 0.003617,
 							["end_time"] = 1706158859,
-							["targets_overheal"] = {
-								["Corolla"] = 8,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158858,
 							["nome"] = "Corolla",
@@ -28794,7 +28629,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 32,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[315584] = {
@@ -28830,10 +28665,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158859,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863D",
-							["aID"] = "1147-094D863D",
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -29044,14 +28879,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["aID"] = "153266",
+							["classe"] = "UNKNOW",
 							["monster"] = true,
 							["nome"] = "Killclaw the Terrible",
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Creature-0-3884-2175-7008-153266-000031E604",
-							["classe"] = "UNKNOW",
+							["aID"] = "153266",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -29082,9 +28917,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 62,
 				["totals"] = {
 					1244, -- [1]
 					7, -- [2]
@@ -29107,6 +28940,101 @@ _detalhes_database = {
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					456, -- [1]
+					7, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Skinnygirl"] = {
+						["Sinister Strike"] = 3,
+						["Eviscerate"] = 2,
+					},
+					["Corolla"] = {
+						["Eviscerate"] = 2,
+						["Stealth"] = 1,
+						["Sinister Strike"] = 3,
+					},
+					["Chernobilly"] = {
+						["Stealth"] = 1,
+					},
+					["Defconsix"] = {
+						["Eviscerate"] = 2,
+						["Sinister Strike"] = 2,
+					},
+					["Killclaw the Terrible"] = {
+						["Trampling Charge"] = 1,
+						["Claw"] = 1,
+						["Severing Swipe"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "21:00:59",
+				["hasTimer"] = 16,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Killclaw the Terrible",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 78498.431,
+				["CombatEndedAt"] = 78498.431,
+				["aura_timeline"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Skinnygirl"] = 0.003463,
+							["Corolla"] = 0.003617,
+							["Chernobilly"] = 0.003708,
+							["Defconsix"] = 0.004196,
+							["Everland"] = 7.006698,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Skinnygirl"] = 93.005627,
+							["Corolla"] = 84.001486,
+							["Chernobilly"] = 93.001859,
+							["Defconsix"] = 106.003893,
+							["Everland"] = 75.005571,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 78499.056,
+				["combat_id"] = 53,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Killclaw the Terrible"] = 1,
+				},
+				["TimeData"] = {
 				},
 				["player_last_events"] = {
 					["Ogre Berserker"] = {
@@ -29302,103 +29230,10 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["amountCasts"] = {
-					["Skinnygirl"] = {
-						["Sinister Strike"] = 3,
-						["Eviscerate"] = 2,
-					},
-					["Corolla"] = {
-						["Eviscerate"] = 2,
-						["Stealth"] = 1,
-						["Sinister Strike"] = 3,
-					},
-					["Chernobilly"] = {
-						["Stealth"] = 1,
-					},
-					["Defconsix"] = {
-						["Eviscerate"] = 2,
-						["Sinister Strike"] = 2,
-					},
-					["Killclaw the Terrible"] = {
-						["Trampling Charge"] = 1,
-						["Claw"] = 1,
-						["Severing Swipe"] = 2,
-					},
-				},
-				["instance_type"] = "none",
-				["data_fim"] = "21:00:59",
-				["hasTimer"] = 16,
-				["bIsClosed"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Killclaw the Terrible",
-				["trinketProcs"] = {
-				},
-				["TotalElapsedCombatTime"] = 78498.431,
-				["CombatEndedAt"] = 78498.431,
-				["aura_timeline"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Skinnygirl"] = 0.003463,
-							["Corolla"] = 0.003617,
-							["Chernobilly"] = 0.003708,
-							["Defconsix"] = 0.004196,
-							["Everland"] = 7.006698,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Skinnygirl"] = 93.005627,
-							["Corolla"] = 84.001486,
-							["Chernobilly"] = 93.001859,
-							["Defconsix"] = 106.003893,
-							["Everland"] = 75.005571,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 78499.056,
-				["combat_id"] = 53,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Killclaw the Terrible"] = 1,
-				},
-				["TimeData"] = {
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 62,
-				["totals_grupo"] = {
-					456, -- [1]
-					7, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
 				},
 				["start_time"] = 78483.056,
 				["contra"] = "Killclaw the Terrible",
@@ -32142,12 +31977,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 8.003947,
 							["total_without_pet"] = 3.003947,
 							["total"] = 3.003947,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -32162,10 +31996,10 @@ _detalhes_database = {
 							["healing_taken"] = 3.003947,
 							["fight_component"] = true,
 							["end_time"] = 1706158528,
+							["start_time"] = 1706158527,
 							["healing_from"] = {
 								["Everland"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Everland",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32199,13 +32033,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158527,
 							["aID"] = "1147-094D863D",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003947,
 							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -32251,7 +32086,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1298,
 							["buff_uptime"] = 0,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D863D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1784] = {
@@ -32276,10 +32111,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158528,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D863D",
-							["aID"] = "1147-094D863D",
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -33463,7 +33298,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Everland"] = 8,
 							},
 							["pets"] = {
 							},
@@ -33485,8 +33321,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D863D",
 							["healing_taken"] = 0.002581,
 							["end_time"] = 1706158484,
-							["targets_overheal"] = {
-								["Everland"] = 8,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158478,
 							["nome"] = "Everland",
@@ -33533,7 +33368,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Chernobilly"] = 15,
 							},
 							["pets"] = {
 							},
@@ -33555,8 +33391,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D8634",
 							["healing_taken"] = 0.003787,
 							["end_time"] = 1706158484,
-							["targets_overheal"] = {
-								["Chernobilly"] = 15,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158479,
 							["nome"] = "Chernobilly",
@@ -33603,7 +33438,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Skinnygirl"] = 7,
 							},
 							["pets"] = {
 							},
@@ -33625,8 +33461,7 @@ _detalhes_database = {
 							["aID"] = "1147-094D863A",
 							["healing_taken"] = 0.007681,
 							["end_time"] = 1706158484,
-							["targets_overheal"] = {
-								["Skinnygirl"] = 7,
+							["healing_from"] = {
 							},
 							["start_time"] = 1706158480,
 							["nome"] = "Skinnygirl",
@@ -33678,12 +33513,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "ROGUE",
 							["totalover"] = 0.002977,
 							["total_without_pet"] = 7.002977,
 							["total"] = 7.002977,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 260,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -33698,10 +33532,10 @@ _detalhes_database = {
 							["healing_taken"] = 7.002977,
 							["fight_component"] = true,
 							["end_time"] = 1706158484,
+							["start_time"] = 1706158482,
 							["healing_from"] = {
 								["Corolla"] = true,
 							},
-							["spec"] = 260,
 							["nome"] = "Corolla",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33734,13 +33568,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706158482,
 							["aID"] = "1147-094D862F",
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002977,
 							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["targets_absorbs"] = {
+							},
 						}, -- [4]
 					},
 				}, -- [2]
@@ -33938,7 +33773,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1298,
 							["buff_uptime"] = 1,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D862F",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1784] = {
@@ -33963,10 +33798,10 @@ _detalhes_database = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
-							["tipo"] = 4,
 							["last_event"] = 1706158479,
+							["tipo"] = 4,
 							["serial"] = "Player-1147-094D862F",
-							["aID"] = "1147-094D862F",
+							["classe"] = "ROGUE",
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -33985,14 +33820,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["aID"] = "153964",
+							["classe"] = "UNKNOW",
 							["monster"] = true,
 							["nome"] = "Bloodbeak",
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Creature-0-3884-2175-7008-153964-000031E985",
-							["classe"] = "UNKNOW",
+							["aID"] = "153964",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -35847,9 +35682,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 55,
 				["totals"] = {
 					123, -- [1]
 					0, -- [2]
@@ -35872,6 +35705,84 @@ _detalhes_database = {
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					118, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Skinnygirl"] = {
+						["Ambush"] = 1,
+					},
+					["Corolla"] = {
+						["Ambush"] = 1,
+					},
+					["Defconsix"] = {
+						["Ambush"] = 1,
+					},
+					["Chernobilly"] = {
+						["Ambush"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "20:54:20",
+				["hasTimer"] = 5,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Hunting Worg",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 78099.853,
+				["CombatEndedAt"] = 78099.853,
+				["aura_timeline"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Chernobilly"] = 29.002503,
+							["Corolla"] = 59.005406,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 78099.853,
+				["combat_id"] = 46,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Hunting Worg"] = 2,
+				},
+				["TimeData"] = {
 				},
 				["player_last_events"] = {
 					["Everland"] = {
@@ -35954,86 +35865,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["amountCasts"] = {
-					["Skinnygirl"] = {
-						["Ambush"] = 1,
-					},
-					["Corolla"] = {
-						["Ambush"] = 1,
-					},
-					["Defconsix"] = {
-						["Ambush"] = 1,
-					},
-					["Chernobilly"] = {
-						["Ambush"] = 1,
-					},
-				},
-				["instance_type"] = "none",
-				["data_fim"] = "20:54:20",
-				["hasTimer"] = 5,
-				["bIsClosed"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Hunting Worg",
-				["trinketProcs"] = {
-				},
-				["TotalElapsedCombatTime"] = 78099.853,
-				["CombatEndedAt"] = 78099.853,
-				["aura_timeline"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Chernobilly"] = 29.002503,
-							["Corolla"] = 59.005406,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 78099.853,
-				["combat_id"] = 46,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Hunting Worg"] = 2,
-				},
-				["TimeData"] = {
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 55,
-				["totals_grupo"] = {
-					118, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
 				},
 				["start_time"] = 78093.853,
 				["contra"] = "Hunting Worg",
@@ -36124,9 +35959,9 @@ _detalhes_database = {
 			["pos"] = {
 				["normal"] = {
 					["y"] = -201.0012512207031,
-					["x"] = 682.0333251953125,
-					["w"] = 310.0000305175781,
-					["h"] = 158.0000915527344,
+					["x"] = 681.8009643554688,
+					["w"] = 310.0000610351563,
+					["h"] = 158.0001220703125,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -36195,34 +36030,30 @@ _detalhes_database = {
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1707427216,
-		["last_version"] = 16,
-	},
-	["mythic_plus_log"] = {
-	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
+	},
+	["mythic_plus_log"] = {
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
 	["ignore_nicktag"] = false,
-	["data_harvested_for_charts"] = {
-	},
+	["combat_counter"] = 95,
+	["on_death_menu"] = false,
 	["last_realversion"] = 155,
 	["last_instance_time"] = 1706160579,
 	["combat_id"] = 85,
 	["savedStyles"] = {
 	},
-	["last_day"] = "25",
+	["last_day"] = "27",
 	["character_data"] = {
-		["logons"] = 6,
+		["logons"] = 12,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -36270,8 +36101,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160625,
-					["on_hold"] = false,
 					["aID"] = "1147-094D863D",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36640,8 +36471,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160625,
-					["on_hold"] = false,
 					["aID"] = "1147-094D862F",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36895,8 +36726,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160625,
-					["on_hold"] = false,
 					["aID"] = "1147-094D863A",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37152,8 +36983,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160625,
-					["on_hold"] = false,
 					["aID"] = "1147-094D8634",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37431,7 +37262,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 97,
 								["MISS"] = 5,
-								["total"] = 442,
+								["r_amt"] = 0,
 								["c_max"] = 9,
 								["c_amt"] = 2,
 								["id"] = 1,
@@ -37445,7 +37276,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 16,
 								["n_amt"] = 79,
-								["r_amt"] = 0,
+								["total"] = 442,
 								["n_max"] = 8,
 							}, -- [1]
 							[283408] = {
@@ -37624,8 +37455,8 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706160625,
-					["on_hold"] = false,
 					["aID"] = "1147-094D863B",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38096,16 +37927,16 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "157300",
 					["total_without_pet"] = 1974.015122,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 1974.015122,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-27395-157300-000031F1BD",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["damage_from"] = {
 						["Skinnygirl"] = true,
 						["Corolla"] = true,
@@ -38130,7 +37961,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.015122,
 					["end_time"] = 1706160761,
 					["nome"] = "Tunk",
-					["aID"] = "157300",
+					["classe"] = "UNKNOW",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38323,7 +38154,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 31,
 								["MISS"] = 3,
-								["total"] = 77,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["c_amt"] = 0,
 								["id"] = 1,
@@ -38337,7 +38168,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 23,
-								["r_amt"] = 0,
+								["total"] = 77,
 								["n_max"] = 4,
 							}, -- [1]
 						},
@@ -38462,16 +38293,16 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "156814",
 					["total_without_pet"] = 1234.010362,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 1234.010362,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-27395-156814-000031F1BD",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["damage_from"] = {
 						["Skinnygirl"] = true,
 						["Corolla"] = true,
@@ -38495,7 +38326,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.010362,
 					["end_time"] = 1706161041,
 					["nome"] = "Gor'groth",
-					["aID"] = "156814",
+					["classe"] = "UNKNOW",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38745,8 +38576,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Everland"] = 36,
+					["healing_from"] = {
+						["Shuja Grimaxe"] = true,
+						["Everland"] = true,
 					},
 					["pets"] = {
 					},
@@ -38768,15 +38600,15 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totalover_without_pet"] = 0.036429,
 					["healing_taken"] = 444.036429,
-					["healing_from"] = {
-						["Shuja Grimaxe"] = true,
-						["Everland"] = true,
-					},
+					["start_time"] = 1706160601,
 					["fight_component"] = true,
 					["end_time"] = 1706160625,
-					["aID"] = "1147-094D863D",
+					["targets_overheal"] = {
+						["Everland"] = 36,
+					},
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Everland",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -38809,19 +38641,19 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160601,
+					["aID"] = "1147-094D863D",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.036429,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Corolla"] = 67,
+					["healing_from"] = {
+						["Shuja Grimaxe"] = true,
+						["Corolla"] = true,
 					},
 					["pets"] = {
 					},
@@ -38843,15 +38675,15 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totalover_without_pet"] = 0.03192800000000001,
 					["healing_taken"] = 463.031928,
-					["healing_from"] = {
-						["Shuja Grimaxe"] = true,
-						["Corolla"] = true,
-					},
+					["start_time"] = 1706160609,
 					["fight_component"] = true,
 					["end_time"] = 1706160625,
-					["aID"] = "1147-094D862F",
+					["targets_overheal"] = {
+						["Corolla"] = 67,
+					},
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Corolla",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -38884,19 +38716,19 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160609,
+					["aID"] = "1147-094D862F",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.03192800000000001,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
-						["Defconsix"] = 66,
+					["healing_from"] = {
+						["Shuja Grimaxe"] = true,
+						["Defconsix"] = true,
 					},
 					["pets"] = {
 					},
@@ -38918,15 +38750,15 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totalover_without_pet"] = 0.036147,
 					["healing_taken"] = 102.036147,
-					["healing_from"] = {
-						["Shuja Grimaxe"] = true,
-						["Defconsix"] = true,
-					},
+					["start_time"] = 1706160606,
 					["fight_component"] = true,
 					["end_time"] = 1706160625,
-					["aID"] = "1147-094D863B",
+					["targets_overheal"] = {
+						["Defconsix"] = 66,
+					},
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Defconsix",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -38959,19 +38791,19 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160606,
+					["aID"] = "1147-094D863B",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.036147,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Skinnygirl"] = 60,
+					["healing_from"] = {
+						["Skinnygirl"] = true,
+						["Shuja Grimaxe"] = true,
 					},
 					["pets"] = {
 					},
@@ -38993,15 +38825,15 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totalover_without_pet"] = 0.02297800000000001,
 					["healing_taken"] = 392.022978,
-					["healing_from"] = {
-						["Skinnygirl"] = true,
-						["Shuja Grimaxe"] = true,
-					},
+					["start_time"] = 1706160612,
 					["fight_component"] = true,
 					["end_time"] = 1706160625,
-					["aID"] = "1147-094D863A",
+					["targets_overheal"] = {
+						["Skinnygirl"] = 60,
+					},
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Skinnygirl",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -39034,19 +38866,19 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160612,
+					["aID"] = "1147-094D863A",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.02297800000000001,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Chernobilly"] = 47,
+					["healing_from"] = {
+						["Shuja Grimaxe"] = true,
+						["Chernobilly"] = true,
 					},
 					["pets"] = {
 					},
@@ -39068,15 +38900,15 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totalover_without_pet"] = 0.030378,
 					["healing_taken"] = 443.030378,
-					["healing_from"] = {
-						["Shuja Grimaxe"] = true,
-						["Chernobilly"] = true,
-					},
+					["start_time"] = 1706160611,
 					["fight_component"] = true,
 					["end_time"] = 1706160625,
-					["aID"] = "1147-094D8634",
+					["targets_overheal"] = {
+						["Chernobilly"] = 47,
+					},
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Chernobilly",
-					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[127802] = {
@@ -39109,14 +38941,13 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1706160611,
+					["aID"] = "1147-094D8634",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.030378,
 					["delay"] = 0,
-					["targets_absorbs"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 2584,
@@ -39232,8 +39063,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["aID"] = "167663",
 					["heal_enemy_amt"] = 0,
+					["aID"] = "167663",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.039908,
@@ -39247,7 +39078,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1298,
-					["resource"] = 65.113568,
+					["resource"] = 275.517416,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -39262,7 +39093,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.04626,
 					["last_event"] = 0,
-					["nome"] = "Everland",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -39272,12 +39103,12 @@ _detalhes_database = {
 					["aID"] = "1147-094D863D",
 					["totalover"] = 0.00251,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Everland",
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 80.11903899999997,
+					["resource"] = 338.6296510000001,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D862F",
@@ -39292,7 +39123,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.033937,
 					["last_event"] = 0,
-					["nome"] = "Corolla",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -39302,12 +39133,12 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["totalover"] = 0.006258,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Corolla",
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 71.095611,
+					["resource"] = 263.4200250000001,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D863A",
@@ -39322,7 +39153,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.041542,
 					["last_event"] = 0,
-					["nome"] = "Skinnygirl",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -39332,12 +39163,12 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["totalover"] = 0.00797,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Skinnygirl",
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 77.11657399999997,
+					["resource"] = 311.5952480000001,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -39352,7 +39183,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.03679499999999999,
 					["last_event"] = 0,
-					["nome"] = "Chernobilly",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -39362,12 +39193,12 @@ _detalhes_database = {
 					["aID"] = "1147-094D8634",
 					["totalover"] = 0.002064,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Chernobilly",
 				}, -- [4]
 				{
 					["flag_original"] = 1297,
-					["resource"] = 68.11500900000001,
+					["resource"] = 308.5562370000005,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -39382,7 +39213,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["alternatepower"] = 0.041471,
 					["last_event"] = 0,
-					["nome"] = "Defconsix",
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
@@ -39392,8 +39223,8 @@ _detalhes_database = {
 					["aID"] = "1147-094D863B",
 					["totalover"] = 0.008444,
 					["tipo"] = 3,
-					["boss_fight_component"] = true,
 					["resource_type"] = 4,
+					["nome"] = "Defconsix",
 				}, -- [5]
 			},
 		}, -- [3]
@@ -39462,20 +39293,20 @@ _detalhes_database = {
 					},
 					["buff_uptime_targets"] = {
 					},
-					["spec"] = 261,
-					["serial"] = "Player-1147-094D863D",
-					["buff_uptime"] = 397,
 					["interrupt_targets"] = {
 						["Gor'groth"] = 1,
 					},
+					["serial"] = "Player-1147-094D863D",
+					["buff_uptime"] = 397,
+					["nome"] = "Everland",
 					["fight_component"] = true,
 					["interrupt"] = 1.002051,
 					["grupo"] = true,
 					["aID"] = "1147-094D863D",
 					["last_event"] = 0,
 					["tipo"] = 4,
-					["nome"] = "Everland",
 					["boss_fight_component"] = true,
+					["spec"] = 261,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
@@ -39526,9 +39357,9 @@ _detalhes_database = {
 					},
 					["spec"] = 261,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D862F",
 					["aID"] = "1147-094D862F",
 				}, -- [2]
@@ -39581,9 +39412,9 @@ _detalhes_database = {
 					},
 					["spec"] = 261,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D8634",
 					["aID"] = "1147-094D8634",
 				}, -- [3]
@@ -39636,9 +39467,9 @@ _detalhes_database = {
 					},
 					["spec"] = 261,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D863A",
 					["aID"] = "1147-094D863A",
 				}, -- [4]
@@ -39691,9 +39522,9 @@ _detalhes_database = {
 					},
 					["spec"] = 261,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
 					["serial"] = "Player-1147-094D863B",
 					["aID"] = "1147-094D863B",
 				}, -- [5]
@@ -39701,14 +39532,14 @@ _detalhes_database = {
 					["flag_original"] = 2584,
 					["pets"] = {
 					},
-					["aID"] = "167664",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Shuja Grimaxe",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3135-2236-27395-167664-000031F1BD",
-					["classe"] = "UNKNOW",
+					["aID"] = "167664",
 				}, -- [6]
 				{
 					["flag_original"] = 2584,
@@ -39726,33 +39557,33 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "156821",
 					["monster"] = true,
 					["nome"] = "Darkmaul Shadowcaller",
 					["fight_component"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3135-2236-27395-156821-000131F1BD",
-					["aID"] = "156821",
+					["classe"] = "UNKNOW",
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "156825",
 					["monster"] = true,
 					["nome"] = "Darkmaul Centurion",
 					["fight_component"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3135-2236-27395-156825-000131F1BD",
-					["aID"] = "156825",
+					["classe"] = "UNKNOW",
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "157300",
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[321240] = {
@@ -39772,131 +39603,131 @@ _detalhes_database = {
 						[343883] = 1,
 					},
 					["monster"] = true,
-					["interrupt"] = 1.0067,
-					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Tunk",
 					["interrupt_targets"] = {
 						["Shuja Grimaxe"] = 1,
 					},
-					["nome"] = "Tunk",
-					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["last_event"] = 0,
+					["interrupt"] = 1.0067,
 					["serial"] = "Creature-0-3135-2236-27395-157300-000031F1BD",
-					["aID"] = "157300",
+					["tipo"] = 4,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "157328",
 					["monster"] = true,
 					["nome"] = "Darkmaul Channeler",
 					["fight_component"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3135-2236-27395-157328-0000B1F1BD",
-					["aID"] = "157328",
+					["classe"] = "UNKNOW",
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "156814",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Gor'groth",
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-3135-2236-27395-156814-000031F1BD",
-					["classe"] = "UNKNOW",
+					["aID"] = "156814",
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "156501",
 					["monster"] = true,
 					["nome"] = "Ravnyr",
 					["fight_component"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3135-2236-27395-156501-000031F1BD",
-					["aID"] = "156501",
+					["classe"] = "UNKNOW",
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "153581",
+					["fight_component"] = true,
 					["nome"] = "Grunk",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "153581",
+					["serial"] = "Creature-0-3884-2175-7008-153581-000031EFBA",
+					["tipo"] = 4,
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "153582",
+					["fight_component"] = true,
 					["nome"] = "Wug",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "153582",
+					["serial"] = "Creature-0-3884-2175-7008-153582-000031EB19",
+					["tipo"] = 4,
 				}, -- [15]
 				{
 					["flag_original"] = 68136,
-					["tipo"] = 4,
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-3884-2175-7008-163036-0002B1EB2C",
 					["aID"] = "163036",
+					["fight_component"] = true,
 					["nome"] = "Gutgruk the Tough",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-7008-163036-0002B1EB2C",
+					["tipo"] = 4,
 				}, -- [16]
 				{
 					["flag_original"] = 2584,
-					["tipo"] = 4,
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-3884-2175-7008-163036-0001B1EB2C",
 					["aID"] = "163036",
+					["fight_component"] = true,
 					["nome"] = "Ogre Berserker",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-7008-163036-0001B1EB2C",
+					["tipo"] = 4,
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153266-000031E604",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "153266",
+					["fight_component"] = true,
 					["nome"] = "Killclaw the Terrible",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "153266",
+					["serial"] = "Creature-0-3884-2175-7008-153266-000031E604",
+					["tipo"] = 4,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3884-2175-7008-153964-000031E985",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "153964",
+					["fight_component"] = true,
 					["nome"] = "Bloodbeak",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "153964",
+					["serial"] = "Creature-0-3884-2175-7008-153964-000031E985",
+					["tipo"] = 4,
 				}, -- [19]
 			},
 		}, -- [4]
@@ -40198,11 +40029,11 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300.0000915527344, -- [1]
 				499.9999694824219, -- [2]
 			},
-			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -40210,19 +40041,30 @@ _detalhes_database = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["author"] = "Terciob",
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["y"] = 3.0517578125e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["use_spark"] = true,
+			["author"] = "Terciob",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["y"] = 3.0517578125e-05,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -40234,17 +40076,6 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
 			["x"] = -9.1552734375e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -40259,8 +40090,12 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["on_death_menu"] = false,
-	["combat_counter"] = 95,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1707427216,
+		["last_version"] = 16,
+	},
+	["data_harvested_for_charts"] = {
+	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -40275,6 +40110,5 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-1147-094D863B"] = 261,
 	},
 }

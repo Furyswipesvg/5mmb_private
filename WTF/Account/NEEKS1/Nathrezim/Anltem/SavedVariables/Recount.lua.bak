@@ -1,0 +1,91 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Anlronclad"] = {
+			["GUID"] = "Player-1138-086D7584",
+			["LastEventHealth"] = {
+				8760, -- [1]
+				8760, -- [2]
+				8760, -- [3]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = true,
+			["level"] = 50,
+			["LastFightIn"] = 0,
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastActive"] = 503785.196,
+			["NextEventNum"] = 4,
+			["LastEventHealthMax"] = {
+				8760, -- [1]
+				8760, -- [2]
+				8760, -- [3]
+			},
+			["LastEvents"] = {
+				"Lumifire-Stormrage Deferred Sentence Anlronclad Hit +4137 (4137 Overheal)", -- [1]
+				"Lumifire-Stormrage Deferred Sentence Anlronclad Hit +48 (48 Overheal)", -- [2]
+				"Lumifire-Stormrage Deferred Sentence Anlronclad Hit +48 (48 Overheal)", -- [3]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["LastEventTimes"] = {
+				503780.666, -- [1]
+				503782.099, -- [2]
+				503785.229, -- [3]
+			},
+			["Fights"] = {
+			},
+			["Name"] = "Anlronclad",
+			["UnitLockout"] = 503780.199,
+			["LastAbility"] = 581066.133,
+		},
+		["Anlsland"] = {
+			["GUID"] = "Player-1138-086D7588",
+			["LastEventHealth"] = {
+				11900, -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "MONK",
+			["unit"] = true,
+			["level"] = 50,
+			["LastFightIn"] = 0,
+			["type"] = "Ungrouped",
+			["Owner"] = false,
+			["LastActive"] = 503787.196,
+			["NextEventNum"] = 2,
+			["LastEventHealthMax"] = {
+				11900, -- [1]
+			},
+			["LastEvents"] = {
+				"Lumifire-Stormrage Deferred Sentence Anlsland Hit +48 (48 Overheal)", -- [1]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				503788.129, -- [1]
+			},
+			["Fights"] = {
+			},
+			["Name"] = "Anlsland",
+			["UnitLockout"] = 503787.196,
+			["LastAbility"] = 581066.133,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

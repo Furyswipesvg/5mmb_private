@@ -137,11 +137,7 @@ VER 3 0000000000000B19 "SINGLE_FS_GUARDIAN" "ability_searingarrow"
 END
 VER 3 0000000000000B1B "TURBO_FS_GUARDIAN" "Spell_nature_lightning"
 #showtooltip
-/click [button:1] TURBO_FS_GUARDIAN LeftButton t;
-/petpassive [mod:alt]
-/cancelform [nocombat]
-/run mountup()
-/run SetView(4)
+/click [button:1] TURBO_FS_GUARDIAN LeftButton t; TURBO_FS_GUARDIAN
 END
 VER 3 0000000000000B21 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave

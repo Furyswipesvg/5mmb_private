@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "ELFYAUFIREM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELFYAUFIREM RightButton; [button:3] ELFYAUFIREM MiddleButton; [button:4] ELFYAUFIREM Button4; [button:5] ELFYAUFIREM Button5; ELFYAUFIREM
+END
+VER 3 0100000000000002 "FIRE_MAGE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] FIRE_MAGE RightButton; [button:3] FIRE_MAGE MiddleButton; [button:4] FIRE_MAGE Button4; [button:5] FIRE_MAGE Button5; FIRE_MAGE
+END

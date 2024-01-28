@@ -49,26 +49,21 @@ AUCTIONATOR_CONFIG = {
 	["small_tabs"] = false,
 	["selling_buy_shortcut"] = "alt right click",
 	["selling_confirm_low_price"] = true,
-	["selling_should_reselect_item"] = false,
 	["selling_group_by_item_key"] = true,
+	["selling_should_reselect_item"] = false,
 	["selling_bag_select_shortcut"] = "alt left click",
-	["auction_mean_tooltips"] = false,
 	["selling_cancel_shortcut"] = "right click",
-	["cancel_undercut_shortcut"] = "SPACE",
-	["crafting_info_show_profit"] = true,
 	["columns_selling_search_3"] = {
 	},
-	["columns_cancelling"] = {
-	},
-	["save_last_duration_as_default"] = false,
+	["cancel_undercut_shortcut"] = "SPACE",
+	["autoscan_interval"] = 15,
 	["auction_mean_days_limit"] = 21,
+	["hide_splash_screen"] = false,
+	["save_last_duration_as_default"] = false,
 	["crafting_info_show_cost"] = true,
-	["columns_shopping"] = {
-	},
-	["columns_shopping_buy_commodity"] = {
-	},
+	["auction_mean_tooltips"] = false,
 	["vendor_tooltips"] = true,
-	["columns_shopping_historical_prices"] = {
+	["columns_shopping_buy_commodity"] = {
 	},
 	["default_quantities"] = {
 		0, -- [1]
@@ -80,28 +75,29 @@ AUCTIONATOR_CONFIG = {
 		0, -- [7]
 		0, -- [8]
 		0, -- [9]
-		nil, -- [10]
-		nil, -- [11]
-		0, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		0, -- [15]
-		0, -- [16]
-		1, -- [17]
 		[0] = 0,
+		[17] = 1,
+		[15] = 0,
+		[12] = 0,
 		[19] = 0,
+		[16] = 0,
 	},
+	["columns_shopping_historical_prices"] = {
+	},
+	["crafting_info_show_profit"] = true,
 	["undercut_static_value"] = 0,
 	["auto_list_search"] = true,
 	["debug"] = false,
 	["auction_chat_log"] = true,
 	["mailbox_tooltips"] = true,
-	["hide_splash_screen"] = false,
-	["selling_bag_collapsed"] = false,
-	["autoscan_2"] = false,
-	["autoscan_interval"] = 15,
-	["auction_sales_preference"] = "percentage",
 	["show_selling_bid_price"] = false,
+	["selling_bag_collapsed"] = false,
+	["columns_shopping"] = {
+	},
+	["autoscan_2"] = false,
+	["auction_sales_preference"] = "percentage",
+	["columns_cancelling"] = {
+	},
 	["splash_screen_version"] = "anything",
 	["crafting_info_show"] = true,
 	["selling_split_panels"] = false,

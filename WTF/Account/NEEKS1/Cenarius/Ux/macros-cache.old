@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "HUNTER_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HUNTER_TURBO RightButton; [button:3] HUNTER_TURBO MiddleButton; [button:4] HUNTER_TURBO Button4; [button:5] HUNTER_TURBO Button5; HUNTER_TURBO
+END

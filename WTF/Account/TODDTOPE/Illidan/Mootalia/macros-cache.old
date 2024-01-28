@@ -1,0 +1,10 @@
+VER 3 010000000000002E "SINGLE_MOO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] SINGLE_MOO LeftButton t; SINGLE_MOO
+END
+VER 3 010000000000002D "TURBO_MOO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] TURBO_MOO LeftButton t
+/dismount [mod:ctrl]
+/run automount()
+END

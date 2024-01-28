@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Defconsix|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Defconsix - Bladefist"] = "Defconsix - Bladefist",
+	},
+	["profiles"] = {
+		["Defconsix - Bladefist"] = {
+		},
+	},
+}

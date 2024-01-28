@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "GÉLIDO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] GÉLIDO RightButton; [button:3] GÉLIDO MiddleButton; [button:4] GÉLIDO Button4; [button:5] GÉLIDO Button5; GÉLIDO
+END

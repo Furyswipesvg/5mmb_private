@@ -1,0 +1,14 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Nanoknight - Nathrezim"] = "Nanoknight - Nathrezim",
+		["Us - Nathrezim"] = "Us - Nathrezim",
+		["Frazzled - Cenarius"] = "Frazzled - Cenarius",
+	},
+	["global"] = {
+		["options"] = {
+			["UI.Sharing.Ongoing.NumTargets"] = 0,
+			["UI.Mail.LastExpiryWarning"] = 1605322579,
+		},
+	},
+}

@@ -1,0 +1,95 @@
+
+TradeSkillMaster_CraftingDB = {
+	["f@Horde - Nathrezim@ignoreAlts"] = false,
+	["f@Horde - Nathrezim@ignoreIntermediate"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Basilar - Nathrezim", -- [1]
+		},
+		["realm"] = {
+			"Nathrezim", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Nathrezim", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["gatheringFrame"] = true,
+	},
+	["g@ @ignoreCharacters"] = {
+	},
+	["f@Horde - Nathrezim@mats"] = {
+	},
+	["_hash"] = 16460334,
+	["f@Horde - Nathrezim@playerProfessions"] = {
+		["Basilar"] = {
+			["Engineering"] = {
+				["isSecondary"] = false,
+				["level"] = 525,
+				["maxLevel"] = 700,
+			},
+			["Mining"] = {
+				["isSecondary"] = false,
+				["level"] = 528,
+				["maxLevel"] = 700,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 375,
+				["maxLevel"] = 700,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 300,
+				["maxLevel"] = 700,
+			},
+		},
+	},
+	["g@ @priceColumn"] = 1,
+	["_currentProfile"] = {
+		["Basilar - Nathrezim"] = "Default",
+	},
+	["g@ @frameQueueOpen"] = false,
+	["g@ @ignoreCDCraftCost"] = true,
+	["f@Horde - Nathrezim@crafts"] = {
+	},
+	["f@Horde - Nathrezim@professionScanCache"] = {
+	},
+	["g@ @questSmartCrafting"] = true,
+	["g@ @showingDefaultFrame"] = false,
+	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["f@Horde - Nathrezim@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["f@Horde - Nathrezim@ignoreDECheckBox"] = false,
+	["g@ @ignoreGuilds"] = {
+	},
+	["f@Horde - Nathrezim@disableCheckBox"] = false,
+	["f@Horde - Nathrezim@gathering"] = {
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["extraMats"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["selectedSources"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["selectedSourceStatus"] = {
+		},
+	},
+	["g@ @queueSort"] = 1,
+	["_version"] = 1,
+	["g@ @profitPercent"] = 0,
+}

@@ -1,0 +1,30 @@
+
+BattlePetCageMatch_Data = {
+	["Nathrezim"] = {
+		["Monique"] = {
+		},
+		["Wickerman"] = {
+		},
+		["Basilar"] = {
+		},
+	},
+	["Illidan"] = {
+		["Verylntense"] = {
+		},
+		["Thatslnsane"] = {
+		},
+	},
+}
+BattlePetCageMatch_Options = {
+	["profileKeys"] = {
+		["Thatslnsane - Illidan"] = "Default",
+		["Verylntense - Illidan"] = "Default",
+		["Basilar - Nathrezim"] = "Default",
+		["Monique - Nathrezim"] = "Default",
+		["Wickerman - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

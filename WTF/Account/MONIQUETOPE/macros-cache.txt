@@ -1,0 +1,95 @@
+VER 3 000000000000080E "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000001356 "aoe_fs" "spell_fire_selfdestruct"
+/click HOLY_AOE
+END
+VER 3 000000000000134E "b1_fs" "INV_Misc_QuestionMark"
+/cast [@player] Power Word: Fortitude
+END
+VER 3 000000000000134F "bufft_fs" "INV_Misc_QuestionMark"
+/castsequence reset=combat/target Power Word: Fortitude,null
+END
+VER 3 000000000000135A "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000001347 "h1_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Cheat] Flash Heal
+END
+VER 3 0000000000001348 "h2_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Thelnfinite] Flash Heal
+END
+VER 3 0000000000001349 "h3_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Earthshock] Flash Heal
+END
+VER 3 000000000000134A "h4_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Fiendish] Flash Heal
+END
+VER 3 000000000000134B "h5_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Frazzled] Flash Heal
+END
+VER 3 0000000000001346 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000001357 "int_fs" "INV_Misc_Questionmark"
+/cast Silence
+END
+VER 3 0000000000001359 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 000000000000134C "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Cheat
+END
+VER 3 0000000000001354 "multi_fs" "ability_upgrademoonglaive"
+/assist Cheat
+/click HOLY_MULTI
+END
+VER 3 0000000000001345 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000001351 "poly_fs" "INV_Misc_QuestionMark"
+/cast Shackle Undead
+END
+VER 3 0000000000001358 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000001350 "rez_fs" "INV_Misc_QuestionMark"
+/cast Mass Resurrection
+END
+VER 3 0000000000001352 "setup_fs" "Spell_magic_polymorphchicken"
+/assist Cheat
+/click HOLY_SETUP
+/stopcasting [mod:alt]
+/run follow()
+END
+VER 3 000000000000134D "shackle_fs" "INV_Misc_QuestionMark"
+/cast Shackle Undead
+END
+VER 3 00000000000012AB "sheal_fs" "INV_Misc_Questionmark"
+#noupdate
+#showtooltip lichborne
+/click UNHOLY_SHEAL
+END
+VER 3 0000000000001353 "single_fs" "ability_searingarrow"
+/assist Cheat
+/click HOLY_SINGLE
+END
+VER 3 0000000000001355 "turbo_fs" "Spell_nature_lightning"
+/click HOLY_TURBO
+/run focusme()
+/run follow()
+/petpassive [mod:alt]
+/run SetView(4)
+END
+VER 3 0000000000000CE9 "ZygorAction1" "134400"
+END

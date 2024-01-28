@@ -1,0 +1,100 @@
+VER 3 0100000000000003 "ARC" "INV_MISC_QUESTIONMARK"
+/cast [nomod] arcane shot
+/cast [mod:alt] disengage
+/cast [mod:ctrl] deterrence
+/startattack
+/cast [mod:alt] exhilaration
+/use [mod:alt] healthstone
+/cast [@pet] spirit mend
+/petattack
+END
+VER 3 0100000000000004 "COBRA" "INV_MISC_QUESTIONMARK"
+/cast [nomod] cobra shot
+/cast [mod:alt] focus fire
+/cast [mod:alt] fervor
+/startattack [nomod:ctrl] 
+/cast [mod:ctrl,noflyable] swift zulian tiger
+/cast [mod:ctrl,flyable] ashes of al'ar
+/cancelaura [mod:ctrl] deterrence
+END
+VER 3 0100000000000006 "EXP" "INV_MISC_QUESTIONMARK"
+#showtooltip explosive trap
+/cast !trap launcher
+/cast explosive trap
+END
+VER 3 010000000000000F "EXPL" "INV_MISC_QUESTIONMARK"
+/cast [nomod] explosive shot
+/cast [mod:alt] focus fire
+/cast [mod:alt] fervor
+/startattack [nomod:ctrl] 
+/cast [mod:ctrl,noflyable] swift zulian tiger
+/cast [mod:ctrl,flyable] ashes of al'ar
+/cancelaura [mod:ctrl] deterrence
+END
+VER 3 010000000000000E "FLARE" "INV_MISC_QUESTIONMARK"
+/cast [harm]  widow venom
+/cast flare
+/cast web
+/cast reflective armor plating
+END
+VER 3 0100000000000010 "GLAIVE" "INV_MISC_QUESTIONMARK"
+/castsequence  [nomod] reset=80 lynx rush,barrage, barrage
+/cancelaura [mod:ctrl] trap launcher
+/cast [mod:ctrl] freezing trap
+/petfollow [mod:ctrl]
+/cast [mod:alt] kill shot
+/stopattack[mod:ctrl]
+/cast  [@pet] misdirection
+END
+VER 3 010000000000000B "HOTP" "INV_MISC_QUESTIONMARK"
+/cast heart of the phoenix
+END
+VER 3 0100000000000009 "ICE" "INV_MISC_QUESTIONMARK"
+#showtooltip ice trap
+/cast !trap launcher
+/cast ice trap
+END
+VER 3 0100000000000002 "kill" "INV_MISC_QUESTIONMARK"
+/cast  [nomod] kill command
+/cancelaura [mod:ctrl] trap launcher
+/cast [mod:ctrl] freezing trap
+/petfollow [mod:ctrl]
+/cast [mod:alt] kill shot
+/stopattack[mod:ctrl]
+/cast  [@pet] misdirection
+END
+VER 3 010000000000000C "Master's" "INV_MISC_QUESTIONMARK"
+/cast [@player] master's call
+END
+VER 3 0100000000000012 "mend me" "INV_MISC_QUESTIONMARK"
+/cast spirit mend
+/target central
+END
+VER 3 010000000000000A "Rabid" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast rabid
+END
+VER 3 0100000000000005 "SNAKE" "INV_MISC_QUESTIONMARK"
+#showtooltip snake trap
+/cast !trap launcher
+/cast snake trap
+END
+VER 3 0100000000000001 "Sting" "INV_MISC_QUESTIONMARK"
+/cast [mounted] kill shot
+/cast [mod:ctrl] explosive trap
+/cast [nopet] call pet 3
+/cast [nomod] serpent sting
+/cast [mod:alt] concussive shot
+/petattack
+/petattack [@focus,exists] 
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [@pet] mend pet
+END
+VER 3 0100000000000011 "TURXP" "INV_MISC_QUESTIONMARK"
+/cast stampede
+/cast rabid
+/cast rapid fire
+/use Malevolent Gladiator's Badge of Conquest
+/use Malevolent Gladiator's Chain Gauntlets
+/startattack
+END

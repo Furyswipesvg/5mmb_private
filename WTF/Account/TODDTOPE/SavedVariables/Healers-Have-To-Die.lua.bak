@@ -1,0 +1,32 @@
+
+Healers_Have_To_Die = {
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Neversmiles - Illidan"] = "Neversmiles - Illidan",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Felslaughter - Illidan"] = "Felslaughter - Illidan",
+		["Hepagor - Nazjatar"] = "Hepagor - Nazjatar",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Brokeurarmor - Illidan"] = "Brokeurarmor - Illidan",
+		["Tazzwaz - Illidan"] = "Tazzwaz - Illidan",
+		["Elixyia - Rivendare"] = "Elixyia - Rivendare",
+		["Wachuhunt - Illidan"] = "Wachuhunt - Illidan",
+		["Gâto - Illidan"] = "Gâto - Illidan",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+		["Bubblyböö - Illidan"] = "Bubblyböö - Illidan",
+		["Snöbgoblin - Illidan"] = "Snöbgoblin - Illidan",
+		["Xtharsa - Maiev"] = "Xtharsa - Maiev",
+		["Jannil - Stormreaver"] = "Jannil - Stormreaver",
+	},
+	["global"] = {
+		["settingsTransmuted"] = "settings switched to new H.H.T.D add-on",
+		["Enabled"] = false,
+	},
+}

@@ -1,0 +1,22 @@
+VER 3 0100000000000005 "aoe" "INV_Misc_QuestionMark"
+/castrandom cleave,thunder clap
+/startattack
+END
+VER 3 0100000000000003 "brbs" "INV_Misc_QuestionMark"
+/castrandom bloodrage, battle shout
+END
+VER 3 0100000000000004 "ch" "INV_Misc_QuestionMark"
+/cast charge
+/cast hamstring
+/startattack
+END
+VER 3 0100000000000001 "follow" "Ability_Ambush"
+/follow denwyn
+END
+VER 3 0100000000000002 "hs" "INV_Misc_QuestionMark"
+#showtooltip heroic strike
+/cast [modifier:ctrl] demoralizing shout
+/cast overpower
+/cast heroic strike
+/startattack
+END

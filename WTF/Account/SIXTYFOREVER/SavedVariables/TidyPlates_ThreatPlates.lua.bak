@@ -1,0 +1,60 @@
+
+ThreatPlatesDB = {
+	["char"] = {
+		["Basilar - Nathrezim"] = {
+			["specInfo"] = {
+				{
+					["name"] = "Restoration",
+					["role"] = "HEALER",
+				}, -- [1]
+				{
+					["name"] = "Enhancement",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
+	},
+	["global"] = {
+		["version"] = "6.008",
+	},
+	["profileKeys"] = {
+		["Basilar - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["nameplate"] = {
+				["toggle"] = {
+					["Totem"] = true,
+				},
+			},
+			["uniqueSettings"] = {
+				[33] = {
+				},
+				[34] = {
+				},
+				[38] = {
+				},
+				[40] = {
+				},
+				[41] = {
+				},
+				[42] = {
+				},
+				[48] = {
+				},
+				[49] = {
+				},
+				[50] = {
+				},
+				["list"] = {
+				},
+			},
+			["cache"] = {
+			},
+		},
+	},
+}

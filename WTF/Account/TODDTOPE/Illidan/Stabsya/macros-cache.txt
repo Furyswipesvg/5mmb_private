@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "OUTLAWL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] OUTLAWL RightButton; [button:3] OUTLAWL MiddleButton; [button:4] OUTLAWL Button4; [button:5] OUTLAWL Button5; OUTLAWL
+END
+VER 3 0100000000000001 "RTB_WIP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] RTB_WIP RightButton; [button:3] RTB_WIP MiddleButton; [button:4] RTB_WIP Button4; [button:5] RTB_WIP Button5; RTB_WIP
+END

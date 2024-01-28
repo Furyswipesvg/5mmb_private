@@ -1,0 +1,68 @@
+VER 3 0100000000000045 "arcane" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt] tranquilizing shot
+/cast [nomod] arcane shot
+/use [nomod,combat] jom gabbar
+/petattack
+/startattack
+END
+VER 3 0100000000000049 "expl" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt] arcane shot
+/cast [nomod] explosive shot
+/use [nomod,combat] jom gabbar
+/cast [combat]  blood rage
+/cast [nomod,combat] rapid fire
+/petattack
+/startattack
+END
+VER 3 010000000000004D "freezing" "INV_MISC_QUESTIONMARK"
+#showtooltip Freezing Trap
+/castsequence reset=9 Trap Launcher, !Freezing Trap(Frost - Trap Launcher), nil
+END
+VER 3 0100000000000044 "HM" "INV_MISC_QUESTIONMARK"
+/cast [nomod,nopet] call pet 1
+/cast [nomod] Hunter's Mark
+/petattack [nomod]
+/cast [mod:alt] concussive shot
+/cast [mod:ctrl] aspect of the cheetah
+/petattack [nomod]
+END
+VER 3 010000000000004C "ICE" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Trap
+/castsequence reset=9 Trap Launcher, !Ice Trap(Frost - Trap Launcher), nil
+END
+VER 3 010000000000004B "immo" "INV_MISC_QUESTIONMARK"
+#showtooltip immolation Trap
+/castsequence reset=9 Trap Launcher, !Explosive Trap(Fire - Trap Launcher), nil
+END
+VER 3 0100000000000008 "LOCK JAW" "INV_MISC_QUESTIONMARK"
+/cast lock jaw
+END
+VER 3 0100000000000047 "ms" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt] disengage
+/cast [mod:alt] raptor strike
+/cast [nomod] multi-shot
+/use [nomod,combat] jom gabbar
+/petattack
+/startattack
+END
+VER 3 0100000000000046 "ss" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt] wing clip
+/cast [nomod] steady shot
+/use [nomod,combat] jom gabbar
+/cast [nomod,combat] rapid fire
+/cast [mod:ctrl] tawny wind rider
+/petattack[nomod]
+/startattack[nomod]
+END
+VER 3 0100000000000048 "sting" "INV_MISC_QUESTIONMARK"
+/cast [mod:alt] kill shot
+/cast [nomod] serpent sting
+/use [nomod,combat] jom gabbar
+/cast [mod:ctrl] freezing trap
+/petattack
+/startattack
+END
+VER 3 010000000000004A "xtrap" "INV_MISC_QUESTIONMARK"
+#showtooltip Explosive Trap
+/castsequence reset=9 Trap Launcher, !Explosive Trap(Fire - Trap Launcher), nil
+END

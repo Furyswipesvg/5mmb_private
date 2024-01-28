@@ -1,0 +1,22 @@
+VER 3 0100000000000015 "attack" "132127"
+/cast claw
+/startattack
+END
+VER 3 0100000000000016 "dash" "INV_MISC_QUESTIONMARK"
+/cast dash
+END
+VER 3 0100000000000019 "defend" "INV_MISC_QUESTIONMARK"
+/cast catlike reflexes
+END
+VER 3 0100000000000014 "LOK" "INV_MISC_QUESTIONMARK"
+/tar loq
+/cast [mod:ctrl] eyes of the beast
+/cast [mod:alt] stopattack
+/petfollow [mod:alt]
+END
+VER 3 0100000000000018 "prowl" "INV_MISC_QUESTIONMARK"
+/cast prowl
+END
+VER 3 0100000000000017 "turbo" "INV_MISC_QUESTIONMARK"
+/cast Primal Rage(Ferocity Ability)
+END

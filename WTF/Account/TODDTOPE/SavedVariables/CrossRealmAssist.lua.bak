@@ -1,0 +1,42 @@
+
+CrossRealmAssistDB = {
+	["profileKeys"] = {
+		["Delfarias - Bonechewer"] = "Delfarias - Bonechewer",
+		["Takasis - Nathrezim"] = "Takasis - Nathrezim",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Menn - Bonechewer"] = "Menn - Bonechewer",
+		["Bubblyböö - Illidan"] = "Bubblyböö - Illidan",
+		["Snöbgoblin - Illidan"] = "Snöbgoblin - Illidan",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+		["Central - Nathrezim"] = "Central - Nathrezim",
+		["Brokeurarmor - Illidan"] = "Brokeurarmor - Illidan",
+		["Stream - Nathrezim"] = "Stream - Nathrezim",
+		["Marinda - Nathrezim"] = "Marinda - Nathrezim",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Pawsnreflect - Nathrezim"] = "Pawsnreflect - Nathrezim",
+		["Dragonstalkr - Nathrezim"] = "Dragonstalkr - Nathrezim",
+		["Egbert - Bonechewer"] = "Egbert - Bonechewer",
+		["Wachuhunt - Illidan"] = "Wachuhunt - Illidan",
+		["Neversmiles - Illidan"] = "Neversmiles - Illidan",
+		["Felslaughter - Illidan"] = "Felslaughter - Illidan",
+		["Gâto - Illidan"] = "Gâto - Illidan",
+		["Tazzwaz - Illidan"] = "Tazzwaz - Illidan",
+		["Eregwynn - Bonechewer"] = "Eregwynn - Bonechewer",
+		["Bubblyboo - Nathrezim"] = "Bubblyboo - Nathrezim",
+	},
+	["global"] = {
+		["quickJoin"] = {
+			true, -- [1]
+			[3] = true,
+			[8] = true,
+		},
+		["widgetPos"] = {
+			["y"] = -84.3110885620117,
+			["x"] = -211.733612060547,
+			["to"] = "TOPRIGHT",
+		},
+		["minimap"] = {
+			["minimapPos"] = 251.565177483307,
+		},
+	},
+}

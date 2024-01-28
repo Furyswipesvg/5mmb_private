@@ -153,7 +153,5 @@ VER 3 0000000000000906 "ZygorAction1" "134327"
 /target Chromie
 /run ZGV:MRM()
 END
-VER 3 0000000000000907 "ZygorAction2" "134327"
-#showtooltip Shift click to destroy:|n|cff9d9d9d1 Winch Coil|r worth |cffffee001g|r |cfff8f8ff33s|r |cffffaa9992c|r|nRight click to skip this item|n
-/run ZGV.Inventory:HandleTrashMacro()
+VER 3 0000000000000907 "ZygorAction2" "134400"
 END

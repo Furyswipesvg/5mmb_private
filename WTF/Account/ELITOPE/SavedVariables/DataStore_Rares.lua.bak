@@ -1,0 +1,107 @@
+
+DataStore_RaresDB = {
+	["profileKeys"] = {
+		["Palia - Nathrezim"] = "Palia - Nathrezim",
+		["Anlmage - Nathrezim"] = "Anlmage - Nathrezim",
+		["Anlmage - Illidan"] = "Anlmage - Illidan",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Nathrezim.Palia"] = {
+				["lastUpdate"] = 1606170752,
+			},
+			["Default.Illidan.Anlmage"] = {
+				["lastUpdate"] = 1607637679,
+				["Rares"] = {
+					[139235] = {
+						["resetTime"] = 61120,
+						["name"] = "Tort Jaw",
+					},
+					[131520] = {
+						["resetTime"] = 61120,
+						["name"] = "Kulett the Ornery",
+					},
+					[131404] = {
+						["resetTime"] = 61120,
+						["name"] = "Foreman Scripps",
+					},
+					[134884] = {
+						["resetTime"] = 61120,
+						["name"] = "Ragna",
+					},
+					[133373] = {
+						["resetTime"] = 61120,
+						["name"] = "Jax'teb the Reanimated",
+					},
+					[139980] = {
+						["resetTime"] = 61120,
+						["name"] = "Taja the Tidehowler",
+					},
+					[127290] = {
+						["resetTime"] = 61120,
+						["name"] = "Saurolisk Tamer Mugg",
+					},
+					[106990] = {
+						["resetTime"] = 61120,
+						["name"] = "Chief Bitterbrine",
+					},
+					[89846] = {
+						["resetTime"] = 61120,
+						["name"] = "Captain Volo'ren",
+					},
+					[89816] = {
+						["resetTime"] = 61120,
+						["name"] = "Golza the Iron Fin",
+					},
+					[89850] = {
+						["resetTime"] = 61120,
+						["name"] = "The Oracle",
+					},
+					[139280] = {
+						["resetTime"] = 61120,
+						["name"] = "Sythian the Swift",
+					},
+					[90505] = {
+						["resetTime"] = 61120,
+						["name"] = "Syphonus",
+					},
+					[91113] = {
+						["resetTime"] = 61120,
+						["name"] = "Tide Behemoth",
+					},
+					[107127] = {
+						["resetTime"] = 61120,
+						["name"] = "Brawlgoth",
+					},
+					[141059] = {
+						["resetTime"] = 61120,
+						["name"] = "Grimscowl the Harebrained",
+					},
+					[91100] = {
+						["resetTime"] = 61120,
+						["name"] = "Brogozog",
+					},
+					[135939] = {
+						["resetTime"] = 61120,
+						["name"] = "Vinespeaker Ratha",
+					},
+					[90901] = {
+						["resetTime"] = 61120,
+						["name"] = "Pridelord Meowl",
+					},
+					[133356] = {
+						["resetTime"] = 61120,
+						["name"] = "Tempestria",
+					},
+					[89884] = {
+						["resetTime"] = 61120,
+						["name"] = "Flog the Captain-Eater",
+					},
+				},
+			},
+			["Default.Nathrezim.Anlmage"] = {
+				["lastUpdate"] = 1603511621,
+			},
+		},
+	},
+}

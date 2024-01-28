@@ -107,7 +107,7 @@ VER 3 0000000000000734 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
 VER 3 0000000000000735 "ZygorAction1" "134327"
-#showtooltip Shift click to destroy:|n|cff9d9d9d1 Unraveling Cloth Pants|r worth |cffffaa9978c|r|nRight click to skip this item|n
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Mud-Soaked Crossbow|r worth |cfff8f8ff1s|r |cffffaa9934c|r|nRight click to skip this item|n
 /run ZGV.Inventory:HandleTrashMacro()
 END
 VER 3 0000000000000736 "ZygorAction2" "134400"

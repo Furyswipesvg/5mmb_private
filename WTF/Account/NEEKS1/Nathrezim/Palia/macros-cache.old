@@ -1,0 +1,45 @@
+VER 3 0100000000000002 "BL" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [nomod] blink
+/cast [mod:ctrl,target=player] Slow Fall
+/cast [mod:alt] deep freeze
+END
+VER 3 01000000000000E3 "DJ'S_FIRE_BURST_NO_MODS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DJ'S_FIRE_BURST_NO_MODS RightButton; [button:3] DJ'S_FIRE_BURST_NO_MODS MiddleButton; [button:4] DJ'S_FIRE_BURST_NO_MODS Button4; [button:5] DJ'S_FIRE_BURST_NO_MODS Button5; DJ'S_FIRE_BURST_NO_MODS
+END
+VER 3 0100000000000003 "FB" "INV_MISC_QUESTIONMARK"
+/cast [nomod] frostbolt
+/stopcasting [mod]
+/cast [mod:alt] ice ward
+/cast [mod:ctrl]ice barrier
+END
+VER 3 0100000000000006 "FF" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [nomod] frostfire bolt
+/cast [mod:alt] mirror image
+END
+VER 3 01000000000000E4 "FROST_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] FROST_TURBO RightButton; [button:3] FROST_TURBO MiddleButton; [button:4] FROST_TURBO Button4; [button:5] FROST_TURBO Button5; FROST_TURBO
+END
+VER 3 0100000000000005 "LAN" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [nomod] ice lance
+/cast [mod:alt] cone of cold
+/cast [mod:ctrl,noflyable] swift zulian tiger
+/cast [mod:ctrl] mimiron's head
+END
+VER 3 01000000000000E5 "MYARCANE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MYARCANE RightButton; [button:3] MYARCANE MiddleButton; [button:4] MYARCANE Button4; [button:5] MYARCANE Button5; MYARCANE
+END
+VER 3 0100000000000004 "ORB" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [nomod] frozen orb
+/cast [mod:alt] frost nova
+/cast [mod:ctrl,target=player] remove curse
+END
+VER 3 0100000000000016 "WJ" "INV_MISC_QUESTIONMARK"
+/cast water jet
+END

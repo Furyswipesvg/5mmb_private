@@ -1,0 +1,43 @@
+
+AdvancedInterfaceOptionsSaved = {
+	["CustomVars"] = {
+	},
+	["DBVersion"] = 3,
+	["ModifiedCVars"] = {
+		["statustextdisplay"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:819",
+		["autointeract"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:815",
+		["nameplateshowenemies"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:811",
+		["nameplateshowfriends"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:812",
+		["uiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:807",
+		["autolootdefault"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:820",
+		["rotateminimap"] = "Interface/FrameXML/Minimap.lua:352",
+		["autoselfcast"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:826",
+		["useuiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:808",
+		["advjournallastopened"] = "Interface/FrameXML/MainMenuBarMicroButtons.lua:1215",
+		["lastselectedclubid"] = "Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua:1275",
+		["blockchannelinvites"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:822",
+		["renderscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:809",
+		["minicommunitiesframe"] = "Interface/SharedXML/SharedUIPanelTemplates.lua:751",
+		["miniworldmap"] = "Interface/FrameXML/QuestLogOwnerMixin.lua:78",
+		["autoquestwatch"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:816",
+		["showclasscolorinfriendlynameplate"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:828",
+		["lootundermouse"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:824",
+		["nameplatemotion"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:825",
+		["showtargetoftarget"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:829",
+		["statustext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:818",
+		["alwaysshowactionbars"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:810",
+		["libopenraidtempcachedebug"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:251",
+		["gametip"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:817",
+		["notifiedofnewmail"] = "Interface/FrameXML/Minimap.lua:426",
+		["petjournaltab"] = "Interface/FrameXML/MainMenuBarMicroButtons.lua:1078",
+		["showtutorials"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:827",
+		["libopenraidtempcache"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:260",
+		["showbattlefieldminimap"] = "Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua:133",
+		["enablefloatingcombattext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:813",
+	},
+	["CharVars"] = {
+	},
+	["AccountVars"] = {
+	},
+	["EnforceSettings"] = false,
+}

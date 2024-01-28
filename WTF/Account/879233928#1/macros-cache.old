@@ -124,3 +124,14 @@ END
 VER 3 00000000000003F4 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
+VER 3 00000000000003F5 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 00000000000003F6 "ZygorAction2" "134327"
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Crumbling Chain Wristguards|r worth |cffffaa9936c|r|nRight click to skip this item|n
+/run ZGV.Inventory:HandleTrashMacro()
+END

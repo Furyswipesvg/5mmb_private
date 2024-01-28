@@ -1,0 +1,35 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Anlnmate|Nathrezim|Alliance|113|DEATHKNIGHT", -- [1]
+				"Anlnsane|Nathrezim|Alliance|55|DEATHKNIGHT", -- [2]
+				"Thelnfinite|Cenarius|Horde|120|PRIEST", -- [3]
+				"Wo|Cenarius|Horde|107|DEMONHUNTER", -- [4]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Anlnsane - Nathrezim"] = "Anlnsane - Nathrezim",
+		["Anlnmate - Nathrezim"] = "Anlnmate - Nathrezim",
+		["Wo - Cenarius"] = "Wo - Cenarius",
+		["Thelnfinite - Cenarius"] = "Thelnfinite - Cenarius",
+	},
+	["profiles"] = {
+		["Anlnsane - Nathrezim"] = {
+		},
+		["Anlnmate - Nathrezim"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Anldol|Nathrezim|Alliance", -- [1]
+					"Nomlette|Nathrezim|Alliance", -- [2]
+				},
+			},
+		},
+		["Wo - Cenarius"] = {
+		},
+		["Thelnfinite - Cenarius"] = {
+		},
+	},
+}

@@ -7,24 +7,24 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 88,
 					["tipo"] = 2,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.00883,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6502",
 							["total_without_pet"] = 340.00883,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 340.00883,
 							["spec"] = 261,
+							["colocacao"] = 1,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6502",
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
@@ -32,16 +32,15 @@ _detalhes_database = {
 								["Ravnyr"] = 7,
 								["Gor'groth"] = 333,
 							},
-							["colocacao"] = 1,
-							["aID"] = "1147-094D6502",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076172,
-							["nome"] = "Negging",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -215,48 +214,48 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 7.928781666666667,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Negging",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076172,
 							["damage_taken"] = 117.00883,
 							["start_time"] = 1706076141,
 							["delay"] = 1706076158,
-							["last_event"] = 1706076172,
+							["last_dps"] = 8.095448333333334,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.002327,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6505",
 							["total_without_pet"] = 325.002327,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 325.002327,
 							["spec"] = 261,
+							["colocacao"] = 2,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6505",
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 325,
 							},
-							["colocacao"] = 2,
-							["aID"] = "1147-094D6505",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076171,
-							["nome"] = "Onehitunder",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -429,48 +428,48 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 7.738150642857144,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Onehitunder",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076159,
 							["damage_taken"] = 117.002327,
 							["start_time"] = 1706076140,
 							["delay"] = 1706076159,
-							["last_event"] = 1706076159,
+							["last_dps"] = 7.738150642857143,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.003683,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D64FE",
 							["total_without_pet"] = 323.003683,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 323.003683,
 							["spec"] = 261,
+							["colocacao"] = 3,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D64FE",
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 323,
 							},
-							["colocacao"] = 3,
-							["aID"] = "1147-094D64FE",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076171,
-							["nome"] = "Missedme",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -642,48 +641,48 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 7.690563880952381,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Missedme",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076159,
 							["damage_taken"] = 113.003683,
 							["start_time"] = 1706076140,
 							["delay"] = 1706076159,
-							["last_event"] = 1706076159,
+							["last_dps"] = 7.690563880952381,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.005693,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6503",
 							["total_without_pet"] = 300.005693,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 300.005693,
 							["spec"] = 261,
+							["colocacao"] = 4,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6503",
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 300,
 							},
-							["colocacao"] = 4,
-							["aID"] = "1147-094D6503",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076171,
-							["nome"] = "Ohnoaknife",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -856,48 +855,48 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 7.142992690476191,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Ohnoaknife",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076159,
 							["damage_taken"] = 114.005693,
 							["start_time"] = 1706076140,
 							["delay"] = 1706076159,
-							["last_event"] = 1706076159,
+							["last_dps"] = 7.142992690476191,
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.004752,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D64FF",
 							["total_without_pet"] = 283.004752,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 283.004752,
 							["spec"] = 261,
+							["colocacao"] = 5,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D64FF",
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 283,
 							},
-							["colocacao"] = 5,
-							["aID"] = "1147-094D64FF",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076171,
-							["nome"] = "Rogsmash",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -1041,32 +1040,32 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 6.738208380952381,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Rogsmash",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076158,
 							["damage_taken"] = 161.004752,
 							["start_time"] = 1706076142,
 							["delay"] = 1706076158,
-							["last_event"] = 1706076158,
+							["last_dps"] = 6.738208380952381,
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.005563,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "156814",
 							["total_without_pet"] = 1425.005563,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 1425.005563,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
-							["aID"] = "156814",
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["damage_from"] = {
 								["Ohnoaknife"] = true,
 								["Missedme"] = true,
@@ -1084,14 +1083,15 @@ _detalhes_database = {
 								["Rogsmash"] = 161,
 								["Negging"] = 117,
 							},
-							["monster"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["totalabsorbed"] = 0.005563,
 							["end_time"] = 1706076171,
+							["boss_fight_component"] = true,
+							["on_hold"] = false,
 							["nome"] = "Gor'groth",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1208,23 +1208,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
+							["monster"] = true,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706076153,
 							["damage_taken"] = 1690.005563,
 							["start_time"] = 1706076147,
 							["delay"] = 1706076153,
-							["last_event"] = 1706076153,
+							["last_dps"] = 0,
 						}, -- [6]
 						{
 							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.00503,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "167663",
 							["total_without_pet"] = 83.00503,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
@@ -1232,21 +1231,21 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
-							["aID"] = "167663",
 							["damage_from"] = {
 								["Gor'groth"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 83,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["classe"] = "UNKNOW",
 							["end_time"] = 1706076171,
+							["totalabsorbed"] = 0.00503,
+							["boss_fight_component"] = true,
 							["nome"] = "Warlord Breka Grimaxe",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1366,23 +1365,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706076158,
 							["damage_taken"] = 803.00503,
 							["start_time"] = 1706076142,
 							["delay"] = 1706076158,
-							["last_event"] = 1706076158,
+							["last_dps"] = 0,
 						}, -- [7]
 						{
 							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.006477,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "167664",
 							["total_without_pet"] = 43.006477,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
@@ -1390,20 +1389,20 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
-							["aID"] = "167664",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Gor'groth"] = 43,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["classe"] = "UNKNOW",
 							["end_time"] = 1706076171,
+							["totalabsorbed"] = 0.006477,
+							["boss_fight_component"] = true,
 							["nome"] = "Shuja Grimaxe",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[273844] = {
 										["c_amt"] = 0,
@@ -1462,29 +1461,34 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706076142,
 							["damage_taken"] = 0.006477,
 							["start_time"] = 1706076170,
 							["delay"] = 1706076142,
-							["last_event"] = 1706076142,
+							["last_dps"] = 0,
 						}, -- [8]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 88,
 					["tipo"] = 3,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+								["Negging"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6502",
 							["totalover"] = 9.00234,
 							["total_without_pet"] = 9.00234,
 							["total"] = 9.00234,
@@ -1493,31 +1497,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6502",
 							["totalabsorb"] = 0.00234,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6502",
-							["spec"] = 261,
 							["targets"] = {
 								["Negging"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6502",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.00234,
-							["grupo"] = true,
 							["healing_taken"] = 83.00234,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-								["Negging"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076170,
 							["end_time"] = 1706076171,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Negging"] = 9,
 							},
-							["start_time"] = 1706076170,
-							["nome"] = "Negging",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -1546,19 +1542,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076149,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00234,
 							["delay"] = 1706076149,
-							["tipo"] = 2,
+							["nome"] = "Negging",
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
+							["healing_from"] = {
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "167664",
 							["totalover"] = 0.00115,
 							["total_without_pet"] = 843.00115,
 							["total"] = 843.00115,
@@ -1567,29 +1569,24 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["totalabsorb"] = 0.00115,
 							["last_hps"] = 0,
-							["aID"] = "167664",
 							["targets"] = {
 								["Warlord Breka Grimaxe"] = 545,
 								["Ohnoaknife"] = 71,
 								["Rogsmash"] = 153,
 								["Negging"] = 74,
 							},
-							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.00115,
-							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["healing_taken"] = 0.00115,
-							["healing_from"] = {
-							},
-							["classe"] = "UNKNOW",
-							["end_time"] = 1706076171,
+							["heal_enemy_amt"] = 0,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706076145,
+							["end_time"] = 1706076171,
+							["last_event"] = 1706076159,
 							["nome"] = "Shuja Grimaxe",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[343883] = {
 										["c_amt"] = 0,
@@ -1620,19 +1617,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
+							["classe"] = "UNKNOW",
+							["start_time"] = 1706076145,
 							["custom"] = 0,
-							["last_event"] = 1706076159,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00115,
 							["delay"] = 1706076159,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "167663",
 							["totalover"] = 0.008441,
 							["total_without_pet"] = 0.008441,
 							["total"] = 0.008441,
@@ -1641,41 +1644,42 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["totalabsorb"] = 0.008441,
 							["last_hps"] = 0,
-							["aID"] = "167663",
 							["targets"] = {
 							},
-							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.008441,
-							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["healing_taken"] = 545.008441,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "UNKNOW",
-							["end_time"] = 1706076171,
+							["heal_enemy_amt"] = 0,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706076171,
+							["end_time"] = 1706076171,
+							["last_event"] = 0,
 							["nome"] = "Warlord Breka Grimaxe",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
+							["classe"] = "UNKNOW",
+							["start_time"] = 1706076171,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.008441,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Rogsmash"] = true,
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["totalover"] = 0.006197,
 							["total_without_pet"] = 9.006197,
 							["total"] = 9.006197,
@@ -1684,30 +1688,22 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D64FF",
 							["totalabsorb"] = 0.006197,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D64FF",
-							["spec"] = 261,
 							["targets"] = {
 								["Rogsmash"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D64FF",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.006197,
-							["grupo"] = true,
 							["healing_taken"] = 162.006197,
-							["healing_from"] = {
-								["Rogsmash"] = true,
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076170,
 							["end_time"] = 1706076171,
+							["spec"] = 261,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706076170,
-							["nome"] = "Rogsmash",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -1735,19 +1731,26 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076138,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.006197,
 							["delay"] = 1706076138,
-							["tipo"] = 2,
+							["nome"] = "Rogsmash",
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Missedme"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FE",
 							["totalover"] = 9.001296,
 							["total_without_pet"] = 9.001296,
 							["total"] = 9.001296,
@@ -1756,30 +1759,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D64FE",
 							["totalabsorb"] = 0.001296,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D64FE",
-							["spec"] = 261,
 							["targets"] = {
 								["Missedme"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D64FE",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.001296,
-							["grupo"] = true,
 							["healing_taken"] = 9.001296,
-							["healing_from"] = {
-								["Missedme"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076170,
 							["end_time"] = 1706076171,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Missedme"] = 9,
 							},
-							["start_time"] = 1706076170,
-							["nome"] = "Missedme",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -1808,19 +1804,26 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076154,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.001296,
 							["delay"] = 1706076154,
-							["tipo"] = 2,
+							["nome"] = "Missedme",
 						}, -- [5]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Onehitunder"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6505",
 							["totalover"] = 9.004981,
 							["total_without_pet"] = 9.004981,
 							["total"] = 9.004981,
@@ -1829,30 +1832,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6505",
 							["totalabsorb"] = 0.004981,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6505",
-							["spec"] = 261,
 							["targets"] = {
 								["Onehitunder"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6505",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.004981,
-							["grupo"] = true,
 							["healing_taken"] = 9.004981,
-							["healing_from"] = {
-								["Onehitunder"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076170,
 							["end_time"] = 1706076171,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Onehitunder"] = 9,
 							},
-							["start_time"] = 1706076170,
-							["nome"] = "Onehitunder",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -1881,19 +1877,27 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076154,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.004981,
 							["delay"] = 1706076154,
-							["tipo"] = 2,
+							["nome"] = "Onehitunder",
 						}, -- [6]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Ohnoaknife"] = true,
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6503",
 							["totalover"] = 9.007313,
 							["total_without_pet"] = 9.007313,
 							["total"] = 9.007313,
@@ -1902,31 +1906,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6503",
 							["totalabsorb"] = 0.007313,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6503",
-							["spec"] = 261,
 							["targets"] = {
 								["Ohnoaknife"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6503",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.007313,
-							["grupo"] = true,
 							["healing_taken"] = 80.007313,
-							["healing_from"] = {
-								["Ohnoaknife"] = true,
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076170,
 							["end_time"] = 1706076171,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Ohnoaknife"] = 9,
 							},
-							["start_time"] = 1706076170,
-							["nome"] = "Ohnoaknife",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -1955,18 +1951,158 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076156,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.007313,
 							["delay"] = 1706076156,
-							["tipo"] = 2,
+							["nome"] = "Ohnoaknife",
 						}, -- [7]
+						{
+							["flag_original"] = 1304,
+							["pets"] = {
+							},
+							["iniciar_hps"] = true,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 398.004389,
+							["total_without_pet"] = 0.004389,
+							["total"] = 0.004389,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = true,
+							["totalabsorb"] = 0.004389,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["aID"] = "11-0E70A898",
+							["totalover_without_pet"] = 0.004389,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.004389,
+							["spec"] = 269,
+							["classe"] = "MONK",
+							["serial"] = "Player-11-0E70A898",
+							["targets_overheal"] = {
+								["Brucéwii-Tichondrius"] = 398,
+							},
+							["start_time"] = 1706399375,
+							["nome"] = "Brucéwii-Tichondrius",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[215607] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Brucéwii-Tichondrius"] = 398,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Brucéwii-Tichondrius"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 398,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 215607,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 1,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 1706399375,
+							["totaldenied"] = 0.004389,
+							["delay"] = 1706399375,
+							["tipo"] = 2,
+						}, -- [8]
+						{
+							["flag_original"] = 1304,
+							["pets"] = {
+							},
+							["iniciar_hps"] = true,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 378.008884,
+							["total_without_pet"] = 0.008884,
+							["total"] = 0.008884,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = true,
+							["totalabsorb"] = 0.008884,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["aID"] = "11-0A75710F",
+							["totalover_without_pet"] = 0.008884,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.008884,
+							["spec"] = 252,
+							["classe"] = "DEATHKNIGHT",
+							["serial"] = "Player-11-0A75710F",
+							["targets_overheal"] = {
+								["Thebigbanana-Tichondrius"] = 378,
+							},
+							["start_time"] = 1706399460,
+							["nome"] = "Thebigbanana-Tichondrius",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[215607] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Thebigbanana-Tichondrius"] = 378,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Thebigbanana-Tichondrius"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 378,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 215607,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["spellschool"] = 1,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 1706399460,
+							["totaldenied"] = 0.008884,
+							["delay"] = 1706399460,
+							["tipo"] = 2,
+						}, -- [9]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 88,
 					["tipo"] = 7,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
@@ -1977,25 +2113,25 @@ _detalhes_database = {
 							["passiveover"] = 0.007801,
 							["total"] = 0.007801,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6505",
 							["received"] = 0.007801,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.007801,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076159,
 							["nome"] = "Onehitunder",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076159,
 							["totalover"] = 0.007801,
-							["serial"] = "Player-1147-094D6505",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -2006,25 +2142,25 @@ _detalhes_database = {
 							["passiveover"] = 0.008194,
 							["total"] = 0.008194,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D64FE",
 							["received"] = 0.008194,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.008194,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076159,
 							["nome"] = "Missedme",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076159,
 							["totalover"] = 0.008194,
-							["serial"] = "Player-1147-094D64FE",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -2035,25 +2171,25 @@ _detalhes_database = {
 							["passiveover"] = 0.004527,
 							["total"] = 0.004527,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6503",
 							["received"] = 0.004527,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.004527,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076153,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076153,
 							["totalover"] = 0.004527,
-							["serial"] = "Player-1147-094D6503",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1297,
@@ -2064,25 +2200,25 @@ _detalhes_database = {
 							["passiveover"] = 0.002181,
 							["total"] = 0.002181,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6502",
 							["received"] = 0.002181,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.002181,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076151,
 							["nome"] = "Negging",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076151,
 							["totalover"] = 0.002181,
-							["serial"] = "Player-1147-094D6502",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -2093,89 +2229,82 @@ _detalhes_database = {
 							["passiveover"] = 0.001962,
 							["total"] = 0.001962,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D64FF",
 							["received"] = 0.001962,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.001962,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076153,
 							["nome"] = "Rogsmash",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076153,
 							["totalover"] = 0.001962,
-							["serial"] = "Player-1147-094D64FF",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [5]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 88,
 					["tipo"] = 9,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 81,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 39,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6502",
-							["aID"] = "1147-094D6502",
-							["nome"] = "Negging",
-							["spec"] = 261,
-							["last_event"] = 1706076171,
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["serial"] = "Player-1147-094D64FF",
-							["interrupt_targets"] = {
-								["Gor'groth"] = 1,
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
+							["buff_uptime_targets"] = {
+							},
 							["boss_fight_component"] = true,
+							["spec"] = 261,
 							["grupo"] = true,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6502",
+							["last_event"] = 1706076171,
+							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6502",
+							["nome"] = "Negging",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["aID"] = "1147-094D64FF",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1766] = {
 										["id"] = 1766,
@@ -2188,222 +2317,229 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 29,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime"] = 71,
 							["interrompeu_oque"] = {
 								[305913] = 1,
 							},
-							["buff_uptime_targets"] = {
+							["interrupt"] = 1.007624,
+							["interrupt_targets"] = {
+								["Gor'groth"] = 1,
 							},
-							["aID"] = "1147-094D64FF",
+							["grupo"] = true,
+							["boss_fight_component"] = true,
+							["tipo"] = 4,
+							["buff_uptime"] = 71,
+							["classe"] = "ROGUE",
+							["last_event"] = 1706076171,
 							["nome"] = "Rogsmash",
 							["spec"] = 261,
-							["interrupt"] = 1.007624,
-							["last_event"] = 1706076171,
-							["tipo"] = 4,
+							["serial"] = "Player-1147-094D64FF",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 80,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 38,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1784] = {
-										["activedamt"] = 1,
-										["id"] = 1784,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 1784,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6503",
-							["aID"] = "1147-094D6503",
-							["nome"] = "Ohnoaknife",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D6503",
 							["last_event"] = 1706076171,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6503",
+							["nome"] = "Ohnoaknife",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 82,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 2,
-										["id"] = 315496,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 40,
-										["appliedamt"] = 2,
+										["id"] = 315496,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1784] = {
-										["activedamt"] = 1,
-										["id"] = 1784,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 1784,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6505",
-							["aID"] = "1147-094D6505",
-							["nome"] = "Onehitunder",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D6505",
 							["last_event"] = 1706076171,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6505",
+							["nome"] = "Onehitunder",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 80,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 2,
-										["id"] = 315496,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 38,
-										["appliedamt"] = 2,
+										["id"] = 315496,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1784] = {
-										["activedamt"] = 1,
-										["id"] = 1784,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 1784,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D64FE",
-							["aID"] = "1147-094D64FE",
-							["nome"] = "Missedme",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D64FE",
 							["last_event"] = 1706076171,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D64FE",
+							["nome"] = "Missedme",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["boss_fight_component"] = true,
 							["aID"] = "167663",
-							["nome"] = "Warlord Breka Grimaxe",
 							["last_event"] = 0,
+							["nome"] = "Warlord Breka Grimaxe",
+							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["tipo"] = 4,
 						}, -- [6]
 						{
@@ -2411,31 +2547,31 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["boss_fight_component"] = true,
 							["aID"] = "167664",
-							["nome"] = "Shuja Grimaxe",
 							["last_event"] = 0,
+							["nome"] = "Shuja Grimaxe",
+							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["tipo"] = 4,
 						}, -- [7]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
 							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
 							["monster"] = true,
-							["aID"] = "156814",
 							["nome"] = "Gor'groth",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
+							["aID"] = "156814",
+							["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
+							["last_event"] = 0,
 						}, -- [8]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 88,
 					["tipo"] = 2,
+					["combatId"] = 88,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2465,7 +2601,7 @@ _detalhes_database = {
 					["n"] = 1,
 				},
 				["totals"] = {
-					3122, -- [1]
+					3554, -- [1]
 					888, -- [2]
 					{
 						0, -- [1]
@@ -2477,17 +2613,36 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					1571, -- [1]
+					45, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
 				["amountCasts"] = {
@@ -2517,27 +2672,27 @@ _detalhes_database = {
 						["Kick"] = 1,
 						["Sinister Strike"] = 4,
 					},
-					["Gor'groth"] = {
-						["Unstable Shadows"] = 1,
-						["Shadow Bolt"] = 1,
-					},
-					["Shuja Grimaxe"] = {
-						["Lava Burst"] = 1,
-						["Lightning Bolt"] = 1,
-						["Healing Surge"] = 10,
-					},
-					["Rogsmash"] = {
-						["Eviscerate"] = 1,
-						["Slice and Dice"] = 3,
-						["Sinister Strike"] = 4,
-						["Kick"] = 1,
-					},
 					["Missedme"] = {
 						["Eviscerate"] = 1,
 						["Slice and Dice"] = 4,
 						["Shadowstrike"] = 1,
 						["Kick"] = 1,
 						["Sinister Strike"] = 5,
+					},
+					["Shuja Grimaxe"] = {
+						["Lava Burst"] = 1,
+						["Lightning Bolt"] = 1,
+						["Healing Surge"] = 10,
+					},
+					["Gor'groth"] = {
+						["Unstable Shadows"] = 1,
+						["Shadow Bolt"] = 1,
+					},
+					["Rogsmash"] = {
+						["Eviscerate"] = 1,
+						["Slice and Dice"] = 3,
+						["Sinister Strike"] = 4,
+						["Kick"] = 1,
 					},
 				},
 				["instance_type"] = "party",
@@ -2557,7 +2712,8 @@ _detalhes_database = {
 				["end_time"] = 33767.621,
 				["combat_id"] = 88,
 				["overall_added"] = true,
-				["combat_counter"] = 97,
+				["TimeData"] = {
+				},
 				["is_challenge"] = false,
 				["frags"] = {
 				},
@@ -2574,32 +2730,14 @@ _detalhes_database = {
 					["unixtime"] = 1706076129,
 					["diff"] = 150,
 				},
-				["totals_grupo"] = {
-					1571, -- [1]
-					45, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
+				["combat_counter"] = 97,
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2610,8 +2748,6 @@ _detalhes_database = {
 							["Rogsmash"] = 9.006197,
 							["Negging"] = 9.00234,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2626,47 +2762,46 @@ _detalhes_database = {
 				["spells_cast_timeline"] = {
 				},
 				["start_time"] = 33725.621,
-				["TimeData"] = {
-				},
 				["contra"] = "Gor'groth",
+				["player_last_events"] = {
+				},
 			}, -- [1]
 			{
 				{
-					["combatId"] = 85,
 					["tipo"] = 2,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.007067,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D64FE",
 							["total_without_pet"] = 396.007067,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 396.007067,
 							["spec"] = 261,
+							["colocacao"] = 1,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D64FE",
 							["ilvl"] = 0,
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 396,
 							},
-							["colocacao"] = 1,
-							["aID"] = "1147-094D64FE",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076011,
-							["nome"] = "Missedme",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -2811,49 +2946,49 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 9.946927232995558,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Missedme",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076010,
 							["damage_taken"] = 138.007067,
 							["start_time"] = 1706075972,
 							["delay"] = 0,
-							["last_event"] = 1706076010,
+							["last_dps"] = 9.946927232995558,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.007737,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6503",
 							["total_without_pet"] = 392.007737,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 392.007737,
 							["spec"] = 261,
+							["colocacao"] = 2,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6503",
 							["ilvl"] = 0,
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 392,
 							},
-							["colocacao"] = 2,
-							["aID"] = "1147-094D6503",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076011,
-							["nome"] = "Ohnoaknife",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -2999,49 +3134,49 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 9.84647184266098,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Ohnoaknife",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076011,
 							["damage_taken"] = 233.007737,
 							["start_time"] = 1706075972,
 							["delay"] = 0,
-							["last_event"] = 1706076011,
+							["last_dps"] = 9.84647184266098,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.00302,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6505",
 							["total_without_pet"] = 353.00302,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 353.00302,
 							["spec"] = 261,
+							["colocacao"] = 3,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6505",
 							["ilvl"] = 0,
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 353,
 							},
-							["colocacao"] = 3,
-							["aID"] = "1147-094D6505",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076011,
-							["nome"] = "Onehitunder",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -3186,49 +3321,49 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 8.866749221340728,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Onehitunder",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076010,
 							["damage_taken"] = 137.00302,
 							["start_time"] = 1706075972,
 							["delay"] = 0,
-							["last_event"] = 1706076010,
+							["last_dps"] = 8.866749221340728,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.007914,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D64FF",
 							["total_without_pet"] = 332.007914,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 332.007914,
 							["spec"] = 261,
+							["colocacao"] = 4,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D64FF",
 							["ilvl"] = 0,
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 332,
 							},
-							["colocacao"] = 4,
-							["aID"] = "1147-094D64FF",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076011,
-							["nome"] = "Rogsmash",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -3372,49 +3507,49 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 8.339392997086708,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Rogsmash",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076010,
 							["damage_taken"] = 268.007914,
 							["start_time"] = 1706075972,
 							["delay"] = 0,
-							["last_event"] = 1706076010,
+							["last_dps"] = 8.339392997086708,
 						}, -- [4]
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.005395,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D6502",
 							["total_without_pet"] = 320.005395,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 320.005395,
 							["spec"] = 261,
+							["colocacao"] = 5,
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-1147-094D6502",
 							["ilvl"] = 0,
-							["boss_fight_component"] = true,
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 320,
 							},
-							["colocacao"] = 5,
-							["aID"] = "1147-094D6502",
-							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706076011,
-							["nome"] = "Negging",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -3560,32 +3695,32 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 8.037913066412525,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["nome"] = "Negging",
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1706076048,
 							["damage_taken"] = 137.005395,
 							["start_time"] = 1706075972,
 							["delay"] = 0,
-							["last_event"] = 1706076048,
+							["last_dps"] = 8.037913066412525,
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008405,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "157300",
 							["total_without_pet"] = 1712.008405,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 1712.008405,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
-							["aID"] = "157300",
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["damage_from"] = {
 								["Ohnoaknife"] = true,
 								["Missedme"] = true,
@@ -3604,14 +3739,15 @@ _detalhes_database = {
 								["Rogsmash"] = 268,
 								["Negging"] = 137,
 							},
-							["monster"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["totalabsorbed"] = 0.008405,
 							["end_time"] = 1706076011,
+							["boss_fight_component"] = true,
+							["on_hold"] = false,
 							["nome"] = "Tunk",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -3734,23 +3870,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
+							["monster"] = true,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706076008,
 							["damage_taken"] = 1934.008405,
 							["start_time"] = 1706075971,
 							["delay"] = 0,
-							["last_event"] = 1706076008,
+							["last_dps"] = 0,
 						}, -- [6]
 						{
 							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.003505,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "167663",
 							["total_without_pet"] = 141.003505,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
@@ -3758,7 +3893,6 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
-							["aID"] = "167663",
 							["damage_from"] = {
 								["Tunk"] = true,
 								["Darkmaul Channeler"] = true,
@@ -3769,14 +3903,15 @@ _detalhes_database = {
 								["Darkmaul Channeler"] = 7,
 								["Decaying Corpse"] = 10,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["classe"] = "UNKNOW",
 							["end_time"] = 1706076048,
+							["totalabsorbed"] = 0.003505,
+							["boss_fight_component"] = true,
 							["nome"] = "Warlord Breka Grimaxe",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -3794,7 +3929,7 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 21,
 										["a_amt"] = 0,
-										["total"] = 114,
+										["r_amt"] = 0,
 										["c_max"] = 10,
 										["DODGE"] = 1,
 										["id"] = 1,
@@ -3809,7 +3944,7 @@ _detalhes_database = {
 										["c_total"] = 36,
 										["n_amt"] = 14,
 										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["total"] = 114,
 									}, -- [1]
 									[283408] = {
 										["c_amt"] = 0,
@@ -3929,23 +4064,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706076047,
 							["damage_taken"] = 779.003505,
 							["start_time"] = 1706075974,
 							["delay"] = 0,
-							["last_event"] = 1706076047,
+							["last_dps"] = 0,
 						}, -- [7]
 						{
 							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.002737,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "167664",
 							["total_without_pet"] = 17.002737,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
@@ -3953,21 +4088,21 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
-							["aID"] = "167664",
 							["damage_from"] = {
 								["Tunk"] = true,
 							},
 							["targets"] = {
 								["Tunk"] = 17,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["classe"] = "UNKNOW",
 							["end_time"] = 1706076011,
+							["totalabsorbed"] = 0.002737,
+							["boss_fight_component"] = true,
 							["nome"] = "Shuja Grimaxe",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[273844] = {
 										["c_amt"] = 0,
@@ -3998,29 +4133,34 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1706075974,
 							["damage_taken"] = 37.002737,
 							["start_time"] = 1706076010,
 							["delay"] = 1706075974,
-							["last_event"] = 1706075974,
+							["last_dps"] = 0,
 						}, -- [8]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 85,
 					["tipo"] = 3,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Rogsmash"] = true,
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["totalover"] = 0.00693,
 							["total_without_pet"] = 27.00693,
 							["total"] = 27.00693,
@@ -4029,30 +4169,22 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D64FF",
 							["totalabsorb"] = 0.00693,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D64FF",
-							["spec"] = 261,
 							["targets"] = {
 								["Rogsmash"] = 27,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D64FF",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.00693,
-							["grupo"] = true,
 							["healing_taken"] = 246.00693,
-							["healing_from"] = {
-								["Rogsmash"] = true,
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076006,
 							["end_time"] = 1706076011,
+							["spec"] = 261,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706076006,
-							["nome"] = "Rogsmash",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -4080,19 +4212,27 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076006,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00693,
 							["delay"] = 1706075989,
-							["tipo"] = 2,
+							["nome"] = "Rogsmash",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+								["Onehitunder"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6505",
 							["totalover"] = 9.00344,
 							["total_without_pet"] = 18.00344,
 							["total"] = 18.00344,
@@ -4101,31 +4241,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6505",
 							["totalabsorb"] = 0.00344,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6505",
-							["spec"] = 261,
 							["targets"] = {
 								["Onehitunder"] = 18,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6505",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.00344,
-							["grupo"] = true,
 							["healing_taken"] = 89.00344,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-								["Onehitunder"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076010,
 							["end_time"] = 1706076011,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Onehitunder"] = 9,
 							},
-							["start_time"] = 1706076010,
-							["nome"] = "Onehitunder",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -4154,19 +4286,27 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076010,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00344,
 							["delay"] = 1706075994,
-							["tipo"] = 2,
+							["nome"] = "Onehitunder",
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+								["Missedme"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FE",
 							["totalover"] = 9.003973,
 							["total_without_pet"] = 18.003973,
 							["total"] = 18.003973,
@@ -4175,31 +4315,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D64FE",
 							["totalabsorb"] = 0.003973,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D64FE",
-							["spec"] = 261,
 							["targets"] = {
 								["Missedme"] = 18,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D64FE",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.003973,
-							["grupo"] = true,
 							["healing_taken"] = 91.003973,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-								["Missedme"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076010,
 							["end_time"] = 1706076011,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Missedme"] = 9,
 							},
-							["start_time"] = 1706076010,
-							["nome"] = "Missedme",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -4228,19 +4360,27 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076010,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.003973,
 							["delay"] = 1706075992,
-							["tipo"] = 2,
+							["nome"] = "Missedme",
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Ohnoaknife"] = true,
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6503",
 							["totalover"] = 13.00364,
 							["total_without_pet"] = 14.00364,
 							["total"] = 14.00364,
@@ -4249,31 +4389,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6503",
 							["totalabsorb"] = 0.00364,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6503",
-							["spec"] = 261,
 							["targets"] = {
 								["Ohnoaknife"] = 14,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6503",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.00364,
-							["grupo"] = true,
 							["healing_taken"] = 233.00364,
-							["healing_from"] = {
-								["Ohnoaknife"] = true,
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076008,
 							["end_time"] = 1706076011,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Ohnoaknife"] = 13,
 							},
-							["start_time"] = 1706076008,
-							["nome"] = "Ohnoaknife",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -4302,19 +4434,27 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076008,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.00364,
 							["delay"] = 1706075993,
-							["tipo"] = 2,
+							["nome"] = "Ohnoaknife",
 						}, -- [4]
 						{
 							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+								["Negging"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6502",
 							["totalover"] = 9.005716,
 							["total_without_pet"] = 9.005716,
 							["total"] = 9.005716,
@@ -4323,31 +4463,23 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Player-1147-094D6502",
 							["totalabsorb"] = 0.005716,
 							["last_hps"] = 0,
-							["aID"] = "1147-094D6502",
-							["spec"] = 261,
 							["targets"] = {
 								["Negging"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["serial"] = "Player-1147-094D6502",
+							["heal_enemy_amt"] = 0,
 							["totalover_without_pet"] = 0.005716,
-							["grupo"] = true,
 							["healing_taken"] = 80.005716,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-								["Negging"] = true,
-							},
-							["classe"] = "ROGUE",
+							["start_time"] = 1706076007,
 							["end_time"] = 1706076011,
+							["spec"] = 261,
 							["targets_overheal"] = {
 								["Negging"] = 9,
 							},
-							["start_time"] = 1706076007,
-							["nome"] = "Negging",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[127802] = {
 										["c_amt"] = 0,
@@ -4376,19 +4508,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
 							["last_event"] = 1706076007,
+							["custom"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.005716,
 							["delay"] = 1706075975,
-							["tipo"] = 2,
+							["nome"] = "Negging",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
+							["healing_from"] = {
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "167664",
 							["totalover"] = 0.001917,
 							["total_without_pet"] = 1202.001917,
 							["total"] = 1202.001917,
@@ -4397,9 +4535,9 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["totalabsorb"] = 0.001917,
 							["last_hps"] = 0,
-							["aID"] = "167664",
 							["targets"] = {
 								["Ohnoaknife"] = 219,
 								["Missedme"] = 73,
@@ -4408,20 +4546,15 @@ _detalhes_database = {
 								["Rogsmash"] = 219,
 								["Negging"] = 71,
 							},
-							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.001917,
-							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["healing_taken"] = 0.001917,
-							["healing_from"] = {
-							},
-							["classe"] = "UNKNOW",
-							["end_time"] = 1706076011,
+							["heal_enemy_amt"] = 0,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706075976,
+							["end_time"] = 1706076011,
+							["last_event"] = 1706076010,
 							["nome"] = "Shuja Grimaxe",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[343883] = {
 										["c_amt"] = 0,
@@ -4454,19 +4587,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
+							["classe"] = "UNKNOW",
+							["start_time"] = 1706075976,
 							["custom"] = 0,
-							["last_event"] = 1706076010,
+							["tipo"] = 2,
 							["totaldenied"] = 0.001917,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [6]
 						{
 							["flag_original"] = 2584,
+							["healing_from"] = {
+								["Shuja Grimaxe"] = true,
+							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "167663",
 							["totalover"] = 0.006302,
 							["total_without_pet"] = 0.006302,
 							["total"] = 0.006302,
@@ -4475,40 +4614,37 @@ _detalhes_database = {
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
+							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["totalabsorb"] = 0.006302,
 							["last_hps"] = 0,
-							["aID"] = "167663",
 							["targets"] = {
 							},
-							["boss_fight_component"] = true,
 							["totalover_without_pet"] = 0.006302,
-							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["healing_taken"] = 549.006302,
-							["healing_from"] = {
-								["Shuja Grimaxe"] = true,
-							},
-							["classe"] = "UNKNOW",
-							["end_time"] = 1706076011,
+							["heal_enemy_amt"] = 0,
 							["targets_overheal"] = {
 							},
-							["start_time"] = 1706076011,
+							["end_time"] = 1706076011,
+							["last_event"] = 0,
 							["nome"] = "Warlord Breka Grimaxe",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
+							["classe"] = "UNKNOW",
+							["start_time"] = 1706076011,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 2,
 							["totaldenied"] = 0.006302,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [7]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 85,
 					["tipo"] = 7,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
@@ -4519,25 +4655,25 @@ _detalhes_database = {
 							["passiveover"] = 0.005853,
 							["total"] = 0.005853,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D64FF",
 							["received"] = 0.005853,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.005853,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076007,
 							["nome"] = "Rogsmash",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076007,
 							["totalover"] = 0.005853,
-							["serial"] = "Player-1147-094D64FF",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -4548,25 +4684,25 @@ _detalhes_database = {
 							["passiveover"] = 0.005907,
 							["total"] = 0.005907,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6502",
 							["received"] = 0.005907,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.005907,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076007,
 							["nome"] = "Negging",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076007,
 							["totalover"] = 0.005907,
-							["serial"] = "Player-1147-094D6502",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -4577,25 +4713,25 @@ _detalhes_database = {
 							["passiveover"] = 0.00857,
 							["total"] = 0.00857,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6505",
 							["received"] = 0.00857,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.00857,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076007,
 							["nome"] = "Onehitunder",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076007,
 							["totalover"] = 0.00857,
-							["serial"] = "Player-1147-094D6505",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
@@ -4606,25 +4742,25 @@ _detalhes_database = {
 							["passiveover"] = 0.002646,
 							["total"] = 0.002646,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D64FE",
 							["received"] = 0.002646,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.002646,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076007,
 							["nome"] = "Missedme",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076007,
 							["totalover"] = 0.002646,
-							["serial"] = "Player-1147-094D64FE",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
@@ -4635,262 +4771,262 @@ _detalhes_database = {
 							["passiveover"] = 0.007485,
 							["total"] = 0.007485,
 							["spec"] = 261,
+							["serial"] = "Player-1147-094D6503",
 							["received"] = 0.007485,
 							["targets"] = {
 							},
 							["powertype"] = 3,
 							["alternatepower"] = 0.007485,
-							["boss_fight_component"] = true,
-							["resource_type"] = 4,
+							["last_event"] = 1706076008,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["classe"] = "ROGUE",
-							["last_event"] = 1706076008,
 							["totalover"] = 0.007485,
-							["serial"] = "Player-1147-094D6503",
 							["tipo"] = 3,
+							["resource_type"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [5]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 85,
 					["tipo"] = 9,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 77,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 40,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 37,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D64FF",
-							["aID"] = "1147-094D64FF",
-							["nome"] = "Rogsmash",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D64FF",
 							["last_event"] = 1706076011,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D64FF",
+							["nome"] = "Rogsmash",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 68,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 40,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 2,
-										["id"] = 315496,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 28,
-										["appliedamt"] = 2,
+										["id"] = 315496,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6503",
-							["aID"] = "1147-094D6503",
-							["nome"] = "Ohnoaknife",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D6503",
 							["last_event"] = 1706076011,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6503",
+							["nome"] = "Ohnoaknife",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 77,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 40,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 37,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6505",
-							["aID"] = "1147-094D6505",
-							["nome"] = "Onehitunder",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D6505",
 							["last_event"] = 1706076011,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6505",
+							["nome"] = "Onehitunder",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 77,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 40,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 37,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D64FE",
-							["aID"] = "1147-094D64FE",
-							["nome"] = "Missedme",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D64FE",
 							["last_event"] = 1706076011,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D64FE",
+							["nome"] = "Missedme",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 77,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["classe"] = "ROGUE",
-							["buff_uptime_targets"] = {
-							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 40,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 37,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-1147-094D6502",
-							["aID"] = "1147-094D6502",
-							["nome"] = "Negging",
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["boss_fight_component"] = true,
 							["spec"] = 261,
+							["grupo"] = true,
+							["aID"] = "1147-094D6502",
 							["last_event"] = 1706076011,
 							["tipo"] = 4,
+							["serial"] = "Player-1147-094D6502",
+							["nome"] = "Negging",
 						}, -- [5]
 						{
 							["flag_original"] = 2584,
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["boss_fight_component"] = true,
 							["aID"] = "167663",
-							["nome"] = "Warlord Breka Grimaxe",
 							["last_event"] = 0,
+							["nome"] = "Warlord Breka Grimaxe",
+							["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 							["tipo"] = 4,
 						}, -- [6]
 						{
@@ -4898,31 +5034,31 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["boss_fight_component"] = true,
 							["aID"] = "167664",
-							["nome"] = "Shuja Grimaxe",
 							["last_event"] = 0,
+							["nome"] = "Shuja Grimaxe",
+							["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 							["tipo"] = 4,
 						}, -- [7]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
 							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
 							["monster"] = true,
-							["aID"] = "157300",
 							["nome"] = "Tunk",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 							["tipo"] = 4,
+							["aID"] = "157300",
+							["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
+							["last_event"] = 0,
 						}, -- [8]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 85,
 					["tipo"] = 2,
+					["combatId"] = 85,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4965,10 +5101,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -4983,6 +5119,15 @@ _detalhes_database = {
 						["Seismic Slam"] = 2,
 						["Interrupting Shout"] = 1,
 					},
+					["Missedme"] = {
+						["Eviscerate"] = 1,
+						["Slice and Dice"] = 6,
+						["Sinister Strike"] = 6,
+					},
+					["Shuja Grimaxe"] = {
+						["Lightning Bolt"] = 1,
+						["Healing Surge"] = 15,
+					},
 					["Onehitunder"] = {
 						["Eviscerate"] = 1,
 						["Slice and Dice"] = 6,
@@ -4993,29 +5138,20 @@ _detalhes_database = {
 						["Charge"] = 2,
 						["Shield Slam"] = 2,
 					},
-					["Negging"] = {
-						["Eviscerate"] = 1,
-						["Slice and Dice"] = 6,
-						["Sinister Strike"] = 6,
-					},
-					["Missedme"] = {
-						["Eviscerate"] = 1,
-						["Slice and Dice"] = 6,
-						["Sinister Strike"] = 6,
-					},
-					["Shuja Grimaxe"] = {
-						["Lightning Bolt"] = 1,
-						["Healing Surge"] = 15,
+					["Ohnoaknife"] = {
+						["Eviscerate"] = 3,
+						["Slice and Dice"] = 3,
+						["Sinister Strike"] = 7,
 					},
 					["Rogsmash"] = {
 						["Eviscerate"] = 1,
 						["Slice and Dice"] = 6,
 						["Sinister Strike"] = 6,
 					},
-					["Ohnoaknife"] = {
-						["Eviscerate"] = 3,
-						["Slice and Dice"] = 3,
-						["Sinister Strike"] = 7,
+					["Negging"] = {
+						["Eviscerate"] = 1,
+						["Slice and Dice"] = 6,
+						["Sinister Strike"] = 6,
 					},
 				},
 				["instance_type"] = "party",
@@ -5035,28 +5171,9 @@ _detalhes_database = {
 				["end_time"] = 33607.371,
 				["combat_id"] = 85,
 				["overall_added"] = true,
-				["combat_counter"] = 93,
-				["totals_grupo"] = {
-					1793, -- [1]
-					86, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["TimeData"] = {
 				},
+				["combat_counter"] = 93,
 				["is_challenge"] = false,
 				["frags"] = {
 				},
@@ -5080,6 +5197,8 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -5090,8 +5209,6 @@ _detalhes_database = {
 							["Rogsmash"] = 27.00693,
 							["Negging"] = 9.005716,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -5106,9 +5223,28 @@ _detalhes_database = {
 				["spells_cast_timeline"] = {
 				},
 				["start_time"] = 33567.559,
-				["TimeData"] = {
-				},
 				["contra"] = "Tunk",
+				["totals_grupo"] = {
+					1793, -- [1]
+					86, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 			}, -- [2]
 			{
 				{
@@ -5209,7 +5345,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075597,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5245,7 +5381,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075596,
@@ -5417,7 +5553,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 85,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					777, -- [1]
 					0, -- [2]
@@ -5441,26 +5579,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					11, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -5483,15 +5602,9 @@ _detalhes_database = {
 				["combat_id"] = 78,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Chef"] = 1,
-				},
-				["TimeData"] = {
-				},
 				["spells_cast_timeline"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["TimeData"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -5514,9 +5627,32 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
+				["combat_counter"] = 85,
+				["totals_grupo"] = {
+					11, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 33193.133,
 				["contra"] = "Ogre Chef",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Chef"] = 1,
 				},
 			}, -- [3]
 			{
@@ -5550,7 +5686,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075596,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5616,7 +5752,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075596,
@@ -5651,7 +5787,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075596,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5688,7 +5824,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075595,
@@ -5723,7 +5859,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075596,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5760,7 +5896,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075595,
@@ -5795,7 +5931,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075596,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5832,7 +5968,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075595,
@@ -6253,16 +6389,6 @@ _detalhes_database = {
 				["CombatEndedAt"] = 32989.427,
 				["aura_timeline"] = {
 				},
-				["data_inicio"] = "21:49:53",
-				["end_time"] = 32989.927,
-				["combat_id"] = 77,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
-				},
-				["TimeData"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6285,6 +6411,17 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
+				["end_time"] = 32989.927,
+				["combat_id"] = 77,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["player_last_events"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
 				["cleu_events"] = {
@@ -6292,8 +6429,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 32988.927,
 				["contra"] = "Ogre Shadowcaster",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:49:53",
 			}, -- [4]
 			{
 				{
@@ -6325,7 +6461,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075392,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6417,7 +6553,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075391,
@@ -6451,7 +6587,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075392,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6515,7 +6651,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075392,
@@ -6549,7 +6685,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075392,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6613,7 +6749,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075392,
@@ -6648,7 +6784,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075372,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6684,7 +6820,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075370,
@@ -6718,7 +6854,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075372,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6783,7 +6919,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075392,
@@ -6880,8 +7016,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -6900,12 +7035,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.006745,
-							["last_event"] = 1706075370,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.006745,
 							["end_time"] = 1706075372,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 8,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706075370,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6939,8 +7075,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075370,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075370,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006745,
@@ -6950,8 +7086,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -6970,12 +7105,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004313,
-							["last_event"] = 1706075370,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.004313,
 							["end_time"] = 1706075372,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 8,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075370,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7009,8 +7145,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075370,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075370,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004313,
@@ -7020,8 +7156,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -7040,12 +7175,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.00296,
-							["last_event"] = 1706075370,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.00296,
 							["end_time"] = 1706075372,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075370,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7079,8 +7215,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075370,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075370,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00296,
@@ -7400,12 +7536,11 @@ _detalhes_database = {
 				["combat_id"] = 76,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -7438,7 +7573,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32966.393,
 				["contra"] = "Ogre Shadowcaster",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 			}, -- [5]
 			{
@@ -7471,7 +7607,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075358,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7592,7 +7728,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075356,
@@ -7626,7 +7762,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075358,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7718,7 +7854,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075356,
@@ -7753,7 +7889,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075358,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7846,7 +7982,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075356,
@@ -7880,7 +8016,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075358,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7973,7 +8109,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075356,
@@ -8007,7 +8143,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075358,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8100,7 +8236,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075356,
@@ -8201,11 +8337,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007776,
 							["total_without_pet"] = 8.007776,
 							["total"] = 8.007776,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -8223,7 +8360,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Rogsmash"] = true,
 							},
-							["aID"] = "1147-094D64FF",
+							["spec"] = 260,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8257,18 +8394,16 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706075357,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007776,
 							["delay"] = 1706075346,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -8287,12 +8422,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004678,
-							["last_event"] = 1706075346,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.004678,
 							["end_time"] = 1706075358,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 8,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706075357,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8326,8 +8462,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075357,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075346,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004678,
@@ -8337,8 +8473,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -8357,12 +8492,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.006898,
-							["last_event"] = 1706075347,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.006898,
 							["end_time"] = 1706075358,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 8,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075357,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8396,8 +8532,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075357,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075347,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006898,
@@ -8407,8 +8543,7 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -8427,12 +8562,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004133,
-							["last_event"] = 1706075348,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.004133,
 							["end_time"] = 1706075358,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 8,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706075357,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8466,8 +8602,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075357,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075348,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004133,
@@ -8477,8 +8613,7 @@ _detalhes_database = {
 						}, -- [4]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -8497,12 +8632,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.003598,
-							["last_event"] = 1706075349,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.003598,
 							["end_time"] = 1706075358,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075349,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8536,8 +8672,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075349,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075349,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003598,
@@ -8588,7 +8724,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1047,
 							["buff_uptime"] = 13,
-							["classe"] = "ROGUE",
+							["aID"] = "1147-094D64FF",
 							["interrupt_spells"] = {
 								["_ActorTable"] = {
 									[1766] = {
@@ -8631,7 +8767,7 @@ _detalhes_database = {
 							["grupo"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["aID"] = "1147-094D64FF",
+							["classe"] = "ROGUE",
 							["pets"] = {
 							},
 							["last_event"] = 1706075358,
@@ -8886,13 +9022,11 @@ _detalhes_database = {
 				["combat_id"] = 75,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Killclaw the Terrible"] = 1,
-					["Grunk"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -8927,7 +9061,9 @@ _detalhes_database = {
 				},
 				["start_time"] = 32941.706,
 				["contra"] = "Grunk",
-				["player_last_events"] = {
+				["frags"] = {
+					["Killclaw the Terrible"] = 1,
+					["Grunk"] = 1,
 				},
 			}, -- [6]
 			{
@@ -8960,7 +9096,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075325,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9024,7 +9160,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075324,
@@ -9058,7 +9194,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075325,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9122,7 +9258,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075324,
@@ -9156,7 +9292,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075325,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9192,7 +9328,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075324,
@@ -9226,7 +9362,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075325,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9262,7 +9398,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075324,
@@ -9297,7 +9433,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075325,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9333,7 +9469,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075324,
@@ -9427,8 +9563,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -9447,12 +9582,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007789,
-							["last_event"] = 1706075324,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.007789,
 							["end_time"] = 1706075325,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 16,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075324,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9486,8 +9622,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075324,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075324,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007789,
@@ -9832,12 +9968,11 @@ _detalhes_database = {
 				["combat_id"] = 74,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Brute"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -9868,7 +10003,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32919.018,
 				["contra"] = "Ogre Brute",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Brute"] = 1,
 				},
 			}, -- [7]
 			{
@@ -9901,7 +10037,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075307,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9937,7 +10073,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075305,
@@ -9971,7 +10107,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075307,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10007,7 +10143,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075305,
@@ -10041,7 +10177,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075307,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10105,7 +10241,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075305,
@@ -10139,7 +10275,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075307,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10203,7 +10339,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075305,
@@ -10237,7 +10373,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075307,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10273,7 +10409,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075305,
@@ -10335,8 +10471,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -10355,12 +10490,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.008826,
-							["last_event"] = 1706075305,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.008826,
 							["end_time"] = 1706075307,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 8,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075305,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10394,8 +10530,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075305,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075305,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008826,
@@ -10805,12 +10941,11 @@ _detalhes_database = {
 				["combat_id"] = 73,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -10841,7 +10976,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32901.206,
 				["contra"] = "Ogre Shadowcaster",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 			}, -- [8]
 			{
@@ -10874,7 +11010,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075299,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10910,7 +11046,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075297,
@@ -10945,7 +11081,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075305,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11009,7 +11145,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075304,
@@ -11043,7 +11179,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075299,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11107,7 +11243,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075297,
@@ -11141,7 +11277,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075299,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11177,7 +11313,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075297,
@@ -11611,12 +11747,11 @@ _detalhes_database = {
 				["combat_id"] = 72,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -11645,7 +11780,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32893.206,
 				["contra"] = "Ogre Shadowcaster",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 			}, -- [9]
 			{
@@ -11678,7 +11814,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075274,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11770,7 +11906,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075273,
@@ -11804,7 +11940,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075274,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11868,7 +12004,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075273,
@@ -11902,7 +12038,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075274,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11938,7 +12074,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075273,
@@ -12068,8 +12204,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 3,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -12088,12 +12223,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007617,
-							["last_event"] = 1706075273,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.007617,
 							["end_time"] = 1706075274,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 3,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075273,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12127,8 +12263,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075273,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075273,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007617,
@@ -12576,7 +12712,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075260,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12612,7 +12748,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075258,
@@ -12646,7 +12782,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075260,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12682,7 +12818,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -12716,7 +12852,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075260,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12752,7 +12888,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -12786,7 +12922,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075260,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12851,7 +12987,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -12885,7 +13021,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075260,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12921,7 +13057,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -13298,7 +13434,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 77,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					149, -- [1]
 					0, -- [2]
@@ -13322,26 +13460,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					48, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -13358,16 +13477,6 @@ _detalhes_database = {
 				["TotalElapsedCombatTime"] = 32855.928,
 				["CombatEndedAt"] = 32855.928,
 				["aura_timeline"] = {
-				},
-				["data_inicio"] = "21:47:37",
-				["end_time"] = 32856.428,
-				["combat_id"] = 70,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Brute"] = 1,
-				},
-				["TimeData"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -13392,15 +13501,42 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["end_time"] = 32856.428,
+				["combat_id"] = 70,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Ogre Brute"] = 1,
+				},
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 77,
+				["totals_grupo"] = {
+					48, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 32853.428,
 				["contra"] = "Ogre Brute",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:47:37",
 			}, -- [11]
 			{
 				{
@@ -13433,7 +13569,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075257,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13498,7 +13634,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -13533,7 +13669,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075251,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13571,7 +13707,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -13606,7 +13742,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075257,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13671,7 +13807,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075257,
@@ -13705,7 +13841,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075251,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13769,7 +13905,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075247,
@@ -13803,7 +13939,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075251,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13867,7 +14003,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075247,
@@ -13963,8 +14099,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -13983,12 +14118,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004287,
-							["last_event"] = 1706075246,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.004287,
 							["end_time"] = 1706075251,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075246,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14022,8 +14158,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075246,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075246,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004287,
@@ -14346,12 +14482,11 @@ _detalhes_database = {
 				["combat_id"] = 69,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -14382,7 +14517,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32842.865,
 				["contra"] = "Ogre Shadowcaster",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 2,
 				},
 			}, -- [12]
 			{
@@ -14415,7 +14551,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075246,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14479,7 +14615,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075246,
@@ -15259,16 +15395,6 @@ _detalhes_database = {
 				["CombatEndedAt"] = 32833.178,
 				["aura_timeline"] = {
 				},
-				["data_inicio"] = "21:47:16",
-				["end_time"] = 32833.178,
-				["combat_id"] = 68,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
-				},
-				["TimeData"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -15288,13 +15414,15 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["spells_cast_timeline"] = {
+				["end_time"] = 32833.178,
+				["combat_id"] = 68,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["TimeData"] = {
 				},
-				["start_time"] = 32832.178,
-				["contra"] = "Ogre Shadowcaster",
 				["player_last_events"] = {
 					["Onehitunder"] = {
 						{
@@ -15376,6 +15504,14 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 32832.178,
+				["contra"] = "Ogre Shadowcaster",
+				["data_inicio"] = "21:47:16",
 			}, -- [13]
 			{
 				{
@@ -15408,7 +15544,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075236,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15445,7 +15581,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075236,
@@ -15479,7 +15615,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075229,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15571,7 +15707,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075228,
@@ -15605,7 +15741,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075229,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15669,7 +15805,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075229,
@@ -15799,8 +15935,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -15819,12 +15954,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.008346,
-							["last_event"] = 1706075228,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.008346,
 							["end_time"] = 1706075229,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 8,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075228,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15858,8 +15994,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075228,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075228,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008346,
@@ -16326,7 +16462,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075228,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16419,7 +16555,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075227,
@@ -16454,7 +16590,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075211,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16547,7 +16683,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075209,
@@ -16582,7 +16718,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075228,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16647,7 +16783,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075227,
@@ -16681,7 +16817,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075211,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16774,7 +16910,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075209,
@@ -16808,7 +16944,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075211,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16901,7 +17037,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075209,
@@ -16996,8 +17132,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -17016,12 +17151,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.005795,
-							["last_event"] = 1706075202,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.005795,
 							["end_time"] = 1706075211,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 16,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706075202,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17055,8 +17191,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075202,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075202,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005795,
@@ -17066,8 +17202,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -17086,12 +17221,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.003204,
-							["last_event"] = 1706075204,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.003204,
 							["end_time"] = 1706075211,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075204,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17125,8 +17261,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075204,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075204,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003204,
@@ -17136,8 +17272,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -17156,12 +17291,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007142,
-							["last_event"] = 1706075206,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.007142,
 							["end_time"] = 1706075211,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 8,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706075206,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17195,8 +17331,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075206,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075206,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007142,
@@ -17206,8 +17342,7 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Rogsmash"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -17226,12 +17361,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004984,
-							["last_event"] = 1706075207,
+							["aID"] = "1147-094D64FF",
 							["healing_taken"] = 0.004984,
 							["end_time"] = 1706075211,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Rogsmash"] = 8,
 							},
-							["aID"] = "1147-094D64FF",
+							["start_time"] = 1706075207,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17265,8 +17401,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075207,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075207,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004984,
@@ -17503,7 +17639,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 73,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					659, -- [1]
 					8, -- [2]
@@ -17527,26 +17665,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					285, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -17563,16 +17682,6 @@ _detalhes_database = {
 				["TotalElapsedCombatTime"] = 32807.365,
 				["CombatEndedAt"] = 32807.365,
 				["aura_timeline"] = {
-				},
-				["data_inicio"] = "21:46:41",
-				["end_time"] = 32807.615,
-				["combat_id"] = 66,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Jugnug"] = 1,
-				},
-				["TimeData"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -17601,15 +17710,42 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["end_time"] = 32807.615,
+				["combat_id"] = 66,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Jugnug"] = 1,
+				},
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 73,
+				["totals_grupo"] = {
+					285, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 32797.615,
 				["contra"] = "Jugnug",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:46:41",
 			}, -- [15]
 			{
 				{
@@ -17642,7 +17778,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075201,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17735,7 +17871,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075201,
@@ -17770,7 +17906,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075201,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17863,7 +17999,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075201,
@@ -17898,7 +18034,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075201,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17936,7 +18072,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075201,
@@ -17972,7 +18108,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075201,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18038,7 +18174,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075201,
@@ -18073,7 +18209,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075201,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18139,7 +18275,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075201,
@@ -18234,8 +18370,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Rogsmash"] = 9,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -18254,12 +18389,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007249,
-							["last_event"] = 1706075175,
+							["aID"] = "1147-094D64FF",
 							["healing_taken"] = 0.007249,
 							["end_time"] = 1706075178,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Rogsmash"] = 9,
 							},
-							["aID"] = "1147-094D64FF",
+							["start_time"] = 1706075175,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18293,8 +18429,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075175,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075175,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007249,
@@ -18304,8 +18440,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -18324,12 +18459,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.002048,
-							["last_event"] = 1706075175,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.002048,
 							["end_time"] = 1706075178,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075175,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18363,8 +18499,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075175,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075175,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002048,
@@ -18374,8 +18510,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -18394,12 +18529,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.005714,
-							["last_event"] = 1706075176,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.005714,
 							["end_time"] = 1706075178,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 8,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706075176,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18433,8 +18569,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075176,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075176,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005714,
@@ -18710,12 +18846,11 @@ _detalhes_database = {
 				["combat_id"] = 65,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Ogre Brute"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -18748,7 +18883,8 @@ _detalhes_database = {
 				},
 				["start_time"] = 32771.74,
 				["contra"] = "Ogre Brute",
-				["player_last_events"] = {
+				["frags"] = {
+					["Ogre Brute"] = 1,
 				},
 			}, -- [16]
 			{
@@ -18782,7 +18918,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075152,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18874,7 +19010,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075149,
@@ -18909,7 +19045,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075152,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19001,7 +19137,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075150,
@@ -19035,7 +19171,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075152,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19100,7 +19236,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075150,
@@ -19135,7 +19271,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075175,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19200,7 +19336,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075175,
@@ -19234,7 +19370,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075152,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19327,7 +19463,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075150,
@@ -19453,8 +19589,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Rogsmash"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -19473,12 +19608,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.002724,
-							["last_event"] = 1706075144,
+							["aID"] = "1147-094D64FF",
 							["healing_taken"] = 0.002724,
 							["end_time"] = 1706075152,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Rogsmash"] = 8,
 							},
-							["aID"] = "1147-094D64FF",
+							["start_time"] = 1706075144,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19512,8 +19648,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075144,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075144,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002724,
@@ -19523,8 +19659,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -19543,12 +19678,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.003806,
-							["last_event"] = 1706075146,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.003806,
 							["end_time"] = 1706075152,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706075146,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19582,8 +19718,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075146,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075146,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003806,
@@ -19593,8 +19729,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -19613,12 +19748,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.002286,
-							["last_event"] = 1706075146,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.002286,
 							["end_time"] = 1706075152,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 8,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706075146,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19652,8 +19788,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075146,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075146,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002286,
@@ -19663,8 +19799,7 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -19683,12 +19818,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.00378,
-							["last_event"] = 1706075148,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.00378,
 							["end_time"] = 1706075152,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 8,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706075148,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19722,8 +19858,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075148,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075148,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00378,
@@ -19733,8 +19869,7 @@ _detalhes_database = {
 						}, -- [4]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -19753,12 +19888,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.005987,
-							["last_event"] = 1706075149,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.005987,
 							["end_time"] = 1706075152,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 16,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706075149,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19792,8 +19928,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706075149,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706075149,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005987,
@@ -19977,14 +20113,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153582",
 							["monster"] = true,
 							["nome"] = "Wug",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-153582-0000309FCE",
-							["aID"] = "153582",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -20015,7 +20151,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 71,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					502, -- [1]
 					8, -- [2]
@@ -20039,26 +20177,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					256, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -20078,16 +20197,6 @@ _detalhes_database = {
 				["TotalElapsedCombatTime"] = 32747.43,
 				["CombatEndedAt"] = 32747.43,
 				["aura_timeline"] = {
-				},
-				["data_inicio"] = "21:45:45",
-				["end_time"] = 32747.992,
-				["combat_id"] = 64,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Wug"] = 1,
-				},
-				["TimeData"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -20117,15 +20226,42 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["end_time"] = 32747.992,
+				["combat_id"] = 64,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Wug"] = 1,
+				},
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 71,
+				["totals_grupo"] = {
+					256, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 32740.992,
 				["contra"] = "Wug",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:45:45",
 			}, -- [17]
 			{
 				{
@@ -20159,7 +20295,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706075144,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -20254,7 +20390,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706075144,
@@ -20513,11 +20649,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001991,
 							["total_without_pet"] = 16.001991,
 							["total"] = 16.001991,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -20535,7 +20672,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Negging"] = true,
 							},
-							["aID"] = "1147-094D6502",
+							["spec"] = 260,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -20569,13 +20706,12 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074922,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6502",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001991,
 							["delay"] = 1706074905,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -20813,17 +20949,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Negging",
 							["pets"] = {
 							},
+							["nome"] = "Negging",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D6502",
-							["serial"] = "Player-1147-094D6502",
 							["last_event"] = 1706074927,
+							["serial"] = "Player-1147-094D6502",
+							["aID"] = "1147-094D6502",
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -21005,7 +21141,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074807,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21043,7 +21179,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074805,
@@ -21080,7 +21216,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074881,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21146,7 +21282,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074881,
@@ -21182,7 +21318,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074807,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21248,7 +21384,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074801,
@@ -21282,7 +21418,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074807,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21318,7 +21454,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074800,
@@ -21352,7 +21488,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074807,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21388,7 +21524,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074800,
@@ -21589,11 +21725,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.00173,
 							["total_without_pet"] = 8.00173,
 							["total"] = 8.00173,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -21611,7 +21748,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Rogsmash"] = true,
 							},
-							["aID"] = "1147-094D64FF",
+							["spec"] = 260,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21645,18 +21782,16 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074799,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00173,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -21675,12 +21810,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.008504,
-							["last_event"] = 1706074805,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.008504,
 							["end_time"] = 1706074807,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706074805,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21714,8 +21850,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074805,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074805,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008504,
@@ -21767,17 +21903,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Rogsmash",
 							["pets"] = {
 							},
+							["nome"] = "Rogsmash",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D64FF",
-							["serial"] = "Player-1147-094D64FF",
 							["last_event"] = 1706074807,
+							["serial"] = "Player-1147-094D64FF",
+							["aID"] = "1147-094D64FF",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -22010,14 +22146,14 @@ _detalhes_database = {
 							["flag_original"] = 2632,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "152998",
 							["monster"] = true,
 							["nome"] = "Hunting Worg",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-152998-000030A295",
-							["aID"] = "152998",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -22130,44 +22266,10 @@ _detalhes_database = {
 				["combat_id"] = 62,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Hunting Worg"] = 2,
-					["Harpy Snatcher"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Rogsmash"] = 8.00173,
-							["Negging"] = 0.008504,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Ohnoaknife"] = 7.0019,
-							["Missedme"] = 21.005522,
-							["Onehitunder"] = 7.00656,
-							["Rogsmash"] = 19.008963,
-							["Negging"] = 18.003703,
-						}, -- [1]
-					},
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["start_time"] = 32379.164,
-				["contra"] = "Hunting Worg",
 				["player_last_events"] = {
 					["Negging"] = {
 						{
@@ -22249,6 +22351,40 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rogsmash"] = 8.00173,
+							["Negging"] = 0.008504,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Ohnoaknife"] = 7.0019,
+							["Missedme"] = 21.005522,
+							["Onehitunder"] = 7.00656,
+							["Rogsmash"] = 19.008963,
+							["Negging"] = 18.003703,
+						}, -- [1]
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 32379.164,
+				["contra"] = "Hunting Worg",
+				["frags"] = {
+					["Hunting Worg"] = 2,
+					["Harpy Snatcher"] = 1,
+				},
 			}, -- [19]
 			{
 				{
@@ -22280,7 +22416,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074769,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22401,7 +22537,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074769,
@@ -22435,7 +22571,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074769,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22556,7 +22692,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074769,
@@ -22590,7 +22726,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074769,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22710,7 +22846,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074769,
@@ -22745,7 +22881,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074769,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22838,7 +22974,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074768,
@@ -22873,7 +23009,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074769,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22938,7 +23074,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074768,
@@ -23095,8 +23231,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -23115,12 +23250,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.006084,
-							["last_event"] = 1706074761,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.006084,
 							["end_time"] = 1706074769,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 16,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706074761,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23154,8 +23290,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074761,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074761,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006084,
@@ -23165,8 +23301,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Rogsmash"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -23185,12 +23320,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.006265,
-							["last_event"] = 1706074762,
+							["aID"] = "1147-094D64FF",
 							["healing_taken"] = 0.006265,
 							["end_time"] = 1706074769,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Rogsmash"] = 8,
 							},
-							["aID"] = "1147-094D64FF",
+							["start_time"] = 1706074762,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23224,8 +23360,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074762,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074762,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006265,
@@ -23235,8 +23371,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -23255,12 +23390,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.002282,
-							["last_event"] = 1706074762,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.002282,
 							["end_time"] = 1706074769,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 16,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706074762,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23294,8 +23430,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074762,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074762,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002282,
@@ -23310,11 +23446,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001399,
 							["total_without_pet"] = 8.001399,
 							["total"] = 8.001399,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -23332,7 +23469,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Missedme"] = true,
 							},
-							["aID"] = "1147-094D64FE",
+							["spec"] = 260,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23366,13 +23503,12 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074766,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FE",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001399,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [4]
 					},
 				}, -- [2]
@@ -23756,30 +23892,30 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Missedme",
 							["pets"] = {
 							},
+							["nome"] = "Missedme",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D64FE",
-							["serial"] = "Player-1147-094D64FE",
 							["last_event"] = 1706074769,
+							["serial"] = "Player-1147-094D64FE",
+							["aID"] = "1147-094D64FE",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153964",
 							["monster"] = true,
 							["nome"] = "Bloodbeak",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-153964-000030A281",
-							["aID"] = "153964",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -23810,7 +23946,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 68,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					924, -- [1]
 					8, -- [2]
@@ -23834,112 +23972,6 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					406, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["amountCasts"] = {
-					["Ohnoaknife"] = {
-						["Ambush"] = 1,
-						["Stealth"] = 1,
-						["Slice and Dice"] = 1,
-					},
-					["Bloodbeak"] = {
-						["Swooping Lunge"] = 2,
-					},
-					["Onehitunder"] = {
-						["Stealth"] = 1,
-					},
-					["Missedme"] = {
-						["Stealth"] = 1,
-						["Slice and Dice"] = 1,
-					},
-					["Rogsmash"] = {
-						["Ambush"] = 1,
-						["Stealth"] = 1,
-						["Slice and Dice"] = 1,
-					},
-					["Negging"] = {
-						["Ambush"] = 1,
-						["Stealth"] = 1,
-						["Slice and Dice"] = 1,
-					},
-				},
-				["instance_type"] = "none",
-				["data_fim"] = "21:39:30",
-				["hasTimer"] = 7,
-				["bIsClosed"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Bloodbeak",
-				["trinketProcs"] = {
-				},
-				["TotalElapsedCombatTime"] = 32366.101,
-				["CombatEndedAt"] = 32366.101,
-				["aura_timeline"] = {
-				},
-				["data_inicio"] = "21:39:22",
-				["end_time"] = 32366.476,
-				["combat_id"] = 61,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Bloodbeak"] = 1,
-				},
-				["TimeData"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Ohnoaknife"] = 0.002282,
-							["Missedme"] = 8.001399,
-							["Rogsmash"] = 0.006265,
-							["Negging"] = 0.006084,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Ohnoaknife"] = 112.005374,
-							["Missedme"] = 46.006662,
-							["Onehitunder"] = 28.003616,
-							["Rogsmash"] = 109.003459,
-							["Negging"] = 111.007355,
-						}, -- [1]
-					},
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 32358.476,
-				["contra"] = "Bloodbeak",
 				["player_last_events"] = {
 					["Onehitunder"] = {
 						{
@@ -24148,6 +24180,110 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Ohnoaknife"] = {
+						["Ambush"] = 1,
+						["Stealth"] = 1,
+						["Slice and Dice"] = 1,
+					},
+					["Bloodbeak"] = {
+						["Swooping Lunge"] = 2,
+					},
+					["Onehitunder"] = {
+						["Stealth"] = 1,
+					},
+					["Missedme"] = {
+						["Stealth"] = 1,
+						["Slice and Dice"] = 1,
+					},
+					["Rogsmash"] = {
+						["Ambush"] = 1,
+						["Stealth"] = 1,
+						["Slice and Dice"] = 1,
+					},
+					["Negging"] = {
+						["Ambush"] = 1,
+						["Stealth"] = 1,
+						["Slice and Dice"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "21:39:30",
+				["hasTimer"] = 7,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bloodbeak",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 32366.101,
+				["CombatEndedAt"] = 32366.101,
+				["aura_timeline"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Ohnoaknife"] = 0.002282,
+							["Missedme"] = 8.001399,
+							["Rogsmash"] = 0.006265,
+							["Negging"] = 0.006084,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Ohnoaknife"] = 112.005374,
+							["Missedme"] = 46.006662,
+							["Onehitunder"] = 28.003616,
+							["Rogsmash"] = 109.003459,
+							["Negging"] = 111.007355,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 32366.476,
+				["combat_id"] = 61,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Bloodbeak"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 68,
+				["totals_grupo"] = {
+					406, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 32358.476,
+				["contra"] = "Bloodbeak",
+				["data_inicio"] = "21:39:22",
 			}, -- [20]
 			{
 				{
@@ -24180,7 +24316,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074752,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24244,7 +24380,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074751,
@@ -24278,7 +24414,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074752,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24314,7 +24450,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074750,
@@ -24918,7 +25054,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074736,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24954,7 +25090,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074734,
@@ -24988,7 +25124,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074736,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24996,7 +25132,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 0,
@@ -25483,14 +25619,14 @@ _detalhes_database = {
 							["flag_original"] = 2632,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "169162",
 							["monster"] = true,
 							["nome"] = "Hunting Worg",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-169162-0000B0A252",
-							["aID"] = "169162",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -25521,7 +25657,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 66,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					163, -- [1]
 					0, -- [2]
@@ -25545,26 +25683,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					33, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
@@ -25589,16 +25708,6 @@ _detalhes_database = {
 				["CombatEndedAt"] = 32332.539,
 				["aura_timeline"] = {
 				},
-				["data_inicio"] = "21:38:41",
-				["end_time"] = 32332.851,
-				["combat_id"] = 59,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Hunting Worg"] = 3,
-				},
-				["TimeData"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -25619,15 +25728,42 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["end_time"] = 32332.851,
+				["combat_id"] = 59,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Hunting Worg"] = 3,
+				},
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 66,
+				["totals_grupo"] = {
+					33, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 32316.817,
 				["contra"] = "Hunting Worg",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:38:41",
 			}, -- [22]
 			{
 				{
@@ -25659,7 +25795,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074705,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -25695,7 +25831,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074703,
@@ -25729,7 +25865,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074705,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -25765,7 +25901,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074704,
@@ -26110,9 +26246,9 @@ _detalhes_database = {
 							["grupo"] = true,
 							["aID"] = "1147-094D64FF",
 							["last_event"] = 1706074705,
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -26404,13 +26540,11 @@ _detalhes_database = {
 				["combat_id"] = 58,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Harpy Ambusher"] = 1,
-					["Hunting Worg"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -26437,7 +26571,9 @@ _detalhes_database = {
 				},
 				["start_time"] = 32300.099,
 				["contra"] = "Harpy Ambusher",
-				["player_last_events"] = {
+				["frags"] = {
+					["Harpy Ambusher"] = 1,
+					["Hunting Worg"] = 1,
 				},
 			}, -- [23]
 			{
@@ -26471,7 +26607,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074696,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26563,7 +26699,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074691,
@@ -26597,7 +26733,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074696,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26661,7 +26797,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074689,
@@ -26696,7 +26832,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074696,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26760,7 +26896,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074691,
@@ -26794,7 +26930,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074696,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26830,7 +26966,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074688,
@@ -26864,7 +27000,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074696,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26900,7 +27036,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074688,
@@ -27576,14 +27712,14 @@ _detalhes_database = {
 							["flag_original"] = 2632,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "152998",
 							["monster"] = true,
 							["nome"] = "Hunting Worg",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-152998-0000B0A1B7",
-							["aID"] = "152998",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -27663,10 +27799,10 @@ _detalhes_database = {
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
 					["Ohnoaknife"] = {
-						["Stealth"] = 2,
-						["Ambush"] = 1,
-						["Sinister Strike"] = 1,
 						["Slice and Dice"] = 1,
+						["Stealth"] = 2,
+						["Sinister Strike"] = 1,
+						["Ambush"] = 1,
 					},
 					["Missedme"] = {
 						["Stealth"] = 2,
@@ -27704,17 +27840,6 @@ _detalhes_database = {
 				["CombatEndedAt"] = 32292.474,
 				["aura_timeline"] = {
 				},
-				["data_inicio"] = "21:38:09",
-				["end_time"] = 32293.162,
-				["combat_id"] = 57,
-				["overall_added"] = true,
-				["is_challenge"] = false,
-				["frags"] = {
-					["Harpy Ambusher"] = 2,
-					["Hunting Worg"] = 4,
-				},
-				["TimeData"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -27738,6 +27863,18 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
+				["end_time"] = 32293.162,
+				["combat_id"] = 57,
+				["overall_added"] = true,
+				["is_challenge"] = false,
+				["frags"] = {
+					["Harpy Ambusher"] = 2,
+					["Hunting Worg"] = 4,
+				},
+				["TimeData"] = {
+				},
+				["player_last_events"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
 				["cleu_events"] = {
@@ -27745,8 +27882,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 32285.162,
 				["contra"] = "Harpy Ambusher",
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "21:38:09",
 			}, -- [24]
 			{
 				{
@@ -27780,7 +27916,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074557,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -27901,7 +28037,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074528,
@@ -27949,7 +28085,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074557,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28099,7 +28235,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074555,
@@ -28145,7 +28281,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074557,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28239,7 +28375,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074527,
@@ -28287,7 +28423,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074688,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28383,7 +28519,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074688,
@@ -28428,7 +28564,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074557,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28466,7 +28602,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074532,
@@ -28726,14 +28862,14 @@ _detalhes_database = {
 											["Upshot"] = 0,
 										},
 										["n_total"] = 1,
-										["g_dmg"] = 0,
+										["MISS"] = 41,
 										["n_min"] = 1,
-										["a_amt"] = 0,
+										["g_dmg"] = 0,
 										["counter"] = 66,
 										["DODGE"] = 18,
-										["total"] = 1,
-										["c_max"] = 0,
 										["r_amt"] = 0,
+										["c_max"] = 0,
+										["n_max"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -28745,8 +28881,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["n_max"] = 1,
-										["MISS"] = 41,
+										["total"] = 1,
+										["a_amt"] = 0,
 									}, -- [1]
 									[433539] = {
 										["c_amt"] = 0,
@@ -28803,11 +28939,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 14.001556,
 							["total_without_pet"] = 10.001556,
 							["total"] = 10.001556,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -28825,7 +28962,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Rogsmash"] = true,
 							},
-							["aID"] = "1147-094D64FF",
+							["spec"] = 260,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28860,18 +28997,16 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074556,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001556,
 							["delay"] = 1706074530,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 7,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -28890,12 +29025,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.003933,
-							["last_event"] = 1706074509,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.003933,
 							["end_time"] = 1706074557,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 7,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706074556,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28929,8 +29065,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074556,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074509,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.003933,
@@ -28946,11 +29082,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 6.00134,
 							["total_without_pet"] = 9.001339999999999,
 							["total"] = 9.001339999999999,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -28968,7 +29105,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Onehitunder"] = true,
 							},
-							["aID"] = "1147-094D6505",
+							["spec"] = 260,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -29003,13 +29140,12 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074556,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D6505",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00134,
 							["delay"] = 1706074545,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
@@ -29019,11 +29155,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 7.001182,
 							["total_without_pet"] = 8.001182,
 							["total"] = 8.001182,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -29041,7 +29178,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Missedme"] = true,
 							},
-							["aID"] = "1147-094D64FE",
+							["spec"] = 260,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -29076,13 +29213,12 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074551,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FE",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001182,
 							["delay"] = 1706074525,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [4]
 					},
 				}, -- [2]
@@ -29282,17 +29418,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Rogsmash",
 							["pets"] = {
 							},
+							["nome"] = "Rogsmash",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D64FF",
-							["serial"] = "Player-1147-094D64FF",
 							["last_event"] = 1706074557,
+							["serial"] = "Player-1147-094D64FF",
+							["aID"] = "1147-094D64FF",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -29391,17 +29527,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Onehitunder",
 							["pets"] = {
 							},
+							["nome"] = "Onehitunder",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D6505",
-							["serial"] = "Player-1147-094D6505",
 							["last_event"] = 1706074557,
+							["serial"] = "Player-1147-094D6505",
+							["aID"] = "1147-094D6505",
 						}, -- [3]
 						{
 							["flag_original"] = 1047,
@@ -29457,17 +29593,17 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Missedme",
 							["pets"] = {
 							},
+							["nome"] = "Missedme",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D64FE",
-							["serial"] = "Player-1147-094D64FE",
 							["last_event"] = 1706074557,
+							["serial"] = "Player-1147-094D64FE",
+							["aID"] = "1147-094D64FE",
 						}, -- [4]
 						{
 							["flag_original"] = 1047,
@@ -29739,7 +29875,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074458,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -29916,7 +30052,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074458,
@@ -29951,7 +30087,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074458,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30127,7 +30263,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074458,
@@ -30162,7 +30298,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074458,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30310,7 +30446,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074458,
@@ -30344,7 +30480,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074458,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30436,7 +30572,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074458,
@@ -30470,7 +30606,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074458,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30563,7 +30699,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074458,
@@ -30725,11 +30861,12 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.005751,
 							["total_without_pet"] = 7.005751,
 							["total"] = 7.005751,
-							["spec"] = 260,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -30747,7 +30884,7 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Rogsmash"] = true,
 							},
-							["aID"] = "1147-094D64FF",
+							["spec"] = 260,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30781,18 +30918,16 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["start_time"] = 1706074451,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094D64FF",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005751,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Onehitunder"] = 7,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -30811,12 +30946,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007525,
-							["last_event"] = 1706074451,
+							["aID"] = "1147-094D6505",
 							["healing_taken"] = 0.007525,
 							["end_time"] = 1706074458,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Onehitunder"] = 7,
 							},
-							["aID"] = "1147-094D6505",
+							["start_time"] = 1706074451,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30850,8 +30986,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074451,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074451,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007525,
@@ -30861,8 +30997,7 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Ohnoaknife"] = 16,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -30881,12 +31016,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.001394,
-							["last_event"] = 1706074452,
+							["aID"] = "1147-094D6503",
 							["healing_taken"] = 0.001394,
 							["end_time"] = 1706074458,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Ohnoaknife"] = 16,
 							},
-							["aID"] = "1147-094D6503",
+							["start_time"] = 1706074452,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30920,8 +31056,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074452,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074452,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.001394,
@@ -30931,8 +31067,7 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 7,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -30951,12 +31086,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.008297,
-							["last_event"] = 1706074452,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.008297,
 							["end_time"] = 1706074458,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 7,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706074452,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30990,8 +31126,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074452,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074452,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008297,
@@ -31001,8 +31137,7 @@ _detalhes_database = {
 						}, -- [4]
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -31021,12 +31156,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.002678,
-							["last_event"] = 1706074457,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.002678,
 							["end_time"] = 1706074458,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 8,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706074457,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -31060,8 +31196,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074457,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074457,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002678,
@@ -31425,30 +31561,30 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Rogsmash",
 							["pets"] = {
 							},
+							["nome"] = "Rogsmash",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["tipo"] = 4,
-							["aID"] = "1147-094D64FF",
-							["serial"] = "Player-1147-094D64FF",
 							["last_event"] = 1706074458,
+							["serial"] = "Player-1147-094D64FF",
+							["aID"] = "1147-094D64FF",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153266",
 							["monster"] = true,
 							["nome"] = "Killclaw the Terrible",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-153266-000030A064",
-							["aID"] = "153266",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -31573,46 +31709,10 @@ _detalhes_database = {
 				["combat_id"] = 55,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Killclaw the Terrible"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Ohnoaknife"] = 0.001394,
-							["Missedme"] = 0.008297,
-							["Onehitunder"] = 0.007525,
-							["Rogsmash"] = 7.005751,
-							["Negging"] = 0.002678,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Ohnoaknife"] = 115.002263,
-							["Missedme"] = 96.002223,
-							["Onehitunder"] = 50.002951,
-							["Rogsmash"] = 87.005556,
-							["Negging"] = 67.003981,
-						}, -- [1]
-					},
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["start_time"] = 32048.112,
-				["contra"] = "Killclaw the Terrible",
 				["player_last_events"] = {
 					["Ohnoaknife"] = {
 						{
@@ -31923,6 +32023,42 @@ _detalhes_database = {
 						}, -- [32]
 						["n"] = 4,
 					},
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Ohnoaknife"] = 0.001394,
+							["Missedme"] = 0.008297,
+							["Onehitunder"] = 0.007525,
+							["Rogsmash"] = 7.005751,
+							["Negging"] = 0.002678,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Ohnoaknife"] = 115.002263,
+							["Missedme"] = 96.002223,
+							["Onehitunder"] = 50.002951,
+							["Rogsmash"] = 87.005556,
+							["Negging"] = 67.003981,
+						}, -- [1]
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 32048.112,
+				["contra"] = "Killclaw the Terrible",
+				["frags"] = {
+					["Killclaw the Terrible"] = 1,
 				},
 			}, -- [26]
 			{
@@ -32424,10 +32560,10 @@ _detalhes_database = {
 				["is_challenge"] = false,
 				["spells_cast_timeline"] = {
 				},
-				["overall_added"] = true,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+				["overall_added"] = true,
 				["player_last_events"] = {
 					["Rogsmash"] = {
 						{
@@ -32549,7 +32685,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074204,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32670,7 +32806,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074203,
@@ -32706,7 +32842,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074204,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32826,7 +32962,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074203,
@@ -32862,7 +32998,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074204,
-							["aID"] = "1147-094D6502",
+							["on_hold"] = false,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33011,7 +33147,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6502",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074203,
@@ -33047,7 +33183,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074204,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33167,7 +33303,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074203,
@@ -33204,7 +33340,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074367,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33298,7 +33434,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074367,
@@ -33465,8 +33601,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Negging"] = 7,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -33485,12 +33620,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.007676,
-							["last_event"] = 1706074199,
+							["aID"] = "1147-094D6502",
 							["healing_taken"] = 0.007676,
 							["end_time"] = 1706074204,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Negging"] = 7,
 							},
-							["aID"] = "1147-094D6502",
+							["start_time"] = 1706074199,
 							["nome"] = "Negging",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33524,8 +33660,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074199,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074199,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.007676,
@@ -33535,8 +33671,7 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 8,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -33555,12 +33690,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.008788,
-							["last_event"] = 1706074200,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.008788,
 							["end_time"] = 1706074204,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 8,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706074200,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33594,8 +33730,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074200,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074200,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008788,
@@ -33862,14 +33998,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "153964",
 							["monster"] = true,
 							["nome"] = "Bloodbeak",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3884-2175-2697-153964-000030A04D",
-							["aID"] = "153964",
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [4]
@@ -33993,43 +34129,10 @@ _detalhes_database = {
 				["combat_id"] = 53,
 				["overall_added"] = true,
 				["is_challenge"] = false,
-				["frags"] = {
-					["Bloodbeak"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Missedme"] = 0.008788,
-							["Negging"] = 0.007676,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Ohnoaknife"] = 67.008503,
-							["Missedme"] = 55.007703,
-							["Onehitunder"] = 45.002294,
-							["Rogsmash"] = 66.001053,
-							["Negging"] = 62.007028,
-						}, -- [1]
-					},
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["start_time"] = 31795.281,
-				["contra"] = "Bloodbeak",
 				["player_last_events"] = {
 					["Ohnoaknife"] = {
 						{
@@ -34657,6 +34760,39 @@ _detalhes_database = {
 						["n"] = 6,
 					},
 				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Missedme"] = 0.008788,
+							["Negging"] = 0.007676,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Ohnoaknife"] = 67.008503,
+							["Missedme"] = 55.007703,
+							["Onehitunder"] = 45.002294,
+							["Rogsmash"] = 66.001053,
+							["Negging"] = 62.007028,
+						}, -- [1]
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 31795.281,
+				["contra"] = "Bloodbeak",
+				["frags"] = {
+					["Bloodbeak"] = 1,
+				},
 			}, -- [28]
 			{
 				{
@@ -34688,7 +34824,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074199,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -34752,7 +34888,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074188,
@@ -34786,7 +34922,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074175,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -34822,7 +34958,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074169,
@@ -34857,7 +34993,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074199,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -34949,7 +35085,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074199,
@@ -35110,8 +35246,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Missedme"] = 1,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
@@ -35130,12 +35265,13 @@ _detalhes_database = {
 							["targets"] = {
 							},
 							["totalover_without_pet"] = 0.004943,
-							["last_event"] = 1706074169,
+							["aID"] = "1147-094D64FE",
 							["healing_taken"] = 0.004943,
 							["end_time"] = 1706074175,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Missedme"] = 1,
 							},
-							["aID"] = "1147-094D64FE",
+							["start_time"] = 1706074169,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -35169,8 +35305,8 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1706074169,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 1706074169,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004943,
@@ -35632,7 +35768,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074169,
-							["aID"] = "1147-094D64FE",
+							["on_hold"] = false,
 							["nome"] = "Missedme",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -35696,7 +35832,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FE",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074169,
@@ -35730,7 +35866,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074156,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -35766,7 +35902,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074155,
@@ -35802,7 +35938,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074156,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -35838,7 +35974,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074154,
@@ -36329,7 +36465,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074144,
-							["aID"] = "1147-094D64FF",
+							["on_hold"] = false,
 							["nome"] = "Rogsmash",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -36365,7 +36501,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D64FF",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074143,
@@ -36399,7 +36535,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074144,
-							["aID"] = "1147-094D6503",
+							["on_hold"] = false,
 							["nome"] = "Ohnoaknife",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -36435,7 +36571,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6503",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1706074143,
@@ -36469,7 +36605,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1706074144,
-							["aID"] = "1147-094D6505",
+							["on_hold"] = false,
 							["nome"] = "Onehitunder",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -36477,7 +36613,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
+							["aID"] = "1147-094D6505",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 0,
@@ -36933,10 +37069,10 @@ _detalhes_database = {
 			["defensive-personal"] = false,
 		},
 		["width"] = 120,
-		["height"] = 18,
 		["framme_locked"] = false,
 		["cooldowns"] = {
 		},
+		["height"] = 18,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
@@ -36987,9 +37123,9 @@ _detalhes_database = {
 			["pos"] = {
 				["normal"] = {
 					["y"] = -64.8687744140625,
-					["x"] = 683.3792724609375,
-					["w"] = 310,
-					["h"] = 157.9999694824219,
+					["x"] = 688.8641967773438,
+					["w"] = 310.0001525878906,
+					["h"] = 157.9999847412109,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -37058,34 +37194,32 @@ _detalhes_database = {
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
+	["data_harvested_for_charts"] = {
+	},
+	["mythic_plus_log"] = {
+	},
+	["on_death_menu"] = false,
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1707340325,
 		["last_version"] = 16,
-	},
-	["mythic_plus_log"] = {
 	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
 	["ignore_nicktag"] = false,
-	["data_harvested_for_charts"] = {
-	},
 	["last_realversion"] = 155,
 	["last_instance_time"] = 1706075797,
 	["combat_id"] = 89,
 	["savedStyles"] = {
 	},
-	["last_day"] = "23",
+	["last_day"] = "27",
 	["character_data"] = {
-		["logons"] = 6,
+		["logons"] = 8,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -37102,7 +37236,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.04275199999999999,
 					["pets"] = {
 					},
-					["classe"] = "ROGUE",
+					["aID"] = "1147-094D64FF",
 					["total_without_pet"] = 1798.042752,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
@@ -37111,8 +37245,6 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-1147-094D64FF",
-					["aID"] = "1147-094D64FF",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -37126,14 +37258,15 @@ _detalhes_database = {
 						["Tunk"] = 332,
 						["Decaying Corpse"] = 59,
 					},
-					["grupo"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706075885,
-					["nome"] = "Rogsmash",
+					["classe"] = "ROGUE",
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 23,
@@ -37301,20 +37434,20 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
+					["nome"] = "Rogsmash",
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 657.0427520000001,
 					["start_time"] = 1706075691,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.021423,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
@@ -37322,11 +37455,11 @@ _detalhes_database = {
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 905.0214230000001,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-156825-0001B0A68C",
-					["aID"] = "156825",
-					["fight_component"] = true,
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -37340,14 +37473,15 @@ _detalhes_database = {
 						["Warlord Breka Grimaxe"] = 862,
 						["Shuja Grimaxe"] = 43,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.021423,
+					["fight_component"] = true,
 					["end_time"] = 1706075885,
+					["aID"] = "156825",
 					["nome"] = "Darkmaul Centurion",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -37435,23 +37569,23 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 2457.021423,
 					["start_time"] = 1706075831,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
 					["totalabsorbed"] = 0.054344,
 					["pets"] = {
 					},
-					["classe"] = "ROGUE",
+					["aID"] = "1147-094D6505",
 					["total_without_pet"] = 1854.054344,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
@@ -37460,8 +37594,6 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-1147-094D6505",
-					["aID"] = "1147-094D6505",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -37475,14 +37607,15 @@ _detalhes_database = {
 						["Tunk"] = 353,
 						["Decaying Corpse"] = 78,
 					},
-					["grupo"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706075885,
-					["nome"] = "Onehitunder",
+					["classe"] = "ROGUE",
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 23,
@@ -37679,32 +37812,30 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
+					["nome"] = "Onehitunder",
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 604.054344,
 					["start_time"] = 1706075673,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 2584,
-					["totalabsorbed"] = 0.04488,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "167663",
 					["total_without_pet"] = 675.0448800000001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 675.0448800000001,
-					["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 					["on_hold"] = false,
 					["total_extra"] = 0,
-					["aID"] = "167663",
-					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 					["damage_from"] = {
 						["Darkmaul Channeler"] = true,
 						["Gor'groth"] = true,
@@ -37724,10 +37855,12 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["end_time"] = 1706075885,
+					["totalabsorbed"] = 0.04488,
+					["boss_fight_component"] = true,
 					["nome"] = "Warlord Breka Grimaxe",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 7,
@@ -37745,12 +37878,12 @@ _detalhes_database = {
 								["n_total"] = 446,
 								["MISS"] = 2,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["counter"] = 99,
 								["DODGE"] = 2,
 								["total"] = 513,
 								["c_max"] = 12,
-								["a_amt"] = 0,
+								["b_dmg"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -37762,8 +37895,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 67,
 								["n_amt"] = 82,
-								["b_dmg"] = 0,
 								["r_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							[283408] = {
 								["c_amt"] = 0,
@@ -37877,12 +38010,12 @@ _detalhes_database = {
 								["n_total"] = 81,
 								["DODGE"] = 2,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 3,
 								["counter"] = 22,
 								["a_amt"] = 0,
 								["total"] = 81,
 								["c_max"] = 0,
-								["MISS"] = 3,
+								["b_dmg"] = 0,
 								["id"] = 318149,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -37894,27 +38027,28 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 15,
-								["b_dmg"] = 0,
 								["r_amt"] = 0,
+								["g_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["last_dps"] = 0,
-					["custom"] = 0,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 3589.04488,
 					["start_time"] = 1706075682,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
 					["totalabsorbed"] = 0.035207,
 					["pets"] = {
 					},
-					["classe"] = "ROGUE",
+					["aID"] = "1147-094D64FE",
 					["total_without_pet"] = 1926.035207,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
@@ -37923,8 +38057,6 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-1147-094D64FE",
-					["aID"] = "1147-094D64FE",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -37938,14 +38070,15 @@ _detalhes_database = {
 						["Tunk"] = 396,
 						["Decaying Corpse"] = 20,
 					},
-					["grupo"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706075885,
-					["nome"] = "Missedme",
+					["classe"] = "ROGUE",
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 19,
@@ -38142,23 +38275,24 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
+					["nome"] = "Missedme",
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 598.035207,
 					["start_time"] = 1706075673,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [5]
 				{
 					["flag_original"] = 1298,
 					["totalabsorbed"] = 0.05000499999999999,
 					["pets"] = {
 					},
-					["classe"] = "ROGUE",
+					["aID"] = "1147-094D6503",
 					["total_without_pet"] = 1884.050005,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
@@ -38167,8 +38301,6 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-1147-094D6503",
-					["aID"] = "1147-094D6503",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -38182,14 +38314,15 @@ _detalhes_database = {
 						["Tunk"] = 392,
 						["Decaying Corpse"] = 23,
 					},
-					["grupo"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706075885,
-					["nome"] = "Ohnoaknife",
+					["classe"] = "ROGUE",
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 20,
@@ -38386,23 +38519,24 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
+					["nome"] = "Ohnoaknife",
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 691.050005,
 					["start_time"] = 1706075681,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 1297,
 					["totalabsorbed"] = 0.05922199999999999,
 					["pets"] = {
 					},
-					["classe"] = "ROGUE",
+					["aID"] = "1147-094D6502",
 					["total_without_pet"] = 1719.059222,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
@@ -38411,8 +38545,6 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-1147-094D6502",
-					["aID"] = "1147-094D6502",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -38426,14 +38558,15 @@ _detalhes_database = {
 						["Tunk"] = 320,
 						["Decaying Corpse"] = 63,
 					},
-					["grupo"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["end_time"] = 1706075885,
-					["nome"] = "Negging",
+					["classe"] = "ROGUE",
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 14,
@@ -38629,32 +38762,30 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["grupo"] = true,
 					["tipo"] = 1,
+					["nome"] = "Negging",
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 602.059222,
 					["start_time"] = 1706075681,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 2584,
-					["totalabsorbed"] = 0.041421,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "167664",
 					["total_without_pet"] = 415.041421,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 415.041421,
-					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 					["on_hold"] = false,
 					["total_extra"] = 0,
-					["aID"] = "167664",
-					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Darkmaul Centurion"] = true,
@@ -38670,10 +38801,12 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["end_time"] = 1706075885,
+					["totalabsorbed"] = 0.041421,
+					["boss_fight_component"] = true,
 					["nome"] = "Shuja Grimaxe",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[273844] = {
 								["c_amt"] = 0,
@@ -38740,32 +38873,32 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["last_dps"] = 0,
-					["custom"] = 0,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 80.041421,
 					["start_time"] = 1706075823,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.017312,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "157300",
 					["total_without_pet"] = 1712.017312,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 1712.017312,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
-					["aID"] = "157300",
-					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -38784,14 +38917,15 @@ _detalhes_database = {
 						["Rogsmash"] = 268,
 						["Negging"] = 137,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.017312,
 					["end_time"] = 1706076011,
+					["boss_fight_component"] = true,
+					["on_hold"] = false,
 					["nome"] = "Tunk",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 3,
@@ -38914,20 +39048,19 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 1934.017312,
 					["start_time"] = 1706075968,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.017799,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
@@ -38935,11 +39068,11 @@ _detalhes_database = {
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 126.017799,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-157328-000030A68C",
-					["aID"] = "157328",
-					["fight_component"] = true,
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -38952,14 +39085,15 @@ _detalhes_database = {
 					["targets"] = {
 						["Warlord Breka Grimaxe"] = 126,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.017799,
+					["fight_component"] = true,
 					["end_time"] = 1706076063,
+					["aID"] = "157328",
 					["nome"] = "Darkmaul Channeler",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -39017,20 +39151,19 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 1101.017799,
 					["start_time"] = 1706076028,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.018368,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
@@ -39038,11 +39171,11 @@ _detalhes_database = {
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 88.01836800000001,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-166262-000330A68C",
-					["aID"] = "166262",
-					["fight_component"] = true,
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -39055,14 +39188,15 @@ _detalhes_database = {
 					["targets"] = {
 						["Warlord Breka Grimaxe"] = 88,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.018368,
+					["fight_component"] = true,
 					["end_time"] = 1706076063,
+					["aID"] = "166262",
 					["nome"] = "Decaying Corpse",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -39075,12 +39209,12 @@ _detalhes_database = {
 								["n_total"] = 88,
 								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 2,
 								["counter"] = 39,
 								["DODGE"] = 4,
 								["total"] = 88,
 								["c_max"] = 0,
-								["MISS"] = 2,
+								["b_dmg"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -39092,36 +39226,35 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 32,
-								["b_dmg"] = 0,
 								["r_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 377.018368,
 					["start_time"] = 1706076028,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.007447000000000001,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "156814",
 					["total_without_pet"] = 1425.007447,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 1425.007447,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
-					["aID"] = "156814",
-					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -39139,14 +39272,15 @@ _detalhes_database = {
 						["Rogsmash"] = 161,
 						["Negging"] = 117,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.007447000000000001,
 					["end_time"] = 1706076171,
+					["boss_fight_component"] = true,
+					["on_hold"] = false,
 					["nome"] = "Gor'groth",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -39263,20 +39397,19 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 1690.007447,
 					["start_time"] = 1706076144,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.015144,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
@@ -39284,11 +39417,11 @@ _detalhes_database = {
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 2565.015144,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-3135-2236-12718-156501-000030A68C",
-					["aID"] = "156501",
-					["fight_component"] = true,
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Ohnoaknife"] = true,
 						["Missedme"] = true,
@@ -39306,14 +39439,15 @@ _detalhes_database = {
 						["Rogsmash"] = 228,
 						["Negging"] = 348,
 					},
-					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
+					["totalabsorbed"] = 0.015144,
+					["fight_component"] = true,
 					["end_time"] = 1706076229,
+					["aID"] = "156501",
 					["nome"] = "Ravnyr",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -39401,16 +39535,16 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["last_dps"] = 0,
-					["custom"] = 0,
+					["monster"] = true,
 					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 2712.015144,
 					["start_time"] = 1706076176,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["last_dps"] = 0,
 				}, -- [13]
 			},
 		}, -- [1]
@@ -39419,44 +39553,39 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 74.047887,
-					["total_without_pet"] = 54.04788699999999,
-					["total"] = 54.04788699999999,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["aID"] = "1147-094D6502",
-					["on_hold"] = false,
-					["spec"] = 261,
-					["totalabsorb"] = 0.047887,
-					["last_hps"] = 0,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
-					["targets"] = {
-						["Negging"] = 54,
-					},
-					["serial"] = "Player-1147-094D6502",
-					["totalover_without_pet"] = 0.047887,
-					["grupo"] = true,
-					["healing_taken"] = 407.047887,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Negging"] = true,
 					},
-					["classe"] = "ROGUE",
-					["end_time"] = 1706075885,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "1147-094D6502",
+					["totalover"] = 74.047887,
+					["total_without_pet"] = 54.04788699999999,
+					["total"] = 54.04788699999999,
+					["spec"] = 261,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1147-094D6502",
+					["totalabsorb"] = 0.047887,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Negging"] = 54,
+					},
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.047887,
+					["healing_taken"] = 407.047887,
 					["targets_overheal"] = {
 						["Negging"] = 74,
 					},
-					["start_time"] = 1706075864,
+					["fight_component"] = true,
+					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "ROGUE",
 					["nome"] = "Negging",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[127802] = {
 								["c_amt"] = 0,
@@ -39485,15 +39614,22 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["start_time"] = 1706075864,
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.047887,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 2584,
+					["healing_from"] = {
+					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
@@ -39505,12 +39641,10 @@ _detalhes_database = {
 					},
 					["heal_enemy"] = {
 					},
-					["aID"] = "167664",
 					["on_hold"] = false,
+					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 					["totalabsorb"] = 0.039437,
 					["last_hps"] = 0,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
 					["targets"] = {
 						["Ohnoaknife"] = 511,
 						["Missedme"] = 359,
@@ -39519,19 +39653,16 @@ _detalhes_database = {
 						["Rogsmash"] = 522,
 						["Negging"] = 353,
 					},
-					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
+					["aID"] = "167664",
 					["totalover_without_pet"] = 0.039437,
+					["last_event"] = 0,
 					["healing_taken"] = 0.039437,
-					["healing_from"] = {
-					},
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
 					["end_time"] = 1706075885,
 					["targets_overheal"] = {
 					},
-					["start_time"] = 1706075710,
 					["nome"] = "Shuja Grimaxe",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[343883] = {
 								["c_amt"] = 0,
@@ -39564,19 +39695,25 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["start_time"] = 1706075710,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.039437,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
+					["healing_from"] = {
+						["Shuja Grimaxe"] = true,
+					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "167663",
 					["totalover"] = 0.06258300000000001,
 					["total_without_pet"] = 0.06258300000000001,
 					["total"] = 0.06258300000000001,
@@ -39584,76 +39721,68 @@ _detalhes_database = {
 					},
 					["heal_enemy"] = {
 					},
-					["aID"] = "167663",
 					["on_hold"] = false,
+					["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 					["totalabsorb"] = 0.06258300000000001,
 					["last_hps"] = 0,
-					["boss_fight_component"] = true,
 					["targets"] = {
 					},
-					["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
 					["totalover_without_pet"] = 0.06258300000000001,
 					["healing_taken"] = 3260.062583,
-					["healing_from"] = {
-						["Shuja Grimaxe"] = true,
-					},
-					["classe"] = "UNKNOW",
-					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
 					["targets_overheal"] = {
 					},
-					["start_time"] = 1706075882,
+					["end_time"] = 1706075885,
+					["last_event"] = 0,
 					["nome"] = "Warlord Breka Grimaxe",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["classe"] = "UNKNOW",
+					["start_time"] = 1706075882,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.06258300000000001,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 76.046847,
-					["total_without_pet"] = 50.046847,
-					["total"] = 50.046847,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["aID"] = "1147-094D6503",
-					["on_hold"] = false,
-					["spec"] = 261,
-					["totalabsorb"] = 0.04684700000000001,
-					["last_hps"] = 0,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
-					["targets"] = {
-						["Ohnoaknife"] = 50,
-					},
-					["serial"] = "Player-1147-094D6503",
-					["totalover_without_pet"] = 0.04684700000000001,
-					["grupo"] = true,
-					["healing_taken"] = 561.0468470000001,
 					["healing_from"] = {
 						["Ohnoaknife"] = true,
 						["Shuja Grimaxe"] = true,
 					},
-					["classe"] = "ROGUE",
-					["end_time"] = 1706075885,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "1147-094D6503",
+					["totalover"] = 76.046847,
+					["total_without_pet"] = 50.046847,
+					["total"] = 50.046847,
+					["spec"] = 261,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1147-094D6503",
+					["totalabsorb"] = 0.04684700000000001,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Ohnoaknife"] = 50,
+					},
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.04684700000000001,
+					["healing_taken"] = 561.0468470000001,
 					["targets_overheal"] = {
 						["Ohnoaknife"] = 76,
 					},
-					["start_time"] = 1706075853,
+					["fight_component"] = true,
+					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "ROGUE",
 					["nome"] = "Ohnoaknife",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[127802] = {
 								["c_amt"] = 0,
@@ -39682,53 +39811,53 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["start_time"] = 1706075853,
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.04684700000000001,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 58.030431,
-					["total_without_pet"] = 60.030431,
-					["total"] = 60.030431,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["aID"] = "1147-094D6505",
-					["totalabsorb"] = 0.030431,
-					["last_hps"] = 0,
-					["spec"] = 261,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
-					["targets"] = {
-						["Onehitunder"] = 60,
-					},
-					["serial"] = "Player-1147-094D6505",
-					["totalover_without_pet"] = 0.030431,
-					["grupo"] = true,
-					["healing_taken"] = 420.030431,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Onehitunder"] = true,
 					},
-					["classe"] = "ROGUE",
-					["end_time"] = 1706075885,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "1147-094D6505",
+					["totalover"] = 58.030431,
+					["total_without_pet"] = 60.030431,
+					["total"] = 60.030431,
+					["spec"] = 261,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1147-094D6505",
+					["totalabsorb"] = 0.030431,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Onehitunder"] = 60,
+					},
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.030431,
+					["healing_taken"] = 420.030431,
 					["targets_overheal"] = {
 						["Onehitunder"] = 58,
 					},
-					["start_time"] = 1706075870,
+					["fight_component"] = true,
+					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "ROGUE",
 					["nome"] = "Onehitunder",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[127802] = {
 								["c_amt"] = 0,
@@ -39757,53 +39886,53 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["start_time"] = 1706075870,
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.030431,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 1298,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 73.047512,
-					["total_without_pet"] = 63.047512,
-					["total"] = 63.047512,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["aID"] = "1147-094D64FE",
-					["on_hold"] = false,
-					["spec"] = 261,
-					["totalabsorb"] = 0.047512,
-					["last_hps"] = 0,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
-					["targets"] = {
-						["Missedme"] = 63,
-					},
-					["serial"] = "Player-1147-094D64FE",
-					["totalover_without_pet"] = 0.047512,
-					["grupo"] = true,
-					["healing_taken"] = 422.047512,
 					["healing_from"] = {
 						["Shuja Grimaxe"] = true,
 						["Missedme"] = true,
 					},
-					["classe"] = "ROGUE",
-					["end_time"] = 1706075885,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "1147-094D64FE",
+					["totalover"] = 73.047512,
+					["total_without_pet"] = 63.047512,
+					["total"] = 63.047512,
+					["spec"] = 261,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1147-094D64FE",
+					["totalabsorb"] = 0.047512,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Missedme"] = 63,
+					},
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.047512,
+					["healing_taken"] = 422.047512,
 					["targets_overheal"] = {
 						["Missedme"] = 73,
 					},
-					["start_time"] = 1706075870,
+					["fight_component"] = true,
+					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "ROGUE",
 					["nome"] = "Missedme",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[127802] = {
 								["c_amt"] = 0,
@@ -39832,53 +39961,53 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["start_time"] = 1706075870,
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.047512,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [6]
 				{
 					["flag_original"] = 1298,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 29.050619,
-					["total_without_pet"] = 71.050619,
-					["total"] = 71.050619,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["aID"] = "1147-094D64FF",
-					["totalabsorb"] = 0.050619,
-					["last_hps"] = 0,
-					["spec"] = 261,
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
-					["targets"] = {
-						["Rogsmash"] = 71,
-					},
-					["serial"] = "Player-1147-094D64FF",
-					["totalover_without_pet"] = 0.050619,
-					["grupo"] = true,
-					["healing_taken"] = 593.050619,
 					["healing_from"] = {
 						["Rogsmash"] = true,
 						["Shuja Grimaxe"] = true,
 					},
-					["classe"] = "ROGUE",
-					["end_time"] = 1706075885,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "1147-094D64FF",
+					["totalover"] = 29.050619,
+					["total_without_pet"] = 71.050619,
+					["total"] = 71.050619,
+					["spec"] = 261,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1147-094D64FF",
+					["totalabsorb"] = 0.050619,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Rogsmash"] = 71,
+					},
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.050619,
+					["healing_taken"] = 593.050619,
 					["targets_overheal"] = {
 						["Rogsmash"] = 29,
 					},
-					["start_time"] = 1706075868,
+					["fight_component"] = true,
+					["end_time"] = 1706075885,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "ROGUE",
 					["nome"] = "Rogsmash",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[127802] = {
 								["c_amt"] = 0,
@@ -39907,12 +40036,17 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["start_time"] = 1706075868,
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["totaldenied"] = 0.050619,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [7]
 			},
 		}, -- [2]
@@ -39921,153 +40055,153 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1298,
-					["resource"] = 35.05927,
+					["resource"] = 103.169632,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D6505",
 					["totalover"] = 0.008625,
 					["total"] = 0.05927,
 					["spec"] = 261,
+					["serial"] = "Player-1147-094D6505",
 					["received"] = 0.05927,
 					["targets"] = {
 					},
 					["powertype"] = 3,
-					["boss_fight_component"] = true,
-					["alternatepower"] = 0.05927,
-					["resource_type"] = 4,
 					["fight_component"] = true,
+					["alternatepower"] = 0.05927,
+					["last_event"] = 0,
 					["nome"] = "Onehitunder",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
 					["classe"] = "ROGUE",
 					["passiveover"] = 0.008625,
-					["last_event"] = 0,
-					["grupo"] = true,
-					["serial"] = "Player-1147-094D6505",
 					["tipo"] = 3,
+					["resource_type"] = 4,
+					["boss_fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 37.04351,
+					["resource"] = 111.156786,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
 					["totalover"] = 0.008378,
 					["total"] = 0.04351,
 					["spec"] = 261,
+					["serial"] = "Player-1147-094D64FE",
 					["received"] = 0.04351,
 					["targets"] = {
 					},
 					["powertype"] = 3,
 					["fight_component"] = true,
 					["alternatepower"] = 0.04351,
-					["boss_fight_component"] = true,
-					["resource_type"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Missedme",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
 					["aID"] = "1147-094D64FE",
 					["passiveover"] = 0.008378,
-					["last_event"] = 0,
-					["grupo"] = true,
-					["serial"] = "Player-1147-094D64FE",
 					["tipo"] = 3,
+					["resource_type"] = 4,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 1297,
-					["resource"] = 32.051252,
+					["resource"] = 90.14913400000003,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
 					["totalover"] = 0.004664,
 					["total"] = 0.05125199999999999,
 					["spec"] = 261,
+					["serial"] = "Player-1147-094D6502",
 					["received"] = 0.05125199999999999,
 					["targets"] = {
 					},
 					["powertype"] = 3,
 					["fight_component"] = true,
 					["alternatepower"] = 0.05125199999999999,
-					["boss_fight_component"] = true,
-					["resource_type"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Negging",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
 					["aID"] = "1147-094D6502",
 					["passiveover"] = 0.004664,
-					["last_event"] = 0,
-					["grupo"] = true,
-					["serial"] = "Player-1147-094D6502",
 					["tipo"] = 3,
+					["resource_type"] = 4,
+					["boss_fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 30.045095,
+					["resource"] = 98.16424500000001,
 					["pets"] = {
 					},
 					["aID"] = "1147-094D64FF",
 					["totalover"] = 0.006107,
 					["total"] = 0.045095,
 					["spec"] = 261,
+					["serial"] = "Player-1147-094D64FF",
 					["received"] = 0.045095,
 					["targets"] = {
 					},
 					["powertype"] = 3,
-					["boss_fight_component"] = true,
-					["alternatepower"] = 0.045095,
-					["resource_type"] = 4,
 					["fight_component"] = true,
+					["alternatepower"] = 0.045095,
+					["last_event"] = 0,
 					["nome"] = "Rogsmash",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
 					["classe"] = "ROGUE",
 					["passiveover"] = 0.006107,
-					["last_event"] = 0,
-					["grupo"] = true,
-					["serial"] = "Player-1147-094D64FF",
 					["tipo"] = 3,
+					["resource_type"] = 4,
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 36.051797,
+					["resource"] = 112.152737,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
 					["totalover"] = 0.00789,
 					["total"] = 0.051797,
 					["spec"] = 261,
+					["serial"] = "Player-1147-094D6503",
 					["received"] = 0.051797,
 					["targets"] = {
 					},
 					["powertype"] = 3,
 					["fight_component"] = true,
 					["alternatepower"] = 0.051797,
-					["boss_fight_component"] = true,
-					["resource_type"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Ohnoaknife",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
 					["aID"] = "1147-094D6503",
 					["passiveover"] = 0.00789,
-					["last_event"] = 0,
-					["grupo"] = true,
-					["serial"] = "Player-1147-094D6503",
 					["tipo"] = 3,
+					["resource_type"] = 4,
+					["boss_fight_component"] = true,
 				}, -- [5]
 			},
 		}, -- [3]
@@ -40076,16 +40210,10 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1298,
-					["grupo"] = true,
 					["pets"] = {
 					},
-					["buff_uptime"] = 388,
-					["tipo"] = 4,
 					["aID"] = "1147-094D6505",
-					["buff_uptime_targets"] = {
-					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[315496] = {
 								["refreshamt"] = 14,
@@ -40117,28 +40245,33 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
-					["classe"] = "ROGUE",
-					["boss_fight_component"] = true,
+					["buff_uptime"] = 388,
 					["nome"] = "Onehitunder",
+					["boss_fight_component"] = true,
 					["spec"] = 261,
-					["serial"] = "Player-1147-094D6505",
+					["grupo"] = true,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-1147-094D6505",
+					["classe"] = "ROGUE",
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
-					["grupo"] = true,
-					["buff_uptime_targets"] = {
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
+					["buff_uptime"] = 402,
 					["aID"] = "1147-094D64FE",
-					["tipo"] = 4,
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[315496] = {
 								["refreshamt"] = 16,
@@ -40170,28 +40303,34 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
-					["buff_uptime"] = 402,
-					["classe"] = "ROGUE",
-					["boss_fight_component"] = true,
+					["fight_component"] = true,
+					["pets"] = {
+					},
 					["nome"] = "Missedme",
+					["boss_fight_component"] = true,
 					["spec"] = 261,
-					["serial"] = "Player-1147-094D64FE",
+					["grupo"] = true,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-1147-094D64FE",
+					["classe"] = "ROGUE",
 				}, -- [2]
 				{
 					["flag_original"] = 1297,
-					["grupo"] = true,
-					["buff_uptime_targets"] = {
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
+					["buff_uptime"] = 380,
 					["aID"] = "1147-094D6502",
-					["tipo"] = 4,
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[315496] = {
 								["refreshamt"] = 8,
@@ -40223,22 +40362,46 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
-					["buff_uptime"] = 380,
-					["classe"] = "ROGUE",
-					["boss_fight_component"] = true,
+					["fight_component"] = true,
+					["pets"] = {
+					},
 					["nome"] = "Negging",
+					["boss_fight_component"] = true,
 					["spec"] = 261,
-					["serial"] = "Player-1147-094D6502",
+					["grupo"] = true,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-1147-094D6502",
+					["classe"] = "ROGUE",
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
-					["buff_uptime"] = 367,
-					["aID"] = "1147-094D64FF",
-					["interrupt_spells"] = {
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[1833] = {
+								["id"] = 1833,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
 						["tipo"] = 9,
+					},
+					["pets"] = {
+					},
+					["classe"] = "ROGUE",
+					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[1766] = {
 								["id"] = 1766,
@@ -40246,25 +40409,16 @@ _detalhes_database = {
 									[305913] = 1,
 								},
 								["targets"] = {
+									["Grunk"] = 0,
 									["Gor'groth"] = 1,
 								},
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[315584] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 8,
-								["appliedamt"] = 8,
-								["id"] = 315584,
-								["uptime"] = 222,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[315496] = {
 								["refreshamt"] = 11,
 								["activedamt"] = 9,
@@ -40275,41 +40429,76 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[315584] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 315584,
+								["uptime"] = 222,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1784] = {
+								["id"] = 1784,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
 						[305913] = 1,
 					},
-					["fight_component"] = true,
-					["boss_fight_component"] = true,
+					["debuff_uptime"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 					["spec"] = 261,
-					["grupo"] = true,
+					["cc_done_targets"] = {
+						["Hunting Worg"] = 0,
+					},
+					["serial"] = "Player-1147-094D64FF",
+					["buff_uptime"] = 367,
+					["cc_done_spells"] = {
+						["_ActorTable"] = {
+							[1833] = {
+								["id"] = 1833,
+								["targets"] = {
+									["Hunting Worg"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["aID"] = "1147-094D64FF",
+					["fight_component"] = true,
 					["buff_uptime_targets"] = {
 					},
-					["classe"] = "ROGUE",
-					["pets"] = {
-					},
 					["interrupt_targets"] = {
+						["Grunk"] = 0,
 						["Gor'groth"] = 1,
 					},
+					["cc_done"] = 0,
+					["boss_fight_component"] = true,
+					["grupo"] = true,
+					["tipo"] = 4,
+					["nome"] = "Rogsmash",
 					["last_event"] = 0,
 					["interrupt"] = 1.007624,
-					["tipo"] = 4,
-					["serial"] = "Player-1147-094D64FF",
-					["nome"] = "Rogsmash",
 				}, -- [4]
 				{
 					["flag_original"] = 1047,
-					["grupo"] = true,
-					["buff_uptime_targets"] = {
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
+					["buff_uptime"] = 390,
 					["aID"] = "1147-094D6503",
-					["tipo"] = 4,
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[315496] = {
 								["refreshamt"] = 11,
@@ -40341,106 +40530,195 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
-					["buff_uptime"] = 390,
-					["classe"] = "ROGUE",
-					["boss_fight_component"] = true,
+					["fight_component"] = true,
+					["pets"] = {
+					},
 					["nome"] = "Ohnoaknife",
+					["boss_fight_component"] = true,
 					["spec"] = 261,
-					["serial"] = "Player-1147-094D6503",
+					["grupo"] = true,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-1147-094D6503",
+					["classe"] = "ROGUE",
 				}, -- [5]
 				{
 					["flag_original"] = 2584,
-					["tipo"] = 4,
-					["fight_component"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
 					["aID"] = "167664",
+					["fight_component"] = true,
+					["boss_fight_component"] = true,
 					["nome"] = "Shuja Grimaxe",
 					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3135-2236-12718-167664-000030A68C",
+					["tipo"] = 4,
 				}, -- [6]
 				{
 					["flag_original"] = 2584,
-					["tipo"] = 4,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
+					["nome"] = "Warlord Breka Grimaxe",
+					["aID"] = "167663",
+					["last_event"] = 0,
 					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3135-2236-12718-167663-000030A68C",
-					["aID"] = "167663",
-					["nome"] = "Warlord Breka Grimaxe",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3135-2236-12718-156825-0001B0A68C",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "156825",
+					["fight_component"] = true,
 					["nome"] = "Darkmaul Centurion",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "156825",
+					["serial"] = "Creature-0-3135-2236-12718-156825-0001B0A68C",
+					["tipo"] = 4,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "157300",
+					["monster"] = true,
+					["boss_fight_component"] = true,
 					["nome"] = "Tunk",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3135-2236-12718-157300-000030A68C",
 					["last_event"] = 0,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3135-2236-12718-157328-000030A68C",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "157328",
+					["fight_component"] = true,
 					["nome"] = "Darkmaul Channeler",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "157328",
+					["serial"] = "Creature-0-3135-2236-12718-157328-000030A68C",
+					["tipo"] = 4,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
 					["aID"] = "156814",
+					["monster"] = true,
+					["boss_fight_component"] = true,
 					["nome"] = "Gor'groth",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3135-2236-12718-156814-000030A68C",
 					["last_event"] = 0,
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
-					["serial"] = "Creature-0-3135-2236-12718-156501-000030A68C",
-					["fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["monster"] = true,
-					["aID"] = "156501",
+					["fight_component"] = true,
 					["nome"] = "Ravnyr",
+					["monster"] = true,
 					["last_event"] = 0,
+					["aID"] = "156501",
+					["serial"] = "Creature-0-3135-2236-12718-156501-000030A68C",
+					["tipo"] = 4,
 				}, -- [12]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Wug",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-153582-0000309FCE",
+					["aID"] = "153582",
+				}, -- [13]
+				{
+					["flag_original"] = 2600,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["nome"] = "Gutgruk the Tough",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-163036-000030A2CE",
+					["aID"] = "163036",
+				}, -- [14]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Hunting Worg",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-152998-000030A295",
+					["aID"] = "152998",
+				}, -- [15]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Bloodbeak",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-153964-000030A281",
+					["aID"] = "153964",
+				}, -- [16]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["nome"] = "Ogre Berserker",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-163036-0001B0A183",
+					["aID"] = "163036",
+				}, -- [17]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Killclaw the Terrible",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3884-2175-2697-153266-000030A064",
+					["aID"] = "153266",
+				}, -- [18]
 			},
 		}, -- [4]
 		{
@@ -40459,9 +40737,7 @@ _detalhes_database = {
 		},
 		["bossTimers"] = {
 		},
-		["trinketProcs"] = {
-		},
-		["end_time"] = 33825.264,
+		["combat_counter"] = 86,
 		["totals"] = {
 			17092.354157, -- [1]
 			5663.286235, -- [2]
@@ -40475,10 +40751,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 1.007624,
 				["dispell"] = 0,
+				["interrupt"] = 1.007624,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -40490,20 +40766,22 @@ _detalhes_database = {
 		["frags_need_refresh"] = false,
 		["aura_timeline"] = {
 		},
+		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
-			},
 			["damage"] = {
 			},
 		},
+		["end_time"] = 33825.264,
 		["amountCasts"] = {
 			["Ohnoaknife"] = {
 				["Eviscerate"] = 11,
@@ -40577,6 +40855,31 @@ _detalhes_database = {
 		["cleu_events"] = {
 			["n"] = 1,
 		},
+		["totals_grupo"] = {
+			9181.219371000001, -- [1]
+			298.19994, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0.21526,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 1.007624,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["data_inicio"] = "21:57:53",
+		["spells_cast_timeline"] = {
+		},
+		["is_challenge"] = false,
 		["segments_added"] = {
 			{
 				["elapsed"] = 56.01800000000367,
@@ -40627,43 +40930,19 @@ _detalhes_database = {
 				["clock"] = "21:57:53",
 			}, -- [8]
 		},
-		["totals_grupo"] = {
-			9181.219371000001, -- [1]
-			298.19994, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 0.21526,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 1.007624,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["data_inicio"] = "21:57:53",
-		["is_challenge"] = false,
-		["frags"] = {
-		},
 		["data_fim"] = "22:03:49",
 		["overall_enemy_name"] = "-- x -- x --",
-		["cleu_timeline"] = {
+		["frags"] = {
 		},
-		["spells_cast_timeline"] = {
+		["cleu_timeline"] = {
 		},
 		["start_time"] = 33602.434,
 		["TimeData"] = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["combat_counter"] = 86,
+		["trinketProcs"] = {
+		},
 	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
@@ -40748,11 +41027,11 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300, -- [1]
 				499.9999694824219, -- [2]
 			},
-			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -40760,19 +41039,14 @@ _detalhes_database = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["author"] = "Terciob",
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["y"] = 0,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -40784,6 +41058,11 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Terciob",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -40793,8 +41072,8 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 0,
 			["use_spark"] = true,
-			["font_size"] = 10,
 			["x"] = -0.000152587890625,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -40809,8 +41088,10 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["on_death_menu"] = false,
 	["combat_counter"] = 98,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -40825,10 +41106,6 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-3694-0AC20276"] = 70,
-		["Player-1168-09F28960"] = 270,
-		["Player-1147-094D6502"] = 261,
-		["Player-3661-07929475"] = 577,
-		["Player-121-09CB9B7E"] = 254,
+		["Player-11-0A75710F"] = 252,
 	},
 }

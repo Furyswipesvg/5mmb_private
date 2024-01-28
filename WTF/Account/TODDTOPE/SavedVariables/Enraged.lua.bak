@@ -1,0 +1,19 @@
+
+EnragedDB = {
+	["profileKeys"] = {
+		["Neversmiles - Illidan"] = "Default",
+		["Mootalia - Illidan"] = "Default",
+		["Eversmîle - Illidan"] = "Default",
+		["Hepagor - Nazjatar"] = "Default",
+		["Elixyia - Rivendare"] = "Default",
+		["Gâto - Illidan"] = "Default",
+		["Xtharsa - Maiev"] = "Default",
+		["Snöbgoblin - Illidan"] = "Default",
+		["Jannil - Stormreaver"] = "Default",
+		["Stabsya - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

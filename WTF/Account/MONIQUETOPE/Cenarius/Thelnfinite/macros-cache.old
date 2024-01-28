@@ -1,0 +1,71 @@
+VER 3 0100000000000006 "BARR" "INV_MISC_QUESTIONMARK"
+/cast [@player] Power Word: Barrier
+END
+VER 3 0100000000000004 "DISC_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_AOE RightButton; [button:3] DISC_AOE MiddleButton; [button:4] DISC_AOE Button4; [button:5] DISC_AOE Button5; DISC_AOE
+END
+VER 3 0100000000000002 "DISC_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_MULTI RightButton; [button:3] DISC_MULTI MiddleButton; [button:4] DISC_MULTI Button4; [button:5] DISC_MULTI Button5; DISC_MULTI
+END
+VER 3 0100000000000001 "DISC_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_SINGLE RightButton; [button:3] DISC_SINGLE MiddleButton; [button:4] DISC_SINGLE Button4; [button:5] DISC_SINGLE Button5; DISC_SINGLE
+END
+VER 3 0100000000000005 "DISC_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] DISC_TURBO RightButton; [button:3] DISC_TURBO MiddleButton; [button:4] DISC_TURBO Button4; [button:5] DISC_TURBO Button5; DISC_TURBO
+END
+VER 3 010000000000000B "ELFYAUHOLYHEALS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELFYAUHOLYHEALS RightButton; [button:3] ELFYAUHOLYHEALS MiddleButton; [button:4] ELFYAUHOLYHEALS Button4; [button:5] ELFYAUHOLYHEALS Button5; ELFYAUHOLYHEALS
+END
+VER 3 010000000000000D "HOLY_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HOLY_AOE RightButton; [button:3] HOLY_AOE MiddleButton; [button:4] HOLY_AOE Button4; [button:5] HOLY_AOE Button5; HOLY_AOE
+END
+VER 3 010000000000000A "HOLY_AOH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HOLY_AOH RightButton; [button:3] HOLY_AOH MiddleButton; [button:4] HOLY_AOH Button4; [button:5] HOLY_AOH Button5; HOLY_AOH
+END
+VER 3 0100000000000008 "HOLY_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HOLY_MULTI RightButton; [button:3] HOLY_MULTI MiddleButton; [button:4] HOLY_MULTI Button4; [button:5] HOLY_MULTI Button5; HOLY_MULTI
+END
+VER 3 0100000000000007 "HOLY_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HOLY_SINGLE RightButton; [button:3] HOLY_SINGLE MiddleButton; [button:4] HOLY_SINGLE Button4; [button:5] HOLY_SINGLE Button5; HOLY_SINGLE
+END
+VER 3 0100000000000009 "HOLY_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] HOLY_TURBO RightButton; [button:3] HOLY_TURBO MiddleButton; [button:4] HOLY_TURBO Button4; [button:5] HOLY_TURBO Button5; HOLY_TURBO
+END
+VER 3 010000000000000C "MYARCANE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] MYARCANE RightButton; [button:3] MYARCANE MiddleButton; [button:4] MYARCANE Button4; [button:5] MYARCANE Button5; MYARCANE
+END
+VER 3 0100000000000003 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+END
+VER 3 0100000000000011 "SHADOW_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] SHADOW_AOE RightButton; [button:3] SHADOW_AOE MiddleButton; [button:4] SHADOW_AOE Button4; [button:5] SHADOW_AOE Button5; SHADOW_AOE
+END
+VER 3 0100000000000010 "SHADOW_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] SHADOW_MULTI RightButton; [button:3] SHADOW_MULTI MiddleButton; [button:4] SHADOW_MULTI Button4; [button:5] SHADOW_MULTI Button5; SHADOW_MULTI
+END
+VER 3 0100000000000012 "SHADOW_SETU" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] SHADOW_SETU RightButton; [button:3] SHADOW_SETU MiddleButton; [button:4] SHADOW_SETU Button4; [button:5] SHADOW_SETU Button5; SHADOW_SETU
+END
+VER 3 010000000000000F "SHADOW_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] SHADOW_SINGLE RightButton; [button:3] SHADOW_SINGLE MiddleButton; [button:4] SHADOW_SINGLE Button4; [button:5] SHADOW_SINGLE Button5; SHADOW_SINGLE
+END
+VER 3 010000000000000E "SHADOW_TURBO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] SHADOW_TURBO RightButton; [button:3] SHADOW_TURBO MiddleButton; [button:4] SHADOW_TURBO Button4; [button:5] SHADOW_TURBO Button5; SHADOW_TURBO
+END

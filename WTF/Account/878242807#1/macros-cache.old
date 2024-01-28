@@ -136,7 +136,9 @@ END
 VER 3 0000000000000A7A "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
-VER 3 0000000000000A56 "ZygorAction1" "134400"
+VER 3 0000000000000A56 "ZygorAction1" "134327"
+#showtooltip Shift click to destroy:|n|cff9d9d9d1 Emotional Residue|r worth |cfff8f8ff34s|r |cffffaa9949c|r|nRight click to skip this item|n
+/run ZGV.Inventory:HandleTrashMacro()
 END
 VER 3 0000000000000A57 "ZygorAction2" "134400"
 END

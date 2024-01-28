@@ -1,0 +1,12 @@
+VER 3 0100000000000001 "BALANCE_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BALANCE_AOE RightButton; [button:3] BALANCE_AOE MiddleButton; [button:4] BALANCE_AOE Button4; [button:5] BALANCE_AOE Button5; BALANCE_AOE
+END
+VER 3 0100000000000002 "BALANCE_MULTI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BALANCE_MULTI RightButton; [button:3] BALANCE_MULTI MiddleButton; [button:4] BALANCE_MULTI Button4; [button:5] BALANCE_MULTI Button5; BALANCE_MULTI
+END
+VER 3 0100000000000003 "GUARDIAN_SHEAL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] GUARDIAN_SHEAL RightButton; [button:3] GUARDIAN_SHEAL MiddleButton; [button:4] GUARDIAN_SHEAL Button4; [button:5] GUARDIAN_SHEAL Button5; GUARDIAN_SHEAL
+END

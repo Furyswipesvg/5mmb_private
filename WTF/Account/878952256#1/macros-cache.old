@@ -165,6 +165,6 @@ VER 3 0000000000000A03 "ZygorAction1" "134327"
 /run ZGV:MRM()
 END
 VER 3 0000000000000A04 "ZygorAction2" "134327"
-#showtooltip Shift click to destroy:|n|cff9d9d9d1 Rusty Gear|r worth |cfff8f8ff37s|r |cffffaa9921c|r|nRight click to skip this item|n
+#showtooltip Shift click to destroy:|n|cff9d9d9d2 Rusty Gear|r worth |cfff8f8ff74s|r |cffffaa9942c|r|nRight click to skip this item|n
 /run ZGV.Inventory:HandleTrashMacro()
 END

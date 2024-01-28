@@ -1,0 +1,63 @@
+
+PetBattleTeamsDB = {
+	["profileKeys"] = {
+		["Palia - Nathrezim"] = "Default",
+		["Ee - Tol Barad"] = "Default",
+		["Severe - Nathrezim"] = "Default",
+		["Hoverboard - Illidan"] = "Default",
+		["Realmhoperyo - Tol Barad"] = "Default",
+		["Enhancethiss - Nathrezim"] = "Default",
+		["Statue - Nathrezim"] = "Default",
+		["Gametimetoke - Illidan"] = "Default",
+		["Whirlstab - Norgannon"] = "Default",
+		["Ux - Cenarius"] = "Default",
+	},
+	["namespaces"] = {
+		["Tooltip"] = {
+		},
+		["TeamManager"] = {
+			["global"] = {
+				["teams"] = {
+					{
+						{
+							["petID"] = "BattlePet-0-000003268CFE",
+							["abilities"] = {
+								504, -- [1]
+								256, -- [2]
+								517, -- [3]
+							},
+							["speciesID"] = 630,
+						}, -- [1]
+						{
+							["petID"] = "BattlePet-0-000003268D07",
+							["abilities"] = {
+								115, -- [1]
+								779, -- [2]
+								282, -- [3]
+							},
+							["speciesID"] = 844,
+						}, -- [2]
+						{
+							["petID"] = "BattlePet-0-000006BB2831",
+							["abilities"] = {
+								1335, -- [1]
+								1345, -- [2]
+								1337, -- [3]
+							},
+							["speciesID"] = 1426,
+						}, -- [3]
+						["enabled"] = {
+							true, -- [1]
+							true, -- [2]
+							true, -- [3]
+						},
+					}, -- [1]
+				},
+				["selected"] = 1,
+			},
+		},
+		["GUI"] = {
+		},
+	},
+}
+PetBattleTeamsSettings = nil

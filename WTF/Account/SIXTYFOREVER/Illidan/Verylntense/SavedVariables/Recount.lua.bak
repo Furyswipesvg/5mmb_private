@@ -1,0 +1,7136 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Im-Nathrezim"] = {
+			["GUID"] = "Player-1138-0629E98D",
+			["LastEventHealth"] = {
+				13572, -- [1]
+				13600, -- [2]
+				13571, -- [3]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["Overhealing"] = {
+					338, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+				["Healing"] = {
+					28, -- [1]
+				},
+				["DamageTaken"] = {
+					57, -- [1]
+				},
+				["HealingTaken"] = {
+					28, -- [1]
+				},
+			},
+			["enClass"] = "DRUID",
+			["unit"] = true,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["type"] = "Grouped",
+			["LastAbility"] = 3234.987,
+			["LastHealTime"] = 3065.376,
+			["UnitLockout"] = 3065.209,
+			["Owner"] = false,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeHealing"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Impassive Visage"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["Heals"] = {
+						["Impassive Visage"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["HealingTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 0,
+					["Overhealing"] = 0,
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["OverHeals"] = {
+						["Impassive Visage"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 338,
+									["min"] = 338,
+									["count"] = 1,
+									["amount"] = 338,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 338,
+						},
+					},
+					["TimeSpent"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 57,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["ElementTaken"] = {
+						["Fire"] = 57,
+					},
+					["Heals"] = {
+						["Impassive Visage"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+					},
+					["Healing"] = 28,
+					["HealingTaken"] = 28,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["HealedWho"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+					},
+					["WhoHealed"] = {
+						["Im-Nathrezim"] = {
+							["Details"] = {
+								["Impassive Visage"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["Overhealing"] = 338,
+				},
+			},
+			["NextEventNum"] = 4,
+			["LastEventTimes"] = {
+				3065.376, -- [1]
+				3065.376, -- [2]
+				3065.609, -- [3]
+			},
+			["LastEvents"] = {
+				"No One Boom Im-Nathrezim Hit -28 (Fire)", -- [1]
+				"Im-Nathrezim Impassive Visage Im-Nathrezim Hit +366 (338 Overheal)", -- [2]
+				"No One Boom Im-Nathrezim Hit -29 (Fire)", -- [3]
+			},
+			["Name"] = "Im-Nathrezim",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["LastDamageTaken"] = 29,
+			["TimeLast"] = {
+				["TimeHeal"] = 3065.209,
+				["Overhealing"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["Healing"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+			},
+			["LastEventHealthMax"] = {
+				13600, -- [1]
+				13600, -- [2]
+				13600, -- [3]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Thislslt"] = {
+			["GUID"] = "Player-57-0BE22DB3",
+			["LastEventHealth"] = {
+				15100, -- [1]
+				15100, -- [2]
+				15100, -- [3]
+				15100, -- [4]
+				15100, -- [5]
+				15100, -- [6]
+				15100, -- [7]
+				15100, -- [8]
+				15100, -- [9]
+				15100, -- [10]
+				15100, -- [11]
+				15100, -- [12]
+				15100, -- [13]
+				15100, -- [14]
+				15100, -- [15]
+				15100, -- [16]
+				15100, -- [17]
+				15100, -- [18]
+				15100, -- [19]
+				15100, -- [20]
+				15100, -- [21]
+				15100, -- [22]
+				15100, -- [23]
+				15100, -- [24]
+				15100, -- [25]
+				15100, -- [26]
+				15100, -- [27]
+				15100, -- [28]
+				15100, -- [29]
+				15100, -- [30]
+				15100, -- [31]
+				15100, -- [32]
+				15100, -- [33]
+				15100, -- [34]
+				15100, -- [35]
+				15100, -- [36]
+				15100, -- [37]
+				15100, -- [38]
+				15100, -- [39]
+				15100, -- [40]
+				15100, -- [41]
+				15100, -- [42]
+				15100, -- [43]
+				15100, -- [44]
+				15100, -- [45]
+				15100, -- [46]
+				15100, -- [47]
+				15100, -- [48]
+				15100, -- [49]
+				15100, -- [50]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					341, -- [1]
+				},
+				["TimeHeal"] = {
+					14.36000000000001, -- [1]
+				},
+				["HealingTaken"] = {
+					341, -- [1]
+				},
+				["ActiveTime"] = {
+					15.96, -- [1]
+				},
+				["DamageTaken"] = {
+					341, -- [1]
+				},
+				["TimeDamage"] = {
+					1.6, -- [1]
+				},
+				["DOT_Time"] = {
+					3, -- [1]
+				},
+				["Damage"] = {
+					47716, -- [1]
+				},
+			},
+			["enClass"] = "DEMONHUNTER",
+			["unit"] = true,
+			["LastAbility"] = 3234.987,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastHealTime"] = 3065.609,
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["UnitLockout"] = 3046.202,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 14.36000000000001,
+								},
+							},
+							["amount"] = 14.36000000000001,
+						},
+					},
+					["DOTs"] = {
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Hulking Berserker"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 14.36000000000001,
+								},
+							},
+							["amount"] = 14.36000000000001,
+						},
+					},
+					["DamageTaken"] = 341,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 29,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 18,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 31,
+									["min"] = 30,
+									["count"] = 2,
+									["amount"] = 61,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 61,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 34,
+									["min"] = 2,
+									["count"] = 18,
+									["amount"] = 244,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 244,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 18,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 20,
+						},
+					},
+					["ActiveTime"] = 15.96,
+					["ElementTaken"] = {
+						["Fire"] = 83,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 47716,
+					["HealedWho"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 341,
+								},
+							},
+							["amount"] = 341,
+						},
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 41,
+									["amount"] = 341,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 341,
+						},
+					},
+					["Absorbs"] = 341,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 18,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Fel Shock"] = {
+									["count"] = 2,
+								},
+								["Fel Shock (DoT)"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 58,
+								},
+								["Slam"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["WhoHealed"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 341,
+								},
+							},
+							["amount"] = 341,
+						},
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 45676,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 2040,
+								},
+							},
+							["amount"] = 47716,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22628,
+									["min"] = 22628,
+									["count"] = 1,
+									["amount"] = 22628,
+								},
+								["Hit"] = {
+									["max"] = 23048,
+									["min"] = 23048,
+									["count"] = 1,
+									["amount"] = 23048,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 45676,
+						},
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2040,
+									["min"] = 2040,
+									["count"] = 1,
+									["amount"] = 2040,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2040,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 45676,
+						["Fire"] = 2040,
+					},
+					["HealingTaken"] = 341,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 1.6,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 83,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["TimeHeal"] = 14.36000000000001,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Thislslt"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 41,
+									["amount"] = 341,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 341,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["TimeHealing"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 10.64,
+								},
+							},
+							["amount"] = 10.64,
+						},
+					},
+					["DOTs"] = {
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Hulking Berserker"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 10.64,
+								},
+							},
+							["amount"] = 10.64,
+						},
+					},
+					["DamageTaken"] = 276,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 29,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 14,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 34,
+									["min"] = 2,
+									["count"] = 18,
+									["amount"] = 244,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 244,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 14,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 16,
+						},
+					},
+					["ActiveTime"] = 12.24,
+					["ElementTaken"] = {
+						["Fire"] = 18,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 47716,
+					["HealedWho"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 276,
+								},
+							},
+							["amount"] = 276,
+						},
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 35,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 276,
+						},
+					},
+					["Absorbs"] = 276,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 18,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoDamaged"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Fel Shock"] = {
+									["count"] = 2,
+								},
+								["Fel Shock (DoT)"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 58,
+								},
+								["Slam"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["WhoHealed"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 276,
+								},
+							},
+							["amount"] = 276,
+						},
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 45676,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 2040,
+								},
+							},
+							["amount"] = 47716,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22628,
+									["min"] = 22628,
+									["count"] = 1,
+									["amount"] = 22628,
+								},
+								["Hit"] = {
+									["max"] = 23048,
+									["min"] = 23048,
+									["count"] = 1,
+									["amount"] = 23048,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 45676,
+						},
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2040,
+									["min"] = 2040,
+									["count"] = 1,
+									["amount"] = 2040,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2040,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 45676,
+						["Fire"] = 2040,
+					},
+					["HealingTaken"] = 276,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 1.6,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 18,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["TimeHeal"] = 10.64,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Thislslt"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 35,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 276,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["Ressed"] = 0,
+					["DOTs"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["Dispelled"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Fel Shock (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Thislslt"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ActiveTime"] = 0,
+					["HealedWho"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["WhoHealed"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["PartialResist"] = {
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["TimeSpent"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["Overhealing"] = 0,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["RageGained"] = {
+					},
+					["Healing"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["PartialAbsorb"] = {
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeHealing"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 10.64,
+								},
+							},
+							["amount"] = 10.64,
+						},
+					},
+					["DOTs"] = {
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Hulking Berserker"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 10.64,
+								},
+							},
+							["amount"] = 10.64,
+						},
+					},
+					["DamageTaken"] = 276,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 29,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 14,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 34,
+									["min"] = 2,
+									["count"] = 18,
+									["amount"] = 244,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 244,
+						},
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2,
+						},
+						["Slam"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["Fel Shock (DoT)"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 14,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 16,
+						},
+					},
+					["ActiveTime"] = 12.24,
+					["ElementTaken"] = {
+						["Fire"] = 18,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 47716,
+					["HealedWho"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 276,
+								},
+							},
+							["amount"] = 276,
+						},
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 35,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 276,
+						},
+					},
+					["Absorbs"] = 276,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 18,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["WhoDamaged"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Fel Shock"] = {
+									["count"] = 2,
+								},
+								["Fel Shock (DoT)"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 58,
+								},
+								["Slam"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["WhoHealed"] = {
+						["Thislslt"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 276,
+								},
+							},
+							["amount"] = 276,
+						},
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 45676,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 2040,
+								},
+							},
+							["amount"] = 47716,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22628,
+									["min"] = 22628,
+									["count"] = 1,
+									["amount"] = 22628,
+								},
+								["Hit"] = {
+									["max"] = 23048,
+									["min"] = 23048,
+									["count"] = 1,
+									["amount"] = 23048,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 45676,
+						},
+						["Volcanic Pressure (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2040,
+									["min"] = 2040,
+									["count"] = 1,
+									["amount"] = 2040,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2040,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 45676,
+						["Fire"] = 2040,
+					},
+					["HealingTaken"] = 276,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 1.6,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.57,
+								},
+								["Volcanic Pressure (DoT)"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 1.6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 18,
+						["Melee"] = 244,
+						["Physical"] = 14,
+					},
+					["TimeHeal"] = 10.64,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Thislslt"] = {
+									["max"] = 34,
+									["min"] = 1,
+									["count"] = 35,
+									["amount"] = 276,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 276,
+						},
+					},
+				},
+			},
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				3057.186, -- [1]
+				3057.709, -- [2]
+				3058.176, -- [3]
+				3058.676, -- [4]
+				3059.176, -- [5]
+				3065.376, -- [6]
+				3065.609, -- [7]
+				3048.969, -- [8]
+				3049.535, -- [9]
+				3049.735, -- [10]
+				3049.735, -- [11]
+				3049.769, -- [12]
+				3050.202, -- [13]
+				3050.202, -- [14]
+				3050.469, -- [15]
+				3050.469, -- [16]
+				3050.702, -- [17]
+				3051.086, -- [18]
+				3051.183, -- [19]
+				3051.216, -- [20]
+				3051.216, -- [21]
+				3051.283, -- [22]
+				3051.693, -- [23]
+				3051.693, -- [24]
+				3051.995, -- [25]
+				3052.195, -- [26]
+				3052.495, -- [27]
+				3052.561, -- [28]
+				3052.628, -- [29]
+				3052.674, -- [30]
+				3052.742, -- [31]
+				3052.776, -- [32]
+				3053.177, -- [33]
+				3053.177, -- [34]
+				3053.682, -- [35]
+				3053.883, -- [36]
+				3053.982, -- [37]
+				3054.116, -- [38]
+				3054.182, -- [39]
+				3054.216, -- [40]
+				3054.283, -- [41]
+				3054.716, -- [42]
+				3054.716, -- [43]
+				3055.182, -- [44]
+				3055.382, -- [45]
+				3055.416, -- [46]
+				3055.482, -- [47]
+				3055.72, -- [48]
+				3056.194, -- [49]
+				3056.695, -- [50]
+			},
+			["NextEventNum"] = 8,
+			["LastDamageTime"] = 3055.482,
+			["LastEvents"] = {
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -2 (2 Absorbed) (Fire)", -- [1]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [2]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [3]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [4]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [5]
+				"No One Boom Thislslt Absorb -30 (30 Absorbed) (Fire)", -- [6]
+				"No One Boom Thislslt Absorb -31 (31 Absorbed) (Fire)", -- [7]
+				"Gorebound Fanatic Melee Thislslt Absorb -19 (19 Absorbed) (1)", -- [8]
+				"Hulking Berserker Melee Thislslt Miss (1)", -- [9]
+				"Contracted Engineer Melee Thislslt Miss (1)", -- [10]
+				"Gorebound Fanatic Melee Thislslt Miss (1)", -- [11]
+				"Siegeworks Technician Melee Thislslt Absorb -2 (2 Absorbed) (1)", -- [12]
+				"Siegeworks Technician Melee Thislslt Miss (1)", -- [13]
+				"Gorebound Cauterizer Fel Shock Thislslt Absorb -2 (2 Absorbed) (Fire)", -- [14]
+				"Gorebound Fanatic Melee Thislslt Absorb -20 (20 Absorbed) (1)", -- [15]
+				"Contracted Engineer Melee Thislslt Absorb -29 (29 Absorbed) (1)", -- [16]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [17]
+				"Hulking Berserker Melee Thislslt Miss (1)", -- [18]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [19]
+				"Contracted Engineer Melee Thislslt Absorb -7 (7 Absorbed) (1)", -- [20]
+				"Gorebound Fanatic Melee Thislslt Absorb -10 (10 Absorbed) (1)", -- [21]
+				"Siegeworks Technician Melee Thislslt Absorb -2 (2 Absorbed) (1)", -- [22]
+				"Siegeworks Technician Melee Thislslt Absorb -3 (3 Absorbed) (1)", -- [23]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [24]
+				"Contracted Engineer Melee Thislslt Absorb -14 (14 Absorbed) (1)", -- [25]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [26]
+				"Gorebound Fanatic Melee Thislslt Absorb -19 (19 Absorbed) (1)", -- [27]
+				"Hulking Berserker Melee Thislslt Miss (1)", -- [28]
+				"Hulking Berserker Slam Thislslt Absorb -9 (9 Absorbed) (Physical)", -- [29]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [30]
+				"Gorebound Fanatic Melee Thislslt Absorb -13 (13 Absorbed) (1)", -- [31]
+				"Siegeworks Technician Melee Thislslt Absorb -3 (3 Absorbed) (1)", -- [32]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [33]
+				"Siegeworks Technician Melee Thislslt Absorb -4 (4 Absorbed) (1)", -- [34]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [35]
+				"Felfire Brazier Fel Blast Thislslt Absorb -5 (5 Absorbed) (Physical)", -- [36]
+				"Gorebound Fanatic Melee Thislslt Absorb -25 (25 Absorbed) (1)", -- [37]
+				"Hulking Berserker Melee Thislslt Absorb -34 (34 Absorbed) (1)", -- [38]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -2 (2 Absorbed) (Fire)", -- [39]
+				"Gorebound Fanatic Melee Thislslt Absorb -13 (13 Absorbed) (1)", -- [40]
+				"Siegeworks Technician Melee Thislslt Absorb -3 (3 Absorbed) (1)", -- [41]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [42]
+				"Siegeworks Technician Melee Thislslt Miss (1)", -- [43]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [44]
+				"Thislslt Melee Hulking Berserker Hit -23048 (Physical)", -- [45]
+				"Thislslt Volcanic Pressure (DoT) Hulking Berserker Tick -2040 (Fire)", -- [46]
+				"Thislslt Melee Hulking Berserker Crit -22628 (Physical)", -- [47]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [48]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [49]
+				"Gorebound Cauterizer Fel Shock (DoT) Thislslt Absorb -1 (1 Absorbed) (Fire)", -- [50]
+			},
+			["Name"] = "Thislslt",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Absorbs"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+				["TimeDamage"] = 3055.216,
+				["ActiveTime"] = 3065.209,
+				["DOT_Time"] = 3055.216,
+				["Damage"] = 3055.216,
+			},
+			["LastDamageTaken"] = 31,
+			["LastEventHealthMax"] = {
+				15100, -- [1]
+				15100, -- [2]
+				15100, -- [3]
+				15100, -- [4]
+				15100, -- [5]
+				15100, -- [6]
+				15100, -- [7]
+				15100, -- [8]
+				15100, -- [9]
+				15100, -- [10]
+				15100, -- [11]
+				15100, -- [12]
+				15100, -- [13]
+				15100, -- [14]
+				15100, -- [15]
+				15100, -- [16]
+				15100, -- [17]
+				15100, -- [18]
+				15100, -- [19]
+				15100, -- [20]
+				15100, -- [21]
+				15100, -- [22]
+				15100, -- [23]
+				15100, -- [24]
+				15100, -- [25]
+				15100, -- [26]
+				15100, -- [27]
+				15100, -- [28]
+				15100, -- [29]
+				15100, -- [30]
+				15100, -- [31]
+				15100, -- [32]
+				15100, -- [33]
+				15100, -- [34]
+				15100, -- [35]
+				15100, -- [36]
+				15100, -- [37]
+				15100, -- [38]
+				15100, -- [39]
+				15100, -- [40]
+				15100, -- [41]
+				15100, -- [42]
+				15100, -- [43]
+				15100, -- [44]
+				15100, -- [45]
+				15100, -- [46]
+				15100, -- [47]
+				15100, -- [48]
+				15100, -- [49]
+				15100, -- [50]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Gâto"] = {
+			["GUID"] = "Player-57-079B9426",
+			["LastEventHealth"] = {
+				13360, -- [1]
+				13360, -- [2]
+				13360, -- [3]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					66, -- [1]
+				},
+				["TimeHeal"] = {
+					1.73, -- [1]
+				},
+				["ActiveTime"] = {
+					1.73, -- [1]
+				},
+				["HealingTaken"] = {
+					66, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					66, -- [1]
+				},
+				["Damage"] = {
+					0, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = true,
+			["LastAbility"] = 3234.987,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastDamageTaken"] = 34,
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["UnitLockout"] = 3053.209,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["HealedWho"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 34,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+					["ActiveTime"] = 1.73,
+					["ElementTaken"] = {
+						["Fire"] = 66,
+					},
+					["Damage"] = 0,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 34,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+					["Healing"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 66,
+					},
+					["TimeSpent"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["HealingTaken"] = 66,
+					["Absorbs"] = 66,
+					["TimeHeal"] = 1.73,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["DamageTaken"] = 66,
+					["WhoHealed"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Gâto"] = {
+									["max"] = 34,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+				["CurrentFightData"] = {
+					["Ressed"] = 0,
+					["DOTs"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["Dispelled"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Gâto"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ActiveTime"] = 0,
+					["HealedWho"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["WhoHealed"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["TimeSpent"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["Overhealing"] = 0,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["RageGained"] = {
+					},
+					["Healing"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"OKtobeWhite <Gâto>", -- [1]
+			},
+			["NextEventNum"] = 4,
+			["LastEventTimes"] = {
+				3053.849, -- [1]
+				3065.376, -- [2]
+				3065.609, -- [3]
+			},
+			["LastEvents"] = {
+				"Gorebound Cauterizer Fel Shock Gâto Miss (Fire)", -- [1]
+				"No One Boom Gâto Absorb -32 (32 Absorbed) (Fire)", -- [2]
+				"No One Boom Gâto Absorb -34 (34 Absorbed) (Fire)", -- [3]
+			},
+			["Name"] = "Gâto",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["LastHealTime"] = 3065.609,
+			["TimeLast"] = {
+				["Absorbs"] = 3065.209,
+				["TimeHeal"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["Healing"] = 3053.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Damage"] = 3053.209,
+			},
+			["LastEventHealthMax"] = {
+				13360, -- [1]
+				13360, -- [2]
+				13360, -- [3]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Cheat-Cenarius"] = {
+			["GUID"] = "Player-1168-08FAAD20",
+			["LastEventHealth"] = {
+				26380, -- [1]
+				26380, -- [2]
+				26380, -- [3]
+				26380, -- [4]
+				26380, -- [5]
+				34294, -- [6]
+				26380, -- [7]
+				26380, -- [8]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					62, -- [1]
+				},
+				["TimeHeal"] = {
+					1.73, -- [1]
+				},
+				["ActiveTime"] = {
+					3.23, -- [1]
+				},
+				["TimeDamage"] = {
+					1.5, -- [1]
+				},
+				["HealingTaken"] = {
+					62, -- [1]
+				},
+				["DamageTaken"] = {
+					62, -- [1]
+				},
+				["Damage"] = {
+					184303, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = true,
+			["LastAbility"] = 3234.987,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastDamageTaken"] = 31,
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["UnitLockout"] = 3054.216,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["HealedWho"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 2,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 62,
+						},
+					},
+					["ActiveTime"] = 3.23,
+					["ElementTaken"] = {
+						["Fire"] = 62,
+					},
+					["Damage"] = 184303,
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 62,
+					},
+					["TimeHeal"] = 1.73,
+					["ElementDone"] = {
+						["Shadow"] = 184303,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Absorbs"] = 62,
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 37686,
+								},
+							},
+							["amount"] = 37686,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 73918,
+								},
+							},
+							["amount"] = 73918,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 36714,
+								},
+							},
+							["amount"] = 36714,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 35985,
+								},
+							},
+							["amount"] = 35985,
+						},
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 2,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 62,
+						},
+					},
+					["Attacks"] = {
+						["Blood Boil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37686,
+									["min"] = 35985,
+									["count"] = 5,
+									["amount"] = 184303,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 184303,
+						},
+					},
+					["HealingTaken"] = 62,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["WhoHealed"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["DamageTaken"] = 62,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Cheat-Cenarius"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 2,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 62,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Attacks"] = {
+						["Blood Boil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37686,
+									["min"] = 35985,
+									["count"] = 5,
+									["amount"] = 184303,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 184303,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 37686,
+								},
+							},
+							["amount"] = 37686,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 73918,
+								},
+							},
+							["amount"] = 73918,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 36714,
+								},
+							},
+							["amount"] = 36714,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 35985,
+								},
+							},
+							["amount"] = 35985,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 184303,
+					},
+					["Damage"] = 184303,
+				},
+				["CurrentFightData"] = {
+					["Ressed"] = 0,
+					["DOTs"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["Dispelled"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Cheat-Cenarius"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ActiveTime"] = 0,
+					["HealedWho"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["WhoHealed"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["TimeSpent"] = {
+						["Cheat-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["Overhealing"] = 0,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["RageGained"] = {
+					},
+					["Healing"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Attacks"] = {
+						["Blood Boil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37686,
+									["min"] = 35985,
+									["count"] = 5,
+									["amount"] = 184303,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 184303,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 37686,
+								},
+							},
+							["amount"] = 37686,
+						},
+						["Siegeworks Technician"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 73918,
+								},
+							},
+							["amount"] = 73918,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 36714,
+								},
+							},
+							["amount"] = 36714,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 35985,
+								},
+							},
+							["amount"] = 35985,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Blood Boil"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 184303,
+					},
+					["Damage"] = 184303,
+				},
+			},
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				3054.749, -- [1]
+				3054.749, -- [2]
+				3054.749, -- [3]
+				3054.749, -- [4]
+				3054.749, -- [5]
+				3055.482, -- [6]
+				3065.376, -- [7]
+				3065.609, -- [8]
+			},
+			["NextEventNum"] = 9,
+			["LastDamageTime"] = 3054.749,
+			["LastEvents"] = {
+				"Cheat-Cenarius Blood Boil Hulking Berserker Hit -37686 (Shadow)", -- [1]
+				"Cheat-Cenarius Blood Boil Contracted Engineer Hit -35985 (Shadow)", -- [2]
+				"Cheat-Cenarius Blood Boil Siegeworks Technician Hit -36276 (Shadow)", -- [3]
+				"Cheat-Cenarius Blood Boil Siegeworks Technician Hit -37642 (Shadow)", -- [4]
+				"Cheat-Cenarius Blood Boil Gorebound Fanatic Hit -36714 (Shadow)", -- [5]
+				"Gorebound Fanatic Melee Cheat-Cenarius Miss (1)", -- [6]
+				"No One Boom Cheat-Cenarius Absorb -31 (31 Absorbed) (Fire)", -- [7]
+				"No One Boom Cheat-Cenarius Absorb -31 (31 Absorbed) (Fire)", -- [8]
+			},
+			["Name"] = "Cheat-Cenarius",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["LastHealTime"] = 3065.609,
+			["TimeLast"] = {
+				["Absorbs"] = 3065.209,
+				["TimeHeal"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["TimeDamage"] = 3054.216,
+				["HealingTaken"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Damage"] = 3054.216,
+			},
+			["LastEventHealthMax"] = {
+				26380, -- [1]
+				26380, -- [2]
+				26380, -- [3]
+				26380, -- [4]
+				26380, -- [5]
+				34294, -- [6]
+				26380, -- [7]
+				26380, -- [8]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["OKtobeWhite <Gâto>"] = {
+			["GUID"] = "Pet-0-3020-1448-20777-165189-0103D34F90",
+			["LastEventHealth"] = {
+				9351, -- [1]
+				9351, -- [2]
+				9351, -- [3]
+				9351, -- [4]
+				9350, -- [5]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+			},
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					20, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+				["TimeDamage"] = {
+					1.5, -- [1]
+				},
+				["DamageTaken"] = {
+					4, -- [1]
+				},
+				["Damage"] = {
+					66123, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "OKtobeWhite",
+			["level"] = 1,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastAbility"] = 3234.987,
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["ownerName"] = "Gâto",
+			["LastDamageTaken"] = 2,
+			["UnitLockout"] = 3053.209,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 4,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["ElementTaken"] = {
+						["Physical"] = 1,
+						["Fire"] = 3,
+					},
+					["Damage"] = 66123,
+					["EnergyGained"] = {
+						["Aspect of the Wild"] = {
+							["Details"] = {
+								["Gâto"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["TimeDamaging"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 14290,
+						["Physical"] = 51833,
+					},
+					["DamagedWho"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14290,
+								},
+								["Bite"] = {
+									["count"] = 51833,
+								},
+							},
+							["amount"] = 66123,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Aspect of the Wild"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14290,
+									["min"] = 14290,
+									["count"] = 1,
+									["amount"] = 14290,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14290,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 51833,
+									["min"] = 51833,
+									["count"] = 1,
+									["amount"] = 51833,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 51833,
+						},
+					},
+					["EnergyGain"] = 20,
+				},
+				["LastFightData"] = {
+					["DamagedWho"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14290,
+								},
+								["Bite"] = {
+									["count"] = 51833,
+								},
+							},
+							["amount"] = 66123,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeSpent"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 1,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 14290,
+						["Physical"] = 51833,
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["TimeDamaging"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 1,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14290,
+									["min"] = 14290,
+									["count"] = 1,
+									["amount"] = 14290,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14290,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 51833,
+									["min"] = 51833,
+									["count"] = 1,
+									["amount"] = 51833,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 51833,
+						},
+					},
+					["Damage"] = 66123,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Gâto"] = {
+							["Details"] = {
+								["Aspect of the Wild"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+						["Aspect of the Wild"] = {
+							["Details"] = {
+								["Gâto"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DamagedWho"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14290,
+								},
+								["Bite"] = {
+									["count"] = 51833,
+								},
+							},
+							["amount"] = 66123,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeSpent"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Felfire Brazier"] = {
+							["Details"] = {
+								["Fel Blast"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 1,
+					["PartialResist"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 14290,
+						["Physical"] = 51833,
+					},
+					["PartialAbsorb"] = {
+						["Fel Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["TimeDamaging"] = {
+						["Gorebound Cauterizer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 1,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14290,
+									["min"] = 14290,
+									["count"] = 1,
+									["amount"] = 14290,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14290,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 51833,
+									["min"] = 51833,
+									["count"] = 1,
+									["amount"] = 51833,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 51833,
+						},
+					},
+					["Damage"] = 66123,
+				},
+			},
+			["NextEventNum"] = 6,
+			["LastDamageTime"] = 3054.249,
+			["LastEvents"] = {
+				"Felfire Brazier Fel Blast OKtobeWhite <Gâto> Hit -1 (Physical)", -- [1]
+				"OKtobeWhite <Gâto> Melee Gorebound Cauterizer Hit -14290 (Physical)", -- [2]
+				"OKtobeWhite <Gâto> Bite Gorebound Cauterizer Hit -51833 (Physical)", -- [3]
+				"No One Boom OKtobeWhite <Gâto> Hit -1 (Fire)", -- [4]
+				"No One Boom OKtobeWhite <Gâto> Hit -2 (Fire)", -- [5]
+			},
+			["Name"] = "OKtobeWhite",
+			["LastEventTimes"] = {
+				3053.883, -- [1]
+				3054.249, -- [2]
+				3054.249, -- [3]
+				3065.376, -- [4]
+				3065.609, -- [5]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+			},
+			["TimeLast"] = {
+				["EnergyGain"] = 3059.209,
+				["ActiveTime"] = 3054.216,
+				["TimeDamage"] = 3054.216,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Damage"] = 3054.216,
+			},
+			["LastEventHealthMax"] = {
+				9352, -- [1]
+				9352, -- [2]
+				9352, -- [3]
+				9352, -- [4]
+				9352, -- [5]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Verylntense"] = {
+			["GUID"] = "Player-57-0BE264A8",
+			["LastEventHealth"] = {
+				12900, -- [1]
+				12900, -- [2]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					33, -- [1]
+				},
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+				["DamageTaken"] = {
+					66, -- [1]
+				},
+				["HealingTaken"] = {
+					33, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Verylntense",
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["type"] = "Self",
+			["LastAbility"] = 3234.987,
+			["LastHealTime"] = 3065.609,
+			["UnitLockout"] = 3065.209,
+			["Owner"] = false,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeHealing"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Absorbs"] = 0,
+					["HealingTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 0,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Verylntense"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 66,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["ElementTaken"] = {
+						["Fire"] = 66,
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["WhoHealed"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["Absorbs"] = 33,
+					["HealingTaken"] = 33,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 66,
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["HealedWho"] = {
+						["Verylntense"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Verylntense"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+				},
+			},
+			["NextEventNum"] = 3,
+			["LastEventTimes"] = {
+				3065.376, -- [1]
+				3065.609, -- [2]
+			},
+			["LastEvents"] = {
+				"No One Boom Verylntense Absorb -33 (33 Absorbed) (Fire)", -- [1]
+				"No One Boom Verylntense Absorb -33 (33 Absorbed) (Fire)", -- [2]
+			},
+			["Name"] = "Verylntense",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastDamageTaken"] = 33,
+			["TimeLast"] = {
+				["Absorbs"] = 3065.209,
+				["TimeHeal"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+			},
+			["LastEventHealthMax"] = {
+				12900, -- [1]
+				12900, -- [2]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Fiendish-Cenarius"] = {
+			["GUID"] = "Player-1168-08FAADC4",
+			["TimeLast"] = {
+				["Absorbs"] = 3065.209,
+				["TimeHeal"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["Healing"] = 3054.216,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Damage"] = 3054.216,
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					68, -- [1]
+				},
+				["TimeHeal"] = {
+					1.73, -- [1]
+				},
+				["ActiveTime"] = {
+					1.73, -- [1]
+				},
+				["HealingTaken"] = {
+					65, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					65, -- [1]
+				},
+				["Damage"] = {
+					0, -- [1]
+				},
+			},
+			["LastHealTime"] = 3065.609,
+			["unit"] = true,
+			["LastAbility"] = 3234.987,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastDamageTaken"] = 33,
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["UnitLockout"] = 3065.209,
+			["enClass"] = "WARLOCK",
+			["Owner"] = false,
+			["Pet"] = {
+				"Barthyk <Fiendish-Cenarius>", -- [1]
+			},
+			["NextEventNum"] = 3,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["TimeSpent"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["WhoHealed"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 4,
+								},
+								["Soul Leech"] = {
+									["count"] = 7,
+								},
+								["Bulwark of the Masses"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["Absorbs"] = 68,
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 65,
+					},
+					["ActiveTime"] = 1.73,
+					["ElementTaken"] = {
+						["Fire"] = 65,
+					},
+					["Damage"] = 0,
+					["Heals"] = {
+						["Mastery: Chaotic Energies"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 2,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4,
+						},
+						["Soul Leech"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 7,
+									["min"] = 1,
+									["count"] = 3,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 10,
+						},
+						["Bulwark of the Masses"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 31,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 54,
+						},
+					},
+					["ShieldedWho"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Barthyk"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Healing"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamageTaken"] = 65,
+					["HealingTaken"] = 65,
+					["HealedWho"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 4,
+								},
+								["Soul Leech"] = {
+									["count"] = 7,
+								},
+								["Bulwark of the Masses"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 65,
+						},
+						["Barthyk"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeHeal"] = 1.73,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 33,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65,
+						},
+					},
+					["Absorbed"] = {
+						["Mastery: Chaotic Energies"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 2,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4,
+						},
+						["Soul Leech"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+								["Barthyk"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 2,
+									["amount"] = 3,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 10,
+						},
+						["Bulwark of the Masses"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 31,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 54,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["Healing"] = 0,
+					["ShieldedWho"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Barthyk"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Damage"] = 0,
+				},
+				["CurrentFightData"] = {
+					["Ressed"] = 0,
+					["DOTs"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["Dispelled"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Absorbed"] = {
+						["Mastery: Chaotic Energies"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Leech"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Barthyk"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bulwark of the Masses"] = {
+							["Details"] = {
+								["Fiendish-Cenarius"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ActiveTime"] = 0,
+					["HealedWho"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 0,
+								},
+								["Soul Leech"] = {
+									["count"] = 0,
+								},
+								["Bulwark of the Masses"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Barthyk"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["WhoHealed"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 0,
+								},
+								["Soul Leech"] = {
+									["count"] = 0,
+								},
+								["Bulwark of the Masses"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["TimeSpent"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Mastery: Chaotic Energies"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["Overhealing"] = 0,
+					["Heals"] = {
+						["Mastery: Chaotic Energies"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Soul Leech"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bulwark of the Masses"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["RageGained"] = {
+					},
+					["Healing"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["Healing"] = 0,
+					["ShieldedWho"] = {
+						["Fiendish-Cenarius"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Barthyk"] = {
+							["Details"] = {
+								["Soul Leech"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Damage"] = 0,
+				},
+			},
+			["LastEvents"] = {
+				"No One Boom Fiendish-Cenarius Absorb -32 (32 Absorbed) (Fire)", -- [1]
+				"No One Boom Fiendish-Cenarius Absorb -33 (33 Absorbed) (Fire)", -- [2]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastEventTimes"] = {
+				3065.376, -- [1]
+				3065.609, -- [2]
+			},
+			["Name"] = "Fiendish-Cenarius",
+			["LastEventHealth"] = {
+				16060, -- [1]
+				16060, -- [2]
+			},
+			["LastEventHealthMax"] = {
+				16060, -- [1]
+				16060, -- [2]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Frazzled-Cenarius"] = {
+			["GUID"] = "Player-1168-08FAA232",
+			["LastEventHealth"] = {
+				15840, -- [1]
+				15840, -- [2]
+				15840, -- [3]
+				15840, -- [4]
+				15840, -- [5]
+				15840, -- [6]
+				15840, -- [7]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					65, -- [1]
+				},
+				["TimeHeal"] = {
+					1.73, -- [1]
+				},
+				["Overhealing"] = {
+					806, -- [1]
+				},
+				["ActiveTime"] = {
+					3.26, -- [1]
+				},
+				["TimeDamage"] = {
+					1.53, -- [1]
+				},
+				["HealingTaken"] = {
+					65, -- [1]
+				},
+				["DamageTaken"] = {
+					65, -- [1]
+				},
+				["Damage"] = {
+					129944, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = true,
+			["LastAbility"] = 3234.987,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastDamageTaken"] = 33,
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["UnitLockout"] = 3052.195,
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["OverHeals"] = {
+						["Quick Thinking"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 806,
+									["min"] = 806,
+									["count"] = 1,
+									["amount"] = 806,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 806,
+						},
+					},
+					["TimeSpent"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 1.73,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["HealedWho"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 33,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65,
+						},
+					},
+					["ActiveTime"] = 3.26,
+					["ElementTaken"] = {
+						["Fire"] = 65,
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 65,
+					},
+					["Damage"] = 129944,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeHeal"] = 1.73,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeDamaging"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Overhealing"] = 806,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 33,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65,
+						},
+					},
+					["Absorbs"] = 65,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3367,
+									["min"] = 3367,
+									["count"] = 1,
+									["amount"] = 3367,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3367,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63799,
+									["min"] = 62778,
+									["count"] = 2,
+									["amount"] = 126577,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 126577,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3367,
+						["Arcane"] = 126577,
+					},
+					["HealingTaken"] = 65,
+					["DamagedWho"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 62778,
+								},
+							},
+							["amount"] = 62778,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3367,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 63799,
+								},
+							},
+							["amount"] = 67166,
+						},
+					},
+					["TimeDamage"] = 1.53,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["WhoHealed"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["DamageTaken"] = 65,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Frazzled-Cenarius"] = {
+									["max"] = 33,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["OverHeals"] = {
+						["Quick Thinking"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 806,
+									["min"] = 806,
+									["count"] = 1,
+									["amount"] = 806,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 806,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ActiveTime"] = 1.53,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3367,
+									["min"] = 3367,
+									["count"] = 1,
+									["amount"] = 3367,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3367,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63799,
+									["min"] = 62778,
+									["count"] = 2,
+									["amount"] = 126577,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 126577,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3367,
+						["Arcane"] = 126577,
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Overhealing"] = 806,
+					["TimeDamage"] = 1.53,
+					["TimeDamaging"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 62778,
+								},
+							},
+							["amount"] = 62778,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3367,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 63799,
+								},
+							},
+							["amount"] = 67166,
+						},
+					},
+					["Damage"] = 129944,
+				},
+				["CurrentFightData"] = {
+					["Ressed"] = 0,
+					["DOTs"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["Dispelled"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Frazzled-Cenarius"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ActiveTime"] = 0,
+					["HealedWho"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["WhoHealed"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["TimeSpent"] = {
+						["Frazzled-Cenarius"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["Overhealing"] = 0,
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["RageGained"] = {
+					},
+					["Healing"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["OverHeals"] = {
+						["Quick Thinking"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 806,
+									["min"] = 806,
+									["count"] = 1,
+									["amount"] = 806,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 806,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ActiveTime"] = 1.53,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3367,
+									["min"] = 3367,
+									["count"] = 1,
+									["amount"] = 3367,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3367,
+						},
+						["Arcane Explosion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63799,
+									["min"] = 62778,
+									["count"] = 2,
+									["amount"] = 126577,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 126577,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3367,
+						["Arcane"] = 126577,
+					},
+					["PartialAbsorb"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Overhealing"] = 806,
+					["TimeDamage"] = 1.53,
+					["TimeDamaging"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 0.03,
+								},
+							},
+							["amount"] = 0.03,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["PartialResist"] = {
+						["Fel Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Arcane Explosion"] = {
+									["count"] = 62778,
+								},
+							},
+							["amount"] = 62778,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3367,
+								},
+								["Arcane Explosion"] = {
+									["count"] = 63799,
+								},
+							},
+							["amount"] = 67166,
+						},
+					},
+					["Damage"] = 129944,
+				},
+			},
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				3052.628, -- [1]
+				3055.516, -- [2]
+				3055.516, -- [3]
+				3055.516, -- [4]
+				3055.549, -- [5]
+				3065.376, -- [6]
+				3065.609, -- [7]
+			},
+			["NextEventNum"] = 8,
+			["LastDamageTime"] = 3055.549,
+			["LastEvents"] = {
+				"Gorebound Cauterizer Fel Shock Frazzled-Cenarius Miss (Fire)", -- [1]
+				"Frazzled-Cenarius Melee Contracted Engineer Hit -3367 (Physical)", -- [2]
+				"Frazzled-Cenarius Quick Thinking Frazzled-Cenarius Crit +806 (806 Overheal)", -- [3]
+				"Frazzled-Cenarius Arcane Explosion Contracted Engineer Hit -63799 (Arcane)", -- [4]
+				"Frazzled-Cenarius Arcane Explosion Gorebound Fanatic Hit -62778 (Arcane)", -- [5]
+				"No One Boom Frazzled-Cenarius Absorb -32 (32 Absorbed) (Fire)", -- [6]
+				"No One Boom Frazzled-Cenarius Absorb -33 (33 Absorbed) (Fire)", -- [7]
+			},
+			["Name"] = "Frazzled-Cenarius",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+			},
+			["LastHealTime"] = 3065.609,
+			["TimeLast"] = {
+				["TimeHeal"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Absorbs"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+				["Overhealing"] = 3055.216,
+				["TimeDamage"] = 3055.216,
+				["ActiveTime"] = 3065.209,
+				["Damage"] = 3055.216,
+			},
+			["LastEventHealthMax"] = {
+				15840, -- [1]
+				15840, -- [2]
+				15840, -- [3]
+				15840, -- [4]
+				15840, -- [5]
+				15840, -- [6]
+				15840, -- [7]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Barthyk <Fiendish-Cenarius>"] = {
+			["GUID"] = "Pet-0-3020-1448-20777-1860-0102BD48DD",
+			["LastEventHealth"] = {
+				11242, -- [1]
+				11242, -- [2]
+				11242, -- [3]
+				11242, -- [4]
+				11242, -- [5]
+				11242, -- [6]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					1.73, -- [1]
+				},
+				["Damage"] = {
+					29352, -- [1]
+				},
+				["DamageTaken"] = {
+					3, -- [1]
+				},
+				["TimeDamage"] = {
+					1.73, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Barthyk",
+			["level"] = 1,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["LastAbility"] = 3234.987,
+			["type"] = "Pet",
+			["FightsSaved"] = 1,
+			["ownerName"] = "Fiendish-Cenarius",
+			["LastDamageTaken"] = 1,
+			["UnitLockout"] = 3054.216,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 3,
+					},
+					["ActiveTime"] = 1.73,
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 10577,
+						["Shadow"] = 18775,
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamageTaken"] = 3,
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10577,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 6463,
+								},
+							},
+							["amount"] = 17040,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+					},
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 2,
+									["amount"] = 3,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 1.73,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 3,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10577,
+									["min"] = 10577,
+									["count"] = 1,
+									["amount"] = 10577,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10577,
+						},
+						["Consuming Shadows"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6463,
+									["min"] = 6156,
+									["count"] = 3,
+									["amount"] = 18775,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 18775,
+						},
+					},
+					["Damage"] = 29352,
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 10577,
+						["Shadow"] = 18775,
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10577,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 6463,
+								},
+							},
+							["amount"] = 17040,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 1.73,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ActiveTime"] = 1.73,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10577,
+									["min"] = 10577,
+									["count"] = 1,
+									["amount"] = 10577,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10577,
+						},
+						["Consuming Shadows"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6463,
+									["min"] = 6156,
+									["count"] = 3,
+									["amount"] = 18775,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 18775,
+						},
+					},
+					["Damage"] = 29352,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 10577,
+						["Shadow"] = 18775,
+					},
+					["DamagedWho"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10577,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 6463,
+								},
+							},
+							["amount"] = 17040,
+						},
+						["Gorebound Fanatic"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+						["Contracted Engineer"] = {
+							["Details"] = {
+								["Consuming Shadows"] = {
+									["count"] = 6156,
+								},
+							},
+							["amount"] = 6156,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 1.73,
+					["TimeDamaging"] = {
+						["Hulking Berserker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Consuming Shadows"] = {
+									["count"] = 0.23,
+								},
+							},
+							["amount"] = 1.73,
+						},
+					},
+					["ActiveTime"] = 1.73,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10577,
+									["min"] = 10577,
+									["count"] = 1,
+									["amount"] = 10577,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10577,
+						},
+						["Consuming Shadows"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6463,
+									["min"] = 6156,
+									["count"] = 3,
+									["amount"] = 18775,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 18775,
+						},
+					},
+					["Damage"] = 29352,
+				},
+			},
+			["NextEventNum"] = 7,
+			["LastDamageTime"] = 3055.449,
+			["LastEvents"] = {
+				"Barthyk <Fiendish-Cenarius> Melee Hulking Berserker Hit -10577 (Physical)", -- [1]
+				"Barthyk <Fiendish-Cenarius> Consuming Shadows Hulking Berserker Hit -6463 (Shadow)", -- [2]
+				"Barthyk <Fiendish-Cenarius> Consuming Shadows Contracted Engineer Hit -6156 (Shadow)", -- [3]
+				"Barthyk <Fiendish-Cenarius> Consuming Shadows Gorebound Fanatic Hit -6156 (Shadow)", -- [4]
+				"No One Boom Barthyk <Fiendish-Cenarius> Absorb -2 (2 Absorbed) (Fire)", -- [5]
+				"No One Boom Barthyk <Fiendish-Cenarius> Absorb -1 (1 Absorbed) (Fire)", -- [6]
+			},
+			["Name"] = "Barthyk",
+			["LastEventTimes"] = {
+				3055.216, -- [1]
+				3055.449, -- [2]
+				3055.449, -- [3]
+				3055.449, -- [4]
+				3065.376, -- [5]
+				3065.609, -- [6]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 3055.216,
+				["TimeDamage"] = 3055.216,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["Damage"] = 3055.216,
+			},
+			["LastEventHealthMax"] = {
+				11242, -- [1]
+				11242, -- [2]
+				11242, -- [3]
+				11242, -- [4]
+				11242, -- [5]
+				11242, -- [6]
+			},
+			["LastActive"] = 3065.209,
+		},
+		["Pawsnreflect-Nathrezim"] = {
+			["GUID"] = "Player-1138-0856EFF0",
+			["LastEventHealth"] = {
+				16020, -- [1]
+				16020, -- [2]
+			},
+			["LastAttackedBy"] = "No One",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					32, -- [1]
+				},
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["ActiveTime"] = {
+					1.5, -- [1]
+				},
+				["DamageTaken"] = {
+					62, -- [1]
+				},
+				["HealingTaken"] = {
+					32, -- [1]
+				},
+			},
+			["enClass"] = "MONK",
+			["unit"] = true,
+			["level"] = 50,
+			["LastDamageAbility"] = "Boom",
+			["LastFightIn"] = 1,
+			["type"] = "Grouped",
+			["LastAbility"] = 3234.987,
+			["LastHealTime"] = 3065.609,
+			["UnitLockout"] = 3065.209,
+			["Owner"] = false,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeHealing"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Absorbs"] = 0,
+					["HealingTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 0,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Pawsnreflect-Nathrezim"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 62,
+					["PartialResist"] = {
+						["Boom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Boom"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 32,
+									["min"] = 30,
+									["count"] = 2,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 62,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["ElementTaken"] = {
+						["Fire"] = 62,
+					},
+					["Heals"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+					},
+					["WhoHealed"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["Absorbs"] = 32,
+					["HealingTaken"] = 32,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 62,
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Boom"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["HealedWho"] = {
+						["Pawsnreflect-Nathrezim"] = {
+							["Details"] = {
+								["Resounding Protection"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["Absorbed"] = {
+						["Resounding Protection"] = {
+							["Details"] = {
+								["Pawsnreflect-Nathrezim"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+					},
+				},
+			},
+			["NextEventNum"] = 3,
+			["LastEventTimes"] = {
+				3065.376, -- [1]
+				3065.609, -- [2]
+			},
+			["LastEvents"] = {
+				"No One Boom Pawsnreflect-Nathrezim Absorb -30 (30 Absorbed) (Fire)", -- [1]
+				"No One Boom Pawsnreflect-Nathrezim Absorb -32 (32 Absorbed) (Fire)", -- [2]
+			},
+			["Name"] = "Pawsnreflect-Nathrezim",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastDamageTaken"] = 32,
+			["TimeLast"] = {
+				["Absorbs"] = 3065.209,
+				["TimeHeal"] = 3065.209,
+				["ActiveTime"] = 3065.209,
+				["OVERALL"] = 3065.209,
+				["DamageTaken"] = 3065.209,
+				["HealingTaken"] = 3065.209,
+			},
+			["LastEventHealthMax"] = {
+				16020, -- [1]
+				16020, -- [2]
+			},
+			["LastActive"] = 3065.209,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			3046.202, -- [1]
+			3057.204, -- [2]
+			"12:09:12", -- [3]
+			"12:09:23", -- [4]
+			"Hulking Berserker", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Hulking Berserker 12:09:12-12:09:23", -- [1]
+	},
+}

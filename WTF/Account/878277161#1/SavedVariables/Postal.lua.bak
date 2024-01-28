@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Summerlin - Bladefist"] = "Summerlin - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Summerlin|Bladefist|Horde|20|PALADIN", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Summerlin - Bladefist"] = {
+		},
+	},
+}

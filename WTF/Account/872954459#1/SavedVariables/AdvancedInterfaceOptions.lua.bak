@@ -5,7 +5,7 @@ AdvancedInterfaceOptionsSaved = {
 	["DBVersion"] = 3,
 	["ModifiedCVars"] = {
 		["statustextdisplay"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:853",
-		["autointeract"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:849",
+		["autointeract"] = "Interface/AddOns/AdvancedInterfaceOptions/browser.lua:98",
 		["statustext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:852",
 		["nameplateshowfriends"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:846",
 		["uiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:841",
@@ -19,7 +19,7 @@ AdvancedInterfaceOptionsSaved = {
 		["raidoptionisshown"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"*Blizzard_CompactRaidFrameManager.xml:304_OnClick\"]:2: in function <[string \"*Blizzard_CompactRaidFrameManager.xml:304_O...\"]:1>\n:(unhandled exception)",
 		["lootundermouse"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:858",
 		["alwaysshowactionbars"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:844",
-		["showclasscolorinfriendlynameplate"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:862",
+		["showclasscolorinfriendlynameplate"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:863",
 		["petjournaltab"] = "Interface/FrameXML/UIParent.lua:2305",
 		["autoquestwatch"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:850",
 		["blockchannelinvites"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:856",
@@ -31,7 +31,7 @@ AdvancedInterfaceOptionsSaved = {
 		["miniworldmap"] = "Interface/FrameXML/QuestLogOwnerMixin.lua:78",
 		["showtutorials"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:861",
 		["libopenraidtempcache"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:260",
-		["showtargetoftarget"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:863",
+		["showtargetoftarget"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:864",
 		["enablefloatingcombattext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:847",
 	},
 	["CharVars"] = {

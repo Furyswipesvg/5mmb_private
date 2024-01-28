@@ -1107,7 +1107,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 311,
+		["spellcontainer_height"] = 311.0000305175781,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1122,7 +1122,7 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 455.9999694824219,
+		["blockcontainer_width"] = 455.9999389648438,
 		["spellbar_background_alpha"] = 0.92,
 		["spellcontainer_width"] = 428.9999694824219,
 		["spellcontainer_header_fontcolor"] = {
@@ -1135,7 +1135,7 @@ _detalhes_global = {
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 289.9999084472656,
+		["phasecontainer_width"] = 289.9998779296875,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1178,7 +1178,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 269.9999389648438,
+		["blockcontainer_height"] = 269.9999694824219,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1193,7 +1193,7 @@ _detalhes_global = {
 	},
 	["plugin_window_pos"] = {
 		["y"] = -1.52587890625e-05,
-		["x"] = -0.000274658203125,
+		["x"] = -0.000396728515625,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1244,15 +1244,15 @@ _detalhes_global = {
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
 		4, -- [1]
-		[1766] = 4,
+		[305913] = "Darkmaul Shadowcaller",
 		[318149] = "Warlord Breka Grimaxe",
 		[315584] = 4,
-		[308455] = "Tunk",
+		[315585] = 4,
 		[318125] = "Warlord Breka Grimaxe",
 		[308527] = "Gor'groth",
-		[315585] = 4,
+		[308455] = "Tunk",
 		[308463] = "Tunk",
-		[273844] = "Shuja Grimaxe",
+		[1766] = 4,
 		[321240] = "Tunk",
 		[283408] = "Warlord Breka Grimaxe",
 		[305515] = "Ravnyr",
@@ -1274,7 +1274,7 @@ _detalhes_global = {
 		[8676] = 4,
 		[306399] = "Darkmaul Centurion",
 		[2983] = 4,
-		[305913] = "Darkmaul Shadowcaller",
+		[273844] = "Shuja Grimaxe",
 		[308502] = "Gor'groth",
 	},
 	["shield_spellid_cache"] = {
@@ -1757,10 +1757,6 @@ _detalhes_global = {
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -1798,6 +1794,10 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -1820,16 +1820,14 @@ _detalhes_global = {
 				["menus"] = "Friz Quadrata TT",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
-			["segments_amount"] = 40,
-			["report_lines"] = 5,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
 							["y"] = -201.0012512207031,
-							["x"] = 682.0333251953125,
-							["w"] = 310.0000305175781,
-							["h"] = 158.0000915527344,
+							["x"] = 681.8009643554688,
+							["w"] = 310.0000610351563,
+							["h"] = 158.0001220703125,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2234,7 +2232,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -201.0012817382813,
+						["y"] = -201.0012664794922,
 						["x"] = -36.3037109375,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -2266,9 +2264,9 @@ _detalhes_global = {
 					["posicao"] = {
 						["normal"] = {
 							["y"] = -201.0012512207031,
-							["x"] = 682.0333251953125,
-							["w"] = 310.0000305175781,
-							["h"] = 158.0000915527344,
+							["x"] = 681.8009643554688,
+							["w"] = 310.0000610351563,
+							["h"] = 158.0001220703125,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2315,6 +2313,8 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
+			["report_lines"] = 5,
+			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
 			["capture_real"] = {
@@ -2331,29 +2331,26 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["minimum_combat_time"] = 5,
 			["realtimedps_always_arena"] = false,
+			["minimum_combat_time"] = 5,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
 			["overall_clear_logout"] = false,
-			["color_by_arena_team"] = true,
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
+			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
 			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
@@ -2430,11 +2427,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -2460,11 +2457,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -2479,10 +2476,15 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
+			["total_abbreviation"] = 2,
+			["disable_alldisplays_window"] = false,
+			["trash_auto_remove"] = false,
+			["broadcaster_enabled"] = false,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["disable_alldisplays_window"] = false,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2565,17 +2567,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -2592,11 +2594,6 @@ _detalhes_global = {
 					0.87, -- [3]
 				},
 			},
-			["broadcaster_enabled"] = false,
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -2613,13 +2610,16 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["memory_threshold"] = 3,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
+			["color_by_arena_team"] = true,
 			["use_scroll"] = false,
 			["overall_flag"] = 16,
 			["segments_panic_mode"] = false,
@@ -2825,7 +2825,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["ROGUE"] = 8931.99099999998,
+			["ROGUE"] = 14514.48299999998,
 		},
 	},
 	["latest_spell_pool_access"] = 1706131215,
@@ -2870,18 +2870,12 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 6,
-		["logons"] = 6,
+		["main_help_button"] = 12,
+		["logons"] = 12,
 		["version_announce"] = 0,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
@@ -2925,7 +2919,13 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["savedStyles"] = {
 	},
@@ -3038,35 +3038,35 @@ _detalhes_global = {
 }
 __details_backup = {
 	["_general_logs"] = {
-		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [1]
-		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [2]
-		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [3]
-		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [4]
-		"2024-01-24 21:28:32 | actor removed Kaldorai-Silvermoon (ungrouped)", -- [5]
-		"2024-01-24 21:28:32 | actor removed Jafarbinks-Dragonblight (ungrouped)", -- [6]
-		"2024-01-24 21:28:32 | actor removed Grunk (ungrouped)", -- [7]
-		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [8]
-		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [9]
-		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [10]
-		"2024-01-24 21:28:32 | actor removed Bloodbeak (ungrouped)", -- [11]
-		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [12]
-		"2024-01-24 21:28:32 | actor removed Ogre Brute (ungrouped)", -- [13]
-		"2024-01-24 21:28:32 | actor removed Killclaw the Terrible (ungrouped)", -- [14]
-		"2024-01-24 21:28:32 | actor removed Bromedown (ungrouped)", -- [15]
+		"2024-01-27 14:25:42 | actor removed Wrongdawg-Frostmane (disposable)", -- [1]
+		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [2]
+		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [3]
+		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [4]
+		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [5]
+		"2024-01-24 21:28:32 | actor removed Kaldorai-Silvermoon (ungrouped)", -- [6]
+		"2024-01-24 21:28:32 | actor removed Jafarbinks-Dragonblight (ungrouped)", -- [7]
+		"2024-01-24 21:28:32 | actor removed Grunk (ungrouped)", -- [8]
+		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [9]
+		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [10]
+		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [11]
+		"2024-01-24 21:28:32 | actor removed Bloodbeak (ungrouped)", -- [12]
+		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [13]
+		"2024-01-24 21:28:32 | actor removed Ogre Brute (ungrouped)", -- [14]
+		"2024-01-24 21:28:32 | actor removed Killclaw the Terrible (ungrouped)", -- [15]
 		"2024-01-24 21:28:32 | actor removed Bromedown (ungrouped)", -- [16]
-		"2024-01-24 21:28:32 | actor removed Grunk (ungrouped)", -- [17]
-		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [18]
-		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [19]
-		"2024-01-24 21:28:32 | actor removed Brolly (ungrouped)", -- [20]
-		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [21]
-		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [22]
-		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [23]
+		"2024-01-24 21:28:32 | actor removed Bromedown (ungrouped)", -- [17]
+		"2024-01-24 21:28:32 | actor removed Grunk (ungrouped)", -- [18]
+		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [19]
+		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [20]
+		"2024-01-24 21:28:32 | actor removed Brolly (ungrouped)", -- [21]
+		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [22]
+		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [23]
 		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [24]
-		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [25]
-		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [26]
-		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [27]
-		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [28]
-		"2024-01-24 21:28:32 | actor removed Bilbro (ungrouped)", -- [29]
+		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [25]
+		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [26]
+		"2024-01-24 21:28:32 | actor removed Benuga-Quel'dorei (ungrouped)", -- [27]
+		"2024-01-24 21:28:32 | actor removed Broyota (ungrouped)", -- [28]
+		"2024-01-24 21:28:32 | actor removed Brotarecall (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
 	},

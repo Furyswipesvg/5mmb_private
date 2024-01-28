@@ -1,0 +1,84 @@
+VER 3 0000000000000476 "a1" "Ability_hunter_pet_hyena"
+/assist Cheat
+END
+VER 3 0000000000000477 "a2" "Ability_hunter_pet_hyena"
+END
+VER 3 0000000000000478 "a3" "Ability_hunter_pet_hyena"
+/assist Btfo
+END
+VER 3 0000000000000479 "a4" "Ability_hunter_pet_hyena"
+/assist Psh
+END
+VER 3 000000000000047A "a5" "Ability_hunter_pet_hyena"
+/assist Coolness
+END
+VER 3 00000000000002AC "clr" "INV_MISC_QUESTIONMARK"
+/cleartarget
+END
+VER 3 0000000000000471 "f1" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000472 "f2" "Ability_hunter_pet_gorilla"
+/follow Severe
+END
+VER 3 0000000000000473 "f3" "Ability_hunter_pet_gorilla"
+/follow Btfo
+END
+VER 3 0000000000000474 "f4" "Ability_hunter_pet_gorilla"
+/follow Psh
+END
+VER 3 0000000000000475 "f5" "Ability_hunter_pet_gorilla"
+/follow Coolness
+END
+VER 3 0000000000000295 "FURY" "INV_Weapon_Shortblade_40"
+/run DEFAULT_CHAT_FRAME:AddMessage("FURY  SPec...");SetActiveTalentGroup(2) 
+/equipset [spec:2]pve fury
+END
+VER 3 000000000000047B "h1" "INV_MISC_QUESTIONMARK"
+/target cheat
+/castsequence reset=10  regrowth,swiftmend
+END
+VER 3 000000000000047C "h2" "INV_MISC_QUESTIONMARK"
+/target severe
+/castsequence reset=10  regrowth,swiftmend
+END
+VER 3 000000000000047D "h3" "INV_MISC_QUESTIONMARK"
+/target btfo
+/castsequence reset=10  regrowth,swiftmend
+END
+VER 3 000000000000047E "h4" "INV_MISC_QUESTIONMARK"
+/target psh
+/castsequence reset=10  regrowth,swiftmend
+END
+VER 3 000000000000047F "h5" "INV_MISC_QUESTIONMARK"
+/target coolness
+/castsequence reset=10  regrowth,swiftmend
+END
+VER 3 000000000000046F "hearth" "INV_Misc_QuestionMark"
+/cancelform
+/use hearthstone
+END
+VER 3 00000000000002A9 "kiss" "RACIAL_TROLL_BERSERK"
+/kiss
+END
+VER 3 00000000000002A7 "kneel" "INV_MISC_BALLOON_01"
+/sit
+END
+VER 3 0000000000000031 "OP" "INV_Misc_QuestionMark"
+END
+VER 3 0000000000000470 "party" "Ability_hunter_pathfinding"
+/invite Severe-Nathrezim
+/invite Btfo
+/invite Psh
+/invite Coolness
+/run SetLootMethod("freeforall",UnitName("player"))
+END
+VER 3 0000000000000480 "turbo" "136048"
+/click BLOOD_TURBO
+/petpassive [mod:alt]
+/run SetView(4)
+END
+VER 3 0000000000000453 "ZygorAction1" "134082"
+#showtooltip Soul Gem
+/use item:122100
+END
+

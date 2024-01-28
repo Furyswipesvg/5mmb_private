@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Thelraq|Bladefist|Horde|20|WARLOCK", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Thelraq - Bladefist"] = "Thelraq - Bladefist",
+	},
+	["profiles"] = {
+		["Thelraq - Bladefist"] = {
+		},
+	},
+}

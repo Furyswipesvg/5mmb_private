@@ -1,0 +1,4 @@
+MACRO 16777492 "ZGVMacro2" "378"
+/target Kadrak
+/run ZGV:MagicRaidMarker()
+END

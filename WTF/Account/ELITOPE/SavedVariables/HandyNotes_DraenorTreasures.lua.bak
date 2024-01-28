@@ -1,0 +1,12 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Hjdatgoyxabn - Shattered Hand"] = "Default",
+		["Zapdos - Bonechewer"] = "Default",
+		["Peopledied - Shattered Hand"] = "Default",
+		["Jetrat - Gorgonnash"] = "Default",
+		["Basilina - Zul'jin"] = "Default",
+		["Defenseless - Nathrezim"] = "Default",
+		["Elitope - Borean Tundra"] = "Default",
+	},
+}

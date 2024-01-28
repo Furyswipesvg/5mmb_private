@@ -1,0 +1,10 @@
+
+AutoTurnInDB = {
+	["profileKeys"] = {
+		["Thelnsane - Illidan"] = "Thelnsane - Illidan",
+	},
+	["profiles"] = {
+		["Thelnsane - Illidan"] = {
+		},
+	},
+}

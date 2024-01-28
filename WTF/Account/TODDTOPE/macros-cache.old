@@ -1,0 +1,254 @@
+VER 3 0000000000002AE3 "aoe_fs" "spell_fire_selfdestruct"
+/click PROT_AOE
+END
+VER 3 0000000000000026 "AOEMS" "INV_Misc_QuestionMark"
+/cast [nomod] cleave
+/cast [nomod] sweeping strikes
+/cast [nomod] thunder clap
+/cast [nomod] inner rage
+/cast [nomod] deadly calm
+/startattack
+/use Fury of Angerforge
+END
+VER 3 0000000000000206 "ARMS" "INV_SWORD_2H_DEATHWINGRAIDDW_D_01"
+/run DEFAULT_CHAT_FRAME:AddMessage("arms  SPec...");SetActiveTalentGroup(2) 
+/equipset [spec:2]arms
+END
+VER 3 00000000000002AA "AURA" "INV_MISC_TRINKETPANDA_11"
+END
+VER 3 0000000000000034 "B_&_T" "INV_Misc_QuestionMark"
+/castsequence [nomod] reset=combat rend, thunder clap,shockwave
+/cast [mod:alt] taunt
+/cast [mod:ctrl] spell reflect
+END
+VER 3 0000000000000F0B "BEAST_SINGLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 0000000000000013 "bubb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast shattering throw
+/cast berserker rage
+END
+VER 3 000000000000029D "CollectMeRC" "INV_PET_BABYBLIZZARDBEAR"
+/cleartarget
+/target Lunarlight
+/run SetRaidTarget("target", 8)
+END
+VER 3 000000000000029E "CollectMeRM" "ABILITY_MOUNT_BIGBLIZZARDBEAR"
+/cm rm
+END
+VER 3 00000000000002A2 "D:Cleave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast cleave
+/cast inner calm
+/cast recklessness
+/cast shield barrier
+/startattack
+END
+VER 3 000000000000029B "D:devastate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] devastate
+/cast [mod:ctrl] demoralizing shout
+/cast [nomod] avatar
+/startattack [nomod]
+/cast [mod:alt] taunt
+END
+VER 3 000000000000029A "D:Rev" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] revenge
+/cast [nomod] shield barrier
+/cast [mod:alt] commanding shout 
+/startattack [nomod]
+/cast [mod:ctrl,flyable] azure cloud serpent
+/cast [mod:ctrl] swift zulian tiger
+END
+VER 3 00000000000002A1 "D:SHOCK" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast shockwave
+/cast shield block
+/startattack
+/use Potion of Brawler's Might
+END
+VER 3 0000000000000299 "D:SS:R" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] shield slam
+/cast [nomod] shield block
+/cast [nomod] berserker rage
+/cast [mod:ctrl] pummel
+/cast [mod:alt] heroic strike
+/startattack [nomod]
+/use Curse of Hubris
+END
+VER 3 00000000000002A3 "D:SW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast shield wall
+/cast berserker rage
+/use Brawler's Healing Potion
+END
+VER 3 00000000000002A0 "D:TCLAP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast thunder clap
+/cast demoralizing shout
+/cast avatar
+/startattack
+END
+VER 3 0000000000002AE8 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000033 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Dispel Magic;  [@mouseover,exists,mod:ctrl] Purify; [@mouseover,exists,mod:shift] Dispel Magic
+END
+VER 3 00000000000002AD "demo banner" "INV_MISC_QUESTIONMARK"
+/use demoralizing banner
+/cast rallying cry
+END
+VER 3 000000000000002C "DW_CS" "INV_Misc_QuestionMark"
+/castrandom [nomod] colossus smash
+/cast [nomod] death wish
+/startattack [nomod:ctrl]
+/cast [mod:ctrl,nocombat] spectral wind rider
+/cast [mod:ctrl,combat] demoralizing shout
+END
+VER 3 0000000000002AD8 "f1_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Anlsland!
+/focus Anlsland
+END
+VER 3 0000000000002AD9 "f2_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Anlcon!
+/focus Anlcon
+END
+VER 3 0000000000002ADA "f3_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Anldol!
+/focus Anldol
+END
+VER 3 0000000000002ADB "f4_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Anltch!
+/focus Anltch
+END
+VER 3 0000000000002ADC "f5_fs" "Ability_HUNTER_pet_gorilla"
+/party Focusing Anltem!
+/focus Anltem
+END
+VER 3 0000000000001156 "FARM" "413588"
+/click BALANCE_FARM
+END
+VER 3 00000000000002A9 "FishingBuddy" "INV_Fishingpole_02"
+#showtooltip Fishing
+/fb fishing start
+/stopcasting
+/cast Fishing
+END
+VER 3 0000000000000295 "FURY" "INV_Weapon_Shortblade_40"
+/run DEFAULT_CHAT_FRAME:AddMessage("FURY  SPec...");SetActiveTalentGroup(2) 
+/equipset [spec:2]pve fury
+END
+VER 3 00000000000023D9 "GRM_Roster" "inv_bannerpvp_01"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 00000000000023DA "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000002AE6 "gs_fs" "monk_stance_drunkenox"
+/gs
+END
+VER 3 00000000000002AF "IDEALPARRY" "ABILITY_ROGUE_AMBUSH"
+/run d=GetDodgeChance() n=3.22 if UnitRace("Trisdane")=="Night Elf" then n=n-.01 end p=235.5*d/65.631440-((235.5/65.631440)*5.01-n) DEFAULT_CHAT_FRAME:AddMessage("Ideal parry for current dodge: "..string.format("%.2f",p))
+END
+VER 3 0000000000002ADD "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000001994 "int_fs" "INV_Misc_Questionmark"
+#noupdate
+#showtootip [spec:3] storm bolt [spec:2] pummel
+/click PROT_INT
+END
+VER 3 0000000000002AE7 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 00000000000002A7 "love" "INV_MISC_BALLOON_01"
+/love
+END
+VER 3 00000000000002A6 "M:cleave" "INV_MISC_QUESTIONMARK"
+/cast cleave
+/cast deadly calm
+/cast sweeping strikes
+END
+VER 3 00000000000002AE "MOCKING BANNER" "INV_MISC_QUESTIONMARK"
+/CAST MOCKING BANNER
+END
+VER 3 00000000000002AB "Moo vent" "spell_misc_zandalari_council_soulswap"
+/raid vent info:  8.3.5.149  Port: 4295  PW: help999 Go to room: Moo's place
+END
+VER 3 00000000000002A8 "MOVE" "INV_MISC_QUESTIONMARK"
+/rw MOVE
+END
+VER 3 0000000000002AE1 "multi_fs" "ability_upgrademoonglaive"
+/click PROT_MULTI
+END
+VER 3 0000000000002AD7 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000002ADE "passive_fs" "Spell_magic_polymorphchicken"
+/petfollow [mod:alt]
+/stopattack [mod:alt]
+END
+VER 3 0000000000000290 "pvp" "Ability_Hunter_OneWithNature"
+/run DEFAULT_CHAT_FRAME:AddMessage("PVP SPec...");SetActiveTalentGroup(1) 
+/equipset [spec:1]pvp tank
+END
+VER 3 0000000000000292 "PVP Arms" "INV_Stave_2H_FirelandsRaid_D_01"
+/run DEFAULT_CHAT_FRAME:AddMessage("PVP SPec...");SetActiveTalentGroup(2) 
+/equipset [spec:2]pvparms
+END
+VER 3 0000000000002AE5 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000002ADF "setup_fs" "Spell_magic_polymorphchicken"
+/click PROT_SETUP
+/stopcasting [mod:alt]
+/cast [combat] Pummel
+/run mountup()
+END
+VER 3 0000000000002AE4 "sheal_fs" "spell_nature_healingtouch"
+/click PROT_SHEAL
+END
+VER 3 0000000000002AE0 "single_fs" "ability_searingarrow"
+/click PROT_SINGLE
+END
+VER 3 0000000000000032 "skull banner" "INV_Misc_QuestionMark"
+/cast skull banner
+END
+VER 3 0000000000001B78 "Snowy Owl" "254857"
+/target nethaera
+/run SetRaidTarget(“target”, 8)
+END
+VER 3 0000000000000205 "TANK" "ABILITY_WARRIOR_DEFENSIVESTANCE"
+/run DEFAULT_CHAT_FRAME:AddMessage("Tank SPec...");SetActiveTalentGroup(1) 
+/equipset [spec:1]tank
+END
+VER 3 00000000000002A4 "tom" "SPELL_FROST_ARCTICWINDS"
+/run local z,t="Jade Forest",{58.7,46.9,60.4,52.9,61.8,54.6,64,51.1,66.7,51.5,66.1,42.5,66.2,35.9,61.2,25.2,59.7,31.5,60.6,39.4}TomTom.waydb:ResetProfile()TomTom:ReloadWaypoints()for i=1,#t,2 do SlashCmdList["TOMTOM_WAY"](z.." "..t[i].." "..t[i+1])end
+END
+VER 3 000000000000029C "tracker" "INV_MISC_QUESTIONMARK"
+/run SAF = SpellActivationOverlayFrame FOS = "TEXTURES\\SPELLACTIVATIONOVERLAYS\\FURY_OF_STORMRAGE.BLP" SAS = SpellActivationOverlay_ShowOverlay SAH = SpellActivationOverlay_HideOverlays PSF=CreateFrame("FRAME")
+END
+VER 3 0000000000002AE2 "turbo_fs" "Spell_nature_lightning"
+/click MountJournalSummonRandomFavoriteButton
+END
+VER 3 00000000000023C5 "vanquisher" "1002599"
+/target vanquisher
+END
+VER 3 000000000000039F "ZygorAction1" "134400"
+END
+VER 3 0000000000001D2F "ZygorAction2" "134400"
+END
+VER 3 0000000000001D76 "ZygorAction3" "134400"
+END
+VER 3 0000000000001D77 "ZygorAction4" "134400"
+END
+VER 3 0000000000001D78 "ZygorAction5" "134400"
+END
+VER 3 0000000000001D79 "ZygorAction6" "134400"
+END

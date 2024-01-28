@@ -1,0 +1,41 @@
+
+GearingGuideDB1 = {
+	["profileKeys"] = {
+		["Eregwynn - Bonechewer"] = "Eregwynn - Bonechewer",
+		["Takasis - Nathrezim"] = "Takasis - Nathrezim",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Egbert - Bonechewer"] = "Egbert - Bonechewer",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Dragonstalkr - Nathrezim"] = "Dragonstalkr - Nathrezim",
+		["Wachuhunt - Illidan"] = "Wachuhunt - Illidan",
+		["Gâto - Illidan"] = "Gâto - Illidan",
+		["Menn - Bonechewer"] = "Menn - Bonechewer",
+		["Tazzwaz - Illidan"] = "Tazzwaz - Illidan",
+		["Delfarias - Bonechewer"] = "Delfarias - Bonechewer",
+	},
+	["profiles"] = {
+		["Eregwynn - Bonechewer"] = {
+		},
+		["Takasis - Nathrezim"] = {
+		},
+		["Mootalia - Illidan"] = {
+		},
+		["Egbert - Bonechewer"] = {
+		},
+		["Eversmîle - Illidan"] = {
+			["droppedItemLink"] = "|cffa335ee|Hitem:21582::::::::60:72::::::|h[Grasp of the Old God]|h|r",
+		},
+		["Dragonstalkr - Nathrezim"] = {
+		},
+		["Wachuhunt - Illidan"] = {
+		},
+		["Gâto - Illidan"] = {
+		},
+		["Menn - Bonechewer"] = {
+		},
+		["Tazzwaz - Illidan"] = {
+		},
+		["Delfarias - Bonechewer"] = {
+		},
+	},
+}

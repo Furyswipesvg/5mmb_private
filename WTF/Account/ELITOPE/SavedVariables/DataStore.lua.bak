@@ -1,0 +1,51 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Thislslt - Illidan"] = "Thislslt - Illidan",
+		["Anlmage - Nathrezim"] = "Anlmage - Nathrezim",
+		["Neeks - Illidan"] = "Neeks - Illidan",
+		["Palia - Nathrezim"] = "Palia - Nathrezim",
+		["Anlmage - Illidan"] = "Anlmage - Illidan",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Illidan.In Service of the Horde"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Drenden.Arthas Inc"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Suppressed"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Crushridge.Skunk Works"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Illidan.Anlmage"] = {
+				["guildName"] = "In Service of the Horde",
+				["faction"] = "Alliance",
+			},
+			["Default.Illidan.Neeks"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Palia"] = {
+				["guildName"] = "Skunk Works",
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.Thislslt"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Nathrezim.Anlmage"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Suppressed",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Nathrezim"] = "Nathrezim",
+			["Illidan"] = "Illidan",
+		},
+	},
+}

@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Loonkin|Bladefist|Horde|20|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Loonkin - Bladefist"] = "Loonkin - Bladefist",
+	},
+	["profiles"] = {
+		["Loonkin - Bladefist"] = {
+		},
+	},
+}

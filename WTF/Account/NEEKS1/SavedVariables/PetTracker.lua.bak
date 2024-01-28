@@ -1,0 +1,11 @@
+
+PetTracker_Sets = {
+	["mapSearch"] = "",
+	["tutorial"] = 12,
+	["capturedPets"] = false,
+	["mapFilter"] = "",
+	["hideSpecies"] = true,
+	["mainTutorial"] = 2,
+	["rivalHistory"] = {
+	},
+}

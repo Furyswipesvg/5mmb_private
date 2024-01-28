@@ -1,0 +1,43 @@
+
+DBMOnyxia_SavedVars = {
+	["Onyxia"] = {
+		["WarnPhase3Soon"] = true,
+		["HealthFrame"] = false,
+		["SoundWTF"] = false,
+		["Phase 2"] = true,
+		["Timer18435Onyxia0"] = true,
+		["Timer4406Onyxia5"] = true,
+		["Enabled"] = true,
+		["Announce"] = false,
+		["Breath!"] = true,
+		["SpeedKillTimer"] = false,
+		["Phase 3"] = true,
+		["Timer18584Onyxia1"] = true,
+		["WarnWhelpsSoon"] = true,
+		["Blast Nova - run away"] = true,
+		["Play \"run away\" sound for $spell:68958"] = true,
+		["TimerWhelps"] = true,
+		["Timer4405Onyxia4"] = true,
+		["Timer18584Onyxia2"] = true,
+		["WarnPhase2Soon"] = true,
+		["Play \"run away\" sound for $spell:18584"] = true,
+	},
+}
+DBMOnyxia_SavedStats = {
+	["Onyxia"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalBestTime"] = 135.1389999999956,
+		["normalPulls"] = 1,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["normalLastTime"] = 135.1389999999956,
+		["heroicKills"] = 0,
+		["challengePulls"] = 0,
+		["normal25Kills"] = 0,
+		["normalKills"] = 1,
+		["challengeKills"] = 0,
+		["lfr25Kills"] = 0,
+	},
+}

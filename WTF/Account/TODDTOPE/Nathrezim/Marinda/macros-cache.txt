@@ -1,0 +1,24 @@
+VER 3 0100000000000004 "dmg" "INV_MISC_QUESTIONMARK"
+/castsequence reset=15/combat Devouring Plague,Shadow Word: Pain,Mind Blast,holy fire,Mind Blast,holy fire,Mind Blast
+END
+VER 3 0100000000000002 "PI" "INV_MISC_QUESTIONMARK"
+/cast [target=player] power infusion
+/cast [nomod] flash heal
+/cast [mod:alt,target=player] flash heal
+/cast berserking
+/cast inner focus
+END
+VER 3 0100000000000003 "pi" "INV_MISC_QUESTIONMARK"
+/cast [nomod] penance
+/cast [mod:alt,target=player] penance
+/use 14
+END
+VER 3 0100000000000001 "renew" "INV_MISC_QUESTIONMARK"
+/cast [nomod] renew
+/cast [mod:alt,target=player] renew
+/cast [mod:alt,noflyable] tyrael's charger
+/cast [mod:ctrl] tyrael's charger
+END
+VER 3 0100000000000011 "wtb pet" "ACHIEVEMENT_GUILDPERK_BARTERING"
+/2 looking to buy Living Fluid and Viscous Horror 20k each
+END

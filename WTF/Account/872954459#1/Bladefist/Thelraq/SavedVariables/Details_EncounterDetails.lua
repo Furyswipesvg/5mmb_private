@@ -4,113 +4,12 @@ EncounterDetailsDB = {
 		[94] = {
 		},
 		[112] = {
-			["Raid Damage Done"] = {
-				578, -- [1]
-				211, -- [2]
-				474, -- [3]
-				827, -- [4]
-				163, -- [5]
-				218, -- [6]
-				142, -- [7]
-				698, -- [8]
-				213, -- [9]
-				477, -- [10]
-				649, -- [11]
-				309, -- [12]
-				28, -- [13]
-				143, -- [14]
-				960, -- [15]
-				125, -- [16]
-				530, -- [17]
-				["max_value"] = 960,
-				["__time"] = 1705629272,
-			},
 		},
 		[135] = {
-			["Raid Damage Done"] = {
-				328, -- [1]
-				409, -- [2]
-				150, -- [3]
-				184, -- [4]
-				584, -- [5]
-				184, -- [6]
-				581, -- [7]
-				239, -- [8]
-				202, -- [9]
-				801, -- [10]
-				106, -- [11]
-				530, -- [12]
-				342, -- [13]
-				138, -- [14]
-				249, -- [15]
-				350, -- [16]
-				494, -- [17]
-				117, -- [18]
-				754, -- [19]
-				341, -- [20]
-				535, -- [21]
-				278, -- [22]
-				230, -- [23]
-				987, -- [24]
-				411, -- [25]
-				182, -- [26]
-				["max_value"] = 987,
-				["__time"] = 1705630340,
-			},
 		},
 		[125] = {
-			["Raid Damage Done"] = {
-				362, -- [1]
-				329, -- [2]
-				212, -- [3]
-				455, -- [4]
-				163, -- [5]
-				379, -- [6]
-				217, -- [7]
-				91, -- [8]
-				432, -- [9]
-				22, -- [10]
-				390, -- [11]
-				98, -- [12]
-				71, -- [13]
-				213, -- [14]
-				142, -- [15]
-				414, -- [16]
-				320, -- [17]
-				799, -- [18]
-				534, -- [19]
-				["max_value"] = 799,
-				["__time"] = 1705629818,
-			},
 		},
 		[131] = {
-			["Raid Damage Done"] = {
-				513, -- [1]
-				123, -- [2]
-				169, -- [3]
-				205, -- [4]
-				39, -- [5]
-				377, -- [6]
-				401, -- [7]
-				225, -- [8]
-				361, -- [9]
-				896, -- [10]
-				247, -- [11]
-				379, -- [12]
-				324, -- [13]
-				8, -- [14]
-				87, -- [15]
-				99, -- [16]
-				5, -- [17]
-				592, -- [18]
-				50, -- [19]
-				234, -- [20]
-				312, -- [21]
-				774, -- [22]
-				326, -- [23]
-				["max_value"] = 896,
-				["__time"] = 1705630088,
-			},
 		},
 	},
 	["encounter_spells"] = {
@@ -308,13 +207,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coin-Operated Crowd Pummeler",
 		},
-		[268865] = {
-			["school"] = 64,
+		[258628] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Weapons Tester",
 		},
 		[31623] = {
 			["school"] = 1,
@@ -324,19 +221,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swamplord Musel'ek",
 		},
-		[258628] = {
+		[31566] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Swamplord Musel'ek",
 		},
-		[258622] = {
-			["school"] = 8,
+		[31946] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Azerokk",
+			["source"] = "Swamplord Musel'ek",
 		},
 		[271526] = {
 			["school"] = 1,
@@ -366,13 +264,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghaz'an",
 		},
-		[260811] = {
-			["school"] = 4,
+		[268865] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Weapons Tester",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -382,12 +280,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Claw",
 		},
-		[260323] = {
-			["school"] = 4,
+		[258622] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mogul Razdunk",
+			["source"] = "Azerokk",
 		},
 		[257582] = {
 			["school"] = 1,
@@ -407,12 +306,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azerite Footbomb",
 		},
-		[31946] = {
-			["school"] = 1,
+		[260323] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Swamplord Musel'ek",
+			["source"] = "Mogul Razdunk",
 		},
 		[268362] = {
 			["school"] = 4,
@@ -421,13 +320,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wanton Sapper",
 		},
-		[31566] = {
-			["school"] = 1,
+		[260811] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Swamplord Musel'ek",
+			["source"] = "Mogul Razdunk",
 		},
 		[34298] = {
 			["school"] = 1,

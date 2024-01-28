@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Chaostard"] = {
+			["GUID"] = "Player-9-09FD68D3",
+			["type"] = "Self",
+			["GuardianReverseGUIDs"] = {
+				["Yaznik"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-128-1-59-416-000028BE5D",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "WARLOCK",
+			["Name"] = "Chaostard",
+			["Pet"] = {
+				"Yaznik <Chaostard>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 166108.487,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

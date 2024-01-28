@@ -1,0 +1,103 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Starrsight - Nathrezim"] = "Starrsight - Nathrezim",
+		["Lunairias - Bonechewer"] = "Lunairias - Bonechewer",
+		["Stream - Nathrezim"] = "Stream - Nathrezim",
+		["Realmhoperyo - Tol Barad"] = "Realmhoperyo - Tol Barad",
+		["Palia - Nathrezim"] = "Palia - Nathrezim",
+		["Ee - Tol Barad"] = "Ee - Tol Barad",
+		["Fiddy - Tol Barad"] = "Fiddy - Tol Barad",
+		["Vw - Nathrezim"] = "Vw - Nathrezim",
+		["Hoverboard - Illidan"] = "Hoverboard - Illidan",
+		["Statue - Nathrezim"] = "Statue - Nathrezim",
+		["Severe - Nathrezim"] = "Severe - Nathrezim",
+		["Pumasucks - Kel'Thuzad"] = "Pumasucks - Kel'Thuzad",
+		["Gametimetoke - Illidan"] = "Gametimetoke - Illidan",
+		["Enhancethiss - Nathrezim"] = "Enhancethiss - Nathrezim",
+		["Ux - Cenarius"] = "Ux - Cenarius",
+	},
+	["profiles"] = {
+		["Starrsight - Nathrezim"] = {
+		},
+		["Lunairias - Bonechewer"] = {
+		},
+		["Stream - Nathrezim"] = {
+		},
+		["Realmhoperyo - Tol Barad"] = {
+		},
+		["Palia - Nathrezim"] = {
+		},
+		["Ee - Tol Barad"] = {
+		},
+		["Fiddy - Tol Barad"] = {
+		},
+		["Vw - Nathrezim"] = {
+		},
+		["Hoverboard - Illidan"] = {
+		},
+		["Statue - Nathrezim"] = {
+		},
+		["Severe - Nathrezim"] = {
+		},
+		["Pumasucks - Kel'Thuzad"] = {
+		},
+		["Gametimetoke - Illidan"] = {
+		},
+		["Enhancethiss - Nathrezim"] = {
+		},
+		["Ux - Cenarius"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Starrsight - Nathrezim"] = "Starrsight - Nathrezim",
+		["Lunairias - Bonechewer"] = "Lunairias - Bonechewer",
+		["Stream - Nathrezim"] = "Stream - Nathrezim",
+		["Realmhoperyo - Tol Barad"] = "Realmhoperyo - Tol Barad",
+		["Palia - Nathrezim"] = "Palia - Nathrezim",
+		["Ee - Tol Barad"] = "Ee - Tol Barad",
+		["Fiddy - Tol Barad"] = "Fiddy - Tol Barad",
+		["Vw - Nathrezim"] = "Vw - Nathrezim",
+		["Hoverboard - Illidan"] = "Hoverboard - Illidan",
+		["Statue - Nathrezim"] = "Statue - Nathrezim",
+		["Severe - Nathrezim"] = "Severe - Nathrezim",
+		["Pumasucks - Kel'Thuzad"] = "Pumasucks - Kel'Thuzad",
+		["Gametimetoke - Illidan"] = "Gametimetoke - Illidan",
+		["Enhancethiss - Nathrezim"] = "Enhancethiss - Nathrezim",
+		["Ux - Cenarius"] = "Ux - Cenarius",
+	},
+	["profiles"] = {
+		["Starrsight - Nathrezim"] = {
+		},
+		["Lunairias - Bonechewer"] = {
+		},
+		["Stream - Nathrezim"] = {
+		},
+		["Realmhoperyo - Tol Barad"] = {
+		},
+		["Palia - Nathrezim"] = {
+		},
+		["Ee - Tol Barad"] = {
+		},
+		["Fiddy - Tol Barad"] = {
+		},
+		["Vw - Nathrezim"] = {
+		},
+		["Hoverboard - Illidan"] = {
+		},
+		["Statue - Nathrezim"] = {
+		},
+		["Severe - Nathrezim"] = {
+		},
+		["Pumasucks - Kel'Thuzad"] = {
+		},
+		["Gametimetoke - Illidan"] = {
+		},
+		["Enhancethiss - Nathrezim"] = {
+		},
+		["Ux - Cenarius"] = {
+		},
+	},
+}

@@ -1,0 +1,27 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Dungeonrunna - Illidan"] = "Dungeonrunna - Illidan",
+		["Avenge - Nathrezim"] = "Avenge - Nathrezim",
+		["Mootalia - Illidan"] = "Mootalia - Illidan",
+		["Felslaughter - Illidan"] = "Felslaughter - Illidan",
+		["Anldol - Illidan"] = "Anldol - Illidan",
+		["Anldol - Nathrezim"] = "Anldol - Nathrezim",
+		["Eversmîle - Illidan"] = "Eversmîle - Illidan",
+		["Brokeurarmor - Illidan"] = "Brokeurarmor - Illidan",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Anldol"] = {
+				["lastUpdate"] = 1604465202,
+			},
+			["Default.Nathrezim.Anldol"] = {
+				["lastUpdate"] = 1603512007,
+			},
+			["Default.Illidan.Mootalia"] = {
+				["lastUpdate"] = 1608179711,
+				["lastVisitDate"] = "2020/05/09 18:05",
+			},
+		},
+	},
+}

@@ -109,9 +109,7 @@ VER 3 000000000000078B "REZ_FS_WINDWALKER" "INV_Misc_QuestionMark"
 END
 VER 3 000000000000078D "SETUP_FS_WINDWALKER" "Spell_magic_polymorphchicken"
 #showtooltip
-/click [button:1] SETUP_FS_WINDWALKER LeftButton t;
-/petpassive [mod:alt]
-/stopcasting [mod:alt]
+/click [button:1] SETUP_FS_WINDWALKER LeftButton t; SETUP_FS_WINDWALKER
 END
 VER 3 0000000000000792 "SHEAL_FS_WINDWALKER" "spell_nature_healingtouch"
 #showtooltip
@@ -131,7 +129,12 @@ END
 VER 3 0000000000000796 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
-VER 3 0000000000000797 "ZygorAction1" "134400"
+VER 3 0000000000000797 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
 END
 VER 3 0000000000000798 "ZygorAction2" "134400"
 END

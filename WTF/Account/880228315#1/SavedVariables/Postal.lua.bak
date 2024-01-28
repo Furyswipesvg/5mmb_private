@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Mcstabinator - Bladefist"] = "Mcstabinator - Bladefist",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Mcstabinator|Bladefist|Horde|12|ROGUE", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Mcstabinator - Bladefist"] = {
+		},
+	},
+}

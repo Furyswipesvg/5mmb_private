@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Brolly|Bladefist|Horde|11|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Brolly - Bladefist"] = "Brolly - Bladefist",
+	},
+	["profiles"] = {
+		["Brolly - Bladefist"] = {
+		},
+	},
+}

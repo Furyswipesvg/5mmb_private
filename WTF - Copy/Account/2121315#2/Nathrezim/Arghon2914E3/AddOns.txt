@@ -1,2 +1,0 @@
-ZygorGuidesViewer: enabled
-Postal: disabled

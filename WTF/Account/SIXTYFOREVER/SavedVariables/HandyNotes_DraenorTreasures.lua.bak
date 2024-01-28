@@ -1,0 +1,10 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Basilar - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

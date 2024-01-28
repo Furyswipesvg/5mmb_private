@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Springvalley|Bladefist|Horde|20|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Springvalley - Bladefist"] = "Springvalley - Bladefist",
+	},
+	["profiles"] = {
+		["Springvalley - Bladefist"] = {
+		},
+	},
+}
