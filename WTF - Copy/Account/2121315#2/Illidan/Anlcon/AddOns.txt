@@ -1,0 +1,6 @@
+Altoholic: disabled
+DataStore: disabled
+TidyPlates: disabled
+ZygorGuidesViewer: disabled
+DBM-Core: disabled
+DBM-DefaultSkin: disabled

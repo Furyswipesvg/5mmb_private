@@ -1,0 +1,50 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Pawsnreflect - Nathrezim"] = "Default",
+		["Anlronclad - Nathrezim"] = "Default",
+		["Hah - Nathrezim"] = "Default",
+		["Stabsya - Illidan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-44.07189178466797, -- [4]
+					42.15552139282227, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPRIGHT", -- [1]
+					nil, -- [2]
+					"TOPRIGHT", -- [3]
+					-12.95279979705811, -- [4]
+					-174.3645935058594, -- [5]
+				},
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Pawsnreflect - Nathrezim"] = "Pawsnreflect - Nathrezim",
+		["Anlronclad - Nathrezim"] = "Anlronclad - Nathrezim",
+		["Hah - Nathrezim"] = "Hah - Nathrezim",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+	},
+	["profiles"] = {
+		["Pawsnreflect - Nathrezim"] = {
+		},
+		["Anlronclad - Nathrezim"] = {
+		},
+		["Hah - Nathrezim"] = {
+		},
+		["Stabsya - Illidan"] = {
+		},
+	},
+}

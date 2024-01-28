@@ -1,0 +1,31 @@
+
+DataStore_RaresDB = {
+	["profileKeys"] = {
+		["Anlcon - Nathrezim"] = "Anlcon - Nathrezim",
+		["Me - Nathrezim"] = "Me - Nathrezim",
+		["Anlcon - Illidan"] = "Anlcon - Illidan",
+		["Cheat - Cenarius"] = "Cheat - Cenarius",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Nathrezim.Me"] = {
+				["Rares"] = {
+					[120899] = {
+						["resetTime"] = 26558,
+						["name"] = "Kul'krazahn",
+					},
+				},
+				["lastUpdate"] = 1607845041,
+			},
+			["Default.Illidan.Anlcon"] = {
+				["lastUpdate"] = 1607638996,
+			},
+			["Default.Nathrezim.Anlcon"] = {
+				["lastUpdate"] = 1603511496,
+			},
+			["Default.Cenarius.Cheat"] = {
+				["lastUpdate"] = 1606175386,
+			},
+		},
+	},
+}

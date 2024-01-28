@@ -1,0 +1,157 @@
+VER 3 0000000000000B06 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Jerkstore
+END
+VER 3 0000000000000B07 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Toofy
+END
+VER 3 0000000000000B08 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 0000000000000B09 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Goodlivin
+END
+VER 3 0000000000000B0A "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Loonkin
+END
+VER 3 0000000000000B0B "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Chaostard
+END
+VER 3 0000000000000B1C "AOE_FS_GUARDIAN" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_GUARDIAN LeftButton t;
+END
+VER 3 0000000000000B1F "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 0000000000000B15 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000AFD "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 0000000000000AFF "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Jerkstore
+/run SetView(4)
+END
+VER 3 0000000000000B00 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Toofy
+/run SetView(4)
+END
+VER 3 0000000000000B01 "f3_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000B02 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Goodlivin
+/run SetView(4)
+END
+VER 3 0000000000000B03 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Loonkin
+/run SetView(4)
+END
+VER 3 0000000000000B04 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Chaostard
+/run SetView(4)
+END
+VER 3 0000000000000AFE "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000B0C "h1_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Jerkstore] Regrowth
+END
+VER 3 0000000000000B0D "h2_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Toofy] Regrowth
+END
+VER 3 0000000000000B0E "h3_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Furyswipes] Regrowth
+END
+VER 3 0000000000000B0F "h4_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Goodlivin] Regrowth
+END
+VER 3 0000000000000B10 "h5_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Loonkin] Regrowth
+END
+VER 3 0000000000000B11 "h6_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [noform:1,@Chaostard] Regrowth
+END
+VER 3 0000000000000B20 "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 0000000000000B05 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000B1E "int_fs" "INV_Misc_Questionmark"
+/cast Mighty Bash
+END
+VER 3 0000000000000B14 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000B12 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Toofy
+END
+VER 3 0000000000000B1A "MULTI_FS_GUARDIAN" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_GUARDIAN LeftButton t;
+END
+VER 3 0000000000000AFC "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000000B17 "poly_fs" "INV_Misc_QuestionMark"
+/cast Hibernate
+END
+VER 3 0000000000000B13 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000B16 "REZ_FS_GUARDIAN" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] REZ_FS_GUARDIAN LeftButton t; REZ_FS_GUARDIAN
+END
+VER 3 0000000000000B18 "SETUP_FS_GUARDIAN" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_GUARDIAN LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 0000000000000B1D "SHEAL_FS_GUARDIAN" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_GUARDIAN LeftButton t;
+END
+VER 3 0000000000000B19 "SINGLE_FS_GUARDIAN" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_GUARDIAN LeftButton t;
+END
+VER 3 0000000000000B1B "TURBO_FS_GUARDIAN" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_GUARDIAN LeftButton t;
+/petpassive [mod:alt]
+/cancelform [nocombat]
+/run mountup()
+/run SetView(4)
+END
+VER 3 0000000000000B21 "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END
+VER 3 0000000000000AC7 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 0000000000000AC8 "ZygorAction2" "134400"
+END

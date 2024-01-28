@@ -1,0 +1,15 @@
+Version: 1
+Frame: ZygorPetBattleFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -10
+Y: -125
+W: 450
+H: 600
+Frame: ZygorGuidesViewerFrame
+FrameLevel: 2
+Anchor: CENTER
+X: 140
+Y: -95
+W: 320
+H: 230

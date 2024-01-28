@@ -1,0 +1,13 @@
+
+AutoTurnInDB = {
+	["profileKeys"] = {
+		["Spadoink - Bladefist"] = "Spadoink - Bladefist",
+		["Barey - Bladefist"] = "Barey - Bladefist",
+	},
+	["profiles"] = {
+		["Spadoink - Bladefist"] = {
+		},
+		["Barey - Bladefist"] = {
+		},
+	},
+}

@@ -1,0 +1,125 @@
+VER 3 0000000000000A5B "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Thelnsane
+END
+VER 3 0000000000000A5C "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 0000000000000A5D "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Elonlnside
+END
+VER 3 0000000000000A5E "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Thelraq
+END
+VER 3 0000000000000A5F "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Eversmile
+END
+VER 3 0000000000000A60 "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Chaostard
+END
+VER 3 0000000000000A6B "AOE_FS_FIRE" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_FIRE LeftButton t;
+END
+VER 3 0000000000000A65 "bufft_fs" "INV_Misc_QuestionMark"
+/castsequence reset=combat/target Arcane Intellect
+END
+VER 3 0000000000000A6E "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 0000000000000A64 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000A52 "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 0000000000000A54 "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Thelnsane
+/run SetView(4)
+END
+VER 3 0000000000000A55 "f2_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000A56 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Elonlnside
+/run SetView(4)
+END
+VER 3 0000000000000A57 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Thelraq
+/run SetView(4)
+END
+VER 3 0000000000000A58 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Eversmile
+/run SetView(4)
+END
+VER 3 0000000000000A59 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Chaostard
+/run SetView(4)
+END
+VER 3 0000000000000A53 "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000A6F "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 0000000000000A5A "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000A6D "int_fs" "INV_Misc_Questionmark"
+/cast Counterspell
+END
+VER 3 0000000000000A63 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000A61 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Thelnsane
+END
+VER 3 0000000000000A69 "MULTI_FS_FIRE" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_FIRE LeftButton t;
+END
+VER 3 0000000000000A51 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000000A66 "poly_fs" "INV_Misc_QuestionMark"
+/cast Polymorph
+END
+VER 3 0000000000000A62 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000A67 "SETUP_FS_FIRE" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_FIRE LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 0000000000000A6C "SHEAL_FS_FIRE" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_FIRE LeftButton t;
+END
+VER 3 0000000000000A68 "SINGLE_FS_FIRE" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_FIRE LeftButton t;
+END
+VER 3 0000000000000A6A "TURBO_FS_FIRE" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_FIRE LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END
+VER 3 0000000000000A70 "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END
+VER 3 0000000000000A71 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 0000000000000A72 "ZygorAction2" "134400"
+END

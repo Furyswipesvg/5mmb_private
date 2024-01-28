@@ -1,0 +1,10 @@
+VER 3 0100000000000001 "hide" "132166"
+/script MultiBar5:Hide()
+END
+VER 3 0100000000000002 "unhide" "458976"
+/script MainMenuBar:Show();
+/script MultiBarBottomLeft:Show();
+/script MultiBarBottomRight:Show();
+/script MultiBarRight:Show();
+/script MultiBarLeft:Show();
+END

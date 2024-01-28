@@ -1,0 +1,165 @@
+VER 3 0000000000000110 "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Frawshawwk
+END
+VER 3 0000000000000107 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Furyswipes
+END
+VER 3 0000000000000108 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Badoinker
+END
+VER 3 0000000000000109 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Springvalley
+END
+VER 3 000000000000010A "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Elonlnside
+END
+VER 3 000000000000010B "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Skullspriest
+END
+VER 3 000000000000010C "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Getln
+END
+VER 3 000000000000010D "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Deadlnside
+END
+VER 3 000000000000010E "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Orclaw
+END
+VER 3 000000000000010F "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Maladin
+END
+VER 3 000000000000011C "AOE_FS_MARKSMANSHIP" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 000000000000011F "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 0000000000000114 "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 00000000000000FA "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 0000000000000105 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Frawshawwk
+/run SetView(4)
+END
+VER 3 00000000000000FC "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Furyswipes
+/run SetView(4)
+END
+VER 3 00000000000000FD "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Badoinker
+/run SetView(4)
+END
+VER 3 00000000000000FE "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Springvalley
+/run SetView(4)
+END
+VER 3 00000000000000FF "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Elonlnside
+/run SetView(4)
+END
+VER 3 0000000000000100 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Skullspriest
+/run SetView(4)
+END
+VER 3 0000000000000101 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
+/run SetView(4)
+END
+VER 3 0000000000000102 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Deadlnside
+/run SetView(4)
+END
+VER 3 0000000000000103 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Orclaw
+/run SetView(4)
+END
+VER 3 0000000000000104 "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Maladin
+/run SetView(4)
+END
+VER 3 0000000000000116 "feed_fs" "INV_Misc_QuestionMark"
+/cast [pet] Feed Pet
+/use 0 1
+/run ClearCursor()
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+END
+VER 3 0000000000000115 "feign_fs" "INV_Misc_QuestionMark"
+/petfollow
+/petpassive
+/stopattack
+/cast Freezing Trap
+/cast Feign Death
+END
+VER 3 00000000000000FB "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000120 "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 0000000000000106 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 000000000000011E "int_fs" "INV_Misc_Questionmark"
+/cast Counter Shot
+END
+VER 3 0000000000000113 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000111 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Doinkado
+END
+VER 3 000000000000011A "MULTI_FS_MARKSMANSHIP" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 00000000000000F9 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 0000000000000117 "poly_fs" "INV_Misc_QuestionMark"
+/cast Freezing Trap
+END
+VER 3 0000000000000112 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000118 "SETUP_FS_MARKSMANSHIP" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_MARKSMANSHIP LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 000000000000011D "SHEAL_FS_MARKSMANSHIP" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 0000000000000119 "SINGLE_FS_MARKSMANSHIP" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_MARKSMANSHIP LeftButton t;
+END
+VER 3 00000000000000F8 "squads_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp("squads")
+END
+VER 3 000000000000011B "TURBO_FS_MARKSMANSHIP" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_MARKSMANSHIP LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END
+VER 3 00000000000000F7 "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END

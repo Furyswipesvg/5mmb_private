@@ -1,0 +1,140 @@
+VER 3 000000000000077D "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 000000000000077E "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Chaostard
+END
+VER 3 000000000000077F "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Opmageikr
+END
+VER 3 0000000000000780 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Werldpiece
+END
+VER 3 0000000000000781 "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Cokecoke
+END
+VER 3 0000000000000791 "AOE_FS_WINDWALKER" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_WINDWALKER LeftButton t;
+END
+VER 3 0000000000000794 "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 000000000000078A "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000775 "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 0000000000000777 "f1_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000778 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Chaostard
+/run SetView(4)
+END
+VER 3 0000000000000779 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Opmageikr
+/run SetView(4)
+END
+VER 3 000000000000077A "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Werldpiece
+/run SetView(4)
+END
+VER 3 000000000000077B "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Cokecoke
+/run SetView(4)
+END
+VER 3 0000000000000776 "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000782 "h1_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Punkmunk] Vivify
+END
+VER 3 0000000000000783 "h2_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Chaostard] Vivify
+END
+VER 3 0000000000000784 "h3_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Opmageikr] Vivify
+END
+VER 3 0000000000000785 "h4_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Werldpiece] Vivify
+END
+VER 3 0000000000000786 "h5_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Cokecoke] Vivify
+END
+VER 3 0000000000000795 "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 000000000000077C "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000793 "int_fs" "INV_Misc_Questionmark"
+/cast Leg Sweep
+END
+VER 3 0000000000000789 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000787 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+END
+VER 3 000000000000078F "MULTI_FS_WINDWALKER" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_WINDWALKER LeftButton t;
+END
+VER 3 0000000000000774 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 000000000000078C "poly_fs" "INV_Misc_QuestionMark"
+/cast Paralysis
+END
+VER 3 0000000000000788 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 000000000000078B "REZ_FS_WINDWALKER" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] REZ_FS_WINDWALKER LeftButton t; REZ_FS_WINDWALKER
+END
+VER 3 000000000000078D "SETUP_FS_WINDWALKER" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_WINDWALKER LeftButton t; SETUP_FS_WINDWALKER
+END
+VER 3 0000000000000792 "SHEAL_FS_WINDWALKER" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_WINDWALKER LeftButton t;
+END
+VER 3 000000000000078E "SINGLE_FS_WINDWALKER" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_WINDWALKER LeftButton t;
+END
+VER 3 0000000000000790 "TURBO_FS_WINDWALKER" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_WINDWALKER LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END
+VER 3 0000000000000796 "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END
+VER 3 0000000000000797 "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 0000000000000798 "ZygorAction2" "134400"
+END

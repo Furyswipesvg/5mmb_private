@@ -1,0 +1,21 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box mbrogbash01@maildrop.cc	iso2tope	rogue flashmob-bladefist		melee
+box mbrogbash02@maildrop.cc	iso2tope	rogue shivlt-bladefist		melee
+box mbrogbash03@maildrop.cc	iso2tope	rogue healmesucka-bladefist		melee
+box mbrogbash04@maildrop.cc	iso2tope	rogue nowudunit-bladefist		melee
+box mbrogbash05@maildrop.cc	iso2tope	rogue notbanned-bladefist		melee
+box mbrogbash06@maildrop.cc	iso2tope	rogue inyoface-bladefist		melee
+box mbrogbash07@maildrop.cc	iso2tope	rogue havingfun-bladefist		melee
+#box mbrogbash08@maildrop.cc	iso2tope	rogue everland-bladefist		melee
+#box mbrogbash09@maildrop.cc	iso2tope	rogue defconsix-bladefist		melee
+#box mbrogbash10@maildrop.cc	iso2tope	rogue skinnygirl-bladefist		melee
+box mbrogbash11@maildrop.cc	iso2tope	rogue faceplant-bladefist		melee
+box mbrogbash12@maildrop.cc	iso2tope	rogue wyominger-bladefist		melee
+box mbrogbash13@maildrop.cc	iso2tope	rogue islandboy-bladefist		melee
+
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster

@@ -1,0 +1,52 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Anlcon - Nathrezim"] = "Anlcon - Nathrezim",
+		["Nowayout - Illidan"] = "Nowayout - Illidan",
+		["Anlcon - Illidan"] = "Anlcon - Illidan",
+		["Cheat - Cenarius"] = "Cheat - Cenarius",
+		["Me - Nathrezim"] = "Me - Nathrezim",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Arathor.Soulless Evisceration"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Suppressed"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Paid in Blood"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.In Service of the Horde"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Illidan.Nowayout"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Cenarius.Cheat"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Illidan.Anlcon"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "In Service of the Horde",
+			},
+			["Default.Nathrezim.Anlcon"] = {
+				["guildName"] = "Suppressed",
+				["faction"] = "Alliance",
+			},
+			["Default.Nathrezim.Me"] = {
+				["guildName"] = "Paid in Blood",
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Cenarius"] = "Cenarius",
+			["Illidan"] = "Illidan",
+			["Nathrezim"] = "Nathrezim",
+		},
+	},
+}

@@ -1,0 +1,42 @@
+
+AdvancedInterfaceOptionsSaved = {
+	["CustomVars"] = {
+	},
+	["DBVersion"] = 3,
+	["ModifiedCVars"] = {
+		["statustextdisplay"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:847",
+		["autointeract"] = "Interface/AddOns/AdvancedInterfaceOptions/browser.lua:98",
+		["statustext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:846",
+		["nameplateshowfriends"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:840",
+		["uiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:835",
+		["autolootdefault"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:848",
+		["rotateminimap"] = "Interface/FrameXML/Minimap.lua:352",
+		["autoselfcast"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:854",
+		["advjournallastopened"] = "Interface/FrameXML/MainMenuBarMicroButtons.lua:1206",
+		["enablefloatingcombattext"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:841",
+		["showtargetoftarget"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:857",
+		["renderscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:837",
+		["raidoptionisshown"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"*Blizzard_CompactRaidFrameManager.xml:304_OnClick\"]:2: in function <[string \"*Blizzard_CompactRaidFrameManager.xml:304_O...\"]:1>\n:(unhandled exception)",
+		["showtutorials"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:855",
+		["alwaysshowactionbars"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:838",
+		["showclasscolorinfriendlynameplate"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:856",
+		["petjournaltab"] = "Interface/FrameXML/UIParent.lua:2275",
+		["deselectonclick"] = "Interface/FrameXML/SettingDefinitions/Controls.lua:54",
+		["nameplatemotion"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:853",
+		["softtargetinteract"] = "Interface/FrameXML/SettingDefinitions/Controls.lua:96",
+		["nameplateshowenemies"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:839",
+		["libopenraidtempcachedebug"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:251",
+		["gametip"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:845",
+		["autoquestwatch"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:844",
+		["miniworldmap"] = "Interface/FrameXML/QuestLogOwnerMixin.lua:78",
+		["lootundermouse"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:852",
+		["libopenraidtempcache"] = "Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:260",
+		["blockchannelinvites"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:850",
+		["useuiscale"] = "Interface/AddOns/Furyswipes_5mmb/Furyswipes_5mmb.lua:836",
+	},
+	["CharVars"] = {
+	},
+	["AccountVars"] = {
+	},
+	["EnforceSettings"] = false,
+}

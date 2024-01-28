@@ -1,0 +1,20 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Anlronclad - Nathrezim"] = "Anlronclad - Nathrezim",
+		["Anlronclad - Illidan"] = "Anlronclad - Illidan",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+		["Hah - Nathrezim"] = "Hah - Nathrezim",
+		["Pawsnreflect - Nathrezim"] = "Pawsnreflect - Nathrezim",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Illidan.Anlronclad"] = {
+				["lastUpdate"] = 1604262391,
+			},
+			["Default.Nathrezim.Anlronclad"] = {
+				["lastUpdate"] = 1603512251,
+			},
+		},
+	},
+}

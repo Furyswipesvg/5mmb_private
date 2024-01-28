@@ -1,0 +1,29 @@
+
+BattlePetCageMatch_Data = {
+	["Cenarius"] = {
+		["Cheat"] = {
+		},
+	},
+	["Illidan"] = {
+		["Nowayout"] = {
+		},
+		["Anlcon"] = {
+		},
+	},
+	["Nathrezim"] = {
+		["Me"] = {
+		},
+	},
+}
+BattlePetCageMatch_Options = {
+	["profileKeys"] = {
+		["Cheat - Cenarius"] = "Default",
+		["Nowayout - Illidan"] = "Default",
+		["Anlcon - Illidan"] = "Default",
+		["Me - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

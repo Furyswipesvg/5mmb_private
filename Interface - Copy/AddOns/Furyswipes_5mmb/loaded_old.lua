@@ -1,0 +1,353 @@
+
+	-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+local ModName, Sequences = ...
+local GSE = GSE
+---- PRINT MISSING GSE
+	if GSE == nil then
+	print("Addon requires GSE3. You can get it from Curseforge @https://www.curseforge.com/wow/addons/gse-gnome-sequencer-enhanced-advanced-macros")
+	return;
+	end
+local L = GSE.L
+local Statics = GSE.Static
+local GSEPlugin = LibStub("AceAddon-3.0"):NewAddon(ModName, "AceEvent-3.0")
+-----------------------------------------------------------------------------
+
+if GSE.isEmpty(Sequences) then
+  local Sequences = {}
+end
+
+-----------------------------------------------------------------------------
+
+---- Put the macros here [[MACRO HERE]]
+---- We are storing more detail to give more control.
+---- To find the ClassID - /gse showspec will tell you what the ClassID and SpecID is for your character
+
+Sequences["SINGLE_FS_FURY"] = {
+  ["Macro"] = [[di0fdaWleAyuvDmfTmP8mjX0usUgfX2aW3OOmoLu15uvX6uvOdsPfcupKI0ebuxueBKQ0hPcgjaDsLQvcIxQQGzsL0nPsStu9tvfzOkP0rLKwkvLNcnvrDvQiBLk0xvvQZQQK3sr1DPIAVK)QQQbJsDyvwSs8yumzQIlJ0MbKpJGrtL60s1RbPzls3gLSBf(nfgUK64kPYYr0ZvLPlCDLY2vvuFxvLopqwVskMpO2VeRPYIpfI7ChCn5Vx8VxN89L4nLf6YXqA8uw8PYcD8i73sk9PSqikl(uiX4ijqd6GYcuHT5dd3hjlNn3d984S4nHeFXrgxehduXRiKiZ9IcBZzz45JxA4CHD(2gHcfcTmr3y8uw8PYIpfwGlWqkWfyXBcjYCVOWUYQvT1lmdQMk0YeDJHcXBkl(uybUadPaxGfVjKiZ9Ic7wLFAnHzq1uHwMOBmuiEfLfFkSaxGHuGlWI3esK5ErH9CfaReMbvtfAzIUXqH4Ruw8PWcCbgsbUalEtirM7ff2ntaWeHzq1uHwMOBmuOq4(yzRNgoEK9BjL(uwOV(Gqtlcn1G1YfcSWmzFaLgtbwyMSpGsJMalKtzGQfHasppAriyAAOfH(6dctTOqHcHUEVWPApxq9iS5Vvz2M)mnBcqdaHFtpO2nY7PScHUqJd4loLfcinToTpGk07gjO3V9A6ty(sPJ4jemHelqBF46RjXsyTT1z5adU5MfqMbO1ATwR1ATvjqaTjUt6vr)w37v3DNS7dXDi(sqOFFqGqaAI1AtQw1k0UfUnif6DJe073En9j0bmXrk5RBmeVY0KPqxUX2LUpck5NPJOBmeyH8JfviUZDW1K)EX)EDY3xctgazqYqn1Gv9f3spThGeyHastRfkeRPm7alUznH5pzQ4t)(B(9leykq3wAi(uHcfsa]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["SETUP_FS_FURY"] = {
+  ["Macro"] = [[d8dccaWyrSEqKxQc6TuvTnQcDyjZKkH7kunBenFb6MQi)saFJQsNJkP2Pu2lz3k1(fPFsLI)kOghvsonqdvL0GfKHRkoi0NbHJPKJdIAHQklLQulwiwoGhQc8ukldHNROjcktvutwv10rDrvPRcQUmsxxQSrqARQuTzHY2PsvFKQGVsLktJkrFNkLwhvfdJkgTkQNPsCsvOZsvY1Ok68cPxRs52sv)wH1sz1wYS3m8RHHAHHc3BVuJqzzNQeGXuz1wkl7EbawriPtLL9PSAlzb4cackt30(OPH8VhNlG(4()P1FC1iKfyYfaxmxj3elwgMWGJ9uz1wkR2swGjpEkMRKBPH83p(9Pi54Qrilqsn50q(3J(XVpfjhpn0YXrTlYsdMg8lnyAqz5Opuzycdo2Ifl74oshijFVaaRiK0PYIflwMlQjd)5Vy6VmchIllILRxE0XLE6kzUJw3WoGAQSyzNOCbR4szz5IKU5PSpiEXyDhwGq6fH4kbKXgSpIZ9X8fgIiIiIiIiIiIiIiIiIiIiIikd74Zdazq7aIoDl4dDkZd27DkWeCSv7YYthzNQDxrECZua3t3m4yRpzWOXQoswTLS3DSbqc9Gr)tXveqsqoQ(Kzp0KJWuZxczz3CGAlhhchhzTQNkZEZWVggQfgkCV9sSyXs]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["TURBO_FS_FURY"] = {
+  ["Macro"] = [[dWJXbaGEeLEjcQ3Ia9AeKzkinBO6XuQBkL8lPIBJkoSs7uO9s2TO2ps1pLQ8xuYVHYarigkcLbJcdhPCqv3fbCmrooIuluGLIIwmGwoQ6HiQEkvltHNROjcWuPyYirtxYfrsxfipdOUoO2iQ0wfuBgLA7iu9rerFfrXNLcBdH0PbzyuYOLs9nPQoPuPZkiUMu05rctdrYLHCoeHvsgftYnGyg0JfxNfxqmdrXHmYBT28ytzumjJ8Wlp0cehnLrL8Bxqy5PmkMKrXK8o27SOZGG2yCaUfbOZyy1S)qXH8oWteDgjWkcwEh4jIoJePKBOGgs(TliSSkvY7MbcdHxHxEOfioAkJkvQKtg0sOdZVtzujp0DwGOr5wikLpSgGtJejse1Q5aS8wOAbS1kJCZIJY1uEqdQNnmHxiYs9ni2G0pciy0Md7(a())))))))))))))))LF4QngVCtBeEEUzercweEd4SCs6udJ4NqyzfbNAAjV1MHx8U5cXtCuUGWYkqoae7fgVumjpUCqYnGyg0JfxNfxqmdrUtdz3fGI9hYn9ixXKL1WYso1mBmEBe5yCOT1cechQOqbQuPsc]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["SHEAL_FS_FURY"] = {
+  ["Macro"] = [[b4vmErLxofJxtnfsffetFz0uFzuvsLLxojJxu51unf2yY92CErLxofJxu51uwfMCPfMySv2CErLx051ubngDP9MBZ5fvE5umErLxofJxt9sDZvMFGT1yV1MyHrxx(bMFGvgEWvgzPrxAV5MFGHwzHXwAUDMFGb3B0L2BU51uuLhCL51ubngDP9MBErNx051uj5My1LgB0zvyYLwyIXwzZ5fvErNx05fDEnftHnhDvbhzHrxzK51uYaJmZeJmYatmWqJnYeJxtDvzHTwq1jxyZ5fvErNxt1uz0fgrHrxyErLxtrvySvMB0nNxt51ubvhDO9MCEnfvOvgBUnxyUvgqcXwyKvMzPnhDEn1rtvKvLj3CP9MBE50mXutmEnvtH5wDHXwsUrxzYzxzUrxAV5Mxc51uofwBL51utHurbX0xgn1xgvLuz51uf5MzVj3yLn0BTbxy0fMyPXwA0LNxc51utbxzJLerE5um0qJnEnfvpnKxofdmWidmW41uevMzHvhB05LtX4fDErNx05Lx]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["MULTI_FS_FURY"] = {
+  ["Macro"] = [[d4dFcaGEPe9sPaVvQKTbk9yGMjiCyvMTQQ5ROBkI(fv4BGO7kvyNqTx0UvY(PQFkfQ)Qa)gIHjcdvkIblsnCf6GKonGJjPJlf0cfvlvkvlwvy5q6Hsf9ukltINRutuumvIMScA6cxuQQRkkDzcxxvzJIKTcsTzPkBxkHpkfPVkfvFwv03LczCsrzAGQrdsEgv0jPsDwPKUgO48QsNtQuVwkLBtLmRusCLwYSqiDpiLniv22BL4cL0sEGOiBkjUsjnOpuG7XVytjTCkjUsZrCOpfHyjC96t31cbQd1vhDnuCd7G4cnh74qJlIdSngmOPGbaYAtjXvkjUsZb4TdFANWHxAgXfA(PFM7N(jn57OGMcgailgexOK4kn)0pZ9t)K4cnhG3o8PRWHfon57OGMcgailge7KsIR08t)m3p9tIl0CaE7WNUadSWqt(okOPGbaYIbXWPK4kn)0pZ9t)K4cnhG3o8Plo7UuOjFhf0uWaazXGbn3RhFa)b0hkW94xSPKbdg0G42r2XHxigsRKO4SwQDxHSwHdlTMlU20p0BtjdAjfXL5IJsAY7xSInT8N91EFn4aAzF9ztknuXzYlq5QhKzuvvvvvvvvvvvvvvvvvvvvvvA6xafckTuFOV7gbmk20AQ1hAb6gazrSZkmvAjV1397Efc0wiwbaYI50Yi6DF)bXvA9x9qqbfDI4A8I7bWpq8YCA2Oa0DgIHSqt24ojUMirjrcA4ZLGwYSqiDpiLniv22BLbdgK]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["AOE_FS_FURY"] = {
+  ["Macro"] = [[d8dLcaWyGwVQu9sfG3cP8AfkhwQzQa16uanBvX8vXnHG7cjUnu5BqQ2jH9I2TkTFI(jeAycYVb1PbzOkqgmadxjoiPZPq1XK0Xvq1cLOLQkLfROSCbEOIONs1Ye55k1eLGPkQjlOMoLlcvDvOWLf66kPnkH2ku0MvLSDfcFubLVQG0NHK(UcrJtbXZuvgnezAqPtcrDwfsxtr15b0FvK(LQQTPimRmtrLUIi(Pf9PfX4TrPiXmDeAWa4nZuuzMoMDaup7jUzMEjZuuP)d2BtcanCWHhy)yOiby961Oir)36auJw8gXbucaTlmsDaouqlCSdJcfF0)3whyTzn4y0Orxbni47MzkQmtrLU8ipLYJ8qrI(pyVnjGpSytdHEg4sKUcAqWxAuKyMIkD5rEkLh5HIe9FWEBsaPVXtj6zGlr6kObbFPrXhZuuPlpYtP8ipuKO)d2BtcOIDcS0ZaxI0vqdc(sJcSmtrLU8ipLYJ8qrI(pyVnjG08jMtpdCjsxbni4lnA0r(oBf6XWSdG6zpXnZ0OrJ(G7THXs42IHPNcL(QP64v0tFZXsFOXEmDnO3mtJocrRl0wZm9C)eV2MEjQ41xRdOHEhVI6GsdxffktiH7f6fuvvvvvvvvvvvvvvvvvvvvvv66QHeCa9IRba3JeAjUPpmhpMXGne8LIV68kDe67A)G81IbJiEni4llPlACr6kI4Nw0NweJ3gLo(7l4aW4KW4wARNb9azazjDFjcICbkqprpJ4Kuudfkfke9cXx96JrrLgnAKa]],
+  ["SpecID"] = 72,
+  ["ClassID"] = 1
+}
+Sequences["AOE_FS_ELEMENTAL"] = {
+  ["Macro"] = [[dKJicaWwfLxlOmtOy2GA(I4Mc4xqv3wfTts2lA3IA)s1pveddk9BvzGcjpwvnyiz4I0bb5WsogPoNsyHkv3vrAXqLLRspui8uklJqpxHjQenvIMSq10P6IeCvbHldCDP0gfI2QIQnliTDbQ(OGOzjq6ZcQ2MaLtdX4ukJwO4zqQtkfnnL01ekDEv4Rce)vk8nHutnLuPPbnrOrKwdbmcbeusimujsjTa1)(gusLMsAZRlsHdgmOK2oLuPPH3RB4ahKbNhDuZYVyQ750zXbv8Pujsd)WRRxUx)WOtNg03rE5bLuPPKknTEspzVN0tOsKg(Fn8ok92MErWOjpsb0G(oYltNkrkPstRN0t27j9eQePH)xdVJsVTHEBbn5rkGg03rEz6uHMsQ00W)RH3rn7)oXvEqJkfUoa3PDuIRBR0KhPaAqFh5LPtNwZmUweyFEDrkCWGbL0PtNwqavyqT3AqjDAyQHhI04LdItteRiATOEHoA0RXgnTaaVwwErjnzbdY(GgnOwpM3Lgug(mTfEaIAVaWH3MPfstyo4oqEzQqRJvtlqLBl4MzhCdoi7iVm3PTeeA1c7uPPPQtanOjcnI0AiGriGGscHHMLc(nxsLEDDLMCseuPXIvelwAc5qF3piI3zA5foeye)G70PtNea]],
+  ["SpecID"] = 262,
+  ["ClassID"] = 7
+}
+Sequences["TURBO_FS_ELEMENTAL"] = {
+  ["Macro"] = [[dGZQbaGEesBdPAMamBfDtr5xsv5Bis7uk7LSBQ6Xs0pPs9xKYVbAGiOoSkdtQmCjCqOJIeoMcNdjzHOYsruwSOA5O0dLQ8ukltPEUsMOi1uv1KPsMUWfrXvfHNHiUovSreQTks2msQTdO8reWxru9zavVgb60sASieJgbz8asNev1zLQQRbiopQY4qIUmOBlIwd9QnK9jiJZnnInAmayYyApcqTTEzzxjl4sVAd9YsDS1lFcx6vidlJkOFPxTHEzpVcOmSmQGEfQT1l75vaLHLrf0RqHm((CN6msDS1lFcx6vOqHma3ksu46cOlz7UnjJ9GQbPBQ20Lro8ii6WEl9kKLbJl9fNEz)nH(yjJRFkqIwRJCGspZfriNIjL86JukZx07HiIiICiIiIiIiICiIiIOm0jieiRm0ptw4mxqcZDWjWD8YiGXKcYUQGE1izaKozzN35M89bKfyqFub9ItwAi1NZmuBiJXtniBjShyYIlU86Sg8eNmRawYpTAB6BzV7EQn662DDYAxsOSpbzCUPrSrJbatgt7rakuOqca]],
+  ["SpecID"] = 262,
+  ["ClassID"] = 7
+}
+Sequences["MULTI_FS_ELEMENTAL"] = {
+  ["Macro"] = [[dKJjcaWwLuVwiAMsPzd08fPBkv(fHCBvyNeTx0Uf1(v4NcGHrGFRQgOuKhdyWqLHlIdsQoSKJrY5ukTqv0DvIwmbTCv5HcINszzKYZv0evkMkKjlfMovxuOUQsYLbDDPQnkOSvLWMfK2UaQpkqAwcqFwGAAkvNgkJtLmAbvBtkQtcv9mc11ecNxL6Rci)vi9nbIPIikv06w1IWhnmlACBCxSeP3sPgr06kG3FseLkIOTOEyLqq4KiANerPIMiVEbdDygECpWTo)dVEhlx3awnwsPgnrtVEE5EbejD600bCSFEseLkIOurBKosphPJuk1OjcOM(aN66sTTzAO7einDah7NPtPgruQOnshPNJ0rkLA0ebutFGtDDj(Aln0DcKMoGJ9Z0PumruQOjcOM(a3AG)HWYdytjG1n8TCGtB)ANg6obsthWX(z60PHplShd0xupSsiiCseD60PfiyfPE)RMerNwBn9vjnkh2GMManXkn1wvqehHANwh0RnLxerdvGWSpPrtV3d))OPNbps6bNWMoliyW9zAb1IxaFtSFMsXQiu06QCFbIp7WxGHzh7N5jTnWqREqNsfnzDaP1TQfHpAyw0424UyjsVLMLabWVHs1((onuacHsLabAceqloh6)bad5FKuEjedeZV5jD60jba]],
+  ["SpecID"] = 262,
+  ["ClassID"] = 7
+}
+Sequences["SINGLE_FS_ELEMENTAL"] = {
+  ["Macro"] = [[dKdkcaWwLWRfkntP0SH08fXnjr)IuCBqStO2lA3IA)k8tbPggj1VvLbku8yv1GjHHlshuGdl5yu6CkjlufURuLftkTCv6HcQEkXYa1Zv0evsnvkMSq10P6IKQRkO4YaxxQSrHuBvjAZsr2UGKpkv1See9zHW0aPtdX4ukJwizBckDssYZuQUMq05vrFvq4VsHVjf10sdXwkIkC)w9grln0B1vQJnbTedtdfL1)(M0qSLgklRlsPffmPHYbneBPOXRBeahKbqohkwKFrvxi9wehuX7rmmfntVUE5E9JLoDkbFh5LN0qSLgITugjJKJrYiHyykA(10hkSBB2vHLI5mfqj47iVmDIHPHylLrYi5yKmsigMIMFn9Hc722(2kkMZuaLGVJ8Y0jENgITu08RPpuS4)GOT8qgtkADcU9gkGHUbLI5mfqj47iVmD6uuL12HG6lRlsPffmPHoD6ucbOInO7wtAOtPTMEysJxoiofy1W7wy7kBZ7rUdtrjWR1Lx0qXuOGSpPqjOZJ6DPeKrHK2HobXCua0i6Yu6l6lb3jYlt8UnslfLvURqvLDWnuGSJ8Y8GYAqtvhQtSLcUGaOiQW9B1BeT0qVvxPo2e0srsbFvRj2cfkukMqhoXw1QHvRMIEUP39dc)bjT8slckIFYd60Ptc]],
+  ["SpecID"] = 262,
+  ["ClassID"] = 7
+}
+Sequences["SETUP_FS_OUTLAW"] = {
+  ["Macro"] = [[dKtPbaWweX2KszMIQMTKUPuYVqq3McEmfTtPAVKDtv7hP8trXWuu)wHbQkXqPsmyk0WvshKkoSWXaDovjTqrYSqilwrwUQ6HiHNIAzsXZP0eLqtfyYsW0HUis6QQIlRY1LOnIOARIsBMk12vLQpsL0xfvMgIYDrKoTs9ney0IuFwkvNue9mL4AIW5rOghs0FrQETQuwqbuhkMPcECHo5m9mpG8o5uVraXTcZ)WkG6qbeNn(7yQEwbek2Xe3dVva1HcOoumHMHfPzKe)WIxuX0e5hMddtbsknJqcOKm1BetOzyrAgjXIxuX0eHXV9djLMriLllIbeVEIDmX9WluO4K(PYDfZg)DmvpRacfkuC(WIpRfc8kiUzUzb2aFfsqI2GqX5U4nNYFyfqO4whgfdmeqmiQNhTIf7uIPhFXo(QH1YQ9EjvnkCU3wuSRm1S33UhE1xGjGIBf(YOM0J3)9ZJ7HxPe3ddNyMk4Xf6KZ0Z8aY7KtmvV7X38OyyynWyAx3iXkLyE9mtwuDizjwedYqH6W55M5zXfp3rzfvhkuOqja]],
+  ["SpecID"] = 260,
+  ["ClassID"] = 4
+}
+Sequences["MULTI_FS_OUTLAW"] = {
+  ["Macro"] = [[dOZ4baWwfQxtbntiA2imFkYnrKFjv62kPhtP2Pu2lz3c2VQ6NsvgMs53anqLQCyjdwKgoO6Gc5UsvDmOoUurleeFgrvlMIA5QYdLk8uQwgGNlQjQuzQinzLy6OUif4Qq4zkORlInsHSvfYMvu2Usv9reL(QIyAkQonK(ginlkXOPqTnevojOCofPRjuNxbUSk)LsACikwyrvdlNecKuywnYT2dbfz0e1aevoPY(bMfvnSOYhvp0YmXLfvoervdlVlxpYF8fU1b)0XbqJR3A)XlxT0xna5DZC94I5Y2WF64a4k4sFXILhzZOGHSOQHfvnS8VPVjiFtFtQbiVRDL581zYfSVFkgAmGLFkgAmGLFkgAmGLFkgAmGLFkEk5idEQC6a4N8iBgfmiwSCybZjOe8O6HwMjUSOIflwoYkZiGVu8TihydyigapfdnE(8n5tUYWOKxLfvSCshx7kUevoTiUaNLlpkHng8jpkqScpHiF7bHOwUzOzwozDdgDVmkyqTH4ySCsviPiGf47T)fyuWGGiVvRNCsiqsHz1i3ApeuKrtKBqyg4Z(6aCfEXLzucuEGGi3HF2W2PgEE8q50EDOgEBdyBt(UBwLqWQHflwSe]],
+  ["SpecID"] = 260,
+  ["ClassID"] = 4
+}
+Sequences["SINGLE_FS_OUTLAW"] = {
+  ["Macro"] = [[dOt5baWwfQxJsAMOWSHy(ur3ub(Li62kLhtL2PG9s2Tq7xv(PuQ)IQmouIgikIdlzWsXWbvhuKURuYXG64OOSqq8zuclgv1Yb6HOu9uKLPQEUunrLWuPQjRKMoLlkcxvr5zOsxxuTrurBvHSzLOTJI0hvK(QIQPHs50q6BG0SOcJgvyBOO6KGY5uextuoVc6YQmmLQFdyHLxbSicwykJe84K41EMNr6Cf(YlAq5cc0LxbS8IgvGOfFKRlViiYRawusRazXzx82g(Aghb4Oa3AnE9Q1wk8fLSBfOvMvUS(Aghb2awBjtMOuxdfi2LxbS8kGf9C(Cc5585uHVOKUv36hZYVO79AWqZ(oEnyOzFhVgm0SVJxdgA23XRbpH5SeprKFi8tuQRHceLjteSi)CueBubIw8rUU8YKjteJQBZGVw2Tk6V)5I)4jyOzSXDx08RynnhS6Ylt0GZQfLvYlYxix06IeLMBCaakknISbphPFmbcsTElr7MOPuIrhyhfiQaxCgw0GkMxiWI2bY0lAOarbruO2oreSWugj4XjXR9mpJ05Isexca6ESdSbVSIpkcQnuqerWpxyluaZwgxr(2SRaEF)VVlAXTSYrmfWYKjtca]],
+  ["SpecID"] = 260,
+  ["ClassID"] = 4
+}
+Sequences["AOE_FS_OUTLAW"] = {
+  ["Macro"] = [[dOZ3baWwG41ekZuHmBiMpfCtfLFPO62kXJfyNIAVODl0(b8tqzyG43QQbcK6WsgSinCq1bj4UkIJb1Xjewir14iKSyGA5QYdjsEkvltPEUuMOuLPsPjRKMoPlsuUQc6zksxxeBKiARsfBwQQTti6Jes9vb10iuDAi9nq6CkWOjcZsqoPuPTrK6Au05vO(mqYLv5VuOjMwMX0fGjZOKUrydTJecZ8Mw6ZQG3VrlZyAP3PEOfyKRrlD50YmM(CTEG60lElJbsbj(LOEltaz9Q1jmVPpVP1tlvRaXasbj(x(RtOsLUqGI(JnAzgtlZy6agamihWaGbM30NhunTDIi5IbhqkgQ5oeqkgQ5oeqkgQ5oeqkgQ5oeqkEG0IcpGUDm8JUqGI(JuPsVBeCckI2PEOfyKRrlvQuPpQA6q4RLER03q2tXB8amutXnLME4Reti5vnAPsF2PvVslAPBlKlQn60fsuj(p6crKf4jiTd0YrQ1RpAtPlAxwN71q)rMNInX0NvXKcPBuVNiVOI(Jem9CTC0fGjZOKUrydTJectxwS))fCs9xGxAbgfbvht50D4xq3EmJf3CkDlmPygdbYgce69U(vcIYmMkvQKa]],
+  ["SpecID"] = 260,
+  ["ClassID"] = 4
+}
+Sequences["SINGLE_FS_BEASTMASTERY"] = {
+  ["Macro"] = [[dOZ9baWwQs9AQIMPc1SjY8fXnvu)sq(MuupMs2jf7fTBrTFL6NuQ0FLc)wfdKsfhwYGvqdxroirDxQchJkNtkYcfQLsvPflOwobpKQINcwgHEUsMOuQPQQjdftN0ffPRsPWLHCDOQnsvYwLs2SqA7uk6JkKVsPKPPaBJQQoTu9mvYOPQY4eItcvolLQUMaDEvQptPuddkDBbmD8PXraWzgnoTHxqJ4uz4NLHp1x7PrKpH5Ys4S4tJJpHwLqVclHw8jeZNghHqtiTuTS8KgrcH0sW2ifLrbU3d9oF8Rec4H3yqfgpOsLGSL2p5fFAC8PXryNStI3j7eAejeYQw6EOlsWRGri83ticYwA)KPsJiFACe2j7K4DYoHgrcHSQLUhg0F)h4i83ticYwA)KPsLaUCy8DjTvj0RWsOfFQuPsWwOYtz8c1IpvcJRLAJjmLIWqqeR4Lt01KR5RixnrygPv7sl(e(scL1fbcY4v)oce(JuoAp31B7elvyqr7lLWiiTfsy1pzAUCbDeMRm(scxwrc2eL1(jZycMkaIaGZmACAdVGgXPYWpldFQV2tOnkAHxsPXraMqw4AtJBWGieE76dnoSyfXILqAo6rWc5ZjWuPv4UuxVzmvQujb]],
+  ["SpecID"] = 253,
+  ["ClassID"] = 3
+}
+Sequences["AOE_FS_BEASTMASTERY"] = {
+  ["Macro"] = [[dOt8baWwQqVMsYmjOmBcnFbDtvYVKcFJsWJjQDkYEr7wu7xj)uk1WiWVvXaPe6WsgSu0WvOdQu3LsXXO4CurwOqwkLQwmvYYb1dPcEk0YiYZv0evGPQQjdIPt6Ic1vjiDzGRdsBKsPTkLSzbA7eeFKGQVsjYNPe10OQCAP6zuLgnLkBJkQtQGolLuxJk15vPghvXFPQ62cyA4ZKH4UDSFBr)rXB8V24hBV1mjXN4vjdFM8zYWNyRcUxUebt(eJ4ZKHyJrGwQwYwXKeXgAbBzGcYGa3RMoMp2vWbSXriGcInuPsClR9tEYNjdFMmexHRWOv4kKjjInKRPUAA842RBpe)7raXTS2pzQmjXNjdXv4kmAfUczsIyd5AQRMUD2zFgI)9iG4ww7NmvQehMDbTlQTk4E5sem5tLkvIwcuwTHcxt(ujkSAQcDesPaieLei51izCYybVE85eXlGwdkT4t8lrqwNejUHQ2DGj(hXCWEUR3wmsSGac2NkrHJXTaWZ(jZKxJBdXRkdTehMvaSqazTFYmIyQcaiUBh73w0Fu8g)Rn(X2BnXbGGfurLjdrCeipCatgF(8q8B7atgbcKeiGyCo4bwg4WjWyPLRUyxVzevQujb]],
+  ["SpecID"] = 253,
+  ["ClassID"] = 3
+}
+Sequences["MULTI_FS_BEASTMASTERY"] = {
+  ["Macro"] = [[dOt9baWwQOEnvOzQOmBImFrCtP4xuv(MIkpMc7uO9I2TO2Vk9tkknmq1VvLbsrQdlzWkWWvOdsu3Lk4yu6CuKSqbTuQKwmvvlNGhsL4PqlJqpxftuKAQknzqmDsxurUQuYLbUoiTrQiBvk1MfOTtr4JkQ6Ruennf02Os1PLQNPQmAQugNaojOCwkQUgvPZRQ6Zuu8xrYTPkMwUmAj20A2clLtyQWjzCBKXDYvZzuKlXMYq4D4YOLlX2LqV8lboCjgYLrlrFJaTuTmCKrrI(0sWmafKbE(VdCo)CRe84GZqafehOsLOSH2F5dxgTCz0s8MCtcVj3egfj6ZOo6DGnG3pVbiU)JaIYgA)LPYOixgTeVj3KWBYnHrrI(mQJEh41D3hAjU)JaIYgA)LPsLiSSFODjTDj0l)sGdxQuPs0KGYrzOc1HlvIZQJ2AesPaiefHl(zfTMYo3xGprInaTsxAXL4wsGSEisugQ62tG4(KYb75U(B6qPcciy)OeNhNAdeo9xMXpRxlXMkdTKGLvGGjazT)YmKyS8ai20A2clLtyQWjzCBKXDYvZjMgeSGkPmAjIJadyPz0oCyaIRzDHrlC4IWHtCkh8jyaC55zS0YFxQR)mKkvQKa]],
+  ["SpecID"] = 253,
+  ["ClassID"] = 3
+}
+Sequences["AOE_FS_DESTRUCTION"] = {
+  ["Macro"] = [[dauHcaalQIFHiddrDmLAzO4zuctdk11GI2gk9neACusNtHs3tHuhuQfIKEOsQjsP6IazJiOpQq0ivi5KiXmveDtOWoP4NukhvrYsHkEkPPsLRQOARkHVQimwkr9wOs3fQQ9k(Rs0Gb5WQAXkjpgutwr5YQSzfP(muYOHQCAiTAfkEncmBG62aA3s63i1WvWXvOA5q8CjMoX1PQ2oLiFxHW5PknFa2pQo74IzhTTbAjH6s7GuhoZx7OyZedtCrX4HrOlXfZoUOlEe0Ff4RexuQXfZokj4ViCiCR0dNGphs9bcKUYHOaCigMOKgo5f5HjiglIssEeSo5QhqVCiCR049iaXh3z3pd)yWokPI8iYlYdtqKirBybLUwIlMDCXSJYbWbqLdGdigMOKG)IuUX9Vk8XH2ez8WHyTY6HdXALnQZ7WfTHfu6AKyyIlMDuoaoaQCaCaXWeLe8xKYnU)vHpoehc5kNmA5rW6eoehIizgpCiwRSE4qSwz9WHyTYg15D4I2WckDnsKOuQR8rbllEe0Ff4RexKirIo5xK5dZE5MfLHmJfBM9y3eXM4My0jUNG2h5lXfjkgN82F5JlQ7bFvPeLAzQEmyojkid2lSmEkAftCGN465y1D3DpQU7U7U7U7U7U7EQoA7l4rJeLqFeVLrGoCLOJubT4qkO01ySyJ5okgF1)btPkhILUQGsxd1OMh4fTTbAjH6s7GuhoZx7OyZefuDAAe4BnnWHx(vOGrfVHAuD4GPypggwIrD2whZMmzgYKJA)M(9blXSJejsca]],
+  ["SpecID"] = 267,
+  ["ClassID"] = 9
+}
+Sequences["SINGLE_FS_DESTRUCTION"] = {
+  ["Macro"] = [[da0IcaalQIFHKggsCmGwgkEgczAkPUguLTrkFJu14ivoNuH7jLIdQyHOKhQuAIOuxeqBer5JisJukjNuPAMkj3eQyNO6NiIJkvYsHQ6PetLkxvjARsv(QurJvkrVfbDxeyVI)QumyqDyvTyLWJHyYsvDzv2SuP(muPrJO60qz1sP0RrOMniDBqSBj(nsnCP44sPA5q65sA6uUov12LsQVlLW5PknFa2pjhW4chmISZjDfWnKjByduC4VCRBNeE4mXfbNhbLUgx4GXfP3JI9lGE14IWkUWbJqf5RMcMWcDZzeOGfFiqOlk4DinHZeHAZzVzpcXHtueQ2JI7zx5G4vbtyHM8hfcbe2)((ee(6iuR2JAVzpcXXIfzqmm6snUWbJlCWikakaSuauacNjcvKVA1RD)RGCkyq9mEuWA608OG10PfX5T5ImiggDjw4mXfoyefafawkakaHZeHkYxT61U)vqofScg9QN1g7rX9mfScwpfgpkynDAEuWA608OG10PfX5T5ImiggDjwSi7Lf(yqTEpk2Va6vJlwSyr68EIhF0VgxSiR(QTSP)Bx)imuyicKbSdq9R7yT(i4C2Z(TpUiUh6vSAew1UM2I3kmG819Aj5cwbp8r68ML4oZmZ0QzMzMzMzMzMzMPRjY4BKtJgHmFuV1wG1C1iKka7DOvm6s4ebIhyeC(I)dDVyhARVIHrxcRi8hYfr25KUc4gYKnSbko8xU1Ttcpc7R73hQfoyeP5q2zhoJM(ios2goifkmuOebyPBAuKBlnKM3(fyqXmVHvSyXsa]],
+  ["SpecID"] = 267,
+  ["ClassID"] = 9
+}
+Sequences["MULTI_FS_DESTRUCTION"] = {
+  ["Macro"] = [[dauIcaalQs)crggs6yaTmu6zqvnnOsxtjSnu8nLOXrvCoPIUhvv6Gkwis8qLIjsLCrQOnsf8rQQQrsfQtQuntLKBsLANe9teQJkvYsHkEkLPs4QiQTkv1xHumwiLElc6UiK9k(RsPbdXHv1Ivs9yqnzPkxwLnlvQpdvz0qQonuwnvv51iWSb0THKDlLFJudxchxQWYb55sA6KUUeTDQQ47uHCEQkZhG9JQdyercgZn5vI9ToyBD50e4qEJyNyzKSreZ9ddrxJisWiI1)HW(1aVAeXOerKGXib)vLJqyJU4uI4iwjku0noYoQIizJrQ40x1hMGiXpgj9HW70RDO8XriSrJ(dHIic7DFpIIe3yKQ6dPVQpmbrJgBGvm6wnIibJisWyCaCau4a4aIKngj4VQ1RJYRbFCeWLSE5imEy8Yry8Wet4R4InWkgDlAKSrejymoaoakCaCarYgJe8x161r51Gpochb6QN6x9HW7uochzjvwVCegpmE5imEy8Yry8Wet4R4InWkgDlA0y7T1Lya1(pe2Vg4vJiA0OXqZ9emLqFnIOXw9vLCrVxVEXyPYIpilyNGlXTZfmXCF6761pIyIh410Amk1Ug)TyfMtjU9rl6gwBboWO5gY4nZmZ44zMzMzMzMzMzMPRj2uQOtdfZHsiFvhHvC1y(3C2)GQy0TiXhCbym3FR8bU30dYpxtXOBHsm5J6I5M8kX(whSTUCAcCiVrStSmMRR7VeOgjymR4G3DfjlZYycI3ejivQSuPgZzRBAi4BdnQIx)1yaXuFHs0Orta]],
+  ["SpecID"] = 267,
+  ["ClassID"] = 9
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dGtkcaWwbPxliMjez2uX8vLBQu8lsQBtk2jO9I2Tu2VO(Pc5VIWVH0aHOmyr0WvjhufDmQ6WsoNsLfsLwQqzXcvlxv9qHWtjwMIEUunrLQMkutMuA6uUOcUQk4YaxNuzJcrBvfAZkL2UqYhvO(kPkMMqQhtI7sQQHjsJwq1PvYjf4zq4AQuNNK8nbLTbr1NjvPPNyc9uKa4yKgsePKi2aowG7bCWiiHtIPSPu(ODIj0tmLJ1FvXDaDIP4smHEkQT6RxGbAanQYjdTHgE91OFOAbLw9jCsrD3QVvMvkHqJgLtfBH26etONyc9uYV8Zn)YpcNuuRuDlNeXnID3uWQUauovSfAJgHtIj0tj)Yp38l)iCsrTs1TCYz6mmpfSQlaLtfBH2OricIj0tj)Yp38l)iCsrTs1TCYBeipnLcw1fGYPITqB0OrjOfx3YXow)vf3b0jMgnAuqQ62HlTLb0szMor4N(D(WU3nJMIEaviN6(vNyAu2aSAFzfXuWLdOzDkuo1zHJ(Pmef431SCaiZ1P0c2U6gLXYWrWVVqBeIWF7PSPA6kNGMb(rbA2cTrxk7bBlDogHEkdTTOFfqeOAUkRIVCwMk6srUakb7j0h9TNcEuee6ttNPPuGLgafjaogPHerkjInGJf4EahmcsJgnsa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["AOE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dKZicaWwbvVwGAMqsnBQQ5RIBQK6xeYTjWoHAVODlv7xu)es9xHQXjGAGcGdlzWcLHRuDqr6XqCmQCoHKfsvwQiSyr0YvLhke9usltLEUctujzQGMmbnDkxukDvLOldCDc1gfsTvLWMHeBxq5Jqs(QaY0ec3vq8nbsNwrJwq6zkLtkfdJOUgrCEI02ei(Sa0VvvthHe7OMIUnE0A8eTWenElHnOXeFjK66c59hesSJqQlQ3Ss6dges1JqIDufz1lGad0bcKMJfE)hA9ees4cbLWqi(sv0WQNvMvibtJg1ueB(7dcj2riXoQ5t(4Lp5dXxQIqQHLJTjzlkjuHs3butrS5VtJ4lHe7OMp5Jx(KpeFPkcPgwo2v(guhvO0Da1ueB(70iEJqIDuZN8XlFYhIVufHudlhtYwqKLPcLUdOMIyZFNgnQn9KIN(2I6nRK(GbH0OrJAGavWPIF1GqAurDnSL7cldiK6v(U5UUOCbw2fHm11aRwvwrivy5d62Gk1uXwO)h12WaVHGPpiaE(LqakZHrfvA7cWBm)DI3CsCuxxDXLFt3aVWaDB(70J6kakLyFJyhvCjaqnfDB8O14jAHjA8wcBqJPQ7aKMve7IqIJkeDKe7KLVYYuB7O8FiGi)c2lRso9NMu6rJgnsa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["MULTI_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dGZjcaWwHuVMkQzQqMnvA(QYnju)IGUnHStO2lA3s1(f1pvc)ve9BinqQinyHQHRIoOs5ycoSKZralKQSufyXIWYvPhQG8usltv9CPmrLOPcmzIY0PCrIQRsfUmORteBuOyRkuBwj12fI(OcQVsGAAkjpgI7kegMinAHKtROtsv9mv4AkvNNi9nHsBJkIptGmdeqCGQyhJa(jJrtoqoyGVNdG)cmXFcOkUqUOncioqa1X1DwjCHncO6raXbQcT6kiOb7qrsZXJUJgvDffr0YGLSii(tvyZQRvMviotJg1neBI2BeqCGaIduZV8Zl)YpI)ufIunlh)y)qGDQaPNqQBi2eTtJ4pbehOMF5Nx(LFe)PkePAwo(p9hBGkq6jK6gInr70i(GaIduZV8Zl)YpI)ufIunlhF)WjPPubspHu3qSjANgnQ(9esMU246oReUWgb0OrJ6OQzooLvgug1F6)i8dceIDxGvROkyy58MKB1iGgvXqRwwwravq5c7wJk1njwuOxQYJeEBIMUqN65wYGRNnJ6WQ8XWBBI2j(iShOkU6skx)UbVrc72eTtpQlHRljUgXbQY7RrViWHqfDwwLy6onP0JQEcr8xsCy1EGkyXqehst)PPuXLiivXogb8tgJMCGCWaFpha)fyA0Orca]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dud1baWAsfZubMnOMpv6MIs)sO62cQDcSx0Uv0(vPFQG(lv43emqsHgmPQgUs5GkPdl5CKIAHcSubzXurlxfpKuLNcTmc9CrMOuQPQQjlfnDkxuixvkCzsUUsSrsP2QOYMfvTDsL(OuYxjfmnsrogv9yqgnPeptHojrDAP6AkvNxOSnsjnorXWiY0ZNaprug0AqKdTrhHI(qYbnE5Hace5tmBbDes8jWZNyU60lNWQeFIb8jWtmEYQJvMvq6qJgXviRlmt8jWZNapXR71n46EDjqKyCOkzx9h3h18oXp2MI4kK1fM0iqKpbEIx3RBW196sGiX4qvYU6VpQvjjIFSnfXviRlmPrJO805sh2YvNE5ewL4tJgnIAqv6SUCQeFAehujRXwZYunjkkjo6f9z8s(mIziMvzv7Yk(e)cwnTerIRlMweoeJ0vDsH7Wkngaxnv57jJylmkN6K6ctcg97seZwZLcwEAQJUQP1fMmGiOcRiIYGwdICOn6iu0hsoOXlpeqSTkFTaBe4jIBki52e410UN4pupc8ssIsseJM5foqk9ecVvw5Sd3TymGgnAKa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_BEASTMASTERY"] = {
+  ["Macro"] = [[duJObaGAirBdkAMuLMTQ6MkYVGsDBiv7Ku7fTBr2pu4NsL6Vqv)wjduPQgmuYWvuhuvoSKfkvTuiLftGLdXdHKEkyzc1Zf1eLkMQktMQQPt5IuXvvQYLj66cAJqL2kvLntLA7kv8rQIVQuPPrLCmsEmHgNqgnKWPLYjvOZcvCnLY5jONPGHjWRLkzQ4rTIamQ941bpUa(ENhCtp4CqdhQJ5ryQerwzEuR4rWxH0kbFzMhncprRTszEuR4rTIa2Iv2Walv02WweHt4SKWt0ARenQJ5rTIa2Iv2WaRnmX0LIWjCws4jATvIgncJjbHTV5RqALGVmZJgnAe8wzBVz)Lj9tioiEqfRIurdrdBe2vwD9crQmpAeMKw1PSIhHR(YKLjq4fAOyHqqV(jugIiC)(F5x6ULncEahFsKCBLOEqTfqyQsH1FmzsKDKjRTsSNGUqxsag1E86GhxaFVZdUPhCoOHdbNK7fIOe1f6ZLvcA)MjK9eGzP4yhQvUCfr46gvQvbbXbbe6iDxHFJAfnA0ib]],
+  ["SpecID"] = 253,
+  ["ClassID"] = 3
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjaZMc3uK6xiPUTizNuAVKDly)i8tqs)fP8BfnqerdLkLbdQHlvDqvPhRQoMOohiXcLchwYIvOLd0dPsEk0YOONl0ebXuPQjdOPJ6IQIRcs1Lv56kyJirBvkAZsP2oiLpkL8veHPjv67iQUgvCpQunAeLHjItQKXHuDAL68sfpdjzwiHJJizLLx2SqCzBb4HgLinil01Ynal7JSMYlmD9bNr5LnlVWMf4UgnUO8If((59meLx2S8YMfs9VIC8i1Wf(hbmbm4fp29)m1yXeWeWrYkGtYjGjFccKaUV2bkiGDO7qbbSdDhH(o9NW3pVNbXYAkVSzHu)Rita7q3rOVt)j89Z7zqSyHRW4W2GBwG7A04IYlwSyHaQid9EGfFafAMysv2mtpN0TRjuesIRi97ayfLxSW0hxqkUKxOVmUahfk8DGjBckCX)kWJ3rYggfWR9oYcBHpnpW4EgKLQStIW0vyOmwb(aH2f49mOgcHCTRbdw2SWNq7j4)Cnt1xCnUn2Ch1qi2F)fezZDDmf6HQlzZjjMjjcTvQtiUSTa8qJsKgKf6A5gGL9rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dCZccaGEb02urZuKmBjCtfQFjIUTaStsTx0ULQ9lK(Pq1FfHFd0qjj1GfIHlkhKQhROJr4CkPwOGAPkrlwOSCapuj5Pqltu9CPmrrQPcAYcutNYfjHRss4YeDDLYgvHTQq2SGy7Ke9rLWxjjzAcsFNKkhwvptLgnjfJxGCss0PL01iPQZRGXPu9AsknmjAkiKAbruPErkfjoWehlJJqQZjK44Fca2iKAbHeh9a1pwHSrinI(0QG9gHuliKAbXKZVzrJieNeHdzsI(0QGDAuNti1cIjNFZIg5kwVFpjchYKe9Pvb70O(si1cIjNFZIg5kwVFpjchYKe9Pvb70OoucPwqm58Bw0ixX697jr4qMKOpTkyNgnIk7X2Qf2OhO(XkKncPrJgrvjF16BaFJqAet9ntfzb)MmyI5L5xrUyxuMFZVehlTp9BpHeHFHSBnIH3t7ayqZUSkov9EqhPUabgy8HLRC3DxH7U7U7U7U7Ey3D3j6BMAabiESbm0uxnt2iUavmsc0QGDQVc1xsC833(cLDtcOsz3QGDgMO(dqsevQxKsrIdmXXY4iKyAzi)wHrTGiMjNktt9zOeHXxrTOSmVSKOIEiGat5kWaYE7JvlQ2adtJgns]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5A77JJq7IyYe5Pl2vGd22gu0WpGGpWHWFeHEeIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQi)RVo6ykXfrGxNA)kXdb6lIDjikX)F4FryzF4Ooli4abUTg28mnauLmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dud1baWAsfZubMnOMpv6MIs)sO62cQDcSx0Uv0(vPFQG(lv43emqsHgmPQgUs5GkPdl5CKIAHcSubzXurlxfpKuLNcTmc9CrMOuQPQQjlfnDkxuixvkCzsUUsSrsP2QOYMfvTDsL(OuYxjfmnsrogv9yqgnPeptHojrDAP6AkvNxOSnsjnorXWiY0ZNaprug0AqKdTrhHI(qYbnE5Hace5tmBbDes8jWZNyU60lNWQeFIb8jWtmEYQJvMvq6qJgXviRlmt8jWZNapXR71n46EDjqKyCOkzx9h3h18oXp2MI4kK1fM0iqKpbEIx3RBW196sGiX4qvYU6VpQvjjIFSnfXviRlmPrJO805sh2YvNE5ewL4tJgnIAqv6SUCQeFAehujRXwZYunjkkjo6f9z8s(mIziMvzv7Yk(e)cwnTerIRlMweoeJ0vDsH7Wkngaxnv57jJylmkN6K6ctcg97seZwZLcwEAQJUQP1fMmGiOcRiIYGwdICOn6iu0hsoOXlpeqSTkFTaBe4jIBki52e410UN4pupc8ssIsseJM5foqk9ecVvw5Sd3TymGgnAKa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjaZMc3uK6xiPUTizNuAVKDly)i8tqs)fP8BfnqerdLkLbdQHlvDqvPhRQoMOohiXcLchwYIvOLd0dPsEk0YOONl0ebXuPQjdOPJ6IQIRcs1Lv56kyJirBvkAZsP2oiLpkL8veHPjv67iQUgvCpQunAeLHjItQKXHuDAL68sfpdjzwiHJJizLLx2SqCzBb4HgLinil01Ynal7JSMYlmD9bNr5LnlVWMf4UgnUO8If((59meLx2S8YMfs9VIC8i1Wf(hbmbm4fp29)m1yXeWeWrYkGtYjGjFccKaUV2bkiGDO7qbbSdDhH(o9NW3pVNbXYAkVSzHu)Rita7q3rOVt)j89Z7zqSyHRW4W2GBwG7A04IYlwSyHaQid9EGfFafAMysv2mtpN0TRjuesIRi97ayfLxSW0hxqkUKxOVmUahfk8DGjBckCX)kWJ3rYggfWR9oYcBHpnpW4EgKLQStIW0vyOmwb(aH2f49mOgcHCTRbdw2SWNq7j4)Cnt1xCnUn2Ch1qi2F)fezZDDmf6HQlzZjjMjjcTvQtiUSTa8qJsKgKf6A5gGL9rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dCZccaGEb02urZuKmBjCtfQFjIUTaStsTx0ULQ9lK(Pq1FfHFd0qjj1GfIHlkhKQhROJr4CkPwOGAPkrlwOSCapuj5Pqltu9CPmrrQPcAYcutNYfjHRss4YeDDLYgvHTQq2SGy7Ke9rLWxjjzAcsFNKkhwvptLgnjfJxGCss0PL01iPQZRGXPu9AsknmjAkiKAbruPErkfjoWehlJJqQZjK44Fca2iKAbHeh9a1pwHSrinI(0QG9gHuliKAbXKZVzrJieNeHdzsI(0QGDAuNti1cIjNFZIg5kwVFpjchYKe9Pvb70O(si1cIjNFZIg5kwVFpjchYKe9Pvb70OoucPwqm58Bw0ixX697jr4qMKOpTkyNgnIk7X2Qf2OhO(XkKncPrJgrvjF16BaFJqAet9ntfzb)MmyI5L5xrUyxuMFZVehlTp9BpHeHFHSBnIH3t7ayqZUSkov9EqhPUabgy8HLRC3DxH7U7U7U7U7Ey3D3j6BMAabiESbm0uxnt2iUavmsc0QGDQVc1xsC833(cLDtcOsz3QGDgMO(dqsevQxKsrIdmXXY4iKyAzi)wHrTGiMjNktt9zOeHXxrTOSmVSKOIEiGat5kWaYE7JvlQ2adtJgns]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5A77JJq7IyYe5Pl2vGd22gu0WpGGpWHWFeHEeIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQi)RVo6ykXfrGxNA)kXdb6lIDjikX)F4FryzF4Ooli4abUTg28mnauLmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5Pl2vGd22gu0WpGGpWHWFeHEeICT99XrODrmzIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQiSSpCuNfeCGa3wdBEMgaQsebEDQ9RepeOVi2LGOe))H)f5F91rhtjUmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjiMnfUPuYVquUTuPDsP9s2TG9JWpre(lvYVv0arenuKObdQHRkoOQ0JvvhtuhhrYcLkoSKflvTCGEis1tHwgf9CHMiGMkvnzaMoQlQqxfK4ziHRRGnIKARIuBwkSDqsFukAwuPmnrY3rsUgvCpqkJgr1xPs1jvY4qkNwPoVuQHjIlRY5aPALLx2SqCzBcz0f1OlGlK(Isil7OSMYlSv9bNr5LnlVW0f4U6nUO8If((59meLx2S8YMfs2VIC8i1Wf(hbmbm4fpgA)z3(IjGjGJKxaMurat1eeab8tTdUra7qZXncyhAoc9TFoHVFEpdIL1uEzZcj7xrMa2HMJqF7Nt47N3ZGyXcxH(HTbNUa3vVXfLxSyXcD)ks)oawr5flesfzO8aO4dGqZetkYMzA5KuPmHUWwhxalUKxOVmUahfk8DGjFckCX)kW93rYogfGRXoYcBIJPpW4EgKLIStIWwvyOmwb(aH6f49mOocTv3tiUSnHm6IA0fWfsFrjKLDuiWRrnyWYMfIp3Fbu2CkhtHEsqx2CsIzsIWXqJj4)Op7(uC1Vn2CB1rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dud1baWAsfZubMnOMpv6MIs)sO62cQDcSx0Uv0(vPFQG(lv43emqsHgmPQgUs5GkPdl5CKIAHcSubzXurlxfpKuLNcTmc9CrMOuQPQQjlfnDkxuixvkCzsUUsSrsP2QOYMfvTDsL(OuYxjfmnsrogv9yqgnPeptHojrDAP6AkvNxOSnsjnorXWiY0ZNaprug0AqKdTrhHI(qYbnE5Hace5tmBbDes8jWZNyU60lNWQeFIb8jWtmEYQJvMvq6qJgXviRlmt8jWZNapXR71n46EDjqKyCOkzx9h3h18oXp2MI4kK1fM0iqKpbEIx3RBW196sGiX4qvYU6VpQvjjIFSnfXviRlmPrJO805sh2YvNE5ewL4tJgnIAqv6SUCQeFAehujRXwZYunjkkjo6f9z8s(mIziMvzv7Yk(e)cwnTerIRlMweoeJ0vDsH7Wkngaxnv57jJylmkN6K6ctcg97seZwZLcwEAQJUQP1fMmGiOcRiIYGwdICOn6iu0hsoOXlpeqSTkFTaBe4jIBki52e410UN4pupc8ssIsseJM5foqk9ecVvw5Sd3TymGgnAKa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjaZMc3uK6xiPUTizNuAVKDly)i8tqs)fP8BfnqerdLkLbdQHlvDqvPhRQoMOohiXcLchwYIvOLd0dPsEk0YOONl0ebXuPQjdOPJ6IQIRcs1Lv56kyJirBvkAZsP2oiLpkL8veHPjv67iQUgvCpQunAeLHjItQKXHuDAL68sfpdjzwiHJJizLLx2SqCzBb4HgLinil01Ynal7JSMYlmD9bNr5LnlVWMf4UgnUO8If((59meLx2S8YMfs9VIC8i1Wf(hbmbm4fp29)m1yXeWeWrYkGtYjGjFccKaUV2bkiGDO7qbbSdDhH(o9NW3pVNbXYAkVSzHu)Rita7q3rOVt)j89Z7zqSyHRW4W2GBwG7A04IYlwSyHaQid9EGfFafAMysv2mtpN0TRjuesIRi97ayfLxSW0hxqkUKxOVmUahfk8DGjBckCX)kWJ3rYggfWR9oYcBHpnpW4EgKLQStIW0vyOmwb(aH2f49mOgcHCTRbdw2SWNq7j4)Cnt1xCnUn2Ch1qi2F)fezZDDmf6HQlzZjjMjjcTvQtiUSTa8qJsKgKf6A5gGL9rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dCZccaGEb02urZuKmBjCtfQFjIUTaStsTx0ULQ9lK(Pq1FfHFd0qjj1GfIHlkhKQhROJr4CkPwOGAPkrlwOSCapuj5Pqltu9CPmrrQPcAYcutNYfjHRss4YeDDLYgvHTQq2SGy7Ke9rLWxjjzAcsFNKkhwvptLgnjfJxGCss0PL01iPQZRGXPu9AsknmjAkiKAbruPErkfjoWehlJJqQZjK44Fca2iKAbHeh9a1pwHSrinI(0QG9gHuliKAbXKZVzrJieNeHdzsI(0QGDAuNti1cIjNFZIg5kwVFpjchYKe9Pvb70O(si1cIjNFZIg5kwVFpjchYKe9Pvb70OoucPwqm58Bw0ixX697jr4qMKOpTkyNgnIk7X2Qf2OhO(XkKncPrJgrvjF16BaFJqAet9ntfzb)MmyI5L5xrUyxuMFZVehlTp9BpHeHFHSBnIH3t7ayqZUSkov9EqhPUabgy8HLRC3DxH7U7U7U7U7Ey3D3j6BMAabiESbm0uxnt2iUavmsc0QGDQVc1xsC833(cLDtcOsz3QGDgMO(dqsevQxKsrIdmXXY4iKyAzi)wHrTGiMjNktt9zOeHXxrTOSmVSKOIEiGat5kWaYE7JvlQ2adtJgns]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5A77JJq7IyYe5Pl2vGd22gu0WpGGpWHWFeHEeIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQi)RVo6ykXfrGxNA)kXdb6lIDjikX)F4FryzF4Ooli4abUTg28mnauLmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_FROST|R"] = {
+  ["Macro"] = [[dGt7baWwQeVMkYmLsnBsmFqDtPWVeKBdODs0Er7ws7xf)uQ4Vuv9BGgivqdwOmCvLdQkEmjDmcNJkLfkvTuQslMQYYv0dPs6PqldKNlXevjMkPMSQQPt5IcQRQsYLv66QsBuG2QuYMLI2ovHpkv6Rub(mvihw0DPIACQKA0uP60kCsvQNbW1Oc15fW2OkAyczAcvtb1ukiI3YUTd7pi6pO3oOg2lLqutSrQoblutPGAITY5i9PSfQj2tnLcIHSC6O126cmWjMlvq3ZjqND5FZFNPeIyOILtlnlvDIgnIpQ2aSwOMsb1ukiEGpW9h4dmLqedPMf7edGWTRb4jrDGVL4JQnaR0OeIAkfepWh4(d8bMsiIHuZIDIjeEsuh4Bj(OAdWknAeVR(EhkwRCosFkBHAA0OrSDwSR((tB)jcfbbqabfjerI4ai6GnD65DMfQPrSXA5L0sQjQtLTAfIeFEn3bNeLRh7SaCOSoSxj)3MJIrSlgU1oldWkLaeowqSrwFtL7QTtp2QnaRSNOmbUeXBz32H9he9h0Bhud7Ly4AtWP66kiWV0sFdLHfG9eXVv9(cLI4XDJOUJRukIIGIIiEzBMVkgLcA0Orca]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SETUP_FS_FROST"] = {
+  ["Macro"] = [[b4vmErLxofJxtnvruvfuFz0uFzKupnfvE5KmErLxt1uyJj3BZ5fvE5umErLxtzvyYLwyIXwzZ5fvErNxtf0y0L2BUnNxu5LtX4fvE5umEn1lJf2C05hyBn2BTjwy01LFGzJnEnfv5bxzEnvqJrxAV5Mx05fDEnvsUjwDPXgDwfMCPfMySv2CErLx05fDErNxtXuyZrxvWrwy0vgzEnLmWiZmXitm5edoZutn241uxvwyRfuDYf2CErLx051unvgDHruy0fMxu51uufgBL5gDZ51uEnvq1rhAVjNxt5uz2vMCZ1wASvgqcXwyKvMzPnhDEn1rtvKvLj3CP9MBE50mXutmEnvtH5wDHXwsUrxzYzxzUrxAV5Mxc51uofwBL51utvevvb1xgn1xgj1ttrLxtvKBM9MCJv2qV1gCHrxyILgBPrxEEjKxtnfCLnwse5LtXqdn541uu90qE5umWaJmWaJxtruzMfwDSrNxofJx05fDErNxEb]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["MULTI_FS_FROST|R"] = {
+  ["Macro"] = [[dGZ6baWwQcVMkYmvjMnfMpOUja)sqUTQyNuAVODlP9RIFkv8xb63anqHsdwOA4a6GQkpMIoguNtOyHsvlLQYIPkTCf9qQuEkXYa55smrPstfYKvLMoPlsL0vLIUSsxxLAJcyRsHnlLA7uP6JQK8vQatJkQdl6UuHgNkPgnvItRWjvv9mQQUgvrNxqTnPKHjKptf0eteTykaAEb9hmGemGVocc2hTqerbqAoblerlMiknY5i9ASfIO0teTykH0C6Wv36(e(e3JkOl58XrpE381rAHOeQO5utvttNOsLYNPoaRfIOfteTykh4dC)b(atleLqMzrpX9JJ5A)TOGcdCP8zQdWkvAHiIwmLd8bU)aFGPfIsiZSON4yClkOWaxkFM6aSsLkL)Q37HH2iNJ0RXwiIkvQuUKfTjW3u3xkqrq(XqqryCe2ZwuCWMo9DpZcruPay1SBQjruqPXw1cfkF3QlGtk219DwEggBS9g572EuukxjU2yNLbyLw)ypXuaK1704VQ709TQdWk7PyZNLcGMxq)bdibd4RJGG9rX1ABWP56g4dWutVdJHgM9ueGR5FxAXo7CmuqDCJwCueuueLUB782qPftLkvsa]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["AOE_FS_FROST|R"] = {
+  ["Macro"] = [[dGZccaWwQsEnvsZuvkZMkMpfUPuv)Ia3MG2jL2lA3sSFL6NGQ)kO(TQAGuuAWuvgUcoOqEmihd4CsLwOcTubzXc0YvYdPk8uOLPONlPjkvmvIMmHA6KUivvxvO0Lv56uKnkGTQkzZsv2ovrFuvQ(kfvMMqXHfDxQeBJkvJMkLtlLtku9mvX1OO48GY4Ok1WiKptrvtaL0cigb3F4ay4aHGJsJq0oPKy)eA9RuslGsIVYvld6CvkjosjTaIc0Cz(tVYje22NxLVB5sOlEj(sXUq7KOGQMlnvnHCLkvIrqA7xQuslGsAbefaLvD7dmNeLWgoIrqA7xOs7KsAbe3gBJXTX2G2jrbqzv3(EaD9(XDIsydhXiiT9luP9HsAbe3gBJXTX2G2jrbqzv3(aa3jkHnCeJG02VqLkX4LGMAo6RC1YGoxLsQuPs8TSQXoio1tmXPO5dyc6c8gmFaen3LUgzALvkPsS)PzNutkjktNROvIeJmPU9xeTNN3QkS5CMD0jfF9AvL47O)x3Q2(fAFaMbqSFwmLoXl6T88kA7x4iXoxV0KJslGO)sV)c684lCi1myZPPW4irC4GI3HwqmX0LOeUh0cejAkserBk8igb3F4ay4aHGJsJquPsLe]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dytVbaGnrXmfIzRKBku(Li6Bec7KI9I2nvTFkv)uO6Vev)wPgiHudwinCQ4Gs0JbCmiNJsSqrQLseTyIYYb6HePEQQLjHNlPjkQAQGMScmDsxKs5QkixgQRRiBKsARIsBwuz7ejFuK8vfutJiCyPEgbdJknAcjNwWjvuJteUgHOZRqVMqPBtO6ZekMicPbX)ztQi2KB9YTkz8dPPGq(yna4Usinic5Z2GHw2cxjKkFjGg2(kH0GiKgeFsGUQ2JkGSKqidpC0bZxcOHTNknfesdIpjqxv7rrOm8WrhmFjGg2EQ0iqini(KaDvThvazjHqgE4OdMVeqdBpvQ8ZEztHLMTbdTSfUsivQu5J0vDiNbTIhWx4wiGkqjqUcIqWc)W4wSLtGDLqQ8XWANV1MqEyVWETYZxoPIAdYFhWGxms1RfEu0Px9aCUqv5tDBzXG1W2tJasKU8XA)uVM9kgukSxdBptZBAXX8F2KkIn5wVCRsg)qEB(CBqaS0BXDATLfwbDKP5VdgyopnijKWcpmU00GCDlCD5ZJZ1tlLgevQujba]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dud1baWAsfZubMnOMpv6MIs)sO62cQDcSx0Uv0(vPFQG(lv43emqsHgmPQgUs5GkPdl5CKIAHcSubzXurlxfpKuLNcTmc9CrMOuQPQQjlfnDkxuixvkCzsUUsSrsP2QOYMfvTDsL(OuYxjfmnsrogv9yqgnPeptHojrDAP6AkvNxOSnsjnorXWiY0ZNaprug0AqKdTrhHI(qYbnE5Hace5tmBbDes8jWZNyU60lNWQeFIb8jWtmEYQJvMvq6qJgXviRlmt8jWZNapXR71n46EDjqKyCOkzx9h3h18oXp2MI4kK1fM0iqKpbEIx3RBW196sGiX4qvYU6VpQvjjIFSnfXviRlmPrJO805sh2YvNE5ewL4tJgnIAqv6SUCQeFAehujRXwZYunjkkjo6f9z8s(mIziMvzv7Yk(e)cwnTerIRlMweoeJ0vDsH7Wkngaxnv57jJylmkN6K6ctcg97seZwZLcwEAQJUQP1fMmGiOcRiIYGwdICOn6iu0hsoOXlpeqSTkFTaBe4jIBki52e410UN4pupc8ssIsseJM5foqk9ecVvw5Sd3TymGgnAKa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjaZMc3uK6xiPUTizNuAVKDly)i8tqs)fP8BfnqerdLkLbdQHlvDqvPhRQoMOohiXcLchwYIvOLd0dPsEk0YOONl0ebXuPQjdOPJ6IQIRcs1Lv56kyJirBvkAZsP2oiLpkL8veHPjv67iQUgvCpQunAeLHjItQKXHuDAL68sfpdjzwiHJJizLLx2SqCzBb4HgLinil01Ynal7JSMYlmD9bNr5LnlVWMf4UgnUO8If((59meLx2S8YMfs9VIC8i1Wf(hbmbm4fp29)m1yXeWeWrYkGtYjGjFccKaUV2bkiGDO7qbbSdDhH(o9NW3pVNbXYAkVSzHu)Rita7q3rOVt)j89Z7zqSyHRW4W2GBwG7A04IYlwSyHaQid9EGfFafAMysv2mtpN0TRjuesIRi97ayfLxSW0hxqkUKxOVmUahfk8DGjBckCX)kWJ3rYggfWR9oYcBHpnpW4EgKLQStIW0vyOmwb(aH2f49mOgcHCTRbdw2SWNq7j4)Cnt1xCnUn2Ch1qi2F)fezZDDmf6HQlzZjjMjjcTvQtiUSTa8qJsKgKf6A5gGL9rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dCZccaGEb02urZuKmBjCtfQFjIUTaStsTx0ULQ9lK(Pq1FfHFd0qjj1GfIHlkhKQhROJr4CkPwOGAPkrlwOSCapuj5Pqltu9CPmrrQPcAYcutNYfjHRss4YeDDLYgvHTQq2SGy7Ke9rLWxjjzAcsFNKkhwvptLgnjfJxGCss0PL01iPQZRGXPu9AsknmjAkiKAbruPErkfjoWehlJJqQZjK44Fca2iKAbHeh9a1pwHSrinI(0QG9gHuliKAbXKZVzrJieNeHdzsI(0QGDAuNti1cIjNFZIg5kwVFpjchYKe9Pvb70O(si1cIjNFZIg5kwVFpjchYKe9Pvb70OoucPwqm58Bw0ixX697jr4qMKOpTkyNgnIk7X2Qf2OhO(XkKncPrJgrvjF16BaFJqAet9ntfzb)MmyI5L5xrUyxuMFZVehlTp9BpHeHFHSBnIH3t7ayqZUSkov9EqhPUabgy8HLRC3DxH7U7U7U7U7Ey3D3j6BMAabiESbm0uxnt2iUavmsc0QGDQVc1xsC833(cLDtcOsz3QGDgMO(dqsevQxKsrIdmXXY4iKyAzi)wHrTGiMjNktt9zOeHXxrTOSmVSKOIEiGat5kWaYE7JvlQ2adtJgns]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5A77JJq7IyYe5Pl2vGd22gu0WpGGpWHWFeHEeIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQi)RVo6ykXfrGxNA)kXdb6lIDjikX)F4FryzF4Ooli4abUTg28mnauLmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[dud1baWAsfZubMnOMpv6MIs)sO62cQDcSx0Uv0(vPFQG(lv43emqsHgmPQgUs5GkPdl5CKIAHcSubzXurlxfpKuLNcTmc9CrMOuQPQQjlfnDkxuixvkCzsUUsSrsP2QOYMfvTDsL(OuYxjfmnsrogv9yqgnPeptHojrDAP6AkvNxOSnsjnorXWiY0ZNaprug0AqKdTrhHI(qYbnE5Hace5tmBbDes8jWZNyU60lNWQeFIb8jWtmEYQJvMvq6qJgXviRlmt8jWZNapXR71n46EDjqKyCOkzx9h3h18oXp2MI4kK1fM0iqKpbEIx3RBW196sGiX4qvYU6VpQvjjIFSnfXviRlmPrJO805sh2YvNE5ewL4tJgnIAqv6SUCQeFAehujRXwZYunjkkjo6f9z8s(mIziMvzv7Yk(e)cwnTerIRlMweoeJ0vDsH7Wkngaxnv57jJylmkN6K6ctcg97seZwZLcwEAQJUQP1fMmGiOcRiIYGwdICOn6iu0hsoOXlpeqSTkFTaBe4jIBki52e410UN4pupc8ssIsseJM5foqk9ecVvw5Sd3TymGgnAKa]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCZZbaWAePMjaZMc3uK6xiPUTizNuAVKDly)i8tqs)fP8BfnqerdLkLbdQHlvDqvPhRQoMOohiXcLchwYIvOLd0dPsEk0YOONl0ebXuPQjdOPJ6IQIRcs1Lv56kyJirBvkAZsP2oiLpkL8veHPjv67iQUgvCpQunAeLHjItQKXHuDAL68sfpdjzwiHJJizLLx2SqCzBb4HgLinil01Ynal7JSMYlmD9bNr5LnlVWMf4UgnUO8If((59meLx2S8YMfs9VIC8i1Wf(hbmbm4fp29)m1yXeWeWrYkGtYjGjFccKaUV2bkiGDO7qbbSdDhH(o9NW3pVNbXYAkVSzHu)Rita7q3rOVt)j89Z7zqSyHRW4W2GBwG7A04IYlwSyHaQid9EGfFafAMysv2mtpN0TRjuesIRi97ayfLxSW0hxqkUKxOVmUahfk8DGjBckCX)kWJ3rYggfWR9oYcBHpnpW4EgKLQStIW0vyOmwb(aH2f49mOgcHCTRbdw2SWNq7j4)Cnt1xCnUn2Ch1qi2F)fezZDDmf6HQlzZjjMjjcTvQtiUSTa8qJsKgKf6A5gGL9rSyXsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_FROST"] = {
+  ["Macro"] = [[dCZccaGEb02urZuKmBjCtfQFjIUTaStsTx0ULQ9lK(Pq1FfHFd0qjj1GfIHlkhKQhROJr4CkPwOGAPkrlwOSCapuj5Pqltu9CPmrrQPcAYcutNYfjHRss4YeDDLYgvHTQq2SGy7Ke9rLWxjjzAcsFNKkhwvptLgnjfJxGCss0PL01iPQZRGXPu9AsknmjAkiKAbruPErkfjoWehlJJqQZjK44Fca2iKAbHeh9a1pwHSrinI(0QG9gHuliKAbXKZVzrJieNeHdzsI(0QGDAuNti1cIjNFZIg5kwVFpjchYKe9Pvb70O(si1cIjNFZIg5kwVFpjchYKe9Pvb70OoucPwqm58Bw0ixX697jr4qMKOpTkyNgnIk7X2Qf2OhO(XkKncPrJgrvjF16BaFJqAet9ntfzb)MmyI5L5xrUyxuMFZVehlTp9BpHeHFHSBnIH3t7ayqZUSkov9EqhPUabgy8HLRC3DxH7U7U7U7U7Ey3D3j6BMAabiESbm0uxnt2iUavmsc0QGDQVc1xsC833(cLDtcOsz3QGDgMO(dqsevQxKsrIdmXXY4iKyAzi)wHrTGiMjNktt9zOeHXxrTOSmVSKOIEiGat5kWaYE7JvlQ2adtJgns]],
+  ["SpecID"] = 64,
+  ["ClassID"] = 8
+}
+Sequences["SINGLE_FS_BREWMASTER"] = {
+  ["Macro"] = [[duZJbaWAvQAMufZwf3uH(LkP(Ma2Pi7LSBrTFQs)uLO)cQ(nunqvQmyQudhOoOqDyPoUkfluswkiTyqz5q6HaXtrwMcEUetKQQPIYKfOPt5Iq5QQKCzLUUq2iGARcQntvz7Qe(ie9vQKPjihdvpMkgMQgTkLMfaDsj1Pv01asNhaJdepdc3gqwCXuIlIQti9GbhycEfumxJXeddQsdIjASDqXlIPexmrHB0zd7SfXKjk2XM45IykXftjUORD6Iv2BI2SZ61n))aqEa96M)FaiHa0RB()bG8IyaaEff7yt8SmzIQZWIMhlCJoByNTiMmzYe5A77JJq7IyYe5Pl2vGd22gu0WpGGpWHWFeHEeIgxR93wlMiwF2SvejkoYUfhveY1o57QoDW13SyIqsyHx0YepRecoOVOXoh1N6STOxSzBINvLOud0kIQti9GbhycEfumxJXeddQi)RVo6ykXfrGxNA)kXdb6lIDjikX)F4FryzF4Ooli4abUTg28mnauLmzYKa]],
+  ["SpecID"] = 268,
+  ["ClassID"] = 10
+}
+Sequences["SINGLE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCJVbaWwcvVgs1mvrZgI5trUPK4xsk3wf2ju7fTBrTFP0pHu8xIYVvLbcj1qjidMqz4ukhKcoMeluP8yQYIjILlYdjspfSmk55Q0evQMkvMmf10jDrPYvHu6YkUUu1gjK2QKQnlfTDiHpkf(kKOptqDyH7sadJQA0uQoTQ6KkzCeIRruDEjPNrGMgf6BqsMf6iUqaw4gNDYefKTVaPlHox4oITOJqLWl9U0rCHoc1J0pKGmx6iSrhXfc10ij8OtEoQ2kM45N9iDiG4MNWSaeBrO2vJKgQgEOtLkbdE6)LV0rCHoIleQ5fxTvm5IiNylcTMAnT1AQ1ebxvBdbdE6)LPsLWklP)JO1J0pKGmx6OsLkHZ4QO1M5qhZeS8TeSyveP4Bz0iQiGYjq3qFkU0rLqLrJ9qd6i4cKjRxcem0R2Fjco7tAA(sdsCG6TyqeUptOb0vFs3)ltSGf5(eQe5(azL1jHIjR)xMBe2NMrpIsCHqxU5l5nsFh2cnK8r(AvUraSnERDIlgLBKGdnsjU47B57tahhdbyHBC2jtuq2(cKUe6CH7OsLkj]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["AOE_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCdUbaWwcQxtqMPemBaZNkCtj0VKe3wjTtk2lA3ISFP0pPI(lr63Q0avLQHckgmbmCI4GsXXOQZPkXcvQwmHA5I6HeYtHwgipxftuPmvknzIQPt6IsLRQe1LvCDPQnsG2QKYMLuTDvP8rvj9vLiFgu6XuPdlCxqvJwImojQtQQonqxJOCEjPHPkEgOY0uctpT04j24StQGO0Tpk6dtHVPJgiAjwmCZ3dT04PLyTidgIbMdTe3PLgpXkAKHD0jnRvBfq40TuKxHxy5tihEAGiw5OrwdvdxHOsLyJRcEthAPXtlnEIvCJJ2kGSYYObIyRJwh7ToADq0wvYqSXvbVjQuj(tI7bb0ArgmedmhAPsLkXLMqOM(CCOLkXcXrxwI8qh5eHEGGZd5FXxgAbuzIfhn2cnOLOnaMKEisSPxlDZeTLM8u)MhGy999yaGTpr8vSR2KpG3enW5L5jwms9bWpPt(TjPG3e3jUn1JEaLgprtSoeBC2jvqu62hf9HPW30reLmU)nA8lKTGO1PiA8ppqppe7s1Vz3r0DvsOHyqaqTk3PsLkj]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["MULTI_FS_DISCIPLINE"] = {
+  ["Macro"] = [[dCdVbaWwIuVMqAMQOzdy(uIBQe)sKCBLQDsL9I2Te7xk(jbP)sb)wvgib0qjugmb1WPuoif6yu15iiwOszXevlxupKO8uOLb0ZvPjQKMkOjtjnDsxKI6QsQUSIRlL2irYwLeBwsA7eGpsG6ReiFMq1JfXHfUlHy0IuJJiCsP60QQRrropLQHPcpJiAAsktpH05jUu)e2nifAyTJY6ID2DMPdKqIlrs(DjKopHeRe5FihyUesCJq68etPrw8rNYSBVryPlV0rExePToHvrOdKyQRgznunseLkvIgt0)RCjKopH05jMkjUAJWMKWeDGeBS0yzRXsJfIq72gIgt0)RqLkXErE7hqRe5FihyUesLkvIcAcrn2MJlHujEgxTUnRHowjcEakPh0leVeG1a9exgnwdniKimaMIEjs0yRM(Ljctp5P6lpaXUa3Ibq82crbJMRm57)vOtsVjpXLO0ga9Iozbmf9)kCJ46unAbu68eDX(qCP(jSBqk0WAhL1f7S7mteTnj9v681mvJiuOYOZFCaECq0CP6lNmYE72cnK)b(QDUrLkvsa]],
+  ["SpecID"] = 256,
+  ["ClassID"] = 5
+}
+Sequences["SINGLE_FS_BALANCE"] = {
+  ["Macro"] = [[dOJfcaWwQk9AQsntOQztfZxsUPk4xcXTfKhJKDIyVKDlL9lXpPk0WKk)wvgOuLoSIblIHdvoiv6UuvCmihNQGfksFMQilwOA5G6HcLNIAzQQNRutuQQPkQjRsMoLlQIUkivptaDDvQnkaBvfAZGKTtvvFui9vQIAAuLCALmoQQSnqmAPkohiLtcfFtsDnK68cQzbLUmWFfOfszrqIzmKO4pdgahm1fVlj2PiFLfFyOGFBLfbPS4Jd8AI7a2klovzrqIJydSNagObcfUK4B71ZahYhFVaZLpI8fhzBdSnMnuEltMyxkB9ABLfbPSiiXLQsvAPQujYxCeQzBBGhUbnkqjXpO9rylj0OAiylj0OAiylj0OAiylj0OAiylj0OAiIZHXbe7szRxtMiFLfbjUuvQslvLkr(IJqnBRKqJQHiohghqSlLTEnzYeJPf)E5yhh41e3bSvwMmzI9my829gE2kltm(zBqh31yGlX)UFGO)Vd1r7h9x8bGn9hBuwCECanBlwS7T1ZdwC037Yz5)Q1BQZCbGATnXr5ZJa4961ejqens8HPDpoyAga2FqZwVMsftMqaXmgsu8NbdGdM6I3Le7uCFauZTJjcsmJdqHPViiV8QwC2JXeb11976eF2G6btbI9cHBSj(YzzHvQmzYKa]],
+  ["SpecID"] = 102,
+  ["ClassID"] = 11
+}
+Sequences["AOE_FS_BALANCE"] = {
+  ["Macro"] = [[dOZ(baWwQiVMsvZurmBkz(c6Mkk)Ik1TPQ6Ws2jf7fTBrTFf(Ps4Vuv(TkgOkvEmedgsgoOCqGUlvuhdQJdP0cfQpdPQftvA5G8qb6PKwgGNlLjQKAQImzLY0jUOs1vHu8mfPRRs2ivWwvPSzLOTtP0hPu5RqQmnQqNwQghvsFJQy0ujoNkvDsfvBtj5AGQZlGzrP4YQAyczIzIgmvWf7(Cq9fdob0eCNgaMOoRqGonMObZe1BfuV8A9nMOgZenyQULcc9V853FGbkNYhxki)o702xBotdav3nPGKsKcXEkuOcIi9tUXenyMObtDeocJhHJqAaO6gPAs7r71Nr(bkxVhaBZafCSNv2mqbh7zf1uaypvqePFYuObGjAWuhHJW4r4iKgaQUrQMmqbh7zf1uaypvqePFYuOqDE27v3sUvq9YR13yIcfkur3x2dEbvnMOqDs1e0aBRKFJkqeWumaqeocURrtPo7LADjftutL1NLgvQGxIlhiQ2DoBwDB757ITQTFzVjuTt3V9qT(jtZumCm1zv(QSMNLhY2pl9tMXunL)Nk4IDFoO(IbNaAcUtD9VSUSeAWuvypY810GD0rputlcsdokcikI6EE5bc5dE8dRKYB3Qlbymfkuib]],
+  ["SpecID"] = 102,
+  ["ClassID"] = 11
+}
+Sequences["MULTI_FS_BALANCE"] = {
+  ["Macro"] = [[dOZ)baWwQQ8AQIMjKmBOA(I0nbv)sqUTu4XqStI2lA3IA)k8tQcnmP0VvXaHu5WsgmOmCqCqOCxQsogHJtvWcfXNHuSyHy5aEOq5PKwMk9CfnrLOPsLjRunDkxuiDvLKNrvPRRu2OazRkHnlfTDb4JcuFfsvtJQuNwQghvfBtj1OPQQZbP0jbY3aQRbsNxOAwcOlRQ)kOMc6Ouqf(kuoqHdsdNGHctglkLx6OcVqaot6Ouqh1ffqVIG)t6OMqhLcQHScanV95Vr8bm)Yh)lGgE53(x7Er5LAOPvawzwH4jnAuXqS(jpPJsbDukOoshPjJ0rkLxQHqQPnFpS9zKFaZh0EfboGbvaEDGdyqfGxt1fhYtfdX6NmnkV0rPG6iDKMmshPuEPgcPM2agub41uDXH8uXqS(jtJgvq5iBDCBrb0Ri4)KoA0OrfvnTvq2l73PEBV(kU3wrluFUGPI(V8eBdOM0rJk83QLLv0r1v4F2MuPITz(FaOg85SJ3dONrxcET)n7tJAWA0fpWSFYu6RaQGk8kVv4GY2deWNT(jZeQYQXtf(kuoqHdsdNGHctglk1O5MhaKp2PbKYQiD8UfNjuvipcOLuk82BWuDEmgLI22BBl1LFZAd3OuqJgnsa]],
+  ["SpecID"] = 102,
+  ["ClassID"] = 11
+}
+Sequences["SINGLE_FS_RETRIBUTION"] = {
+  ["Macro"] = [[duJXbaGnsOMPOy2q1nfL(LOY3uvLDs0Er7wO9tv1pLQ8xsXVvPbQQQgmvLHlrhusoSIZPQIfQQSusQftvSCO8qsKNcwgKEUuMOi1uvAYIQMoLlkHRkcxMW1LuBKe1wPkTzr02jb9rrYxLQY0KQQJrLhRINrQgTQknmv5KqCAbxtQCEsY4iH8AsGBtknDCP0raqKPYuOrzqJ6IvnYxIfPNKsuUeYohSBJlLoUe8oyHXdUOXLgHQJfUXgxkDCP0ri3zAMFF6D6)0ryvvkiuDSWnsJsuUu6iK7mnZVp0h6FocRQsbHQJfUrAuQZLshHCNPz(91PR43JWQQuqO6yHBKgncirp1bCZ7Gfgp4IgxA0OrOpXOGQASPXLgHmtZsuMFmrEcOpuDhQtrUxNUokHScBsp2WLWo4IO1iqOQ2(9IraQ1QvGHhI))Hp5fjdnJqkOWRaRfUrk1DDpczNy9GJenbMcfrlCJ8JqArYPg3O0rqoAfeaezQmfAug0OUyvJ8Lyr6jjaLIdsAkD935iS9uIs37H(EekIjVyhHsxTLJnEc4btf)OrJgja]],
+  ["SpecID"] = 70,
+  ["ClassID"] = 2
+}
+
+-----------------------------------------------------------------------------
+
+---- Because we know the names earlier we can dynamically figure out the names.
+local macroNames = {}
+-- For each k ("MACRO NAME") and v (the macro string and classid) do this loop
+for k,v in pairs(Sequences) do
+---- Add the name to the list of macroNames
+    table.insert(macroNames, k)
+end
+
+-----------------------------------------------------------------------------
+
+local function loadSequences(event, arg)
+  if arg == ModName then
+---- Force overwrite of macros ignoring the players merge preference
+    for k,v in pairs(Sequences) do
+        local localsuccess, uncompressedVersion = GSE.DecodeMessage(v.Macro)
+        GSE.ReplaceMacro(v.ClassID, k, uncompressedVersion[2])
+    end
+
+
+---- Tell GSE to reload the new stuff
+    GSE.PerformReloadSequences()
+
+
+---- Print Success Message
+    GSE.Print("Hello, " .. UnitName("player") .. " " .. UnitLevel("player") .. "  - Furyswipes_5mmb Macro Set has been loaded.", ModName)
+  end
+end
+
+
+if GSE.RegisterAddon(ModName, GetAddOnMetadata(ModName, "Version"), macroNames) then
+  loadSequences("Load", ModName)
+end
+
+GSEPlugin:RegisterMessage(Statics.ReloadMessage,  loadSequences)
+

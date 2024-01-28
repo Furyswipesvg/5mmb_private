@@ -1,0 +1,151 @@
+VER 3 0000000000000246 "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Perenial
+END
+VER 3 000000000000023D "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Spergy
+END
+VER 3 000000000000023E "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Cheated
+END
+VER 3 000000000000023F "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Streamist
+END
+VER 3 0000000000000240 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Piq
+END
+VER 3 0000000000000241 "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Skammist
+END
+VER 3 0000000000000242 "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Quintle
+END
+VER 3 0000000000000243 "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Buckles
+END
+VER 3 0000000000000244 "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Yippers
+END
+VER 3 0000000000000245 "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Stanleey
+END
+VER 3 0000000000000251 "AOE_FS_FROST" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_FROST LeftButton t;
+END
+VER 3 000000000000024B "bufft_fs" "INV_Misc_QuestionMark"
+/castsequence reset=combat/target Arcane Intellect
+END
+VER 3 0000000000000254 "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 000000000000024A "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000231 "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 000000000000023B "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Perenial
+/run SetView(4)
+END
+VER 3 0000000000000232 "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Spergy
+/run SetView(4)
+END
+VER 3 0000000000000233 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Cheated
+/run SetView(4)
+END
+VER 3 0000000000000234 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Streamist
+/run SetView(4)
+END
+VER 3 0000000000000235 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Piq
+/run SetView(4)
+END
+VER 3 0000000000000236 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Skammist
+/run SetView(4)
+END
+VER 3 0000000000000237 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Quintle
+/run SetView(4)
+END
+VER 3 0000000000000238 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Buckles
+/run SetView(4)
+END
+VER 3 0000000000000239 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Yippers
+/run SetView(4)
+END
+VER 3 000000000000023A "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Stanleey
+/run SetView(4)
+END
+VER 3 0000000000000255 "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 000000000000023C "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000253 "int_fs" "INV_Misc_Questionmark"
+/cast Counterspell
+END
+VER 3 0000000000000249 "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000247 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Crankery
+END
+VER 3 000000000000024F "MULTI_FS_FROST" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_FROST LeftButton t;
+END
+VER 3 0000000000000230 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 000000000000024C "poly_fs" "INV_Misc_QuestionMark"
+/cast Polymorph
+END
+VER 3 0000000000000248 "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 000000000000024D "SETUP_FS_FROST" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_FROST LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 0000000000000252 "SHEAL_FS_FROST" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_FROST LeftButton t;
+END
+VER 3 000000000000024E "SINGLE_FS_FROST" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_FROST LeftButton t;
+END
+VER 3 000000000000022F "squads_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp("squads")
+END
+VER 3 0000000000000250 "TURBO_FS_FROST" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_FROST LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END
+VER 3 00000000000000FA "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END

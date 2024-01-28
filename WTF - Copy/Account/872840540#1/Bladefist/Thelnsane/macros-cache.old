@@ -1,0 +1,4 @@
+VER 3 0100000000000002 "single_fs_FURY" "134400"
+#showtooltip
+/click [button:1] single_fs_FURY LeftButton t; single_fs_FURY
+END
