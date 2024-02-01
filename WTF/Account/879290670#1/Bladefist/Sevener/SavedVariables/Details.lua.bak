@@ -379,7 +379,7 @@ _detalhes_database = {
 				},
 				["combat_counter"] = 168,
 				["totals"] = {
-					8021, -- [1]
+					730183, -- [1]
 					3, -- [2]
 					{
 						10, -- [1]
@@ -8218,9 +8218,7 @@ _detalhes_database = {
 							["totalover"] = 0.004001,
 							["total_without_pet"] = 77.004001,
 							["total"] = 77.004001,
-							["targets_absorbs"] = {
-								["Orclaw"] = 77,
-							},
+							["spec"] = 259,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -8230,7 +8228,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Orclaw"] = 77,
 							},
-							["aID"] = "1147-094AA0CF",
+							["last_event"] = 1705116892,
 							["totalover_without_pet"] = 0.004001,
 							["healing_taken"] = 77.004001,
 							["fight_component"] = true,
@@ -8273,13 +8271,15 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["aID"] = "1147-094AA0CF",
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1705116892,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004001,
 							["delay"] = 0,
-							["spec"] = 259,
+							["targets_absorbs"] = {
+								["Orclaw"] = 77,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -12525,8 +12525,7 @@ _detalhes_database = {
 							["totalover"] = 0.008658,
 							["total_without_pet"] = 9.008658,
 							["total"] = 9.008658,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 255,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -12536,7 +12535,7 @@ _detalhes_database = {
 							["targets"] = {
 								["Badoinker"] = 9,
 							},
-							["aID"] = "1147-094B05C6",
+							["last_event"] = 1705116867,
 							["totalover_without_pet"] = 0.008658,
 							["healing_taken"] = 9.008658,
 							["fight_component"] = true,
@@ -12577,13 +12576,14 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["aID"] = "1147-094B05C6",
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1705116867,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.008658,
 							["delay"] = 0,
-							["spec"] = 255,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -12868,15 +12868,15 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 4,
 							["nome"] = "Elonlnside",
-							["last_event"] = 1705116867,
+							["debuff_uptime_targets"] = {
+							},
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 262,
 							["grupo"] = true,
-							["buff_uptime"] = 0,
 							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
+							["last_event"] = 1705116867,
+							["buff_uptime"] = 0,
 							["serial"] = "Player-1147-0949B396",
 							["classe"] = "SHAMAN",
 						}, -- [5]
@@ -12982,15 +12982,15 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 4,
 							["nome"] = "Frawshawwk",
-							["last_event"] = 1705116867,
+							["debuff_uptime_targets"] = {
+							},
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 263,
 							["grupo"] = true,
-							["buff_uptime"] = 0,
 							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
+							["last_event"] = 1705116867,
+							["buff_uptime"] = 0,
 							["serial"] = "Player-1147-09497906",
 							["classe"] = "SHAMAN",
 						}, -- [8]
@@ -20236,9 +20236,9 @@ _detalhes_database = {
 											["Allypally"] = 103,
 										},
 										["n_total"] = 103,
-										["g_dmg"] = 0,
-										["n_min"] = 1,
 										["a_amt"] = 0,
+										["n_min"] = 1,
+										["MISS"] = 32,
 										["counter"] = 85,
 										["DODGE"] = 8,
 										["total"] = 103,
@@ -20256,7 +20256,7 @@ _detalhes_database = {
 										["c_total"] = 0,
 										["n_amt"] = 40,
 										["r_amt"] = 0,
-										["MISS"] = 32,
+										["g_dmg"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
@@ -20638,7 +20638,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 9.007991,
 							["total_without_pet"] = 0.007991,
 							["total"] = 0.007991,
@@ -20693,12 +20693,12 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Perenial"] = 9,
 							},
-							["aID"] = "1147-094B2CE1",
+							["classe"] = "MAGE",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["start_time"] = 1704872023,
 							["delay"] = 1704871858,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094B2CE1",
 						}, -- [1]
 						{
 							["flag_original"] = 1300,
@@ -20707,7 +20707,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1147-094AA0C5",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 135.007752,
 							["total_without_pet"] = 0.007752,
 							["total"] = 0.007752,
@@ -20762,12 +20762,12 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Punkmunk"] = 135,
 							},
-							["classe"] = "MONK",
+							["aID"] = "1147-094AA0C5",
 							["custom"] = 0,
 							["last_event"] = 1705103419,
 							["totaldenied"] = 0.007752,
 							["delay"] = 1705103419,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 						}, -- [2]
 						{
 							["flag_original"] = 1300,
@@ -20776,7 +20776,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1147-094AA0C6",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 169.00477,
 							["total_without_pet"] = 0.00477,
 							["total"] = 0.00477,
@@ -20831,12 +20831,12 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Funkmunk"] = 169,
 							},
-							["classe"] = "MONK",
+							["aID"] = "1147-094AA0C6",
 							["custom"] = 0,
 							["last_event"] = 1705103418,
 							["totaldenied"] = 0.00477,
 							["delay"] = 1705103418,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 						}, -- [3]
 						{
 							["flag_original"] = 1300,
@@ -21044,9 +21044,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Boar <Doinkado>", -- [1]
-							},
+							["buff_uptime"] = 15,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -21068,14 +21066,16 @@ _detalhes_database = {
 							["debuff_uptime"] = 170,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 15,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["nome"] = "Doinkado",
-							["tipo"] = 4,
+							["pets"] = {
+								"Boar <Doinkado>", -- [1]
+							},
 							["last_event"] = 1704871881,
+							["nome"] = "Doinkado",
 							["serial"] = "Player-1147-094B054B",
 							["aID"] = "1147-094B054B",
 						}, -- [5]
@@ -21097,9 +21097,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Bear <Babadoink>", -- [1]
-							},
+							["buff_uptime"] = 5,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -21121,14 +21119,16 @@ _detalhes_database = {
 							["debuff_uptime"] = 170,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 5,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["pets"] = {
+								"Bear <Babadoink>", -- [1]
+							},
 							["last_event"] = 1704871878,
+							["nome"] = "Babadoink",
 							["serial"] = "Player-1147-094B05C7",
 							["aID"] = "1147-094B05C7",
 						}, -- [6]
@@ -21150,9 +21150,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Boar <Choinker>", -- [1]
-							},
+							["buff_uptime"] = 14,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -21174,14 +21172,16 @@ _detalhes_database = {
 							["debuff_uptime"] = 170,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 14,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["nome"] = "Choinker",
-							["tipo"] = 4,
+							["pets"] = {
+								"Boar <Choinker>", -- [1]
+							},
 							["last_event"] = 1704871881,
+							["nome"] = "Choinker",
 							["serial"] = "Player-1147-094B05C3",
 							["aID"] = "1147-094B05C3",
 						}, -- [7]
@@ -21587,7 +21587,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -21598,16 +21598,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -22729,15 +22729,15 @@ _detalhes_database = {
 							["Quintle"] = 32.008038,
 							["Getln"] = 1.002169,
 							["Choinker"] = 69.00126900000001,
-							["Slamhandle"] = 44.008759,
-							["Streamist"] = 117.002156,
 							["Piq"] = 78.003018,
+							["Streamist"] = 117.002156,
+							["Buckles"] = 31.004833,
 							["Allypally"] = 25.006745,
 							["Babadoink"] = 40.004444,
 							["Cheated"] = 41.002021,
 							["Doinkado"] = 74.004021,
 							["Glor"] = 39.00598,
-							["Buckles"] = 31.004833,
+							["Slamhandle"] = 44.008759,
 							["Stanleey"] = 64.003805,
 							["Perenial"] = 40.005476,
 							["Handywithit"] = 31.007382,
@@ -24336,11 +24336,11 @@ _detalhes_database = {
 								["Boar <Doinkado>"] = true,
 								["Choinker"] = true,
 								["Boar <Choinker>"] = true,
-								["Buckles"] = true,
+								["Slamhandle"] = true,
 								["Cheated"] = true,
 								["Doinkado"] = true,
+								["Buckles"] = true,
 								["Piq"] = true,
-								["Slamhandle"] = true,
 								["Streamist"] = true,
 								["Perenial"] = true,
 								["Handywithit"] = true,
@@ -24814,8 +24814,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 16,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -24847,14 +24846,15 @@ _detalhes_database = {
 							["debuff_uptime"] = 28,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 16,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1704871844,
+							["nome"] = "Babadoink",
 							["serial"] = "Player-1147-094B05C7",
 							["aID"] = "1147-094B05C7",
 						}, -- [7]
@@ -24930,14 +24930,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 13,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Doinkado",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 6,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871843,
+							["buff_uptime"] = 6,
 							["serial"] = "Player-1147-094B054B",
 							["aID"] = "1147-094B054B",
 						}, -- [9]
@@ -25076,14 +25076,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 13,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Choinker",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 4,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871843,
+							["buff_uptime"] = 4,
 							["serial"] = "Player-1147-094B05C3",
 							["aID"] = "1147-094B05C3",
 						}, -- [13]
@@ -25576,7 +25576,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -25587,16 +25587,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -25688,8 +25688,8 @@ _detalhes_database = {
 					["Stouter"] = {
 						["Fire Blast"] = 1,
 					},
-					["Streamist"] = {
-						["Fire Blast"] = 2,
+					["Stanleey"] = {
+						["Fire Blast"] = 1,
 					},
 					["Skivies"] = {
 						["Fire Blast"] = 1,
@@ -25710,8 +25710,8 @@ _detalhes_database = {
 						["Hunter's Mark"] = 6,
 						["Kill Command"] = 3,
 					},
-					["Witchwing Slayer"] = {
-						["Demoralizing Shout"] = 1,
+					["Streamist"] = {
+						["Fire Blast"] = 2,
 					},
 					["Buckles"] = {
 						["Fire Blast"] = 2,
@@ -25740,8 +25740,8 @@ _detalhes_database = {
 					["Piq"] = {
 						["Fire Blast"] = 2,
 					},
-					["Stanleey"] = {
-						["Fire Blast"] = 1,
+					["Witchwing Slayer"] = {
+						["Demoralizing Shout"] = 1,
 					},
 					["Perenial"] = {
 						["Fire Blast"] = 1,
@@ -25797,11 +25797,11 @@ _detalhes_database = {
 							["Skammist"] = 34.004131,
 							["Quintle"] = 66.005369,
 							["Choinker"] = 211.00629,
-							["Buckles"] = 125.003238,
+							["Piq"] = 39.005378,
 							["Cheated"] = 125.001416,
 							["Doinkado"] = 137.001744,
+							["Buckles"] = 125.003238,
 							["Slamhandle"] = 46.007242,
-							["Piq"] = 39.005378,
 							["Streamist"] = 81.006404,
 							["Perenial"] = 32.0014,
 							["Handywithit"] = 32.005825,
@@ -26786,7 +26786,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -26797,16 +26797,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -28680,11 +28680,11 @@ _detalhes_database = {
 								["Choinker"] = true,
 								["Boar <Choinker>"] = true,
 								["Babadoink"] = true,
-								["Slamhandle"] = true,
+								["Buckles"] = true,
 								["Cheated"] = true,
 								["Doinkado"] = true,
+								["Slamhandle"] = true,
 								["Piq"] = true,
-								["Buckles"] = true,
 								["Stanleey"] = true,
 								["Perenial"] = true,
 								["Handywithit"] = true,
@@ -29103,14 +29103,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 3,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Choinker",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 11,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871808,
+							["buff_uptime"] = 11,
 							["serial"] = "Player-1147-094B05C3",
 							["aID"] = "1147-094B05C3",
 						}, -- [5]
@@ -29186,14 +29186,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 25,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Babadoink",
 							["spec"] = 253,
 							["grupo"] = true,
-							["buff_uptime"] = 9,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871808,
+							["buff_uptime"] = 9,
 							["serial"] = "Player-1147-094B05C7",
 							["aID"] = "1147-094B05C7",
 						}, -- [7]
@@ -29262,14 +29262,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 2,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Doinkado",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 7,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871806,
+							["buff_uptime"] = 7,
 							["serial"] = "Player-1147-094B054B",
 							["aID"] = "1147-094B054B",
 						}, -- [10]
@@ -29505,7 +29505,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -29516,16 +29516,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -29730,13 +29730,13 @@ _detalhes_database = {
 							["Skammist"] = 73.00569200000001,
 							["Quintle"] = 32.00659,
 							["Choinker"] = 210.008429,
-							["Slamhandle"] = 92.004676,
+							["Piq"] = 38.007033,
 							["Babadoink"] = 169.005342,
-							["Buckles"] = 32.008009,
+							["Slamhandle"] = 92.004676,
 							["Cheated"] = 83.004699,
 							["Doinkado"] = 106.001859,
 							["Streamist"] = 38.003126,
-							["Piq"] = 38.007033,
+							["Buckles"] = 32.008009,
 							["Stanleey"] = 96.00681,
 							["Perenial"] = 63.007651,
 							["Handywithit"] = 64.00523,
@@ -31241,14 +31241,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 19,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Choinker",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 10,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871783,
+							["buff_uptime"] = 10,
 							["serial"] = "Player-1147-094B05C3",
 							["aID"] = "1147-094B05C3",
 						}, -- [1]
@@ -31270,8 +31270,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 10,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -31292,14 +31291,15 @@ _detalhes_database = {
 							["debuff_uptime"] = 19,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 10,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1704871783,
+							["nome"] = "Babadoink",
 							["serial"] = "Player-1147-094B05C7",
 							["aID"] = "1147-094B05C7",
 						}, -- [2]
@@ -31538,9 +31538,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Boar <Doinkado>", -- [1]
-							},
+							["buff_uptime"] = 10,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -31561,14 +31559,16 @@ _detalhes_database = {
 							["debuff_uptime"] = 19,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 10,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["nome"] = "Doinkado",
-							["tipo"] = 4,
+							["pets"] = {
+								"Boar <Doinkado>", -- [1]
+							},
 							["last_event"] = 1704871783,
+							["nome"] = "Doinkado",
 							["serial"] = "Player-1147-094B054B",
 							["aID"] = "1147-094B054B",
 						}, -- [13]
@@ -31744,7 +31744,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -31755,16 +31755,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -31950,12 +31950,12 @@ _detalhes_database = {
 							["Sevener"] = 31.002805,
 							["Choinker"] = 31.003274,
 							["Gestorpo"] = 30.005056,
-							["Doinkado"] = 131.002509,
+							["Glor"] = 77.007943,
 							["Southist"] = 59.003715,
-							["Stouter"] = 90.005318,
+							["Doinkado"] = 131.002509,
 							["Yippers"] = 35.00807,
 							["Cheated"] = 40.002653,
-							["Glor"] = 77.007943,
+							["Stouter"] = 90.005318,
 							["Slamhandle"] = 47.00611,
 							["Buckles"] = 62.005034,
 							["Streamist"] = 39.007776,
@@ -32679,7 +32679,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 9.00884,
 							["total_without_pet"] = 0.00884,
 							["total"] = 0.00884,
@@ -32734,12 +32734,12 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Gestorpo"] = 9,
 							},
-							["aID"] = "1147-094B2C41",
+							["classe"] = "MAGE",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["start_time"] = 1704871757,
 							["delay"] = 0,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "1147-094B2C41",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -32771,8 +32771,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 6,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -32793,14 +32792,15 @@ _detalhes_database = {
 							["debuff_uptime"] = 1,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 6,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["nome"] = "Doinkado",
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1704871763,
+							["nome"] = "Doinkado",
 							["serial"] = "Player-1147-094B054B",
 							["aID"] = "1147-094B054B",
 						}, -- [1]
@@ -33066,14 +33066,14 @@ _detalhes_database = {
 							["debuff_uptime"] = 5,
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["nome"] = "Choinker",
 							["spec"] = 254,
 							["grupo"] = true,
-							["buff_uptime"] = 3,
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1704871763,
+							["buff_uptime"] = 3,
 							["serial"] = "Player-1147-094B05C3",
 							["aID"] = "1147-094B05C3",
 						}, -- [9]
@@ -33183,8 +33183,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 3,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -33205,14 +33204,15 @@ _detalhes_database = {
 							["debuff_uptime"] = 5,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 3,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1704871763,
+							["nome"] = "Babadoink",
 							["serial"] = "Player-1147-094B05C7",
 							["aID"] = "1147-094B05C7",
 						}, -- [14]
@@ -33268,7 +33268,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -33279,16 +33279,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -34569,7 +34569,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -34580,16 +34580,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -34775,10 +34775,6 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["damage_taken"] = 28.00629,
-							["classe"] = "MONK",
-							["custom"] = 0,
-							["last_event"] = 1704871716,
 							["avoidance"] = {
 								["Witchwing Roguefeather"] = {
 									["DODGE"] = 0,
@@ -34829,9 +34825,13 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 19,
 								},
 							},
+							["classe"] = "MONK",
+							["custom"] = 0,
+							["last_event"] = 1704871716,
+							["last_dps"] = 0,
 							["start_time"] = 1704871716,
 							["delay"] = 0,
-							["last_dps"] = 0,
+							["damage_taken"] = 28.00629,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -35855,7 +35855,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -35866,16 +35866,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -36061,10 +36061,6 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["damage_taken"] = 41.007436,
-							["classe"] = "MONK",
-							["custom"] = 0,
-							["last_event"] = 1704871658,
 							["avoidance"] = {
 								["Hecklefang Hyena"] = {
 									["DODGE"] = 0,
@@ -36115,9 +36111,13 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 20,
 								},
 							},
+							["classe"] = "MONK",
+							["custom"] = 0,
+							["last_event"] = 1704871658,
+							["last_dps"] = 0,
 							["start_time"] = 1704871658,
 							["delay"] = 0,
-							["last_dps"] = 0,
+							["damage_taken"] = 41.007436,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -37141,7 +37141,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -37152,16 +37152,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -40546,7 +40546,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 0,
 							["cc_done"] = 1.006625,
-							["nome"] = "Booyah",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Venture Co. Drudger"] = 1,
@@ -40554,10 +40555,9 @@ _detalhes_database = {
 							["buff_uptime"] = 27,
 							["aID"] = "1147-094BA4B3",
 							["last_event"] = 1704871623,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Booyah",
 							["serial"] = "Player-1147-094BA4B3",
 							["tipo"] = 4,
 						}, -- [2]
@@ -40579,7 +40579,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 48,
+							["pets"] = {
+								"Boar <Doinkado>", -- [1]
+							},
 							["aID"] = "1147-094B054B",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -40610,16 +40612,14 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 7,
 							["nome"] = "Doinkado",
-							["tipo"] = 4,
+							["buff_uptime"] = 48,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["last_event"] = 1704871623,
-							["pets"] = {
-								"Boar <Doinkado>", -- [1]
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1147-094B054B",
 							["classe"] = "HUNTER",
@@ -40673,7 +40673,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 0,
+							["pets"] = {
+								"Earthbind Totem <Elonlnside>", -- [1]
+							},
 							["aID"] = "1147-0949B396",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -40694,16 +40696,14 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 1,
 							["nome"] = "Elonlnside",
-							["tipo"] = 4,
+							["buff_uptime"] = 0,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 262,
 							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["last_event"] = 1704871608,
-							["pets"] = {
-								"Earthbind Totem <Elonlnside>", -- [1]
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1147-0949B396",
 							["classe"] = "SHAMAN",
@@ -41141,7 +41141,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 43,
+							["pets"] = {
+							},
 							["aID"] = "1147-094B05C3",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -41172,15 +41173,14 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 5,
 							["nome"] = "Choinker",
-							["tipo"] = 4,
+							["buff_uptime"] = 43,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 254,
 							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["last_event"] = 1704871623,
-							["pets"] = {
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1147-094B05C3",
 							["classe"] = "HUNTER",
@@ -41454,7 +41454,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 0,
 							["cc_done"] = 1.004784,
-							["nome"] = "Skivies",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Venture Co. Drudger"] = 1,
@@ -41462,10 +41463,9 @@ _detalhes_database = {
 							["buff_uptime"] = 27,
 							["aID"] = "1147-094B2CD8",
 							["last_event"] = 1704871623,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Skivies",
 							["serial"] = "Player-1147-094B2CD8",
 							["tipo"] = 4,
 						}, -- [25]
@@ -41487,7 +41487,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 48,
+							["pets"] = {
+							},
 							["aID"] = "1147-094B05C7",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -41518,15 +41519,14 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 10,
 							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["buff_uptime"] = 48,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["last_event"] = 1704871623,
-							["pets"] = {
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1147-094B05C7",
 							["classe"] = "HUNTER",
@@ -41564,10 +41564,10 @@ _detalhes_database = {
 						}, -- [27]
 						{
 							["flag_original"] = 1300,
-							["aID"] = "1147-094B2C41",
-							["cooldowns_defensive"] = 1.008066,
 							["pets"] = {
 							},
+							["cooldowns_defensive"] = 1.008066,
+							["buff_uptime"] = 29,
 							["last_cooldown"] = {
 								1704871604.313, -- [1]
 								66, -- [2]
@@ -41617,10 +41617,10 @@ _detalhes_database = {
 							},
 							["nome"] = "Gestorpo",
 							["grupo"] = true,
+							["aID"] = "1147-094B2C41",
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
-							["buff_uptime"] = 29,
 							["serial"] = "Player-1147-094B2C41",
 							["last_event"] = 1704871623,
 						}, -- [28]
@@ -41695,7 +41695,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -41706,16 +41706,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -41829,17 +41829,17 @@ _detalhes_database = {
 						["Arcane Explosion"] = 1,
 						["Fire Blast"] = 2,
 					},
-					["Piq"] = {
+					["Slamhandle"] = {
 						["Frost Nova"] = 1,
-						["Fire Blast"] = 2,
+						["Fire Blast"] = 1,
 					},
 					["Elonlnside"] = {
 						["Earthbind Totem"] = 1,
 						["Flame Shock"] = 2,
 					},
-					["Buckles"] = {
+					["Piq"] = {
 						["Frost Nova"] = 1,
-						["Fire Blast"] = 1,
+						["Fire Blast"] = 2,
 					},
 					["Skivies"] = {
 						["Frost Nova"] = 1,
@@ -41897,7 +41897,7 @@ _detalhes_database = {
 						["Arcane Explosion"] = 1,
 						["Fire Blast"] = 1,
 					},
-					["Slamhandle"] = {
+					["Buckles"] = {
 						["Frost Nova"] = 1,
 						["Fire Blast"] = 1,
 					},
@@ -41957,23 +41957,23 @@ _detalhes_database = {
 							["Yippers"] = 59.00363,
 							["Stouter"] = 90.005731,
 							["Nolnjury"] = 32.005572,
-							["Buckles"] = 34.005438,
+							["Piq"] = 76.002929,
 							["Stanleey"] = 32.008058,
 							["Skivies"] = 41.001205,
 							["Skammist"] = 35.007925,
 							["Quintle"] = 36.002065,
-							["Slamhandle"] = 3.006785,
+							["Buckles"] = 34.005438,
 							["Getln"] = 29.006618,
 							["Choinker"] = 196.00684,
-							["Thelnsane"] = 20.003935,
-							["Werldpiece"] = 13.003306,
-							["Babadoink"] = 16.008337,
 							["Allypally"] = 17.004007,
+							["Werldpiece"] = 13.003306,
+							["Thelnsane"] = 20.003935,
+							["Babadoink"] = 16.008337,
 							["Booyah"] = 36.001871,
 							["Cheated"] = 69.001835,
 							["Doinkado"] = 123.001514,
 							["Glor"] = 107.00791,
-							["Piq"] = 76.002929,
+							["Slamhandle"] = 3.006785,
 							["Streamist"] = 39.002589,
 							["Perenial"] = 32.008705,
 							["Handywithit"] = 96.00736,
@@ -43482,11 +43482,11 @@ _detalhes_database = {
 								["Skammist"] = true,
 								["Quintle"] = true,
 								["Stouter"] = true,
-								["Piq"] = true,
+								["Buckles"] = true,
 								["Cheated"] = true,
 								["Streamist"] = true,
+								["Piq"] = true,
 								["Slamhandle"] = true,
-								["Buckles"] = true,
 								["Stanleey"] = true,
 								["Perenial"] = true,
 								["Handywithit"] = true,
@@ -44114,7 +44114,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 2,
 							["cc_done"] = 1.002746,
-							["nome"] = "Skammist",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Dreadmaw Crocolisk"] = 1,
@@ -44122,10 +44123,9 @@ _detalhes_database = {
 							["buff_uptime"] = 0,
 							["aID"] = "1147-094B088C",
 							["last_event"] = 1704871092,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Skammist",
 							["serial"] = "Player-1147-094B088C",
 							["tipo"] = 4,
 						}, -- [3]
@@ -44307,7 +44307,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 0,
 							["cc_done"] = 1.007736,
-							["nome"] = "Stanleey",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Dreadmaw Crocolisk"] = 1,
@@ -44315,10 +44316,9 @@ _detalhes_database = {
 							["buff_uptime"] = 0,
 							["aID"] = "1147-094B08B4",
 							["last_event"] = 1704871090,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Stanleey",
 							["serial"] = "Player-1147-094B08B4",
 							["tipo"] = 4,
 						}, -- [8]
@@ -44745,7 +44745,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 0,
 							["cc_done"] = 1.003975,
-							["nome"] = "Slamhandle",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Dreadmaw Crocolisk"] = 1,
@@ -44753,10 +44754,9 @@ _detalhes_database = {
 							["buff_uptime"] = 0,
 							["aID"] = "1147-094B2C48",
 							["last_event"] = 1704871090,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Slamhandle",
 							["serial"] = "Player-1147-094B2C48",
 							["tipo"] = 4,
 						}, -- [17]
@@ -45118,7 +45118,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 42,
+							["pets"] = {
+							},
 							["aID"] = "1147-094B05C7",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -45150,15 +45151,14 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 2,
 							["nome"] = "Babadoink",
-							["tipo"] = 4,
+							["buff_uptime"] = 42,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 253,
 							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["last_event"] = 1704871093,
-							["pets"] = {
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
 							},
 							["serial"] = "Player-1147-094B05C7",
 							["classe"] = "HUNTER",
@@ -45305,7 +45305,8 @@ _detalhes_database = {
 							},
 							["debuff_uptime"] = 0,
 							["cc_done"] = 1.003196,
-							["nome"] = "Gestorpo",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["cc_done_targets"] = {
 								["Dreadmaw Crocolisk"] = 1,
@@ -45313,10 +45314,9 @@ _detalhes_database = {
 							["buff_uptime"] = 0,
 							["aID"] = "1147-094B2C41",
 							["last_event"] = 1704871090,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["nome"] = "Gestorpo",
 							["serial"] = "Player-1147-094B2C41",
 							["tipo"] = 4,
 						}, -- [27]
@@ -45381,7 +45381,7 @@ _detalhes_database = {
 					["Southist"] = "Player-1147-094B2C47",
 					["Stouter"] = "Player-1147-094B2CD7",
 					["Getln"] = "Player-1147-0949787F",
-					["Badoinker"] = "Player-1147-094B05C6",
+					["Streamist"] = "Player-1147-094B0888",
 					["Glor"] = "Player-1147-094B087F",
 					["Piq"] = "Player-1147-094B088B",
 					["Yippers"] = "Player-1147-094B08AC",
@@ -45392,16 +45392,16 @@ _detalhes_database = {
 					["Buckles"] = "Player-1147-094B088F",
 					["Spergy"] = "Player-1147-094B088D",
 					["Choinker"] = "Player-1147-094B05C3",
-					["Allypally"] = "Player-1147-094AA0C9",
-					["Werldpiece"] = "Player-1147-094978AF",
-					["Thelnsane"] = "Player-1147-0949B36D",
 					["Babadoink"] = "Player-1147-094B05C7",
+					["Werldpiece"] = "Player-1147-094978AF",
+					["Allypally"] = "Player-1147-094AA0C9",
+					["Thelnsane"] = "Player-1147-0949B36D",
 					["Booyah"] = "Player-1147-094BA4B3",
 					["Cheated"] = "Player-1147-094B0883",
 					["Doinkado"] = "Player-1147-094B054B",
-					["Stanleey"] = "Player-1147-094B08B4",
+					["Badoinker"] = "Player-1147-094B05C6",
 					["Slamhandle"] = "Player-1147-094B2C48",
-					["Streamist"] = "Player-1147-094B0888",
+					["Stanleey"] = "Player-1147-094B08B4",
 					["Perenial"] = "Player-1147-094B2CE1",
 					["Nolnjury"] = "Player-1147-094978A9",
 				},
@@ -45606,11 +45606,11 @@ _detalhes_database = {
 							["Quintle"] = 2.00689,
 							["Werldpiece"] = 0.007702,
 							["Glor"] = 29.008921,
-							["Piq"] = 28.004877,
+							["Slamhandle"] = 2.001563,
 							["Cheated"] = 30.002323,
 							["Stanleey"] = 1.002239,
+							["Piq"] = 28.004877,
 							["Buckles"] = 1.004569,
-							["Slamhandle"] = 2.001563,
 							["Streamist"] = 2.001959,
 							["Perenial"] = 1.004378,
 							["Handywithit"] = 1.002962,
@@ -45676,10 +45676,10 @@ _detalhes_database = {
 			["utility"] = false,
 		},
 		["show_title"] = true,
-		["height"] = 18,
-		["framme_locked"] = false,
 		["cooldowns"] = {
 		},
+		["height"] = 18,
+		["framme_locked"] = false,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
@@ -45697,7 +45697,7 @@ _detalhes_database = {
 			["utility"] = false,
 		},
 	},
-	["last_version"] = "10.2.5 12190",
+	["last_version"] = "10.2.5 12222",
 	["player_stats"] = {
 	},
 	["force_font_outline"] = "",
@@ -45801,31 +45801,33 @@ _detalhes_database = {
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_overalldata"] = false,
 	},
-	["ignore_nicktag"] = false,
+	["combat_counter"] = 168,
 	["mythic_plus_log"] = {
 	},
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
+	["on_death_menu"] = false,
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["data_harvested_for_charts"] = {
-	},
-	["combat_counter"] = 168,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1706641404,
+		["nextreset"] = 1708016804,
 		["last_version"] = 16,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
 	["last_realversion"] = 155,
 	["last_instance_time"] = 1704431279,
 	["combat_id"] = 131,
 	["savedStyles"] = {
 	},
-	["last_day"] = "16",
+	["last_day"] = "31",
 	["character_data"] = {
-		["logons"] = 67,
+		["logons"] = 71,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -45862,11 +45864,11 @@ _detalhes_database = {
 						["Skammist"] = true,
 						["Quintle"] = true,
 						["Glor"] = true,
-						["Slamhandle"] = true,
+						["Piq"] = true,
 						["Cheated"] = true,
 						["Stanleey"] = true,
+						["Slamhandle"] = true,
 						["Buckles"] = true,
-						["Piq"] = true,
 						["Streamist"] = true,
 						["Perenial"] = true,
 						["Handywithit"] = true,
@@ -48540,10 +48542,6 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["damage_taken"] = 561.03336,
-					["classe"] = "MONK",
-					["custom"] = 0,
-					["last_event"] = 0,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -48562,9 +48560,13 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
+					["classe"] = "MONK",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1704871607,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["damage_taken"] = 561.03336,
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
@@ -50169,14 +50171,14 @@ _detalhes_database = {
 						["Boar <Doinkado>"] = true,
 						["Choinker"] = true,
 						["Getln"] = true,
-						["Piq"] = true,
+						["Slamhandle"] = true,
 						["Boar <Choinker>"] = true,
 						["Babadoink"] = true,
 						["Streamist"] = true,
 						["Cheated"] = true,
 						["Doinkado"] = true,
+						["Piq"] = true,
 						["Buckles"] = true,
-						["Slamhandle"] = true,
 						["Stanleey"] = true,
 						["Perenial"] = true,
 						["Handywithit"] = true,
@@ -50900,8 +50902,8 @@ _detalhes_database = {
 						["Handywithit"] = 337,
 						["Orclaw"] = 416,
 						["Neversmile"] = 388,
-						["Punkmunk"] = 392,
 						["Eversmile"] = 556,
+						["Thelraq"] = 392,
 						["Choinker"] = 435,
 						["Chaostard"] = 448,
 						["Maladin"] = 386,
@@ -50909,7 +50911,7 @@ _detalhes_database = {
 						["Babadoink"] = 483,
 						["Loonkin"] = 392,
 						["Goodlivin"] = 392,
-						["Thelraq"] = 392,
+						["Punkmunk"] = 392,
 						["Spadoink"] = 520,
 						["Springvalley"] = 389,
 						["Badoinker"] = 438,
@@ -50963,8 +50965,8 @@ _detalhes_database = {
 									["Handywithit"] = 337,
 									["Orclaw"] = 416,
 									["Neversmile"] = 388,
-									["Punkmunk"] = 392,
 									["Eversmile"] = 556,
+									["Thelraq"] = 392,
 									["Choinker"] = 435,
 									["Chaostard"] = 448,
 									["Maladin"] = 386,
@@ -50972,7 +50974,7 @@ _detalhes_database = {
 									["Babadoink"] = 483,
 									["Loonkin"] = 392,
 									["Goodlivin"] = 392,
-									["Thelraq"] = 392,
+									["Punkmunk"] = 392,
 									["Spadoink"] = 520,
 									["Springvalley"] = 389,
 									["Badoinker"] = 438,
@@ -52067,7 +52069,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "MAGE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 9.010060999999999,
 					["total_without_pet"] = 0.010061,
 					["total"] = 0.010061,
@@ -52122,12 +52124,12 @@ _detalhes_database = {
 					["targets_overheal"] = {
 						["Gestorpo"] = 9,
 					},
-					["aID"] = "1147-094B2C41",
+					["classe"] = "MAGE",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1704871754,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094B2C41",
 				}, -- [2]
 				{
 					["flag_original"] = 1300,
@@ -52276,7 +52278,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "MAGE",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 9.015209,
 					["total_without_pet"] = 0.015209,
 					["total"] = 0.015209,
@@ -52331,12 +52333,12 @@ _detalhes_database = {
 					["targets_overheal"] = {
 						["Perenial"] = 9,
 					},
-					["aID"] = "1147-094B2CE1",
+					["classe"] = "MAGE",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1704872021,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1147-094B2CE1",
 				}, -- [5]
 				{
 					["flag_original"] = 1300,
@@ -52349,8 +52351,7 @@ _detalhes_database = {
 					["totalover"] = 0.015628,
 					["total_without_pet"] = 9.015628000000001,
 					["total"] = 9.015628000000001,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 255,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -52360,7 +52361,7 @@ _detalhes_database = {
 					["targets"] = {
 						["Badoinker"] = 9,
 					},
-					["aID"] = "1147-094B05C6",
+					["last_event"] = 0,
 					["totalover_without_pet"] = 0.015628,
 					["healing_taken"] = 9.015628000000001,
 					["fight_component"] = true,
@@ -52401,13 +52402,14 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
+					["aID"] = "1147-094B05C6",
 					["heal_enemy_amt"] = 0,
-					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.015628,
 					["delay"] = 0,
-					["spec"] = 255,
+					["targets_absorbs"] = {
+					},
 				}, -- [6]
 				{
 					["flag_original"] = 1300,
@@ -52420,9 +52422,7 @@ _detalhes_database = {
 					["totalover"] = 0.009097000000000001,
 					["total_without_pet"] = 77.009097,
 					["total"] = 77.009097,
-					["targets_absorbs"] = {
-						["Orclaw"] = 77,
-					},
+					["spec"] = 259,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -52432,7 +52432,7 @@ _detalhes_database = {
 					["targets"] = {
 						["Orclaw"] = 77,
 					},
-					["aID"] = "1147-094AA0CF",
+					["last_event"] = 0,
 					["totalover_without_pet"] = 0.009097000000000001,
 					["healing_taken"] = 77.009097,
 					["fight_component"] = true,
@@ -52474,13 +52474,15 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
+					["aID"] = "1147-094AA0CF",
 					["heal_enemy_amt"] = 0,
-					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.009097000000000001,
 					["delay"] = 0,
-					["spec"] = 259,
+					["targets_absorbs"] = {
+						["Orclaw"] = 77,
+					},
 				}, -- [7]
 			},
 		}, -- [2]
@@ -52489,7 +52491,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.116429,
+					["resource"] = 21.142149,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52516,7 +52518,7 @@ _detalhes_database = {
 				}, -- [1]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 34.175339,
+					["resource"] = 42.215131,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52543,7 +52545,7 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 17.022557,
+					["resource"] = 21.026569,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52570,7 +52572,7 @@ _detalhes_database = {
 				}, -- [3]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 34.112458,
+					["resource"] = 42.13834599999998,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52597,7 +52599,7 @@ _detalhes_database = {
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["resource"] = 34.16179800000001,
+					["resource"] = 42.19806200000002,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52624,7 +52626,7 @@ _detalhes_database = {
 				}, -- [5]
 				{
 					["flag_original"] = 1297,
-					["resource"] = 17.154944,
+					["resource"] = 21.190712,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52652,7 +52654,7 @@ _detalhes_database = {
 				}, -- [6]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.070543,
+					["resource"] = 21.085223,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52679,7 +52681,7 @@ _detalhes_database = {
 				}, -- [7]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.121931,
+					["resource"] = 21.149631,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52706,7 +52708,7 @@ _detalhes_database = {
 				}, -- [8]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.145296,
+					["resource"] = 21.17864,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52733,7 +52735,7 @@ _detalhes_database = {
 				}, -- [9]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.024383,
+					["resource"] = 21.029547,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52760,7 +52762,7 @@ _detalhes_database = {
 				}, -- [10]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.133353,
+					["resource"] = 21.162841,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52787,7 +52789,7 @@ _detalhes_database = {
 				}, -- [11]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.051078,
+					["resource"] = 21.061294,
 					["pets"] = {
 					},
 					["classe"] = "MAGE",
@@ -52814,7 +52816,7 @@ _detalhes_database = {
 				}, -- [12]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 17.070182,
+					["resource"] = 21.086298,
 					["pets"] = {
 					},
 					["classe"] = "ROGUE",
@@ -52841,7 +52843,7 @@ _detalhes_database = {
 				}, -- [13]
 				{
 					["flag_original"] = 1300,
-					["resource"] = 0.08587400000000002,
+					["resource"] = 0.142986,
 					["pets"] = {
 					},
 					["aID"] = "1147-094AA0D2",
@@ -53029,14 +53031,14 @@ _detalhes_database = {
 					["debuff_uptime"] = 212,
 					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Doinkado",
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["spec"] = 254,
 					["grupo"] = true,
-					["buff_uptime"] = 234,
-					["tipo"] = 4,
+					["nome"] = "Doinkado",
 					["last_event"] = 0,
+					["buff_uptime"] = 234,
 					["serial"] = "Player-1147-094B054B",
 					["aID"] = "1147-094B054B",
 				}, -- [2]
@@ -53090,8 +53092,7 @@ _detalhes_database = {
 					},
 					["debuff_uptime"] = 2,
 					["cc_done"] = 1.007291,
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "Skammist",
 					["grupo"] = true,
 					["cc_done_targets"] = {
 						["Dreadmaw Crocolisk"] = 1,
@@ -53099,8 +53100,9 @@ _detalhes_database = {
 					["buff_uptime"] = 56,
 					["classe"] = "MAGE",
 					["tipo"] = 4,
-					["nome"] = "Skammist",
 					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-094B088C",
 					["last_event"] = 0,
@@ -53132,7 +53134,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 79,
+					["pets"] = {
+						"Earthbind Totem <Elonlnside>", -- [1]
+					},
 					["classe"] = "SHAMAN",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -53164,15 +53168,13 @@ _detalhes_database = {
 					["debuff_uptime"] = 5,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["buff_uptime"] = 79,
 					["nome"] = "Elonlnside",
 					["spec"] = 262,
 					["grupo"] = true,
-					["debuff_uptime_targets"] = {
-					},
 					["tipo"] = 4,
-					["pets"] = {
-						"Earthbind Totem <Elonlnside>", -- [1]
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-0949B396",
 					["aID"] = "1147-0949B396",
@@ -53246,16 +53248,16 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 8,
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime_targets"] = {
 					},
-					["nome"] = "Nolnjury",
 					["grupo"] = true,
 					["buff_uptime"] = 42,
 					["last_event"] = 0,
 					["tipo"] = 4,
 					["serial"] = "Player-1147-094978A9",
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "Nolnjury",
 				}, -- [6]
 				{
 					["flag_original"] = 1300,
@@ -53365,8 +53367,7 @@ _detalhes_database = {
 					},
 					["debuff_uptime"] = 0,
 					["cc_done"] = 1.009982,
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "Stanleey",
 					["grupo"] = true,
 					["cc_done_targets"] = {
 						["Dreadmaw Crocolisk"] = 1,
@@ -53374,8 +53375,9 @@ _detalhes_database = {
 					["buff_uptime"] = 56,
 					["classe"] = "MAGE",
 					["tipo"] = 4,
-					["nome"] = "Stanleey",
 					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-094B08B4",
 					["last_event"] = 0,
@@ -53751,7 +53753,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 301,
+					["pets"] = {
+						"Boar <Choinker>", -- [1]
+					},
 					["aID"] = "1147-094B05C3",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -53783,15 +53787,13 @@ _detalhes_database = {
 					["debuff_uptime"] = 215,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["buff_uptime"] = 301,
 					["nome"] = "Choinker",
 					["spec"] = 254,
 					["grupo"] = true,
-					["debuff_uptime_targets"] = {
-					},
 					["tipo"] = 4,
-					["pets"] = {
-						"Boar <Choinker>", -- [1]
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-094B05C3",
 					["classe"] = "HUNTER",
@@ -53845,7 +53847,7 @@ _detalhes_database = {
 					},
 					["debuff_uptime"] = 0,
 					["cc_done"] = 1.010725,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["grupo"] = true,
 					["cc_done_targets"] = {
@@ -53855,9 +53857,9 @@ _detalhes_database = {
 					},
 					["classe"] = "MAGE",
 					["last_event"] = 0,
-					["buff_uptime_targets"] = {
-					},
 					["nome"] = "Slamhandle",
+					["debuff_uptime_targets"] = {
+					},
 					["serial"] = "Player-1147-094B2C48",
 					["tipo"] = 4,
 				}, -- [17]
@@ -54211,7 +54213,7 @@ _detalhes_database = {
 					},
 					["debuff_uptime"] = 0,
 					["cc_done"] = 1.011647,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["grupo"] = true,
 					["cc_done_targets"] = {
@@ -54221,9 +54223,9 @@ _detalhes_database = {
 					},
 					["classe"] = "MAGE",
 					["last_event"] = 0,
-					["buff_uptime_targets"] = {
-					},
 					["nome"] = "Skivies",
+					["debuff_uptime_targets"] = {
+					},
 					["serial"] = "Player-1147-094B2CD8",
 					["tipo"] = 4,
 				}, -- [24]
@@ -54244,7 +54246,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 265,
+					["pets"] = {
+						"Bear <Babadoink>", -- [1]
+					},
 					["aID"] = "1147-094B05C7",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -54276,15 +54280,13 @@ _detalhes_database = {
 					["debuff_uptime"] = 260,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["buff_uptime"] = 265,
 					["nome"] = "Babadoink",
 					["spec"] = 253,
 					["grupo"] = true,
-					["debuff_uptime_targets"] = {
-					},
 					["tipo"] = 4,
-					["pets"] = {
-						"Bear <Babadoink>", -- [1]
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-094B05C7",
 					["classe"] = "HUNTER",
@@ -54562,8 +54564,7 @@ _detalhes_database = {
 					},
 					["debuff_uptime"] = 0,
 					["cc_done"] = 1.014432,
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "Booyah",
 					["grupo"] = true,
 					["cc_done_targets"] = {
 						["Venture Co. Drudger"] = 1,
@@ -54571,8 +54572,9 @@ _detalhes_database = {
 					["buff_uptime"] = 138,
 					["classe"] = "MONK",
 					["tipo"] = 4,
-					["nome"] = "Booyah",
 					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1147-094BA4B3",
 					["last_event"] = 0,
@@ -54910,7 +54912,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 37,
+					["pets"] = {
+					},
 					["aID"] = "1147-09497906",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -54931,15 +54934,14 @@ _detalhes_database = {
 					["debuff_uptime"] = 4,
 					["debuff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["buff_uptime"] = 37,
 					["buff_uptime_targets"] = {
 					},
 					["spec"] = 263,
 					["grupo"] = true,
-					["nome"] = "Frawshawwk",
 					["tipo"] = 4,
-					["pets"] = {
-					},
+					["last_event"] = 0,
+					["nome"] = "Frawshawwk",
 					["serial"] = "Player-1147-09497906",
 					["classe"] = "SHAMAN",
 				}, -- [43]
@@ -55889,12 +55891,8 @@ _detalhes_database = {
 		},
 		["end_time"] = 72300.802,
 		["data_inicio"] = "23:17:32",
-		["frags"] = {
-		},
 		["spells_cast_timeline"] = {
 		},
-		["data_fim"] = "19:38:29",
-		["overall_enemy_name"] = "-- x -- x --",
 		["segments_added"] = {
 			{
 				["elapsed"] = 1,
@@ -56059,6 +56057,10 @@ _detalhes_database = {
 				["clock"] = "23:17:32",
 			}, -- [27]
 		},
+		["data_fim"] = "19:38:29",
+		["overall_enemy_name"] = "-- x -- x --",
+		["frags"] = {
+		},
 		["cleu_timeline"] = {
 		},
 		["start_time"] = 71877.268,
@@ -56068,12 +56070,152 @@ _detalhes_database = {
 		},
 	},
 	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+			["tank_block_height"] = 40,
+			["tank_block_powerbar_size_height"] = 10,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["scale"] = 1,
+			["main_frame_size"] = {
+				300.0000610351563, -- [1]
+				500, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.000152587890625,
+				["x"] = 0.000518798828125,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Terciob",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 3.0517578125e-05,
+			["font_size"] = 10,
+			["x"] = 0.0013427734375,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["data_harvested_for_charts"] = {
 	},
-	["on_death_menu"] = false,
+	["ignore_nicktag"] = false,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -56088,7 +56230,5 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-1147-094C0E6D"] = 71,
-		["Player-1147-094B2C44"] = 1449,
 	},
 }

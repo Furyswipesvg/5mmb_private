@@ -119,7 +119,5 @@ VER 3 0000000000000001 "ZygorAction1" "134327"
 /target Warlord Breka Grimaxe
 /run ZGV:MRM()
 END
-VER 3 0000000000000002 "ZygorAction2" "134327"
-#showtooltip Shift click to destroy:|n|cff9d9d9d1 Sticky Volatile Substance|r worth |cfff8f8ff20s|r |cffffaa9997c|r|nRight click to skip this item|n
-/run ZGV.Inventory:HandleTrashMacro()
+VER 3 0000000000000002 "ZygorAction2" "134400"
 END

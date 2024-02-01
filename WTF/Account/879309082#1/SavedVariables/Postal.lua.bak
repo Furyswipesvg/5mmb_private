@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Gestorpo|Bladefist|Horde|11|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gestorpo - Bladefist"] = "Gestorpo - Bladefist",
+	},
+	["profiles"] = {
+		["Gestorpo - Bladefist"] = {
+		},
+	},
+}

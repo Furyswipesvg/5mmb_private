@@ -60,7 +60,7 @@ AUCTIONATOR_CONFIG = {
 	["autoscan_2"] = false,
 	["save_last_duration_as_default"] = false,
 	["vendor_tooltips"] = true,
-	["auction_mean_tooltips"] = false,
+	["crafting_info_show_cost"] = true,
 	["show_selling_bid_price"] = false,
 	["columns_shopping_buy_commodity"] = {
 	},
@@ -91,7 +91,7 @@ AUCTIONATOR_CONFIG = {
 		[16] = 0,
 	},
 	["selling_bag_collapsed"] = false,
-	["crafting_info_show_cost"] = true,
+	["auction_mean_tooltips"] = false,
 	["columns_shopping"] = {
 	},
 	["auction_sales_preference"] = "percentage",

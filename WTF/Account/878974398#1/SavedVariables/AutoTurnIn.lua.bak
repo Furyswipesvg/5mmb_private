@@ -1,13 +1,13 @@
 
 AutoTurnInDB = {
 	["profileKeys"] = {
-		["Healgobble - Bladefist"] = "Healgobble - Bladefist",
 		["Funkmunk - Bladefist"] = "Funkmunk - Bladefist",
+		["Healgobble - Bladefist"] = "Healgobble - Bladefist",
 	},
 	["profiles"] = {
-		["Healgobble - Bladefist"] = {
-		},
 		["Funkmunk - Bladefist"] = {
+		},
+		["Healgobble - Bladefist"] = {
 		},
 	},
 }

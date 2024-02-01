@@ -62,9 +62,9 @@ AUCTIONATOR_CONFIG = {
 	["save_last_duration_as_default"] = false,
 	["auction_mean_tooltips"] = false,
 	["crafting_info_show_cost"] = true,
-	["show_selling_bid_price"] = false,
 	["columns_shopping_buy_commodity"] = {
 	},
+	["show_selling_bid_price"] = false,
 	["hide_splash_screen"] = false,
 	["columns_shopping_historical_prices"] = {
 	},

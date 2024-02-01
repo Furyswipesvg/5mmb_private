@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Sevener|Bladefist|Horde|11|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Sevener - Bladefist"] = "Sevener - Bladefist",
+	},
+	["profiles"] = {
+		["Sevener - Bladefist"] = {
+		},
+	},
+}

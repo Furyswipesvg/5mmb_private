@@ -75,10 +75,10 @@ GSEOptions = {
 	["INDENT"] = "|cffccaa88",
 	["editorHeight"] = 700,
 	["filterList"] = {
-		["Spec"] = true,
-		["Class"] = true,
-		["Global"] = true,
 		["All"] = false,
+		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["saveAllMacrosLocal"] = true,
 	["UseVerboseExportFormat"] = false,

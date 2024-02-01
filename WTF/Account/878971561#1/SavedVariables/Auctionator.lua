@@ -80,7 +80,8 @@ AUCTIONATOR_CONFIG = {
 		[19] = 0,
 		[16] = 0,
 	},
-	["show_selling_bid_price"] = false,
+	["columns_shopping_buy_commodity"] = {
+	},
 	["hide_splash_screen"] = false,
 	["columns_shopping_historical_prices"] = {
 	},
@@ -90,8 +91,7 @@ AUCTIONATOR_CONFIG = {
 	["undercut_static_value"] = 0,
 	["auction_chat_log"] = true,
 	["mailbox_tooltips"] = true,
-	["columns_shopping_buy_commodity"] = {
-	},
+	["show_selling_bid_price"] = false,
 	["selling_bag_collapsed"] = false,
 	["autoscan_2"] = false,
 	["autoscan_interval"] = 15,

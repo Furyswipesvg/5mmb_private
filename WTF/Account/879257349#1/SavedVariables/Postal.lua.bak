@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Buckles|Bladefist|Horde|11|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Buckles - Bladefist"] = "Buckles - Bladefist",
+	},
+	["profiles"] = {
+		["Buckles - Bladefist"] = {
+		},
+	},
+}

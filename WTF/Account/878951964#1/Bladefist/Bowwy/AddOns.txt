@@ -7,3 +7,5 @@ GSE_LDB: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 Details: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

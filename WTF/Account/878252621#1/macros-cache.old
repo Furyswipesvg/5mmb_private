@@ -1,200 +1,200 @@
-VER 3 0000000000000A31 "a10_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A97 "a10_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Funkmunk
+/assist Elonlnside
 END
-VER 3 0000000000000A28 "a1_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 0
-END
-VER 3 0000000000000A29 "a2_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A8E "a1_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Neversmile
+/assist Summerlin
 END
-VER 3 0000000000000A2A "a3_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A8F "a2_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Goodlivin
+/assist Maladin
 END
-VER 3 0000000000000A2B "a4_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A90 "a3_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Eversmile
 END
-VER 3 0000000000000A2C "a5_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 1
-/assist Aslf
+VER 3 0000000000000A91 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
 END
-VER 3 0000000000000A2D "a6_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A92 "a5_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Toofy
+/assist Funkmunk
 END
-VER 3 0000000000000A2E "a7_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A93 "a6_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Mypetsux
+/assist Punkmunk
 END
-VER 3 0000000000000A2F "a8_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A94 "a7_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Opmageikr
+/assist Deadlnside
 END
-VER 3 0000000000000A30 "a9_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000A95 "a8_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Frawshawwk
+/assist Jerkstore
 END
-VER 3 0000000000000A46 "AOE_FS_BREWMASTER" "spell_fire_selfdestruct"
+VER 3 0000000000000A96 "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Thelnsane
+END
+VER 3 0000000000000AAC "AOE_FS_BREWMASTER" "spell_fire_selfdestruct"
 #showtooltip
 /click [button:1] AOE_FS_BREWMASTER LeftButton t;
 END
-VER 3 0000000000000A49 "convP_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AAF "convP_fs" "Ability_HUNTER_pathfinding"
 /run C_PartyInfo.ConvertToParty()
 END
-VER 3 0000000000000A3F "dance_fs" "ability_DRUID_aquaticform"
+VER 3 0000000000000AA5 "dance_fs" "ability_DRUID_aquaticform"
 /dance
 END
-VER 3 0000000000000A1B "delete_trash_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000A81 "delete_trash_fs" "Ability_HUNTER_pathfinding"
 /run AutoDelete()
 END
-VER 3 0000000000000A26 "f10_fs" "Ability_hunter_pet_gorilla"
-/follow Funkmunk
+VER 3 0000000000000A8C "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Elonlnside
 /run SetView(4)
 END
-VER 3 0000000000000A1D "f1_fs" "Ability_hunter_pet_gorilla"
-END
-VER 3 0000000000000A1E "f2_fs" "Ability_hunter_pet_gorilla"
-/follow Neversmile
+VER 3 0000000000000A83 "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Summerlin
 /run SetView(4)
 END
-VER 3 0000000000000A1F "f3_fs" "Ability_hunter_pet_gorilla"
-/follow Goodlivin
+VER 3 0000000000000A84 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Maladin
 /run SetView(4)
 END
-VER 3 0000000000000A20 "f4_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000A85 "f3_fs" "Ability_hunter_pet_gorilla"
 /follow Eversmile
 /run SetView(4)
 END
-VER 3 0000000000000A21 "f5_fs" "Ability_hunter_pet_gorilla"
-/follow Aslf
+VER 3 0000000000000A86 "f4_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000A87 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Funkmunk
 /run SetView(4)
 END
-VER 3 0000000000000A22 "f6_fs" "Ability_hunter_pet_gorilla"
-/follow Toofy
+VER 3 0000000000000A88 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Punkmunk
 /run SetView(4)
 END
-VER 3 0000000000000A23 "f7_fs" "Ability_hunter_pet_gorilla"
-/follow Mypetsux
+VER 3 0000000000000A89 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Deadlnside
 /run SetView(4)
 END
-VER 3 0000000000000A24 "f8_fs" "Ability_hunter_pet_gorilla"
-/follow Opmageikr
+VER 3 0000000000000A8A "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Jerkstore
 /run SetView(4)
 END
-VER 3 0000000000000A25 "f9_fs" "Ability_hunter_pet_gorilla"
-/follow Frawshawwk
+VER 3 0000000000000A8B "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Thelnsane
 /run SetView(4)
 END
-VER 3 0000000000000A1C "followT_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000A82 "followT_fs" "Ability_HUNTER_pathfinding"
 /follow
 END
-VER 3 0000000000000A3B "h10_fs" "spell_nature_healingtouch"
+VER 3 0000000000000AA1 "h10_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Funkmunk] Vivify
+/cast [@Elonlnside] Vivify
 END
-VER 3 0000000000000A32 "h1_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A98 "h1_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [nochanneling] Expel Harm
-/cast [@player,nochanneling] vivify
+/cast [@Summerlin] Vivify
 END
-VER 3 0000000000000A33 "h2_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A99 "h2_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Neversmile] Vivify
+/cast [@Maladin] Vivify
 END
-VER 3 0000000000000A34 "h3_fs" "spell_nature_healingtouch"
-/run ClearCursor()
-/cleartarget
-/cast [@Goodlivin] Vivify
-END
-VER 3 0000000000000A35 "h4_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9A "h3_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /cast [@Eversmile] Vivify
 END
-VER 3 0000000000000A36 "h5_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9B "h4_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Aslf] Vivify
+/cast [@Getln] Vivify
 END
-VER 3 0000000000000A37 "h6_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9C "h5_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Toofy] Vivify
+/cast [@Funkmunk] Vivify
 END
-VER 3 0000000000000A38 "h7_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9D "h6_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Mypetsux] Vivify
+/cast [@Punkmunk] Vivify
 END
-VER 3 0000000000000A39 "h8_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9E "h7_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Opmageikr] Vivify
+/cast [@Deadlnside] Vivify
 END
-VER 3 0000000000000A3A "h9_fs" "spell_nature_healingtouch"
+VER 3 0000000000000A9F "h8_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/cast [@Frawshawwk] Vivify
+/cast [@Jerkstore] Vivify
 END
-VER 3 0000000000000A4A "Hide5_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AA0 "h9_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/cast [@Thelnsane] Vivify
+END
+VER 3 0000000000000AB0 "Hide5_fs" "Ability_HUNTER_pathfinding"
 /run MultiBar5:Hide()
 END
-VER 3 0000000000000A27 "init_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000A8D "init_fs" "Ability_HUNTER_pathfinding"
 /init
 END
-VER 3 0000000000000A48 "int_fs" "INV_Misc_Questionmark"
+VER 3 0000000000000AAE "int_fs" "INV_Misc_Questionmark"
 /cast Leg Sweep
 END
-VER 3 0000000000000A3E "leave_fs" "spell_nature_purge"
+VER 3 0000000000000AA4 "leave_fs" "spell_nature_purge"
 /script C_PartyInfo.LeaveParty()
 END
-VER 3 0000000000000A3C "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+VER 3 0000000000000AA2 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Eversmile
 END
-VER 3 0000000000000A44 "MULTI_FS_BREWMASTER" "ability_upgrademoonglaive"
+VER 3 0000000000000AAA "MULTI_FS_BREWMASTER" "ability_upgrademoonglaive"
 #showtooltip
 /click [button:1] MULTI_FS_BREWMASTER LeftButton t;
 END
-VER 3 0000000000000A1A "party_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000A80 "party_fs" "Ability_HUNTER_pathfinding"
 /run PartyUp()
 END
-VER 3 0000000000000A41 "poly_fs" "INV_Misc_QuestionMark"
+VER 3 0000000000000AA7 "poly_fs" "INV_Misc_QuestionMark"
 /cast Paralysis
 END
-VER 3 0000000000000A3D "reload_fs" "spell_frost_stun"
+VER 3 0000000000000AA3 "reload_fs" "spell_frost_stun"
 /reload
 END
-VER 3 0000000000000A40 "REZ_FS_BREWMASTER" "INV_Misc_QuestionMark"
+VER 3 0000000000000AA6 "REZ_FS_BREWMASTER" "INV_Misc_QuestionMark"
 #showtooltip
 /click [button:1] REZ_FS_BREWMASTER LeftButton t; REZ_FS_BREWMASTER
 END
-VER 3 0000000000000A42 "SETUP_FS_BREWMASTER" "Spell_magic_polymorphchicken"
+VER 3 0000000000000AA8 "SETUP_FS_BREWMASTER" "Spell_magic_polymorphchicken"
 #showtooltip
 /click [button:1] SETUP_FS_BREWMASTER LeftButton t;
 /petpassive [mod:alt]
 /stopcasting [mod:alt]
 END
-VER 3 0000000000000A47 "SHEAL_FS_BREWMASTER" "spell_nature_healingtouch"
+VER 3 0000000000000AAD "SHEAL_FS_BREWMASTER" "spell_nature_healingtouch"
 #showtooltip
 /click [button:1] SHEAL_FS_BREWMASTER LeftButton t;
 END
-VER 3 0000000000000A43 "SINGLE_FS_BREWMASTER" "ability_searingarrow"
+VER 3 0000000000000AA9 "SINGLE_FS_BREWMASTER" "ability_searingarrow"
 #showtooltip
 /click [button:1] SINGLE_FS_BREWMASTER LeftButton t;
 END
-VER 3 0000000000000A45 "TURBO_FS_BREWMASTER" "Spell_nature_lightning"
+VER 3 0000000000000AAB "TURBO_FS_BREWMASTER" "Spell_nature_lightning"
 #showtooltip
 /click [button:1] TURBO_FS_BREWMASTER LeftButton t;
 /petpassive [mod:alt]
 /run mountup()
 /run SetView(4)
 END
-VER 3 0000000000000A4B "wave_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AB1 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
 VER 3 0000000000000A4C "ZygorAction1" "134327"

@@ -724,12 +724,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gor'groth",
 		},
-		[305515] = {
+		[305567] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ravnyr",
 		},
@@ -749,11 +748,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tunk",
 		},
-		[305567] = {
+		[305515] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ravnyr",
 		},

@@ -1,14 +1,14 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Stabsya - Bladefist"] = "Stabsya - Bladefist",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Stabsya|Bladefist|Horde|13|ROGUE", -- [1]
+				"Stabsya|Bladefist|Horde|12|ROGUE", -- [1]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Stabsya - Bladefist"] = "Stabsya - Bladefist",
 	},
 	["profiles"] = {
 		["Stabsya - Bladefist"] = {

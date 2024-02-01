@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Yippers|Bladefist|Horde|11|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Yippers - Bladefist"] = "Yippers - Bladefist",
+	},
+	["profiles"] = {
+		["Yippers - Bladefist"] = {
+		},
+	},
+}

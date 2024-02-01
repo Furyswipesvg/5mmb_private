@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Nolnjury|Bladefist|Horde|13|HUNTER", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Nolnjury - Bladefist"] = "Nolnjury - Bladefist",
+	},
+	["profiles"] = {
+		["Nolnjury - Bladefist"] = {
+		},
+	},
+}

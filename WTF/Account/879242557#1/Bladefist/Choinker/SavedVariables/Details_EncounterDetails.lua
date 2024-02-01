@@ -1,13 +1,13 @@
 
 EncounterDetailsDB = {
 	["chartData"] = {
-		[435] = {
-		},
 		[444] = {
+		},
+		[459] = {
 		},
 		[451] = {
 		},
-		[459] = {
+		[435] = {
 		},
 	},
 	["encounter_spells"] = {
@@ -244,13 +244,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[270882] = {
+		[268362] = {
 			["school"] = 4,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Azerite Footbomb",
+			["source"] = "Wanton Sapper",
 		},
 		[257582] = {
 			["school"] = 1,
@@ -276,12 +275,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mogul Razdunk",
 		},
-		[268362] = {
+		[270882] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Wanton Sapper",
+			["source"] = "Azerite Footbomb",
 		},
 		[257544] = {
 			["school"] = 1,

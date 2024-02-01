@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Piq|Bladefist|Horde|11|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Piq - Bladefist"] = "Piq - Bladefist",
+	},
+	["profiles"] = {
+		["Piq - Bladefist"] = {
+		},
+	},
+}

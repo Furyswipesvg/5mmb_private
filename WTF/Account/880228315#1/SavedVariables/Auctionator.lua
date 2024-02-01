@@ -50,24 +50,22 @@ AUCTIONATOR_CONFIG = {
 	["selling_buy_shortcut"] = "alt right click",
 	["selling_confirm_low_price"] = true,
 	["selling_group_by_item_key"] = true,
+	["selling_should_reselect_item"] = false,
 	["selling_bag_select_shortcut"] = "alt left click",
-	["auction_mean_tooltips"] = false,
 	["selling_cancel_shortcut"] = "right click",
-	["cancel_undercut_shortcut"] = "SPACE",
-	["crafting_info_show_profit"] = true,
 	["columns_selling_search_3"] = {
 	},
+	["cancel_undercut_shortcut"] = "SPACE",
 	["columns_cancelling"] = {
 	},
-	["save_last_duration_as_default"] = false,
-	["auction_mean_days_limit"] = 21,
-	["crafting_info_show_cost"] = true,
+	["autoscan_interval"] = 15,
 	["columns_shopping"] = {
 	},
+	["save_last_duration_as_default"] = false,
+	["auction_mean_tooltips"] = false,
+	["crafting_info_show_cost"] = true,
+	["show_selling_bid_price"] = false,
 	["columns_shopping_buy_commodity"] = {
-	},
-	["vendor_tooltips"] = true,
-	["columns_shopping_historical_prices"] = {
 	},
 	["default_quantities"] = {
 		0, -- [1]
@@ -79,17 +77,16 @@ AUCTIONATOR_CONFIG = {
 		0, -- [7]
 		0, -- [8]
 		0, -- [9]
-		nil, -- [10]
-		nil, -- [11]
-		0, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		0, -- [15]
-		0, -- [16]
-		1, -- [17]
 		[0] = 0,
+		[17] = 1,
+		[15] = 0,
+		[12] = 0,
 		[19] = 0,
+		[16] = 0,
 	},
+	["columns_shopping_historical_prices"] = {
+	},
+	["crafting_info_show_profit"] = true,
 	["undercut_static_value"] = 0,
 	["auto_list_search"] = true,
 	["debug"] = false,
@@ -97,10 +94,10 @@ AUCTIONATOR_CONFIG = {
 	["mailbox_tooltips"] = true,
 	["hide_splash_screen"] = false,
 	["selling_bag_collapsed"] = false,
+	["vendor_tooltips"] = true,
 	["autoscan_2"] = false,
-	["autoscan_interval"] = 15,
 	["auction_sales_preference"] = "percentage",
-	["show_selling_bid_price"] = false,
+	["auction_mean_days_limit"] = 21,
 	["splash_screen_version"] = "anything",
 	["crafting_info_show"] = true,
 	["selling_split_panels"] = false,
@@ -120,6 +117,8 @@ AUCTIONATOR_POSTING_HISTORY = {
 }
 AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["__dbversion"] = 1,
+	["128764"] = 5000,
+	["128763"] = 5000,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
 }

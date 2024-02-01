@@ -22,15 +22,20 @@ ZygorGuidesViewerSettings = {
 			["favourites"] = {
 			},
 			["statweightsmoved"] = true,
-			["lastlogin"] = 1706345895,
-			["initialFlightPathsLoaded"] = true,
+			["lastlogin"] = 1706720768,
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+					["step"] = 1,
+				}, -- [1]
+			},
 			["gear_selected_spec"] = 2,
 			["faction"] = "Horde",
 			["guidestephistory"] = {
 				["LEVELING\\Starter Guides\\Chromie Time"] = {
 					["steps"] = {
 					},
-					["lasttime"] = 1706345907,
+					["lasttime"] = 1706720781,
 				},
 			},
 			["actionbarmacrowarning"] = false,
@@ -68,22 +73,17 @@ ZygorGuidesViewerSettings = {
 			},
 			["race"] = "Tauren",
 			["timeperlevel"] = {
-				[20] = 12115,
-				["total"] = 254287,
+				[20] = 15977,
+				["total"] = 258149,
 			},
-			["tabguides"] = {
-				{
-					["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-					["step"] = 1,
-				}, -- [1]
-			},
+			["initialFlightPathsLoaded"] = true,
 			["PlayerMoney"] = {
-				[1705737600] = {
+				[1706688000] = {
 					["gain"] = 0,
 					["endmoney"] = 2915572,
 					["startmoney"] = 2915572,
 					["loss"] = 0,
-					["timestamp"] = 1705737600,
+					["timestamp"] = 1706688000,
 				},
 				[1706342400] = {
 					["gain"] = 0,
@@ -92,31 +92,38 @@ ZygorGuidesViewerSettings = {
 					["loss"] = 0,
 					["timestamp"] = 1706342400,
 				},
+				[1705737600] = {
+					["gain"] = 0,
+					["endmoney"] = 2915572,
+					["startmoney"] = 2915572,
+					["loss"] = 0,
+					["timestamp"] = 1705737600,
+				},
 			},
 			["QuestQueue"] = {
 			},
 			["telemetry"] = {
 				{
-					["time"] = 1705775185,
+					["time"] = 1706344008,
 					["event"] = "STARTUP",
 				}, -- [1]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705775185,
+					["time"] = 1706344008,
 				}, -- [2]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705775185,
+					["time"] = 1706344008,
 				}, -- [3]
 				{
-					["state"] = true,
+					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705775324,
+					["time"] = 1706344013,
 				}, -- [4]
 				{
-					["time"] = 1705775605,
+					["time"] = 1706344013,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 1,
@@ -130,27 +137,27 @@ ZygorGuidesViewerSettings = {
 					["event"] = "GUIDES_LOADED",
 				}, -- [5]
 				{
-					["time"] = 1705776118,
+					["time"] = 1706344222,
 					["event"] = "SHUTDOWN",
 				}, -- [6]
 				{
-					["time"] = 1705777091,
+					["time"] = 1706345797,
 					["event"] = "STARTUP",
 				}, -- [7]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705777091,
+					["time"] = 1706345797,
 				}, -- [8]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705777091,
+					["time"] = 1706345797,
 				}, -- [9]
 				{
-					["state"] = true,
+					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705777092,
+					["time"] = 1706345803,
 				}, -- [10]
 				{
 					["tabs"] = {
@@ -164,111 +171,105 @@ ZygorGuidesViewerSettings = {
 						["step"] = 1,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1705777092,
+					["time"] = 1706345803,
 				}, -- [11]
-				{
-					["button"] = "LeftButton",
-					["name"] = "CloseButton",
-					["event"] = "BUTTON_CLICKED",
-					["time"] = 1705777100,
-				}, -- [12]
-				{
-					["time"] = 1705777402,
-					["event"] = "SHUTDOWN",
-				}, -- [13]
-				{
-					["time"] = 1706344008,
-					["event"] = "STARTUP",
-				}, -- [14]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1706344008,
-				}, -- [15]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1706344008,
-				}, -- [16]
-				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1706344013,
-				}, -- [17]
-				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
-					["time"] = 1706344013,
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 1,
-						}, -- [1]
-					},
-				}, -- [18]
-				{
-					["time"] = 1706344222,
-					["event"] = "SHUTDOWN",
-				}, -- [19]
-				{
-					["time"] = 1706345797,
-					["event"] = "STARTUP",
-				}, -- [20]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1706345797,
-				}, -- [21]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1706345797,
-				}, -- [22]
-				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1706345803,
-				}, -- [23]
-				{
-					["time"] = 1706345803,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 1,
-					},
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 1,
-						}, -- [1]
-					},
-					["event"] = "GUIDES_LOADED",
-				}, -- [24]
 				{
 					["time"] = 1706345888,
 					["event"] = "SHUTDOWN",
-				}, -- [25]
+				}, -- [12]
 				{
 					["time"] = 1706345899,
 					["event"] = "STARTUP",
-				}, -- [26]
+				}, -- [13]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
 					["time"] = 1706345899,
-				}, -- [27]
+				}, -- [14]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
 					["time"] = 1706345899,
-				}, -- [28]
+				}, -- [15]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
 					["time"] = 1706345906,
-				}, -- [29]
+				}, -- [16]
+				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["time"] = 1706345907,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 1,
+						}, -- [1]
+					},
+				}, -- [17]
+				{
+					["time"] = 1706346170,
+					["event"] = "SHUTDOWN",
+				}, -- [18]
+				{
+					["time"] = 1706391132,
+					["event"] = "STARTUP",
+				}, -- [19]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706391132,
+				}, -- [20]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706391132,
+				}, -- [21]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706391135,
+				}, -- [22]
+				{
+					["time"] = 1706391135,
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 1,
+					},
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 1,
+						}, -- [1]
+					},
+					["event"] = "GUIDES_LOADED",
+				}, -- [23]
+				{
+					["time"] = 1706391325,
+					["event"] = "SHUTDOWN",
+				}, -- [24]
+				{
+					["time"] = 1706720773,
+					["event"] = "STARTUP",
+				}, -- [25]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706720773,
+				}, -- [26]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706720773,
+				}, -- [27]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706720781,
+				}, -- [28]
 				{
 					["tabs"] = {
 						{
@@ -281,12 +282,12 @@ ZygorGuidesViewerSettings = {
 						["step"] = 1,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1706345907,
-				}, -- [30]
+					["time"] = 1706720781,
+				}, -- [29]
 				{
-					["time"] = 1706346170,
+					["time"] = 1706722638,
 					["event"] = "SHUTDOWN",
-				}, -- [31]
+				}, -- [30]
 			},
 			["debuglog"] = {
 				"10:18:26.071.064> Viewer started. ---------------------------", -- [1]
@@ -294,6 +295,8 @@ ZygorGuidesViewerSettings = {
 				"00:26:44.278.935> Viewer started. ---------------------------", -- [3]
 				"00:56:35.243.870> Viewer started. ---------------------------", -- [4]
 				"00:58:16.384.321> Viewer started. ---------------------------", -- [5]
+				"13:31:58.593.338> Viewer started. ---------------------------", -- [6]
+				"09:06:10.750.479> Viewer started. ---------------------------", -- [7]
 			},
 			["gear_selected_class"] = 7,
 			["AThiddenitems"] = {
@@ -320,7 +323,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:175225::::::::20:263::11:1:6500:2:9:10:28:741:::::"] = {
 				"Expeditionary Mail Leggings", -- [1]
@@ -339,7 +342,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:13401::::::::20:263::1:2:6710:6652:2:9:17:28:1922:::::"] = {
 				"The Cruel Hand of Timmy", -- [1]
@@ -358,7 +361,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:109888::::::::20:263::1:2:6710:6652:2:9:20:28:2217:::::"] = {
 				"Sharpeye Chestguard", -- [1]
@@ -377,7 +380,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				5, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["|cffffffff|Hitem:154897::::::::20:263:::::::::|h[Stringy Loins]|h|r"] = {
 				"Stringy Loins", -- [1]
@@ -396,7 +399,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706721891,
 			},
 			["item:44403::::::::20:263::11:1:6710:2:9:16:28:1869:::::"] = {
 				"Amulet of Constrained Power", -- [1]
@@ -415,7 +418,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				2, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:159659::::::::20:263::1:2:6710:6652:2:9:19:28:500:::::"] = {
 				"Sinister Wicker Talons", -- [1]
@@ -434,7 +437,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:6948::::::::20:263:::::::::"] = {
 				"Hearthstone", -- [1]
@@ -453,7 +456,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["|cff0070dd|Hitem:27450::::::::20:263::1:2:6710:6652:2:9:15:28:1885:::::|h[Wild Stalker Boots]|h|r"] = {
 				"Wild Stalker Boots", -- [1]
@@ -472,7 +475,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				1, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706721891,
 			},
 			["item:38220::::::::20:263::11:1:6710:2:9:16:28:1869:::::"] = {
 				"Signet of Swift Judgment", -- [1]
@@ -491,7 +494,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				2, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["|cffffffff|Hitem:6948::::::::20:263:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -510,7 +513,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706721891,
 			},
 			["item:25046::::::::20:263::1:2:6654:1692:2:9:15:28:1885:::::"] = {
 				"Spined Ring of the Fireflash", -- [1]
@@ -529,7 +532,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				1, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			[0] = {
 			},
@@ -550,7 +553,7 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				2, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:134390::::::::20:263::1:2:6710:6652:2:9:18:28:1699:::::"] = {
 				"Mardum Chain Vest", -- [1]
@@ -569,7 +572,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:154897::::::::20:263:::::::::"] = {
 				"Stringy Loins", -- [1]
@@ -588,64 +591,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1706345898,
-			},
-			["item:39679::::::::20:263::11:1:6710:2:9:16:28:1869:::::"] = {
-				"Runecaster's Bracers", -- [1]
-				"|cff0070dd|Hitem:39679::::::::20:263::11:1:6710:2:9:16:28:1869:::::|h[Runecaster's Bracers]|h|r", -- [2]
-				3, -- [3]
-				33, -- [4]
-				16, -- [5]
-				"Armor", -- [6]
-				"Mail", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132615, -- [10]
-				866, -- [11]
-				4, -- [12]
-				3, -- [13]
-				1, -- [14]
-				2, -- [15]
-				[17] = false,
-				["timestamp"] = 1706345898,
-			},
-			["item:175232::::::::20:263::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Mail Waistguard", -- [1]
-				"|cff1eff00|Hitem:175232::::::::20:263::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Mail Waistguard]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Mail", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				2032463, -- [10]
-				15, -- [11]
-				4, -- [12]
-				3, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706345898,
-			},
-			["|cffffffff|Hitem:152576::::::::20:263:::::::::|h[Tidespray Linen]|h|r"] = {
-				"Tidespray Linen", -- [1]
-				"|cffffffff|Hitem:152576::::::::20:263:::::::::|h[Tidespray Linen]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2067081, -- [10]
-				1, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706720773,
 			},
 			["item:109762::::::::20:263::1:3:6710:6652:8810:2:9:20:28:2217:::::"] = {
 				"Signet of Radiant Leaves", -- [1]
@@ -664,26 +610,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				5, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
-			},
-			["|cff1eff00|Hitem:25046::::::::20:263::1:2:6654:1692:2:9:15:28:1885:::::|h[Spined Ring of the Fireflash]|h|r"] = {
-				"Spined Ring of the Fireflash", -- [1]
-				"|cff1eff00|Hitem:25046::::::::20:263::1:2:6654:1692:2:9:15:28:1885:::::|h[Spined Ring of the Fireflash]|h|r", -- [2]
-				2, -- [3]
-				30, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				133377, -- [10]
-				28546, -- [11]
-				4, -- [12]
-				0, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706720773,
 			},
 			["item:27450::::::::20:263::1:2:6710:6652:2:9:15:28:1885:::::"] = {
 				"Wild Stalker Boots", -- [1]
@@ -702,7 +629,83 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				1, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
+			},
+			["|cffffffff|Hitem:152576::::::::20:263:::::::::|h[Tidespray Linen]|h|r"] = {
+				"Tidespray Linen", -- [1]
+				"|cffffffff|Hitem:152576::::::::20:263:::::::::|h[Tidespray Linen]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2067081, -- [10]
+				1, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706721891,
+			},
+			["item:39679::::::::20:263::11:1:6710:2:9:16:28:1869:::::"] = {
+				"Runecaster's Bracers", -- [1]
+				"|cff0070dd|Hitem:39679::::::::20:263::11:1:6710:2:9:16:28:1869:::::|h[Runecaster's Bracers]|h|r", -- [2]
+				3, -- [3]
+				33, -- [4]
+				16, -- [5]
+				"Armor", -- [6]
+				"Mail", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132615, -- [10]
+				866, -- [11]
+				4, -- [12]
+				3, -- [13]
+				1, -- [14]
+				2, -- [15]
+				[17] = false,
+				["timestamp"] = 1706720773,
+			},
+			["|cff1eff00|Hitem:25046::::::::20:263::1:2:6654:1692:2:9:15:28:1885:::::|h[Spined Ring of the Fireflash]|h|r"] = {
+				"Spined Ring of the Fireflash", -- [1]
+				"|cff1eff00|Hitem:25046::::::::20:263::1:2:6654:1692:2:9:15:28:1885:::::|h[Spined Ring of the Fireflash]|h|r", -- [2]
+				2, -- [3]
+				30, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133377, -- [10]
+				28546, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706721891,
+			},
+			["item:175232::::::::20:263::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Mail Waistguard", -- [1]
+				"|cff1eff00|Hitem:175232::::::::20:263::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Mail Waistguard]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Mail", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				2032463, -- [10]
+				15, -- [11]
+				4, -- [12]
+				3, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706720773,
 			},
 			["item:152576::::::::20:263:::::::::"] = {
 				"Tidespray Linen", -- [1]
@@ -721,7 +724,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:134469::::::::20:263::1:2:6710:6652:2:9:18:28:1699:::::"] = {
 				"Midnight Reaper Handwraps", -- [1]
@@ -740,7 +743,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["item:178168::::::::20:263::1:1:6822:2:9:10:28:1729:::::"] = {
 				"Darkmaul Ritual Stone", -- [1]
@@ -759,7 +762,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 			["|cff0070dd|Hitem:134390::::::::20:263::1:2:6710:6652:2:9:18:28:1699:::::|h[Mardum Chain Vest]|h|r"] = {
 				"Mardum Chain Vest", -- [1]
@@ -778,7 +781,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345907,
+				["timestamp"] = 1706721891,
 			},
 			["item:158356::::::::20:263::1:2:6710:6652:2:9:19:28:500:::::"] = {
 				"Shell-Kickers", -- [1]
@@ -797,13 +800,13 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1706345898,
+				["timestamp"] = 1706720773,
 			},
 		},
 		["questnames"] = {
 		},
 		["questnames_lang"] = "enUS",
-		["nextreset"] = 282791,
+		["nextreset"] = 510826,
 		["gii_cache_lang"] = "enUS",
 		["sv_version"] = 2,
 		["welcomemsg"] = "Wel23See43Rev35",
@@ -815,9 +818,10 @@ ZygorGuidesViewerSettings = {
 		["Bladefist"] = {
 			["characters"] = {
 				["Frawshawwk"] = {
-					["dualwield"] = false,
-					["classname"] = "Shaman",
 					["classnum"] = 7,
+					["statweights"] = {
+					},
+					["dualwield"] = false,
 					["gear"] = {
 						{
 							39.46, -- [1]
@@ -833,10 +837,10 @@ ZygorGuidesViewerSettings = {
 							26.68, -- [11]
 							6.239999999999999, -- [12]
 							13.91, -- [13]
-							[16] = 78.028,
 							["Scanned"] = true,
-							["specname"] = "Elemental",
+							[16] = 78.028,
 							[17] = 60.922,
+							["specname"] = "Elemental",
 						}, -- [1]
 						{
 							39.46, -- [1]
@@ -852,10 +856,10 @@ ZygorGuidesViewerSettings = {
 							26.68, -- [11]
 							6.239999999999999, -- [12]
 							13.91, -- [13]
-							[16] = 78.028,
 							["Scanned"] = true,
-							["specname"] = "Enhancement",
+							[16] = 78.028,
 							[17] = 60.922,
+							["specname"] = "Enhancement",
 						}, -- [2]
 						{
 							39.46, -- [1]
@@ -871,19 +875,18 @@ ZygorGuidesViewerSettings = {
 							26.68, -- [11]
 							6.239999999999999, -- [12]
 							13.91, -- [13]
-							[16] = 78.028,
 							["Scanned"] = true,
-							["specname"] = "Restoration",
+							[16] = 78.028,
 							[17] = 60.922,
+							["specname"] = "Restoration",
 						}, -- [3]
 						[5] = {
 							["specname"] = "",
 						},
 					},
-					["statweights"] = {
-					},
-					["class"] = "SHAMAN",
 					["level"] = 20,
+					["classname"] = "Shaman",
+					["class"] = "SHAMAN",
 				},
 			},
 			["bankdata"] = {
@@ -970,14 +973,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
-				[2163] = true,
 				[2413] = true,
+				[2163] = true,
+				[2165] = true,
 				[2465] = true,
 				[2510] = true,
 				[1948] = true,
 				[1894] = true,
-				[2165] = true,
+				[2103] = true,
 				[1859] = true,
 				[2045] = true,
 				[2156] = true,
@@ -1010,9 +1013,9 @@ ZygorGuidesViewerSettings = {
 				[1220] = true,
 				["reputation"] = true,
 				[1533] = true,
-				["gear"] = true,
-				["gold"] = true,
 				[1560] = true,
+				["gold"] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
 				["anima"] = true,
@@ -1057,14 +1060,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
-				[2163] = true,
 				[2413] = true,
+				[2163] = true,
+				[2165] = true,
 				[2465] = true,
 				[2510] = true,
 				[1948] = true,
 				[1894] = true,
-				[2165] = true,
+				[2103] = true,
 				[1859] = true,
 				[2045] = true,
 				[2156] = true,
@@ -1119,16 +1122,16 @@ ZygorGuidesViewerSettings = {
 				[1220] = true,
 				["reputation"] = true,
 				[1533] = true,
-				["gear"] = true,
-				["gold"] = true,
 				[1560] = true,
+				["gold"] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
 				["anima"] = true,
 			},
 			["widgetshomelast"] = {
 			},
-			["load_mail"] = true,
+			["show_ui"] = true,
 			["stickycolored"] = false,
 			["WQSorting"] = {
 				"name", -- [1]
@@ -1175,7 +1178,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [4]
 				0, -- [5]
 			},
-			["show_ui"] = true,
+			["load_mail"] = true,
 			["gold_tooltips_shift"] = true,
 		},
 	},

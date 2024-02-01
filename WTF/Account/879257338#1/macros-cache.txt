@@ -149,3 +149,12 @@ END
 VER 3 000000000000038A "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
+VER 3 000000000000038B "ZygorAction1" "134327"
+#showtooltip Talk to Chromie
+/run ZGV:MCM(4)
+/cleartarget
+/target Chromie
+/run ZGV:MRM()
+END
+VER 3 000000000000038C "ZygorAction2" "134400"
+END

@@ -1139,7 +1139,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 310.9998168945313,
+		["spellcontainer_height"] = 310.9997253417969,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1154,7 +1154,7 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456.0000610351563,
+		["blockcontainer_width"] = 456.0000915527344,
 		["spellbar_background_alpha"] = 0.92,
 		["spellcontainer_width"] = 428.9999694824219,
 		["spellcontainer_header_fontcolor"] = {
@@ -1167,7 +1167,7 @@ _detalhes_global = {
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 290.0000610351563,
+		["phasecontainer_width"] = 290,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1210,7 +1210,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 270.0000610351563,
+		["blockcontainer_height"] = 270.0000305175781,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1224,8 +1224,8 @@ _detalhes_global = {
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = -0.0001678466796875,
-		["x"] = 0.0001068115234375,
+		["y"] = -0.000244140625,
+		["x"] = 0.000152587890625,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1247,7 +1247,7 @@ _detalhes_global = {
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1706583313,
+	["latest_encounter_spell_pool_access"] = 1706766726,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["raid_data"] = {
@@ -1725,10 +1725,6 @@ _detalhes_global = {
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -1766,6 +1762,10 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -1788,15 +1788,13 @@ _detalhes_global = {
 				["menus"] = "Friz Quadrata TT",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
-			["segments_amount"] = 40,
-			["report_lines"] = 5,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
 							["y"] = 10.40948486328125,
-							["x"] = 604.7547607421875,
-							["w"] = 310.0001831054688,
+							["x"] = 596.3278198242188,
+							["w"] = 310.0001525878906,
 							["h"] = 158.0000610351563,
 						},
 						["solo"] = {
@@ -2202,7 +2200,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = 10.40945434570313,
+						["y"] = 10.40948486328125,
 						["x"] = -60.1405029296875,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -2234,8 +2232,8 @@ _detalhes_global = {
 					["posicao"] = {
 						["normal"] = {
 							["y"] = 10.40948486328125,
-							["x"] = 604.7547607421875,
-							["w"] = 310.0001831054688,
+							["x"] = 596.3278198242188,
+							["w"] = 310.0001525878906,
 							["h"] = 158.0000610351563,
 						},
 						["solo"] = {
@@ -2283,6 +2281,8 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
+			["report_lines"] = 5,
+			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
 			["capture_real"] = {
@@ -2299,32 +2299,26 @@ _detalhes_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["minimum_combat_time"] = 5,
 			["realtimedps_always_arena"] = false,
+			["minimum_combat_time"] = 5,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
 			["overall_clear_logout"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
+			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
 			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
@@ -2401,11 +2395,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -2431,11 +2425,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -2450,10 +2444,15 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
+			["total_abbreviation"] = 2,
+			["disable_alldisplays_window"] = false,
+			["trash_auto_remove"] = false,
+			["broadcaster_enabled"] = false,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["disable_alldisplays_window"] = false,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2536,17 +2535,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -2563,11 +2562,6 @@ _detalhes_global = {
 					0.87, -- [3]
 				},
 			},
-			["broadcaster_enabled"] = false,
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -2584,7 +2578,13 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["memory_threshold"] = 3,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["color_by_arena_team"] = true,
@@ -2782,7 +2782,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1706583313,
+		["latest_boss_mods_access"] = 1706766726,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -2793,10 +2793,10 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["WARLOCK"] = 84202.77300000004,
+			["WARLOCK"] = 67793.23400000007,
 		},
 	},
-	["latest_spell_pool_access"] = 1706583313,
+	["latest_spell_pool_access"] = 1706766726,
 	["slash_me_used"] = false,
 	["details_auras"] = {
 	},
@@ -2827,7 +2827,7 @@ _detalhes_global = {
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["latest_npcid_pool_access"] = 1706583313,
+	["latest_npcid_pool_access"] = 1706766726,
 	["exit_errors"] = {
 	},
 	["parser_options"] = {
@@ -2838,18 +2838,12 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 66,
-		["logons"] = 66,
+		["main_help_button"] = 60,
+		["logons"] = 60,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -2894,7 +2888,13 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["savedStyles"] = {
 	},
@@ -3007,35 +3007,35 @@ _detalhes_global = {
 }
 __details_backup = {
 	["_general_logs"] = {
-		"2024-01-29 20:07:21 | actor removed Haruum-EchoIsles (ungrouped)", -- [1]
-		"2024-01-29 20:07:21 | actor removed Haruum-EchoIsles (ungrouped)", -- [2]
-		"2024-01-29 20:07:21 | actor removed Haruum-EchoIsles (ungrouped)", -- [3]
-		"2024-01-29 20:07:21 | actor removed Raider's Training Dummy (ungrouped)", -- [4]
-		"2024-01-27 14:33:27 | actor removed Water Elemental <Banx-Perenolde> (orphan)", -- [5]
-		"2024-01-27 14:33:27 | actor removed Banx-Perenolde (ungrouped)", -- [6]
-		"2024-01-27 14:33:27 | actor removed Fenryr (ungrouped)", -- [7]
-		"2024-01-27 14:33:27 | actor removed Clefthoof (ungrouped)", -- [8]
-		"2024-01-27 14:33:27 | actor removed Training Dummy (ungrouped)", -- [9]
-		"2024-01-27 14:25:45 | actor removed Fenryr <Lorethe-Cenarius> (orphan)", -- [10]
-		"2024-01-27 14:25:45 | actor removed Raptor <Lorethe-Cenarius> (orphan)", -- [11]
-		"2024-01-27 14:25:45 | actor removed Lorethe-Cenarius (ungrouped)", -- [12]
-		"2024-01-27 14:25:45 | actor removed Clefthoof (ungrouped)", -- [13]
-		"2024-01-27 14:25:45 | actor removed Fenryr (ungrouped)", -- [14]
-		"2024-01-27 14:25:45 | actor removed Water Elemental <Banx-Perenolde> (orphan)", -- [15]
-		"2024-01-27 14:25:45 | actor removed Fenryr <Lorethe-Cenarius> (orphan)", -- [16]
-		"2024-01-27 14:25:45 | actor removed Raptor <Lorethe-Cenarius> (orphan)", -- [17]
-		"2024-01-27 14:25:45 | actor removed Beast <Lorethe-Cenarius> (orphan)", -- [18]
-		"2024-01-27 14:25:45 | actor removed Spirit Beast <Lorethe-Cenarius> (orphan)", -- [19]
-		"2024-01-27 14:25:45 | actor removed Banx-Perenolde (ungrouped)", -- [20]
-		"2024-01-27 14:25:45 | actor removed Clefthoof (ungrouped)", -- [21]
-		"2024-01-27 14:25:45 | actor removed Fenryr (ungrouped)", -- [22]
-		"2024-01-27 14:25:45 | actor removed Lorethe-Cenarius (ungrouped)", -- [23]
-		"2024-01-27 14:25:45 | actor removed Training Dummy (ungrouped)", -- [24]
-		"2024-01-27 01:02:50 | actor removed Borïs-Muradin (ungrouped)", -- [25]
-		"2024-01-27 01:02:50 | actor removed Drizzlet-Suramar (ungrouped)", -- [26]
-		"2024-01-27 01:02:50 | actor removed Borïs-Muradin (ungrouped)", -- [27]
+		"2024-01-31 21:54:42 | actor removed Cànibalecter-Cenarius (ungrouped)", -- [1]
+		"2024-01-31 21:54:42 | actor removed Vyninicus-Kel'Thuzad (ungrouped)", -- [2]
+		"2024-01-31 21:54:42 | actor removed Cànibalecter-Cenarius (ungrouped)", -- [3]
+		"2024-01-27 14:33:27 | actor removed Water Elemental <Banx-Perenolde> (orphan)", -- [4]
+		"2024-01-27 14:33:27 | actor removed Banx-Perenolde (ungrouped)", -- [5]
+		"2024-01-27 14:33:27 | actor removed Fenryr (ungrouped)", -- [6]
+		"2024-01-27 14:33:27 | actor removed Clefthoof (ungrouped)", -- [7]
+		"2024-01-27 14:33:27 | actor removed Training Dummy (ungrouped)", -- [8]
+		"2024-01-27 14:25:45 | actor removed Fenryr <Lorethe-Cenarius> (orphan)", -- [9]
+		"2024-01-27 14:25:45 | actor removed Raptor <Lorethe-Cenarius> (orphan)", -- [10]
+		"2024-01-27 14:25:45 | actor removed Lorethe-Cenarius (ungrouped)", -- [11]
+		"2024-01-27 14:25:45 | actor removed Clefthoof (ungrouped)", -- [12]
+		"2024-01-27 14:25:45 | actor removed Fenryr (ungrouped)", -- [13]
+		"2024-01-27 14:25:45 | actor removed Water Elemental <Banx-Perenolde> (orphan)", -- [14]
+		"2024-01-27 14:25:45 | actor removed Fenryr <Lorethe-Cenarius> (orphan)", -- [15]
+		"2024-01-27 14:25:45 | actor removed Raptor <Lorethe-Cenarius> (orphan)", -- [16]
+		"2024-01-27 14:25:45 | actor removed Beast <Lorethe-Cenarius> (orphan)", -- [17]
+		"2024-01-27 14:25:45 | actor removed Spirit Beast <Lorethe-Cenarius> (orphan)", -- [18]
+		"2024-01-27 14:25:45 | actor removed Banx-Perenolde (ungrouped)", -- [19]
+		"2024-01-27 14:25:45 | actor removed Clefthoof (ungrouped)", -- [20]
+		"2024-01-27 14:25:45 | actor removed Fenryr (ungrouped)", -- [21]
+		"2024-01-27 14:25:45 | actor removed Lorethe-Cenarius (ungrouped)", -- [22]
+		"2024-01-27 14:25:45 | actor removed Training Dummy (ungrouped)", -- [23]
+		"2024-01-27 01:02:50 | actor removed Borïs-Muradin (ungrouped)", -- [24]
+		"2024-01-27 01:02:50 | actor removed Drizzlet-Suramar (ungrouped)", -- [25]
+		"2024-01-27 01:02:50 | actor removed Borïs-Muradin (ungrouped)", -- [26]
+		"2024-01-27 01:02:50 | actor removed Drizzlet-Suramar (ungrouped)", -- [27]
 		"2024-01-27 01:02:50 | actor removed Drizzlet-Suramar (ungrouped)", -- [28]
-		"2024-01-27 01:02:50 | actor removed Drizzlet-Suramar (ungrouped)", -- [29]
+		"2024-01-27 01:02:50 | actor removed Borïs-Muradin (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
 		"2024-01-25 22:27:06 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
