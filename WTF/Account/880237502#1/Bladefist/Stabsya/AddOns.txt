@@ -1,5 +1,5 @@
 AdvancedInterfaceOptions: enabled
-AutoTurnIn: disabled
+AutoTurnIn: enabled
 Details: enabled
 Details_Compare2: enabled
 Details_EncounterDetails: enabled
@@ -17,3 +17,20 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+DBM-Core: enabled
+DBM-GUI: enabled
+DBM-StatusBarTimers: enabled
+DBM-VPVEM: enabled
+DBM-Brawlers: enabled
+DBM-Affixes: enabled
+DBM-Raids-Dragonflight: enabled
+DBM-DragonIsles: enabled
+DBM-WorldEvents: enabled
+Auctionator: enabled
+BlockChinese: enabled
+Postal: enabled
+RareScanner: enabled
+WeakAuras: enabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
+WeakAurasTemplates: enabled

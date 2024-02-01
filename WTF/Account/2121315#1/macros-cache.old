@@ -1,0 +1,51 @@
+VER 3 0000000000000097 "a1" "Ability_hunter_pet_hyena"
+/assist Cheat
+END
+VER 3 0000000000000098 "a2" "Ability_hunter_pet_hyena"
+/assist Btfo
+END
+VER 3 0000000000000099 "a3" "Ability_hunter_pet_hyena"
+/assist Married
+END
+VER 3 000000000000009A "a4" "Ability_hunter_pet_hyena"
+END
+VER 3 000000000000009B "a5" "Ability_hunter_pet_hyena"
+/assist Coolness
+END
+VER 3 000000000000009F "dance" "ability_druid_aquaticform"
+/dance
+END
+VER 3 0000000000000092 "f1" "Ability_hunter_pet_gorilla"
+/follow Cheat
+END
+VER 3 0000000000000093 "f2" "Ability_hunter_pet_gorilla"
+/follow Btfo
+END
+VER 3 0000000000000094 "f3" "Ability_hunter_pet_gorilla"
+/follow Married
+END
+VER 3 0000000000000095 "f4" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000096 "f5" "Ability_hunter_pet_gorilla"
+/follow Coolness
+END
+VER 3 000000000000009E "leave" "spell_nature_purge"
+/script LeaveParty()
+END
+VER 3 000000000000009C "makealine" "Ability_hunter_pet_tallstrider"
+/follow Married
+END
+VER 3 0000000000000091 "party" "Ability_hunter_pathfinding"
+/invite Cheat
+/invite Btfo
+/invite Married
+/invite Psh
+/invite Coolness
+/run SetLootMethod("freeforall",UnitName("player"))
+END
+VER 3 000000000000009D "reload" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000090 "spit" "Inv_misc_slime_01"
+/spit
+END

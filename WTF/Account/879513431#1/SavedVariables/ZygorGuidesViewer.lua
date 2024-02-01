@@ -102,7 +102,7 @@ ZygorGuidesViewerSettings = {
 			["statweightsmoved"] = true,
 			["AThiddenitems"] = {
 			},
-			["lastlogin"] = 1706391087,
+			["lastlogin"] = 1706583311,
 			["initialFlightPathsLoaded"] = true,
 			["previewhidden"] = true,
 			["gear_selected_spec"] = 3,
@@ -126,7 +126,7 @@ ZygorGuidesViewerSettings = {
 						47, -- [13]
 						48, -- [14]
 					},
-					["lasttime"] = 1706391099,
+					["lasttime"] = 1706583319,
 				},
 				["LEVELING\\Startup Guide Wizard"] = {
 					["steps"] = {
@@ -181,8 +181,8 @@ ZygorGuidesViewerSettings = {
 			["race"] = "Goblin",
 			["timeperlevel"] = {
 				[24] = 3259,
-				["total"] = 181401,
-				[26] = 12206,
+				["total"] = 209783,
+				[26] = 40588,
 				[18] = 5053,
 				[19] = 1553,
 				[20] = 1085,
@@ -202,23 +202,23 @@ ZygorGuidesViewerSettings = {
 			},
 			["telemetry"] = {
 				{
-					["time"] = 1705823417,
+					["time"] = 1705987251,
 					["event"] = "STARTUP",
 				}, -- [1]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705823417,
+					["time"] = 1705987251,
 				}, -- [2]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705823417,
+					["time"] = 1705987251,
 				}, -- [3]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705823424,
+					["time"] = 1705987255,
 				}, -- [4]
 				{
 					["event"] = "GUIDES_LOADED",
@@ -226,7 +226,7 @@ ZygorGuidesViewerSettings = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
 					},
-					["time"] = 1705823424,
+					["time"] = 1705987255,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -238,30 +238,30 @@ ZygorGuidesViewerSettings = {
 					},
 				}, -- [5]
 				{
-					["time"] = 1705823629,
+					["time"] = 1705987333,
 					["event"] = "SHUTDOWN",
 				}, -- [6]
 				{
-					["time"] = 1705823639,
+					["time"] = 1705987342,
 					["event"] = "STARTUP",
 				}, -- [7]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705823639,
+					["time"] = 1705987342,
 				}, -- [8]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705823639,
+					["time"] = 1705987342,
 				}, -- [9]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705823643,
+					["time"] = 1705987346,
 				}, -- [10]
 				{
-					["time"] = 1705823643,
+					["time"] = 1705987346,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
@@ -280,35 +280,35 @@ ZygorGuidesViewerSettings = {
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705823666,
+					["time"] = 1705987923,
 				}, -- [12]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705824688,
+					["time"] = 1705987939,
 				}, -- [13]
 				{
-					["time"] = 1705824752,
+					["time"] = 1705987963,
 					["event"] = "SHUTDOWN",
 				}, -- [14]
 				{
-					["time"] = 1705879816,
+					["time"] = 1705993573,
 					["event"] = "STARTUP",
 				}, -- [15]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705879816,
+					["time"] = 1705993573,
 				}, -- [16]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705879816,
+					["time"] = 1705993573,
 				}, -- [17]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705879822,
+					["time"] = 1705993575,
 				}, -- [18]
 				{
 					["tabs"] = {
@@ -325,88 +325,93 @@ ZygorGuidesViewerSettings = {
 						["step"] = 126,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1705879822,
+					["time"] = 1705993575,
 				}, -- [19]
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705879824,
+					["time"] = 1705993576,
 				}, -- [20]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705879831,
+					["time"] = 1705993586,
 				}, -- [21]
-				{
-					["time"] = 1705879858,
-					["event"] = "SHUTDOWN",
-				}, -- [22]
-				{
-					["time"] = 1705879866,
-					["event"] = "STARTUP",
-				}, -- [23]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705879866,
-				}, -- [24]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1705879866,
-				}, -- [25]
-				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1705879871,
-				}, -- [26]
-				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["time"] = 1705879871,
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
-				}, -- [27]
-				{
-					["time"] = 1705883144,
-					["event"] = "SHUTDOWN",
-				}, -- [28]
-				{
-					["time"] = 1705889017,
-					["event"] = "STARTUP",
-				}, -- [29]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705889017,
-				}, -- [30]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1705889017,
-				}, -- [31]
-				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1705889023,
-				}, -- [32]
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705889024,
+					["time"] = 1705993588,
+				}, -- [22]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1705993595,
+				}, -- [23]
+				{
+					["time"] = 1705993678,
+					["event"] = "SHUTDOWN",
+				}, -- [24]
+				{
+					["time"] = 1706344013,
+					["event"] = "STARTUP",
+				}, -- [25]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706344013,
+				}, -- [26]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706344013,
+				}, -- [27]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706344018,
+				}, -- [28]
+				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1706344018,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+				}, -- [29]
+				{
+					["time"] = 1706344222,
+					["event"] = "SHUTDOWN",
+				}, -- [30]
+				{
+					["time"] = 1706345817,
+					["event"] = "STARTUP",
+				}, -- [31]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706345817,
+				}, -- [32]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706345817,
 				}, -- [33]
 				{
-					["time"] = 1705889024,
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706345821,
+				}, -- [34]
+				{
+					["time"] = 1706345822,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
@@ -421,95 +426,112 @@ ZygorGuidesViewerSettings = {
 						}, -- [2]
 					},
 					["event"] = "GUIDES_LOADED",
-				}, -- [34]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705889032,
 				}, -- [35]
 				{
-					["time"] = 1705889037,
+					["time"] = 1706345899,
 					["event"] = "SHUTDOWN",
 				}, -- [36]
 				{
-					["time"] = 1705889046,
+					["time"] = 1706345912,
 					["event"] = "STARTUP",
 				}, -- [37]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705889046,
+					["time"] = 1706345912,
 				}, -- [38]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705889046,
+					["time"] = 1706345912,
 				}, -- [39]
 				{
-					["time"] = 1705889048,
-					["event"] = "SHUTDOWN",
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706345917,
 				}, -- [40]
 				{
-					["time"] = 1705889057,
-					["event"] = "STARTUP",
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["event"] = "GUIDES_LOADED",
+					["time"] = 1706345918,
 				}, -- [41]
 				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705889057,
+					["time"] = 1706346170,
+					["event"] = "SHUTDOWN",
 				}, -- [42]
 				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1705889057,
+					["time"] = 1706391094,
+					["event"] = "STARTUP",
 				}, -- [43]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1705889061,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706391094,
 				}, -- [44]
 				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["time"] = 1705889061,
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
-				}, -- [45]
-				{
-					["time"] = 1705889132,
-					["event"] = "SHUTDOWN",
-				}, -- [46]
-				{
-					["time"] = 1705890884,
-					["event"] = "STARTUP",
-				}, -- [47]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705890884,
-				}, -- [48]
-				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705890884,
-				}, -- [49]
+					["time"] = 1706391094,
+				}, -- [45]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705890890,
+					["time"] = 1706391098,
+				}, -- [46]
+				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1706391099,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+				}, -- [47]
+				{
+					["time"] = 1706391325,
+					["event"] = "SHUTDOWN",
+				}, -- [48]
+				{
+					["time"] = 1706419764,
+					["event"] = "STARTUP",
+				}, -- [49]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706419764,
 				}, -- [50]
 				{
-					["time"] = 1705890890,
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706419764,
+				}, -- [51]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706419779,
+				}, -- [52]
+				{
+					["time"] = 1706419779,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
@@ -524,55 +546,41 @@ ZygorGuidesViewerSettings = {
 						}, -- [2]
 					},
 					["event"] = "GUIDES_LOADED",
-				}, -- [51]
-				{
-					["time"] = 1705890890,
-					["event"] = "SHUTDOWN",
-				}, -- [52]
-				{
-					["time"] = 1705890899,
-					["event"] = "STARTUP",
 				}, -- [53]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706419789,
+				}, -- [54]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705890899,
-				}, -- [54]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1705890899,
+					["time"] = 1706419799,
 				}, -- [55]
 				{
-					["time"] = 1705890901,
+					["time"] = 1706420468,
 					["event"] = "SHUTDOWN",
 				}, -- [56]
 				{
-					["time"] = 1705890910,
+					["time"] = 1706499419,
 					["event"] = "STARTUP",
 				}, -- [57]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705890910,
+					["time"] = 1706499419,
 				}, -- [58]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705890910,
+					["time"] = 1706499419,
 				}, -- [59]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705890915,
+					["time"] = 1706499422,
 				}, -- [60]
 				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["time"] = 1705890915,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -582,52 +590,78 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["event"] = "GUIDES_LOADED",
+					["time"] = 1706499422,
 				}, -- [61]
 				{
-					["state"] = "party",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705890918,
+					["time"] = 1706499558,
+					["event"] = "SHUTDOWN",
 				}, -- [62]
 				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705890932,
+					["time"] = 1706500097,
+					["event"] = "STARTUP",
 				}, -- [63]
 				{
-					["state"] = "party",
+					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705890935,
+					["time"] = 1706500097,
 				}, -- [64]
 				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705890943,
-				}, -- [65]
-				{
-					["time"] = 1705891140,
-					["event"] = "SHUTDOWN",
-				}, -- [66]
-				{
-					["time"] = 1705900088,
-					["event"] = "STARTUP",
-				}, -- [67]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705900088,
-				}, -- [68]
-				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705900088,
-				}, -- [69]
+					["time"] = 1706500097,
+				}, -- [65]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705900092,
+					["time"] = 1706500104,
+				}, -- [66]
+				{
+					["event"] = "GUIDES_LOADED",
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["time"] = 1706500105,
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+				}, -- [67]
+				{
+					["time"] = 1706500183,
+					["event"] = "SHUTDOWN",
+				}, -- [68]
+				{
+					["time"] = 1706500193,
+					["event"] = "STARTUP",
+				}, -- [69]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706500193,
 				}, -- [70]
 				{
-					["time"] = 1705900092,
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706500193,
+				}, -- [71]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706500198,
+				}, -- [72]
+				{
+					["time"] = 1706500199,
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
@@ -642,136 +676,85 @@ ZygorGuidesViewerSettings = {
 						}, -- [2]
 					},
 					["event"] = "GUIDES_LOADED",
-				}, -- [71]
+				}, -- [73]
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705900097,
-				}, -- [72]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705900103,
-				}, -- [73]
-				{
-					["time"] = 1705904014,
-					["event"] = "SHUTDOWN",
+					["time"] = 1706500250,
 				}, -- [74]
 				{
-					["time"] = 1705987251,
-					["event"] = "STARTUP",
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706500265,
 				}, -- [75]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706501409,
+				}, -- [76]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705987251,
-				}, -- [76]
-				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1705987251,
+					["time"] = 1706501414,
 				}, -- [77]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1705987255,
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706501435,
 				}, -- [78]
 				{
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1705987255,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706501447,
 				}, -- [79]
 				{
-					["time"] = 1705987333,
+					["time"] = 1706502293,
 					["event"] = "SHUTDOWN",
 				}, -- [80]
 				{
-					["time"] = 1705987342,
+					["time"] = 1706502304,
 					["event"] = "STARTUP",
 				}, -- [81]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705987342,
+					["time"] = 1706502304,
 				}, -- [82]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705987342,
+					["time"] = 1706502304,
 				}, -- [83]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1705987346,
+					["time"] = 1706502305,
+					["event"] = "SHUTDOWN",
 				}, -- [84]
 				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["time"] = 1705987346,
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
+					["time"] = 1706502316,
+					["event"] = "STARTUP",
 				}, -- [85]
 				{
-					["state"] = "party",
+					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705987923,
+					["time"] = 1706502316,
 				}, -- [86]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705987939,
-				}, -- [87]
-				{
-					["time"] = 1705987963,
-					["event"] = "SHUTDOWN",
-				}, -- [88]
-				{
-					["time"] = 1705993573,
-					["event"] = "STARTUP",
-				}, -- [89]
-				{
-					["state"] = "solo",
-					["event"] = "SHARE_STATE",
-					["time"] = 1705993573,
-				}, -- [90]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1705993573,
-				}, -- [91]
+					["time"] = 1706502316,
+				}, -- [87]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1705993575,
-				}, -- [92]
+					["time"] = 1706502320,
+				}, -- [88]
 				{
-					["time"] = 1705993575,
+					["event"] = "GUIDES_LOADED",
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
 						["step"] = 126,
 					},
+					["time"] = 1706502321,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
@@ -781,171 +764,620 @@ ZygorGuidesViewerSettings = {
 							["title"] = "LEVELING\\Startup Guide Wizard",
 						}, -- [2]
 					},
-					["event"] = "GUIDES_LOADED",
+				}, -- [89]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502814,
+				}, -- [90]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502814,
+				}, -- [91]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502854,
+				}, -- [92]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502854,
 				}, -- [93]
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705993576,
+					["time"] = 1706502861,
 				}, -- [94]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705993586,
+					["time"] = 1706502864,
 				}, -- [95]
 				{
 					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705993588,
+					["time"] = 1706502897,
 				}, -- [96]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1705993595,
+					["time"] = 1706502899,
 				}, -- [97]
 				{
-					["time"] = 1705993678,
-					["event"] = "SHUTDOWN",
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502911,
 				}, -- [98]
 				{
-					["time"] = 1706344013,
-					["event"] = "STARTUP",
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502915,
 				}, -- [99]
 				{
-					["state"] = "solo",
+					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1706344013,
+					["time"] = 1706502992,
 				}, -- [100]
 				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1706344013,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706502994,
 				}, -- [101]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1706344018,
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503007,
 				}, -- [102]
 				{
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["event"] = "GUIDES_LOADED",
-					["time"] = 1706344018,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503014,
 				}, -- [103]
 				{
-					["time"] = 1706344222,
-					["event"] = "SHUTDOWN",
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503110,
 				}, -- [104]
 				{
-					["time"] = 1706345817,
-					["event"] = "STARTUP",
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503114,
 				}, -- [105]
 				{
-					["state"] = "solo",
+					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1706345817,
+					["time"] = 1706503436,
 				}, -- [106]
 				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1706345817,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503439,
 				}, -- [107]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1706345821,
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503446,
 				}, -- [108]
 				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["time"] = 1706345822,
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503450,
 				}, -- [109]
 				{
-					["time"] = 1706345899,
-					["event"] = "SHUTDOWN",
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503465,
 				}, -- [110]
 				{
-					["time"] = 1706345912,
-					["event"] = "STARTUP",
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503469,
 				}, -- [111]
 				{
-					["state"] = "solo",
+					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1706345912,
+					["time"] = 1706503575,
 				}, -- [112]
 				{
-					["uiscale"] = "65%",
-					["event"] = "OPTIONS",
-					["time"] = 1706345912,
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706503580,
 				}, -- [113]
 				{
-					["state"] = false,
-					["event"] = "WINDOW_STATE",
-					["time"] = 1706345917,
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504033,
 				}, -- [114]
-				{
-					["time"] = 1706345918,
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-						["step"] = 126,
-					},
-					["tabs"] = {
-						{
-							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
-							["step"] = 126,
-						}, -- [1]
-						{
-							["title"] = "LEVELING\\Startup Guide Wizard",
-						}, -- [2]
-					},
-					["event"] = "GUIDES_LOADED",
-				}, -- [115]
-				{
-					["time"] = 1706346170,
-					["event"] = "SHUTDOWN",
-				}, -- [116]
-				{
-					["time"] = 1706391094,
-					["event"] = "STARTUP",
-				}, -- [117]
 				{
 					["state"] = "solo",
 					["event"] = "SHARE_STATE",
-					["time"] = 1706391094,
+					["time"] = 1706504035,
+				}, -- [115]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504058,
+				}, -- [116]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504059,
+				}, -- [117]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504060,
 				}, -- [118]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504065,
+				}, -- [119]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504093,
+				}, -- [120]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504094,
+				}, -- [121]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504096,
+				}, -- [122]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504099,
+				}, -- [123]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504107,
+				}, -- [124]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504109,
+				}, -- [125]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504573,
+				}, -- [126]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504574,
+				}, -- [127]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504666,
+				}, -- [128]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706504669,
+				}, -- [129]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505681,
+				}, -- [130]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505684,
+				}, -- [131]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505743,
+				}, -- [132]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505744,
+				}, -- [133]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505790,
+				}, -- [134]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505794,
+				}, -- [135]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505797,
+				}, -- [136]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505800,
+				}, -- [137]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505804,
+				}, -- [138]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505809,
+				}, -- [139]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505812,
+				}, -- [140]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505814,
+				}, -- [141]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505979,
+				}, -- [142]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505979,
+				}, -- [143]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505979,
+				}, -- [144]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505984,
+				}, -- [145]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505999,
+				}, -- [146]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706505999,
+				}, -- [147]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506243,
+				}, -- [148]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506245,
+				}, -- [149]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506314,
+				}, -- [150]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506315,
+				}, -- [151]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506783,
+				}, -- [152]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506784,
+				}, -- [153]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506878,
+				}, -- [154]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506879,
+				}, -- [155]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506963,
+				}, -- [156]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506964,
+				}, -- [157]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506965,
+				}, -- [158]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706506969,
+				}, -- [159]
+				{
+					["time"] = 1706507429,
+					["event"] = "SHUTDOWN",
+				}, -- [160]
+				{
+					["time"] = 1706577784,
+					["event"] = "STARTUP",
+				}, -- [161]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706577784,
+				}, -- [162]
 				{
 					["uiscale"] = "65%",
 					["event"] = "OPTIONS",
-					["time"] = 1706391094,
-				}, -- [119]
+					["time"] = 1706577784,
+				}, -- [163]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706577787,
+				}, -- [164]
 				{
 					["state"] = false,
 					["event"] = "WINDOW_STATE",
-					["time"] = 1706391098,
-				}, -- [120]
+					["time"] = 1706577790,
+				}, -- [165]
+				{
+					["time"] = 1706577790,
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+						["step"] = 126,
+					},
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Chromie Time",
+							["step"] = 126,
+						}, -- [1]
+						{
+							["title"] = "LEVELING\\Startup Guide Wizard",
+						}, -- [2]
+					},
+					["event"] = "GUIDES_LOADED",
+				}, -- [166]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706577798,
+				}, -- [167]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706577820,
+				}, -- [168]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706577823,
+				}, -- [169]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578833,
+				}, -- [170]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578833,
+				}, -- [171]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578848,
+				}, -- [172]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578848,
+				}, -- [173]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578849,
+				}, -- [174]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578854,
+				}, -- [175]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578885,
+				}, -- [176]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578888,
+				}, -- [177]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578950,
+				}, -- [178]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578954,
+				}, -- [179]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578994,
+				}, -- [180]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706578999,
+				}, -- [181]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706579040,
+				}, -- [182]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706579044,
+				}, -- [183]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706579081,
+				}, -- [184]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706579083,
+				}, -- [185]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580821,
+				}, -- [186]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580823,
+				}, -- [187]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580858,
+				}, -- [188]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580858,
+				}, -- [189]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580861,
+				}, -- [190]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580863,
+				}, -- [191]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580891,
+				}, -- [192]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706580893,
+				}, -- [193]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706581018,
+				}, -- [194]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706581018,
+				}, -- [195]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706581627,
+				}, -- [196]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706581629,
+				}, -- [197]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582400,
+				}, -- [198]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582404,
+				}, -- [199]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582424,
+				}, -- [200]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582428,
+				}, -- [201]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582608,
+				}, -- [202]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582608,
+				}, -- [203]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582735,
+				}, -- [204]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706582738,
+				}, -- [205]
+				{
+					["time"] = 1706583303,
+					["event"] = "SHUTDOWN",
+				}, -- [206]
+				{
+					["time"] = 1706583315,
+					["event"] = "STARTUP",
+				}, -- [207]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706583315,
+				}, -- [208]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706583315,
+				}, -- [209]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706583319,
+				}, -- [210]
 				{
 					["tabs"] = {
 						{
@@ -961,12 +1393,382 @@ ZygorGuidesViewerSettings = {
 						["step"] = 126,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1706391099,
-				}, -- [121]
+					["time"] = 1706583319,
+				}, -- [211]
 				{
-					["time"] = 1706391325,
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706583987,
+				}, -- [212]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706583989,
+				}, -- [213]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584129,
+				}, -- [214]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584133,
+				}, -- [215]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584271,
+				}, -- [216]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584273,
+				}, -- [217]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584414,
+				}, -- [218]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584419,
+				}, -- [219]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584505,
+				}, -- [220]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584508,
+				}, -- [221]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584939,
+				}, -- [222]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706584949,
+				}, -- [223]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585056,
+				}, -- [224]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585058,
+				}, -- [225]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585146,
+				}, -- [226]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585148,
+				}, -- [227]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585170,
+				}, -- [228]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585173,
+				}, -- [229]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585252,
+				}, -- [230]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585253,
+				}, -- [231]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585298,
+				}, -- [232]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585298,
+				}, -- [233]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585299,
+				}, -- [234]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585303,
+				}, -- [235]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585323,
+				}, -- [236]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585323,
+				}, -- [237]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585324,
+				}, -- [238]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585328,
+				}, -- [239]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585568,
+				}, -- [240]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585569,
+				}, -- [241]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585673,
+				}, -- [242]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585673,
+				}, -- [243]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585690,
+				}, -- [244]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585693,
+				}, -- [245]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585696,
+				}, -- [246]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706585698,
+				}, -- [247]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586018,
+				}, -- [248]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586019,
+				}, -- [249]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586032,
+				}, -- [250]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586033,
+				}, -- [251]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586056,
+				}, -- [252]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586058,
+				}, -- [253]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586184,
+				}, -- [254]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586188,
+				}, -- [255]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586272,
+				}, -- [256]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586273,
+				}, -- [257]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586464,
+				}, -- [258]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586468,
+				}, -- [259]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586528,
+				}, -- [260]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586533,
+				}, -- [261]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586612,
+				}, -- [262]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586613,
+				}, -- [263]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586818,
+				}, -- [264]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586818,
+				}, -- [265]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586868,
+				}, -- [266]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586868,
+				}, -- [267]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586931,
+				}, -- [268]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586934,
+				}, -- [269]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586995,
+				}, -- [270]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706586998,
+				}, -- [271]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587051,
+				}, -- [272]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587053,
+				}, -- [273]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587121,
+				}, -- [274]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587123,
+				}, -- [275]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587137,
+				}, -- [276]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587138,
+				}, -- [277]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587172,
+				}, -- [278]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587173,
+				}, -- [279]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587439,
+				}, -- [280]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587443,
+				}, -- [281]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587494,
+				}, -- [282]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587498,
+				}, -- [283]
+				{
+					["state"] = "party",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587576,
+				}, -- [284]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706587578,
+				}, -- [285]
+				{
+					["time"] = 1706587641,
 					["event"] = "SHUTDOWN",
-				}, -- [122]
+				}, -- [286]
 			},
 			["debuglog"] = {
 				"16:53:36.588.789> Viewer started. ---------------------------", -- [1]
@@ -996,12 +1798,27 @@ ZygorGuidesViewerSettings = {
 				"00:56:54.586.310> Viewer started. ---------------------------", -- [25]
 				"00:58:30.873.578> Viewer started. ---------------------------", -- [26]
 				"13:31:31.856.522> Viewer started. ---------------------------", -- [27]
+				"21:29:07.631.403> Viewer started. ---------------------------", -- [28]
+				"19:36:56.937.225> Viewer started. ---------------------------", -- [29]
+				"19:48:11.602.938> Viewer started. ---------------------------", -- [30]
+				"19:49:51.750.453> Viewer started. ---------------------------", -- [31]
+				"20:25:01.602.942> Viewer started. ---------------------------", -- [32]
+				"20:25:14.974.406> Viewer started. ---------------------------", -- [33]
+				"17:23:00.256.004> Viewer started. ---------------------------", -- [34]
+				"18:55:12.611.702> Viewer started. ---------------------------", -- [35]
 			},
 			["QuestQueue"] = {
 			},
 			["GGbuyitems"] = {
 			},
 			["PlayerMoney"] = {
+				[1706515200] = {
+					["gain"] = 0,
+					["endmoney"] = 5785098,
+					["startmoney"] = 5785098,
+					["loss"] = 0,
+					["timestamp"] = 1706515200,
+				},
 				[1705996800] = {
 					["gain"] = 0,
 					["endmoney"] = 5785098,
@@ -1015,6 +1832,13 @@ ZygorGuidesViewerSettings = {
 					["startmoney"] = 4030249,
 					["loss"] = 0,
 					["timestamp"] = 1705737600,
+				},
+				[1705910400] = {
+					["gain"] = 0,
+					["endmoney"] = 5785098,
+					["startmoney"] = 5785098,
+					["loss"] = 0,
+					["timestamp"] = 1705910400,
 				},
 				[1705824000] = {
 					["gain"] = 499707,
@@ -1030,12 +1854,12 @@ ZygorGuidesViewerSettings = {
 					["loss"] = 4806,
 					["timestamp"] = 1705651200,
 				},
-				[1705910400] = {
+				[1706428800] = {
 					["gain"] = 0,
 					["endmoney"] = 5785098,
 					["startmoney"] = 5785098,
 					["loss"] = 0,
-					["timestamp"] = 1705910400,
+					["timestamp"] = 1706428800,
 				},
 				[1706342400] = {
 					["gain"] = 0,
@@ -1050,24 +1874,24 @@ ZygorGuidesViewerSettings = {
 	["global"] = {
 		["generalmsg"] = "New19Add70",
 		["gii_cache"] = {
-			[24476] = {
-				"Jaggal Clam", -- [1]
-				"|cffffffff|Hitem:24476::::::::22:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
+			["item:154898::::::::26:267:::::::::"] = {
+				"Meaty Haunch", -- [1]
+				"|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
 				1, -- [3]
-				26, -- [4]
+				45, -- [4]
 				0, -- [5]
 				"Tradeskill", -- [6]
-				"Other", -- [7]
-				20, -- [8]
+				"Cooking", -- [7]
+				1000, -- [8]
 				"", -- [9]
-				134433, -- [10]
-				100, -- [11]
+				2066012, -- [10]
+				625, -- [11]
 				7, -- [12]
-				11, -- [13]
+				8, -- [13]
 				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
 			},
 			["item:173202::::::::26:267:::::::::"] = {
 				"Shrouded Cloth", -- [1]
@@ -1086,900 +1910,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			[176391] = {
-				"Leafy Antenna", -- [1]
-				"|cff9d9d9d|Hitem:176391::::::::26:267:::::::::|h[Leafy Antenna]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237143, -- [10]
-				11949, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r"] = {
-				"Jaggal Clam", -- [1]
-				"|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
-				1, -- [3]
-				26, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Other", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134433, -- [10]
-				100, -- [11]
-				7, -- [12]
-				11, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[173204] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::25:267:::::::::|h[Lightless Silk]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			[176392] = {
-				"Patterned Wing", -- [1]
-				"|cff9d9d9d|Hitem:176392::::::::26:267:::::::::|h[Patterned Wing]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				2103849, -- [10]
-				4466, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			[173874] = {
-				"Twisted Sediment", -- [1]
-				"|cff9d9d9d|Hitem:173874::::::::26:267:::::::::|h[Twisted Sediment]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				876363, -- [10]
-				12932, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::"] = {
-				"Buccaneer's Cord of the Quickblade", -- [1]
-				"|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r", -- [2]
-				2, -- [3]
-				12, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				113, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[176807] = {
-				"Dented Armorplate", -- [1]
-				"|cff9d9d9d|Hitem:176807::::::::26:267:::::::::|h[Dented Armorplate]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				236311, -- [10]
-				13450, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824178,
-			},
-			["item:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::"] = {
-				"Cloak of Healing Rays", -- [1]
-				"|cff0070dd|Hitem:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Cloak of Healing Rays]|h|r", -- [2]
-				3, -- [3]
-				30, -- [4]
-				15, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				133758, -- [10]
-				1017, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r"] = {
-				"Klystere's Gift", -- [1]
-				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				1, -- [8]
-				"", -- [9]
-				348523, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:14047::::::::26:267:::::::::"] = {
-				"Runecloth", -- [1]
-				"|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132903, -- [10]
-				400, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			["|cffffffff|Hitem:175241::::::::26:267:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::26:267:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:178885::::::::26:267:::::::::"] = {
-				"Cloudstrider Pelt", -- [1]
-				"|cffffffff|Hitem:178885::::::::26:267:::::::::|h[Cloudstrider Pelt]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				8, -- [8]
-				"", -- [9]
-				237422, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824027,
-			},
-			[2589] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::22:267:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			[6948] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::22:267:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::"] = {
-				"Pure Aspirant's Leggings", -- [1]
-				"|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
-				2, -- [3]
-				85, -- [4]
-				25, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3386281, -- [10]
-				1709, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				236, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[173877] = {
-				"Burnished Hoof", -- [1]
-				"|cff9d9d9d|Hitem:173877::::::::26:267:::::::::|h[Burnished Hoof]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508511, -- [10]
-				13371, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:27764::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::"] = {
-				"Hands of the Sun", -- [1]
-				"|cff0070dd|Hitem:27764::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Hands of the Sun]|h|r", -- [2]
-				3, -- [3]
-				32, -- [4]
-				15, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132953, -- [10]
-				671, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:178890::::::::26:267:::::::::"] = {
-				"Larion Plume", -- [1]
-				"|cffffffff|Hitem:178890::::::::26:267:::::::::|h[Larion Plume]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				24, -- [8]
-				"", -- [9]
-				2103796, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823957,
-			},
-			["|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r"] = {
-				"Deranged Alchemist's Slippers", -- [1]
-				"|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
-				3, -- [3]
-				59, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				1875079, -- [10]
-				634, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["|cff9d9d9d|Hitem:176807::::::::26:267:::::::::|h[Dented Armorplate]|h|r"] = {
-				"Dented Armorplate", -- [1]
-				"|cff9d9d9d|Hitem:176807::::::::26:267:::::::::|h[Dented Armorplate]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				236311, -- [10]
-				13450, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824070,
-			},
-			["|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r"] = {
-				"Bleached Bone Wand of the Harmonious", -- [1]
-				"|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				17, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				1694362, -- [10]
-				835, -- [11]
-				2, -- [12]
-				19, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:173360::::::::26:267:::::::::"] = {
-				"Glossy Fur", -- [1]
-				"|cff9d9d9d|Hitem:173360::::::::26:267:::::::::|h[Glossy Fur]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237423, -- [10]
-				4159, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823766,
-			},
-			[175218] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::22:267:::::::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
-				9, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			[14173] = {
-				"Buccaneer's Cord", -- [1]
-				"|cff1eff00|Hitem:14173::::::::22:267:::::::::|h[Buccaneer's Cord]|h|r", -- [2]
-				2, -- [3]
-				12, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				18, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:28109::::::::26:267::11:2:6710:6757:2:9:15:28:1886:::::"] = {
-				"Essence-Infused Mushroom", -- [1]
-				"|cffa335ee|Hitem:28109::::::::26:267::11:2:6710:6757:2:9:15:28:1886:::::|h[Essence-Infused Mushroom]|h|r", -- [2]
-				4, -- [3]
-				31, -- [4]
-				15, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TRINKET", -- [9]
-				134532, -- [10]
-				7368, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::"] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				236, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::"] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				9, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
-				13, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r"] = {
-				"Sanguine Hibiscus", -- [1]
-				"|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134200, -- [10]
-				400, -- [11]
-				12, -- [12]
-				0, -- [13]
-				0, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:175234::::::::26:267::11:1:6500:2:9:7:28:741:::::"] = {
-				"Expeditionary Cloth Cuffs", -- [1]
-				"|cff1eff00|Hitem:175234::::::::26:267::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1706376, -- [10]
-				12, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r"] = {
-				"Larion-Tooth Necklace", -- [1]
-				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				1013266, -- [10]
-				2242, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::"] = {
-				"Larion-Tooth Necklace", -- [1]
-				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				1013266, -- [10]
-				2242, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r"] = {
-				"Tunk's Needle", -- [1]
-				"|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926055, -- [10]
-				478, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:173874::::::::26:267:::::::::"] = {
-				"Twisted Sediment", -- [1]
-				"|cff9d9d9d|Hitem:173874::::::::26:267:::::::::|h[Twisted Sediment]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				876363, -- [10]
-				12932, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823668,
-			},
-			["item:173344::::::::26:267::11:1:4811:2:9:26:28:2570:::::"] = {
-				"Band of Chronicled Deeds", -- [1]
-				"|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Band of Chronicled Deeds]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				515951, -- [10]
-				3191, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[175224] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::22:267:::::::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				18, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cff9d9d9d|Hitem:176392::::::::26:267:::::::::|h[Patterned Wing]|h|r"] = {
-				"Patterned Wing", -- [1]
-				"|cff9d9d9d|Hitem:176392::::::::26:267:::::::::|h[Patterned Wing]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				2103849, -- [10]
-				4466, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			[173344] = {
-				"Band of Chronicled Deeds", -- [1]
-				"|cff0070dd|Hitem:173344::::::::26:267:::::::::|h[Band of Chronicled Deeds]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				48, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				515951, -- [10]
-				7648, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			[159606] = {
-				"Bleached Bone Wand", -- [1]
-				"|cff1eff00|Hitem:159606::::::::22:267:::::::::|h[Bleached Bone Wand]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				50, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				1694362, -- [10]
-				3663, -- [11]
-				2, -- [12]
-				19, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:159226::::::::26:267::1:3:6710:6652:8811:2:9:12:28:500:::::"] = {
-				"Excavator's Safety Belt", -- [1]
-				"|cff0070dd|Hitem:159226::::::::26:267::1:3:6710:6652:8811:2:9:12:28:500:::::|h[Excavator's Safety Belt]|h|r", -- [2]
-				3, -- [3]
-				59, -- [4]
-				12, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1875078, -- [10]
-				333, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r"] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r"] = {
-				"Raw Seraphic Wing", -- [1]
-				"|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				134002, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r"] = {
-				"Creeping Crawler Meat", -- [1]
-				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3671892, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["item:154898::::::::26:267:::::::::"] = {
-				"Meaty Haunch", -- [1]
-				"|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2066012, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			[155305] = {
-				"Golden City Greatcloak", -- [1]
-				"|cff1eff00|Hitem:155305::::::::22:267:::::::::|h[Golden City Greatcloak]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				2055323, -- [10]
-				985, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:28:2570:9:26:::::|h[Gilded Glaive of the Aurora]|h|r"] = {
-				"Gilded Glaive of the Aurora", -- [1]
-				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:28:2570:9:26:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				100, -- [4]
-				24, -- [5]
-				"Weapon", -- [6]
-				"Warglaives", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3084656, -- [10]
-				2985, -- [11]
-				2, -- [12]
-				9, -- [13]
-				2, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824619,
+				["timestamp"] = 1706583314,
 			},
 			["item:175241::::::::26:267:::::::::"] = {
 				"Expedition Healing Potion", -- [1]
@@ -1998,26 +1929,26 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706583314,
 			},
-			["|cff9d9d9d|Hitem:174022::::::::26:267:::::::::|h[Ceremonial Hand Bell]|h|r"] = {
-				"Ceremonial Hand Bell", -- [1]
-				"|cff9d9d9d|Hitem:174022::::::::26:267:::::::::|h[Ceremonial Hand Bell]|h|r", -- [2]
-				0, -- [3]
-				60, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
+			["|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r"] = {
+				"Jaggal Clam", -- [1]
+				"|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
+				1, -- [3]
+				26, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Other", -- [7]
 				20, -- [8]
 				"", -- [9]
-				1769027, -- [10]
-				10305, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
+				134433, -- [10]
+				100, -- [11]
+				7, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1705824179,
+				["timestamp"] = 1706584238,
 			},
 			["|cffffffff|Hitem:21877::::::::26:267:::::::::|h[Netherweave Cloth]|h|r"] = {
 				"Netherweave Cloth", -- [1]
@@ -2036,1318 +1967,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				1, -- [15]
 				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["item:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::"] = {
-				"Golden City Signet of the Feverflare", -- [1]
-				"|cff1eff00|Hitem:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::|h[Golden City Signet of the Feverflare]|h|r", -- [2]
-				2, -- [3]
-				58, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				1391713, -- [10]
-				33, -- [11]
-				4, -- [12]
-				0, -- [13]
-				2, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:173344::::::::26:267::11:1:4811:2:28:2570:9:26:::::"] = {
-				"Band of Chronicled Deeds", -- [1]
-				"|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Band of Chronicled Deeds]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				515951, -- [10]
-				3191, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824667,
-			},
-			["|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r"] = {
-				"Aethereal Meat", -- [1]
-				"|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3671885, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r"] = {
-				"Tidespray Linen", -- [1]
-				"|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2067081, -- [10]
-				1, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r"] = {
-				"Pure Aspirant's Leggings", -- [1]
-				"|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
-				2, -- [3]
-				85, -- [4]
-				25, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3386281, -- [10]
-				1709, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::"] = {
-				"Raal's Spare Hexxer", -- [1]
-				"|cff0070dd|Hitem:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::|h[Raal's Spare Hexxer]|h|r", -- [2]
-				3, -- [3]
-				50, -- [4]
-				21, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				1694362, -- [10]
-				4161, -- [11]
-				2, -- [12]
-				19, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r"] = {
-				"Buccaneer's Cord of the Quickblade", -- [1]
-				"|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r", -- [2]
-				2, -- [3]
-				12, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				132511, -- [10]
-				113, -- [11]
-				4, -- [12]
-				1, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[173797] = {
-				"Larion-Tooth Necklace", -- [1]
-				"|cff0070dd|Hitem:173797::::::::26:267:::::::::|h[Larion-Tooth Necklace]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				48, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				1013266, -- [10]
-				5375, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:176391::::::::26:267:::::::::"] = {
-				"Leafy Antenna", -- [1]
-				"|cff9d9d9d|Hitem:176391::::::::26:267:::::::::|h[Leafy Antenna]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237143, -- [10]
-				11949, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823848,
-			},
-			["|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r"] = {
-				"Expeditionary Cloth Gloves", -- [1]
-				"|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				9, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1706382, -- [10]
-				13, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[183966] = {
-				"Klystere's Gift", -- [1]
-				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				1, -- [8]
-				"", -- [9]
-				348523, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:172054::::::::26:267:::::::::"] = {
-				"Raw Seraphic Wing", -- [1]
-				"|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				134002, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			["item:176398::::::::26:267:::::::::"] = {
-				"Torgok's Reagent Pouch", -- [1]
-				"|cffffffff|Hitem:176398::::::::26:267:::::::::|h[Torgok's Reagent Pouch]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				0, -- [5]
-				"Container", -- [6]
-				"Bag", -- [7]
-				1, -- [8]
-				"INVTYPE_BAG", -- [9]
-				1519435, -- [10]
-				10, -- [11]
-				1, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824218,
-			},
-			["item:183966::::::::26:267:::::::::"] = {
-				"Klystere's Gift", -- [1]
-				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				1, -- [8]
-				"", -- [9]
-				348523, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:173361::::::::26:267:::::::::"] = {
-				"Polished Claw", -- [1]
-				"|cff9d9d9d|Hitem:173361::::::::26:267:::::::::|h[Polished Claw]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508484, -- [10]
-				12613, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824000,
-			},
-			[21877] = {
-				"Netherweave Cloth", -- [1]
-				"|cffffffff|Hitem:21877::::::::22:267:::::::::|h[Netherweave Cloth]|h|r", -- [2]
-				1, -- [3]
-				15, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132898, -- [10]
-				800, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				1, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			[174022] = {
-				"Ceremonial Hand Bell", -- [1]
-				"|cff9d9d9d|Hitem:174022::::::::26:267:::::::::|h[Ceremonial Hand Bell]|h|r", -- [2]
-				0, -- [3]
-				60, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1769027, -- [10]
-				10305, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:21877::::::::26:267:::::::::"] = {
-				"Netherweave Cloth", -- [1]
-				"|cffffffff|Hitem:21877::::::::26:267:::::::::|h[Netherweave Cloth]|h|r", -- [2]
-				1, -- [3]
-				15, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132898, -- [10]
-				800, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				1, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			["item:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::"] = {
-				"Zanchuli Handwraps", -- [1]
-				"|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				21, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1762577, -- [10]
-				267, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[155248] = {
-				"Zanchuli Handwraps", -- [1]
-				"|cff1eff00|Hitem:155248::::::::22:267:::::::::|h[Zanchuli Handwraps]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1762577, -- [10]
-				669, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r"] = {
-				"Meaty Haunch", -- [1]
-				"|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2066012, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r"] = {
-				"Gilded Glaive of the Aurora", -- [1]
-				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				100, -- [4]
-				24, -- [5]
-				"Weapon", -- [6]
-				"Warglaives", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3084656, -- [10]
-				2985, -- [11]
-				2, -- [12]
-				9, -- [13]
-				2, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Band of Chronicled Deeds]|h|r"] = {
-				"Band of Chronicled Deeds", -- [1]
-				"|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Band of Chronicled Deeds]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				515951, -- [10]
-				3191, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824619,
-			},
-			["item:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::"] = {
-				"Tunk's Needle", -- [1]
-				"|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926055, -- [10]
-				478, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[154898] = {
-				"Meaty Haunch", -- [1]
-				"|cffffffff|Hitem:154898::::::::22:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2066012, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			["item:2589::::::::26:267:::::::::"] = {
-				"Linen Cloth", -- [1]
-				"|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132889, -- [10]
-				13, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			["item:176794::::::::26:267:::3:6655:6652:1706:2:28:2570:9:26:::::"] = {
-				"Gilded Glaive of the Aurora", -- [1]
-				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:28:2570:9:26:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				100, -- [4]
-				24, -- [5]
-				"Weapon", -- [6]
-				"Warglaives", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3084656, -- [10]
-				2985, -- [11]
-				2, -- [12]
-				9, -- [13]
-				2, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824667,
-			},
-			["item:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::"] = {
-				"Starlight Dagger", -- [1]
-				"|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r", -- [2]
-				3, -- [3]
-				32, -- [4]
-				16, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135672, -- [10]
-				2402, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r"] = {
-				"Golden City Greatcloak", -- [1]
-				"|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				20, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				2055323, -- [10]
-				433, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[27543] = {
-				"Starlight Dagger", -- [1]
-				"|cff0070dd|Hitem:27543::::::::23:267:::::::::|h[Starlight Dagger]|h|r", -- [2]
-				3, -- [3]
-				32, -- [4]
-				27, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135672, -- [10]
-				422, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:176392::::::::26:267:::::::::"] = {
-				"Patterned Wing", -- [1]
-				"|cff9d9d9d|Hitem:176392::::::::26:267:::::::::|h[Patterned Wing]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				2103849, -- [10]
-				4466, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823777,
-			},
-			[173361] = {
-				"Polished Claw", -- [1]
-				"|cff9d9d9d|Hitem:173361::::::::26:267:::::::::|h[Polished Claw]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508484, -- [10]
-				12613, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824180,
-			},
-			[175624] = {
-				"Pure Aspirant's Leggings", -- [1]
-				"|cff1eff00|Hitem:175624::::::::26:267:::::::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
-				2, -- [3]
-				85, -- [4]
-				48, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3386281, -- [10]
-				10412, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			[178136] = {
-				"Emotional Residue", -- [1]
-				"|cff9d9d9d|Hitem:178136::::::::26:267:::::::::|h[Emotional Residue]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1500930, -- [10]
-				3449, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:159763::::::::26:267::11:1:3631:2:9:19:28:189:::::"] = {
-				"Idol of Vol'jamba", -- [1]
-				"|cff1eff00|Hitem:159763::::::::26:267::11:1:3631:2:9:19:28:189:::::|h[Idol of Vol'jamba]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				19, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TRINKET", -- [9]
-				236487, -- [10]
-				285, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:24246::::::::26:267:::::::::"] = {
-				"Sanguine Hibiscus", -- [1]
-				"|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134200, -- [10]
-				400, -- [11]
-				12, -- [12]
-				0, -- [13]
-				0, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:174022::::::::26:267:::::::::"] = {
-				"Ceremonial Hand Bell", -- [1]
-				"|cff9d9d9d|Hitem:174022::::::::26:267:::::::::|h[Ceremonial Hand Bell]|h|r", -- [2]
-				0, -- [3]
-				60, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				1769027, -- [10]
-				10305, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823668,
-			},
-			["item:6948::::::::26:267:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[25288] = {
-				"Conjurer's Wand", -- [1]
-				"|cff1eff00|Hitem:25288::::::::22:267:::::::::|h[Conjurer's Wand]|h|r", -- [2]
-				2, -- [3]
-				31, -- [4]
-				25, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				135476, -- [10]
-				407, -- [11]
-				2, -- [12]
-				19, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:175220::::::::26:267::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Hood", -- [1]
-				"|cff1eff00|Hitem:175220::::::::26:267::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1706385, -- [10]
-				21, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[159235] = {
-				"Deranged Alchemist's Slippers", -- [1]
-				"|cff0070dd|Hitem:159235::::::::22:267:::::::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
-				3, -- [3]
-				59, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				1875079, -- [10]
-				2014, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::"] = {
-				"Gilded Glaive of the Aurora", -- [1]
-				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
-				2, -- [3]
-				100, -- [4]
-				24, -- [5]
-				"Weapon", -- [6]
-				"Warglaives", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3084656, -- [10]
-				2985, -- [11]
-				2, -- [12]
-				9, -- [13]
-				2, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[178169] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::22:267:::::::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				31, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r"] = {
-				"Bogslayer Helm of the Quickblade", -- [1]
-				"|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r", -- [2]
-				2, -- [3]
-				30, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				133147, -- [10]
-				41, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::"] = {
-				"Bogslayer Helm of the Quickblade", -- [1]
-				"|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r", -- [2]
-				2, -- [3]
-				30, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				133147, -- [10]
-				41, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:175224::::::::26:267::11:1:6500:2:9:8:28:741:::::"] = {
-				"Expeditionary Cloth Leggings", -- [1]
-				"|cff1eff00|Hitem:175224::::::::26:267::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1706388, -- [10]
-				24, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff9d9d9d|Hitem:178136::::::::26:267:::::::::|h[Emotional Residue]|h|r"] = {
-				"Emotional Residue", -- [1]
-				"|cff9d9d9d|Hitem:178136::::::::26:267:::::::::|h[Emotional Residue]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1500930, -- [10]
-				3449, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r"] = {
-				"Zanchuli Handwraps", -- [1]
-				"|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				21, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1762577, -- [10]
-				267, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["item:179314::::::::26:267:::::::::"] = {
-				"Creeping Crawler Meat", -- [1]
-				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3671892, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			[176794] = {
-				"Gilded Glaive", -- [1]
-				"|cff1eff00|Hitem:176794::::::::26:267:::::::::|h[Gilded Glaive]|h|r", -- [2]
-				2, -- [3]
-				100, -- [4]
-				50, -- [5]
-				"Weapon", -- [6]
-				"Warglaives", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3084656, -- [10]
-				29664, -- [11]
-				2, -- [12]
-				9, -- [13]
-				2, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cff9d9d9d|Hitem:173874::::::::26:267:::::::::|h[Twisted Sediment]|h|r"] = {
-				"Twisted Sediment", -- [1]
-				"|cff9d9d9d|Hitem:173874::::::::26:267:::::::::|h[Twisted Sediment]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				876363, -- [10]
-				12932, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:178136::::::::26:267:::::::::"] = {
-				"Emotional Residue", -- [1]
-				"|cff9d9d9d|Hitem:178136::::::::26:267:::::::::|h[Emotional Residue]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1500930, -- [10]
-				3449, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823668,
-			},
-			["|cff1eff00|Hitem:173204::::::::26:267:::::::::|h[Lightless Silk]|h|r"] = {
-				"Lightless Silk", -- [1]
-				"|cff1eff00|Hitem:173204::::::::26:267:::::::::|h[Lightless Silk]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528460, -- [10]
-				3, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["item:176807::::::::26:267:::::::::"] = {
-				"Dented Armorplate", -- [1]
-				"|cff9d9d9d|Hitem:176807::::::::26:267:::::::::|h[Dented Armorplate]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				236311, -- [10]
-				13450, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705823668,
-			},
-			["item:172052::::::::26:267:::::::::"] = {
-				"Aethereal Meat", -- [1]
-				"|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3671885, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391094,
-			},
-			["|cff9d9d9d|Hitem:173360::::::::26:267:::::::::|h[Glossy Fur]|h|r"] = {
-				"Glossy Fur", -- [1]
-				"|cff9d9d9d|Hitem:173360::::::::26:267:::::::::|h[Glossy Fur]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237423, -- [10]
-				4159, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["|cff9d9d9d|Hitem:173361::::::::26:267:::::::::|h[Polished Claw]|h|r"] = {
-				"Polished Claw", -- [1]
-				"|cff9d9d9d|Hitem:173361::::::::26:267:::::::::|h[Polished Claw]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508484, -- [10]
-				12613, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824180,
-			},
-			["item:159462::::::::26:267::1:3:6710:6652:8810:2:9:14:28:500:::::"] = {
-				"Footbomb Championship Ring", -- [1]
-				"|cff0070dd|Hitem:159462::::::::26:267::1:3:6710:6652:8810:2:9:14:28:500:::::|h[Footbomb Championship Ring]|h|r", -- [2]
-				3, -- [3]
-				59, -- [4]
-				14, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_FINGER", -- [9]
-				2000829, -- [10]
-				711, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[24246] = {
-				"Sanguine Hibiscus", -- [1]
-				"|cffffffff|Hitem:24246::::::::22:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134200, -- [10]
-				400, -- [11]
-				12, -- [12]
-				0, -- [13]
-				0, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r"] = {
-				"Starlight Dagger", -- [1]
-				"|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r", -- [2]
-				3, -- [3]
-				32, -- [4]
-				16, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135672, -- [10]
-				2402, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			["|cffffffff|Hitem:173202::::::::26:267:::::::::|h[Shrouded Cloth]|h|r"] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::26:267:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			["item:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::"] = {
-				"Golden City Greatcloak", -- [1]
-				"|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				20, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				2055323, -- [10]
-				433, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff1eff00|Hitem:25288::::::::26:267::1:2:6655:1694:2:9:15:28:1886:::::|h[Conjurer's Wand of the Fireflash]|h|r"] = {
-				"Conjurer's Wand of the Fireflash", -- [1]
-				"|cff1eff00|Hitem:25288::::::::26:267::1:2:6655:1694:2:9:15:28:1886:::::|h[Conjurer's Wand of the Fireflash]|h|r", -- [2]
-				2, -- [3]
-				31, -- [4]
-				9, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
-				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				135476, -- [10]
-				97, -- [11]
-				2, -- [12]
-				19, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391099,
-			},
-			[152576] = {
-				"Tidespray Linen", -- [1]
-				"|cffffffff|Hitem:152576::::::::22:267:::::::::|h[Tidespray Linen]|h|r", -- [2]
-				1, -- [3]
-				45, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				2067081, -- [10]
-				1, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			["item:175245::::::::26:267::::1:28:741:::::"] = {
-				"Runetusk Necklace", -- [1]
-				"|cff1eff00|Hitem:175245::::::::26:267::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				466970, -- [10]
-				8, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::"] = {
-				"Deranged Alchemist's Slippers", -- [1]
-				"|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
-				3, -- [3]
-				59, -- [4]
-				13, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				1875079, -- [10]
-				634, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[172052] = {
-				"Aethereal Meat", -- [1]
-				"|cffffffff|Hitem:172052::::::::23:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3671885, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			["item:175208::::::::26:267::11:1:6500:2:9:10:28:741:::::"] = {
-				"Expeditionary Cloth Robe", -- [1]
-				"|cff1eff00|Hitem:175208::::::::26:267::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_ROBE", -- [9]
-				1706379, -- [10]
-				30, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			[178164] = {
-				"Tunk's Needle", -- [1]
-				"|cff0070dd|Hitem:178164::::::::22:267:::::::::|h[Tunk's Needle]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				0, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				926055, -- [10]
-				64, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
+				["timestamp"] = 1706584238,
 			},
 			["|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Band of Chronicled Deeds]|h|r"] = {
 				"Band of Chronicled Deeds", -- [1]
@@ -3366,28 +1986,85 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391099,
+				["timestamp"] = 1706584217,
 			},
-			["item:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::"] = {
-				"Bleached Bone Wand of the Harmonious", -- [1]
-				"|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r", -- [2]
+			["item:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::"] = {
+				"Golden City Signet of the Feverflare", -- [1]
+				"|cff1eff00|Hitem:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::|h[Golden City Signet of the Feverflare]|h|r", -- [2]
 				2, -- [3]
 				58, -- [4]
-				17, -- [5]
-				"Weapon", -- [6]
-				"Wands", -- [7]
+				8, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
 				1, -- [8]
-				"INVTYPE_RANGEDRIGHT", -- [9]
-				1694362, -- [10]
-				835, -- [11]
-				2, -- [12]
-				19, -- [13]
+				"INVTYPE_FINGER", -- [9]
+				1391713, -- [10]
+				33, -- [11]
+				4, -- [12]
+				0, -- [13]
 				2, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706583314,
 			},
-			["item:152576::::::::26:267:::::::::"] = {
+			[2589] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			["item:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::"] = {
+				"Bogslayer Helm of the Quickblade", -- [1]
+				"|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r", -- [2]
+				2, -- [3]
+				30, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133147, -- [10]
+				41, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::"] = {
+				"Buccaneer's Cord of the Quickblade", -- [1]
+				"|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r", -- [2]
+				2, -- [3]
+				12, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				113, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r"] = {
 				"Tidespray Linen", -- [1]
 				"|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r", -- [2]
 				1, -- [3]
@@ -3404,7 +2081,140 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				7, -- [15]
 				[17] = true,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706584238,
+			},
+			["|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				25, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				1709, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::"] = {
+				"Cloak of Healing Rays", -- [1]
+				"|cff0070dd|Hitem:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Cloak of Healing Rays]|h|r", -- [2]
+				3, -- [3]
+				30, -- [4]
+				15, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133758, -- [10]
+				1017, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[14173] = {
+				"Buccaneer's Cord", -- [1]
+				"|cff1eff00|Hitem:14173::::::::26:267:::::::::|h[Buccaneer's Cord]|h|r", -- [2]
+				2, -- [3]
+				12, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				18, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::"] = {
+				"Raal's Spare Hexxer", -- [1]
+				"|cff0070dd|Hitem:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::|h[Raal's Spare Hexxer]|h|r", -- [2]
+				3, -- [3]
+				50, -- [4]
+				21, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				1694362, -- [10]
+				4161, -- [11]
+				2, -- [12]
+				19, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r"] = {
+				"Klystere's Gift", -- [1]
+				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				348523, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:14047::::::::26:267:::::::::"] = {
+				"Runecloth", -- [1]
+				"|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132903, -- [10]
+				400, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:175241::::::::26:267:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::26:267:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
 			},
 			["item:25288::::::::26:267::1:2:6655:1694:2:9:15:28:1886:::::"] = {
 				"Conjurer's Wand of the Fireflash", -- [1]
@@ -3423,142 +2233,9 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				1, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706583314,
 			},
-			["item:173797::::::::26:267::11:1:4811:2:28:2570:9:26:::::"] = {
-				"Larion-Tooth Necklace", -- [1]
-				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				1013266, -- [10]
-				2242, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824667,
-			},
-			["|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r"] = {
-				"Runecloth", -- [1]
-				"|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132903, -- [10]
-				400, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1706391099,
-			},
-			[173360] = {
-				"Glossy Fur", -- [1]
-				"|cff9d9d9d|Hitem:173360::::::::26:267:::::::::|h[Glossy Fur]|h|r", -- [2]
-				0, -- [3]
-				40, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237423, -- [10]
-				4159, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824179,
-			},
-			["item:24476::::::::26:267:::::::::"] = {
-				"Jaggal Clam", -- [1]
-				"|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
-				1, -- [3]
-				26, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Other", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134433, -- [10]
-				100, -- [11]
-				7, -- [12]
-				11, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Larion-Tooth Necklace]|h|r"] = {
-				"Larion-Tooth Necklace", -- [1]
-				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:28:2570:9:26:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
-				3, -- [3]
-				85, -- [4]
-				26, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				1013266, -- [10]
-				2242, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824619,
-			},
-			[175241] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::22:267:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:155255::::::::26:267::11:1:3631:2:9:18:28:189:::::"] = {
-				"Zanchuli Legwraps", -- [1]
-				"|cff1eff00|Hitem:155255::::::::26:267::11:1:3631:2:9:18:28:189:::::|h[Zanchuli Legwraps]|h|r", -- [2]
-				2, -- [3]
-				50, -- [4]
-				18, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1762579, -- [10]
-				254, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				7, -- [15]
-				[17] = false,
-				["timestamp"] = 1706391094,
-			},
-			["item:151067::::::::26:267::1:1:6710:2:9:17:28:1901:::::"] = {
+			["|cff0070dd|Hitem:151067::::::::26:267::1:1:6710:2:9:17:28:1901:::::|h[Boots of Lingering Sorrow]|h|r"] = {
 				"Boots of Lingering Sorrow", -- [1]
 				"|cff0070dd|Hitem:151067::::::::26:267::1:1:6710:2:9:17:28:1901:::::|h[Boots of Lingering Sorrow]|h|r", -- [2]
 				3, -- [3]
@@ -3575,28 +2252,218 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706584234,
 			},
-			["|cff9d9d9d|Hitem:173877::::::::26:267:::::::::|h[Burnished Hoof]|h|r"] = {
-				"Burnished Hoof", -- [1]
-				"|cff9d9d9d|Hitem:173877::::::::26:267:::::::::|h[Burnished Hoof]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508511, -- [10]
-				13371, -- [11]
-				15, -- [12]
+			["|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r"] = {
+				"Buccaneer's Cord of the Quickblade", -- [1]
+				"|cff1eff00|Hitem:14173::::::::26:267::1:2:6654:1678:2:9:17:28:1901:::::|h[Buccaneer's Cord of the Quickblade]|h|r", -- [2]
+				2, -- [3]
+				12, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132511, -- [10]
+				113, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::"] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::26:267::11:1:4790:2:9:25:28:2570:::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				25, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				1709, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Tunk's Needle", -- [1]
+				"|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926055, -- [10]
+				478, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cff1eff00|Hitem:175245::::::::26:267::::1:28:741:::::|h[Runetusk Necklace]|h|r"] = {
+				"Runetusk Necklace", -- [1]
+				"|cff1eff00|Hitem:175245::::::::26:267::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				466970, -- [10]
+				8, -- [11]
+				4, -- [12]
 				0, -- [13]
-				0, -- [14]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			[24954] = {
+				"Bogslayer Helm", -- [1]
+				"|cff1eff00|Hitem:24954::::::::26:267:::::::::|h[Bogslayer Helm]|h|r", -- [2]
+				2, -- [3]
+				30, -- [4]
+				25, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133147, -- [10]
+				158, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:175245::::::::26:267::::1:28:741:::::"] = {
+				"Runetusk Necklace", -- [1]
+				"|cff1eff00|Hitem:175245::::::::26:267::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				466970, -- [10]
+				8, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				9, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				13, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cff1eff00|Hitem:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::|h[Golden City Signet of the Feverflare]|h|r"] = {
+				"Golden City Signet of the Feverflare", -- [1]
+				"|cff1eff00|Hitem:160136::::::::26:267:::3:6654:4802:1766:2:9:11:28:500:::::|h[Golden City Signet of the Feverflare]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				1391713, -- [10]
+				33, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705824180,
+				["timestamp"] = 1706584238,
 			},
-			[172054] = {
+			["item:27764::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::"] = {
+				"Hands of the Sun", -- [1]
+				"|cff0070dd|Hitem:27764::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Hands of the Sun]|h|r", -- [2]
+				3, -- [3]
+				32, -- [4]
+				15, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132953, -- [10]
+				671, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff0070dd|Hitem:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::|h[Raal's Spare Hexxer]|h|r"] = {
+				"Raal's Spare Hexxer", -- [1]
+				"|cff0070dd|Hitem:159102::::::::26:267::11:2:4790:4791:2:9:21:28:189:::::|h[Raal's Spare Hexxer]|h|r", -- [2]
+				3, -- [3]
+				50, -- [4]
+				21, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				1694362, -- [10]
+				4161, -- [11]
+				2, -- [12]
+				19, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:172054::::::::26:267:::::::::"] = {
 				"Raw Seraphic Wing", -- [1]
 				"|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r", -- [2]
 				1, -- [3]
@@ -3613,30 +2480,11 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1705879916,
+				["timestamp"] = 1706583314,
 			},
-			[24954] = {
-				"Bogslayer Helm", -- [1]
-				"|cff1eff00|Hitem:24954::::::::22:267:::::::::|h[Bogslayer Helm]|h|r", -- [2]
-				2, -- [3]
-				30, -- [4]
-				25, -- [5]
-				"Armor", -- [6]
-				"Plate", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				133147, -- [10]
-				158, -- [11]
-				4, -- [12]
-				4, -- [13]
-				2, -- [14]
-				1, -- [15]
-				[17] = false,
-				["timestamp"] = 1705879916,
-			},
-			["item:178891::::::::26:267:::::::::"] = {
-				"Elysian Thread", -- [1]
-				"|cffffffff|Hitem:178891::::::::26:267:::::::::|h[Elysian Thread]|h|r", -- [2]
+			[183966] = {
+				"Klystere's Gift", -- [1]
+				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -3644,109 +2492,90 @@ ZygorGuidesViewerSettings = {
 				"Quest", -- [7]
 				1, -- [8]
 				"", -- [9]
-				348562, -- [10]
-				12500, -- [11]
+				348523, -- [10]
+				0, -- [11]
 				12, -- [12]
 				0, -- [13]
 				4, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1705824179,
+				["timestamp"] = 1706501323,
 			},
-			["|cff9d9d9d|Hitem:176391::::::::26:267:::::::::|h[Leafy Antenna]|h|r"] = {
-				"Leafy Antenna", -- [1]
-				"|cff9d9d9d|Hitem:176391::::::::26:267:::::::::|h[Leafy Antenna]|h|r", -- [2]
-				0, -- [3]
-				120, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				237143, -- [10]
-				11949, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1705824180,
-			},
-			[173202] = {
-				"Shrouded Cloth", -- [1]
-				"|cffffffff|Hitem:173202::::::::23:267:::::::::|h[Shrouded Cloth]|h|r", -- [2]
-				1, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Tradeskill", -- [6]
+			["|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r"] = {
+				"Deranged Alchemist's Slippers", -- [1]
+				"|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
 				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				3528456, -- [10]
-				2, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			[14047] = {
-				"Runecloth", -- [1]
-				"|cffffffff|Hitem:14047::::::::22:267:::::::::|h[Runecloth]|h|r", -- [2]
-				1, -- [3]
-				10, -- [4]
-				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cloth", -- [7]
-				1000, -- [8]
-				"", -- [9]
-				132903, -- [10]
-				400, -- [11]
-				7, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
-			},
-			["item:173877::::::::26:267:::::::::"] = {
-				"Burnished Hoof", -- [1]
-				"|cff9d9d9d|Hitem:173877::::::::26:267:::::::::|h[Burnished Hoof]|h|r", -- [2]
-				0, -- [3]
-				50, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				200, -- [8]
-				"", -- [9]
-				1508511, -- [10]
-				13371, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1875079, -- [10]
+				634, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
 				7, -- [15]
 				[17] = false,
-				["timestamp"] = 1705823829,
+				["timestamp"] = 1706584238,
 			},
-			[179314] = {
-				"Creeping Crawler Meat", -- [1]
-				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
+			[175241] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::26:267:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
-				50, -- [4]
+				3, -- [4]
 				0, -- [5]
-				"Tradeskill", -- [6]
-				"Cooking", -- [7]
-				1000, -- [8]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
 				"", -- [9]
-				3671892, -- [10]
-				625, -- [11]
-				7, -- [12]
-				8, -- [13]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
 				0, -- [14]
 				8, -- [15]
-				[17] = true,
-				["timestamp"] = 1705879916,
+				[17] = false,
+				["timestamp"] = 1706501324,
+			},
+			[176794] = {
+				"Gilded Glaive", -- [1]
+				"|cff1eff00|Hitem:176794::::::::26:267:::::::::|h[Gilded Glaive]|h|r", -- [2]
+				2, -- [3]
+				100, -- [4]
+				50, -- [5]
+				"Weapon", -- [6]
+				"Warglaives", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3084656, -- [10]
+				29664, -- [11]
+				2, -- [12]
+				9, -- [13]
+				2, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
+			},
+			[27543] = {
+				"Starlight Dagger", -- [1]
+				"|cff0070dd|Hitem:27543::::::::26:267:::::::::|h[Starlight Dagger]|h|r", -- [2]
+				3, -- [3]
+				32, -- [4]
+				27, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135672, -- [10]
+				422, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
 			},
 			["item:173204::::::::26:267:::::::::"] = {
 				"Lightless Silk", -- [1]
@@ -3765,7 +2594,1394 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = true,
-				["timestamp"] = 1706391094,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r"] = {
+				"Bleached Bone Wand of the Harmonious", -- [1]
+				"|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				17, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				1694362, -- [10]
+				835, -- [11]
+				2, -- [12]
+				19, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			[173797] = {
+				"Larion-Tooth Necklace", -- [1]
+				"|cff0070dd|Hitem:173797::::::::26:267:::::::::|h[Larion-Tooth Necklace]|h|r", -- [2]
+				3, -- [3]
+				85, -- [4]
+				48, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				1013266, -- [10]
+				5375, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:183966::::::::26:267:::::::::"] = {
+				"Klystere's Gift", -- [1]
+				"|cffffffff|Hitem:183966::::::::26:267:::::::::|h[Klystere's Gift]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				348523, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r"] = {
+				"Gilded Glaive of the Aurora", -- [1]
+				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				100, -- [4]
+				24, -- [5]
+				"Weapon", -- [6]
+				"Warglaives", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3084656, -- [10]
+				2985, -- [11]
+				2, -- [12]
+				9, -- [13]
+				2, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			[175224] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::26:267:::::::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				18, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			[179314] = {
+				"Creeping Crawler Meat", -- [1]
+				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671892, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501324,
+			},
+			["item:28109::::::::26:267::11:2:6710:6757:2:9:15:28:1886:::::"] = {
+				"Essence-Infused Mushroom", -- [1]
+				"|cffa335ee|Hitem:28109::::::::26:267::11:2:6710:6757:2:9:15:28:1886:::::|h[Essence-Infused Mushroom]|h|r", -- [2]
+				4, -- [3]
+				31, -- [4]
+				15, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				134532, -- [10]
+				7368, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[173202] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::26:267:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			[6948] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
+			},
+			["item:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::"] = {
+				"Starlight Dagger", -- [1]
+				"|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r", -- [2]
+				3, -- [3]
+				32, -- [4]
+				16, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135672, -- [10]
+				2402, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r"] = {
+				"Golden City Greatcloak", -- [1]
+				"|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				20, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				2055323, -- [10]
+				433, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			[172052] = {
+				"Aethereal Meat", -- [1]
+				"|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671885, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			[175624] = {
+				"Pure Aspirant's Leggings", -- [1]
+				"|cff1eff00|Hitem:175624::::::::26:267:::::::::|h[Pure Aspirant's Leggings]|h|r", -- [2]
+				2, -- [3]
+				85, -- [4]
+				48, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3386281, -- [10]
+				10412, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
+			},
+			[154898] = {
+				"Meaty Haunch", -- [1]
+				"|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2066012, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			[24246] = {
+				"Sanguine Hibiscus", -- [1]
+				"|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134200, -- [10]
+				400, -- [11]
+				12, -- [12]
+				0, -- [13]
+				0, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::"] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::26:267::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				9, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				13, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[173204] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::26:267:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			["item:6948::::::::26:267:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::26:267:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[155305] = {
+				"Golden City Greatcloak", -- [1]
+				"|cff1eff00|Hitem:155305::::::::26:267:::::::::|h[Golden City Greatcloak]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				2055323, -- [10]
+				985, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
+			},
+			["item:179314::::::::26:267:::::::::"] = {
+				"Creeping Crawler Meat", -- [1]
+				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671892, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["item:172052::::::::26:267:::::::::"] = {
+				"Aethereal Meat", -- [1]
+				"|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671885, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["item:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::"] = {
+				"Gilded Glaive of the Aurora", -- [1]
+				"|cff1eff00|Hitem:176794::::::::26:267:::3:6655:6652:1706:2:9:26:28:2570:::::|h[Gilded Glaive of the Aurora]|h|r", -- [2]
+				2, -- [3]
+				100, -- [4]
+				24, -- [5]
+				"Weapon", -- [6]
+				"Warglaives", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3084656, -- [10]
+				2985, -- [11]
+				2, -- [12]
+				9, -- [13]
+				2, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:175234::::::::26:267::11:1:6500:2:9:7:28:741:::::"] = {
+				"Expeditionary Cloth Cuffs", -- [1]
+				"|cff1eff00|Hitem:175234::::::::26:267::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Cloth Cuffs]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1706376, -- [10]
+				12, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[159606] = {
+				"Bleached Bone Wand", -- [1]
+				"|cff1eff00|Hitem:159606::::::::26:267:::::::::|h[Bleached Bone Wand]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				50, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				1694362, -- [10]
+				3663, -- [11]
+				2, -- [12]
+				19, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			[25288] = {
+				"Conjurer's Wand", -- [1]
+				"|cff1eff00|Hitem:25288::::::::26:267:::::::::|h[Conjurer's Wand]|h|r", -- [2]
+				2, -- [3]
+				31, -- [4]
+				25, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				135476, -- [10]
+				407, -- [11]
+				2, -- [12]
+				19, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			[172054] = {
+				"Raw Seraphic Wing", -- [1]
+				"|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				134002, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501324,
+			},
+			["|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r"] = {
+				"Zanchuli Handwraps", -- [1]
+				"|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				21, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1762577, -- [10]
+				267, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r"] = {
+				"Aethereal Meat", -- [1]
+				"|cffffffff|Hitem:172052::::::::26:267:::::::::|h[Aethereal Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671885, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			[24476] = {
+				"Jaggal Clam", -- [1]
+				"|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
+				1, -- [3]
+				26, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Other", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134433, -- [10]
+				100, -- [11]
+				7, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			[14047] = {
+				"Runecloth", -- [1]
+				"|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132903, -- [10]
+				400, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			[152576] = {
+				"Tidespray Linen", -- [1]
+				"|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2067081, -- [10]
+				1, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			["item:21877::::::::26:267:::::::::"] = {
+				"Netherweave Cloth", -- [1]
+				"|cffffffff|Hitem:21877::::::::26:267:::::::::|h[Netherweave Cloth]|h|r", -- [2]
+				1, -- [3]
+				15, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132898, -- [10]
+				800, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				1, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:173204::::::::26:267:::::::::|h[Lightless Silk]|h|r"] = {
+				"Lightless Silk", -- [1]
+				"|cff1eff00|Hitem:173204::::::::26:267:::::::::|h[Lightless Silk]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528460, -- [10]
+				3, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			["item:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::"] = {
+				"Zanchuli Handwraps", -- [1]
+				"|cff1eff00|Hitem:155248::::::::26:267::11:1:3631:2:9:21:28:189:::::|h[Zanchuli Handwraps]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				21, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1762577, -- [10]
+				267, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[21877] = {
+				"Netherweave Cloth", -- [1]
+				"|cffffffff|Hitem:21877::::::::26:267:::::::::|h[Netherweave Cloth]|h|r", -- [2]
+				1, -- [3]
+				15, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132898, -- [10]
+				800, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				1, -- [15]
+				[17] = true,
+				["timestamp"] = 1706501323,
+			},
+			["|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r"] = {
+				"Meaty Haunch", -- [1]
+				"|cffffffff|Hitem:154898::::::::26:267:::::::::|h[Meaty Haunch]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2066012, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			["item:24476::::::::26:267:::::::::"] = {
+				"Jaggal Clam", -- [1]
+				"|cffffffff|Hitem:24476::::::::26:267:::::::::|h[Jaggal Clam]|h|r", -- [2]
+				1, -- [3]
+				26, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Other", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134433, -- [10]
+				100, -- [11]
+				7, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[178169] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::26:267:::::::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				31, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:2589::::::::26:267:::::::::"] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["item:152576::::::::26:267:::::::::"] = {
+				"Tidespray Linen", -- [1]
+				"|cffffffff|Hitem:152576::::::::26:267:::::::::|h[Tidespray Linen]|h|r", -- [2]
+				1, -- [3]
+				45, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				2067081, -- [10]
+				1, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				7, -- [15]
+				[17] = true,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:173202::::::::26:267:::::::::|h[Shrouded Cloth]|h|r"] = {
+				"Shrouded Cloth", -- [1]
+				"|cffffffff|Hitem:173202::::::::26:267:::::::::|h[Shrouded Cloth]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				1, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3528456, -- [10]
+				2, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			["|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r"] = {
+				"Larion-Tooth Necklace", -- [1]
+				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
+				3, -- [3]
+				85, -- [4]
+				26, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				1013266, -- [10]
+				2242, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584236,
+			},
+			["item:173344::::::::26:267::11:1:4811:2:9:26:28:2570:::::"] = {
+				"Band of Chronicled Deeds", -- [1]
+				"|cff0070dd|Hitem:173344::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Band of Chronicled Deeds]|h|r", -- [2]
+				3, -- [3]
+				85, -- [4]
+				26, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				515951, -- [10]
+				3191, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::"] = {
+				"Golden City Greatcloak", -- [1]
+				"|cff1eff00|Hitem:155305::::::::26:267::11:1:4790:2:9:20:28:189:::::|h[Golden City Greatcloak]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				20, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				2055323, -- [10]
+				433, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::"] = {
+				"Larion-Tooth Necklace", -- [1]
+				"|cff0070dd|Hitem:173797::::::::26:267::11:1:4811:2:9:26:28:2570:::::|h[Larion-Tooth Necklace]|h|r", -- [2]
+				3, -- [3]
+				85, -- [4]
+				26, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				1013266, -- [10]
+				2242, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::"] = {
+				"Deranged Alchemist's Slippers", -- [1]
+				"|cff0070dd|Hitem:159235::::::::26:267::1:2:6710:6652:2:9:13:28:500:::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1875079, -- [10]
+				634, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:159462::::::::26:267::1:3:6710:6652:8810:2:9:14:28:500:::::"] = {
+				"Footbomb Championship Ring", -- [1]
+				"|cff0070dd|Hitem:159462::::::::26:267::1:3:6710:6652:8810:2:9:14:28:500:::::|h[Footbomb Championship Ring]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				14, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				2000829, -- [10]
+				711, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:175208::::::::26:267::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Robe", -- [1]
+				"|cff1eff00|Hitem:175208::::::::26:267::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Robe]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_ROBE", -- [9]
+				1706379, -- [10]
+				30, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r"] = {
+				"Tunk's Needle", -- [1]
+				"|cff0070dd|Hitem:178164::::::::26:267::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926055, -- [10]
+				478, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cff0070dd|Hitem:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Cloak of Healing Rays]|h|r"] = {
+				"Cloak of Healing Rays", -- [1]
+				"|cff0070dd|Hitem:24459::::::::26:267::1:2:6710:6652:2:9:15:28:1886:::::|h[Cloak of Healing Rays]|h|r", -- [2]
+				3, -- [3]
+				30, -- [4]
+				15, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133758, -- [10]
+				1017, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584231,
+			},
+			["item:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::"] = {
+				"Bleached Bone Wand of the Harmonious", -- [1]
+				"|cff1eff00|Hitem:159606::::::::26:267:::2:6655:1716:2:9:20:28:189:::::|h[Bleached Bone Wand of the Harmonious]|h|r", -- [2]
+				2, -- [3]
+				58, -- [4]
+				17, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				1694362, -- [10]
+				835, -- [11]
+				2, -- [12]
+				19, -- [13]
+				2, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:159763::::::::26:267::11:1:3631:2:9:19:28:189:::::"] = {
+				"Idol of Vol'jamba", -- [1]
+				"|cff1eff00|Hitem:159763::::::::26:267::11:1:3631:2:9:19:28:189:::::|h[Idol of Vol'jamba]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				19, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				236487, -- [10]
+				285, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:24246::::::::26:267:::::::::"] = {
+				"Sanguine Hibiscus", -- [1]
+				"|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134200, -- [10]
+				400, -- [11]
+				12, -- [12]
+				0, -- [13]
+				0, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r"] = {
+				"Runecloth", -- [1]
+				"|cffffffff|Hitem:14047::::::::26:267:::::::::|h[Runecloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132903, -- [10]
+				400, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			["|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r"] = {
+				"Starlight Dagger", -- [1]
+				"|cff0070dd|Hitem:27543::::::::26:267::1:2:6710:6652:2:9:16:28:1888:::::|h[Starlight Dagger]|h|r", -- [2]
+				3, -- [3]
+				32, -- [4]
+				16, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135672, -- [10]
+				2402, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583340,
+			},
+			["item:175220::::::::26:267::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Cloth Hood", -- [1]
+				"|cff1eff00|Hitem:175220::::::::26:267::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Cloth Hood]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1706385, -- [10]
+				21, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r"] = {
+				"Bogslayer Helm of the Quickblade", -- [1]
+				"|cff1eff00|Hitem:24954::::::::26:267::1:2:6654:1677:2:9:15:28:1886:::::|h[Bogslayer Helm of the Quickblade]|h|r", -- [2]
+				2, -- [3]
+				30, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133147, -- [10]
+				41, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["item:175224::::::::26:267::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Cloth Leggings", -- [1]
+				"|cff1eff00|Hitem:175224::::::::26:267::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Cloth Leggings]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1706388, -- [10]
+				24, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[173344] = {
+				"Band of Chronicled Deeds", -- [1]
+				"|cff0070dd|Hitem:173344::::::::26:267:::::::::|h[Band of Chronicled Deeds]|h|r", -- [2]
+				3, -- [3]
+				85, -- [4]
+				48, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				515951, -- [10]
+				7648, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			[159235] = {
+				"Deranged Alchemist's Slippers", -- [1]
+				"|cff0070dd|Hitem:159235::::::::26:267:::::::::|h[Deranged Alchemist's Slippers]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				1875079, -- [10]
+				2014, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:151067::::::::26:267::1:1:6710:2:9:17:28:1901:::::"] = {
+				"Boots of Lingering Sorrow", -- [1]
+				"|cff0070dd|Hitem:151067::::::::26:267::1:1:6710:2:9:17:28:1901:::::|h[Boots of Lingering Sorrow]|h|r", -- [2]
+				3, -- [3]
+				13, -- [4]
+				17, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				422797, -- [10]
+				1581, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["item:159226::::::::26:267::1:3:6710:6652:8811:2:9:12:28:500:::::"] = {
+				"Excavator's Safety Belt", -- [1]
+				"|cff0070dd|Hitem:159226::::::::26:267::1:3:6710:6652:8811:2:9:12:28:500:::::|h[Excavator's Safety Belt]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				12, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1875078, -- [10]
+				333, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			["|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r"] = {
+				"Sanguine Hibiscus", -- [1]
+				"|cffffffff|Hitem:24246::::::::26:267:::::::::|h[Sanguine Hibiscus]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134200, -- [10]
+				400, -- [11]
+				12, -- [12]
+				0, -- [13]
+				0, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r"] = {
+				"Linen Cloth", -- [1]
+				"|cffffffff|Hitem:2589::::::::26:267:::::::::|h[Linen Cloth]|h|r", -- [2]
+				1, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cloth", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				132889, -- [10]
+				13, -- [11]
+				7, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			[175218] = {
+				"Expeditionary Cloth Gloves", -- [1]
+				"|cff1eff00|Hitem:175218::::::::26:267:::::::::|h[Expeditionary Cloth Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1706382, -- [10]
+				9, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r"] = {
+				"Raw Seraphic Wing", -- [1]
+				"|cffffffff|Hitem:172054::::::::26:267:::::::::|h[Raw Seraphic Wing]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				134002, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			["|cff1eff00|Hitem:25288::::::::26:267::1:2:6655:1694:2:9:15:28:1886:::::|h[Conjurer's Wand of the Fireflash]|h|r"] = {
+				"Conjurer's Wand of the Fireflash", -- [1]
+				"|cff1eff00|Hitem:25288::::::::26:267::1:2:6655:1694:2:9:15:28:1886:::::|h[Conjurer's Wand of the Fireflash]|h|r", -- [2]
+				2, -- [3]
+				31, -- [4]
+				9, -- [5]
+				"Weapon", -- [6]
+				"Wands", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGEDRIGHT", -- [9]
+				135476, -- [10]
+				97, -- [11]
+				2, -- [12]
+				19, -- [13]
+				2, -- [14]
+				1, -- [15]
+				[17] = false,
+				["timestamp"] = 1706584238,
+			},
+			["|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r"] = {
+				"Creeping Crawler Meat", -- [1]
+				"|cffffffff|Hitem:179314::::::::26:267:::::::::|h[Creeping Crawler Meat]|h|r", -- [2]
+				1, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Tradeskill", -- [6]
+				"Cooking", -- [7]
+				1000, -- [8]
+				"", -- [9]
+				3671892, -- [10]
+				625, -- [11]
+				7, -- [12]
+				8, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = true,
+				["timestamp"] = 1706584238,
+			},
+			[178164] = {
+				"Tunk's Needle", -- [1]
+				"|cff0070dd|Hitem:178164::::::::26:267:::::::::|h[Tunk's Needle]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				0, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926055, -- [10]
+				64, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501323,
+			},
+			["item:155255::::::::26:267::11:1:3631:2:9:18:28:189:::::"] = {
+				"Zanchuli Legwraps", -- [1]
+				"|cff1eff00|Hitem:155255::::::::26:267::11:1:3631:2:9:18:28:189:::::|h[Zanchuli Legwraps]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				18, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				1762579, -- [10]
+				254, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706583314,
+			},
+			[155248] = {
+				"Zanchuli Handwraps", -- [1]
+				"|cff1eff00|Hitem:155248::::::::26:267:::::::::|h[Zanchuli Handwraps]|h|r", -- [2]
+				2, -- [3]
+				50, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1762577, -- [10]
+				669, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				7, -- [15]
+				[17] = false,
+				["timestamp"] = 1706501324,
 			},
 			["|cff1eff00|Hitem:175224::::::::26:267::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Cloth Leggings]|h|r"] = {
 				"Expeditionary Cloth Leggings", -- [1]
@@ -3784,7 +4000,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706391099,
+				["timestamp"] = 1706584238,
 			},
 		},
 		["questnames"] = {
@@ -3848,7 +4064,7 @@ ZygorGuidesViewerSettings = {
 						}, -- [2]
 						{
 							2.72, -- [1]
-							1.82, -- [2]
+							25.01, -- [2]
 							nil, -- [3]
 							nil, -- [4]
 							2.72, -- [5]
@@ -3857,12 +4073,12 @@ ZygorGuidesViewerSettings = {
 							28.13, -- [8]
 							2.7, -- [9]
 							15.87, -- [10]
-							5.940000000000001, -- [11]
+							26.02, -- [11]
 							14.62, -- [12]
 							0, -- [13]
 							10.72, -- [14]
 							12.98, -- [15]
-							71.46220000000001, -- [16]
+							57.0317, -- [16]
 							["specname"] = "Destruction",
 							["Scanned"] = true,
 						}, -- [3]
@@ -3906,14 +4122,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2165] = true,
-				[2163] = true,
 				[2103] = true,
+				[2163] = true,
+				[2413] = true,
 				[2465] = true,
 				[2510] = true,
 				[1948] = true,
 				[1894] = true,
-				[2413] = true,
+				[2165] = true,
 				[1859] = true,
 				[2045] = true,
 				[2156] = true,
@@ -4099,14 +4315,14 @@ ZygorGuidesViewerSettings = {
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2165] = true,
-				[2163] = true,
 				[2103] = true,
+				[2163] = true,
+				[2413] = true,
 				[2465] = true,
 				[2510] = true,
 				[1948] = true,
 				[1894] = true,
-				[2413] = true,
+				[2165] = true,
 				[1859] = true,
 				[2045] = true,
 				[2156] = true,

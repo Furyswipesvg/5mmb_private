@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Sendhelp - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -11,22 +11,22 @@ ZygorGuidesViewerSettings = {
 			["taxis"] = {
 				[-4] = true,
 				[-5] = true,
-				[1993] = false,
+				[11] = true,
 				["translation"] = {
 					["enUS"] = {
 					},
 				},
-				[1992] = false,
-				[-3] = true,
 				[-1] = true,
-				[11] = true,
+				[-3] = true,
+				[1992] = false,
+				[1993] = false,
 			},
 			["favourites"] = {
 			},
 			["statweightsmoved"] = true,
 			["AThiddenitems"] = {
 			},
-			["lastlogin"] = 1706160523,
+			["lastlogin"] = 1706419698,
 			["tabguides"] = {
 				{
 					["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
@@ -39,16 +39,17 @@ ZygorGuidesViewerSettings = {
 				["LEVELING\\Starter Guides\\Exile's Reach (1-10)"] = {
 					["steps"] = {
 					},
-					["lasttime"] = 1706160534,
+					["lasttime"] = 1706419765,
 				},
 			},
 			["actionbarmacrowarning"] = false,
 			["gear_1_score"] = true,
 			["covenantupgrades"] = {
 			},
-			["QuestQueue"] = {
+			["CurrentDeals"] = {
 			},
-			["gear_selected_class"] = 4,
+			["GGbuyitems"] = {
+			},
 			["keptItems"] = {
 			},
 			["guides_history_ZGV4clear"] = true,
@@ -91,9 +92,9 @@ ZygorGuidesViewerSettings = {
 				1224, -- [9]
 				914, -- [10]
 				710, -- [11]
-				["total"] = 8513,
+				[13] = 1394,
+				["total"] = 23865,
 			},
-			["initialFlightPathsLoaded"] = true,
 			["PlayerMoney"] = {
 				[1706083200] = {
 					["gain"] = 46581,
@@ -102,8 +103,15 @@ ZygorGuidesViewerSettings = {
 					["loss"] = 25,
 					["timestamp"] = 1706083200,
 				},
+				[1706342400] = {
+					["gain"] = 5235,
+					["endmoney"] = 572743,
+					["startmoney"] = 567508,
+					["loss"] = 0,
+					["timestamp"] = 1706342400,
+				},
 			},
-			["CurrentDeals"] = {
+			["QuestQueue"] = {
 			},
 			["telemetry"] = {
 				{
@@ -126,24 +134,24 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1706146004,
 				}, -- [4]
 				{
-					["time"] = 1706146006,
+					["event"] = "GUIDES_LOADED",
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 						["step"] = 1,
 					},
+					["time"] = 1706146006,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 							["step"] = 1,
 						}, -- [1]
 					},
-					["event"] = "GUIDES_LOADED",
 				}, -- [5]
 				{
 					["button"] = "LeftButton",
+					["event"] = "BUTTON_CLICKED",
 					["time"] = 1706146022,
 					["name"] = "CloseButton",
-					["event"] = "BUTTON_CLICKED",
 				}, -- [6]
 				{
 					["time"] = 1706148026,
@@ -169,18 +177,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1706155404,
 				}, -- [11]
 				{
+					["time"] = 1706155405,
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+						["step"] = 1,
+					},
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 							["step"] = 1,
 						}, -- [1]
 					},
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
-						["step"] = 1,
-					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1706155405,
 				}, -- [12]
 				{
 					["time"] = 1706155413,
@@ -206,18 +214,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1706155431,
 				}, -- [17]
 				{
-					["event"] = "GUIDES_LOADED",
-					["current"] = {
-						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
-						["step"] = 1,
-					},
-					["time"] = 1706155431,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 							["step"] = 1,
 						}, -- [1]
 					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+						["step"] = 1,
+					},
+					["event"] = "GUIDES_LOADED",
+					["time"] = 1706155431,
 				}, -- [18]
 				{
 					["state"] = "party",
@@ -248,18 +256,18 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1706159398,
 				}, -- [24]
 				{
-					["time"] = 1706159399,
+					["event"] = "GUIDES_LOADED",
 					["current"] = {
 						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 						["step"] = 1,
 					},
+					["time"] = 1706159399,
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
 							["step"] = 1,
 						}, -- [1]
 					},
-					["event"] = "GUIDES_LOADED",
 				}, -- [25]
 				{
 					["state"] = "party",
@@ -290,6 +298,48 @@ ZygorGuidesViewerSettings = {
 					["time"] = 1706160533,
 				}, -- [31]
 				{
+					["time"] = 1706160534,
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+						["step"] = 1,
+					},
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+							["step"] = 1,
+						}, -- [1]
+					},
+					["event"] = "GUIDES_LOADED",
+				}, -- [32]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706161381,
+				}, -- [33]
+				{
+					["time"] = 1706162157,
+					["event"] = "SHUTDOWN",
+				}, -- [34]
+				{
+					["time"] = 1706419759,
+					["event"] = "STARTUP",
+				}, -- [35]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706419759,
+				}, -- [36]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706419759,
+				}, -- [37]
+				{
+					["state"] = false,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706419765,
+				}, -- [38]
+				{
 					["tabs"] = {
 						{
 							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
@@ -301,17 +351,17 @@ ZygorGuidesViewerSettings = {
 						["step"] = 1,
 					},
 					["event"] = "GUIDES_LOADED",
-					["time"] = 1706160534,
-				}, -- [32]
+					["time"] = 1706419765,
+				}, -- [39]
 				{
-					["state"] = "solo",
+					["state"] = "party",
 					["event"] = "SHARE_STATE",
-					["time"] = 1706161381,
-				}, -- [33]
+					["time"] = 1706419789,
+				}, -- [40]
 				{
-					["time"] = 1706162157,
+					["time"] = 1706420467,
 					["event"] = "SHUTDOWN",
-				}, -- [34]
+				}, -- [41]
 			},
 			["debuglog"] = {
 				"17:26:36.625.087> Viewer started. ---------------------------", -- [1]
@@ -319,9 +369,10 @@ ZygorGuidesViewerSettings = {
 				"20:03:43.514.056> Viewer started. ---------------------------", -- [3]
 				"21:09:49.911.991> Viewer started. ---------------------------", -- [4]
 				"21:28:45.385.288> Viewer started. ---------------------------", -- [5]
+				"21:28:41.797.605> Viewer started. ---------------------------", -- [6]
 			},
-			["GGbuyitems"] = {
-			},
+			["gear_selected_class"] = 4,
+			["initialFlightPathsLoaded"] = true,
 		},
 	},
 	["global"] = {
@@ -706,6 +757,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706156007,
+			},
+			["item:175211::::::::13:261::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Tunic", -- [1]
+				"|cff1eff00|Hitem:175211::::::::13:261::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Tunic]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				1911972, -- [10]
+				31, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
 			},
 			["|cff1eff00|Hitem:175227::::::::10:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r"] = {
 				"Expeditionary Leather Spaulders", -- [1]
@@ -1125,6 +1195,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160893,
 			},
+			["item:129104::::::::13:261::11:2:6691:6703:2:9:11:28:1705:::::"] = {
+				"Brand of the Banshee Queen", -- [1]
+				"|cffa335ee|Hitem:129104::::::::13:261::11:2:6691:6703:2:9:11:28:1705:::::|h[Brand of the Banshee Queen]|h|r", -- [2]
+				4, -- [3]
+				44, -- [4]
+				11, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				255143, -- [10]
+				335, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
 			["|cff1eff00|Hitem:175171::::::::8:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r"] = {
 				"Expeditionary Dagger", -- [1]
 				"|cff1eff00|Hitem:175171::::::::8:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
@@ -1219,6 +1308,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706161419,
+			},
+			["item:128479::::::::13:261::::::::"] = {
+				"Fangs of the Devourer", -- [1]
+				"|cffe6cc80|Hitem:128479::::::::13:261:::::::::|h[Fangs of the Devourer]|h|r", -- [2]
+				6, -- [3]
+				10, -- [4]
+				0, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPONOFFHAND", -- [9]
+				1120132, -- [10]
+				184, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
 			},
 			["item:175233::::::::9:1453::11:1:6500:2:9:7:28:741:::::"] = {
 				"Expeditionary Leather Belt", -- [1]
@@ -1524,6 +1632,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161419,
 			},
+			["item:187772::::::::9:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::9:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160243,
+			},
 			["|cff1eff00|Hitem:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r"] = {
 				"Expeditionary Leather Belt", -- [1]
 				"|cff1eff00|Hitem:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
@@ -1542,6 +1669,44 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706158604,
+			},
+			["item:169819::::::::6:1453:::::::::"] = {
+				"Handful of Blood Shards", -- [1]
+				"|cff9d9d9d|Hitem:169819::::::::6:1453:::::::::|h[Handful of Blood Shards]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134130, -- [10]
+				5575, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157448,
+			},
+			["|cffffffff|Hitem:128692::::::::13:261::11::1:28:1705:::::|h[Royal Summons]|h|r"] = {
+				"Royal Summons", -- [1]
+				"|cffffffff|Hitem:128692::::::::13:261::11::1:28:1705:::::|h[Royal Summons]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				133473, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420094,
 			},
 			["|cff0070dd|Hitem:13331::::::::11:261::11::1:28:872:::::|h[Red Skeletal Horse]|h|r"] = {
 				"Red Skeletal Horse", -- [1]
@@ -1562,6 +1727,139 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161876,
 			},
+			["|cffffffff|Hitem:6948::::::::13:261:::::::::|h[Hearthstone]|h|r"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::13:261:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:2092::::::::13:261::75:::::::|h[Worn Dagger]|h|r"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::13:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:187773::::::::13:261::75:::::::|h[Rogue's Handwraps]|h|r"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::13:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cff0070dd|Hitem:139292::::::::13:261::11:1:6691:2:9:11:28:1705:::::|h[Splitter of the Horde Vanguard]|h|r"] = {
+				"Splitter of the Horde Vanguard", -- [1]
+				"|cff0070dd|Hitem:139292::::::::13:261::11:1:6691:2:9:11:28:1705:::::|h[Splitter of the Horde Vanguard]|h|r", -- [2]
+				3, -- [3]
+				44, -- [4]
+				11, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				960899, -- [10]
+				173, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cff0070dd|Hitem:178164::::::::13:261::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r"] = {
+				"Tunk's Needle", -- [1]
+				"|cff0070dd|Hitem:178164::::::::13:261::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926055, -- [10]
+				478, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cff1eff00|Hitem:175171::::::::13:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r"] = {
+				"Expeditionary Dagger", -- [1]
+				"|cff1eff00|Hitem:175171::::::::13:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736887, -- [10]
+				30, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
 			["item:175226::::::::8:1453::11:1:6500:2:28:741:9:8:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
 				"|cff1eff00|Hitem:175226::::::::8:1453::11:1:6500:2:28:741:9:8:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
@@ -1581,6 +1879,82 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158722,
 			},
+			["|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158951,
+			},
+			["|cffffffff|Hitem:187771::::::::13:261::75:::::::|h[Rogue's Waistband]|h|r"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::13:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:175241::::::::13:261:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::13:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:50055::::::::13:261::75:::::::|h[Worn Dirk]|h|r"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::13:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
 			["item:187769::::::::8:1453::75:::::::"] = {
 				"Rogue's Leggings", -- [1]
 				"|cffffffff|Hitem:187769::::::::8:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
@@ -1599,6 +1973,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706158609,
+			},
+			["|cffffffff|Hitem:174787::::::::13:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::13:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
 			},
 			["item:175226::::::::10:261::11:1:6500:2:9:8:28:741:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
@@ -1676,6 +2069,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
+			["|cffffffff|Hitem:174804::::::::13:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::13:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
 			["item:174074::::::::3:1453:::::::::"] = {
 				"Cooked Meat", -- [1]
 				"|cffffffff|Hitem:174074::::::::3:1453:::::::::|h[Cooked Meat]|h|r", -- [2]
@@ -1694,6 +2106,63 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706156002,
+			},
+			["|cffffffff|Hitem:174812::::::::13:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::13:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				132724, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffa335ee|Hitem:136786::::::::13:261:::::::::|h[Uncrowned Insignia]|h|r"] = {
+				"Uncrowned Insignia", -- [1]
+				"|cffa335ee|Hitem:136786::::::::13:261:::::::::|h[Uncrowned Insignia]|h|r", -- [2]
+				4, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Other", -- [7]
+				1, -- [8]
+				"", -- [9]
+				646491, -- [10]
+				0, -- [11]
+				15, -- [12]
+				4, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:117::::::::13:261:::::::::|h[Tough Jerky]|h|r"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::13:261:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
 			},
 			[117] = {
 				"Tough Jerky", -- [1]
@@ -1733,6 +2202,63 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161419,
 			},
+			["|cff1eff00|Hitem:141295::::::::13:261:::::::::|h[Extra Thick Mojo]|h|r"] = {
+				"Extra Thick Mojo", -- [1]
+				"|cff1eff00|Hitem:141295::::::::13:261:::::::::|h[Extra Thick Mojo]|h|r", -- [2]
+				2, -- [3]
+				40, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Other", -- [7]
+				10, -- [8]
+				"", -- [9]
+				967524, -- [10]
+				1, -- [11]
+				0, -- [12]
+				8, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["item:187769::::::::13:261::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::13:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:50055::::::::13:261::75:::::::"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::13:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
 			["item:187769::::::::9:1453::75:::::::"] = {
 				"Rogue's Leggings", -- [1]
 				"|cffffffff|Hitem:187769::::::::9:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
@@ -1752,6 +2278,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160243,
 			},
+			["item:187772::::::::13:261::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::13:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:187770::::::::6:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::6:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157447,
+			},
 			["|cff9d9d9d|Hitem:5118::::::::5:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
 				"Large Flat Tooth", -- [1]
 				"|cff9d9d9d|Hitem:5118::::::::5:1453:::::::::|h[Large Flat Tooth]|h|r", -- [2]
@@ -1770,6 +2334,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706156861,
+			},
+			["item:187773::::::::13:261::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::13:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
 			},
 			["|cff9d9d9d|Hitem:175242::::::::8:1453:::::::::|h[Waterlogged Supplies]|h|r"] = {
 				"Waterlogged Supplies", -- [1]
@@ -1809,6 +2392,139 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
+			["item:175241::::::::13:261:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::13:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:2092::::::::13:261::75:::::::"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::13:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:187771::::::::13:261::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::13:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:175171::::::::13:261::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Dagger", -- [1]
+				"|cff1eff00|Hitem:175171::::::::13:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736887, -- [10]
+				30, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:174804::::::::13:261:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::13:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:187773::::::::9:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::9:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160243,
+			},
+			["item:136786::::::::13:261:::::::::"] = {
+				"Uncrowned Insignia", -- [1]
+				"|cffa335ee|Hitem:136786::::::::13:261:::::::::|h[Uncrowned Insignia]|h|r", -- [2]
+				4, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Other", -- [7]
+				1, -- [8]
+				"", -- [9]
+				646491, -- [10]
+				0, -- [11]
+				15, -- [12]
+				4, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
 			["|cff1eff00|Hitem:175171::::::::10:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r"] = {
 				"Expeditionary Dagger", -- [1]
 				"|cff1eff00|Hitem:175171::::::::10:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r", -- [2]
@@ -1847,6 +2563,44 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706155512,
 			},
+			["item:174812::::::::13:261:::1:6499:2:9:7:28:741:::::"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::13:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				132724, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:178164::::::::13:261::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Tunk's Needle", -- [1]
+				"|cff0070dd|Hitem:178164::::::::13:261::1:1:6822:2:9:10:28:1729:::::|h[Tunk's Needle]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				926055, -- [10]
+				478, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
 			["item:117::::::::7:1453:::::::::"] = {
 				"Tough Jerky", -- [1]
 				"|cffffffff|Hitem:117::::::::7:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
@@ -1865,6 +2619,63 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706158235,
+			},
+			["item:187773::::::::1:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::1:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706145999,
+			},
+			["item:6948::::::::13:261:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::13:261:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:174787::::::::13:261::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::13:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
 			},
 			["|cff9d9d9d|Hitem:56047::::::::10:261:::::::::|h[Strange Pebble]|h|r"] = {
 				"Strange Pebble", -- [1]
@@ -1885,6 +2696,139 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161419,
 			},
+			["item:175237::::::::13:261::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::13:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
+			["item:175233::::::::13:261::11:1:6500:2:9:7:28:741:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::13:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
+			["item:175227::::::::13:261::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::13:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				19, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
+			["item:175242::::::::9:1453:::::::::"] = {
+				"Waterlogged Supplies", -- [1]
+				"|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				1506461, -- [10]
+				10009, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160244,
+			},
+			["item:175216::::::::13:261::11:1:6500:2:9:9:28:741:::::"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::13:261::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				9, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				14, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
+			["item:187771::::::::10:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::10:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160493,
+			},
+			["item:187770::::::::13:261::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::13:261::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
 			["item:50055::::::::10:261::75:::::::"] = {
 				"Worn Dirk", -- [1]
 				"|cffffffff|Hitem:50055::::::::10:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
@@ -1903,6 +2847,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706161240,
+			},
+			["item:178169::::::::13:261::1:1:6822:2:9:10:28:1729:::::"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::13:261::1:1:6822:2:9:10:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
 			},
 			["item:50055::::::::5:1453::75:::::::"] = {
 				"Worn Dirk", -- [1]
@@ -1923,6 +2886,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706156708,
 			},
+			["item:175245::::::::13:261::::1:28:741:::::"] = {
+				"Runetusk Necklace", -- [1]
+				"|cff1eff00|Hitem:175245::::::::13:261::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				466970, -- [10]
+				8, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
+			},
 			["item:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::"] = {
 				"Expeditionary Leather Bracers", -- [1]
 				"|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
@@ -1941,6 +2923,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706160244,
+			},
+			["item:175222::::::::13:261::11:1:6500:2:9:10:28:741:::::"] = {
+				"Expeditionary Leather Helm", -- [1]
+				"|cff1eff00|Hitem:175222::::::::13:261::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1911953, -- [10]
+				22, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420249,
 			},
 			["item:175233::::::::9:1453::11:1:6500:2:28:741:9:7:::::"] = {
 				"Expeditionary Leather Belt", -- [1]
@@ -1961,47 +2962,28 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706159025,
 			},
-			["|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175226::::::::13:261::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Legguards", -- [1]
+				"|cff1eff00|Hitem:175226::::::::13:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				1911975, -- [10]
+				25, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161879,
-			},
-			["item:6948::::::::11:261:::::::::"] = {
-				"Hearthstone", -- [1]
-				"|cffffffff|Hitem:6948::::::::11:261:::::::::|h[Hearthstone]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				134414, -- [10]
-				0, -- [11]
-				15, -- [12]
-				0, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161777,
+				["timestamp"] = 1706420249,
 			},
-			["|cff9d9d9d|Hitem:5118::::::::4:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
-				"Large Flat Tooth", -- [1]
-				"|cff9d9d9d|Hitem:5118::::::::4:1453:::::::::|h[Large Flat Tooth]|h|r", -- [2]
+			["item:54831::::::::10:261:::::::::"] = {
+				"Shiny Pebble", -- [1]
+				"|cff9d9d9d|Hitem:54831::::::::10:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -2009,14 +2991,52 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135233, -- [10]
-				71, -- [11]
+				135236, -- [10]
+				100, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156673,
+				["timestamp"] = 1706161240,
+			},
+			["|cffffffff|Hitem:50055::::::::10:261::75:::::::|h[Worn Dirk]|h|r"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::10:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["item:117::::::::10:261:::::::::"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::10:261:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161240,
 			},
 			["item:117::::::::9:1453:::::::::"] = {
 				"Tough Jerky", -- [1]
@@ -2037,24 +3057,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r"] = {
-				"Mysterious Rock", -- [1]
-				"|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
+			["item:128476::::::::13:261::9:1:743:1:28:1705:::::"] = {
+				"Fangs of the Devourer", -- [1]
+				"|cffe6cc80|Hitem:128476::::::::13:261::9:1:743:1:28:1705:::::|h[Fangs of the Devourer]|h|r", -- [2]
+				6, -- [3]
+				10, -- [4]
 				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135240, -- [10]
-				5000, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPONMAINHAND", -- [9]
+				1273726, -- [10]
+				182, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706420249,
 			},
 			["item:117::::::::5:1453:::::::::"] = {
 				"Tough Jerky", -- [1]
@@ -2094,24 +3114,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706155954,
 			},
-			["|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r"] = {
-				"Worn Dagger", -- [1]
-				"|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
-				1, -- [3]
+			["item:56033::::::::10:261:::::::::"] = {
+				"Pretty Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				10, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				400, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161240,
 			},
 			["|cff9d9d9d|Hitem:169819::::::::4:1453:::::::::|h[Handful of Blood Shards]|h|r"] = {
 				"Handful of Blood Shards", -- [1]
@@ -2151,28 +3171,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706156007,
 			},
-			["|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161879,
-			},
-			["|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r"] = {
-				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
+			["item:56047::::::::10:261:::::::::"] = {
+				"Strange Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56047::::::::10:261:::::::::|h[Strange Pebble]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -2181,13 +3182,32 @@ ZygorGuidesViewerSettings = {
 				20, -- [8]
 				"", -- [9]
 				135236, -- [10]
-				100, -- [11]
+				1000, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161240,
+			},
+			["item:175227::::::::10:261::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::10:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				19, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161239,
 			},
 			["item:175171::::::::9:1453::11:1:6500:2:9:6:28:741:::::"] = {
 				"Expeditionary Dagger", -- [1]
@@ -2208,24 +3228,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r"] = {
-				"Pretty Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				400, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+			["item:174804::::::::10:261:::1:6499:2:9:4:28:741:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::10:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161240,
 			},
 			["item:13331::::::::11:261::11::1:28:872:::::"] = {
 				"Red Skeletal Horse", -- [1]
@@ -2246,24 +3266,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161647,
 			},
-			["|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r"] = {
-				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				306868, -- [10]
-				6850, -- [11]
-				15, -- [12]
-				0, -- [13]
+			["item:175237::::::::10:261::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::10:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
+				4, -- [12]
+				2, -- [13]
 				1, -- [14]
-				8, -- [15]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161239,
 			},
 			["|cff1eff00|Hitem:175237::::::::8:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r"] = {
 				"Expeditionary Leather Bracers", -- [1]
@@ -2341,9 +3361,28 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r"] = {
-				"Strange Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r", -- [2]
+			["item:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				9, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				14, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160453,
+			},
+			["item:771::::::::4:1453:::::::::"] = {
+				"Chipped Boar Tusk", -- [1]
+				"|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -2351,33 +3390,14 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135236, -- [10]
-				1000, -- [11]
+				133721, -- [10]
+				38, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
-			},
-			["|cff1eff00|Hitem:175211::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Tunic]|h|r"] = {
-				"Expeditionary Leather Tunic", -- [1]
-				"|cff1eff00|Hitem:175211::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Tunic]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				1911972, -- [10]
-				31, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161878,
+				["timestamp"] = 1706156554,
 			},
 			["item:174804::::::::9:1453:::1:6499:2:28:741:9:4:::::"] = {
 				"Stitched Leather Bracers", -- [1]
@@ -2398,24 +3418,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706159025,
 			},
-			["|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
-				0, -- [3]
+			["item:187770::::::::10:261::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::10:261::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161239,
 			},
 			["item:2092::::::::10:261::75:::::::"] = {
 				"Worn Dagger", -- [1]
@@ -2436,24 +3456,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161240,
 			},
-			["|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r"] = {
-				"Rogue's Leggings", -- [1]
-				"|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
+			["item:187772::::::::10:261::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::10:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
+				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3994718, -- [10]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
 				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161239,
 			},
 			["|cff1eff00|Hitem:175226::::::::10:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Legguards]|h|r"] = {
 				"Expeditionary Leather Legguards", -- [1]
@@ -2493,24 +3513,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
+				1911950, -- [10]
+				12, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706158610,
 			},
 			["item:174787::::::::8:1453::11:1:6499:2:28:741:9:5:::::"] = {
 				"Thick Leather Gauntlets", -- [1]
@@ -2531,43 +3551,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158610,
 			},
-			["|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
+			["|cff9d9d9d|Hitem:771::::::::5:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
+				"Chipped Boar Tusk", -- [1]
+				"|cff9d9d9d|Hitem:771::::::::5:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
 				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
 				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
+				133721, -- [10]
+				38, -- [11]
+				15, -- [12]
+				0, -- [13]
 				0, -- [14]
-				8, -- [15]
+				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706156861,
 			},
-			["|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r"] = {
-				"Worn Dirk", -- [1]
-				"|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+			["item:187769::::::::10:261::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::10:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
+				"Armor", -- [6]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				11, -- [11]
-				2, -- [12]
-				15, -- [13]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706161240,
 			},
 			["item:6948::::::::1:1453::75:::::::"] = {
 				"Hearthstone", -- [1]
@@ -2588,43 +3608,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706145999,
 			},
-			["|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+			["|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158604,
+			},
+			["|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r"] = {
+				"Pretty Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				400, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706161879,
-			},
-			[174787] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::6:1453:::::::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157465,
 			},
 			["item:175211::::::::11:261::11:1:6500:2:28:741:9:10:::::"] = {
 				"Expeditionary Leather Tunic", -- [1]
@@ -2645,43 +3665,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161447,
 			},
-			["item:187772::::::::8:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::8:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["item:187770::::::::8:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::8:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706158609,
-			},
-			["|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161879,
 			},
 			["|cff1eff00|Hitem:175245::::::::10:261::::1:28:741:::::|h[Runetusk Necklace]|h|r"] = {
 				"Runetusk Necklace", -- [1]
@@ -2702,24 +3722,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160897,
 			},
-			["|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
-				"Stitched Leather Tunic", -- [1]
-				"|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				132724, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+			["|cff9d9d9d|Hitem:5118::::::::6:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
+				"Large Flat Tooth", -- [1]
+				"|cff9d9d9d|Hitem:5118::::::::6:1453:::::::::|h[Large Flat Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135233, -- [10]
+				71, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706157447,
 			},
 			[175171] = {
 				"Expeditionary Dagger", -- [1]
@@ -2797,28 +3817,28 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706157465,
 			},
-			["|cff9d9d9d|Hitem:175242::::::::11:261:::::::::|h[Waterlogged Supplies]|h|r"] = {
-				"Waterlogged Supplies", -- [1]
-				"|cff9d9d9d|Hitem:175242::::::::11:261:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
-				0, -- [3]
+			["item:187769::::::::7:1453::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::7:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
+				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
 				1, -- [8]
-				"", -- [9]
-				1506461, -- [10]
-				10009, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161879,
+				["timestamp"] = 1706158235,
 			},
-			["item:175241::::::::11:261:::::::::"] = {
+			["item:175241::::::::7:1453:::::::::"] = {
 				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				"|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
 				3, -- [4]
 				0, -- [5]
@@ -2833,7 +3853,7 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161447,
+				["timestamp"] = 1706158542,
 			},
 			["|cffffffff|Hitem:174804::::::::8:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
 				"Stitched Leather Bracers", -- [1]
@@ -2873,9 +3893,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160493,
 			},
-			["item:50055::::::::11:261::75:::::::"] = {
-				"Worn Dirk", -- [1]
-				"|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+			["item:117::::::::10:1453:::::::::"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::10:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["item:175233::::::::10:1453::11:1:6500:2:9:7:28:741:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::10:1453::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["item:2092::::::::11:261::75:::::::"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -2884,7 +3942,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [8]
 				"INVTYPE_WEAPON", -- [9]
 				135641, -- [10]
-				11, -- [11]
+				10, -- [11]
 				2, -- [12]
 				15, -- [13]
 				2, -- [14]
@@ -2892,56 +3950,18 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161447,
 			},
-			["item:187773::::::::11:261::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
-				1, -- [3]
+			["item:175242::::::::11:261:::::::::"] = {
+				"Waterlogged Supplies", -- [1]
+				"|cff9d9d9d|Hitem:175242::::::::11:261:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:56047::::::::11:261:::::::::"] = {
-				"Strange Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
 				"", -- [9]
-				135236, -- [10]
-				1000, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:56033::::::::11:261:::::::::"] = {
-				"Pretty Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				400, -- [11]
+				1506461, -- [10]
+				10009, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
@@ -2987,43 +4007,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706145999,
 			},
-			["item:187771::::::::11:261::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:117::::::::13:261:::::::::"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::13:261:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:54831::::::::11:261:::::::::"] = {
-				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135236, -- [10]
-				100, -- [11]
-				15, -- [12]
-				0, -- [13]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161447,
+				["timestamp"] = 1706420250,
+			},
+			["item:175222::::::::10:261::11:1:6500:2:28:741:9:10:::::"] = {
+				"Expeditionary Leather Helm", -- [1]
+				"|cff1eff00|Hitem:175222::::::::10:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				1911953, -- [10]
+				22, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161260,
 			},
 			["item:56033::::::::9:1453:::::::::"] = {
 				"Pretty Pebble", -- [1]
@@ -3044,9 +4064,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["item:3170::::::::11:261:::::::::"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:3299::::::::3:1453:::::::::|h[Fractured Canine]|h|r"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::3:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -3054,14 +4074,14 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
+				133725, -- [10]
+				48, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161447,
+				["timestamp"] = 1706155981,
 			},
 			["item:175226::::::::9:1453::11:1:6500:2:9:8:28:741:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
@@ -3082,85 +4102,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["item:117::::::::11:261:::::::::"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::11:261:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["|cff9d9d9d|Hitem:771::::::::6:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
-				"Chipped Boar Tusk", -- [1]
-				"|cff9d9d9d|Hitem:771::::::::6:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133721, -- [10]
-				38, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157447,
-			},
-			["|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157447,
-			},
-			["item:56049::::::::11:261:::::::::"] = {
-				"Mysterious Rock", -- [1]
-				"|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135240, -- [10]
-				5000, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:174804::::::::11:261:::1:6499:2:9:4:28:741:::::"] = {
+			["item:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::"] = {
 				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				"|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
@@ -3175,161 +4119,9 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161447,
+				["timestamp"] = 1706156709,
 			},
-			["item:3299::::::::4:1453:::::::::"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156007,
-			},
-			["item:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:174787::::::::9:1453::11:1:6499:2:28:741:9:5:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::9:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706159025,
-			},
-			["item:174812::::::::11:261:::1:6499:2:9:7:28:741:::::"] = {
-				"Stitched Leather Tunic", -- [1]
-				"|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				132724, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:175222::::::::11:261::11:1:6500:2:28:741:9:10:::::"] = {
-				"Expeditionary Leather Helm", -- [1]
-				"|cff1eff00|Hitem:175222::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1911953, -- [10]
-				22, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:169821::::::::11:261:::::::::"] = {
-				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				306868, -- [10]
-				6850, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:2092::::::::11:261::75:::::::"] = {
-				"Worn Dagger", -- [1]
-				"|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				10, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158951,
-			},
-			["item:175242::::::::11:261:::::::::"] = {
+			["|cff9d9d9d|Hitem:175242::::::::11:261:::::::::|h[Waterlogged Supplies]|h|r"] = {
 				"Waterlogged Supplies", -- [1]
 				"|cff9d9d9d|Hitem:175242::::::::11:261:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
 				0, -- [3]
@@ -3346,106 +4138,11 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161447,
+				["timestamp"] = 1706161879,
 			},
-			["item:187769::::::::11:261::75:::::::"] = {
-				"Rogue's Leggings", -- [1]
-				"|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3994718, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161447,
-			},
-			["item:175237::::::::11:261::11:1:6500:2:9:6:28:741:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::11:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161446,
-			},
-			["item:3170::::::::10:261:::::::::"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161240,
-			},
-			["item:175233::::::::11:261::11:1:6500:2:9:7:28:741:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::11:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161446,
-			},
-			["item:175227::::::::11:261::11:1:6500:2:9:8:28:741:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::11:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				19, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161446,
-			},
-			["item:50055::::::::8:1453::75:::::::"] = {
-				"Worn Dirk", -- [1]
-				"|cffffffff|Hitem:50055::::::::8:1453::75:::::::|h[Worn Dirk]|h|r", -- [2]
+			["|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::11:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -3454,13 +4151,32 @@ ZygorGuidesViewerSettings = {
 				1, -- [8]
 				"INVTYPE_WEAPON", -- [9]
 				135641, -- [10]
-				11, -- [11]
+				10, -- [11]
 				2, -- [12]
 				15, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158609,
+				["timestamp"] = 1706161879,
+			},
+			["item:117::::::::8:1453:::::::::"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158610,
 			},
 			["item:175216::::::::11:261::11:1:6500:2:28:741:9:9:::::"] = {
 				"Expeditionary Leather Gloves", -- [1]
@@ -3481,119 +4197,100 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161446,
 			},
-			["item:187772::::::::11:261::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
-				1, -- [3]
+			["item:3299::::::::4:1453:::::::::"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161446,
-			},
-			["item:175171::::::::11:261::11:1:6500:2:9:6:28:741:::::"] = {
-				"Expeditionary Dagger", -- [1]
-				"|cff1eff00|Hitem:175171::::::::11:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736887, -- [10]
-				30, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161446,
-			},
-			["item:178169::::::::10:261::1:1:6822:1:28:1729:::::"] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:1:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				236, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161112,
-			},
-			["|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
+				133725, -- [10]
+				48, -- [11]
+				15, -- [12]
+				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158951,
+				["timestamp"] = 1706156007,
 			},
-			["item:187770::::::::5:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::5:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133725, -- [10]
+				48, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156673,
+			},
+			["item:174787::::::::9:1453::11:1:6499:2:28:741:9:5:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::9:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706159025,
+			},
+			["item:187773::::::::4:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::4:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156708,
+				["timestamp"] = 1706156007,
 			},
-			["item:175237::::::::10:1453::11:1:6500:2:9:6:28:741:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::10:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
+			["|cffffffff|Hitem:174787::::::::8:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::8:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
 				5, -- [4]
-				6, -- [5]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160494,
+				["timestamp"] = 1706158951,
 			},
 			["item:168410::::::::3:1453::11::1:28:957:::::"] = {
 				"First Aid Kit", -- [1]
@@ -3633,37 +4330,246 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161446,
 			},
-			["item:175245::::::::11:261::::1:28:741:::::"] = {
-				"Runetusk Necklace", -- [1]
-				"|cff1eff00|Hitem:175245::::::::11:261::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+			["|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158951,
+			},
+			["|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156861,
+			},
+			["item:3170::::::::9:1453:::::::::"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
 				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160244,
+			},
+			["|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Miscellaneous", -- [7]
 				1, -- [8]
-				"INVTYPE_NECK", -- [9]
-				466970, -- [10]
-				8, -- [11]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
 				4, -- [12]
 				0, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161446,
+				["timestamp"] = 1706158951,
 			},
-			["item:175226::::::::11:261::11:1:6500:2:9:8:28:741:::::"] = {
-				"Expeditionary Leather Legguards", -- [1]
-				"|cff1eff00|Hitem:175226::::::::11:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
+			["item:3170::::::::11:261:::::::::"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::11:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["item:141295::::::::13:261:::::::::"] = {
+				"Extra Thick Mojo", -- [1]
+				"|cff1eff00|Hitem:141295::::::::13:261:::::::::|h[Extra Thick Mojo]|h|r", -- [2]
 				2, -- [3]
-				5, -- [4]
-				8, -- [5]
+				40, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Other", -- [7]
+				10, -- [8]
+				"", -- [9]
+				967524, -- [10]
+				1, -- [11]
+				0, -- [12]
+				8, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420250,
+			},
+			["item:2092::::::::10:1453::75:::::::"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::10:1453::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160493,
+			},
+			["|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				1911975, -- [10]
-				25, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158604,
+			},
+			["item:187771::::::::10:261::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::10:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161240,
+			},
+			["item:187772::::::::4:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::4:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156007,
+			},
+			["item:178169::::::::10:261::1:1:6822:1:28:1729:::::"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:1:28:1729:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161112,
+			},
+			["item:175237::::::::11:261::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::11:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
@@ -3671,24 +4577,138 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161446,
 			},
-			["|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
+			["item:54831::::::::9:1453:::::::::"] = {
+				"Shiny Pebble", -- [1]
+				"|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
 				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
 				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
+				135236, -- [10]
+				100, -- [11]
+				15, -- [12]
+				0, -- [13]
 				0, -- [14]
-				8, -- [15]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160244,
+			},
+			["item:175237::::::::10:1453::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::10:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["item:117::::::::11:261:::::::::"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::11:261:::::::::|h[Tough Jerky]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r"] = {
+				"Shiny Pebble", -- [1]
+				"|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				100, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706160453,
+			},
+			["|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
+				"Chipped Boar Tusk", -- [1]
+				"|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133721, -- [10]
+				38, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156673,
+			},
+			["|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160453,
+			},
+			["item:169821::::::::9:1453:::::::::"] = {
+				"Ogre Effigy", -- [1]
+				"|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				306868, -- [10]
+				6850, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160244,
 			},
 			["|cff1eff00|Hitem:175171::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r"] = {
 				"Expeditionary Dagger", -- [1]
@@ -3709,85 +4729,85 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["item:169819::::::::6:1453:::::::::"] = {
-				"Handful of Blood Shards", -- [1]
-				"|cff9d9d9d|Hitem:169819::::::::6:1453:::::::::|h[Handful of Blood Shards]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134130, -- [10]
-				5575, -- [11]
-				15, -- [12]
+			["item:141294::::::::13:261::11:1:4811:2:9:11:28:1705:::::"] = {
+				"Mark of Orgrimmar", -- [1]
+				"|cff0070dd|Hitem:141294::::::::13:261::11:1:4811:2:9:11:28:1705:::::|h[Mark of Orgrimmar]|h|r", -- [2]
+				3, -- [3]
+				44, -- [4]
+				11, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				414292, -- [10]
+				138, -- [11]
+				4, -- [12]
 				0, -- [13]
 				1, -- [14]
-				8, -- [15]
+				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706157448,
+				["timestamp"] = 1706420249,
 			},
-			["|cff9d9d9d|Hitem:175242::::::::10:261:::::::::|h[Waterlogged Supplies]|h|r"] = {
-				"Waterlogged Supplies", -- [1]
-				"|cff9d9d9d|Hitem:175242::::::::10:261:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
+			["item:56049::::::::9:1453:::::::::"] = {
+				"Mysterious Rock", -- [1]
+				"|cff9d9d9d|Hitem:56049::::::::9:1453:::::::::|h[Mysterious Rock]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Miscellaneous", -- [6]
 				"Junk", -- [7]
-				1, -- [8]
+				20, -- [8]
 				"", -- [9]
-				1506461, -- [10]
-				10009, -- [11]
+				135240, -- [10]
+				5000, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706160244,
 			},
-			["|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:2:28:1729:9:10:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
-				"Decrepit Dragonscale Drape", -- [1]
-				"|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:2:28:1729:9:10:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
-				3, -- [3]
-				12, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Cloth", -- [7]
-				1, -- [8]
-				"INVTYPE_CLOAK", -- [9]
-				531415, -- [10]
-				236, -- [11]
-				4, -- [12]
-				1, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161419,
-			},
-			["|cffffffff|Hitem:187771::::::::10:261::75:::::::|h[Rogue's Waistband]|h|r"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::10:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187769::::::::3:1453::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::3:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706155712,
 			},
-			["item:169821::::::::10:261:::::::::"] = {
+			["item:54831::::::::10:1453:::::::::"] = {
+				"Shiny Pebble", -- [1]
+				"|cff9d9d9d|Hitem:54831::::::::10:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				100, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r"] = {
 				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::10:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				"|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
 				0, -- [3]
 				10, -- [4]
 				1, -- [5]
@@ -3802,64 +4822,64 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706160453,
 			},
-			["|cffffffff|Hitem:2092::::::::10:261::75:::::::|h[Worn Dagger]|h|r"] = {
-				"Worn Dagger", -- [1]
-				"|cffffffff|Hitem:2092::::::::10:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
-				1, -- [3]
+			["|cff9d9d9d|Hitem:56047::::::::9:1453:::::::::|h[Strange Pebble]|h|r"] = {
+				"Strange Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56047::::::::9:1453:::::::::|h[Strange Pebble]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				10, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				1000, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706160453,
 			},
-			["item:175241::::::::10:261:::::::::"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+			["item:178120::::::::7:1453::14::1:28:741:::::"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
 				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
+				2, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158235,
+			},
+			["item:169821::::::::11:261:::::::::"] = {
+				"Ogre Effigy", -- [1]
+				"|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
 				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
+				306868, -- [10]
+				6850, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
-			},
-			["item:175241::::::::9:1453:::::::::"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160244,
+				["timestamp"] = 1706161447,
 			},
 			["item:50055::::::::2:1453::75:::::::"] = {
 				"Worn Dirk", -- [1]
@@ -3899,24 +4919,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706159025,
 			},
-			["item:187772::::::::5:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::5:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["|cffffffff|Hitem:174804::::::::4:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::4:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+				5, -- [4]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156708,
+				["timestamp"] = 1706156673,
 			},
 			["|cff9d9d9d|Hitem:169819::::::::6:1453:::::::::|h[Handful of Blood Shards]|h|r"] = {
 				"Handful of Blood Shards", -- [1]
@@ -3956,81 +4976,81 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706157447,
 			},
-			["|cffffffff|Hitem:168410::::::::3:1453::11::1:28:957:::::|h[First Aid Kit]|h|r"] = {
-				"First Aid Kit", -- [1]
-				"|cffffffff|Hitem:168410::::::::3:1453::11::1:28:957:::::|h[First Aid Kit]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r"] = {
+				"Mysterious Rock", -- [1]
+				"|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135240, -- [10]
+				5000, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["item:56049::::::::10:261:::::::::"] = {
+				"Mysterious Rock", -- [1]
+				"|cff9d9d9d|Hitem:56049::::::::10:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135240, -- [10]
+				5000, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161240,
+			},
+			["item:175227::::::::9:1453::11:1:6500:2:28:741:9:8:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::9:1453::11:1:6500:2:28:741:9:8:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				19, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706159025,
+			},
+			["item:187771::::::::8:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::8:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
 				1, -- [8]
-				"", -- [9]
-				1387611, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706155713,
-			},
-			["|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r"] = {
-				"Pretty Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				400, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
-			},
-			["item:175242::::::::9:1453:::::::::"] = {
-				"Waterlogged Supplies", -- [1]
-				"|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				1506461, -- [10]
-				10009, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160244,
-			},
-			["|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706158609,
 			},
 			["item:175226::::::::9:1453::11:1:6500:2:28:741:9:8:::::"] = {
 				"Expeditionary Leather Legguards", -- [1]
@@ -4070,28 +5090,28 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160494,
 			},
-			["item:187771::::::::9:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::9:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
-				1, -- [3]
+			["|cff9d9d9d|Hitem:56033::::::::9:1453:::::::::|h[Pretty Pebble]|h|r"] = {
+				"Pretty Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56033::::::::9:1453:::::::::|h[Pretty Pebble]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				400, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160243,
+				["timestamp"] = 1706160453,
 			},
-			["|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r"] = {
+			["|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r"] = {
 				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				"|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
 				3, -- [4]
 				0, -- [5]
@@ -4106,58 +5126,58 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706161879,
 			},
-			["|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
+			["|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r"] = {
+				"Expeditionary Dagger", -- [1]
+				"|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				2, -- [3]
 				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+				6, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				"INVTYPE_WEAPON", -- [9]
+				3736887, -- [10]
+				30, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161419,
+				["timestamp"] = 1706158604,
 			},
-			["|cffffffff|Hitem:174812::::::::10:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
-				"Stitched Leather Tunic", -- [1]
-				"|cffffffff|Hitem:174812::::::::10:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				132724, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161419,
-			},
-			["item:187771::::::::5:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::5:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187770::::::::7:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::7:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158235,
+			},
+			["item:187770::::::::5:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::5:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
@@ -4241,43 +5261,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161446,
 			},
-			["item:187771::::::::2:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::2:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187773::::::::7:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::7:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
 				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155512,
+				["timestamp"] = 1706158235,
 			},
-			["item:2092::::::::9:1453::75:::::::"] = {
-				"Worn Dagger", -- [1]
-				"|cffffffff|Hitem:2092::::::::9:1453::75:::::::|h[Worn Dagger]|h|r", -- [2]
+			["item:175241::::::::8:1453:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::8:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				10, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
-				0, -- [15]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160243,
+				["timestamp"] = 1706158610,
 			},
 			["item:175237::::::::8:1453::11:1:6500:2:28:741:9:6:::::"] = {
 				"Expeditionary Leather Bracers", -- [1]
@@ -4298,62 +5318,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158610,
 			},
-			["item:187770::::::::9:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::9:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+			["item:169821::::::::10:1453:::::::::"] = {
+				"Ogre Effigy", -- [1]
+				"|cff9d9d9d|Hitem:169821::::::::10:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				306868, -- [10]
+				6850, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["item:187771::::::::2:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::2:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160243,
+				["timestamp"] = 1706155512,
 			},
-			["item:175237::::::::9:1453::11:1:6500:2:28:741:9:6:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+			["|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r"] = {
+				"Waterlogged Supplies", -- [1]
+				"|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706159025,
-			},
-			["item:178120::::::::8:1453::14::1:28:741:::::"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
-				4, -- [12]
+				"", -- [9]
+				1506461, -- [10]
+				10009, -- [11]
+				15, -- [12]
 				0, -- [13]
-				1, -- [14]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158610,
+				["timestamp"] = 1706160453,
 			},
 			["|cffffffff|Hitem:174812::::::::8:1453:::1:6499:2:28:741:9:7:::::|h[Stitched Leather Tunic]|h|r"] = {
 				"Stitched Leather Tunic", -- [1]
@@ -4393,24 +5413,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706157467,
 			},
-			["item:187772::::::::7:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::7:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["|cffffffff|Hitem:117::::::::9:1453:::::::::|h[Tough Jerky]|h|r"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::9:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158235,
+				["timestamp"] = 1706160453,
 			},
 			["item:175242::::::::7:1453:::::::::"] = {
 				"Waterlogged Supplies", -- [1]
@@ -4431,37 +5451,37 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158541,
 			},
-			["item:187770::::::::7:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::7:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175233::::::::10:261::11:1:6500:2:9:7:28:741:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::10:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158235,
+				["timestamp"] = 1706161239,
 			},
-			["|cffffffff|Hitem:174787::::::::7:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::7:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+			["|cffffffff|Hitem:174812::::::::7:1453:::1:6499:2:28:741:9:7:::::|h[Stitched Leather Tunic]|h|r"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::7:1453:::1:6499:2:28:741:9:7:::::|h[Stitched Leather Tunic]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				132724, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
@@ -4469,24 +5489,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158604,
 			},
-			["|cffffffff|Hitem:174804::::::::7:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::7:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+			["item:139292::::::::13:261::11:1:6691:2:9:11:28:1705:::::"] = {
+				"Splitter of the Horde Vanguard", -- [1]
+				"|cff0070dd|Hitem:139292::::::::13:261::11:1:6691:2:9:11:28:1705:::::|h[Splitter of the Horde Vanguard]|h|r", -- [2]
+				3, -- [3]
+				44, -- [4]
+				11, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Axes", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
+				"INVTYPE_WEAPON", -- [9]
+				960899, -- [10]
+				173, -- [11]
+				2, -- [12]
+				0, -- [13]
+				1, -- [14]
+				6, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158604,
+				["timestamp"] = 1706420250,
 			},
 			["item:174787::::::::9:1453::11:1:6499:2:9:5:28:741:::::"] = {
 				"Thick Leather Gauntlets", -- [1]
@@ -4507,43 +5527,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160244,
 			},
-			["item:3299::::::::6:1453:::::::::"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157448,
-			},
-			["|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+			["|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156861,
+				["timestamp"] = 1706161879,
+			},
+			["|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160453,
 			},
 			["item:187770::::::::3:1453::75:::::::"] = {
 				"Rogue's Footwear", -- [1]
@@ -4564,9 +5584,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706155712,
 			},
-			["item:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::"] = {
+			["item:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::"] = {
 				"Expeditionary Dagger", -- [1]
-				"|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				"|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				6, -- [5]
@@ -4581,7 +5601,7 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706157448,
+				["timestamp"] = 1706158235,
 			},
 			["item:2092::::::::4:1453::75:::::::"] = {
 				"Worn Dagger", -- [1]
@@ -4602,66 +5622,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706156007,
 			},
-			["|cffffffff|Hitem:117::::::::7:1453:::::::::|h[Tough Jerky]|h|r"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::7:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["item:187771::::::::7:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::7:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158235,
-			},
-			["item:169819::::::::5:1453:::::::::"] = {
-				"Handful of Blood Shards", -- [1]
-				"|cff9d9d9d|Hitem:169819::::::::5:1453:::::::::|h[Handful of Blood Shards]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134130, -- [10]
-				5575, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156709,
-			},
-			["item:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::"] = {
+			["|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r"] = {
 				"Expeditionary Dagger", -- [1]
-				"|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				"|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
 				6, -- [5]
@@ -4676,64 +5639,45 @@ ZygorGuidesViewerSettings = {
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158235,
+				["timestamp"] = 1706157704,
 			},
-			["item:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+			["|cffffffff|Hitem:178120::::::::9:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::9:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
+				2, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
-				"Leather", -- [7]
+				"Miscellaneous", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
 				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161240,
-			},
-			["|cff9d9d9d|Hitem:3299::::::::5:1453:::::::::|h[Fractured Canine]|h|r"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::5:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
-				15, -- [12]
 				0, -- [13]
-				0, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156861,
+				["timestamp"] = 1706160453,
 			},
-			["item:187773::::::::10:261::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::10:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["item:187771::::::::3:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::3:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
 				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706155712,
 			},
 			["item:174072::::::::3:1453:::::::::"] = {
 				"Raw Meat", -- [1]
@@ -4754,24 +5698,100 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706155953,
 			},
-			["item:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
+			["item:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::11:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
 				5, -- [4]
-				7, -- [5]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["|cff9d9d9d|Hitem:3170::::::::8:1453:::::::::|h[Large Bear Tooth]|h|r"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::8:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158951,
+			},
+			["item:187773::::::::11:261::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::11:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["item:187771::::::::1:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::1:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
+				3994713, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158605,
+				["timestamp"] = 1706145999,
+			},
+			["item:187773::::::::2:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::2:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706155512,
 			},
 			[169819] = {
 				"Handful of Blood Shards", -- [1]
@@ -4792,18 +5812,18 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706157465,
 			},
-			["item:187773::::::::3:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::3:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["item:187772::::::::3:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::3:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
@@ -4830,24 +5850,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["item:187773::::::::2:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::2:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["|cffffffff|Hitem:117::::::::5:1453:::::::::|h[Tough Jerky]|h|r"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::5:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				1, -- [5]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155512,
+				["timestamp"] = 1706156861,
 			},
 			["|cff9d9d9d|Hitem:175242::::::::7:1453:::::::::|h[Waterlogged Supplies]|h|r"] = {
 				"Waterlogged Supplies", -- [1]
@@ -4868,119 +5888,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158604,
 			},
-			["item:174916::::::::8:1453:::::::::"] = {
-				"Withering Hemlock", -- [1]
-				"|cffffffff|Hitem:174916::::::::8:1453:::::::::|h[Withering Hemlock]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Quest", -- [6]
-				"Quest", -- [7]
-				999, -- [8]
-				"", -- [9]
-				134187, -- [10]
-				0, -- [11]
-				12, -- [12]
-				0, -- [13]
-				4, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158784,
-			},
-			["item:187770::::::::1:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::1:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706145999,
-			},
-			["item:175242::::::::10:1453:::::::::"] = {
-				"Waterlogged Supplies", -- [1]
-				"|cff9d9d9d|Hitem:175242::::::::10:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				1506461, -- [10]
-				10009, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160494,
-			},
-			["item:187773::::::::8:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::8:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158609,
-			},
-			["item:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
-				1, -- [3]
+			["|cff1eff00|Hitem:175237::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
 				5, -- [4]
-				1, -- [5]
+				6, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156772,
-			},
-			["|cffffffff|Hitem:117::::::::6:1453:::::::::|h[Tough Jerky]|h|r"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::6:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157704,
+				["timestamp"] = 1706158604,
 			},
 			["item:187769::::::::4:1453::75:::::::"] = {
 				"Rogue's Leggings", -- [1]
@@ -5001,24 +5926,81 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706156007,
 			},
-			["item:175227::::::::9:1453::11:1:6500:2:9:8:28:741:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::9:1453::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				8, -- [5]
+			["item:175242::::::::10:1453:::::::::"] = {
+				"Waterlogged Supplies", -- [1]
+				"|cff9d9d9d|Hitem:175242::::::::10:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				1506461, -- [10]
+				10009, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160494,
+			},
+			["item:187772::::::::1:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::1:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				19, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160244,
+				["timestamp"] = 1706145999,
+			},
+			["item:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156772,
+			},
+			["item:187773::::::::5:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::5:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156708,
 			},
 			["|cff9d9d9d|Hitem:5118::::::::3:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
 				"Large Flat Tooth", -- [1]
@@ -5039,43 +6021,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706155981,
 			},
-			["|cffffffff|Hitem:178120::::::::10:261::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::10:261::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+			["item:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
 				1, -- [3]
-				2, -- [4]
+				5, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
-				"Miscellaneous", -- [7]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
 				4, -- [12]
-				0, -- [13]
-				1, -- [14]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160892,
-			},
-			["|cffffffff|Hitem:117::::::::4:1453:::::::::|h[Tough Jerky]|h|r"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::4:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156673,
+				["timestamp"] = 1706157448,
 			},
 			["|cffffffff|Hitem:6948::::::::11:261:::::::::|h[Hearthstone]|h|r"] = {
 				"Hearthstone", -- [1]
@@ -5096,6 +6059,25 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161879,
 			},
+			["|cffffffff|Hitem:178120::::::::10:261::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::10:261::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160892,
+			},
 			["item:174787::::::::10:1453::11:1:6499:2:9:5:28:741:::::"] = {
 				"Thick Leather Gauntlets", -- [1]
 				"|cffffffff|Hitem:174787::::::::10:1453::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
@@ -5115,9 +6097,28 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160494,
 			},
-			["item:187771::::::::6:1453::75:::::::"] = {
+			["item:6948::::::::11:261:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::11:261:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161777,
+			},
+			["item:187771::::::::9:1453::75:::::::"] = {
 				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::6:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				"|cffffffff|Hitem:187771::::::::9:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -5132,7 +6133,26 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706157447,
+				["timestamp"] = 1706160243,
+			},
+			["item:139948::::::::13:261::11:1:3524:2:28:1705:9:13:::::"] = {
+				"Dread-Rider Shoulders", -- [1]
+				"|cff1eff00|Hitem:139948::::::::13:261::11:1:3524:2:28:1705:9:13:::::|h[Dread-Rider Shoulders]|h|r", -- [2]
+				2, -- [3]
+				44, -- [4]
+				13, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1115108, -- [10]
+				56, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				6, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420405,
 			},
 			["item:174787::::::::6:1453::11:1:6499:2:28:741:9:5:::::"] = {
 				"Thick Leather Gauntlets", -- [1]
@@ -5305,24 +6325,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158610,
 			},
-			["item:187770::::::::2:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::2:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+			["item:187771::::::::4:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::4:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155512,
+				["timestamp"] = 1706156007,
 			},
 			["|cff1eff00|Hitem:175233::::::::10:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r"] = {
 				"Expeditionary Leather Belt", -- [1]
@@ -5400,25 +6420,6 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160890,
 			},
-			["|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157704,
-			},
 			["item:175227::::::::8:1453::11:1:6500:2:28:741:9:8:::::"] = {
 				"Expeditionary Leather Spaulders", -- [1]
 				"|cff1eff00|Hitem:175227::::::::8:1453::11:1:6500:2:28:741:9:8:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
@@ -5437,6 +6438,25 @@ ZygorGuidesViewerSettings = {
 				0, -- [15]
 				[17] = false,
 				["timestamp"] = 1706158870,
+			},
+			["|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157704,
 			},
 			["item:56033::::::::10:1453:::::::::"] = {
 				"Pretty Pebble", -- [1]
@@ -5457,24 +6477,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160494,
 			},
-			["item:187771::::::::4:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::4:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187770::::::::2:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::2:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156007,
+				["timestamp"] = 1706155512,
 			},
 			["|cffffffff|Hitem:174787::::::::9:1453::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
 				"Thick Leather Gauntlets", -- [1]
@@ -5495,24 +6515,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["item:187772::::::::9:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::9:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["item:187771::::::::6:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::6:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160243,
+				["timestamp"] = 1706157447,
 			},
 			["item:117::::::::4:1453:::::::::"] = {
 				"Tough Jerky", -- [1]
@@ -5552,24 +6572,24 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161419,
 			},
-			["item:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::6:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+			["|cffffffff|Hitem:117::::::::4:1453:::::::::|h[Tough Jerky]|h|r"] = {
+				"Tough Jerky", -- [1]
+				"|cffffffff|Hitem:117::::::::4:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
+				1, -- [4]
 				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
+				"Consumable", -- [6]
+				"Food & Drink", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133972, -- [10]
+				1, -- [11]
+				0, -- [12]
+				5, -- [13]
+				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706157448,
+				["timestamp"] = 1706156673,
 			},
 			["item:178120::::::::10:261::14::1:28:741:::::"] = {
 				"Horde Tabard", -- [1]
@@ -5590,37 +6610,37 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160584,
 			},
-			["item:187773::::::::5:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::5:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+			["item:175227::::::::9:1453::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::9:1453::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				19, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156708,
+				["timestamp"] = 1706160244,
 			},
-			["item:187772::::::::1:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::1:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["item:187770::::::::1:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::1:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
@@ -5647,28 +6667,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706158610,
 			},
-			["|cff1eff00|Hitem:175237::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["|cffffffff|Hitem:117::::::::5:1453:::::::::|h[Tough Jerky]|h|r"] = {
+			["|cffffffff|Hitem:117::::::::6:1453:::::::::|h[Tough Jerky]|h|r"] = {
 				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::5:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+				"|cffffffff|Hitem:117::::::::6:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -5683,26 +6684,45 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156861,
+				["timestamp"] = 1706157704,
 			},
-			["item:187772::::::::3:1453::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::3:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+			["item:187773::::::::8:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::8:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
-				7, -- [11]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155712,
+				["timestamp"] = 1706158609,
+			},
+			["item:174916::::::::8:1453:::::::::"] = {
+				"Withering Hemlock", -- [1]
+				"|cffffffff|Hitem:174916::::::::8:1453:::::::::|h[Withering Hemlock]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				999, -- [8]
+				"", -- [9]
+				134187, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158784,
 			},
 			["item:50055::::::::9:1453::75:::::::"] = {
 				"Worn Dirk", -- [1]
@@ -5723,43 +6743,43 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160243,
 			},
-			["item:187771::::::::1:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::1:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187773::::::::3:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::3:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
 				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706145999,
+				["timestamp"] = 1706155712,
 			},
-			["|cff9d9d9d|Hitem:3170::::::::8:1453:::::::::|h[Large Bear Tooth]|h|r"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::8:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+			["item:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::7:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				7, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158951,
+				["timestamp"] = 1706158605,
 			},
 			["|cffffffff|Hitem:174812::::::::9:1453:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
 				"Stitched Leather Tunic", -- [1]
@@ -5780,62 +6800,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["item:187771::::::::3:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::3:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+			["item:187773::::::::10:261::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::10:261::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
 				3, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155712,
+				["timestamp"] = 1706161240,
 			},
-			["|cffffffff|Hitem:178120::::::::9:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::9:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:3299::::::::5:1453:::::::::|h[Fractured Canine]|h|r"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::5:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133725, -- [10]
+				48, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156861,
+			},
+			["item:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
 				1, -- [3]
-				2, -- [4]
+				5, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
-				"Miscellaneous", -- [7]
+				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
 				4, -- [12]
-				0, -- [13]
-				1, -- [14]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r"] = {
-				"Expeditionary Dagger", -- [1]
-				"|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736887, -- [10]
-				30, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157704,
+				["timestamp"] = 1706161240,
 			},
 			["item:50055::::::::10:1453::75:::::::"] = {
 				"Worn Dirk", -- [1]
@@ -5856,85 +6876,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160493,
 			},
-			["|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
-				4, -- [12]
-				2, -- [13]
+			["item:169819::::::::5:1453:::::::::"] = {
+				"Handful of Blood Shards", -- [1]
+				"|cff9d9d9d|Hitem:169819::::::::5:1453:::::::::|h[Handful of Blood Shards]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134130, -- [10]
+				5575, -- [11]
+				15, -- [12]
+				0, -- [13]
 				1, -- [14]
-				0, -- [15]
+				8, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160453,
+				["timestamp"] = 1706156709,
 			},
-			["item:187770::::::::6:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::6:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+			["item:187771::::::::7:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::7:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157447,
-			},
-			["|cffffffff|Hitem:174812::::::::7:1453:::1:6499:2:28:741:9:7:::::|h[Stitched Leather Tunic]|h|r"] = {
-				"Stitched Leather Tunic", -- [1]
-				"|cffffffff|Hitem:174812::::::::7:1453:::1:6499:2:28:741:9:7:::::|h[Stitched Leather Tunic]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_CHEST", -- [9]
-				132724, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["item:175233::::::::10:261::11:1:6500:2:9:7:28:741:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::10:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
 				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
+				3994713, -- [10]
+				3, -- [11]
 				4, -- [12]
 				2, -- [13]
-				1, -- [14]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161239,
+				["timestamp"] = 1706158235,
 			},
-			["|cffffffff|Hitem:117::::::::9:1453:::::::::|h[Tough Jerky]|h|r"] = {
+			["|cffffffff|Hitem:117::::::::7:1453:::::::::|h[Tough Jerky]|h|r"] = {
 				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::9:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+				"|cffffffff|Hitem:117::::::::7:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
@@ -5949,96 +6931,134 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160453,
+				["timestamp"] = 1706158604,
 			},
-			["|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r"] = {
-				"Waterlogged Supplies", -- [1]
-				"|cff9d9d9d|Hitem:175242::::::::9:1453:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				1, -- [8]
-				"", -- [9]
-				1506461, -- [10]
-				10009, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r"] = {
-				"Expeditionary Leather Gloves", -- [1]
-				"|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+			["item:175233::::::::11:261::11:1:6500:2:9:7:28:741:::::"] = {
+				"Expeditionary Leather Belt", -- [1]
+				"|cff1eff00|Hitem:175233::::::::11:261::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
-				9, -- [5]
+				7, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1911960, -- [10]
-				14, -- [11]
+				"INVTYPE_WAIST", -- [9]
+				1911950, -- [10]
+				12, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160453,
+				["timestamp"] = 1706161446,
 			},
-			["item:169821::::::::10:1453:::::::::"] = {
-				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::10:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				306868, -- [10]
-				6850, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160494,
-			},
-			["item:175241::::::::8:1453:::::::::"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::8:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158610,
-			},
-			["item:187773::::::::7:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::7:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["item:187772::::::::8:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::8:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158609,
+			},
+			["|cffffffff|Hitem:168410::::::::3:1453::11::1:28:957:::::|h[First Aid Kit]|h|r"] = {
+				"First Aid Kit", -- [1]
+				"|cffffffff|Hitem:168410::::::::3:1453::11::1:28:957:::::|h[First Aid Kit]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				1387611, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706155713,
+			},
+			["item:3299::::::::6:1453:::::::::"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				133725, -- [10]
+				48, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157448,
+			},
+			["|cffffffff|Hitem:174804::::::::7:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::7:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158604,
+			},
+			["|cffffffff|Hitem:174787::::::::7:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::7:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
 				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
+				132952, -- [10]
 				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158604,
+			},
+			["item:187772::::::::7:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::7:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
@@ -6065,180 +7085,9 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160764,
 			},
-			["|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r"] = {
-				"Expeditionary Dagger", -- [1]
-				"|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				3736887, -- [10]
-				30, -- [11]
-				2, -- [12]
-				15, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["|cff9d9d9d|Hitem:56033::::::::9:1453:::::::::|h[Pretty Pebble]|h|r"] = {
-				"Pretty Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56033::::::::9:1453:::::::::|h[Pretty Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				400, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["item:187771::::::::8:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::8:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158609,
-			},
-			["item:175227::::::::9:1453::11:1:6500:2:28:741:9:8:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::9:1453::11:1:6500:2:28:741:9:8:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				19, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706159025,
-			},
-			["item:56049::::::::10:261:::::::::"] = {
-				"Mysterious Rock", -- [1]
-				"|cff9d9d9d|Hitem:56049::::::::10:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135240, -- [10]
-				5000, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161240,
-			},
-			["|cffffffff|Hitem:174804::::::::4:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::4:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156673,
-			},
-			["item:178120::::::::7:1453::14::1:28:741:::::"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158235,
-			},
-			["|cff9d9d9d|Hitem:56047::::::::9:1453:::::::::|h[Strange Pebble]|h|r"] = {
-				"Strange Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56047::::::::9:1453:::::::::|h[Strange Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				1000, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r"] = {
-				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
-				0, -- [3]
-				10, -- [4]
-				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				306868, -- [10]
-				6850, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["item:54831::::::::10:1453:::::::::"] = {
+			["|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r"] = {
 				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::10:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
+				"|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -6253,30 +7102,68 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160494,
+				["timestamp"] = 1706161879,
 			},
-			["item:187769::::::::3:1453::75:::::::"] = {
-				"Rogue's Leggings", -- [1]
-				"|cffffffff|Hitem:187769::::::::3:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+			["item:175237::::::::9:1453::11:1:6500:2:28:741:9:6:::::"] = {
+				"Expeditionary Leather Bracers", -- [1]
+				"|cff1eff00|Hitem:175237::::::::9:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3994718, -- [10]
-				7, -- [11]
+				"INVTYPE_WRIST", -- [9]
+				1911971, -- [10]
+				11, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706159025,
+			},
+			["item:187770::::::::9:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::9:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155712,
+				["timestamp"] = 1706160243,
 			},
-			["item:56049::::::::9:1453:::::::::"] = {
-				"Mysterious Rock", -- [1]
-				"|cff9d9d9d|Hitem:56049::::::::9:1453:::::::::|h[Mysterious Rock]|h|r", -- [2]
+			["item:2092::::::::9:1453::75:::::::"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::9:1453::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160243,
+			},
+			["item:56047::::::::11:261:::::::::"] = {
+				"Strange Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -6284,14 +7171,147 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135240, -- [10]
-				5000, -- [11]
+				135236, -- [10]
+				1000, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160244,
+				["timestamp"] = 1706161447,
+			},
+			["|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r"] = {
+				"Expeditionary Leather Gloves", -- [1]
+				"|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				9, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				1911960, -- [10]
+				14, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160453,
+			},
+			["item:187771::::::::5:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::5:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156708,
+			},
+			["|cffffffff|Hitem:174812::::::::10:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::10:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				132724, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r"] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::10:261::11:1:6499:2:9:5:28:741:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:2:28:1729:9:10:::::|h[Decrepit Dragonscale Drape]|h|r"] = {
+				"Decrepit Dragonscale Drape", -- [1]
+				"|cff0070dd|Hitem:178169::::::::10:261::1:1:6822:2:28:1729:9:10:::::|h[Decrepit Dragonscale Drape]|h|r", -- [2]
+				3, -- [3]
+				12, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				531415, -- [10]
+				236, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				134298, -- [10]
+				47, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
 			},
 			["|cff9d9d9d|Hitem:56049::::::::10:261:::::::::|h[Mysterious Rock]|h|r"] = {
 				"Mysterious Rock", -- [1]
@@ -6312,104 +7332,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706161419,
 			},
-			["item:169821::::::::9:1453:::::::::"] = {
-				"Ogre Effigy", -- [1]
-				"|cff9d9d9d|Hitem:169821::::::::9:1453:::::::::|h[Ogre Effigy]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r"] = {
+				"Pretty Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
 				0, -- [3]
-				10, -- [4]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				400, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
 				1, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				306868, -- [10]
-				6850, -- [11]
-				15, -- [12]
-				0, -- [13]
-				1, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160244,
-			},
-			["|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160453,
+				["timestamp"] = 1706156861,
 			},
-			["|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
-				"Chipped Boar Tusk", -- [1]
-				"|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133721, -- [10]
-				38, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156673,
-			},
-			["|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r"] = {
-				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				100, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["item:54831::::::::9:1453:::::::::"] = {
-				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::9:1453:::::::::|h[Shiny Pebble]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135236, -- [10]
-				100, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160244,
-			},
-			["item:187772::::::::4:1453::75:::::::"] = {
+			["item:187772::::::::5:1453::75:::::::"] = {
 				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::4:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				"|cffffffff|Hitem:187772::::::::5:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -6424,9 +7387,85 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156007,
+				["timestamp"] = 1706156708,
 			},
-			["item:187771::::::::10:261::75:::::::"] = {
+			["item:175241::::::::9:1453:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160244,
+			},
+			["item:175241::::::::10:261:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::10:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161240,
+			},
+			["|cffffffff|Hitem:2092::::::::10:261::75:::::::|h[Worn Dagger]|h|r"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::10:261::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161419,
+			},
+			["item:169821::::::::10:261:::::::::"] = {
+				"Ogre Effigy", -- [1]
+				"|cff9d9d9d|Hitem:169821::::::::10:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				306868, -- [10]
+				6850, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161240,
+			},
+			["|cffffffff|Hitem:187771::::::::10:261::75:::::::|h[Rogue's Waistband]|h|r"] = {
 				"Rogue's Waistband", -- [1]
 				"|cffffffff|Hitem:187771::::::::10:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
 				1, -- [3]
@@ -6443,121 +7482,102 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706161419,
 			},
-			["|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::7:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["item:2092::::::::10:1453::75:::::::"] = {
-				"Worn Dagger", -- [1]
-				"|cffffffff|Hitem:2092::::::::10:1453::75:::::::|h[Worn Dagger]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				10, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160493,
-			},
-			["item:187773::::::::1:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::1:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706145999,
-			},
-			["|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r"] = {
-				"Horde Tabard", -- [1]
-				"|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Miscellaneous", -- [7]
-				1, -- [8]
-				"INVTYPE_TABARD", -- [9]
-				2024073, -- [10]
-				5, -- [11]
-				4, -- [12]
-				0, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158951,
-			},
-			["item:3170::::::::9:1453:::::::::"] = {
-				"Large Bear Tooth", -- [1]
-				"|cff9d9d9d|Hitem:3170::::::::9:1453:::::::::|h[Large Bear Tooth]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:175242::::::::10:261:::::::::|h[Waterlogged Supplies]|h|r"] = {
+				"Waterlogged Supplies", -- [1]
+				"|cff9d9d9d|Hitem:175242::::::::10:261:::::::::|h[Waterlogged Supplies]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Miscellaneous", -- [6]
 				"Junk", -- [7]
-				20, -- [8]
+				1, -- [8]
 				"", -- [9]
-				134298, -- [10]
-				47, -- [11]
+				1506461, -- [10]
+				10009, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160244,
+				["timestamp"] = 1706161419,
 			},
-			["|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::5:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+			["item:128692::::::::13:261::11::1:28:1705:::::"] = {
+				"Royal Summons", -- [1]
+				"|cffffffff|Hitem:128692::::::::13:261::11::1:28:1705:::::|h[Royal Summons]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
+				1, -- [4]
 				1, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"", -- [9]
+				133473, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				4, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420095,
+			},
+			["|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::9:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706160453,
+			},
+			["item:175226::::::::11:261::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Legguards", -- [1]
+				"|cff1eff00|Hitem:175226::::::::11:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Legguards]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				1911975, -- [10]
+				25, -- [11]
 				4, -- [12]
 				2, -- [13]
-				2, -- [14]
+				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156861,
+				["timestamp"] = 1706161446,
+			},
+			["item:175245::::::::11:261::::1:28:741:::::"] = {
+				"Runetusk Necklace", -- [1]
+				"|cff1eff00|Hitem:175245::::::::11:261::::1:28:741:::::|h[Runetusk Necklace]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				466970, -- [10]
+				8, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161446,
 			},
 			["item:56049::::::::10:1453:::::::::"] = {
 				"Mysterious Rock", -- [1]
@@ -6597,62 +7617,62 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160493,
 			},
-			["|cffffffff|Hitem:174787::::::::8:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r"] = {
-				"Thick Leather Gauntlets", -- [1]
-				"|cffffffff|Hitem:174787::::::::8:1453::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+			["|cffffffff|Hitem:187769::::::::13:261::75:::::::|h[Rogue's Leggings]|h|r"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::13:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
 				1, -- [3]
-				5, -- [4]
+				1, -- [4]
 				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				132952, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706158951,
+				["timestamp"] = 1706420371,
 			},
-			["item:187773::::::::4:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::4:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["item:175171::::::::11:261::11:1:6500:2:9:6:28:741:::::"] = {
+				"Expeditionary Dagger", -- [1]
+				"|cff1eff00|Hitem:175171::::::::11:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736887, -- [10]
+				30, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161446,
+			},
+			["item:187772::::::::11:261::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				0, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156007,
-			},
-			["|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156673,
+				["timestamp"] = 1706161446,
 			},
 			["|cff1eff00|Hitem:175227::::::::9:1453::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r"] = {
 				"Expeditionary Leather Spaulders", -- [1]
@@ -6673,47 +7693,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706160453,
 			},
-			["item:117::::::::8:1453:::::::::"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::8:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+			["item:50055::::::::8:1453::75:::::::"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::8:1453::75:::::::|h[Worn Dirk]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158610,
-			},
-			["item:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::"] = {
-				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::5:1453:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Bracers]|h|r", -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
 				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				132607, -- [10]
-				4, -- [11]
-				4, -- [12]
-				2, -- [13]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706156709,
+				["timestamp"] = 1706158609,
 			},
-			["|cff9d9d9d|Hitem:3299::::::::3:1453:::::::::|h[Fractured Canine]|h|r"] = {
-				"Fractured Canine", -- [1]
-				"|cff9d9d9d|Hitem:3299::::::::3:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
+			["item:175227::::::::11:261::11:1:6500:2:9:8:28:741:::::"] = {
+				"Expeditionary Leather Spaulders", -- [1]
+				"|cff1eff00|Hitem:175227::::::::11:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				1911977, -- [10]
+				19, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161446,
+			},
+			["item:3170::::::::10:261:::::::::"] = {
+				"Large Bear Tooth", -- [1]
+				"|cff9d9d9d|Hitem:3170::::::::10:261:::::::::|h[Large Bear Tooth]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -6721,52 +7741,52 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				133725, -- [10]
-				48, -- [11]
+				134298, -- [10]
+				47, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706155981,
+				["timestamp"] = 1706161240,
 			},
-			["item:175222::::::::10:261::11:1:6500:2:28:741:9:10:::::"] = {
-				"Expeditionary Leather Helm", -- [1]
-				"|cff1eff00|Hitem:175222::::::::10:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				10, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HEAD", -- [9]
-				1911953, -- [10]
-				22, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161260,
-			},
-			["item:187773::::::::9:1453::75:::::::"] = {
-				"Rogue's Handwraps", -- [1]
-				"|cffffffff|Hitem:187773::::::::9:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+			["|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
 				1, -- [3]
 				1, -- [4]
-				0, -- [5]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				3994717, -- [10]
-				3, -- [11]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160243,
+				["timestamp"] = 1706161879,
+			},
+			["item:187769::::::::11:261::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::11:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
 			},
 			["item:187773::::::::10:1453::75:::::::"] = {
 				"Rogue's Handwraps", -- [1]
@@ -6806,294 +7826,47 @@ ZygorGuidesViewerSettings = {
 				[17] = false,
 				["timestamp"] = 1706157448,
 			},
-			["item:175233::::::::10:1453::11:1:6500:2:9:7:28:741:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::10:1453::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
+			["item:175222::::::::11:261::11:1:6500:2:28:741:9:10:::::"] = {
+				"Expeditionary Leather Helm", -- [1]
+				"|cff1eff00|Hitem:175222::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Helm]|h|r", -- [2]
 				2, -- [3]
 				5, -- [4]
-				7, -- [5]
+				10, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
+				"INVTYPE_HEAD", -- [9]
+				1911953, -- [10]
+				22, -- [11]
 				4, -- [12]
 				2, -- [13]
 				1, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706160494,
+				["timestamp"] = 1706161447,
 			},
-			["item:117::::::::10:1453:::::::::"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::10:1453:::::::::|h[Tough Jerky]|h|r", -- [2]
+			["item:174812::::::::11:261:::1:6499:2:9:7:28:741:::::"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160494,
-			},
-			["item:175241::::::::7:1453:::::::::"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158542,
-			},
-			["item:187769::::::::7:1453::75:::::::"] = {
-				"Rogue's Leggings", -- [1]
-				"|cffffffff|Hitem:187769::::::::7:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3994718, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158235,
-			},
-			["|cff9d9d9d|Hitem:5118::::::::6:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
-				"Large Flat Tooth", -- [1]
-				"|cff9d9d9d|Hitem:5118::::::::6:1453:::::::::|h[Large Flat Tooth]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				135233, -- [10]
-				71, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706157447,
-			},
-			["item:187770::::::::8:1453::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::8:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158609,
-			},
-			["|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r"] = {
-				"Expedition Healing Potion", -- [1]
-				"|cffffffff|Hitem:175241::::::::7:1453:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
-				1, -- [3]
-				3, -- [4]
-				0, -- [5]
-				"Consumable", -- [6]
-				"Potions", -- [7]
-				200, -- [8]
-				"", -- [9]
-				134830, -- [10]
-				25, -- [11]
-				0, -- [12]
-				1, -- [13]
-				0, -- [14]
-				8, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158604,
-			},
-			["item:187769::::::::10:261::75:::::::"] = {
-				"Rogue's Leggings", -- [1]
-				"|cffffffff|Hitem:187769::::::::10:261::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_LEGS", -- [9]
-				3994718, -- [10]
-				7, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161240,
-			},
-			["|cff9d9d9d|Hitem:771::::::::5:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
-				"Chipped Boar Tusk", -- [1]
-				"|cff9d9d9d|Hitem:771::::::::5:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133721, -- [10]
-				38, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156861,
-			},
-			["item:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::"] = {
-				"Expeditionary Leather Belt", -- [1]
-				"|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:7:::::|h[Expeditionary Leather Belt]|h|r", -- [2]
-				2, -- [3]
 				5, -- [4]
-				7, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				1911950, -- [10]
-				12, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706158610,
-			},
-			["item:187772::::::::10:261::75:::::::"] = {
-				"Rogue's Tunic", -- [1]
-				"|cffffffff|Hitem:187772::::::::10:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
+				1, -- [5]
 				"Armor", -- [6]
 				"Leather", -- [7]
 				1, -- [8]
 				"INVTYPE_CHEST", -- [9]
-				3994716, -- [10]
+				132724, -- [10]
 				7, -- [11]
 				4, -- [12]
 				2, -- [13]
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161239,
+				["timestamp"] = 1706161447,
 			},
-			["item:187770::::::::10:261::75:::::::"] = {
-				"Rogue's Footwear", -- [1]
-				"|cffffffff|Hitem:187770::::::::10:261::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_FEET", -- [9]
-				3994714, -- [10]
-				5, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161239,
-			},
-			["item:771::::::::4:1453:::::::::"] = {
-				"Chipped Boar Tusk", -- [1]
-				"|cff9d9d9d|Hitem:771::::::::4:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
-				0, -- [3]
-				1, -- [4]
-				0, -- [5]
-				"Miscellaneous", -- [6]
-				"Junk", -- [7]
-				20, -- [8]
-				"", -- [9]
-				133721, -- [10]
-				38, -- [11]
-				15, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706156554,
-			},
-			["item:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::"] = {
-				"Expeditionary Leather Gloves", -- [1]
-				"|cff1eff00|Hitem:175216::::::::9:1453::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Leather Gloves]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				9, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_HAND", -- [9]
-				1911960, -- [10]
-				14, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160453,
-			},
-			["item:175237::::::::10:261::11:1:6500:2:9:6:28:741:::::"] = {
-				"Expeditionary Leather Bracers", -- [1]
-				"|cff1eff00|Hitem:175237::::::::10:261::11:1:6500:2:9:6:28:741:::::|h[Expeditionary Leather Bracers]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				6, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WRIST", -- [9]
-				1911971, -- [10]
-				11, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161239,
-			},
-			["item:174804::::::::10:261:::1:6499:2:9:4:28:741:::::"] = {
+			["item:174804::::::::11:261:::1:6499:2:9:4:28:741:::::"] = {
 				"Stitched Leather Bracers", -- [1]
-				"|cffffffff|Hitem:174804::::::::10:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				"|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
 				1, -- [3]
 				5, -- [4]
 				1, -- [5]
@@ -7108,30 +7881,11 @@ ZygorGuidesViewerSettings = {
 				2, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706161447,
 			},
-			["item:175227::::::::10:261::11:1:6500:2:9:8:28:741:::::"] = {
-				"Expeditionary Leather Spaulders", -- [1]
-				"|cff1eff00|Hitem:175227::::::::10:261::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Leather Spaulders]|h|r", -- [2]
-				2, -- [3]
-				5, -- [4]
-				8, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_SHOULDER", -- [9]
-				1911977, -- [10]
-				19, -- [11]
-				4, -- [12]
-				2, -- [13]
-				1, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161239,
-			},
-			["item:56047::::::::10:261:::::::::"] = {
-				"Strange Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56047::::::::10:261:::::::::|h[Strange Pebble]|h|r", -- [2]
+			["item:56049::::::::11:261:::::::::"] = {
+				"Mysterious Rock", -- [1]
+				"|cff9d9d9d|Hitem:56049::::::::11:261:::::::::|h[Mysterious Rock]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -7139,18 +7893,18 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135236, -- [10]
-				1000, -- [11]
+				135240, -- [10]
+				5000, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706161447,
 			},
-			["item:56033::::::::10:261:::::::::"] = {
-				"Pretty Pebble", -- [1]
-				"|cff9d9d9d|Hitem:56033::::::::10:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
+			["|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r"] = {
+				"Fractured Canine", -- [1]
+				"|cff9d9d9d|Hitem:3299::::::::6:1453:::::::::|h[Fractured Canine]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -7158,75 +7912,37 @@ ZygorGuidesViewerSettings = {
 				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				135236, -- [10]
-				400, -- [11]
+				133725, -- [10]
+				48, -- [11]
 				15, -- [12]
 				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706157447,
 			},
-			["item:187771::::::::10:1453::75:::::::"] = {
-				"Rogue's Waistband", -- [1]
-				"|cffffffff|Hitem:187771::::::::10:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
-				1, -- [3]
+			["|cff9d9d9d|Hitem:771::::::::6:1453:::::::::|h[Chipped Boar Tusk]|h|r"] = {
+				"Chipped Boar Tusk", -- [1]
+				"|cff9d9d9d|Hitem:771::::::::6:1453:::::::::|h[Chipped Boar Tusk]|h|r", -- [2]
+				0, -- [3]
 				1, -- [4]
 				0, -- [5]
-				"Armor", -- [6]
-				"Leather", -- [7]
-				1, -- [8]
-				"INVTYPE_WAIST", -- [9]
-				3994713, -- [10]
-				3, -- [11]
-				4, -- [12]
-				2, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706160493,
-			},
-			["item:117::::::::10:261:::::::::"] = {
-				"Tough Jerky", -- [1]
-				"|cffffffff|Hitem:117::::::::10:261:::::::::|h[Tough Jerky]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Consumable", -- [6]
-				"Food & Drink", -- [7]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
 				20, -- [8]
 				"", -- [9]
-				133972, -- [10]
-				1, -- [11]
-				0, -- [12]
-				5, -- [13]
+				133721, -- [10]
+				38, -- [11]
+				15, -- [12]
+				0, -- [13]
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706157447,
 			},
-			["|cffffffff|Hitem:50055::::::::10:261::75:::::::|h[Worn Dirk]|h|r"] = {
-				"Worn Dirk", -- [1]
-				"|cffffffff|Hitem:50055::::::::10:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				"Weapon", -- [6]
-				"Daggers", -- [7]
-				1, -- [8]
-				"INVTYPE_WEAPON", -- [9]
-				135641, -- [10]
-				11, -- [11]
-				2, -- [12]
-				15, -- [13]
-				2, -- [14]
-				0, -- [15]
-				[17] = false,
-				["timestamp"] = 1706161419,
-			},
-			["item:54831::::::::10:261:::::::::"] = {
+			["item:54831::::::::11:261:::::::::"] = {
 				"Shiny Pebble", -- [1]
-				"|cff9d9d9d|Hitem:54831::::::::10:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
+				"|cff9d9d9d|Hitem:54831::::::::11:261:::::::::|h[Shiny Pebble]|h|r", -- [2]
 				0, -- [3]
 				1, -- [4]
 				0, -- [5]
@@ -7241,7 +7957,311 @@ ZygorGuidesViewerSettings = {
 				0, -- [14]
 				0, -- [15]
 				[17] = false,
-				["timestamp"] = 1706161240,
+				["timestamp"] = 1706161447,
+			},
+			["item:187771::::::::11:261::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::11:261::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["item:56033::::::::11:261:::::::::"] = {
+				"Pretty Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56033::::::::11:261:::::::::|h[Pretty Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				400, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["item:50055::::::::11:261::75:::::::"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["item:175241::::::::11:261:::::::::"] = {
+				"Expedition Healing Potion", -- [1]
+				"|cffffffff|Hitem:175241::::::::11:261:::::::::|h[Expedition Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				3, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Potions", -- [7]
+				200, -- [8]
+				"", -- [9]
+				134830, -- [10]
+				25, -- [11]
+				0, -- [12]
+				1, -- [13]
+				0, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161447,
+			},
+			["|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r"] = {
+				"Stitched Leather Tunic", -- [1]
+				"|cffffffff|Hitem:174812::::::::11:261:::1:6499:2:9:7:28:741:::::|h[Stitched Leather Tunic]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				132724, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r"] = {
+				"Stitched Leather Bracers", -- [1]
+				"|cffffffff|Hitem:174804::::::::11:261:::1:6499:2:9:4:28:741:::::|h[Stitched Leather Bracers]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132607, -- [10]
+				4, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["item:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::"] = {
+				"Expeditionary Dagger", -- [1]
+				"|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::::|h[Expeditionary Dagger]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				6, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				3736887, -- [10]
+				30, -- [11]
+				2, -- [12]
+				15, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157448,
+			},
+			[174787] = {
+				"Thick Leather Gauntlets", -- [1]
+				"|cffffffff|Hitem:174787::::::::6:1453:::::::::|h[Thick Leather Gauntlets]|h|r", -- [2]
+				1, -- [3]
+				5, -- [4]
+				8, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132952, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706157465,
+			},
+			["|cff9d9d9d|Hitem:5118::::::::4:1453:::::::::|h[Large Flat Tooth]|h|r"] = {
+				"Large Flat Tooth", -- [1]
+				"|cff9d9d9d|Hitem:5118::::::::4:1453:::::::::|h[Large Flat Tooth]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135233, -- [10]
+				71, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706156673,
+			},
+			["|cff1eff00|Hitem:175211::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Tunic]|h|r"] = {
+				"Expeditionary Leather Tunic", -- [1]
+				"|cff1eff00|Hitem:175211::::::::11:261::11:1:6500:2:28:741:9:10:::::|h[Expeditionary Leather Tunic]|h|r", -- [2]
+				2, -- [3]
+				5, -- [4]
+				10, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				1911972, -- [10]
+				31, -- [11]
+				4, -- [12]
+				2, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161878,
+			},
+			["|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r"] = {
+				"Strange Pebble", -- [1]
+				"|cff9d9d9d|Hitem:56047::::::::11:261:::::::::|h[Strange Pebble]|h|r", -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				135236, -- [10]
+				1000, -- [11]
+				15, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r"] = {
+				"Ogre Effigy", -- [1]
+				"|cff9d9d9d|Hitem:169821::::::::11:261:::::::::|h[Ogre Effigy]|h|r", -- [2]
+				0, -- [3]
+				10, -- [4]
+				1, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				20, -- [8]
+				"", -- [9]
+				306868, -- [10]
+				6850, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				8, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["item:178120::::::::8:1453::14::1:28:741:::::"] = {
+				"Horde Tabard", -- [1]
+				"|cffffffff|Hitem:178120::::::::8:1453::14::1:28:741:::::|h[Horde Tabard]|h|r", -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TABARD", -- [9]
+				2024073, -- [10]
+				5, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706158610,
+			},
+			["|cffffffff|Hitem:187772::::::::13:261::75:::::::|h[Rogue's Tunic]|h|r"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::13:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706420371,
+			},
+			["|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::11:261::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
+			},
+			["|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::11:261::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706161879,
 			},
 		},
 		["questnames"] = {
@@ -7254,81 +8274,6 @@ ZygorGuidesViewerSettings = {
 		["bannedtoasts"] = {
 			["orientation"] = true,
 		},
-	},
-	["realm"] = {
-		["Bladefist"] = {
-			["characters"] = {
-				["Bromedown"] = {
-					["dualwield"] = false,
-					["classname"] = "Rogue",
-					["classnum"] = 4,
-					["gear"] = {
-						{
-							[7] = 0.02,
-							[8] = 0.01,
-							[16] = 7.553999999999999,
-							[17] = 7.553999999999999,
-							[5] = 0.02,
-							[10] = 0.01,
-							[6] = 0.01,
-							["Scanned"] = true,
-							["specname"] = "Assassination",
-						}, -- [1]
-						{
-							[7] = 0.02,
-							[8] = 0.01,
-							[16] = 7.553999999999999,
-							[17] = 7.553999999999999,
-							[5] = 0.02,
-							[10] = 0.01,
-							[6] = 0.01,
-							["Scanned"] = true,
-							["specname"] = "Outlaw",
-						}, -- [2]
-						{
-							3.04, -- [1]
-							1.73, -- [2]
-							4.54, -- [3]
-							[7] = 3.04,
-							[15] = 9.32,
-							[8] = 0.01,
-							[16] = 29.43400000000001,
-							[17] = 9.442,
-							[5] = 3.05,
-							[10] = 3.03,
-							[9] = 3.01,
-							[6] = 3.02,
-							["Scanned"] = true,
-							["specname"] = "Subtlety",
-						}, -- [3]
-						[5] = {
-							[7] = 0.02,
-							[8] = 0.01,
-							[16] = 7.553999999999999,
-							[17] = 7.553999999999999,
-							[5] = 0.02,
-							[10] = 0.01,
-							[6] = 0.01,
-							["Scanned"] = true,
-							["specname"] = "",
-						},
-					},
-					["statweights"] = {
-					},
-					["class"] = "ROGUE",
-					["level"] = 11,
-				},
-			},
-			["bankdata"] = {
-				["Bromedown"] = {
-				},
-			},
-			["gold_scan_data"] = {
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Bromedown - Bladefist"] = "Bromedown",
 	},
 	["profiles"] = {
 		["Bromedown - Bladefist"] = {
@@ -7343,23 +8288,23 @@ ZygorGuidesViewerSettings = {
 				[2170] = true,
 				[2391] = true,
 				[1090] = true,
-				[2503] = true,
-				[2511] = true,
-				[2507] = true,
+				[2156] = true,
+				[2045] = true,
+				[1859] = true,
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
+				[2165] = true,
 				[2163] = true,
-				[2413] = true,
-				[2465] = true,
+				[2103] = true,
+				[1894] = true,
 				[2510] = true,
 				[1948] = true,
-				[1894] = true,
-				[2165] = true,
-				[1859] = true,
-				[2045] = true,
-				[2156] = true,
+				[2465] = true,
+				[2413] = true,
+				[2507] = true,
+				[2511] = true,
+				[2503] = true,
 			},
 			["n_nc_enabled"] = true,
 			["geareffects"] = true,
@@ -7411,26 +8356,21 @@ ZygorGuidesViewerSettings = {
 				[1220] = true,
 				["reputation"] = true,
 				[1533] = true,
-				["gear"] = true,
+				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["anima"] = true,
+				[1560] = true,
 			},
-			["widgetshomelast"] = {
-			},
+			["show_ui"] = true,
 			["load_mail"] = true,
 			["stickycolored"] = false,
-			["WQSorting"] = {
-				"name", -- [1]
-				"asc", -- [2]
-			},
 			["widgets"] = {
-				["guidesuggest"] = {
-					0, -- [1]
-					3, -- [2]
-					3, -- [3]
+				["timeplayed"] = {
+					2, -- [1]
+					0, -- [2]
+					2, -- [3]
 					2, -- [4]
 				},
 				["guidehistory"] = {
@@ -7439,10 +8379,10 @@ ZygorGuidesViewerSettings = {
 					3, -- [3]
 					2, -- [4]
 				},
-				["timeplayed"] = {
-					2, -- [1]
-					0, -- [2]
-					2, -- [3]
+				["guidesuggest"] = {
+					0, -- [1]
+					3, -- [2]
+					3, -- [3]
 					2, -- [4]
 				},
 				["gold"] = {
@@ -7451,6 +8391,10 @@ ZygorGuidesViewerSettings = {
 					2, -- [3]
 					2, -- [4]
 				},
+			},
+			["WQSorting"] = {
+				"name", -- [1]
+				"asc", -- [2]
 			},
 			["n_nc_numpetguides"] = 5,
 			["maplines_alpha"] = 1,
@@ -7467,7 +8411,8 @@ ZygorGuidesViewerSettings = {
 				0, -- [4]
 				0, -- [5]
 			},
-			["show_ui"] = true,
+			["widgetshomelast"] = {
+			},
 			["gold_tooltips_shift"] = true,
 		},
 		["Bromedown"] = {
@@ -7536,23 +8481,23 @@ ZygorGuidesViewerSettings = {
 				[2170] = true,
 				[2391] = true,
 				[1090] = true,
-				[2503] = true,
-				[2511] = true,
-				[2507] = true,
+				[2156] = true,
+				[2045] = true,
+				[1859] = true,
 				[1900] = true,
 				[2157] = true,
 				[2407] = true,
-				[2103] = true,
+				[2165] = true,
 				[2163] = true,
-				[2413] = true,
-				[2465] = true,
+				[2103] = true,
+				[1894] = true,
 				[2510] = true,
 				[1948] = true,
-				[1894] = true,
-				[2165] = true,
-				[1859] = true,
-				[2045] = true,
-				[2156] = true,
+				[2465] = true,
+				[2413] = true,
+				[2507] = true,
+				[2511] = true,
+				[2503] = true,
 			},
 			["gold_tooltips_guide"] = 1,
 			["n_nc_enabled"] = true,
@@ -7582,12 +8527,12 @@ ZygorGuidesViewerSettings = {
 				[1220] = true,
 				["reputation"] = true,
 				[1533] = true,
-				["gear"] = true,
+				["anima"] = true,
 				["gold"] = true,
-				[1560] = true,
+				["gear"] = true,
 				["resources"] = true,
 				[1553] = true,
-				["anima"] = true,
+				[1560] = true,
 			},
 			["load_betaguides"] = true,
 			["usernamed"] = true,
@@ -7610,6 +8555,83 @@ ZygorGuidesViewerSettings = {
 				},
 			},
 			["skin"] = "default",
+		},
+	},
+	["profileKeys"] = {
+		["Bromedown - Bladefist"] = "Bromedown",
+	},
+	["realm"] = {
+		["Bladefist"] = {
+			["characters"] = {
+				["Bromedown"] = {
+					["level"] = 13,
+					["class"] = "ROGUE",
+					["dualwield"] = false,
+					["gear"] = {
+						{
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["specname"] = "Assassination",
+							["Scanned"] = true,
+						}, -- [1]
+						{
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["specname"] = "Outlaw",
+							["Scanned"] = true,
+						}, -- [2]
+						{
+							3.04, -- [1]
+							1.73, -- [2]
+							4.54, -- [3]
+							[13] = 12.77,
+							[7] = 3.04,
+							[15] = 9.32,
+							[8] = 0.01,
+							[16] = 17.376,
+							[17] = 17.376,
+							[5] = 3.05,
+							[10] = 3.03,
+							["specname"] = "Subtlety",
+							[11] = 7.710000000000001,
+							[6] = 3.02,
+							["Scanned"] = true,
+							[9] = 3.01,
+						}, -- [3]
+						[5] = {
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["specname"] = "",
+							["Scanned"] = true,
+						},
+					},
+					["classname"] = "Rogue",
+					["statweights"] = {
+					},
+					["classnum"] = 4,
+				},
+			},
+			["bankdata"] = {
+				["Bromedown"] = {
+				},
+			},
+			["gold_scan_data"] = {
+			},
 		},
 	},
 }

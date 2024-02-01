@@ -1,0 +1,154 @@
+VER 3 000000000000001A "a10_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Slayte
+END
+VER 3 0000000000000011 "a1_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Analarm
+END
+VER 3 0000000000000012 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 0000000000000013 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Slayver
+END
+VER 3 0000000000000014 "a4_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Trashmanda
+END
+VER 3 0000000000000015 "a5_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Ensconced
+END
+VER 3 0000000000000016 "a6_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Elevated
+END
+VER 3 0000000000000017 "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Equister
+END
+VER 3 0000000000000018 "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Shannon
+END
+VER 3 0000000000000019 "a9_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Statue
+END
+VER 3 0000000000000024 "AOE_FS_OUTLAW" "spell_fire_selfdestruct"
+#showtooltip
+/click [button:1] AOE_FS_OUTLAW LeftButton t;
+END
+VER 3 0000000000000027 "convP_fs" "Ability_HUNTER_pathfinding"
+/run C_PartyInfo.ConvertToParty()
+END
+VER 3 000000000000001E "dance_fs" "ability_DRUID_aquaticform"
+/dance
+END
+VER 3 0000000000000004 "delete_trash_fs" "Ability_HUNTER_pathfinding"
+/run AutoDelete()
+END
+VER 3 000000000000000F "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Slayte
+/run SetView(4)
+END
+VER 3 0000000000000006 "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Analarm
+/run SetView(4)
+END
+VER 3 0000000000000007 "f2_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000008 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Slayver
+/run SetView(4)
+END
+VER 3 0000000000000009 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Trashmanda
+/run SetView(4)
+END
+VER 3 000000000000000A "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Ensconced
+/run SetView(4)
+END
+VER 3 000000000000000B "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Elevated
+/run SetView(4)
+END
+VER 3 000000000000000C "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Equister
+/run SetView(4)
+END
+VER 3 000000000000000D "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Shannon
+/run SetView(4)
+END
+VER 3 000000000000000E "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Statue
+/run SetView(4)
+END
+VER 3 0000000000000005 "followT_fs" "Ability_HUNTER_pathfinding"
+/follow
+END
+VER 3 0000000000000028 "Hide5_fs" "Ability_HUNTER_pathfinding"
+/run MultiBar5:Hide()
+END
+VER 3 0000000000000010 "init_fs" "Ability_HUNTER_pathfinding"
+/init
+END
+VER 3 0000000000000026 "int_fs" "INV_Misc_Questionmark"
+/cast Kick
+END
+VER 3 000000000000001D "leave_fs" "spell_nature_purge"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 000000000000001B "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Analarm
+END
+VER 3 0000000000000022 "MULTI_FS_OUTLAW" "ability_upgrademoonglaive"
+#showtooltip
+/click [button:1] MULTI_FS_OUTLAW LeftButton t;
+END
+VER 3 0000000000000003 "party_fs" "Ability_HUNTER_pathfinding"
+/run PartyUp()
+END
+VER 3 000000000000001F "poly_fs" "INV_Misc_QuestionMark"
+/cast Sap
+END
+VER 3 000000000000001C "reload_fs" "spell_frost_stun"
+/reload
+END
+VER 3 0000000000000020 "SETUP_FS_OUTLAW" "Spell_magic_polymorphchicken"
+#showtooltip
+/click [button:1] SETUP_FS_OUTLAW LeftButton t;
+/petpassive [mod:alt]
+/stopcasting [mod:alt]
+END
+VER 3 0000000000000025 "SHEAL_FS_OUTLAW" "spell_nature_healingtouch"
+#showtooltip
+/click [button:1] SHEAL_FS_OUTLAW LeftButton t;
+END
+VER 3 0000000000000021 "SINGLE_FS_OUTLAW" "ability_searingarrow"
+#showtooltip
+/click [button:1] SINGLE_FS_OUTLAW LeftButton t;
+END
+VER 3 0000000000000023 "TURBO_FS_OUTLAW" "Spell_nature_lightning"
+#showtooltip
+/click [button:1] TURBO_FS_OUTLAW LeftButton t;
+/petpassive [mod:alt]
+/run mountup()
+/run SetView(4)
+END
+VER 3 0000000000000029 "wave_fs" "Ability_HUNTER_pathfinding"
+/wave
+END
+VER 3 0000000000000001 "ZygorAction1" "134327"
+#showtooltip Talk to Warlord Breka Grimaxe
+/run ZGV:MCM(4)
+/cleartarget
+/target Warlord Breka Grimaxe
+/run ZGV:MRM()
+END
+VER 3 0000000000000002 "ZygorAction2" "134400"
+END

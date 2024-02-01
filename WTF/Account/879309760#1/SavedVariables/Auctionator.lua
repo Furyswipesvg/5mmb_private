@@ -1,0 +1,180 @@
+
+AUCTIONATOR_CONFIG = {
+	["show_selling_bag_2"] = true,
+	["no_price_database"] = false,
+	["crafting_info_show_cheapest_qualities_cost"] = false,
+	["selling_groups_settings"] = {
+	},
+	["enchant_tooltips"] = false,
+	["default_list_2"] = "",
+	["selling_auto_select_next"] = false,
+	["selling_favourites_sort_owned"] = false,
+	["auctions_history_length"] = 10,
+	["selling_icon_size_2"] = 42,
+	["auction_duration"] = 24,
+	["price_history_days"] = 21,
+	["selling_prev_shortcut"] = "BACKSPACE",
+	["selling_skip_shortcut"] = "SHIFT-SPACE",
+	["shopping_list_missing_terms"] = false,
+	["columns_shopping_buy_item"] = {
+	},
+	["selling_bag_selection_color"] = {
+		["r"] = 0.977,
+		["g"] = 0.592,
+		["b"] = 0.086,
+	},
+	["selling_ignored_keys"] = {
+	},
+	["default_tab"] = 0,
+	["shopping_always_confirm_commodity_quantity"] = false,
+	["undercut_items_ahead"] = 0,
+	["undercut_scan_not_lifo"] = true,
+	["undercut_percentage"] = 0,
+	["columns_posting_history"] = {
+	},
+	["pet_tooltips"] = true,
+	["selling_allow_global_quantity_override"] = true,
+	["selling_missing_favourites"] = true,
+	["selling_item_matching"] = "item name and level",
+	["gear_vendor_price_multiplier"] = 0,
+	["selling_post_shortcut"] = "SPACE",
+	["shift_stack_tooltips"] = true,
+	["selling_favourite_keys_2"] = {
+	},
+	["historical_prices"] = {
+	},
+	["auction_tooltips"] = true,
+	["auction_age_tooltips"] = false,
+	["replicate_scan_3"] = false,
+	["small_tabs"] = false,
+	["selling_buy_shortcut"] = "alt right click",
+	["selling_confirm_low_price"] = true,
+	["shopping_last_container_view"] = 1,
+	["selling_should_reselect_item"] = false,
+	["selling_bag_select_shortcut"] = "alt left click",
+	["selling_cancel_shortcut"] = "right click",
+	["columns_selling_search_3"] = {
+	},
+	["cancel_undercut_shortcut"] = "SPACE",
+	["auction_mean_days_limit"] = 21,
+	["autoscan_interval"] = 15,
+	["autoscan_2"] = false,
+	["save_last_duration_as_default"] = false,
+	["auction_mean_tooltips"] = false,
+	["crafting_info_show_cost"] = true,
+	["show_selling_bid_price"] = false,
+	["columns_shopping_buy_commodity"] = {
+	},
+	["hide_splash_screen"] = false,
+	["columns_shopping_historical_prices"] = {
+	},
+	["auction_chat_log"] = true,
+	["undercut_static_value"] = 0,
+	["auto_list_search"] = true,
+	["debug"] = false,
+	["crafting_info_show_profit"] = true,
+	["mailbox_tooltips"] = true,
+	["default_quantities"] = {
+		0, -- [1]
+		1, -- [2]
+		0, -- [3]
+		1, -- [4]
+		nil, -- [5]
+		nil, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		[0] = 0,
+		[17] = 1,
+		[15] = 0,
+		[12] = 0,
+		[19] = 0,
+		[16] = 0,
+	},
+	["selling_bag_collapsed"] = false,
+	["vendor_tooltips"] = true,
+	["columns_shopping"] = {
+	},
+	["auction_sales_preference"] = "percentage",
+	["columns_cancelling"] = {
+	},
+	["splash_screen_version"] = "anything",
+	["crafting_info_show"] = true,
+	["selling_split_panels"] = false,
+	["selling_group_by_item_key"] = true,
+}
+AUCTIONATOR_SAVEDVARS = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+}
+AUCTIONATOR_PRICE_DATABASE = {
+	["__dbversion"] = 7,
+	["Bladefist"] = {
+	},
+}
+AUCTIONATOR_POSTING_HISTORY = {
+	["__dbversion"] = 1,
+}
+AUCTIONATOR_VENDOR_PRICE_CACHE = {
+	["81920"] = 4608,
+	["58263"] = 3600,
+	["1645"] = 360,
+	["33444"] = 1530,
+	["82448"] = 4032,
+	["4537"] = 22.6,
+	["1179"] = 22.6,
+	["58274"] = 1980,
+	["28399"] = 1008,
+	["58262"] = 3240,
+	["6524"] = 124,
+	["6523"] = 84,
+	["33445"] = 1980,
+	["1708"] = 180,
+	["8766"] = 720,
+	["27856"] = 1008,
+	["81919"] = 4032,
+	["787"] = 4.6,
+	["33451"] = 1530,
+	["__dbversion"] = 1,
+	["4594"] = 180,
+	["6526"] = 225,
+	["4538"] = 90,
+	["21552"] = 360,
+	["159"] = 1,
+	["58256"] = 2227.6,
+	["81923"] = 4608,
+	["8957"] = 720,
+	["35951"] = 2880,
+	["27858"] = 1008,
+	["35948"] = 2880,
+	["58264"] = 3240,
+	["8953"] = 720,
+	["81924"] = 4032,
+	["4536"] = 4.6,
+	["1205"] = 90,
+	["82449"] = 4608,
+	["4593"] = 90,
+	["58257"] = 2475,
+	["4602"] = 360,
+	["35949"] = 1530,
+	["4592"] = 3.6,
+	["6525"] = 165,
+	["58265"] = 3600,
+	["4539"] = 180,
+}
+AUCTIONATOR_RECENT_SEARCHES = {
+}
+AUCTIONATOR_SELLING_GROUPS = {
+	["CustomGroups"] = {
+		{
+			["name"] = "FAVOURITES_GROUP",
+			["type"] = 1,
+			["hidden"] = false,
+			["list"] = {
+			},
+		}, -- [1]
+	},
+	["Version"] = 1,
+	["HiddenItems"] = {
+	},
+}

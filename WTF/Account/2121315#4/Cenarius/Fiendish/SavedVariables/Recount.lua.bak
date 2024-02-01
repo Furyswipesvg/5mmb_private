@@ -1,0 +1,79 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Cheat"] = {
+			["GUID"] = "Player-1168-08FAAD20",
+			["type"] = "Grouped",
+			["TimeLast"] = {
+				["OVERALL"] = 189923.366,
+				["RunicPowerGain"] = 189923.366,
+			},
+			["Owner"] = false,
+			["enClass"] = "DEATHKNIGHT",
+			["TimeWindows"] = {
+				["RunicPowerGain"] = {
+					10, -- [1]
+				},
+			},
+			["Name"] = "Cheat",
+			["LastActive"] = 189923.366,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["RunicPowerGain"] = 10,
+					["RunicPowerGainedFrom"] = {
+						["Cheat"] = {
+							["Details"] = {
+								["Death and Decay"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Death and Decay"] = {
+							["Details"] = {
+								["Cheat"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+				},
+				["OverallData"] = {
+					["RunicPowerGain"] = 10,
+					["RunicPowerGainedFrom"] = {
+						["Cheat"] = {
+							["Details"] = {
+								["Death and Decay"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Death and Decay"] = {
+							["Details"] = {
+								["Cheat"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+				},
+			},
+			["level"] = 50,
+			["UnitLockout"] = 189923.366,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

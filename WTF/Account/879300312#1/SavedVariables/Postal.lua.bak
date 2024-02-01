@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Plaguestrike|Bladefist|Horde|17|DEATHKNIGHT", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Plaguestrike - Bladefist"] = "Plaguestrike - Bladefist",
+	},
+	["profiles"] = {
+		["Plaguestrike - Bladefist"] = {
+		},
+	},
+}

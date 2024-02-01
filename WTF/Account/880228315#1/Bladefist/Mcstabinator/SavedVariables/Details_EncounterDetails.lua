@@ -67,6 +67,27 @@ EncounterDetailsDB = {
 				["__time"] = 1706404448,
 			},
 		},
+		[107] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				["__time"] = 1706420437,
+			},
+		},
 		[62] = {
 		},
 		[92] = {
@@ -211,6 +232,18 @@ EncounterDetailsDB = {
 				0, -- [47]
 				["max_value"] = 139,
 				["__time"] = 1706402868,
+			},
+		},
+		[97] = {
+			["Raid Damage Done"] = {
+				281, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				["max_value"] = 281,
+				["__time"] = 1706404510,
 			},
 		},
 		[57] = {
@@ -628,18 +661,6 @@ EncounterDetailsDB = {
 				["__time"] = 1706403933,
 			},
 		},
-		[97] = {
-			["Raid Damage Done"] = {
-				281, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				["max_value"] = 281,
-				["__time"] = 1706404510,
-			},
-		},
 	},
 	["encounter_spells"] = {
 		[321240] = {
@@ -674,12 +695,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gor'groth",
 		},
-		[305515] = {
+		[305567] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ravnyr",
 		},
@@ -699,11 +719,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tunk",
 		},
-		[305567] = {
+		[305515] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ravnyr",
 		},

@@ -1,9 +1,9 @@
 FSMB_version="012724_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Bromedown",[2]="Oopsididdat",[3]="Stabsya",[4]="Nostabface",[5]="Mcstabinator",[6]="Chaostard"}
-FSMB_invitelist={[1]="Bromedown-bladefist",[2]="Oopsididdat-bladefist",[3]="Stabsya-bladefist",[4]="Nostabface-bladefist",[5]="Mcstabinator-bladefist",[6]="Chaostard-bladefist"}
-FSMB_tank=""
+FSMB_toonlist={[1]="Dethndekay",[2]="Armyofthebro",[3]="Froststrike",[4]="Deathstrike",[5]="Plaguestrike",[6]="Chaostard"}
+FSMB_invitelist={[1]="Dethndekay-bladefist",[2]="Armyofthebro-bladefist",[3]="Froststrike-bladefist",[4]="Deathstrike-bladefist",[5]="Plaguestrike-bladefist",[6]="Chaostard-bladefist"}
+FSMB_tank="Froststrike"
 FSMB_nomacros=nil
 FSMB_healerlist={}
 FSMB_maxheal={Druid=3,Priest=3,Shaman=5,Paladin=3}

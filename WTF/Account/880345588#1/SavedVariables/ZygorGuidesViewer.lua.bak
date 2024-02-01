@@ -1,0 +1,616 @@
+
+ZygorGuidesViewerSettings = {
+	["char"] = {
+		["Slayver - Bladefist"] = {
+			["unloadedguide"] = false,
+			["class"] = "ROGUE",
+			["ATsearchitems"] = {
+			},
+			["CurrentDeals"] = {
+			},
+			["PlayerMoney"] = {
+				[1706256000] = {
+					["gain"] = 0,
+					["endmoney"] = 0,
+					["startmoney"] = 0,
+					["loss"] = 0,
+					["timestamp"] = 1706256000,
+				},
+			},
+			["telemetry"] = {
+				{
+					["time"] = 1706331816,
+					["event"] = "STARTUP",
+				}, -- [1]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1706331816,
+				}, -- [2]
+				{
+					["uiscale"] = "65%",
+					["event"] = "OPTIONS",
+					["time"] = 1706331816,
+				}, -- [3]
+				{
+					["state"] = true,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1706331821,
+				}, -- [4]
+				{
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+							["step"] = 1,
+						}, -- [1]
+					},
+					["current"] = {
+						["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+						["step"] = 1,
+					},
+					["event"] = "GUIDES_LOADED",
+					["time"] = 1706331822,
+				}, -- [5]
+				{
+					["button"] = "LeftButton",
+					["name"] = "CloseButton",
+					["event"] = "BUTTON_CLICKED",
+					["time"] = 1706332003,
+				}, -- [6]
+				{
+					["time"] = 1706332015,
+					["event"] = "SHUTDOWN",
+				}, -- [7]
+			},
+			["initialFlightPathsLoaded"] = true,
+			["gear_selected_class"] = 4,
+			["keptItems"] = {
+			},
+			["gear_3_score"] = true,
+			["GGbuyitems"] = {
+			},
+			["AThiddenitems"] = {
+			},
+			["guidename"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+			["guides_history_ZGV4clear"] = true,
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Starter Guides\\Exile's Reach (1-10)",
+					["step"] = 1,
+				}, -- [1]
+			},
+			["guideTurnInsOnly"] = false,
+			["guides_history"] = {
+				{
+					"LEVELING\\Starter Guides\\Exile's Reach (1-10)", -- [1]
+					1, -- [2]
+				}, -- [1]
+			},
+			["QuestQueue"] = {
+			},
+			["notifications"] = {
+			},
+			["taxis"] = {
+				[-4] = true,
+				[-5] = true,
+				["translation"] = {
+					["enUS"] = {
+					},
+				},
+				[-3] = true,
+				[-1] = true,
+				[11] = true,
+			},
+			["favourites"] = {
+			},
+			["SkillsKnown"] = {
+				[""] = {
+					["placeholder"] = true,
+					["active"] = false,
+					["max"] = 0,
+					["level"] = 0,
+					["parentname"] = "Tailoring",
+				},
+			},
+			["covenantupgrades"] = {
+			},
+			["gear_5_score"] = true,
+			["statweightsmoved"] = true,
+			["questrewards"] = {
+			},
+			["race"] = "Scourge",
+			["lastlogin"] = 1706331797,
+			["gear_2_score"] = true,
+			["badupgrade"] = {
+				[5] = {
+				},
+			},
+			["timeperlevel"] = {
+				209, -- [1]
+				["total"] = 209,
+			},
+			["gear_1_score"] = true,
+			["gear_selected_spec"] = 5,
+			["debuglog"] = {
+				"21:03:26.065.804> Viewer started. ---------------------------", -- [1]
+			},
+			["faction"] = "Horde",
+			["guidestephistory"] = {
+				["LEVELING\\Starter Guides\\Exile's Reach (1-10)"] = {
+					["steps"] = {
+					},
+					["lasttime"] = 1706331822,
+				},
+			},
+			["actionbarmacrowarning"] = false,
+		},
+	},
+	["global"] = {
+		["generalmsg"] = "New19Add70",
+		["gii_cache"] = {
+			["item:187771::::::::1:1453::75:::::::"] = {
+				"Rogue's Waistband", -- [1]
+				"|cffffffff|Hitem:187771::::::::1:1453::75:::::::|h[Rogue's Waistband]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				3994713, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:187770::::::::1:1453::75:::::::"] = {
+				"Rogue's Footwear", -- [1]
+				"|cffffffff|Hitem:187770::::::::1:1453::75:::::::|h[Rogue's Footwear]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				3994714, -- [10]
+				5, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:187773::::::::1:1453::75:::::::"] = {
+				"Rogue's Handwraps", -- [1]
+				"|cffffffff|Hitem:187773::::::::1:1453::75:::::::|h[Rogue's Handwraps]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				3994717, -- [10]
+				3, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:2092::::::::1:1453::75:::::::"] = {
+				"Worn Dagger", -- [1]
+				"|cffffffff|Hitem:2092::::::::1:1453::75:::::::|h[Worn Dagger]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				10, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:187772::::::::1:1453::75:::::::"] = {
+				"Rogue's Tunic", -- [1]
+				"|cffffffff|Hitem:187772::::::::1:1453::75:::::::|h[Rogue's Tunic]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				3994716, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:187769::::::::1:1453::75:::::::"] = {
+				"Rogue's Leggings", -- [1]
+				"|cffffffff|Hitem:187769::::::::1:1453::75:::::::|h[Rogue's Leggings]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Armor", -- [6]
+				"Leather", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				3994718, -- [10]
+				7, -- [11]
+				4, -- [12]
+				2, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+			["item:50055::::::::1:1453::75:::::::"] = {
+				"Worn Dirk", -- [1]
+				"|cffffffff|Hitem:50055::::::::1:1453::75:::::::|h[Worn Dirk]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Daggers", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135641, -- [10]
+				11, -- [11]
+				2, -- [12]
+				15, -- [13]
+				2, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1706331815,
+			},
+		},
+		["questnames"] = {
+		},
+		["questnames_lang"] = "enUS",
+		["nextreset"] = 294983,
+		["gii_cache_lang"] = "enUS",
+		["sv_version"] = 2,
+		["welcomemsg"] = "Wel23See43Rev35",
+	},
+	["realm"] = {
+		["Bladefist"] = {
+			["characters"] = {
+				["Slayver"] = {
+					["dualwield"] = false,
+					["level"] = 1,
+					["classnum"] = 4,
+					["gear"] = {
+						{
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["Scanned"] = true,
+							["specname"] = "Assassination",
+						}, -- [1]
+						{
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["Scanned"] = true,
+							["specname"] = "Outlaw",
+						}, -- [2]
+						{
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["Scanned"] = true,
+							["specname"] = "Subtlety",
+						}, -- [3]
+						[5] = {
+							[7] = 0.02,
+							[8] = 0.01,
+							[16] = 7.553999999999999,
+							[17] = 7.553999999999999,
+							[5] = 0.02,
+							[10] = 0.01,
+							[6] = 0.01,
+							["Scanned"] = true,
+							["specname"] = "",
+						},
+					},
+					["class"] = "ROGUE",
+					["statweights"] = {
+					},
+					["classname"] = "Rogue",
+				},
+			},
+			["bankdata"] = {
+				["Slayver"] = {
+				},
+			},
+			["gold_scan_data"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Slayver - Bladefist"] = "Slayver",
+	},
+	["profiles"] = {
+		["Slayver"] = {
+			["dispprimary"] = {
+				["showborder"] = true,
+			},
+			["load_gold"] = true,
+			["gold_format_white"] = false,
+			["enable_viewer"] = false,
+			["hide_dev_once"] = false,
+			["load_mail"] = true,
+			["WQSorting"] = {
+				"name", -- [1]
+				"asc", -- [2]
+			},
+			["colorantssingle"] = {
+				["a"] = 0.8,
+			},
+			["colorantstaxi"] = {
+				["a"] = 0.8,
+			},
+			["load_im"] = true,
+			["WQreputation"] = {
+				[1883] = true,
+				[2373] = true,
+				[2158] = true,
+				[2410] = true,
+				[2164] = true,
+				[1828] = true,
+				[2170] = true,
+				[2391] = true,
+				[1090] = true,
+				[2413] = true,
+				[2503] = true,
+				[2511] = true,
+				[1900] = true,
+				[2157] = true,
+				[2407] = true,
+				[2507] = true,
+				[2163] = true,
+				[2165] = true,
+				[2465] = true,
+				[2510] = true,
+				[1948] = true,
+				[1894] = true,
+				[1859] = true,
+				[2045] = true,
+				[2103] = true,
+				[2156] = true,
+			},
+			["gold_tooltips_guide"] = 1,
+			["usernamed"] = true,
+			["maplines_alpha"] = 1,
+			["load_betaguides"] = true,
+			["stickycolored"] = false,
+			["n_nc_enabled"] = true,
+			["gold_profitlevel"] = 0.25,
+			["gold_tooltips_shift"] = true,
+			["n_nc_numpetguides"] = 5,
+			["WQupdate1002"] = true,
+			["tmp__was_starlight"] = true,
+			["WQmode"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				nil, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["frame_anchor"] = {
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				0, -- [4]
+				0, -- [5]
+			},
+			["geareffects"] = true,
+			["arrowskin"] = "Starlight",
+			["debug_flags"] = {
+				["display"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+				["lr_initpath_v"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+			},
+			["colorantsfly"] = {
+				["a"] = 0.8,
+			},
+			["colorantsship"] = {
+				["a"] = 0.8,
+			},
+			["show_ui"] = true,
+			["WQreward"] = {
+				["other"] = true,
+				[1220] = true,
+				["reputation"] = true,
+				[1533] = true,
+				["gear"] = true,
+				["gold"] = true,
+				[1560] = true,
+				["resources"] = true,
+				[1553] = true,
+				["anima"] = true,
+			},
+			["gold_tooltips_ah"] = 2,
+			["colorantsother"] = {
+				["a"] = 0.8,
+			},
+		},
+		["Slayver - Bladefist"] = {
+			["dispprimary"] = {
+				["showborder"] = true,
+			},
+			["load_gold"] = true,
+			["gold_format_white"] = false,
+			["aucmode"] = "unit",
+			["hide_dev_once"] = false,
+			["load_mail"] = true,
+			["WQSorting"] = {
+				"name", -- [1]
+				"asc", -- [2]
+			},
+			["widgets"] = {
+				["guidehistory"] = {
+					0, -- [1]
+					0, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["guidesuggest"] = {
+					0, -- [1]
+					3, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["gold"] = {
+					2, -- [1]
+					2, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+				["timeplayed"] = {
+					2, -- [1]
+					0, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+			},
+			["load_im"] = true,
+			["widgetshome"] = {
+			},
+			["expired_elite_shown"] = false,
+			["WQreputation"] = {
+				[1883] = true,
+				[2373] = true,
+				[2158] = true,
+				[2410] = true,
+				[2164] = true,
+				[1828] = true,
+				[2170] = true,
+				[2391] = true,
+				[1090] = true,
+				[2413] = true,
+				[2503] = true,
+				[2511] = true,
+				[1900] = true,
+				[2157] = true,
+				[2407] = true,
+				[2507] = true,
+				[2163] = true,
+				[2165] = true,
+				[2465] = true,
+				[2510] = true,
+				[1948] = true,
+				[1894] = true,
+				[1859] = true,
+				[2045] = true,
+				[2103] = true,
+				[2156] = true,
+			},
+			["gold_tooltips_guide"] = 1,
+			["frame_anchor"] = {
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				0, -- [4]
+				0, -- [5]
+			},
+			["widgetshomelast"] = {
+			},
+			["widgets_first_run_done"] = true,
+			["mapbuttonframe_offset"] = {
+				660, -- [1]
+				7, -- [2]
+			},
+			["WQupdate1002"] = true,
+			["WQmode"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				nil, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["skin"] = "default",
+			["maplines_alpha"] = 1,
+			["load_betaguides"] = true,
+			["stickycolored"] = false,
+			["n_nc_enabled"] = true,
+			["gold_profitlevel"] = 0.25,
+			["gold_tooltips_shift"] = true,
+			["tmp__was_starlight"] = true,
+			["n_nc_numpetguides"] = 5,
+			["geareffects"] = true,
+			["featuredhide"] = {
+			},
+			["arrowskin"] = "Starlight",
+			["debug_flags"] = {
+				["gold"] = {
+					["color"] = "ffffdd00",
+					["enabled"] = true,
+				},
+				["display"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+				["lr_initpath_v"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+			},
+			["show_ui"] = true,
+			["WQreward"] = {
+				["other"] = true,
+				[1220] = true,
+				["reputation"] = true,
+				[1533] = true,
+				["gear"] = true,
+				["gold"] = true,
+				[1560] = true,
+				["resources"] = true,
+				[1553] = true,
+				["anima"] = true,
+			},
+			["gold_tooltips_ah"] = 2,
+		},
+	},
+}

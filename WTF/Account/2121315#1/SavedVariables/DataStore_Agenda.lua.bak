@@ -1,0 +1,87 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Anlronclad - Nathrezim"] = "Anlronclad - Nathrezim",
+		["Anlronclad - Illidan"] = "Anlronclad - Illidan",
+		["Stabsya - Illidan"] = "Stabsya - Illidan",
+		["Hah - Nathrezim"] = "Hah - Nathrezim",
+		["Pawsnreflect - Nathrezim"] = "Pawsnreflect - Nathrezim",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-12-15",
+		},
+		["Characters"] = {
+			["Default.Illidan.Anlronclad"] = {
+				["lastUpdate"] = 1607637111,
+			},
+			["Default.Nathrezim.Hah"] = {
+				["lastUpdate"] = 1589162728,
+			},
+			["Default.Illidan.Stabsya"] = {
+				["lastUpdate"] = 1604366735,
+				["DungeonBosses"] = {
+					["Highmaul Mythic|371220225"] = {
+						["Brackenspore"] = true,
+						["Ko'ragh"] = true,
+						["The Butcher"] = true,
+						["Tectus, The Living Mountain"] = true,
+						["Imperator Mar'gok"] = true,
+						["Kargath Bladefist"] = true,
+						["Twin Ogron"] = true,
+					},
+					["Blackrock Foundry Mythic|371209342"] = {
+						["Blast Furnace"] = true,
+						["Flamebender Ka'graz"] = true,
+						["Operator Thogar"] = true,
+						["Gruul"] = true,
+						["Kromog, Legend of the Mountain"] = true,
+						["Oregorger the Devourer"] = true,
+						["Blackhand"] = true,
+						["Beastlord Darmac"] = true,
+						["The Iron Maidens"] = true,
+						["Hans'gar & Franzok"] = true,
+					},
+					["Hellfire Citadel Mythic|371226213"] = {
+						["Hellfire Assault"] = true,
+						["Shadow-Lord Iskar"] = true,
+						["Kormrok"] = true,
+						["Fel Lord Zakuun"] = true,
+						["Iron Reaver"] = true,
+						["Kilrogg Deadeye"] = true,
+						["Mannoroth"] = true,
+						["Socrethar the Eternal"] = true,
+						["Gorefiend"] = true,
+						["Hellfire High Council"] = true,
+						["Xhul'horac"] = true,
+						["Tyrant Velhari"] = true,
+						["Archimonde"] = true,
+					},
+					["The Sunwell 25 Player|371216010"] = {
+						["Brutallus"] = true,
+						["M'uru"] = true,
+						["Felmyst"] = true,
+						["Kil'jaeden"] = true,
+						["Eredar Twins"] = true,
+						["Kalecgos"] = true,
+					},
+				},
+			},
+			["Default.Nathrezim.Anlronclad"] = {
+				["lastUpdate"] = 1603512238,
+			},
+			["Default.Nathrezim.Pawsnreflect"] = {
+				["lastUpdate"] = 1589160297,
+				["Contacts"] = {
+					["Sendhelp"] = {
+						["note"] = "",
+						["class"] = "Warlock",
+						["level"] = 119,
+					},
+				},
+			},
+		},
+	},
+}
