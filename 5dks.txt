@@ -9,5 +9,6 @@ box myfsmb14@maildrop.cc	iso2tope	dk armyofthebro-bladefist	melee
 box myfsmb10@maildrop.cc	iso2tope	dk froststrike-bladefist	tank
 box myfsmb11@maildrop.cc	iso2tope	dk deathstrike-bladefist	melee
 box myfsmb12@maildrop.cc	iso2tope	dk plaguestrike-bladefist	melee
+box myfsmb09@maildrop.cc	iso2tope	wow1 scandolous-bladefist	caste
 
 box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster

@@ -250,7 +250,7 @@ Blizzard_CombatLog_Filters = {
 		}, -- [1]
 		{
 			["quickButtonName"] = "What happened to me?",
-			["onQuickBar"] = false,
+			["onQuickBar"] = true,
 			["quickButtonDisplay"] = {
 				["party"] = true,
 				["solo"] = true,

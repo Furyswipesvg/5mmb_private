@@ -1,11 +1,11 @@
 FSMB_version="012724_retail"
 AceComm=LibStub("AceComm-3.0")
 print('Hello from 5mmb version '..FSMB_version.."!")
-FSMB_toonlist={[1]="Dethndekay",[2]="Armyofthebro",[3]="Froststrike",[4]="Deathstrike",[5]="Plaguestrike",[6]="Chaostard"}
-FSMB_invitelist={[1]="Dethndekay-bladefist",[2]="Armyofthebro-bladefist",[3]="Froststrike-bladefist",[4]="Deathstrike-bladefist",[5]="Plaguestrike-bladefist",[6]="Chaostard-bladefist"}
-FSMB_tank="Froststrike"
+FSMB_toonlist={[1]="Turning",[2]="Chaostard",[3]="Wideninggyre",[4]="Thefalcon",[5]="Allypally",[6]="Tolnfinity",[7]="Arrowkneeuno",[8]="Cannothold",[9]="Mypetsux",[10]="Smirky",[11]="Hunterhead",[12]="Whatsupsucka",[13]="Thecenter",[14]="Skanty",[15]="Bromedown",[16]="Bowwy",[17]="Unfounded",[18]="Bowya",[19]="Nolnjury",[20]="Acceptabad",[21]="Cheated",[22]="Streamist",[23]="Stanleey",[24]="Slamhandle",[25]="Glor",[26]="Perenial",[27]="Handywithit",[28]="Sevener"}
+FSMB_invitelist={[1]="Turning-bladefist",[2]="Chaostard-bladefist",[3]="Wideninggyre-bladefist",[4]="Thefalcon-bladefist",[5]="Allypally-bladefist",[6]="Tolnfinity-bladefist",[7]="Arrowkneeuno-bladefist",[8]="Cannothold-bladefist",[9]="Mypetsux-bladefist",[10]="Smirky-bladefist",[11]="Hunterhead-bladefist",[12]="Whatsupsucka-bladefist",[13]="Thecenter-bladefist",[14]="Skanty-bladefist",[15]="Bromedown-bladefist",[16]="Bowwy-bladefist",[17]="Unfounded-bladefist",[18]="Bowya-bladefist",[19]="Nolnjury-bladefist",[20]="Acceptabad-bladefist",[21]="Cheated-bladefist",[22]="Streamist-bladefist",[23]="Stanleey-bladefist",[24]="Slamhandle-bladefist",[25]="Glor-bladefist",[26]="Perenial-bladefist",[27]="Handywithit-bladefist",[28]="Sevener-bladefist"}
+FSMB_tank="Turning"
 FSMB_nomacros=nil
-FSMB_healerlist={}
+FSMB_healerlist={"Allypally"}
 FSMB_maxheal={Druid=3,Priest=3,Shaman=5,Paladin=3}
 FSMB_squads=nil
 -- Find players region and set the spelling for Rank and some other flakey things.
@@ -474,7 +474,7 @@ end
 	PickupMacro(index)
 	PlaceAction(25)
 	ClearCursor()
-	index=CreateMacroFS("dance_fs","ability_DRUID_aquaticform","/dance",nil)
+	index=CreateMacroFS("dance_fs","ability_DRUID_aquaticform","/run SetPVP(false)\n/dance",nil)
 	PickupMacro(index)
 	PlaceAction(59)
 	ClearCursor()

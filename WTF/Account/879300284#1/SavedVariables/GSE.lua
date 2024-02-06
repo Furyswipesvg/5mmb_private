@@ -25,8 +25,8 @@ GSEOptions = {
 		["LeftControl"] = false,
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
-		["RightAlt"] = false,
 		["RightButton"] = false,
+		["RightAlt"] = false,
 		["Button4"] = false,
 		["Button5"] = false,
 		["MiddleButton"] = false,
@@ -198,7 +198,7 @@ GSESpellCache = {
 		["Death and Decay"] = 43265,
 		["Death Coil"] = 47541,
 		["Rune Strike"] = 316239,
-		["Death Strike"] = 49998,
 		["Obliterate"] = 316239,
+		["Death Strike"] = 49998,
 	},
 }

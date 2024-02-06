@@ -1,9 +1,12 @@
 
 AutoTurnInDB = {
 	["profileKeys"] = {
+		["Thefalcon - Bladefist"] = "Thefalcon - Bladefist",
 		["Gestorpo - Bladefist"] = "Gestorpo - Bladefist",
 	},
 	["profiles"] = {
+		["Thefalcon - Bladefist"] = {
+		},
 		["Gestorpo - Bladefist"] = {
 		},
 	},

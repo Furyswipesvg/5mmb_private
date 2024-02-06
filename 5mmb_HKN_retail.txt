@@ -2,17 +2,34 @@
 // Comments begin with //. They don't do anything in the script.
 
 // These are window labels. Kind of like nicknames for long window names.
-  <Label w0 Local SendWinM flashmob-bladefist_1rue>
-  <Label w1 Local SendWinM shivlt-bladefist_1rue>
-  <Label w2 Local SendWinM healmesucka-bladefist_1rue>
-  <Label w3 Local SendWinM nowudunit-bladefist_1rue>
-  <Label w4 Local SendWinM notbanned-bladefist_1rue>
-  <Label w5 Local SendWinM inyoface-bladefist_1rue>
-  <Label w6 Local SendWinM havingfun-bladefist_1rue>
-  <Label w7 Local SendWinM everland-bladefist_1rue>
-  <Label w8 Local SendWinM defconsix-bladefist_1rue>
-  <Label w9 Local SendWinM skinnygirl-bladefist_1rue>
-  <Label w10 Local SendWinM chaostard-bladefist_1ww1>
+  <Label w0 Local SendWinM turning-bladefist_1ww1>
+  <Label w1 Local SendWinM chaostard-bladefist_1ww1>
+  <Label w2 Local SendWinM wideninggyre-bladefist_1ww1>
+  <Label w3 Local SendWinM thefalcon-bladefist_1ww1>
+  <Label w4 Local SendWinM allypally-bladefist_1ww1>
+  <Label w5 Local SendWinM tolnfinity-bladefist_1ww1>
+  <Label w6 Local SendWinM arrowkneeuno-bladefist_1ww1>
+  <Label w7 Local SendWinM cannothold-bladefist_1ww1>
+  <Label w8 Local SendWinM mypetsux-bladefist_1ww1>
+  <Label w9 Local SendWinM smirky-bladefist_1ww1>
+  <Label w10 Local SendWinM hunterhead-bladefist_1ww1>
+  <Label w11 Local SendWinM whatsupsucka-bladefist_1ww1>
+  <Label w12 Local SendWinM thecenter-bladefist_1ww1>
+  <Label w13 Local SendWinM skanty-bladefist_1ww1>
+  <Label w14 Local SendWinM bromedown-bladefist_1rue>
+  <Label w15 Local SendWinM bowwy-bladefist_1ww1>
+  <Label w16 Local SendWinM unfounded-bladefist_1ww1>
+  <Label w17 Local SendWinM bowya-bladefist_1ww1>
+  <Label w18 Local SendWinM nolnjury-bladefist_1ww1>
+  <Label w19 Local SendWinM acceptabad-bladefist_1ww1>
+  <Label w20 Local SendWinM cheated-bladefist_1ww1>
+  <Label w21 Local SendWinM streamist-bladefist_1ww1>
+  <Label w22 Local SendWinM stanleey-bladefist_1ww1>
+  <Label w23 Local SendWinM slamhandle-bladefist_1ww1>
+  <Label w24 Local SendWinM glor-bladefist_1ww1>
+  <Label w25 Local SendWinM perenial-bladefist_1ww1>
+  <Label w26 Local SendWinM handywithit-bladefist_1ww1>
+  <Label w27 Local SendWinM sevener-bladefist_1ww1>
 
 // The above labels are your window names.
 // They are like the "address" to your windows. They contain which 
@@ -24,7 +41,7 @@
 // This is the main launcher command definition.
   <Command LaunchAndRename>
 	<SendPC %1%>
-	<Run "C:/Program Files (x86)/World of Warcraft/_retail_/Wow.exe" >
+	<Run "C:/World of Warcraft/_retail_/Wow.exe" >
 	<TargetWin "World of Warcraft">  
 	<TargetWin "World of Warcraft">
 	<RenameTargetWin %2%>
@@ -85,7 +102,7 @@
 
   <Command LaunchWow>
 	<SendPC %1%>
-	< Open "C:/Program Files (x86)/World of Warcraft/_retail_/Wow.exe" >
+	< Open "C:/World of Warcraft/_retail_/Wow.exe" >
   <Command RenameWindow>
 	<SendPC %1%>
 	<RenameWin "World of Warcraft" %2%>
@@ -105,41 +122,92 @@
 	<wait 75><Key Enter>
 
   <Hotkey ScrollLockOn Alt Ctrl N>
-	<if WinDoesNotExist flashmob-bladefist_1rue>
-	<LaunchAndRename Local flashmob-bladefist_1rue mbrogbash01@maildrop.cc iso2tope 1560 1090 -8 1080 flashmob-bladefist>
-	<if WinDoesNotExist shivlt-bladefist_1rue>
-	<LaunchAndRename Local shivlt-bladefist_1rue mbrogbash02@maildrop.cc iso2tope 765 549 1537 1080 shivlt-bladefist>
-	<if WinDoesNotExist healmesucka-bladefist_1rue>
-	<LaunchAndRename Local healmesucka-bladefist_1rue mbrogbash03@maildrop.cc iso2tope 765 549 1537 1620 healmesucka-bladefist>
-	<if WinDoesNotExist nowudunit-bladefist_1rue>
-	<LaunchAndRename Local nowudunit-bladefist_1rue mbrogbash04@maildrop.cc iso2tope 765 549 2287 1080 nowudunit-bladefist>
-	<if WinDoesNotExist notbanned-bladefist_1rue>
-	<LaunchAndRename Local notbanned-bladefist_1rue mbrogbash05@maildrop.cc iso2tope 765 549 2287 1620 notbanned-bladefist>
-	<if WinDoesNotExist inyoface-bladefist_1rue>
-	<LaunchAndRename Local inyoface-bladefist_1rue mbrogbash06@maildrop.cc iso2tope 1560 1090 -8 0 inyoface-bladefist>
-	<if WinDoesNotExist havingfun-bladefist_1rue>
-	<LaunchAndRename Local havingfun-bladefist_1rue mbrogbash07@maildrop.cc iso2tope 765 549 1537 0 havingfun-bladefist>
-	<if WinDoesNotExist everland-bladefist_1rue>
-	<LaunchAndRename Local everland-bladefist_1rue mbrogbash08@maildrop.cc iso2tope 765 549 1537 540 everland-bladefist>
-	<if WinDoesNotExist defconsix-bladefist_1rue>
-	<LaunchAndRename Local defconsix-bladefist_1rue mbrogbash09@maildrop.cc iso2tope 765 549 2287 0 defconsix-bladefist>
-	<if WinDoesNotExist skinnygirl-bladefist_1rue>
-	<LaunchAndRename Local skinnygirl-bladefist_1rue mbrogbash10@maildrop.cc iso2tope 765 549 2287 540 skinnygirl-bladefist>
+	<if WinDoesNotExist turning-bladefist_1ww1>
+	<LaunchAndRename Local turning-bladefist_1ww1 secondfsmbraid05@maildrop.cc iso2tope 1927 1440 476 720 turning-bladefist>
 	<if WinDoesNotExist chaostard-bladefist_1ww1>
-	<LaunchAndRename Local chaostard-bladefist_1ww1 myclassicmb03@maildrop.cc iso2tope 805 570 3037 1548 chaostard-bladefist>
+	<LaunchAndRename Local chaostard-bladefist_1ww1 myclassicmb03@maildrop.cc iso2tope 487 364 -4 0 chaostard-bladefist>
+	<if WinDoesNotExist wideninggyre-bladefist_1ww1>
+	<LaunchAndRename Local wideninggyre-bladefist_1ww1 thisismyseco.ndfortymultibox@yahoo.com iso2tope 487 364 476 0 wideninggyre-bladefist>
+	<if WinDoesNotExist thefalcon-bladefist_1ww1>
+	<LaunchAndRename Local thefalcon-bladefist_1ww1 thisismysecondfor.tymultibox@yahoo.com iso2tope 487 364 956 0 thefalcon-bladefist>
+	<if WinDoesNotExist allypally-bladefist_1ww1>
+	<LaunchAndRename Local allypally-bladefist_1ww1 ultr.amultiboxtest@gmail.com iso2tope 487 364 1436 0 allypally-bladefist>
+	<if WinDoesNotExist tolnfinity-bladefist_1ww1>
+	<LaunchAndRename Local tolnfinity-bladefist_1ww1 furyswipes.bloons4@gmail.com Iso222tope 487 364 1916 0 tolnfinity-bladefist>
+	<if WinDoesNotExist arrowkneeuno-bladefist_1ww1>
+	<LaunchAndRename Local arrowkneeuno-bladefist_1ww1 ultramultiboxtes.t02@gmail.com iso2tope 487 364 2396 0 arrowkneeuno-bladefist>
+	<if WinDoesNotExist cannothold-bladefist_1ww1>
+	<LaunchAndRename Local cannothold-bladefist_1ww1 thisismysecond.fortymultibox@yahoo.com iso2tope 487 364 2876 0 cannothold-bladefist>
+	<if WinDoesNotExist mypetsux-bladefist_1ww1>
+	<LaunchAndRename Local mypetsux-bladefist_1ww1 ultramultiboxtest.02@gmail.com iso2tope 487 364 3356 0 mypetsux-bladefist>
+	<if WinDoesNotExist smirky-bladefist_1ww1>
+	<LaunchAndRename Local smirky-bladefist_1ww1 ultramultiboxtes.t03@gmail.com iso2tope 487 364 -4 360 smirky-bladefist>
+	<if WinDoesNotExist hunterhead-bladefist_1ww1>
+	<LaunchAndRename Local hunterhead-bladefist_1ww1 ultramultiboxt.est02@gmail.com iso2tope 487 364 476 360 hunterhead-bladefist>
+	<if WinDoesNotExist whatsupsucka-bladefist_1ww1>
+	<LaunchAndRename Local whatsupsucka-bladefist_1ww1 ultramulti.box.test03@gmail.com iso2tope 487 364 956 360 whatsupsucka-bladefist>
+	<if WinDoesNotExist thecenter-bladefist_1ww1>
+	<LaunchAndRename Local thecenter-bladefist_1ww1 thisismysecon.dfortymultibox@yahoo.com iso2tope 487 364 1436 360 thecenter-bladefist>
+	<if WinDoesNotExist skanty-bladefist_1ww1>
+	<LaunchAndRename Local skanty-bladefist_1ww1 ultramultiboxtest0.3@gmail.com iso2tope 487 364 1916 360 skanty-bladefist>
+	<if WinDoesNotExist bromedown-bladefist_1rue>
+	<LaunchAndRename Local bromedown-bladefist_1rue mbrogthrash04@maildrop.cc iso2tope 487 364 2396 360 bromedown-bladefist>
+	<if WinDoesNotExist bowwy-bladefist_1ww1>
+	<LaunchAndRename Local bowwy-bladefist_1ww1 ultramultiboxte.st02@gmail.com iso2tope 487 364 2876 360 bowwy-bladefist>
+	<if WinDoesNotExist unfounded-bladefist_1ww1>
+	<LaunchAndRename Local unfounded-bladefist_1ww1 ultramultiboxte.st03@gmail.com iso2tope 487 364 3356 360 unfounded-bladefist>
+	<if WinDoesNotExist bowya-bladefist_1ww1>
+	<LaunchAndRename Local bowya-bladefist_1ww1 ultramultiboxtest0.2@gmail.com iso2tope 487 364 -4 720 bowya-bladefist>
+	<if WinDoesNotExist nolnjury-bladefist_1ww1>
+	<LaunchAndRename Local nolnjury-bladefist_1ww1 ultramultiboxtest03@gmail.com iso2tope 487 364 2396 720 nolnjury-bladefist>
+	<if WinDoesNotExist acceptabad-bladefist_1ww1>
+	<LaunchAndRename Local acceptabad-bladefist_1ww1 ultramultiboxt.est03@gmail.com iso2tope 487 364 2876 720 acceptabad-bladefist>
+	<if WinDoesNotExist cheated-bladefist_1ww1>
+	<LaunchAndRename Local cheated-bladefist_1ww1 secondfsmbraid03@maildrop.cc iso2tope 487 364 3356 720 cheated-bladefist>
+	<if WinDoesNotExist streamist-bladefist_1ww1>
+	<LaunchAndRename Local streamist-bladefist_1ww1 secondfsmbraid04@maildrop.cc iso2tope 487 364 -4 1080 streamist-bladefist>
+	<if WinDoesNotExist stanleey-bladefist_1ww1>
+	<LaunchAndRename Local stanleey-bladefist_1ww1 thisismysecondf.ortymultibox@yahoo.com iso2tope 487 364 2396 1080 stanleey-bladefist>
+	<if WinDoesNotExist slamhandle-bladefist_1ww1>
+	<LaunchAndRename Local slamhandle-bladefist_1ww1 thisismysecondfortymu.ltibox@yahoo.com iso2tope 487 364 2876 1080 slamhandle-bladefist>
+	<if WinDoesNotExist glor-bladefist_1ww1>
+	<LaunchAndRename Local glor-bladefist_1ww1 secondfsmbraid02@maildrop.cc iso2tope 487 364 3356 1080 glor-bladefist>
+	<if WinDoesNotExist perenial-bladefist_1ww1>
+	<LaunchAndRename Local perenial-bladefist_1ww1 thisismysecondfortymultib.ox@yahoo.com iso2tope 487 364 -4 1440 perenial-bladefist>
+	<if WinDoesNotExist handywithit-bladefist_1ww1>
+	<LaunchAndRename Local handywithit-bladefist_1ww1 thisismysecondfort.ymultibox@yahoo.com iso2tope 487 364 2396 1440 handywithit-bladefist>
+	<if WinDoesNotExist sevener-bladefist_1ww1>
+	<LaunchAndRename Local sevener-bladefist_1ww1 thisismysecondforty.multibox@yahoo.com iso2tope 487 364 2876 1440 sevener-bladefist>
 
   <Hotkey ScrollLockOn Alt Ctrl m>
-	<if WinDoesNotExist flashmob-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist shivlt-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist healmesucka-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist nowudunit-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist notbanned-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist inyoface-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist havingfun-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist everland-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist defconsix-bladefist_1rue> <LaunchWow Local>
-	<if WinDoesNotExist skinnygirl-bladefist_1rue> <LaunchWow Local>
+	<if WinDoesNotExist turning-bladefist_1ww1> <LaunchWow Local>
 	<if WinDoesNotExist chaostard-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist wideninggyre-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist thefalcon-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist allypally-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist tolnfinity-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist arrowkneeuno-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist cannothold-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist mypetsux-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist smirky-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist hunterhead-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist whatsupsucka-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist thecenter-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist skanty-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist bromedown-bladefist_1rue> <LaunchWow Local>
+	<if WinDoesNotExist bowwy-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist unfounded-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist bowya-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist nolnjury-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist acceptabad-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist cheated-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist streamist-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist stanleey-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist slamhandle-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist glor-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist perenial-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist handywithit-bladefist_1ww1> <LaunchWow Local>
+	<if WinDoesNotExist sevener-bladefist_1ww1> <LaunchWow Local>
 	//<wait 4500>
 	//<DoHotKey HotKey ScrollLockOn Ctrl Alt K>
 	//<wait 180>
@@ -147,221 +215,772 @@
 	//<wait 350>
 	//<DoHotKey HotKey ScrollLockOn Shift Ctrl m>
   <Hotkey ScrollLockOn Alt Ctrl K>
-	<if WinDoesNotExist flashmob-bladefist_1rue> <RenameWindow Local flashmob-bladefist_1rue>
-	<if WinDoesNotExist shivlt-bladefist_1rue> <RenameWindow Local shivlt-bladefist_1rue>
-	<if WinDoesNotExist healmesucka-bladefist_1rue> <RenameWindow Local healmesucka-bladefist_1rue>
-	<if WinDoesNotExist nowudunit-bladefist_1rue> <RenameWindow Local nowudunit-bladefist_1rue>
-	<if WinDoesNotExist notbanned-bladefist_1rue> <RenameWindow Local notbanned-bladefist_1rue>
-	<if WinDoesNotExist inyoface-bladefist_1rue> <RenameWindow Local inyoface-bladefist_1rue>
-	<if WinDoesNotExist havingfun-bladefist_1rue> <RenameWindow Local havingfun-bladefist_1rue>
-	<if WinDoesNotExist everland-bladefist_1rue> <RenameWindow Local everland-bladefist_1rue>
-	<if WinDoesNotExist defconsix-bladefist_1rue> <RenameWindow Local defconsix-bladefist_1rue>
-	<if WinDoesNotExist skinnygirl-bladefist_1rue> <RenameWindow Local skinnygirl-bladefist_1rue>
+	<if WinDoesNotExist turning-bladefist_1ww1> <RenameWindow Local turning-bladefist_1ww1>
 	<if WinDoesNotExist chaostard-bladefist_1ww1> <RenameWindow Local chaostard-bladefist_1ww1>
+	<if WinDoesNotExist wideninggyre-bladefist_1ww1> <RenameWindow Local wideninggyre-bladefist_1ww1>
+	<if WinDoesNotExist thefalcon-bladefist_1ww1> <RenameWindow Local thefalcon-bladefist_1ww1>
+	<if WinDoesNotExist allypally-bladefist_1ww1> <RenameWindow Local allypally-bladefist_1ww1>
+	<if WinDoesNotExist tolnfinity-bladefist_1ww1> <RenameWindow Local tolnfinity-bladefist_1ww1>
+	<if WinDoesNotExist arrowkneeuno-bladefist_1ww1> <RenameWindow Local arrowkneeuno-bladefist_1ww1>
+	<if WinDoesNotExist cannothold-bladefist_1ww1> <RenameWindow Local cannothold-bladefist_1ww1>
+	<if WinDoesNotExist mypetsux-bladefist_1ww1> <RenameWindow Local mypetsux-bladefist_1ww1>
+	<if WinDoesNotExist smirky-bladefist_1ww1> <RenameWindow Local smirky-bladefist_1ww1>
+	<if WinDoesNotExist hunterhead-bladefist_1ww1> <RenameWindow Local hunterhead-bladefist_1ww1>
+	<if WinDoesNotExist whatsupsucka-bladefist_1ww1> <RenameWindow Local whatsupsucka-bladefist_1ww1>
+	<if WinDoesNotExist thecenter-bladefist_1ww1> <RenameWindow Local thecenter-bladefist_1ww1>
+	<if WinDoesNotExist skanty-bladefist_1ww1> <RenameWindow Local skanty-bladefist_1ww1>
+	<if WinDoesNotExist bromedown-bladefist_1rue> <RenameWindow Local bromedown-bladefist_1rue>
+	<if WinDoesNotExist bowwy-bladefist_1ww1> <RenameWindow Local bowwy-bladefist_1ww1>
+	<if WinDoesNotExist unfounded-bladefist_1ww1> <RenameWindow Local unfounded-bladefist_1ww1>
+	<if WinDoesNotExist bowya-bladefist_1ww1> <RenameWindow Local bowya-bladefist_1ww1>
+	<if WinDoesNotExist nolnjury-bladefist_1ww1> <RenameWindow Local nolnjury-bladefist_1ww1>
+	<if WinDoesNotExist acceptabad-bladefist_1ww1> <RenameWindow Local acceptabad-bladefist_1ww1>
+	<if WinDoesNotExist cheated-bladefist_1ww1> <RenameWindow Local cheated-bladefist_1ww1>
+	<if WinDoesNotExist streamist-bladefist_1ww1> <RenameWindow Local streamist-bladefist_1ww1>
+	<if WinDoesNotExist stanleey-bladefist_1ww1> <RenameWindow Local stanleey-bladefist_1ww1>
+	<if WinDoesNotExist slamhandle-bladefist_1ww1> <RenameWindow Local slamhandle-bladefist_1ww1>
+	<if WinDoesNotExist glor-bladefist_1ww1> <RenameWindow Local glor-bladefist_1ww1>
+	<if WinDoesNotExist perenial-bladefist_1ww1> <RenameWindow Local perenial-bladefist_1ww1>
+	<if WinDoesNotExist handywithit-bladefist_1ww1> <RenameWindow Local handywithit-bladefist_1ww1>
+	<if WinDoesNotExist sevener-bladefist_1ww1> <RenameWindow Local sevener-bladefist_1ww1>
 
   <Hotkey ScrollLockOn Alt Ctrl J>
-	<AccInfoWindowPosWindowSize Local flashmob-bladefist_1rue mbrogbash01@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local shivlt-bladefist_1rue mbrogbash02@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local healmesucka-bladefist_1rue mbrogbash03@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local nowudunit-bladefist_1rue mbrogbash04@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local notbanned-bladefist_1rue mbrogbash05@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local inyoface-bladefist_1rue mbrogbash06@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local havingfun-bladefist_1rue mbrogbash07@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local everland-bladefist_1rue mbrogbash08@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local defconsix-bladefist_1rue mbrogbash09@maildrop.cc iso2tope>
-	<AccInfoWindowPosWindowSize Local skinnygirl-bladefist_1rue mbrogbash10@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local turning-bladefist_1ww1 secondfsmbraid05@maildrop.cc iso2tope>
 	<AccInfoWindowPosWindowSize Local chaostard-bladefist_1ww1 myclassicmb03@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local wideninggyre-bladefist_1ww1 thisismyseco.ndfortymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local thefalcon-bladefist_1ww1 thisismysecondfor.tymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local allypally-bladefist_1ww1 ultr.amultiboxtest@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local tolnfinity-bladefist_1ww1 furyswipes.bloons4@gmail.com Iso222tope>
+	<AccInfoWindowPosWindowSize Local arrowkneeuno-bladefist_1ww1 ultramultiboxtes.t02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local cannothold-bladefist_1ww1 thisismysecond.fortymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local mypetsux-bladefist_1ww1 ultramultiboxtest.02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local smirky-bladefist_1ww1 ultramultiboxtes.t03@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local hunterhead-bladefist_1ww1 ultramultiboxt.est02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local whatsupsucka-bladefist_1ww1 ultramulti.box.test03@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local thecenter-bladefist_1ww1 thisismysecon.dfortymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local skanty-bladefist_1ww1 ultramultiboxtest0.3@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local bromedown-bladefist_1rue mbrogthrash04@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local bowwy-bladefist_1ww1 ultramultiboxte.st02@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local unfounded-bladefist_1ww1 ultramultiboxte.st03@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local bowya-bladefist_1ww1 ultramultiboxtest0.2@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local nolnjury-bladefist_1ww1 ultramultiboxtest03@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local acceptabad-bladefist_1ww1 ultramultiboxt.est03@gmail.com iso2tope>
+	<AccInfoWindowPosWindowSize Local cheated-bladefist_1ww1 secondfsmbraid03@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local streamist-bladefist_1ww1 secondfsmbraid04@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local stanleey-bladefist_1ww1 thisismysecondf.ortymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local slamhandle-bladefist_1ww1 thisismysecondfortymu.ltibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local glor-bladefist_1ww1 secondfsmbraid02@maildrop.cc iso2tope>
+	<AccInfoWindowPosWindowSize Local perenial-bladefist_1ww1 thisismysecondfortymultib.ox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local handywithit-bladefist_1ww1 thisismysecondfort.ymultibox@yahoo.com iso2tope>
+	<AccInfoWindowPosWindowSize Local sevener-bladefist_1ww1 thisismysecondforty.multibox@yahoo.com iso2tope>
 
   <Hotkey ScrollLockOn Shift Ctrl m>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 487 364 3356 720>
+	<ResetWindowPosition Local streamist-bladefist_1ww1 487 364 -4 1080>
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 487 364 2396 1080>
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 487 364 2876 1080>
+	<ResetWindowPosition Local glor-bladefist_1ww1 487 364 3356 1080>
+	<ResetWindowPosition Local perenial-bladefist_1ww1 487 364 -4 1440>
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 487 364 2396 1440>
+	<ResetWindowPosition Local sevener-bladefist_1ww1 487 364 2876 1440>
   <Hotkey ScrollLockOn Shift Alt m>
-	<TargetWin flashmob-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin shivlt-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin healmesucka-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin nowudunit-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin notbanned-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin inyoface-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin havingfun-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin everland-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin defconsix-bladefist_1rue>
-	<RemoveWinFrame>
-	<TargetWin skinnygirl-bladefist_1rue>
+	<TargetWin turning-bladefist_1ww1>
 	<RemoveWinFrame>
 	<TargetWin chaostard-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin wideninggyre-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin thefalcon-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin allypally-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin tolnfinity-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin arrowkneeuno-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin cannothold-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin mypetsux-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin smirky-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin hunterhead-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin whatsupsucka-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin thecenter-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin skanty-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin bromedown-bladefist_1rue>
+	<RemoveWinFrame>
+	<TargetWin bowwy-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin unfounded-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin bowya-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin nolnjury-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin acceptabad-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin cheated-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin streamist-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin stanleey-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin slamhandle-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin glor-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin perenial-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin handywithit-bladefist_1ww1>
+	<RemoveWinFrame>
+	<TargetWin sevener-bladefist_1ww1>
 	<RemoveWinFrame>
 
 // This next group of hotkeys is how you swap windows with the keypad numbers.
   <Hotkey ScrollLockOn NumpadEnd>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadDown>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadPgDn>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadLeft>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn Clear>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadRight>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadHome>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadUp>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadPgUp>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn NumpadInsert>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 1560 1090 -8 1080>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 805 570 3037 1548>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
   <Hotkey ScrollLockOn Shift NumpadEnd>
 	<SaveMousePos>
-	<ResetWindowPosition Local flashmob-bladefist_1rue 805 570 3037 1548>
-	<ResetWindowPosition Local shivlt-bladefist_1rue 765 549 1537 1080>
-	<ResetWindowPosition Local healmesucka-bladefist_1rue 765 549 1537 1620>
-	<ResetWindowPosition Local nowudunit-bladefist_1rue 765 549 2287 1080>
-	<ResetWindowPosition Local notbanned-bladefist_1rue 765 549 2287 1620>
-	<ResetWindowPosition Local inyoface-bladefist_1rue 1560 1090 -8 0>
-	<ResetWindowPosition Local havingfun-bladefist_1rue 765 549 1537 0>
-	<ResetWindowPosition Local everland-bladefist_1rue 765 549 1537 540>
-	<ResetWindowPosition Local defconsix-bladefist_1rue 765 549 2287 0>
-	<ResetWindowPosition Local skinnygirl-bladefist_1rue 765 549 2287 540>
-	<ResetWindowPosition Local chaostard-bladefist_1ww1 1560 1090 -8 1080>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadDown>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadPgDn>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadLeft>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift Clear>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2396 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 1927 1440 476 720>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadRight>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadHome>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadPgUp>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
+	<RestoreMousePos>
+  <Hotkey ScrollLockOn Shift NumpadInsert>
+	<SaveMousePos>
+	<ResetWindowPosition Local turning-bladefist_1ww1 487 364 2876 720>
+	<ResetWindowPosition Local chaostard-bladefist_1ww1 487 364 -4 0>
+	<ResetWindowPosition Local wideninggyre-bladefist_1ww1 487 364 476 0>
+	<ResetWindowPosition Local thefalcon-bladefist_1ww1 487 364 956 0>
+	<ResetWindowPosition Local allypally-bladefist_1ww1 487 364 1436 0>
+	<ResetWindowPosition Local tolnfinity-bladefist_1ww1 487 364 1916 0>
+	<ResetWindowPosition Local arrowkneeuno-bladefist_1ww1 487 364 2396 0>
+	<ResetWindowPosition Local cannothold-bladefist_1ww1 487 364 2876 0>
+	<ResetWindowPosition Local mypetsux-bladefist_1ww1 487 364 3356 0>
+	<ResetWindowPosition Local smirky-bladefist_1ww1 487 364 -4 360>
+	<ResetWindowPosition Local hunterhead-bladefist_1ww1 487 364 476 360>
+	<ResetWindowPosition Local whatsupsucka-bladefist_1ww1 487 364 956 360>
+	<ResetWindowPosition Local thecenter-bladefist_1ww1 487 364 1436 360>
+	<ResetWindowPosition Local skanty-bladefist_1ww1 487 364 1916 360>
+	<ResetWindowPosition Local bromedown-bladefist_1rue 487 364 2396 360>
+	<ResetWindowPosition Local bowwy-bladefist_1ww1 487 364 2876 360>
+	<ResetWindowPosition Local unfounded-bladefist_1ww1 487 364 3356 360>
+	<ResetWindowPosition Local bowya-bladefist_1ww1 487 364 -4 720>
+	<ResetWindowPosition Local nolnjury-bladefist_1ww1 487 364 2396 720>
+	<ResetWindowPosition Local acceptabad-bladefist_1ww1 1927 1440 476 720>
+	<ResetWindowPosition Local cheated-bladefist_1ww1 >
+	<ResetWindowPosition Local streamist-bladefist_1ww1 >
+	<ResetWindowPosition Local stanleey-bladefist_1ww1 >
+	<ResetWindowPosition Local slamhandle-bladefist_1ww1 >
+	<ResetWindowPosition Local glor-bladefist_1ww1 >
+	<ResetWindowPosition Local perenial-bladefist_1ww1 >
+	<ResetWindowPosition Local handywithit-bladefist_1ww1 >
+	<ResetWindowPosition Local sevener-bladefist_1ww1 >
 	<RestoreMousePos>
 
   <Hotkey ScrollLockOn Numpad1>
@@ -407,14 +1026,14 @@
 
 // This is the hotkey that closes all windows-- Ctrl-Alt-o (letter O)	
   <Hotkey ScrollLockOn Alt Ctrl o>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<CloseWin>
 	
 
 // This is a special hotkey I made for reloading all your user interfaces in wow.
 // Ctrl-L (case never matters) will enter /reload into each window
   <Hotkey ScrollLockOn Ctrl l>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key enter>
 	<Wait 250>
 	<Key divide>
@@ -426,7 +1045,7 @@
 // This is the true magic...this runs /init in each window to set up bindings and macros!
 // Ctrl-i
   <Hotkey ScrollLockOn Ctrl i>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key enter>
 	<Wait 250>
 	<Key divide>
@@ -438,13 +1057,66 @@
 // This sends enter to each window to log in
 // Ctrl-i
   <Hotkey ScrollLockOn Ctrl e>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key enter>
-
+	<SendLabel w0> <Key enter>
+	<Wait 500>
+	<SendLabel w1> <Key enter>
+	<Wait 500>
+	<SendLabel w2> <Key enter>
+	<Wait 500>
+	<SendLabel w3> <Key enter>
+	<Wait 500>
+	<SendLabel w4> <Key enter>
+	<Wait 500>
+	<SendLabel w5> <Key enter>
+	<Wait 500>
+	<SendLabel w6> <Key enter>
+	<Wait 500>
+	<SendLabel w7> <Key enter>
+	<Wait 500>
+	<SendLabel w8> <Key enter>
+	<Wait 500>
+	<SendLabel w9> <Key enter>
+	<Wait 500>
+	<SendLabel w10> <Key enter>
+	<Wait 500>
+	<SendLabel w11> <Key enter>
+	<Wait 500>
+	<SendLabel w12> <Key enter>
+	<Wait 500>
+	<SendLabel w13> <Key enter>
+	<Wait 500>
+	<SendLabel w14> <Key enter>
+	<Wait 500>
+	<SendLabel w15> <Key enter>
+	<Wait 500>
+	<SendLabel w16> <Key enter>
+	<Wait 500>
+	<SendLabel w17> <Key enter>
+	<Wait 500>
+	<SendLabel w18> <Key enter>
+	<Wait 500>
+	<SendLabel w19> <Key enter>
+	<Wait 1000>
+	<SendLabel w20> <Key enter>
+	<Wait 1000>
+	<SendLabel w21> <Key enter>
+	<Wait 1000>
+	<SendLabel w22> <Key enter>
+	<Wait 1000>
+	<SendLabel w23> <Key enter>
+	<Wait 1000>
+	<SendLabel w24> <Key enter>
+	<Wait 1000>
+	<SendLabel w25> <Key enter>
+	<Wait 1000>
+	<SendLabel w26> <Key enter>
+	<Wait 1000>
+	<SendLabel w27> <Key enter>
+	<Wait 1000>
 // This sends hide multiwin5 (shift -) to each window
 // Ctrl-i
   <Hotkey ScrollLockOn ctrl h>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift minus>
 
 //-----------------------------------------------------------
@@ -455,17 +1127,17 @@
   <UseKeyAsModifier oem3>
   <Hotkey ScrollLockOn oem3 LButton, RButton, Button4, Button5>
       <SaveMousePos>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
       <ClickMouse RButton>
       <ClickMouse %TriggerMainKey%>
       <RestoreMousePos>
 
 <Hotkey ScrollLockOn LButton, MButton, RButton, Button4, Button5>
 	<Passthrough>
-	<If MouseIsOverWindowRect flashmob-bladefist_1rue 105 260 65 330 >
+	<If MouseIsOverWindowRect turning-bladefist_1ww1 105 260 65 330 >
 	<SaveMousePos>
 	<Wait 5>
-	<SendLabel w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<ClickMouse Scale %Trigger%>
 	<Wait 5>
 	<RestoreMousePos>
@@ -477,7 +1149,7 @@
 // The word %Trigger% gets replaced with whatever key you clicked.
 //-----------------------------------------------------------
   <Hotkey ScrollLockOn A-Z, 1-9, Shift, Ctrl, Alt, Plus, Minus, Esc , Divide, F1-F12 except 1-6,E,F,Q,H, W, A, S, D, R, T, Y, I, U, J, V>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key %Trigger%>
 
 //-----------------------------------------------------------
@@ -491,23 +1163,33 @@
 //-----------------------------------------------------------
   <MovementHotkey ScrollLockOn space, up, down, left, right,e,q>
 	<Passthrough>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key %Trigger%>
 
 //You can even make special movement keys for just some of your toons.
+//Hunter backup
+  <MovementHotkey ScrollLockOn T>
+	<Sendlabel w5,w6,w8,w10,w15,w17,w18>
+	<Key Down>
+
 //Melee backup
   <MovementHotkey ScrollLockOn v>
-	<Sendlabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
+	<Sendlabel w14>
 	<Key Down>
 
 //Melee forward
   <MovementHotkey ScrollLockOn r>
-	<Sendlabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
+	<Sendlabel w14>
 	<Key Up>
+
+//Healer backup
+  <MovementHotkey ScrollLockOn Y>
+	<Sendlabel w4>
+	<Key Down>
 
 //Mana backup
   <MovementHotkey ScrollLockOn H>
-	<Sendlabel w10>
+	<Sendlabel w1,w4,w7,w9,w11,w12,w13,w16,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Down>
 
 //-------------------------------------------------------------
@@ -525,123 +1207,276 @@
 // I do it this way so you only have to change one macro to change your main.
 // Don't put assist in your dps macros.
   <Hotkey ScrollLockOn Alt 1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 1>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f12>
 	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f4>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f5>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f6>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f7>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f8>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f9>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f11>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f12>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
 
 // Same magic for 2-6
   <Hotkey ScrollLockOn 2-6>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key %Trigger%>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f12>
-	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
   <Hotkey ScrollLockOn 1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key 1>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w14>
 	<Key shift f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
-	<Key shift f12>
 	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9>
+	<SendLabel w14>
+	<Key shift f4>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f5>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f6>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f7>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f8>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f9>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f11>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f12>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w14>
 	<Key shift f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w14>
+	<Key shift f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w14>
+	<Key shift f30>
 
 // Now--ANY KEY that uses a HKN MODIFIER (alt/ctrl/shift) WILL NOT WORK.
 // UNLESS.......you define it!
   <Hotkey ScrollLockOn Alt 2>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 2> 
   <Hotkey ScrollLockOn Alt 3>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 3> 
 
 // Now, alt-4 is a special key for 5-minute multiboxing.
@@ -650,62 +1485,147 @@
 // YOU WILL USE ALT-4 CONSTANTLY. GET USED TO IT, SUCKAS.
   <Hotkey ScrollLockOn Alt 4>
 	<ResetToggles>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f3>
 	<Key ctrl f3>
 	<endif>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f4>
 	<Key ctrl f4>
 	<endif>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f5>
 	<Key ctrl f5>
 	<endif>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f6>
 	<Key ctrl f6>
 	<endif>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f7>
 	<Key ctrl f7>
 	<endif>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f8>
 	<Key ctrl f8>
 	<endif>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f9>
 	<Key ctrl f9>
 	<endif>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f10>
 	<Key ctrl f10>
 	<endif>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f11>
 	<Key ctrl f11>
 	<endif>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f12>
 	<Key ctrl f12>
 	<endif>
-	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key shift f13>
 	<Key ctrl f13>
 	<endif>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f14>
+	<Key ctrl f14>
+	<endif>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f15>
+	<Key ctrl f15>
+	<endif>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f16>
+	<Key ctrl f16>
+	<endif>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f17>
+	<Key ctrl f17>
+	<endif>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f18>
+	<Key ctrl f18>
+	<endif>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f19>
+	<Key ctrl f19>
+	<endif>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f20>
+	<Key ctrl f20>
+	<endif>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f21>
+	<Key ctrl f21>
+	<endif>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f22>
+	<Key ctrl f22>
+	<endif>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f23>
+	<Key ctrl f23>
+	<endif>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f24>
+	<Key ctrl f24>
+	<endif>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f25>
+	<Key ctrl f25>
+	<endif>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f26>
+	<Key ctrl f26>
+	<endif>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f27>
+	<Key ctrl f27>
+	<endif>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f28>
+	<Key ctrl f28>
+	<endif>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f29>
+	<Key ctrl f29>
+	<endif>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key shift f30>
+	<Key ctrl f30>
+	<endif>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 4>
 
 // F is my favorite new key. It is mapped to "Interact with target" keybind.
@@ -715,49 +1635,117 @@
 // ...you get the idea.
   <Hotkey ScrollLockOn f>
 	<toggle>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
 	<Key f>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow chaostard-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f4>
 	<Key f>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f5>
 	<Key f>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f6>
 	<Key f>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f7>
 	<Key f>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f8>
 	<Key f>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f9>
 	<Key f>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f10>
 	<Key f>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f11>
 	<Key f>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f12>
 	<Key f>
-	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<Key f>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<Key f>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<Key f>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<Key f>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<Key f>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<Key f>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<Key f>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<Key f>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<Key f>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<Key f>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<Key f>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<Key f>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<Key f>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<Key f>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<Key f>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<Key f>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<Key f>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
 	<Key f>
 
 // Awesome magic here. I put an interrupt skill in shift-3 action bar.
@@ -765,39 +1753,90 @@
 // (after focusing on main's target on the first click)
   <Hotkey ScrollLockOn Shift 3>
 	<Toggle>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f12>
 	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f4>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f5>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f6>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f7>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f8>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f9>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f11>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f12>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
 	<Toggle>
 	<SendLabel w0>
 	<Key Shift 3>
@@ -831,213 +1870,366 @@
 	<Toggle>
 	<SendLabel w10>
 	<Key Shift 3>
+	<Toggle>
+	<SendLabel w11>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w12>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w13>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w14>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w15>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w16>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w17>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w18>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w19>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w20>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w21>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w22>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w23>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w24>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w25>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w26>
+	<Key Shift 3>
+	<Toggle>
+	<SendLabel w27>
+	<Key Shift 3>
 
 // Shift-4 is also a skill that focuses tank target.
   <Hotkey ScrollLockOn Shift 4> 
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f12>
 	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f4>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f5>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f6>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f7>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f8>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f9>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f11>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f12>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
 	<Endif>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 4>
 
 // More boring modifier maps--has to be done
   <Hotkey ScrollLockOn Alt 5>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 5> 
   <Hotkey ScrollLockOn Alt 6>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 6> 
   <Hotkey ScrollLockOn Alt 7>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 7> 
   <Hotkey ScrollLockOn Alt 8>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 8> 
   <Hotkey ScrollLockOn Alt 9>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 9> 
   <Hotkey ScrollLockOn Alt 0>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt 0> 
   <Hotkey ScrollLockOn Alt Plus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt Plus> 
   <Hotkey ScrollLockOn Alt Minus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt Minus> 
 // Special one for ctrl-alt-1 if you ever need it.
   <Hotkey ScrollLockOn Ctrl Alt 1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl Alt 1>
   <Hotkey ScrollLockOn Alt F1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Alt F1>
   <Hotkey ScrollLockOn Ctrl 1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 1>
   <Hotkey ScrollLockOn Ctrl 2> 
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 2> 
   <Hotkey ScrollLockOn Ctrl 3>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 3> 
   <Hotkey ScrollLockOn Ctrl 4>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 4> 
   <Hotkey ScrollLockOn Ctrl 5>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 5> 
   <Hotkey ScrollLockOn Ctrl 6>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 6> 
   <Hotkey ScrollLockOn Ctrl 7>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 7> 
   <Hotkey ScrollLockOn Ctrl 8>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 8> 
   <Hotkey ScrollLockOn Ctrl 9>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 9> 
   <Hotkey ScrollLockOn Ctrl 0>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl 0> 
   <Hotkey ScrollLockOn Ctrl Plus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl Plus> 
   <Hotkey ScrollLockOn Ctrl Minus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Ctrl Minus> 
   <Hotkey ScrollLockOn Shift 1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 1>
 // Shift 2 is the polymorph button. First click is assist tank, second click is poly
   <Hotkey ScrollLockOn Shift 2>
 	<toggle>
-	<if MouseIsOverWindow flashmob-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<if MouseIsOverWindow turning-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f3>
-	<if MouseIsOverWindow shivlt-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f4>
-	<if MouseIsOverWindow healmesucka-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f5>
-	<if MouseIsOverWindow nowudunit-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f6>
-	<if MouseIsOverWindow notbanned-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f7>
-	<if MouseIsOverWindow inyoface-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f8>
-	<if MouseIsOverWindow havingfun-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f9>
-	<if MouseIsOverWindow everland-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f10>
-	<if MouseIsOverWindow defconsix-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f11>
-	<if MouseIsOverWindow skinnygirl-bladefist_1rue>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
-	<Key ctrl f12>
 	<if MouseIsOverWindow chaostard-bladefist_1ww1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f4>
+	<if MouseIsOverWindow wideninggyre-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f5>
+	<if MouseIsOverWindow thefalcon-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f6>
+	<if MouseIsOverWindow allypally-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f7>
+	<if MouseIsOverWindow tolnfinity-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f8>
+	<if MouseIsOverWindow arrowkneeuno-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f9>
+	<if MouseIsOverWindow cannothold-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f10>
+	<if MouseIsOverWindow mypetsux-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f11>
+	<if MouseIsOverWindow smirky-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f12>
+	<if MouseIsOverWindow hunterhead-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key ctrl f13>
+	<if MouseIsOverWindow whatsupsucka-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f14>
+	<if MouseIsOverWindow thecenter-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f15>
+	<if MouseIsOverWindow skanty-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f16>
+	<if MouseIsOverWindow bromedown-bladefist_1rue>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f17>
+	<if MouseIsOverWindow bowwy-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f18>
+	<if MouseIsOverWindow unfounded-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f19>
+	<if MouseIsOverWindow bowya-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f20>
+	<if MouseIsOverWindow nolnjury-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f21>
+	<if MouseIsOverWindow acceptabad-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f22>
+	<if MouseIsOverWindow cheated-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f23>
+	<if MouseIsOverWindow streamist-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f24>
+	<if MouseIsOverWindow stanleey-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f25>
+	<if MouseIsOverWindow slamhandle-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f26>
+	<if MouseIsOverWindow glor-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f27>
+	<if MouseIsOverWindow perenial-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f28>
+	<if MouseIsOverWindow handywithit-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f29>
+	<if MouseIsOverWindow sevener-bladefist_1ww1>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
+	<Key ctrl f30>
 	<toggle>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 2> 
   <Hotkey ScrollLockOn Shift 5>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 5> 
   <Hotkey ScrollLockOn Shift 6>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 6> 
   <Hotkey ScrollLockOn Shift 7>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 7> 
   <Hotkey ScrollLockOn Shift 8>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 8> 
   <Hotkey ScrollLockOn Shift 9>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 9> 
   <Hotkey ScrollLockOn Shift 0>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift 0> 
   <Hotkey ScrollLockOn Shift Plus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift Plus> 
   <Hotkey ScrollLockOn Shift Minus>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift Minus> 
   <Hotkey ScrollLockOn Shift F1>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F1>
   <Hotkey ScrollLockOn Shift F2>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F2> 
   <Hotkey ScrollLockOn Shift F3>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F3> 
   <Hotkey ScrollLockOn Shift F4>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F4> 
   <Hotkey ScrollLockOn Shift F5>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F5> 
   <Hotkey ScrollLockOn Shift F6>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F6> 
   <Hotkey ScrollLockOn Shift F7>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F7> 
   <Hotkey ScrollLockOn Shift F8>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F8> 
   <Hotkey ScrollLockOn Shift F9>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F9> 
   <Hotkey ScrollLockOn Shift F10>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F10> 
   <Hotkey ScrollLockOn Shift F11>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F11> 
   <Hotkey ScrollLockOn Shift F12>
-	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10>
+	<SendLabel w0,w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15,w16,w17,w18,w19,w20,w21,w22,w23,w24,w25,w26,w27>
 	<Key Shift F12> 

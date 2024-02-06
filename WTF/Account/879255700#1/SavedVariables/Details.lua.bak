@@ -173,14 +173,14 @@ _detalhes_global = {
 			["totalCooldownTime"] = 0,
 		},
 		[270827] = {
-			["lastCombatId"] = 0,
+			["lastCombatId"] = 452,
 			["maxTime"] = 0,
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
-			["lastPlayerName"] = "",
+			["lastPlayerName"] = "Springvalley",
 			["minTime"] = 9999999,
-			["lastActivation"] = 0,
+			["lastActivation"] = 1706939615.524,
 			["totalCooldownTime"] = 0,
 		},
 		[421996] = {
@@ -1102,20 +1102,20 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 455.9998779296875,
+		["blockcontainer_width"] = 456.0000610351563,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 429.0000915527344,
+		["spellcontainer_width"] = 428.9999389648438,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 139.9999694824219,
+		["phasecontainer_height"] = 140.0000305175781,
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 289.9999389648438,
+		["phasecontainer_width"] = 289.9999694824219,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1142,13 +1142,13 @@ _detalhes_global = {
 		["blockspell_spark_show"] = true,
 		["spellcontainer_header_fontsize"] = 10,
 		["blockcontainer_islocked"] = true,
-		["targetcontainer_width"] = 429.0000915527344,
+		["targetcontainer_width"] = 428.9999389648438,
 		["blockspell_spark_offset"] = -1,
 		["nest_players_spells_with_same_name"] = true,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["nest_pet_spells_by_name"] = false,
-		["targetcontainer_height"] = 139.9999694824219,
+		["targetcontainer_height"] = 140.0000305175781,
 		["statusbar_alpha"] = 0.7,
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
@@ -1168,12 +1168,12 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 385,
+	["combat_id_global"] = 501,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 0.0002593994140625,
-		["x"] = 4.57763671875e-05,
+		["y"] = 0.0001983642578125,
+		["x"] = 0.0002899169921875,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
@@ -1183,6 +1183,82 @@ _detalhes_global = {
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 1704160546,
 	["npcid_pool"] = {
+		[46694] = "Dustbelcher Initiate",
+		[5840] = "Dark Iron Steamsmith",
+		[42043] = "Ebon Slavehunter",
+		[48016] = "Unbound Emberfiend",
+		[2559] = "Highland Strider",
+		[46917] = "Darkflight Flameblade",
+		[5850] = "Blazing Elemental",
+		[1336] = "Mountaineer Zwarn",
+		[8338] = "Dark Iron Marksman",
+		[5853] = "Tempered War Golem",
+		[46695] = "Dustbelcher Trainee",
+		[5854] = "Heavy War Golem",
+		[5855] = "Magma Elemental",
+		[5856] = "Glassweb Spider",
+		[2468] = "Mountaineer Thar",
+		[5857] = "Searing Lava Spider",
+		[5858] = "Greater Lava Spider",
+		[214483] = "Strange Winged Goblin",
+		[1195] = "Forest Lurker",
+		[4844] = "Shadowforge Surveyor",
+		[45358] = "Bound Fleshburner",
+		[2725] = "Scalding Whelp",
+		[46914] = "Raging Whelp",
+		[47553] = "Rasha'krak",
+		[41080] = "Dragonmaw Scout",
+		[2728] = "Feral Crag Coyote",
+		[45807] = "Sawtooth Crocolisk",
+		[2729] = "Elder Crag Coyote",
+		[47724] = "Twilight Windwarper",
+		[47728] = "Storm Vortex",
+		[2730] = "Rabid Crag Coyote",
+		[48248] = "Sorrow Venomspitter",
+		[46859] = "Velarok the Annihilator",
+		[2731] = "Ridge Stalker",
+		[42041] = "Dragonmaw Whelpstealer",
+		[1342] = "Mountaineer Rockgar",
+		[2732] = "Ridge Huntress",
+		[45359] = "Twilight Captivator",
+		[1279] = "Mountaineer Flint",
+		[51848] = "Thelsamar Mountaineer",
+		[858] = "Sorrow Spinner",
+		[2734] = "Ridge Stalker Patriarch",
+		[46915] = "Darkflight Soldier",
+		[45788] = "Twilight Wyrmkiller",
+		[46693] = "Dustbelcher Instructor",
+		[212517] = "Crown Alchemist",
+		[1186] = "Black Bear",
+		[46153] = "Highland Worg",
+		[26125] = "Gravelcaller <Xantora-Skywall>",
+		[45825] = "Swampstrider",
+		[5852] = "Inferno Elemental",
+		[7032] = "Greater Obsidian Elemental",
+		[45967] = "Marshfin Murkdweller",
+		[45336] = "Burning Invader",
+		[48037] = "Chiseled Golem",
+		[42042] = "Ebon Whelp",
+		[2518] = "Mountaineer Swarth",
+		[7035] = "Firegut Brute",
+		[2105] = "Mountaineer Dokkin",
+		[7036] = "Thaurissan Spy",
+		[46918] = "Darkflight Shadowspeaker",
+		[7037] = "Thaurissan Firewalker",
+		[46146] = "Stagalbog Serpent",
+		[46773] = "Explorers' League Excavator",
+		[41074] = "Mountaineer Grugelm",
+		[7039] = "War Reaver",
+		[9697] = "Giant Ember Worg",
+		[46916] = "Nyxondra's Broodling",
+		[9318] = "Incendosaur",
+		[7041] = "Black Wyrmkin",
+		[41075] = "Mountaineer Rharen",
+		[48289] = "Minyoth",
+		[7040] = "Black Dragonspawn",
+		[14356] = "Sawfin Frenzy",
+		[48291] = "Tugnar Goremaw",
+		[1276] = "Mountaineer Brokk",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1192,6 +1268,241 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
+		10, -- [1]
+		3, -- [2]
+		[51637] = 4,
+		[62124] = 2,
+		[48107] = 8,
+		[260286] = 3,
+		[117952] = 10,
+		[53] = 4,
+		[6673] = 1,
+		[185763] = 4,
+		[280615] = 7,
+		[268439] = 11,
+		[66] = 8,
+		[586] = 5,
+		[214802] = 3,
+		[53351] = 3,
+		[184362] = 1,
+		[386124] = 9,
+		[275773] = 2,
+		[214803] = 3,
+		[17962] = 9,
+		[81297] = 2,
+		[108853] = 8,
+		[392883] = 10,
+		[387847] = 9,
+		[344179] = 7,
+		[52212] = 6,
+		[5938] = 4,
+		[589] = 5,
+		[20572] = 4,
+		[190357] = 8,
+		[77489] = 5,
+		[106830] = 11,
+		[200175] = 12,
+		[148187] = 10,
+		[315496] = 4,
+		[1943] = 4,
+		[116680] = 10,
+		[386196] = 1,
+		[214807] = 3,
+		[50842] = 6,
+		[344955] = 6,
+		[96103] = 1,
+		[61295] = 7,
+		[281265] = 5,
+		[162243] = 12,
+		[195707] = 1,
+		[194153] = 11,
+		[153640] = 8,
+		[193315] = 4,
+		[113780] = 4,
+		[243241] = 5,
+		[11426] = 8,
+		[319836] = 8,
+		[132157] = 5,
+		[8676] = 4,
+		[32612] = 8,
+		[84721] = 8,
+		[49966] = 1,
+		[116267] = 8,
+		[214459] = 4,
+		[55090] = 6,
+		[75] = 3,
+		[204598] = 12,
+		[1822] = 11,
+		[5217] = 11,
+		[56641] = 3,
+		[32223] = 2,
+		[387096] = 9,
+		[49184] = 6,
+		[263140] = 3,
+		[259014] = 3,
+		[33758] = 3,
+		[193455] = 3,
+		[34769] = 2,
+		[337819] = 12,
+		[188196] = 7,
+		[194509] = 5,
+		[596] = 5,
+		[382445] = 8,
+		[5487] = 11,
+		[43265] = 6,
+		[980] = 9,
+		[25912] = 2,
+		[348] = 9,
+		[235313] = 8,
+		[10444] = 7,
+		[415091] = 2,
+		[257541] = 8,
+		[34914] = 5,
+		[188389] = 7,
+		[127802] = 3,
+		[17] = 5,
+		[13750] = 4,
+		[188443] = 7,
+		[143924] = 8,
+		[228598] = 8,
+		[27243] = 9,
+		[100] = 1,
+		[85288] = 1,
+		[30451] = 8,
+		[226991] = 12,
+		[1449] = 8,
+		[231390] = 3,
+		[390636] = 5,
+		[52127] = 7,
+		[34795] = 2,
+		[17364] = 7,
+		[18989] = 1,
+		[335150] = 3,
+		[194384] = 5,
+		[19750] = 2,
+		[232698] = 5,
+		[122] = 8,
+		[1329] = 4,
+		[192249] = 7,
+		[164273] = 3,
+		[315585] = 4,
+		[2643] = 3,
+		[259285] = 3,
+		[24275] = 2,
+		[19434] = 3,
+		[48438] = 11,
+		[196840] = 7,
+		[91807] = 6,
+		[136] = 3,
+		[268616] = 8,
+		[77575] = 6,
+		[260242] = 3,
+		[32216] = 1,
+		[315584] = 4,
+		[129914] = 10,
+		[116670] = 10,
+		[195630] = 10,
+		[287280] = 2,
+		[8092] = 5,
+		[116] = 8,
+		[52128] = 7,
+		[17462] = 8,
+		[20271] = 2,
+		[145109] = 11,
+		[13877] = 4,
+		[42223] = 9,
+		[29722] = 9,
+		[93402] = 11,
+		[15407] = 5,
+		[202166] = 1,
+		[414019] = 2,
+		[145110] = 11,
+		[23881] = 1,
+		[316099] = 9,
+		[126664] = 1,
+		[195627] = 4,
+		[87090] = 3,
+		[1064] = 7,
+		[178963] = 12,
+		[5308] = 1,
+		[262232] = 1,
+		[191840] = 10,
+		[116847] = 10,
+		[414022] = 2,
+		[702] = 9,
+		[202168] = 1,
+		[86040] = 9,
+		[325984] = 2,
+		[386164] = 1,
+		[280398] = 5,
+		[1784] = 4,
+		[105771] = 1,
+		[331850] = 4,
+		[197834] = 4,
+		[12654] = 8,
+		[225311] = 2,
+		[124275] = 10,
+		[164812] = 11,
+		[204242] = 2,
+		[157736] = 9,
+		[205708] = 8,
+		[184575] = 2,
+		[768] = 11,
+		[197835] = 4,
+		[35395] = 2,
+		[191587] = 6,
+		[34861] = 5,
+		[86392] = 4,
+		[355] = 1,
+		[394195] = 8,
+		[7268] = 8,
+		[322101] = 10,
+		[192109] = 7,
+		[227034] = 11,
+		[267213] = 9,
+		[1459] = 8,
+		[191685] = 6,
+		[370] = 7,
+		[257284] = 3,
+		[53365] = 6,
+		[185438] = 4,
+		[164815] = 11,
+		[228597] = 8,
+		[135299] = 3,
+		[208771] = 5,
+		[24858] = 11,
+		[83381] = 1,
+		[258922] = 12,
+		[270827] = 8,
+		[70890] = 6,
+		[204883] = 5,
+		[8004] = 7,
+		[208772] = 5,
+		[196819] = 4,
+		[115129] = 10,
+		[186270] = 3,
+		[2818] = 4,
+		[191837] = 10,
+		[585] = 5,
+		[5784] = 9,
+		[268877] = 3,
+		[2948] = 8,
+		[257542] = 8,
+		[117313] = 1,
+		[133] = 8,
+		[5374] = 4,
+		[2823] = 4,
+		[23161] = 9,
+		[108366] = 9,
+		[6653] = 12,
+		[199658] = 1,
+		[17057] = 11,
+		[22482] = 4,
+		[34767] = 2,
+		[53390] = 7,
+		[185358] = 3,
+		[190925] = 3,
+		[408] = 4,
 	},
 	["shield_spellid_cache"] = {
 	},
@@ -1748,10 +2059,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -390.3761291503906,
-							["x"] = 682.232421875,
-							["w"] = 310.0003967285156,
-							["h"] = 158.0001983642578,
+							["y"] = -390.3762359619141,
+							["x"] = 645.83447265625,
+							["w"] = 310.0005187988281,
+							["h"] = 158.0001525878906,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2156,8 +2467,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = 121.3929977416992,
-						["x"] = -46.2601318359375,
+						["y"] = 121.3929672241211,
+						["x"] = -46.260009765625,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
@@ -2187,10 +2498,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -390.3761291503906,
-							["x"] = 682.232421875,
-							["w"] = 310.0003967285156,
-							["h"] = 158.0001983642578,
+							["y"] = -390.3762359619141,
+							["x"] = 645.83447265625,
+							["w"] = 310.0005187988281,
+							["h"] = 158.0001525878906,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -5207,7 +5518,7 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["HUNTER"] = 65231.03800000001,
+			["HUNTER"] = 107089.489,
 			["WARLOCK"] = 42.98599999999897,
 		},
 	},
@@ -5292,8 +5603,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 52,
-		["logons"] = 52,
+		["main_help_button"] = 76,
+		["logons"] = 76,
 		["version_announce"] = 0,
 		["bookmark_tutorial"] = false,
 		["ctrl_click_close_tutorial"] = false,
@@ -5587,35 +5898,35 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-01-31 09:37:42 | actor removed Muryo-Proudmoore (ungrouped)", -- [1]
-		"2024-01-31 09:37:42 | actor removed Muryo-Proudmoore (ungrouped)", -- [2]
-		"2024-01-31 09:37:42 | actor removed Muryo-Proudmoore (ungrouped)", -- [3]
-		"2024-01-31 09:37:42 | actor removed Orgrimmar Grunt (ungrouped)", -- [4]
-		"2024-01-12 19:43:41 | actor removed Gurrikhan-Proudmoore (ungrouped)", -- [5]
-		"2024-01-12 19:43:41 | actor removed Environment (Fire) (ungrouped)", -- [6]
-		"2024-01-12 19:43:41 | actor removed Gurrikhan-Proudmoore (ungrouped)", -- [7]
-		"2024-01-12 16:20:42 | actor removed Pincersup <Throwchain-Perenolde> (orphan)", -- [8]
-		"2024-01-12 16:20:42 | actor removed Throwchain-Perenolde (ungrouped)", -- [9]
-		"2024-01-12 13:54:28 | actor removed Shadort-Frostmane (ungrouped)", -- [10]
-		"2024-01-12 13:54:28 | actor removed Shadort-Frostmane (ungrouped)", -- [11]
-		"2024-01-12 13:54:28 | actor removed Training Dummy (ungrouped)", -- [12]
-		"2024-01-12 13:54:04 | actor removed Shadort-Frostmane (ungrouped)", -- [13]
-		"2024-01-12 13:54:04 | actor removed Shadort-Frostmane (ungrouped)", -- [14]
-		"2024-01-12 13:54:04 | actor removed Training Dummy (ungrouped)", -- [15]
-		"2024-01-12 12:29:07 | actor removed Xicohtencalt-Proudmoore (ungrouped)", -- [16]
-		"2024-01-12 12:29:07 | actor removed Spirit Wolf <Xicohtencalt-Proudmoore> (orphan)", -- [17]
-		"2024-01-12 12:29:07 | actor removed Xicohtencalt-Proudmoore (ungrouped)", -- [18]
-		"2024-01-12 12:29:07 | actor removed Training Dummy (ungrouped)", -- [19]
-		"2024-01-11 22:17:46 | actor removed Samzero-Hyjal (ungrouped)", -- [20]
-		"2024-01-11 21:25:36 | actor removed Wolf <Sylvanus-Perenolde> (orphan)", -- [21]
-		"2024-01-11 21:25:36 | actor removed Sylvanus-Perenolde (ungrouped)", -- [22]
-		"2024-01-09 23:36:44 | actor removed Healzforreal-Suramar (ungrouped)", -- [23]
-		"2024-01-09 23:36:44 | actor removed Healzforreal-Suramar (ungrouped)", -- [24]
-		"2024-01-09 23:36:44 | actor removed Rhoanen-Lightbringer (ungrouped)", -- [25]
-		"2024-01-09 23:36:44 | actor removed Unknown (ungrouped)", -- [26]
-		"2024-01-09 23:36:44 | actor removed [*] Shadow Word: Death (ungrouped)", -- [27]
-		"2024-01-09 23:36:44 | actor removed Venture Co. Drudger (ungrouped)", -- [28]
-		"2024-01-09 23:36:44 | actor removed Savannah Prowler (ungrouped)", -- [29]
+		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [1]
+		"2024-02-05 17:35:32 | actor removed Rupmir <Shadowfacs-Cenarius> (orphan)", -- [2]
+		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [3]
+		"2024-02-05 17:35:32 | actor removed Toughsteak-EchoIsles (ungrouped)", -- [4]
+		"2024-02-05 17:35:32 | actor removed Shadowfacs-Cenarius (ungrouped)", -- [5]
+		"2024-02-05 17:35:32 | actor removed Infernal <Shadowfacs-Cenarius> (orphan)", -- [6]
+		"2024-02-05 17:35:32 | actor removed Rupmir <Shadowfacs-Cenarius> (orphan)", -- [7]
+		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [8]
+		"2024-02-05 17:35:32 | actor removed Shadowfacs-Cenarius (ungrouped)", -- [9]
+		"2024-02-05 17:35:32 | actor removed Crown Alchemist (ungrouped)", -- [10]
+		"2024-02-05 17:35:32 | actor removed Inception-KulTiras (ungrouped)", -- [11]
+		"2024-02-05 17:35:32 | actor removed Steamwheedle Sleuther (ungrouped)", -- [12]
+		"2024-02-05 17:35:32 | actor removed Orgrimmar Thief (ungrouped)", -- [13]
+		"2024-02-05 17:35:32 | actor removed Exploited Crown Intern (ungrouped)", -- [14]
+		"2024-02-05 13:04:36 | actor removed Sulmae-Proudmoore (ungrouped)", -- [15]
+		"2024-02-04 16:09:24 | actor removed Icedup-Proudmoore (ungrouped)", -- [16]
+		"2024-02-04 16:09:24 | actor removed Hekatelite-Proudmoore (ungrouped)", -- [17]
+		"2024-02-04 16:09:24 | actor removed Holgrim-Proudmoore (ungrouped)", -- [18]
+		"2024-02-04 16:09:24 | actor removed Icedup-Proudmoore (ungrouped)", -- [19]
+		"2024-02-04 16:09:24 | actor removed Hekatelite-Proudmoore (ungrouped)", -- [20]
+		"2024-02-04 16:09:24 | actor removed Holgrim-Proudmoore (ungrouped)", -- [21]
+		"2024-02-04 16:09:24 | actor removed Maslaw-Proudmoore (ungrouped)", -- [22]
+		"2024-02-04 13:10:30 | actor removed Anhanu-Proudmoore (ungrouped)", -- [23]
+		"2024-02-04 13:10:30 | actor removed Environment (Falling) (ungrouped)", -- [24]
+		"2024-02-04 13:10:30 | actor removed Streamist (ungrouped)", -- [25]
+		"2024-02-04 13:10:30 | actor removed Slamhandle (ungrouped)", -- [26]
+		"2024-02-04 13:10:30 | actor removed Nolnjury (ungrouped)", -- [27]
+		"2024-02-04 00:20:30 | actor removed Coberrian-Garrosh (ungrouped)", -- [28]
+		"2024-02-04 00:20:30 | actor removed Coberrian-Garrosh (ungrouped)", -- [29]
 	},
 }
 __details_debug = {

@@ -21,7 +21,7 @@ GSEOptions = {
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
 		["RightShift"] = false,
-		["RightButton"] = false,
+		["RightAlt"] = false,
 		["AnyMod"] = false,
 		["Button5"] = false,
 		["LeftShift"] = false,
@@ -30,7 +30,7 @@ GSEOptions = {
 		["RightControl"] = false,
 		["MiddleButton"] = false,
 		["Button4"] = false,
-		["RightAlt"] = false,
+		["RightButton"] = false,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["WOWSHORTCUTS"] = "|cffddaaff",
@@ -51,7 +51,7 @@ GSEOptions = {
 	["sendDebugOutputToChatWindow"] = false,
 	["UNKNOWN"] = "|cffff6666",
 	["Update3111"] = true,
-	["menuHeight"] = 500.0000305175781,
+	["menuHeight"] = 500,
 	["sendDebugOutputToDebugOutput"] = false,
 	["STRING"] = "|cff888888",
 	["DefaultImportAction"] = "MERGE",
@@ -73,13 +73,13 @@ GSEOptions = {
 		["Versions"] = false,
 	},
 	["INDENT"] = "|cffccaa88",
-	["editorWidth"] = 700,
-	["editorHeight"] = 700,
+	["editorWidth"] = 700.0000610351562,
+	["editorHeight"] = 700.0000610351562,
 	["filterList"] = {
-		["Class"] = true,
 		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["UseVerboseExportFormat"] = false,
 	["NUMBER"] = "|cffffaa00",
@@ -99,8 +99,8 @@ GSEOptions = {
 		},
 	},
 	["OOCQueueDelay"] = 7,
-	["overflowPersonalMacros"] = false,
 	["AuthorColour"] = "|cFF00D1FF",
+	["overflowPersonalMacros"] = false,
 	["CONCAT"] = "|cffcc7777",
 	["autoCreateMacroStubsClass"] = true,
 	["DisabledSequences"] = {
@@ -109,9 +109,9 @@ GSEOptions = {
 	["requireTarget"] = false,
 	["NormalColour"] = "|cFFFFFFFF",
 	["PromptSample"] = true,
-	["saveAllMacrosLocal"] = true,
-	["setDefaultIconQuestionMark"] = true,
 	["showGSEoocqueue"] = true,
+	["setDefaultIconQuestionMark"] = true,
+	["saveAllMacrosLocal"] = true,
 	["KEYWORD"] = "|cff88bbdd",
 }
 GSELibrary = nil
@@ -182,6 +182,9 @@ GSE3Storage = {
 		["MULTI_FS_BALANCE"] = "dOZ)baWwQQ8AQIMjKmBOA(I0nbv)sqUTu4XqStI2lA3IA)k8tQcnmP0VvXaHu5WsgmOmCqCqOCxQsogHJtvWcfXNHuSyHy5aEOq5PKwMk9CfnrLOPsLjRunDkxuiDvLKNrvPRRu2OazRkHnlfTDb4JcuFfsvtJQuNwQghvfBtj1OPQQZbP0jbY3aQRbsNxOAwcOlRQ)kOMc6Ouqf(kuoqHdsdNGHctglkLx6OcVqaot6Ouqh1ffqVIG)t6OMqhLcQHScanV95Vr8bm)Yh)lGgE53(x7Er5LAOPvawzwH4jnAuXqS(jpPJsbDukOoshPjJ0rkLxQHqQPnFpS9zKFaZh0EfboGbvaEDGdyqfGxt1fhYtfdX6NmnkV0rPG6iDKMmshPuEPgcPM2agub41uDXH8uXqS(jtJgvq5iBDCBrb0Ri4)KoA0OrfvnTvq2l73PEBV(kU3wrluFUGPI(V8eBdOM0rJk83QLLv0r1v4F2MuPITz(FaOg85SJ3dONrxcET)n7tJAWA0fpWSFYu6RaQGk8kVv4GY2deWNT(jZeQl)M1gUrPGA0CZdaYh70aszvKoE3IZeQkKhb0skfE7nyQopgJsrB7TTLQSA8uHVcLdu4G0WjyOWKXIsJgnsa",
 	}, -- [11]
 	{
+		["MULTI_FS_HAVOC"] = "dOJveaWwe8AjKMPQknBuA(eUjsXVGk3wL8yH2jQ2l1UjTFL(PQQAyQk)gyGkQ6WqgmsgUKCqj1DHshtfNtcwOk1ZuuwSeXYbXdLO8urldrphfturLPkyYkY0L6Isu5QQQ4YeDDqXgLqzRGsBwvv2Uev9rje(QeI(mu1PvyKsOAAqXOrOXbQojsPTHu11ufNxvAwG0FLi9nKk7JdMFCsZp)gOT0ILLw8Ay)VmZjDWjnOieaJdMFCWjSiidujSsghCE7G5hN4yAeKg1nkw0LIGcUatyD72zDShaLXbZpoy(X5kwX9kwH5KoXfrm9srqbxGjOkisePQKDO4XUuZWGbo9KodVvsN1XEau3Mt6G5hNRyf3RyfMt6exeX0lfbfCbMGQGirKQs2HIh68vSOxjeSlf5hMNc07m8wjDwh7bqDB(mhm)4CfR4EfRWCsN4IiMEPiOGlWeufejIuvYou8yxQtb4FNzodVvsN1XEau3MJXbZpoXfrm9srqbxGjOkisePQKDO4XUuh6k89qNZWBL0zDSha1T5poy(X5kwX9kwH5KoXfrm9srqbxGjOkisePQKDO4XUuZWGb(tbNH3kPZ6ypaQBZP3bZpoxXkUxXkmN0jUiIPxkck4cmbvbrIivLSdfp05RyrVsiyxkYp6OhogNH3kPZ6ypaQBZPZbZpoxXkUxXkmN0jUiIPxkck4cmbvbrIivLSdfp2L6a)5qoZz4Ts6So2dG62C4oy(X5kwX9kwH5KoXfrm9srqbxGjOkisePQKDO4XUuKpWlq(5m8wjDwh7bqDBEbhm)4CfR4EfRWCsN4IiMEPiOGlWeufejIuvYou8yxQdC4ykuWz4Ts6So2dG628ZNdMFCUIvCVIvyoPtCretVueuWfycQcIerQkzhkESl1Pa8h4fCgERKoRJ9aOUD7KwTeygSnSiidujSsghC72TZIuIkAnmqqmo425ViM(NQjulNCs(rI5J87H8dZZdDoPr2O5qnYbNbeRuBgNoRHPjcG4madeDO4N)Mfnj)BW0olISCWkHWmaQ5ZopZCsdsHbXsR2siLxQ9aO(2jhDjDsZp)gOT0ILLw8Ay)VmNZj)dbdBB(XzwjJ0oN5hmp07m8FzMF((i)ECwo9paKOSmWvfQrLmyh9RVD72Tna",
+		["SINGLE_FS_HAVOC"] = "dOdweaWwe61sqntvfnBumFc3uvj)cQCBvPhlyNOAVu7M0(v6NifgMu1VbgOQkDyidgjdxsDqj5UqPJPsNdPAHQINjvSyjklhepuI0tfTme9CuAIQkmvHMSkmDfxuI4Qif1Lj66QQAJsq2QeyZQQy7su1hvvQVIuKpdfNwkJuIktdbJgughu1jrkTnPsxduDEv0SaP)kH8nju7RJMFDM0Y)(ZskQqzrLRQaAuQ5Ko68luacG1rZVo6SaeKgQmgjRJoFC08RtCSdcYGMbfk8srubVGdSE84SkmnGY6O5xhn)6CfR4zfRWCsN4ci2zPiQGxWbufeGHuvY0umyxQoeiGVlPZ4zT0zvyAa1J5KoA(15kwXZkwH5KoXfqSZsrubVGdOkiadPQKPPyG(Bnd6ucb7sr2tao9UoJN1sNvHPbupM3XrZVoxXkEwXkmN0jUaIDwkIk4fCavbbyivLmnfd2L6shF)TJZ4zT0zvyAa1J5eC08RtCbe7SuevWl4aQccWqQkzAkgSl1Ty69Wl2z8Sw6SkmnG6XC4oA(15kwXZkwH5KoXfqSZsrubVGdOkiadPQKPPyWUuDiqapC6oJN1sNvHPbupM31rZVoxXkEwXkmN0jUaIDwkIk4fCavbbyivLmnfd0FRzqNsiyxkY(I7INGZ4zT0zvyAa1J5f7O5xNRyfpRyfMt6exaXolfrf8coGQGamKQsMMIb7sDXd)s2Xz8Sw6SkmnG6XC8oA(15kwXZkwH5KoXfqSZsrubVGdOkiadPQKPPyWUuKWXtNS3z8Sw6SkmnG6XC6oA(15kwXZkwH5KoXfqSZsrubVGdOkiadPQKPPyWUux84jqNUZ4zT0zvyAa1J53Ehn)6CfR4zfRWCsN4ci2zPiQGxWbufeGHuvY0umyxQlD8WXt3z8Sw6SkmnG6XJtA1Y(3yMcqqAOYyKSo6XJhN0Kev4Q)qqSo6X5Ni2HMRpqJ8WjzpjHEYE4K9e62315xYb9bAqo6mIyK6W60z1)bgaIZ4FiAtX87dd6q(tJDC(DwsbsiSnGAENl8oo)cP)rm0QJes5L60aQFCYrVsNjT8V)SKIkuwu5QkGgL68d5pO)mJ5xNzTmq7hMFjaVRZink18BFpzpCNLO)aGeKLcERrdQSgtBo9JhpESb",
+		["AOE_FS_HAVOC"] = "dOJueaWwe51cfntvjA2Oy(eUPQK(fu6Bcv9yb7ev7LA3K2Vs)eK6Vcv(nWavv4WqgmsgUK6Gc5UqLJjvNdLSqvYWurlwO0YbXdLe9urlduphPMOQIMQetwfMUIlkjCvuQYLj66QkTrHcBfLYMvLY2rPIpIsL(kkv1NrOtlLrQkHPbvnAe12ajNuvQEMK01qW5vfZsv14GIBRsT7UyE3ze0vexmY4EreBqxP5WU48vuacG2fZ7U4KneKgkwgjTloVCX8UtS0dcYGMbfI5srsb3GdCE84mkmnGs7I5DxmV7CfR4AfRWCyNydi6zPiPGBWXVccKrQkzAkrClvv84XafSZYtT0zuyAa1J5WUyE35kwX1kwH5WoXgq0Zsrsb3GJFfeiJuvY0uI)FuZGEKqWTuWN4jWckNLNAPZOW0aQhZR6I5DNRyfxRyfMd7eBarplfjfCdo(vqGmsvjttjIBP6SWC2R6S8ulDgfMgq9yoExmV7eBarplfjfCdo(vqGmsvjttjIBP6XZ6Kq8olp1sNrHPbupMtWfZ7oxXkUwXkmh2j2aIEwksk4gC8RGazKQsMMse3svfpEmey5S8ulDgfMgq9youUyE35kwX1kwH5WoXgq0Zsrsb3GJFfeiJuvY0uI)FuZGEKqWTuWNXdfg8olp1sNrHPbupMhVlM3DUIvCTIvyoStSbe9SuKuWn44xbbYivLmnLiULQJHqhUQZYtT0zuyAa1J5yCX8UZvSIRvScZHDInGONLIKcUbh)kiqgPQKPPeXTuWeWWc(0z5Pw6mkmnG6XCwUyE35kwX1kwH5WoXgq0Zsrsb3GJFfeiJuvY0uI4wQogm4zXYz5Pw6mkmnG6X8(PlM3DUIvCTIvyoStSbe9SuKuWn44xbbYivLmnLiULQZcdbmSCwEQLoJctdOE848Dn2VnMHneKgkwgjTlE84Xj7lrXm6leeTlEC(se9WE1hOrE4e(eg)j8jb4t8q1HD(QCqFIgKloligPo0oDg9DidG4S8fI2uIFCXGoKV1OhNSBwbBsi0nGAE1oHQoFfPFrmVRJec7i1PbuF5KJULoJGUI4Irg3lIyd6kD(P8n0xMX8UZSwgE)tZ74jaLZc0vAE)8e(KGZk03aqcYkb31ObfBJPnp(YJhp2",
 	}, -- [12]
 	{
 	}, -- [13]
@@ -190,5 +193,15 @@ GSE3Storage = {
 }
 GSESpellCache = {
 	["enUS"] = {
+		["Chaos Strike"] = 344862,
+		["Sigil of Flame"] = 204596,
+		["Blur"] = 198589,
+		["Sigil of Misery"] = 207684,
+		["Chaos Nova"] = 179057,
+		["Blade Dance"] = 188499,
+		["Throw Glaive"] = 185123,
+		["Demon's Bite"] = 344859,
+		["Immolation Aura"] = 258920,
+		["Eye Beam"] = 198013,
 	},
 }

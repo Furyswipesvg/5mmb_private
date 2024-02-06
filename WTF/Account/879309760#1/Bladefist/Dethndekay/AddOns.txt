@@ -11,7 +11,7 @@ AdvancedInterfaceOptions: enabled
 Auctionator: enabled
 AutoTurnIn: enabled
 BlockChinese: enabled
-Details: enabled
+Details: disabled
 Details_Compare2: enabled
 Details_EncounterDetails: enabled
 Details_RaidCheck: enabled

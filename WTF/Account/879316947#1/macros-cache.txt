@@ -1,152 +1,147 @@
-VER 3 0000000000000371 "a10_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000583 "a10_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Funkmunk
+/assist Smirky
 END
-VER 3 0000000000000368 "a1_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057A "a1_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Getln
+/assist Turning
 END
-VER 3 0000000000000369 "a2_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057B "a2_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Neversmile
+/assist Chaostard
 END
-VER 3 000000000000036A "a3_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057C "a3_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Goodlivin
+/assist Wideninggyre
 END
-VER 3 000000000000036B "a4_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057D "a4_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Eversmile
+/assist Thefalcon
 END
-VER 3 000000000000036C "a5_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057E "a5_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Aslf
+/assist Allypally
 END
-VER 3 000000000000036D "a6_fs" "Ability_HUNTER_pet_hyena"
+VER 3 000000000000057F "a6_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Toofy
+/assist Tolnfinity
 END
-VER 3 000000000000036E "a7_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000580 "a7_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Arrowkneeuno
+END
+VER 3 0000000000000581 "a8_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 0
+END
+VER 3 0000000000000582 "a9_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Mypetsux
 END
-VER 3 000000000000036F "a8_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 1
-/assist Opmageikr
-END
-VER 3 0000000000000370 "a9_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 1
-/assist Frawshawwk
-END
-VER 3 000000000000037C "AOE_FS_FROST" "spell_fire_selfdestruct"
+VER 3 000000000000058D "AOE_FS_HAVOC" "spell_fire_selfdestruct"
 #showtooltip
-/click [button:1] AOE_FS_FROST LeftButton t;
+/click [button:1] AOE_FS_HAVOC LeftButton t;
 END
-VER 3 0000000000000376 "bufft_fs" "INV_Misc_QuestionMark"
-/castsequence reset=combat/target Arcane Intellect
-END
-VER 3 000000000000037F "convP_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000590 "convP_fs" "Ability_HUNTER_pathfinding"
 /run C_PartyInfo.ConvertToParty()
 END
-VER 3 0000000000000375 "dance_fs" "ability_DRUID_aquaticform"
+VER 3 0000000000000587 "dance_fs" "ability_DRUID_aquaticform"
+/run SetPVP(false)
 /dance
 END
-VER 3 000000000000035B "delete_trash_fs" "Ability_HUNTER_pathfinding"
+VER 3 000000000000056D "delete_trash_fs" "Ability_HUNTER_pathfinding"
 /run AutoDelete()
 END
-VER 3 0000000000000366 "f10_fs" "Ability_hunter_pet_gorilla"
-/follow Funkmunk
+VER 3 0000000000000578 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Smirky
 /run SetView(4)
 END
-VER 3 000000000000035D "f1_fs" "Ability_hunter_pet_gorilla"
-/follow Getln
+VER 3 000000000000056F "f1_fs" "Ability_hunter_pet_gorilla"
+/follow Turning
 /run SetView(4)
 END
-VER 3 000000000000035E "f2_fs" "Ability_hunter_pet_gorilla"
-/follow Neversmile
+VER 3 0000000000000570 "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Chaostard
 /run SetView(4)
 END
-VER 3 000000000000035F "f3_fs" "Ability_hunter_pet_gorilla"
-/follow Goodlivin
+VER 3 0000000000000571 "f3_fs" "Ability_hunter_pet_gorilla"
+/follow Wideninggyre
 /run SetView(4)
 END
-VER 3 0000000000000360 "f4_fs" "Ability_hunter_pet_gorilla"
-/follow Eversmile
+VER 3 0000000000000572 "f4_fs" "Ability_hunter_pet_gorilla"
+/follow Thefalcon
 /run SetView(4)
 END
-VER 3 0000000000000361 "f5_fs" "Ability_hunter_pet_gorilla"
-/follow Aslf
+VER 3 0000000000000573 "f5_fs" "Ability_hunter_pet_gorilla"
+/follow Allypally
 /run SetView(4)
 END
-VER 3 0000000000000362 "f6_fs" "Ability_hunter_pet_gorilla"
-/follow Toofy
+VER 3 0000000000000574 "f6_fs" "Ability_hunter_pet_gorilla"
+/follow Tolnfinity
 /run SetView(4)
 END
-VER 3 0000000000000363 "f7_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000575 "f7_fs" "Ability_hunter_pet_gorilla"
+/follow Arrowkneeuno
+/run SetView(4)
+END
+VER 3 0000000000000576 "f8_fs" "Ability_hunter_pet_gorilla"
+END
+VER 3 0000000000000577 "f9_fs" "Ability_hunter_pet_gorilla"
 /follow Mypetsux
 /run SetView(4)
 END
-VER 3 0000000000000364 "f8_fs" "Ability_hunter_pet_gorilla"
-/follow Opmageikr
-/run SetView(4)
-END
-VER 3 0000000000000365 "f9_fs" "Ability_hunter_pet_gorilla"
-/follow Frawshawwk
-/run SetView(4)
-END
-VER 3 000000000000035C "followT_fs" "Ability_HUNTER_pathfinding"
+VER 3 000000000000056E "followT_fs" "Ability_HUNTER_pathfinding"
 /follow
 END
-VER 3 0000000000000380 "Hide5_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000591 "Hide5_fs" "Ability_HUNTER_pathfinding"
 /run MultiBar5:Hide()
 END
-VER 3 0000000000000367 "init_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000579 "init_fs" "Ability_HUNTER_pathfinding"
 /init
 END
-VER 3 000000000000037E "int_fs" "INV_Misc_Questionmark"
-/cast Counterspell
+VER 3 000000000000058F "int_fs" "INV_Misc_Questionmark"
+/cast Disrupt
 END
-VER 3 0000000000000374 "leave_fs" "spell_nature_purge"
+VER 3 0000000000000586 "leave_fs" "spell_nature_purge"
 /script C_PartyInfo.LeaveParty()
 END
-VER 3 0000000000000372 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
-/follow Buckles
+VER 3 0000000000000584 "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+/follow Arrowkneeuno
 END
-VER 3 000000000000037A "MULTI_FS_FROST" "ability_upgrademoonglaive"
+VER 3 000000000000058B "MULTI_FS_HAVOC" "ability_upgrademoonglaive"
 #showtooltip
-/click [button:1] MULTI_FS_FROST LeftButton t;
+/click [button:1] MULTI_FS_HAVOC LeftButton t;
 END
-VER 3 000000000000035A "party_fs" "Ability_HUNTER_pathfinding"
+VER 3 000000000000056C "party_fs" "Ability_HUNTER_pathfinding"
 /run PartyUp()
 END
-VER 3 0000000000000377 "poly_fs" "INV_Misc_QuestionMark"
-/cast Polymorph
+VER 3 0000000000000588 "poly_fs" "INV_Misc_QuestionMark"
+/cast Imprison
 END
-VER 3 0000000000000373 "reload_fs" "spell_frost_stun"
+VER 3 0000000000000585 "reload_fs" "spell_frost_stun"
 /reload
 END
-VER 3 0000000000000378 "SETUP_FS_FROST" "Spell_magic_polymorphchicken"
+VER 3 0000000000000589 "SETUP_FS_HAVOC" "Spell_magic_polymorphchicken"
 #showtooltip
-/click [button:1] SETUP_FS_FROST LeftButton t;
+/click [button:1] SETUP_FS_HAVOC LeftButton t;
 /petpassive [mod:alt]
 /stopcasting [mod:alt]
 END
-VER 3 000000000000037D "SHEAL_FS_FROST" "spell_nature_healingtouch"
+VER 3 000000000000058E "SHEAL_FS_HAVOC" "spell_nature_healingtouch"
 #showtooltip
-/click [button:1] SHEAL_FS_FROST LeftButton t;
+/click [button:1] SHEAL_FS_HAVOC LeftButton t;
 END
-VER 3 0000000000000379 "SINGLE_FS_FROST" "ability_searingarrow"
+VER 3 000000000000058A "SINGLE_FS_HAVOC" "ability_searingarrow"
 #showtooltip
-/click [button:1] SINGLE_FS_FROST LeftButton t;
+/click [button:1] SINGLE_FS_HAVOC LeftButton t;
 END
-VER 3 000000000000037B "TURBO_FS_FROST" "Spell_nature_lightning"
+VER 3 000000000000058C "TURBO_FS_HAVOC" "Spell_nature_lightning"
 #showtooltip
-/click [button:1] TURBO_FS_FROST LeftButton t;
+/click [button:1] TURBO_FS_HAVOC LeftButton t;
 /petpassive [mod:alt]
 /run mountup()
 /run SetView(4)
 END
-VER 3 0000000000000381 "wave_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000592 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
 VER 3 0000000000000340 "ZygorAction1" "134327"

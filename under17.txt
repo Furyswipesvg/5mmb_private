@@ -1,0 +1,64 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+# Roles are:
+# ORDER MATTERS. This is how your raid will be sorted!
+# tank / healer / melee / caster / hunter
+#hideframes
+box secondfsmbraid05@maildrop.cc	iso2tope	wow1 turning-bladefist		caster
+box ultramultiboxtest.02@gmail.com	iso2tope	wow1 mypetsux-bladefist		hunter
+box ultramultiboxtes.t03@gmail.com	iso2tope	wow1 smirky-bladefist		caster
+box ultramultiboxtes.t02@gmail.com	iso2tope	wow1 arrowkneeuno-bladefist	hunter
+box ultr.amultiboxtest@gmail.com	iso2tope	wow1 allypally-bladefist	tank
+#box ultramultiboxt.est02@gmail.com	iso2tope	wow1 hunterhead-bladefist	hunter
+#box thisismyseco.ndfortymultibox@yahoo.com	iso2tope	wow1 wideninggyre-bladefist		caster
+#box thisismysecondfor.tymultibox@yahoo.com	iso2tope	wow1 thefalcon-bladefist		caster
+##box thisismysecon.dfortymultibox@yahoo.com	iso2tope	wow1 thecenter-bladefist		caster
+#box thisismysecond.fortymultibox@yahoo.com	iso2tope	wow1 cannothold-bladefist		caster
+#box ultramulti.box.test03@gmail.com 	iso2tope	wow1 whatsupsucka-bladefist 	caster
+#box ultramultiboxtest0.3@gmail.com	iso2tope	wow1 skanty-bladefist		caster
+#box ultramultiboxte.st02@gmail.com	iso2tope	wow1 bowwy-bladefist		hunter
+#box furyswipes.bloons4@gmail.com 	Iso222tope 	wow1 tolnfinity-bladefist 	hunter
+#box ultramultiboxte.st03@gmail.com	iso2tope	wow1 unfounded-bladefist	caster
+#box ultramultiboxtest0.2@gmail.com	iso2tope	wow1 bowya-bladefist		hunter
+#box ultramultiboxtest03@gmail.com	iso2tope	wow1 nolnjury-bladefist		hunter
+#box ultramultiboxt.est03@gmail.com	iso2tope	wow1 acceptabad-bladefist	caster
+#box secondfsmbraid03@maildrop.cc	iso2tope	wow1 cheated-bladefist		caster
+#box secondfsmbraid04@maildrop.cc	iso2tope	wow1 streamist-bladefist	caster
+#box thisismysecondf.ortymultibox@yahoo.com	iso2tope	wow1 stanleey-bladefist		caster
+#box this.ismysecondfortymultibox@yahoo.com	iso2tope	wow1 doinkado-bladefist		hunter
+#box thisismysecondfortymu.ltibox@yahoo.com	iso2tope	wow1 slamhandle-bladefist	caster
+#box secondfsmbraid02@maildrop.cc		iso2tope	wow1 glor-bladefist		caster
+#box thisismysecondfortymultib.ox@yahoo.com	iso2tope	wow1 perenial-bladefist		caster
+#box thisismysecondfort.ymultibox@yahoo.com	iso2tope	wow1 handywithit-bladefist	caster
+#box thisismysecondforty.multibox@yahoo.com	iso2tope	wow1 sevener-bladefist		caster
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
+
+#box secondfsmbraid01@maildrop.cc	iso2tope	wow1 spergy-bladefist		caster
+#box secondfsmbraid06@maildrop.cc	iso2tope	wow1 Skammist-bladefist		caster
+#box thisismysecondfortym.ultibox@yahoo.com	iso2tope	wow1 southist-bladefist		caster
+#box thisismysecondfortymult.ibox@yahoo.com	iso2tope	wow1 stouter-bladefist		caster
+#box thisismysecondfortymulti.box@yahoo.com	iso2tope	wow1 skivies-bladefist		caster
+#box myclassicmb01@maildrop.cc	iso2tope	wow1	booyah-bladefist	melee
+#box thisi.smysecondfortymultibox@yahoo.com	iso2tope	wow1 spadoink-bladefist		caster
+#box myfsmb15@maildrop.cc	iso2tope	wow1 crankery-bladefist		caster
+#box myfsmb16@maildrop.cc	iso2tope	wow1 pressedln-bladefist	caster
+#box fsmb01@maildrop.cc		iso2tope	wow1 flintski-bladefist		caster
+#box myfsmb02@maildrop.cc	iso2tope	wow1 standfast-bladefist	caster
+#box neeks1@comcast.net iso2tope sixtyforever Chaostard-illidan caster 
+#box myfsmb01@maildrop.cc	iso2tope	wow1 blin-bladefist		caster
+#box myfsmb03@maildrop.cc	iso2tope	wow1 meatboss-bladefist		caster
+#box myfsmb04@maildrop.cc	iso2tope	wow1 basilar-bladefist		caster
+#box myfsmb05@maildrop.cc	iso2tope	wow1 cedlarkin-bladefist	caster
+#box myfsmb06@maildrop.cc	iso2tope	wow1 palia-bladefist		caster
+#box myfsmb07@maildrop.cc	iso2tope	wow1 needless-bladefist		caster
+#box myfsmb08@maildrop.cc	iso2tope	wow1 founded-bladefist		caster
+#box myfsmb09@maildrop.cc	iso2tope	wow1 scandolous-bladefist	caster
+#box myfsmb10@maildrop.cc	iso2tope	wow1 scurvy-bladefist		caster
+#box myfsmb11@maildrop.cc	iso2tope	wow1 payless-bladefist		caster
+#box myfsmb12@maildrop.cc	iso2tope	wow1 northeast-bladefist	caster
+#box myfsmb13@maildrop.cc	iso2tope	wow1 scirroco-bladefist		caster
+#box myfsmb14@maildrop.cc	iso2tope	wow1 Crenulous-bladefist	caster
+#box myclassicmb01@maildrop.cc	iso2tope	wow1	booyah-bladefist	tank
+#box myclassicmb02@maildrop.cc	iso2tope	wow1	sema-bladefist		hunter
+#box myclassicmb04@maildrop.cc	iso2tope	wow1	crymor-bladefist	caster
+#box myclassicmb05@maildrop.cc	iso2tope	wow1	churn-bladefist		healer

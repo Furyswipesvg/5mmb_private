@@ -20,8 +20,8 @@ GSEOptions = {
 		["LeftControl"] = false,
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
-		["RightButton"] = false,
 		["RightAlt"] = false,
+		["RightButton"] = false,
 		["Button4"] = false,
 		["Button5"] = false,
 		["MiddleButton"] = false,
@@ -56,7 +56,7 @@ GSEOptions = {
 	["STRING"] = "|cff888888",
 	["KEYWORD"] = "|cff88bbdd",
 	["Update3131"] = true,
-	["saveAllMacrosLocal"] = true,
+	["showGSEoocqueue"] = true,
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
 	["DebugModules"] = {
@@ -70,7 +70,7 @@ GSEOptions = {
 		["Storage"] = false,
 		["Versions"] = false,
 	},
-	["showGSEoocqueue"] = true,
+	["saveAllMacrosLocal"] = true,
 	["Update3150"] = true,
 	["INDENT"] = "|cffccaa88",
 	["PromptSample"] = true,
@@ -83,9 +83,9 @@ GSEOptions = {
 	},
 	["OOCQueueDelay"] = 7,
 	["autoCreateMacroStubsClass"] = true,
-	["AuthorColour"] = "|cFF00D1FF",
-	["CONCAT"] = "|cffcc7777",
 	["overflowPersonalMacros"] = false,
+	["CONCAT"] = "|cffcc7777",
+	["AuthorColour"] = "|cFF00D1FF",
 	["AddInPacks"] = {
 		["Samples"] = {
 			["Name"] = "Samples",
@@ -102,10 +102,10 @@ GSEOptions = {
 	},
 	["use12"] = false,
 	["filterList"] = {
-		["All"] = false,
 		["Spec"] = true,
-		["Global"] = true,
 		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
 	},
 	["NormalColour"] = "|cFFFFFFFF",
 	["editorWidth"] = 700,
@@ -182,6 +182,7 @@ GSE3Storage = {
 		["MULTI_FS_BALANCE"] = "dOZ)baWwQQ8AQIMjKmBOA(I0nbv)sqUTu4XqStI2lA3IA)k8tQcnmP0VvXaHu5WsgmOmCqCqOCxQsogHJtvWcfXNHuSyHy5aEOq5PKwMk9CfnrLOPsLjRunDkxuiDvLKNrvPRRu2OazRkHnlfTDb4JcuFfsvtJQuNwQghvfBtj1OPQQZbP0jbY3aQRbsNxOAwcOlRQ)kOMc6Ouqf(kuoqHdsdNGHctglkLx6OcVqaot6Ouqh1ffqVIG)t6OMqhLcQHScanV95Vr8bm)Yh)lGgE53(x7Er5LAOPvawzwH4jnAuXqS(jpPJsbDukOoshPjJ0rkLxQHqQPnFpS9zKFaZh0EfboGbvaEDGdyqfGxt1fhYtfdX6NmnkV0rPG6iDKMmshPuEPgcPM2agub41uDXH8uXqS(jtJgvq5iBDCBrb0Ri4)KoA0OrfvnTvq2l73PEBV(kU3wrluFUGPI(V8eBdOM0rJk83QLLv0r1v4F2MuPITz(FaOg85SJ3dONrxcET)n7tJAWA0fpWSFYu6RaQGk8kVv4GY2deWNT(jZeQl)M1gUrPGA0CZdaYh70aszvKoE3IZeQkKhb0skfE7nyQopgJsrB7TTLQSA8uHVcLdu4G0WjyOWKXIsJgnsa",
 	}, -- [11]
 	{
+		["SINGLE_FS_HAVOC"] = "dGZ4baWwfPxljmtfy2uX8Ps3ub9lfQBdODs0Er7MQ2Ve)ur8xkLFl0aPGmyvLHRQ6GI4XG6yI6CualuPCyPwmfz5a9qkvpfAzG8CvAIQctLWKvQMoPlsjDvvr9mkQRRK2ifYwvL2SK02Le9rfvFvvKptb6UskJKc12uugnfuNwfNeGXjP6AuIZRqgMinnL4YcMzkOmtebiNpWQnJqBgN8oXoLquqCyddgVuqzMcIVn4Pn5eUuqCJckZehF1guBvB4kkFt9rGX9AuPsmbwpr)LckZuqzMyXT4UvClUucrCmCF1Y3uFeyCVw5Z8Ys9zqefJ(detG1t0tLsikOmtS4wC3kUfxkHiogUVA5BQpcmUxR8zEzPUfdqum6pqmbwprpvQeb4nTEC03g80MCcxkOsLkXb9vF(FV1WorOuOLuO0C6SC9meXNcDfjRG9LcQehg0(rRnfefTtWRxIetwvdhbjkwb9hVbn0MtVhQEUkX5O13a49e9uAoBXmXHTFTDa41ayLbVEIEUr8rOAV6OuMjA1xncchShb(3AB64C0rCJi(hGb8GY8ILzeftStzonfk1crzdmqebiNpWQnJqBgN8oXovQujb",
 	}, -- [12]
 	{
 	}, -- [13]
@@ -190,5 +191,7 @@ GSE3Storage = {
 }
 GSESpellCache = {
 	["enUS"] = {
+		["Chaos Strike"] = 344862,
+		["Demon's Bite"] = 344859,
 	},
 }

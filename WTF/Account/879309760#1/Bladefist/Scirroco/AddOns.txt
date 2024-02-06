@@ -1,6 +1,6 @@
 AdvancedInterfaceOptions: enabled
 AutoTurnIn: enabled
-Details: enabled
+Details: disabled
 Furyswipes_5mmb: enabled
 GSE: enabled
 GSE_GUI: enabled

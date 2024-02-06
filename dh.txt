@@ -1,0 +1,12 @@
+box secondfsmbraid05@maildrop.cc	iso2tope	wow1 turning-bladefist		caster
+box thisismyseco.ndfortymultibox@yahoo.com	iso2tope	wow1 wideninggyre-bladefist		caster
+box thisismysecon.dfortymultibox@yahoo.com	iso2tope	wow1 thecenter-bladefist		caster
+box thisismysecond.fortymultibox@yahoo.com	iso2tope	wow1 cannothold-bladefist		caster
+box thisismysecondfor.tymultibox@yahoo.com	iso2tope	wow1 thefalcon-bladefist		caster
+box myfsmb13@maildrop.cc	iso2tope	dk dethndekay-bladefist	melee
+box myfsmb14@maildrop.cc	iso2tope	dk armyofthebro-bladefist	melee
+box myfsmb10@maildrop.cc	iso2tope	dk froststrike-bladefist	tank
+box myfsmb11@maildrop.cc	iso2tope	dk deathstrike-bladefist	melee
+box myfsmb12@maildrop.cc	iso2tope	dk plaguestrike-bladefist	mele
+box myfsmb09@maildrop.cc	iso2tope	wow1 scandolous-bladefist	caste
+box myclassicmb03@maildrop.cc	iso2tope	wow1	chaostard-bladefist	caster
