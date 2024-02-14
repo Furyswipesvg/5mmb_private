@@ -1,0 +1,13 @@
+
+AutoTurnInDB = {
+	["profileKeys"] = {
+		["Overhard - Bladefist"] = "Overhard - Bladefist",
+		["Overeasy - Garrosh"] = "Overeasy - Garrosh",
+	},
+	["profiles"] = {
+		["Overhard - Bladefist"] = {
+		},
+		["Overeasy - Garrosh"] = {
+		},
+	},
+}

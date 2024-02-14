@@ -1,0 +1,26 @@
+# Format is 
+# box <accountname> <password> <toonname> <role>
+#
+# Roles are:
+# tank / healer / melee / caster / hunter
+# 
+box mbhuntmb1@maildrop.cc	iso2tope	wow1 pankake-bladefist		melee
+box mbhuntmb2@maildrop.cc	iso2tope	wow1 eggletts-bladefist		melee
+box mbhuntmb3@maildrop.cc	iso2tope	wow1 baconalia-bladefist		melee
+box mbhuntmb4@maildrop.cc	iso2tope	wow1 syrupy-bladefist		melee
+box mbhuntmb5@maildrop.cc	iso2tope	wow1 jellyroll-bladefist		melee
+box mbhuntmb6@maildrop.cc	iso2tope	wow1 sausager-bladefist		melee
+box mbhuntmb7@maildrop.cc	iso2tope	wow1 hashbrowner-bladefist		melee
+box mbhuntmb8@maildrop.cc	iso2tope	wow1 omlette-bladefist		melee
+box mbhuntmb9@maildrop.cc	iso2tope	wow1 butterest-bladefist		melee
+box mbhuntmb10@maildrop.cc	iso2tope	wow1 overhard-bladefist		melee
+box mbhuntmb11@maildrop.cc	iso2tope	wow1 raisins-bladefist		melee
+box mbhuntmb12@maildrop.cc	iso2tope	wow1 strawberries-bladefist		melee
+box mbhuntmb13@maildrop.cc	iso2tope	wow1 brandysauce-bladefist		melee
+box mbhuntmb14@maildrop.cc	iso2tope	wow1 muffintop-bladefist		melee
+box mbhuntmb15@maildrop.cc	iso2tope	wow1 jamnbutter-bladefist		melee
+box mbhuntmb16@maildrop.cc	iso2tope	wow1 cornedhash-bladefist		melee
+box mbhuntmb17@maildrop.cc	iso2tope	wow1 chorizo-bladefist		melee
+box mbhuntmb18@maildrop.cc	iso2tope	wow1 linguisa-bladefist		melee
+box mbhuntmb19@maildrop.cc	iso2tope	wow1 whitegravy-bladefist		melee
+box mbhuntmb20@maildrop.cc	iso2tope	wow1 chickenfried-bladefist		melee
