@@ -80,3 +80,5 @@ Vendor_Pawn: disabled
 Vendor_RulePack: disabled
 Vendor_Titan: disabled
 Vendor_TSM: disabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

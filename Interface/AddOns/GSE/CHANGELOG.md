@@ -1,6 +1,6 @@
 # GSE
 
-## [3.1.53](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/tree/3.1.53) (2024-01-16)
-[Full Changelog](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/compare/3.1.52...3.1.53) [Previous Releases](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/releases)
+## [3.1.54](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/tree/3.1.54) (2024-01-31)
+[Full Changelog](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/compare/3.1.53...3.1.54) [Previous Releases](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/releases)
 
-- #1387 10.2.5 infrastructure updates  
+- #1390 GSE Breaks when Variable returns no value  

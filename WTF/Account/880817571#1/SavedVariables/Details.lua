@@ -1080,7 +1080,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["blockspell_padding"] = 5,
-		["spellcontainer_height"] = 310.9999084472656,
+		["spellcontainer_height"] = 310.9998168945313,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1095,20 +1095,20 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456,
+		["blockcontainer_width"] = 456.0000610351563,
 		["spellbar_background_alpha"] = 0.92,
-		["spellcontainer_width"] = 428.9999694824219,
+		["spellcontainer_width"] = 428.9999389648438,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 139.9999847412109,
+		["phasecontainer_height"] = 140.0000305175781,
 		["phasecontainer_enabled"] = true,
 		["genericcontainer_headers_right"] = {
 		},
-		["phasecontainer_width"] = 290,
+		["phasecontainer_width"] = 289.9999694824219,
 		["phasecontainer_headers"] = {
 		},
 		["statusbar_texture"] = "Interface\\AddOns\\Details\\images\\bar_skyline",
@@ -1140,18 +1140,18 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 428.9999694824219,
+		["targetcontainer_width"] = 428.9999389648438,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 139.9999847412109,
+		["targetcontainer_height"] = 140.0000305175781,
 		["nest_pet_spells_by_name"] = false,
 		["nest_players_spells_with_same_name"] = true,
 		["blockspell_spark_offset"] = -1,
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 269.9999694824219,
+		["blockcontainer_height"] = 269.9999084472656,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1161,21 +1161,25 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 2,
+	["combat_id_global"] = 106,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 1.52587890625e-05,
-		["x"] = 4.57763671875e-05,
+		["y"] = -4.57763671875e-05,
+		["x"] = 0.00048828125,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 27716,
+	["last_changelog_size"] = 29590,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
+		[40229] = "Scalding Rock Elemental",
+		[35095] = "Talrendis Scout",
+		[35245] = "Greystone Basilisk",
+		[35111] = "Runaway Shredder",
 	},
 	["death_recap"] = {
 		["show_segments"] = false,
@@ -1185,12 +1189,40 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
+		12, -- [1]
+		[17462] = 3,
+		[231390] = 3,
+		[258922] = 12,
+		[247456] = 12,
+		[87090] = 12,
+		[225919] = 12,
+		[6653] = 3,
+		[136] = 3,
+		[1459] = 8,
+		[257284] = 3,
+		[203720] = 12,
+		[53351] = 3,
+		[227255] = 12,
+		[346665] = 12,
+		[204598] = 12,
+		[258920] = 12,
+		[8395] = 3,
+		[198013] = 12,
+		[188499] = 12,
+		[319836] = 8,
+		[12654] = 8,
+		[203981] = 12,
+		[127802] = 3,
+		[185358] = 3,
+		[34795] = 3,
+		[200175] = 12,
 		[75] = 3,
-		[56641] = 3,
+		[203819] = 12,
+		[335151] = 3,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1707664633,
+	["latest_encounter_spell_pool_access"] = 1708750993,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["raid_data"] = {
@@ -1668,6 +1700,10 @@ _detalhes_global = {
 			["default_bg_alpha"] = 0.5,
 			["trash_concatenate"] = false,
 			["deny_score_messages"] = false,
+			["standard_skin"] = false,
+			["disable_lock_ungroup_buttons"] = false,
+			["animation_speed"] = 33,
+			["animate_scroll"] = false,
 			["disable_stretch_from_toolbar"] = false,
 			["realtime_dps_meter"] = {
 				["enabled"] = false,
@@ -1705,10 +1741,6 @@ _detalhes_global = {
 				["options_frame"] = {
 				},
 			},
-			["animation_speed"] = 33,
-			["animate_scroll"] = false,
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -1722,24 +1754,25 @@ _detalhes_global = {
 			},
 			["animation_speed_maxtravel"] = 3,
 			["time_type_original"] = 2,
-			["report_lines"] = 5,
-			["font_faces"] = {
-				["menus"] = "Friz Quadrata TT",
-			},
-			["auto_swap_to_dynamic_overall"] = false,
 			["player_details_window"] = {
 				["scale"] = 1,
 				["bar_texture"] = "Skyline",
 				["skin"] = "ElvUI",
 			},
+			["font_faces"] = {
+				["menus"] = "Friz Quadrata TT",
+			},
+			["auto_swap_to_dynamic_overall"] = false,
+			["segments_amount"] = 40,
+			["report_lines"] = 5,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -258.8023986816406,
-							["x"] = 643.1839599609375,
+							["y"] = -258.8025512695313,
+							["x"] = 655.4486083984375,
 							["w"] = 309.9999389648438,
-							["h"] = 157.9998931884766,
+							["h"] = 157.9999694824219,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2144,7 +2177,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = 252.9668884277344,
+						["y"] = 252.9667358398438,
 						["x"] = -36.6461181640625,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
@@ -2175,10 +2208,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -258.8023986816406,
-							["x"] = 643.1839599609375,
+							["y"] = -258.8025512695313,
+							["x"] = 655.4486083984375,
 							["w"] = 309.9999389648438,
-							["h"] = 157.9998931884766,
+							["h"] = 157.9999694824219,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2225,13 +2258,8 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
-			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["overall_clear_newboss"] = true,
-			["total_abbreviation"] = 2,
-			["skin"] = "Minimalistic",
-			["override_spellids"] = true,
-			["realtimedps_always_arena"] = false,
 			["capture_real"] = {
 				["heal"] = true,
 				["spellcast"] = true,
@@ -2240,25 +2268,40 @@ _detalhes_global = {
 				["energy"] = true,
 				["damage"] = true,
 			},
+			["skin"] = "Minimalistic",
+			["override_spellids"] = true,
 			["windows_fade_out"] = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
+			["minimum_combat_time"] = 5,
+			["realtimedps_always_arena"] = false,
 			["font_sizes"] = {
 				["menus"] = 10,
 			},
-			["minimum_combat_time"] = 5,
-			["use_scroll"] = false,
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
+			["overall_clear_logout"] = false,
 			["new_window_size"] = {
 				["height"] = 158,
 				["width"] = 310,
 			},
-			["memory_threshold"] = 3,
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
 			["deadlog_events"] = 32,
-			["color_by_arena_team"] = true,
+			["default_bg_color"] = 0.0941,
 			["close_shields"] = false,
 			["class_coords"] = {
 				["HUNTER"] = {
@@ -2333,11 +2376,11 @@ _detalhes_global = {
 					0.125, -- [3]
 					0.25, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
 				},
 				["Alliance"] = {
 					0.248046875, -- [1]
@@ -2363,11 +2406,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -2382,15 +2425,10 @@ _detalhes_global = {
 					0.5, -- [4]
 				},
 			},
-			["default_bg_color"] = 0.0941,
-			["disable_alldisplays_window"] = false,
-			["trash_auto_remove"] = false,
-			["broadcaster_enabled"] = false,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
+			["disable_alldisplays_window"] = false,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2473,17 +2511,17 @@ _detalhes_global = {
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
+				["version"] = 1,
 				["DEMONHUNTER"] = {
 					0.64, -- [1]
 					0.19, -- [2]
 					0.79, -- [3]
 				},
-				["version"] = 1,
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
@@ -2500,6 +2538,11 @@ _detalhes_global = {
 					0.73, -- [3]
 				},
 			},
+			["broadcaster_enabled"] = false,
+			["total_abbreviation"] = 2,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
+			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["options_group_edit"] = true,
 			["segments_amount_to_save"] = 40,
@@ -2516,22 +2559,11 @@ _detalhes_global = {
 				["height"] = 450,
 				["width"] = 480,
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
-			},
+			["memory_threshold"] = 3,
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["overall_clear_logout"] = false,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
+			["color_by_arena_team"] = true,
+			["use_scroll"] = false,
 			["overall_flag"] = 16,
 			["segments_panic_mode"] = false,
 			["realtimedps_order_bars"] = false,
@@ -2725,7 +2757,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1707664633,
+		["latest_boss_mods_access"] = 1708750993,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -2736,10 +2768,10 @@ _detalhes_global = {
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["HUNTER"] = 701.1460000000006,
+			["HUNTER"] = 38822.92500000006,
 		},
 	},
-	["latest_spell_pool_access"] = 1707664633,
+	["latest_spell_pool_access"] = 1708750993,
 	["slash_me_used"] = false,
 	["details_auras"] = {
 	},
@@ -2761,16 +2793,18 @@ _detalhes_global = {
 		["mythicrun_time_type"] = 1,
 		["reverse_death_log"] = false,
 		["make_overall_when_done"] = true,
+		["finished_run_frame"] = {
+		},
 		["show_damage_graphic"] = true,
-		["mythicrun_chart_frame_ready"] = {
+		["mythicrun_chart_frame_minimized"] = {
 		},
 		["boss_dedicated_segment"] = true,
-		["mythicrun_chart_frame_minimized"] = {
+		["mythicrun_chart_frame_ready"] = {
 		},
 		["last_mythicrun_chart"] = {
 		},
 	},
-	["latest_npcid_pool_access"] = 1707664633,
+	["latest_npcid_pool_access"] = 1708750993,
 	["exit_errors"] = {
 	},
 	["parser_options"] = {
@@ -2781,12 +2815,18 @@ _detalhes_global = {
 	},
 	["createauraframe"] = {
 	},
-	["item_level_pool"] = {
+	["data_wipes_exp"] = {
+		["9"] = false,
+		["14"] = false,
+		["13"] = false,
+		["12"] = false,
+		["11"] = false,
+		["10"] = false,
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 4,
-		["logons"] = 4,
+		["main_help_button"] = 34,
+		["logons"] = 34,
 		["version_announce"] = 0,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
@@ -2830,13 +2870,7 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["realm_sync"] = true,
-	["data_wipes_exp"] = {
-		["9"] = false,
-		["14"] = false,
-		["13"] = false,
-		["12"] = false,
-		["11"] = false,
-		["10"] = false,
+	["item_level_pool"] = {
 	},
 	["savedStyles"] = {
 	},
@@ -2846,7 +2880,7 @@ _detalhes_global = {
 	["spell_category_latest_query"] = 0,
 	["savedTimeCaptures"] = {
 	},
-	["latest_news_saw"] = "10.2.5 12222",
+	["latest_news_saw"] = "10.2.5 12307",
 	["damage_scroll_position"] = {
 		["scale"] = 1,
 	},
@@ -2951,14 +2985,35 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-02-11 07:32:48 | actor removed Gwyndalyn-Tichondrius (ungrouped)", -- [1]
-		"2024-02-11 07:32:48 | actor removed Murloc Watershaper (ungrouped)", -- [2]
-		"2024-02-11 07:27:29 | actor removed Healiogracie-Proudmoore (ungrouped)", -- [3]
-		"2024-02-11 07:27:29 | actor removed Healiogracie-Proudmoore (ungrouped)", -- [4]
-		"2024-02-11 07:27:29 | actor removed Murloc Spearhunter (ungrouped)", -- [5]
-		"2024-02-11 07:27:29 | actor removed Phimonkulous-Korialstrasz (ungrouped)", -- [6]
-		"2024-02-11 07:24:02 | actor removed Phimonkulous-Korialstrasz (ungrouped)", -- [7]
-		"2024-02-11 07:24:02 | actor removed Murloc Watershaper (ungrouped)", -- [8]
+		"2024-02-26 19:54:03 | actor removed Dazed (ungrouped)", -- [1]
+		"2024-02-26 19:54:03 | actor removed Omlette (ungrouped)", -- [2]
+		"2024-02-26 19:54:03 | actor removed Muffintop (ungrouped)", -- [3]
+		"2024-02-25 21:31:30 | actor removed Ir (ungrouped)", -- [4]
+		"2024-02-25 21:31:30 | actor removed Bird of Prey (ungrouped)", -- [5]
+		"2024-02-25 21:31:30 | actor removed Runaway Shredder (ungrouped)", -- [6]
+		"2024-02-25 21:31:30 | actor removed Gruffhorn (ungrouped)", -- [7]
+		"2024-02-25 21:31:30 | actor removed Boar (ungrouped)", -- [8]
+		"2024-02-25 21:31:30 | actor removed Weakened Mosshoof Stag (ungrouped)", -- [9]
+		"2024-02-25 13:33:27 | actor removed Kurdiso-Lightbringer (ungrouped)", -- [10]
+		"2024-02-25 13:33:27 | actor removed Weakened Mosshoof Stag (ungrouped)", -- [11]
+		"2024-02-25 11:02:04 | actor removed Thulrath <Pelande-Bonechewer> (orphan)", -- [12]
+		"2024-02-25 11:02:04 | actor removed Pelande-Bonechewer (ungrouped)", -- [13]
+		"2024-02-25 11:02:04 | actor removed Weakened Mosshoof Stag (ungrouped)", -- [14]
+		"2024-02-25 10:13:58 | actor removed Braedalyne-Winterhoof (ungrouped)", -- [15]
+		"2024-02-24 23:08:10 | actor removed Dementress-KulTiras (ungrouped)", -- [16]
+		"2024-02-24 22:56:08 | actor removed Unreal-Windrunner (ungrouped)", -- [17]
+		"2024-02-24 22:56:08 | actor removed Speedstick-Hyjal (ungrouped)", -- [18]
+		"2024-02-24 22:50:06 | actor removed Thornbeast-Windrunner (ungrouped)", -- [19]
+		"2024-02-24 22:50:06 | actor removed Abwatou-Windrunner (ungrouped)", -- [20]
+		"2024-02-24 22:50:06 | actor removed Paradox-Korgath (ungrouped)", -- [21]
+		"2024-02-24 15:43:57 | actor removed Deivid-Suramar (ungrouped)", -- [22]
+		"2024-02-24 15:22:20 | actor removed Bavarian-Cenarius (ungrouped)", -- [23]
+		"2024-02-24 15:22:20 | actor removed Iggy (ungrouped)", -- [24]
+		"2024-02-24 15:22:20 | actor removed Funks-Proudmoore (ungrouped)", -- [25]
+		"2024-02-24 15:22:20 | actor removed Orgrimmar Wind Rider (ungrouped)", -- [26]
+		"2024-02-24 15:22:20 | actor removed Ziggy (ungrouped)", -- [27]
+		"2024-02-23 22:34:05 | actor removed Deathstance-KulTiras (ungrouped)", -- [28]
+		"2024-02-23 22:34:05 | actor removed Rikcard-Perenolde (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
 	},

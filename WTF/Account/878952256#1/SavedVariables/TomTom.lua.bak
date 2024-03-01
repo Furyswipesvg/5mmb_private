@@ -33,6 +33,37 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["Loonkin - Bladefist"] = {
+			[85] = {
+				["85:678028712.27093:481696035.12172:Orgrimmar: 67.80, 48.17"] = {
+					85, -- [1]
+					0.6780287122709306, -- [2]
+					0.4816960351217162, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Orgrimmar: 67.80, 48.17",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 	},
 }

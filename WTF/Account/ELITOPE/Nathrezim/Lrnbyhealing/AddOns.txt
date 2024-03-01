@@ -203,3 +203,5 @@ TomTom: enabled
 DBM-CastleNathria: enabled
 DBM-Party-Shadowlands: enabled
 DBM-Nyalotha: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

@@ -19,9 +19,9 @@ AUCTIONATOR_CONFIG = {
 	["columns_shopping_buy_item"] = {
 	},
 	["selling_bag_selection_color"] = {
-		["r"] = 0.977,
-		["g"] = 0.592,
 		["b"] = 0.086,
+		["g"] = 0.592,
+		["r"] = 0.977,
 	},
 	["selling_ignored_keys"] = {
 	},
@@ -49,23 +49,22 @@ AUCTIONATOR_CONFIG = {
 	["small_tabs"] = false,
 	["selling_buy_shortcut"] = "alt right click",
 	["selling_confirm_low_price"] = true,
-	["shopping_last_container_view"] = 1,
-	["selling_split_panels"] = false,
+	["selling_group_by_item_key"] = true,
+	["selling_should_reselect_item"] = false,
 	["selling_bag_select_shortcut"] = "alt left click",
 	["selling_cancel_shortcut"] = "right click",
-	["columns_cancelling"] = {
+	["columns_selling_search_3"] = {
 	},
 	["cancel_undercut_shortcut"] = "SPACE",
 	["autoscan_interval"] = 15,
-	["autoscan_2"] = false,
-	["columns_shopping"] = {
-	},
+	["auction_mean_days_limit"] = 21,
+	["hide_splash_screen"] = false,
 	["save_last_duration_as_default"] = false,
-	["auction_mean_tooltips"] = false,
 	["crafting_info_show_cost"] = true,
+	["auction_mean_tooltips"] = false,
+	["vendor_tooltips"] = true,
 	["columns_shopping_buy_commodity"] = {
 	},
-	["show_selling_bid_price"] = false,
 	["default_quantities"] = {
 		0, -- [1]
 		1, -- [2]
@@ -85,23 +84,24 @@ AUCTIONATOR_CONFIG = {
 	},
 	["columns_shopping_historical_prices"] = {
 	},
-	["auction_chat_log"] = true,
-	["debug"] = false,
-	["auto_list_search"] = true,
-	["undercut_static_value"] = 0,
 	["crafting_info_show_profit"] = true,
+	["undercut_static_value"] = 0,
+	["auto_list_search"] = true,
+	["debug"] = false,
+	["auction_chat_log"] = true,
 	["mailbox_tooltips"] = true,
-	["vendor_tooltips"] = true,
+	["show_selling_bid_price"] = false,
 	["selling_bag_collapsed"] = false,
-	["hide_splash_screen"] = false,
-	["auction_mean_days_limit"] = 21,
+	["columns_shopping"] = {
+	},
+	["autoscan_2"] = false,
 	["auction_sales_preference"] = "percentage",
-	["columns_selling_search_3"] = {
+	["columns_cancelling"] = {
 	},
 	["splash_screen_version"] = "anything",
 	["crafting_info_show"] = true,
-	["selling_should_reselect_item"] = false,
-	["selling_group_by_item_key"] = true,
+	["selling_split_panels"] = false,
+	["shopping_last_container_view"] = 1,
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -123,9 +123,9 @@ AUCTIONATOR_RECENT_SEARCHES = {
 AUCTIONATOR_SELLING_GROUPS = {
 	["CustomGroups"] = {
 		{
-			["name"] = "FAVOURITES_GROUP",
-			["type"] = 1,
 			["hidden"] = false,
+			["type"] = 1,
+			["name"] = "FAVOURITES",
 			["list"] = {
 			},
 		}, -- [1]

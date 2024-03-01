@@ -273,6 +273,21 @@ EncounterDetailsDB = {
 				["__time"] = 1707504789,
 			},
 		}, -- [29]
+		{
+			["Raid Damage Done"] = {
+				7, -- [1]
+				0, -- [2]
+				["max_value"] = 7,
+				["__time"] = 1707619597,
+			},
+		}, -- [30]
+		{
+			["Raid Damage Done"] = {
+				8, -- [1]
+				["max_value"] = 8,
+				["__time"] = 1707619606,
+			},
+		}, -- [31]
 	},
 	["encounter_spells"] = {
 	},

@@ -1,214 +1,214 @@
-VER 3 00000000000009D3 "a10_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFF "a10_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Thefalcon
+/assist Goodlivin
 END
-VER 3 00000000000009CA "a1_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 1
-/assist Arrowkneeuno
-END
-VER 3 00000000000009CB "a2_fs" "Ability_HUNTER_pet_hyena"
-/console autoInteract 1
-/assist Tolnfinity
-END
-VER 3 00000000000009CC "a3_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AF6 "a1_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Dethndekay
 END
-VER 3 00000000000009CD "a4_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AF7 "a2_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist Vw
+END
+VER 3 0000000000000AF8 "a3_fs" "Ability_HUNTER_pet_hyena"
+/console autoInteract 1
+/assist In
+END
+VER 3 0000000000000AF9 "a4_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Armyofthebro
 END
-VER 3 00000000000009CE "a5_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFA "a5_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Froststrike
 END
-VER 3 00000000000009CF "a6_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFB "a6_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Deathstrike
 END
-VER 3 00000000000009D0 "a7_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFC "a7_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
 /assist Plaguestrike
 END
-VER 3 00000000000009D1 "a8_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFD "a8_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Turning
+/assist Getln
 END
-VER 3 00000000000009D2 "a9_fs" "Ability_HUNTER_pet_hyena"
+VER 3 0000000000000AFE "a9_fs" "Ability_HUNTER_pet_hyena"
 /console autoInteract 1
-/assist Wideninggyre
+/assist Neversmile
 END
-VER 3 00000000000009E8 "AOE_FS_MISTWEAVER" "spell_fire_selfdestruct"
+VER 3 0000000000000B14 "AOE_FS_MISTWEAVER" "spell_fire_selfdestruct"
 #showtooltip
 /click [button:1] AOE_FS_MISTWEAVER LeftButton t;
 END
-VER 3 00000000000009EB "convP_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000B17 "convP_fs" "Ability_HUNTER_pathfinding"
 /run C_PartyInfo.ConvertToParty()
 END
-VER 3 00000000000009E1 "dance_fs" "ability_DRUID_aquaticform"
+VER 3 0000000000000B0D "dance_fs" "ability_DRUID_aquaticform"
 /run SetPVP(false)
 /dance
 END
-VER 3 00000000000009BD "delete_trash_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AE9 "delete_trash_fs" "Ability_HUNTER_pathfinding"
 /run AutoDelete()
 END
-VER 3 00000000000009C8 "f10_fs" "Ability_hunter_pet_gorilla"
-/follow Thefalcon
+VER 3 0000000000000AF4 "f10_fs" "Ability_hunter_pet_gorilla"
+/follow Goodlivin
 /run SetView(4)
 END
-VER 3 00000000000009BF "f1_fs" "Ability_hunter_pet_gorilla"
-/follow Arrowkneeuno
-/run SetView(4)
-END
-VER 3 00000000000009C0 "f2_fs" "Ability_hunter_pet_gorilla"
-/follow Tolnfinity
-/run SetView(4)
-END
-VER 3 00000000000009C1 "f3_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000AEB "f1_fs" "Ability_hunter_pet_gorilla"
 /follow Dethndekay
 /run SetView(4)
 END
-VER 3 00000000000009C2 "f4_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000AEC "f2_fs" "Ability_hunter_pet_gorilla"
+/follow Vw
+/run SetView(4)
+END
+VER 3 0000000000000AED "f3_fs" "Ability_hunter_pet_gorilla"
+/follow In
+/run SetView(4)
+END
+VER 3 0000000000000AEE "f4_fs" "Ability_hunter_pet_gorilla"
 /follow Armyofthebro
 /run SetView(4)
 END
-VER 3 00000000000009C3 "f5_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000AEF "f5_fs" "Ability_hunter_pet_gorilla"
 /follow Froststrike
 /run SetView(4)
 END
-VER 3 00000000000009C4 "f6_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000AF0 "f6_fs" "Ability_hunter_pet_gorilla"
 /follow Deathstrike
 /run SetView(4)
 END
-VER 3 00000000000009C5 "f7_fs" "Ability_hunter_pet_gorilla"
+VER 3 0000000000000AF1 "f7_fs" "Ability_hunter_pet_gorilla"
 /follow Plaguestrike
 /run SetView(4)
 END
-VER 3 00000000000009C6 "f8_fs" "Ability_hunter_pet_gorilla"
-/follow Turning
+VER 3 0000000000000AF2 "f8_fs" "Ability_hunter_pet_gorilla"
+/follow Getln
 /run SetView(4)
 END
-VER 3 00000000000009C7 "f9_fs" "Ability_hunter_pet_gorilla"
-/follow Wideninggyre
+VER 3 0000000000000AF3 "f9_fs" "Ability_hunter_pet_gorilla"
+/follow Neversmile
 /run SetView(4)
 END
-VER 3 00000000000009BE "followT_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AEA "followT_fs" "Ability_HUNTER_pathfinding"
 /follow
 END
-VER 3 00000000000009DD "h10_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B09 "h10_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/target Thefalcon
+/target Goodlivin
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009D4 "h1_fs" "spell_nature_healingtouch"
-/run ClearCursor()
-/cleartarget
-/target Arrowkneeuno
-/castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
-END
-VER 3 00000000000009D5 "h2_fs" "spell_nature_healingtouch"
-/run ClearCursor()
-/cleartarget
-/target Tolnfinity
-/castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
-END
-VER 3 00000000000009D6 "h3_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B00 "h1_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /target Dethndekay
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009D7 "h4_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B01 "h2_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/target Vw
+/castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
+END
+VER 3 0000000000000B02 "h3_fs" "spell_nature_healingtouch"
+/run ClearCursor()
+/cleartarget
+/target In
+/castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
+END
+VER 3 0000000000000B03 "h4_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /target Armyofthebro
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009D8 "h5_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B04 "h5_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /target Froststrike
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009D9 "h6_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B05 "h6_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /target Deathstrike
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009DA "h7_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B06 "h7_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
 /target Plaguestrike
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009DB "h8_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B07 "h8_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/target Turning
+/target Getln
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009DC "h9_fs" "spell_nature_healingtouch"
+VER 3 0000000000000B08 "h9_fs" "spell_nature_healingtouch"
 /run ClearCursor()
 /cleartarget
-/target Wideninggyre
+/target Neversmile
 /castsequence [nomod,nochanneling] reset=combat/10 Enveloping Mist,Soothing Mist,Vivify
 END
-VER 3 00000000000009EC "Hide5_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000B18 "Hide5_fs" "Ability_HUNTER_pathfinding"
 /run MultiBar5:Hide()
 END
-VER 3 00000000000009C9 "init_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AF5 "init_fs" "Ability_HUNTER_pathfinding"
 /init
 END
-VER 3 00000000000009EA "int_fs" "INV_Misc_Questionmark"
+VER 3 0000000000000B16 "int_fs" "INV_Misc_Questionmark"
 /cast Leg Sweep
 END
-VER 3 00000000000009E0 "leave_fs" "spell_nature_purge"
+VER 3 0000000000000B0C "leave_fs" "spell_nature_purge"
 /script C_PartyInfo.LeaveParty()
 END
-VER 3 00000000000009DE "makealine_fs" "Ability_HUNTER_pet_tallstrider"
+VER 3 0000000000000B0A "makealine_fs" "Ability_HUNTER_pet_tallstrider"
 /follow Frawshawwk
 END
-VER 3 00000000000009E6 "MULTI_FS_MISTWEAVER" "ability_upgrademoonglaive"
+VER 3 0000000000000B12 "MULTI_FS_MISTWEAVER" "ability_upgrademoonglaive"
 #showtooltip
 /click [button:1] MULTI_FS_MISTWEAVER LeftButton t;
 END
-VER 3 00000000000009BC "party_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000AE8 "party_fs" "Ability_HUNTER_pathfinding"
 /run PartyUp()
 END
-VER 3 00000000000009E3 "poly_fs" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0F "poly_fs" "INV_Misc_QuestionMark"
 /cast Paralysis
 END
-VER 3 00000000000009DF "reload_fs" "spell_frost_stun"
+VER 3 0000000000000B0B "reload_fs" "spell_frost_stun"
 /reload
 END
-VER 3 00000000000009E2 "REZ_FS_MISTWEAVER" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0E "REZ_FS_MISTWEAVER" "INV_Misc_QuestionMark"
 #showtooltip
 /click [button:1] REZ_FS_MISTWEAVER LeftButton t; REZ_FS_MISTWEAVER
 END
-VER 3 00000000000009E4 "SETUP_FS_MISTWEAVER" "Spell_magic_polymorphchicken"
+VER 3 0000000000000B10 "SETUP_FS_MISTWEAVER" "Spell_magic_polymorphchicken"
 #showtooltip
 /click [button:1] SETUP_FS_MISTWEAVER LeftButton t;
 /petpassive [mod:alt]
 /stopcasting [mod:alt]
 END
-VER 3 00000000000009E9 "SHEAL_FS_MISTWEAVER" "spell_nature_healingtouch"
+VER 3 0000000000000B15 "SHEAL_FS_MISTWEAVER" "spell_nature_healingtouch"
 #showtooltip
 /click [button:1] SHEAL_FS_MISTWEAVER LeftButton t;
 END
-VER 3 00000000000009E5 "SINGLE_FS_MISTWEAVER" "ability_searingarrow"
+VER 3 0000000000000B11 "SINGLE_FS_MISTWEAVER" "ability_searingarrow"
 #showtooltip
 /click [button:1] SINGLE_FS_MISTWEAVER LeftButton t;
 END
-VER 3 00000000000009E7 "TURBO_FS_MISTWEAVER" "Spell_nature_lightning"
+VER 3 0000000000000B13 "TURBO_FS_MISTWEAVER" "Spell_nature_lightning"
 #showtooltip
 /click [button:1] TURBO_FS_MISTWEAVER LeftButton t;
 /petpassive [mod:alt]
 /run mountup()
 /run SetView(4)
 END
-VER 3 00000000000009ED "wave_fs" "Ability_HUNTER_pathfinding"
+VER 3 0000000000000B19 "wave_fs" "Ability_HUNTER_pathfinding"
 /wave
 END
 VER 3 00000000000007F8 "ZygorAction1" "134327"

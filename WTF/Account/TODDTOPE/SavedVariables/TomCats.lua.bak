@@ -1,0 +1,121 @@
+
+TomCats_Account = {
+	["errorLog"] = {
+	},
+	["hallowsend"] = {
+	},
+	["lastExpirationWarning"] = 0,
+	["discoveriesResetCount"] = 0,
+	["noblegarden"] = {
+		["enabled"] = true,
+	},
+	["lunarfestival"] = {
+		["preferences"] = {
+		},
+	},
+	["loveisintheair"] = {
+		["characters"] = {
+			["Player-57-079B9426"] = {
+				["bracelets"] = 0,
+				["class"] = "HUNTER",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Gâto",
+				["timestamp"] = 1707935365,
+				["tokens"] = 35,
+				["faction"] = "Horde",
+				["completedDungeon"] = true,
+				["level"] = 60,
+				["canLootMount"] = true,
+				["realm"] = "Illidan",
+			},
+			["Player-57-0BBCFEE7"] = {
+				["bracelets"] = 0,
+				["class"] = "WARRIOR",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Mootalia",
+				["timestamp"] = 1707967698,
+				["tokens"] = 7,
+				["faction"] = "Horde",
+				["completedDungeon"] = true,
+				["level"] = 70,
+				["canLootMount"] = true,
+				["realm"] = "Illidan",
+			},
+		},
+		["discovered"] = true,
+		["preferences"] = {
+		},
+	},
+	["discoveriesVersion"] = "0",
+	["lastVersionSeen"] = "2.5.11",
+	["preferences"] = {
+		["TomCats-HallowsEndMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["TomCats-MinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.888,
+		},
+		["defaultVignetteIcon"] = "default",
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["TomCats-LoveIsInTheAirMinimapButton2023"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
+		},
+		["TomCats-MidsummerMinimapButton2023"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["AccessoryWindow"] = {
+			["primeGamingLoot"] = 3,
+			["blizzardOther"] = 3,
+			["snoozed"] = {
+			},
+			["superbloom"] = 3,
+			["timeRifts"] = 3,
+			["WindowLocation"] = {
+				"TOPRIGHT", -- [1]
+				nil, -- [2]
+				"TOPRIGHT", -- [3]
+				-3.333070993423462, -- [4]
+				-243.4188385009766, -- [5]
+			},
+			["display"] = 100,
+			["elementalStorms"] = 3,
+			["treasureGoblin"] = 3,
+			["twitchDrops"] = 3,
+		},
+		["betaEnabled"] = false,
+		["TomCats-LunarFestivalMinimapButton2023"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+	},
+	["dragonflyingglyphs"] = {
+		["autoEnabled"] = true,
+		["preferences"] = {
+		},
+		["iconsEnabled"] = true,
+		["discovered"] = false,
+		["iconScale"] = 0.8,
+	},
+	["primalstorms"] = {
+		["preferences"] = {
+		},
+	},
+	["midsummer"] = {
+	},
+	["discoveries"] = {
+		["version"] = "0",
+		["vignetteAtlases"] = {
+		},
+		["vignettes"] = {
+		},
+	},
+}

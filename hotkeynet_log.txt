@@ -2,8 +2,8 @@
 HotkeyNet Log File
 -------------------------------------------------------------------------------------
 
-File opened at 17:20:41 on Wednesday, January 17, 2024
-DNS name: DESKTOP-VR3SFTR
+File opened at 19:14:09 on Thursday, February 29, 2024
+DNS name: DESKTOP-K4060A3
 OS version: Microsoft  (build 9200)
 
 
@@ -12,22 +12,22 @@ CPU:
 	Page size = 1000; 
 	Min app address = 10000; 
 	Max app address = 7ffeffff; 
-	Mask = fff; 
-	Qty cores = 12; 
+	Mask = ffffffff; 
+	Qty cores = 32; 
 	Type = 24a; 
 	Alloc granularity = 10000; 
-	Level = 6; 
-	Revision = 9e0a.
+	Level = 19; 
+	Revision = 6102.
 
 
 Memory:
-	Load = 24%; 
-	Total physical = 16176 MB; 
-	Available physical = 12153 MB; 
-	Total page file = 65328 MB; 
-	Avail page file = 59129 MB; 
+	Load = 3%; 
+	Total physical = 195771 MB; 
+	Available physical = 189870 MB; 
+	Total page file = 285883 MB; 
+	Avail page file = 277995 MB; 
 	Total virtual = 2047 MB; 
-	Avail virtual = 1973 MB; 
+	Avail virtual = 1976 MB; 
 	Avail extended virtual = 0 MB.
 
 
@@ -40,17 +40,17 @@ Mouse:
 
 Adapter 0:
 
-	IP Address	10.0.0.168
+	IP Address	192.168.1.2
 	Subnet Mask	255.255.255.0
-	Default Gateway	10.0.0.1
+	Default Gateway	192.168.1.1
 
-	Adapter Name	{DAF3C964-5C97-4C42-BC9B-D89D52CC515A}
-	Description	Intel(R) Ethernet Connection (7) I219-LM
-	Physical Address	0C-9D-92-5C-18-4F
+	Adapter Name	{A513DD82-FFBF-4CF2-BA54-20C737771E6A}
+	Description	Realtek Gaming 2.5GbE Family Controller
+	Physical Address	D8-43-AE-1B-93-DD
 
 	DHCP Enabled	Yes
-	DHCP Server	10.0.0.1
-	Lease Obtained	Wed Jan 17 14:59:57 2024
+	DHCP Server	192.168.1.1
+	Lease Obtained	Thu Feb 29 19:04:04 2024
 
 	Have WINS	No
 
@@ -60,9 +60,57 @@ Adapter 1:
 	Subnet Mask	0.0.0.0
 	Default Gateway	0.0.0.0
 
-	Adapter Name	{847B313F-B885-487C-AF83-D0C1D78B2536}
-	Description	Intel(R) I210 Gigabit Network Connection
-	Physical Address	0C-9D-92-5C-18-50
+	Adapter Name	{E6C10C0F-5CA8-4A15-928B-9976A0488D89}
+	Description	Bluetooth Device (Personal Area Network)
+	Physical Address	A8-3B-76-36-2D-76
+
+	DHCP Enabled	Yes
+	DHCP Server	
+	Lease Obtained	Wed Dec 31 16:00:00 1969
+
+	Have WINS	No
+
+Adapter 2:
+
+	IP Address	0.0.0.0
+	Subnet Mask	0.0.0.0
+	Default Gateway	0.0.0.0
+
+	Adapter Name	{68A03A0F-25FC-46EE-A6BC-D7905E1BFF6B}
+	Description	RZ616 Wi-Fi 6E 160MHz
+	Physical Address	A8-3B-76-36-2D-75
+
+	DHCP Enabled	Yes
+	DHCP Server	
+	Lease Obtained	Wed Dec 31 16:00:00 1969
+
+	Have WINS	No
+
+Adapter 3:
+
+	IP Address	0.0.0.0
+	Subnet Mask	0.0.0.0
+	Default Gateway	0.0.0.0
+
+	Adapter Name	{8352BCFE-5FD8-4985-926A-22090C80C50A}
+	Description	Microsoft Wi-Fi Direct Virtual Adapter
+	Physical Address	AA-3B-76-36-0D-55
+
+	DHCP Enabled	Yes
+	DHCP Server	
+	Lease Obtained	Wed Dec 31 16:00:00 1969
+
+	Have WINS	No
+
+Adapter 4:
+
+	IP Address	0.0.0.0
+	Subnet Mask	0.0.0.0
+	Default Gateway	0.0.0.0
+
+	Adapter Name	{DC74E624-41E4-4973-B144-052B676B996C}
+	Description	Microsoft Wi-Fi Direct Virtual Adapter #2
+	Physical Address	AA-3B-76-36-1D-45
 
 	DHCP Enabled	Yes
 	DHCP Server	
@@ -72,7 +120,9 @@ Adapter 1:
 
 HotkeyNet 0.1.45 build 210
 Start as server.
-This IP: 10.0.0.168
+This IP: 192.168.1.2
 
 C:\d\sou\cpp\macro\wininet.cpp 88: InternetOpenUrl(); system error 12007: 
-C:\d\sou\cpp\macro\wininet.cpp 91: URL = http://hotkeynet.net/auth/auth.php?B8CAaNpm5pUC3hkzpAooXkEtrOo8RmuKTGos3qTk/VpFD5BADwjOo1clLgoC72lgMHFa0HgKKFyPm8rKwNDpupd5hQ3iEjd2PUOK/cRpc1xBSb5gLe56s3KPfq2Oce+oV5wJkaRFZF++a7VwmllGwgHz6FKTSvAs+etw23gUbSjlQZ+ztmTe0Dh+BbkEnBflIEvRV5knr60ODVpx29lyrNCb3vcrN1HbTPrv1g==
+C:\d\sou\cpp\macro\wininet.cpp 91: URL = http://hotkeynet.net/auth/auth.php?dhMf4M2LbyRYMc7tfrH+saVKXnfSuA9UJmE2IKkv77C8mCmpTgZQkzu8OiFAxQValN8Nb80uGKJV6HlxKn6fj8PQ3XIJxLJCWcxv/2eLOq1titgNvtAvaGCrrQB3lc5JGzYkYObtEvJ5IsVK0qTGRrQs+GQJ8NhfiKTun2s9ZlvmoPUhaWuwM0O1yzJh7EHExqSR/TEhu/R4hipAGAwhYSkM1OVpRRLxmp+j8cqugTyP5tOQCsIu/rLXSov1oTaqKHs+C9neXB9Yyg7GwV97NK1irDiNyBZnHC9T2kCgCvXdDj5dJRKMgR/5x2qxxVOjysVDrqhhzqu99+sepiWeNmLvGhfwMMrTJ6sSvOhOQtUWif2Ml7omw8KEggKSL4v3LJA+ONotMwLbAgwqiU7iOJ9GuvUFoxi99o1pZI6R8mm1VbLuDvH6JzhBYsGiCN7NBcacWhSzypKCJZTq
+C:\d\sou\cpp\macro\pool_server.cpp 373: setsockopt SO_UPDATE_ACCEPT_CONTEXT; system error 10038: An operation was attempted on something that is not a socket.
+

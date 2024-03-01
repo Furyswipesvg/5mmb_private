@@ -21,6 +21,43 @@ _detalhes_global = {
 	["always_use_profile"] = false,
 	["deathlog_healingdone_min_arena"] = 400,
 	["spell_school_cache"] = {
+		["Tainted Blood"] = 32,
+		["Lingering Nausea"] = 8,
+		["Toxic Sludge"] = 8,
+		["Echoes of Shadra"] = 32,
+		["Tiki Blaze"] = 4,
+		["Homing Missile"] = 4,
+		["Chemical Burn"] = 8,
+		["Incendiary Rounds"] = 4,
+		["Choking Brine"] = 16,
+		["Jagged Cut"] = 1,
+		["Explosive Burst"] = 4,
+		["Kill Shot"] = 1,
+		["Devour"] = 1,
+		["Soulrend"] = 32,
+		["Slicing Hurricane"] = 8,
+		["Transfusion"] = 32,
+		["Explosive Void"] = 32,
+		["Blazing Azerite"] = 4,
+		["Burning Arsenal"] = 4,
+		["Hand of Reckoning"] = 2,
+		["Corpo-a-Corpo"] = 1,
+		["Alpha Cannon"] = 4,
+		["Deadeye"] = 1,
+		["Melee"] = 1,
+		["Tiro-Autom�tico"] = 1,
+		["Toxic Pool"] = 8,
+		["Searing Reagent"] = 4,
+		["Yawning Gate"] = 32,
+		["Molten Gold"] = 4,
+		["Swiftness Ward"] = 8,
+		["Noxious Stench"] = 8,
+		["Resonant Quake"] = 1,
+		["Tempest"] = 8,
+		["Timed Detonation"] = 4,
+		["Gatling Gun"] = 1,
+		["Shale Spit"] = 8,
+		["Azerite Catalyst"] = 4,
 	},
 	["spell_category_latest_sent"] = 0,
 	["damage_scroll_auto_open"] = true,
@@ -1080,7 +1117,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["nest_players_spells_with_same_name"] = true,
-		["spellcontainer_height"] = 311,
+		["spellcontainer_height"] = 310.9999084472656,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1095,9 +1132,9 @@ _detalhes_global = {
 			1, -- [3]
 			0.7, -- [4]
 		},
-		["blockcontainer_width"] = 456.0000305175781,
+		["blockcontainer_width"] = 456.0000610351563,
 		["genericcontainer_width"] = 429,
-		["spellcontainer_width"] = 429,
+		["spellcontainer_width"] = 428.9999389648438,
 		["spellcontainer_header_fontcolor"] = {
 			1, -- [1]
 			1, -- [2]
@@ -1139,7 +1176,7 @@ _detalhes_global = {
 			0.15, -- [2]
 			0.15, -- [3]
 		},
-		["targetcontainer_width"] = 429,
+		["targetcontainer_width"] = 428.9999389648438,
 		["statusbar_alpha"] = 0.7,
 		["targetcontainer_height"] = 140,
 		["genericcontainer_islocked"] = true,
@@ -1150,7 +1187,7 @@ _detalhes_global = {
 		["genericcontainer_enabled"] = true,
 		["genericcontainer_headers"] = {
 		},
-		["blockcontainer_height"] = 270,
+		["blockcontainer_height"] = 270.0000610351563,
 		["statusbar_background_alpha"] = 0.7,
 		["spellcontainer_headers"] = {
 		},
@@ -1161,21 +1198,56 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 18,
+	["combat_id_global"] = 287,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
-		["y"] = 0.000213623046875,
-		["x"] = 4.57763671875e-05,
+		["y"] = -4.57763671875e-05,
+		["x"] = 0.00048828125,
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 27716,
+	["last_changelog_size"] = 29590,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
+		[35111] = "Runaway Shredder",
+		[6196] = "Spitelash Myrmidon",
+		[35245] = "Greystone Basilisk",
+		[35881] = "Lady Vesthra",
+		[8959] = "Felpaw Wolf",
+		[8960] = "Felpaw Scavenger",
+		[30203] = "Forgotten Depths High Priest",
+		[33688] = "Raging Ancient",
+		[36147] = "Static-Charged Hippogryph",
+		[30206] = "Carrion Fleshstripper",
+		[30333] = "Forgotten Depths Slayer",
+		[7885] = "Spitelash Battlemaster",
+		[35466] = "Restless Spirit",
+		[7886] = "Spitelash Enchantress",
+		[4054] = "Laughing Sister",
+		[3810] = "Elder Ashenvale Bear",
+		[36868] = "Enslaved Son of Arkkoroc",
+		[31233] = "Sinewy Wolf",
+		[30544] = "Forgotten Depths Underking",
+		[40229] = "Scalding Rock Elemental",
+		[3820] = "Wildthorn Venomspitter",
+		[35831] = "Spitelash Stormfury",
+		[35833] = "Spitelash Priestess",
+		[35835] = "Shipwrecker <Spitelash Seacaller>",
+		[33195] = "Ashenvale Bowman",
+		[3782] = "Shadethicket Stone Mover",
+		[35095] = "Talrendis Scout",
+		[48452] = "Talonbranch Defender",
+		[36989] = "Spitelash Invader",
+		[8015] = "Ashenvale Sentinel",
+		[30205] = "Forgotten Depths Acolyte",
+		[35832] = "Spitelash Seacaller",
+		[36304] = "Mistwing Cliffdweller",
+		[36873] = "High Priestess Silthera",
+		[48670] = "Betrayed Ranger",
 	},
 	["death_recap"] = {
 		["enabled"] = true,
@@ -1185,13 +1257,78 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
+		2, -- [1]
+		3, -- [2]
+		[35395] = 2,
+		[335151] = 3,
+		[200175] = 12,
+		[275779] = 2,
+		[87090] = 3,
+		[136] = 3,
+		[53600] = 2,
+		[127802] = 3,
+		[342076] = 3,
+		[53390] = 7,
+		[12654] = 8,
+		[81297] = 2,
+		[982] = 3,
+		[44425] = 8,
+		[69820] = 2,
 		[56641] = 3,
-		[75] = 3,
+		[257044] = 3,
+		[203720] = 12,
+		[53351] = 3,
+		[247456] = 12,
+		[20271] = 2,
+		[257045] = 3,
+		[188370] = 2,
+		[32223] = 2,
+		[235313] = 8,
+		[32612] = 8,
+		[258920] = 12,
+		[188499] = 12,
+		[66] = 8,
+		[205708] = 8,
+		[203819] = 12,
+		[19434] = 3,
+		[271194] = 3,
+		[204598] = 12,
+		[143924] = 3,
+		[8395] = 8,
 		[185358] = 3,
+		[271197] = 3,
+		[34767] = 2,
+		[203981] = 12,
+		[122] = 8,
+		[75] = 3,
+		[204242] = 2,
+		[34795] = 3,
+		[1449] = 8,
+		[6653] = 8,
+		[198013] = 12,
+		[5384] = 3,
+		[227255] = 12,
+		[62124] = 2,
+		[319836] = 8,
+		[258922] = 12,
+		[228597] = 8,
+		[18989] = 7,
+		[133] = 8,
+		[34769] = 2,
+		[185245] = 12,
+		[132403] = 2,
+		[17462] = 3,
+		[5116] = 3,
+		[116] = 8,
+		[1459] = 8,
+		[225080] = 7,
+		[231390] = 3,
+		[61295] = 7,
+		[257284] = 3,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1707455027,
+	["latest_encounter_spell_pool_access"] = 1708547840,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["deathlog_healingdone_min"] = 1,
@@ -1599,8 +1736,8 @@ _detalhes_global = {
 				["line_height"] = 17,
 				["tooltip_max_targets"] = 2,
 				["icon_size"] = {
-					["W"] = 13,
-					["H"] = 13,
+					["W"] = 17,
+					["H"] = 17,
 				},
 				["anchor_relative"] = "top",
 				["anchored_to"] = 1,
@@ -1744,10 +1881,10 @@ _detalhes_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -173.9544677734375,
-							["x"] = 630.3043212890625,
-							["w"] = 310,
-							["h"] = 158.0000915527344,
+							["y"] = -173.9548034667969,
+							["x"] = 622.309326171875,
+							["w"] = 310.0001831054688,
+							["h"] = 157.9998168945313,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2152,8 +2289,8 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -173.9544525146484,
-						["x"] = -69.7861328125,
+						["y"] = -173.9548187255859,
+						["x"] = -69.7852783203125,
 						["point"] = "RIGHT",
 						["scale"] = 1,
 					},
@@ -2183,10 +2320,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -173.9544677734375,
-							["x"] = 630.3043212890625,
-							["w"] = 310,
-							["h"] = 158.0000915527344,
+							["y"] = -173.9548034667969,
+							["x"] = 622.309326171875,
+							["w"] = 310.0001831054688,
+							["h"] = 157.9998168945313,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -2569,17 +2706,17 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1707455027,
+		["latest_boss_mods_access"] = 1708547840,
 		["encounter_timers_dbm"] = {
 		},
 	},
 	["check_stuttering"] = false,
-	["latest_news_saw"] = "10.2.5 12222",
+	["latest_news_saw"] = "10.2.5 12307",
 	["played_class_time"] = true,
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["HUNTER"] = 4563.377000000008,
+			["HUNTER"] = 47103.81099999989,
 		},
 	},
 	["spell_category_latest_query"] = 0,
@@ -2594,11 +2731,13 @@ _detalhes_global = {
 		["mythicrun_time_type"] = 1,
 		["reverse_death_log"] = false,
 		["make_overall_when_done"] = true,
+		["finished_run_frame"] = {
+		},
 		["show_damage_graphic"] = true,
-		["mythicrun_chart_frame_ready"] = {
+		["mythicrun_chart_frame_minimized"] = {
 		},
 		["boss_dedicated_segment"] = true,
-		["mythicrun_chart_frame_minimized"] = {
+		["mythicrun_chart_frame_ready"] = {
 		},
 		["last_mythicrun_chart"] = {
 		},
@@ -2614,7 +2753,7 @@ _detalhes_global = {
 	},
 	["exit_errors"] = {
 	},
-	["latest_npcid_pool_access"] = 1707455027,
+	["latest_npcid_pool_access"] = 1708547840,
 	["data_wipes_exp"] = {
 		["9"] = false,
 		["14"] = false,
@@ -2662,9 +2801,10 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 9,
-		["logons"] = 9,
+		["main_help_button"] = 45,
+		["logons"] = 45,
 		["version_announce"] = 0,
+		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
 		["alert_frames"] = {
 			false, -- [1]
@@ -2686,7 +2826,7 @@ _detalhes_global = {
 	},
 	["details_auras"] = {
 	},
-	["latest_spell_pool_access"] = 1707455027,
+	["latest_spell_pool_access"] = 1708547840,
 	["savedTimeCaptures"] = {
 	},
 	["spell_category_savedtable"] = {
@@ -2950,37 +3090,38 @@ _detalhes_global = {
 }
 __details_backup = {
 	["_general_logs"] = {
-		"2024-02-09 11:23:29 | actor removed Deadfugus-Shu'halo (ungrouped)", -- [1]
-		"2024-02-09 11:23:29 | actor removed Coastal Goat (ungrouped)", -- [2]
-		"2024-02-09 11:23:29 | actor removed Prickly Porcupine (ungrouped)", -- [3]
-		"2024-02-09 10:43:58 | actor removed Vedor-Muradin (ungrouped)", -- [4]
-		"2024-02-09 10:43:58 | actor removed Omlette (ungrouped)", -- [5]
-		"2024-02-09 10:43:58 | actor removed Sausager (ungrouped)", -- [6]
-		"2024-02-09 10:43:58 | actor removed Vedor-Muradin (ungrouped)", -- [7]
-		"2024-02-09 10:43:58 | actor removed Horde Sparring Partner (ungrouped)", -- [8]
-		"2024-02-08 21:32:30 | actor removed Sausager (ungrouped)", -- [9]
-		"2024-02-08 21:32:30 | actor removed Sausager (ungrouped)", -- [10]
-		"2024-02-08 21:32:30 | actor removed Overhard (ungrouped)", -- [11]
-		"2024-02-08 21:32:30 | actor removed Sausager (ungrouped)", -- [12]
-		"2024-02-08 21:32:30 | actor removed Butterest (ungrouped)", -- [13]
-		"2024-02-08 21:32:30 | actor removed Omlette (ungrouped)", -- [14]
-		"2024-02-08 21:32:30 | actor removed Sausager (ungrouped)", -- [15]
-		"2024-02-08 21:32:30 | actor removed Hashbrowner (ungrouped)", -- [16]
-		"2024-02-08 21:32:30 | actor removed Overhard (ungrouped)", -- [17]
-		"2024-02-08 21:32:30 | actor removed Omlette (ungrouped)", -- [18]
-		"2024-02-08 21:32:30 | actor removed Murloc Spearhunter (ungrouped)", -- [19]
-		"2024-02-08 21:32:30 | actor removed Omlette (ungrouped)", -- [20]
-		"2024-02-08 21:32:30 | actor removed Rakuull-Hyjal (ungrouped)", -- [21]
-		"2024-02-08 21:32:30 | actor removed Dedratertnuh-Draka (ungrouped)", -- [22]
-		"2024-02-08 21:32:30 | actor removed Omlette (ungrouped)", -- [23]
-		"2024-02-08 21:32:30 | actor removed Sausager (ungrouped)", -- [24]
-		"2024-02-08 21:32:30 | actor removed Hashbrowner (ungrouped)", -- [25]
-		"2024-02-08 21:32:30 | actor removed Overhard (ungrouped)", -- [26]
-		"2024-02-08 21:32:30 | actor removed Murloc Watershaper (ungrouped)", -- [27]
-		"2024-02-08 21:32:30 | actor removed Unmarkgrave-Nordrassil (ungrouped)", -- [28]
-		"2024-02-08 21:32:30 | actor removed Horde Sparring Partner (ungrouped)", -- [29]
+		"2024-02-26 21:29:55 | actor removed Dazed (ungrouped)", -- [1]
+		"2024-02-26 21:29:55 | actor removed Crystalline Slumber (ungrouped)", -- [2]
+		"2024-02-26 21:29:55 | actor removed Crystalline Slumber (ungrouped)", -- [3]
+		"2024-02-25 11:01:45 | actor removed Thulrath <Pelande-Bonechewer> (orphan)", -- [4]
+		"2024-02-25 11:01:45 | actor removed Pelande-Bonechewer (ungrouped)", -- [5]
+		"2024-02-25 11:01:45 | actor removed Thulrath <Pelande-Bonechewer> (orphan)", -- [6]
+		"2024-02-25 11:01:45 | actor removed Pelande-Bonechewer (ungrouped)", -- [7]
+		"2024-02-25 11:01:45 | actor removed Weakened Mosshoof Stag (ungrouped)", -- [8]
+		"2024-02-25 10:13:38 | actor removed Braedalyne-Winterhoof (ungrouped)", -- [9]
+		"2024-02-24 23:08:09 | actor removed Dementress-KulTiras (ungrouped)", -- [10]
+		"2024-02-24 22:56:03 | actor removed Unreal-Windrunner (ungrouped)", -- [11]
+		"2024-02-24 22:56:03 | actor removed Speedstick-Hyjal (ungrouped)", -- [12]
+		"2024-02-24 22:50:03 | actor removed Thornbeast-Windrunner (ungrouped)", -- [13]
+		"2024-02-24 22:50:03 | actor removed Abwatou-Windrunner (ungrouped)", -- [14]
+		"2024-02-24 22:50:03 | actor removed Paradox-Korgath (ungrouped)", -- [15]
+		"2024-02-24 22:50:03 | actor removed Ðiannalynn-Lightbringer (ungrouped)", -- [16]
+		"2024-02-24 22:50:03 | actor removed Speedstick-Hyjal (ungrouped)", -- [17]
+		"2024-02-24 15:43:57 | actor removed Deivid-Suramar (ungrouped)", -- [18]
+		"2024-02-23 22:34:06 | actor removed Deathstance-KulTiras (ungrouped)", -- [19]
+		"2024-02-23 22:34:06 | actor removed Rikcard-Perenolde (ungrouped)", -- [20]
+		"2024-02-23 22:34:06 | actor removed Farewell-Draka (ungrouped)", -- [21]
+		"2024-02-23 22:34:06 | actor removed Tyieledron-Hyjal (ungrouped)", -- [22]
+		"2024-02-23 22:34:06 | actor removed Deathstance-KulTiras (ungrouped)", -- [23]
+		"2024-02-23 22:34:06 | actor removed Farewell-Draka (ungrouped)", -- [24]
+		"2024-02-23 22:34:06 | actor removed Hyjal Warden (ungrouped)", -- [25]
+		"2024-02-23 22:34:06 | actor removed Scalding Rock Elemental (ungrouped)", -- [26]
+		"2024-02-23 21:15:40 | actor removed Scalding Rock Elemental (ungrouped)", -- [27]
+		"2024-02-23 21:15:40 | actor removed Hyjal Warden (ungrouped)", -- [28]
+		"2024-02-23 21:06:57 | actor removed Loonkin (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
+		"2024-02-24 15:22:23 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
 	},
 	["_instance_backup"] = {
 	},

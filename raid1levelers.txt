@@ -1,0 +1,8 @@
+box secondfsmbraid01@maildrop.cc	iso2tope	wow1 vw-bladefist		melee
+box myclassicmb05@maildrop.cc	iso2tope	wow1	ik-bladefist		melee
+box myfsmb06@maildrop.cc	iso2tope	wow1 in-bladefist		melee
+box myfsmb07@maildrop.cc	iso2tope	wow1 ir-bladefist		melee
+#box myfsmb08@maildrop.cc	iso2tope	wow1 ul-bladefist		melee
+box ultra.multiboxtest@gmail.com	iso2tope	wow1 frawshawwk-bladefist	healer
+
+box myclassicmb01@maildrop.cc	iso2tope	wow1	groupee-bladefist	caster

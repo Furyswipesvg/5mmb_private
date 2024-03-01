@@ -193,8 +193,8 @@ _detalhes_global = {
 			["averageTime"] = 0,
 			["activations"] = 0,
 			["totalCooldownTime"] = 0,
-			["lastCombatId"] = 195,
-			["lastActivation"] = 1706939615.577,
+			["lastCombatId"] = 665,
+			["lastActivation"] = 1709180973.33,
 			["maxTime"] = 0,
 			["spellName"] = "Webweaver's Soul Gem",
 		},
@@ -1102,7 +1102,7 @@ _detalhes_global = {
 	},
 	["breakdown_spell_tab"] = {
 		["nest_players_spells_with_same_name"] = true,
-		["spellcontainer_height"] = 310.9999694824219,
+		["spellcontainer_height"] = 311,
 		["blockspell_height"] = 67,
 		["blockspell_backgroundcolor"] = {
 			0.05, -- [1]
@@ -1126,7 +1126,7 @@ _detalhes_global = {
 			1, -- [3]
 			1, -- [4]
 		},
-		["phasecontainer_height"] = 140,
+		["phasecontainer_height"] = 140.0000305175781,
 		["phasecontainer_enabled"] = true,
 		["targetcontainer_islocked"] = true,
 		["phasecontainer_width"] = 289.9999694824219,
@@ -1163,7 +1163,7 @@ _detalhes_global = {
 		},
 		["targetcontainer_width"] = 429.0000305175781,
 		["statusbar_alpha"] = 0.7,
-		["targetcontainer_height"] = 140,
+		["targetcontainer_height"] = 140.0000305175781,
 		["genericcontainer_islocked"] = true,
 		["genericcontainer_right_height"] = 460,
 		["nest_pet_spells_by_name"] = false,
@@ -1183,7 +1183,7 @@ _detalhes_global = {
 	["always_use_profile_name"] = "",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 353,
+	["combat_id_global"] = 691,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
@@ -1194,241 +1194,76 @@ _detalhes_global = {
 	},
 	["userCustomSpells"] = {
 	},
-	["last_changelog_size"] = 27716,
+	["last_changelog_size"] = 29590,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
-		[0] = "[*] Shadow Word: Death",
-		[36592] = "Apprentice Investigator",
-		[41453] = "Smouldering Ooze",
-		[2958] = "Prairie Wolf",
-		[1547] = "Decrepit Darkhound",
-		[2959] = "Prairie Stalker",
-		[37660] = "Razormane Warfrenzy",
-		[17878] = "Scourge Siege Engineer",
-		[45334] = "Twilight Bonebreaker",
-		[45358] = "Bound Fleshburner",
-		[37206] = "Plains Prowler",
-		[4127] = "Hecklefang Hyena",
-		[214483] = "Crown Alchemist",
-		[14356] = "Sawfin Frenzy",
-		[37557] = "Thunderhawk Cloudscraper",
-		[47765] = "Glopgut Pounder",
-		[9523] = "Kolkar Stormseer",
-		[683] = "Young Panther",
-		[8764] = "Mistwing Ravager",
-		[1554] = "Vampiric Duskbat",
-		[47064] = "Mossflayer Abductor",
-		[35095] = "Talrendis Scout",
-		[34848] = "Honor's Stand Sharpshooter",
-		[37661] = "Razormane Seer",
-		[8525] = "Scourge Warder",
-		[44562] = "Opengut Behemoth",
-		[44315] = "Desiccated Magus",
-		[8531] = "Gibbering Ghoul",
-		[8535] = "Putrid Shrieker",
-		[37207] = "Plains Pridemane",
-		[8541] = "Hate Shrieker",
-		[8543] = "Stitched Horror",
-		[6201] = "Legashi Rogue",
-		[6202] = "Legashi Hellcaller",
-		[51535] = "Chillwind Guard",
-		[8551] = "Dark Summoner",
-		[686] = "Lashtail Raptor",
-		[2729] = "Elder Crag Coyote",
-		[48260] = "Bloodfang Forsaken Hunter",
-		[8561] = "Mossflayer Shadowhunter",
-		[8310] = "Watcher Wollpert",
-		[48037] = "Chiseled Golem",
-		[2732] = "Ridge Huntress",
-		[36849] = "Talrendis Lorekeeper",
-		[2734] = "Ridge Stalker Patriarch",
-		[46713] = "Stonevault Wanderer",
-		[3374] = "Bael'dun Excavator",
-		[37160] = "Tower Warden",
-		[36593] = "Apprentice Illuminator",
-		[8338] = "Dark Iron Marksman",
-		[37923] = "Triumph Vanguard",
-		[8601] = "Noxious Plaguebat",
-		[2728] = "Feral Crag Coyote",
-		[37208] = "Thunderhead",
-		[42043] = "Ebon Slavehunter",
-		[46914] = "Raging Whelp",
-		[76085] = "Stormwind Sea Wolf",
-		[8527] = "Scourge Guard",
-		[36013] = "Blackmaw Warrior",
-		[41424] = "Mouldering Mirebeast",
-		[3461] = "Oasis Snapjaw",
-		[6200] = "Legashi Satyr",
-		[2730] = "Rabid Crag Coyote",
-		[3255] = "Sunscale Screecher",
-		[76886] = "Ironmarch Scout",
-		[3272] = "Kolkar Wrangler",
-		[1186] = "Black Bear",
-		[48291] = "Tugnar Goremaw",
-		[1824] = "Plague Lurker",
-		[47791] = "Citizen Wilkes",
-		[4461] = "Murkgill Warrior",
-		[5992] = "Ashmane Boar",
-		[36012] = "Blackmaw Shaman",
-		[499] = "Watcher Paige",
-		[47226] = "Obsidian Stoneslave",
-		[4466] = "Vilebranch Scalper",
-		[4467] = "Vilebranch Soothsayer",
-		[36890] = "Talrendis Glaive Thrower",
-		[37560] = "Razormane Pathfinder",
-		[37161] = "Honor's Stand Footman",
-		[46859] = "Velarok the Annihilator",
-		[45744] = "Ix'lar the Underlord",
-		[7037] = "Thaurissan Firewalker",
-		[2563] = "Plains Creeper",
-		[3275] = "Kolkar Marauder",
-		[7039] = "War Reaver",
-		[2253] = "Crushridge Brute",
-		[46915] = "Darkflight Soldier",
-		[37743] = "Taurajo Looter",
-		[37924] = "Barrens Operative",
-		[45664] = "Landlocked Grouper",
-		[7032] = "Greater Obsidian Elemental",
-		[5985] = "Snickerfang Hyena",
-		[47728] = "Storm Vortex",
-		[7035] = "Firegut Brute",
-		[7036] = "Thaurissan Spy",
-		[45967] = "Marshfin Murkdweller",
-		[2252] = "Crushridge Ogre",
-		[47768] = "Glopgut Hurler",
-		[7040] = "Black Dragonspawn",
-		[7041] = "Black Wyrmkin",
-		[533] = "Nightbane Shadow Weaver",
-		[1195] = "Forest Lurker",
-		[47553] = "Rasha'krak",
-		[1111] = "Leech Stalker",
-		[41449] = "Rampant Fire Elemental",
-		[2639] = "Vilebranch Axe Thrower",
-		[887] = "Watcher Jordan",
-		[2385] = "Foothill Stalker",
-		[3415] = "Savannah Huntress",
-		[48289] = "Minyoth",
-		[2514] = "Mountaineer Modax",
-		[36660] = "Talrendis Marksman",
-		[2515] = "Mountaineer Fazgard",
-		[2506] = "Mountaineer Harn",
-		[36816] = "Talrendis Defender",
-		[44087] = "Nightbane Stalker",
-		[44432] = "Alliance Fox Hunter",
-		[15644] = "Wretched Urchin",
-		[46916] = "Nyxondra's Broodling",
-		[51859] = "Honor's Stand Guard",
-		[826] = "Watcher Jan",
-		[858] = "Sorrow Spinner",
-		[46693] = "Dustbelcher Instructor",
-		[46773] = "Explorers' League Excavator",
-		[1536] = "Scarlet Missionary",
-		[92] = "Rock Elemental",
-		[36015] = "Blackmaw Pathfinder",
-		[37553] = "Disturbed Earth Elemental",
-		[48016] = "Unbound Emberfiend",
-		[45984] = "Blackscale Raider",
-		[3035] = "Flatland Cougar",
-		[76189] = "Ironmarch Grunt",
-		[36828] = "Grimtotem Defiler",
-		[10038] = "Night Watch Guard",
-		[46695] = "Dustbelcher Trainee",
-		[2680] = "Vilebranch Wolf Pup",
-		[827] = "Watcher Mocarski",
-		[36868] = "Enslaved Son of Arkkoroc",
-		[15658] = "Rotlimb Marauder",
-		[49245] = "Rampaging Owlbeast",
-		[42518] = "Wildhammer Warrior",
-		[2657] = "Trained Razorbeak",
-		[8526] = "Dark Caster",
-		[2658] = "Razorbeak Gryphon",
-		[828] = "Watcher Petras",
-		[2659] = "Razorbeak Skylord",
-		[2474] = "Kurdros",
-		[3425] = "Savannah Prowler",
-		[8538] = "Unseen Servant",
-		[8540] = "Torn Screamer",
-		[46917] = "Darkflight Flameblade",
-		[45395] = "Faceless Soulclaimer",
-		[8537] = "Interloper",
-		[8548] = "Vile Tutor",
-		[46694] = "Dustbelcher Initiate",
-		[46153] = "Highland Worg",
-		[38327] = "Northwatch Siege Engineer",
-		[48248] = "Sorrow Venomspitter",
-		[1338] = "Mountaineer Dalk",
-		[8560] = "Mossflayer Scout",
-		[48272] = "Bloodfang Forsaken Hunter",
-		[45985] = "Blackscale Mistress",
-		[1852] = "Araj the Summoner",
-		[2923] = "Mangy Silvermane",
-		[42041] = "Dragonmaw Whelpstealer",
-		[9697] = "Giant Ember Worg",
-		[12425] = "Flint Shadowmore",
-		[2925] = "Silvermane Howler",
-		[45825] = "Swampstrider",
-		[12261] = "Infected Mossflayer",
-		[41132] = "Flood Elemental",
-		[46320] = "Wildhammer Warbrand",
-		[885] = "Watcher Keller",
-		[5840] = "Dark Iron Steamsmith",
-		[44316] = "Desiccated Spearman",
-		[2929] = "Savage Owlbeast",
-		[37180] = "Honor's Stand Guard",
-		[8596] = "Plaguehound Runt",
-		[8598] = "Frenzied Plaguehound",
-		[8600] = "Plaguebat",
-		[8602] = "Monstrous Plaguebat",
-		[8562] = "Mossflayer Cannibal",
-		[46918] = "Darkflight Shadowspeaker",
-		[5850] = "Blazing Elemental",
-		[8544] = "Gangled Golem",
-		[15638] = "Arcane Patroller",
-		[5853] = "Tempered War Golem",
-		[5854] = "Heavy War Golem",
-		[5855] = "Magma Elemental",
-		[45743] = "Nerubian Sycophant",
-		[5857] = "Searing Lava Spider",
-		[5858] = "Greater Lava Spider",
-		[37585] = "Northwatch Recon",
-		[41394] = "Dark Iron Holdout",
-		[1537] = "Scarlet Zealot",
-		[930] = "Black Widow Hatchling",
-		[47861] = "Risen Hillsbrad Peasant",
-		[37093] = "Lashvine",
-		[6375] = "Thunderhead Hippogryph",
-		[35312] = "Talrendis Saboteur",
-		[2559] = "Highland Strider",
-		[1016] = "Highland Lashtail",
-		[45336] = "Burning Invader",
-		[62131] = "Plainsland Cheetah",
-		[47859] = "Risen Hillsbrad Farmer",
-		[2511] = "Mountaineer Bludd",
-		[46322] = "Shaman of the Black",
-		[202] = "Rotting Horror",
-		[10698] = "Summoned Zombie <Dark Summoner>",
-		[45788] = "Twilight Wyrmkiller",
-		[42042] = "Ebon Whelp",
-		[77724] = "Ironmarch Sentinel",
-		[2565] = "Giant Plains Creeper",
-		[46146] = "Stagalbog Serpent",
-		[3269] = "Razormane Geomancer",
-		[34177] = "Ashenvale Scout",
-		[5990] = "Redstone Basilisk",
-		[35111] = "Runaway Shredder",
-		[999] = "Watcher Royce",
-		[47724] = "Twilight Windwarper",
-		[36914] = "Talrendis Sentinel",
-		[45807] = "Sawtooth Crocolisk",
-		[6190] = "Spitelash Warrior",
-		[37556] = "Landquaker Bull",
-		[45359] = "Twilight Captivator",
-		[3240] = "Stormsnout",
-		[3273] = "Kolkar Stormer",
-		[7977] = "Gammerita",
-		[37086] = "Hecklefang Scavenger",
-		[9318] = "Incendosaur",
+		[47583] = "Bulwark Defender",
+		[11739] = "Rock Stalker",
+		[11740] = "Dredge Striker",
+		[11741] = "Dredge Crusher",
+		[5268] = "Ironfur Bear",
+		[45190] = "Sand Pygmy",
+		[51671] = "Rabid Hyena",
+		[51675] = "Oasis Crocolisk",
+		[48631] = "Schnottz Elite Infantryman",
+		[11497] = "The Razza",
+		[11880] = "Twilight Avenger",
+		[11881] = "Twilight Geolord",
+		[11882] = "Twilight Stonecaller",
+		[45905] = "Wastewander Outrider",
+		[40194] = "Vale Owl",
+		[51759] = "Oathsworn Skinner",
+		[4646] = "Gelkis Outrunner",
+		[4648] = "Gelkis Stamper",
+		[51672] = "Sweeping Winds",
+		[51676] = "Marsh Serpent",
+		[4651] = "Gelkis Earthcaller",
+		[48267] = "Neferset Denizen",
+		[51712] = "Ferndweller Wasp",
+		[45755] = "Scion of Al'Akir",
+		[4661] = "Gelkis Rumbler",
+		[46311] = "Neferset Sentry",
+		[47585] = "Twilight Magus",
+		[6505] = "Ravasaur",
+		[11804] = "Twilight Keeper Havunth",
+		[6506] = "Ravasaur Runner",
+		[51673] = "Venomscale Spitter",
+		[48629] = "Schnottz Infantryman",
+		[46617] = "Cursed Engineer",
+		[45859] = "Venomblood Scorpid",
+		[47014] = "Cursed Surveyor",
+		[51217] = "Cavorting Pygmy",
+		[11698] = "Hive'Ashi Stinger",
+		[6517] = "Tar Beast",
+		[9162] = "Young Diemetradon",
+		[9163] = "Diemetradon",
+		[9164] = "Elder Diemetradon",
+		[9166] = "Pterrordax",
+		[9167] = "Frenzied Pterrordax",
+		[5253] = "Woodpaw Brute",
+		[48626] = "Neferset Raider",
+		[47630] = "Twilight Jailer",
+		[40229] = "Scalding Rock Elemental",
+		[47306] = "Neferset Sentinel",
+		[45321] = "Riverbed Crocolisk",
+		[45202] = "Mangy Hyena",
+		[5362] = "Northspring Harpy",
+		[11724] = "Hive'Ashi Swarmer",
+		[15542] = "Twilight Marauder",
+		[40168] = "Corrupted Dryad",
+		[46317] = "Neferset Crocolisk",
+		[48625] = "Neferset Scryer",
+		[5286] = "Longtooth Runner",
+		[11746] = "Desert Rumbler",
+		[15541] = "Twilight Marauder Morna",
+		[11732] = "Hive'Regal Spitfire",
+		[39972] = "Feralas Sentinel",
+		[11734] = "Hive'Regal Hive Lord",
+		[47227] = "Eternal Protector",
+		[11736] = "Stonelash Pincer",
+		[11737] = "Stonelash Flayer",
+		[44595] = "Sand Slitherer",
 	},
 	["death_recap"] = {
 		["enabled"] = true,
@@ -1438,103 +1273,105 @@ _detalhes_global = {
 	},
 	["user_is_patreon_supporter"] = false,
 	["spell_pool"] = {
-		2, -- [1]
+		4, -- [1]
 		3, -- [2]
 		[8092] = 5,
-		[390771] = 5,
 		[414022] = 2,
 		[185358] = 3,
 		[271071] = 5,
 		[52424] = 6,
+		[199667] = 1,
 		[280398] = 5,
-		[195707] = 11,
+		[195707] = 1,
 		[8122] = 5,
 		[285381] = 11,
+		[222024] = 6,
 		[155722] = 11,
 		[1784] = 4,
 		[257284] = 3,
 		[191685] = 6,
-		[260798] = 1,
+		[23881] = 1,
 		[33917] = 11,
-		[394101] = 2,
+		[114239] = 5,
 		[768] = 11,
-		[148187] = 10,
+		[257541] = 8,
 		[77575] = 6,
-		[59052] = 6,
 		[235313] = 8,
 		[106830] = 11,
 		[190984] = 11,
 		[257542] = 8,
-		[6653] = 4,
+		[6653] = 6,
 		[335467] = 5,
 		[56641] = 3,
-		[235314] = 8,
-		[19434] = 3,
+		[44425] = 8,
 		[270827] = 8,
-		[126664] = 1,
+		[2061] = 5,
+		[33758] = 3,
 		[6673] = 1,
 		[387847] = 9,
 		[132157] = 5,
-		[17462] = 12,
+		[17462] = 3,
 		[49184] = 6,
-		[163073] = 12,
-		[86040] = 9,
-		[198013] = 12,
-		[224266] = 2,
+		[116189] = 10,
+		[13877] = 4,
+		[259014] = 3,
 		[27243] = 9,
+		[94472] = 5,
 		[232698] = 5,
-		[199547] = 12,
 		[202166] = 1,
 		[194310] = 6,
 		[188370] = 2,
-		[66] = 8,
+		[194311] = 6,
 		[108366] = 9,
 		[11426] = 8,
-		[188499] = 12,
+		[34861] = 5,
 		[116670] = 10,
 		[386196] = 1,
 		[7268] = 8,
-		[1822] = 11,
-		[10444] = 7,
+		[53385] = 2,
+		[243241] = 5,
 		[36554] = 4,
-		[405233] = 11,
+		[42223] = 9,
+		[96103] = 1,
 		[55078] = 6,
-		[204598] = 12,
-		[199552] = 12,
-		[6795] = 11,
+		[1064] = 7,
 		[47541] = 6,
-		[428487] = 4,
+		[387096] = 9,
 		[428488] = 4,
 		[85948] = 6,
 		[2643] = 3,
 		[48707] = 6,
+		[116768] = 10,
 		[69820] = 2,
 		[185438] = 4,
 		[45242] = 5,
+		[1329] = 4,
 		[190357] = 8,
-		[185311] = 4,
+		[194509] = 5,
+		[5308] = 1,
 		[17] = 5,
 		[55095] = 6,
+		[186270] = 3,
 		[1079] = 11,
+		[257044] = 3,
 		[34767] = 2,
-		[116] = 8,
+		[61882] = 7,
 		[136] = 3,
-		[382889] = 7,
+		[135299] = 3,
 		[7384] = 1,
+		[257045] = 3,
 		[194384] = 5,
+		[13750] = 4,
 		[101568] = 6,
 		[197834] = 4,
-		[185123] = 12,
+		[191894] = 10,
 		[8676] = 4,
-		[25504] = 7,
 		[5374] = 4,
 		[197835] = 4,
 		[53563] = 2,
 		[164812] = 11,
-		[5384] = 3,
 		[48517] = 11,
 		[260242] = 3,
-		[179057] = 12,
 		[344955] = 6,
 		[121147] = 6,
 		[18989] = 6,
@@ -1542,27 +1379,26 @@ _detalhes_global = {
 		[15407] = 5,
 		[34433] = 5,
 		[77489] = 5,
-		[32379] = 5,
 		[17057] = 11,
-		[31884] = 2,
-		[146739] = 9,
+		[27285] = 9,
+		[48438] = 11,
 		[24275] = 2,
 		[268439] = 11,
 		[48518] = 11,
 		[279043] = 4,
 		[34769] = 2,
-		[97547] = 11,
+		[30455] = 8,
 		[108853] = 8,
 		[24858] = 11,
 		[316220] = 4,
 		[196819] = 4,
 		[188196] = 7,
 		[191837] = 10,
-		[322098] = 5,
+		[153640] = 8,
 		[69826] = 2,
 		[315584] = 4,
 		[392490] = 6,
-		[43265] = 6,
+		[188389] = 7,
 		[315585] = 4,
 		[322101] = 10,
 		[227034] = 11,
@@ -1570,228 +1406,224 @@ _detalhes_global = {
 		[316099] = 9,
 		[191840] = 10,
 		[148022] = 8,
-		[5019] = 9,
-		[225311] = 2,
-		[348] = 9,
+		[385724] = 2,
+		[116680] = 10,
 		[34914] = 5,
-		[337819] = 12,
-		[121471] = 4,
+		[53390] = 7,
 		[263725] = 8,
 		[78675] = 11,
-		[80240] = 9,
 		[191587] = 6,
-		[322109] = 10,
 		[392883] = 10,
 		[61295] = 7,
 		[208771] = 5,
 		[44544] = 8,
-		[324540] = 9,
-		[116267] = 8,
-		[157736] = 9,
-		[32612] = 8,
+		[208772] = 5,
+		[215479] = 10,
 		[85256] = 2,
+		[85288] = 1,
 		[85416] = 2,
-		[16827] = 1,
-		[205708] = 8,
-		[12294] = 1,
-		[117418] = 10,
-		[20484] = 11,
-		[335150] = 9,
+		[2818] = 4,
+		[2823] = 4,
+		[214459] = 4,
+		[197277] = 2,
+		[355] = 1,
+		[228597] = 8,
+		[214807] = 3,
 		[81297] = 2,
 		[29722] = 9,
-		[124275] = 10,
-		[35395] = 2,
-		[201846] = 7,
-		[386124] = 9,
-		[20572] = 4,
-		[202644] = 12,
-		[378760] = 8,
-		[259014] = 3,
-		[160029] = 11,
-		[93402] = 11,
-		[117962] = 10,
+		[52437] = 1,
 		[21562] = 5,
-		[87090] = 12,
+		[414019] = 2,
+		[386124] = 9,
+		[267330] = 3,
+		[20572] = 4,
+		[411547] = 1,
+		[133] = 8,
+		[47632] = 6,
+		[585] = 5,
+		[119611] = 10,
+		[428487] = 4,
+		[212739] = 6,
 		[586] = 5,
 		[204242] = 2,
-		[48438] = 11,
-		[192106] = 7,
-		[143924] = 8,
+		[51460] = 6,
+		[100780] = 10,
+		[285452] = 7,
 		[260708] = 1,
-		[188389] = 7,
-		[205648] = 7,
+		[344179] = 7,
+		[164815] = 11,
 		[53600] = 2,
-		[258920] = 12,
+		[280615] = 7,
 		[231390] = 3,
-		[208772] = 5,
+		[31884] = 2,
 		[589] = 5,
-		[202168] = 1,
-		[104773] = 9,
+		[1943] = 4,
+		[255152] = 9,
 		[122] = 8,
 		[48107] = 8,
-		[258921] = 12,
-		[49966] = 1,
-		[262115] = 1,
+		[19750] = 2,
+		[191037] = 11,
+		[204883] = 5,
 		[5215] = 11,
 		[5217] = 11,
-		[127802] = 3,
+		[93402] = 11,
 		[5221] = 11,
-		[262652] = 7,
-		[258922] = 12,
+		[267325] = 3,
+		[77478] = 7,
 		[91807] = 6,
 		[194153] = 11,
-		[197277] = 2,
+		[53351] = 3,
 		[205523] = 10,
 		[8921] = 11,
-		[344179] = 7,
-		[133] = 8,
+		[184362] = 1,
+		[267327] = 3,
 		[127290] = 10,
-		[391403] = 5,
-		[116680] = 10,
-		[390636] = 5,
-		[980] = 9,
-		[75] = 3,
-		[386164] = 1,
-		[596] = 5,
-		[387096] = 9,
-		[116847] = 10,
-		[88263] = 2,
-		[81141] = 6,
-		[5784] = 9,
-		[391401] = 5,
-		[1449] = 8,
-		[47632] = 6,
-		[333889] = 9,
-		[52419] = 6,
-		[55342] = 8,
-		[391400] = 10,
-		[184575] = 2,
-		[1752] = 4,
-		[172] = 9,
-		[162794] = 12,
-		[1459] = 8,
-		[192109] = 7,
+		[117952] = 10,
+		[124275] = 10,
+		[117418] = 10,
+		[35395] = 2,
 		[1966] = 4,
-		[215479] = 10,
-		[315496] = 4,
-		[119611] = 10,
-		[106785] = 11,
-		[193455] = 3,
-		[17962] = 9,
-		[59638] = 8,
-		[100784] = 10,
-		[206930] = 6,
+		[191034] = 11,
+		[267329] = 3,
+		[121253] = 10,
+		[116847] = 10,
+		[980] = 9,
+		[81141] = 6,
+		[51637] = 4,
+		[124274] = 10,
+		[1449] = 8,
+		[267331] = 3,
+		[5784] = 9,
+		[188290] = 6,
+		[8936] = 11,
+		[88263] = 2,
+		[184575] = 2,
+		[124682] = 10,
+		[274062] = 10,
+		[384784] = 3,
+		[86392] = 4,
+		[185763] = 4,
+		[70890] = 6,
+		[146739] = 9,
+		[196840] = 7,
+		[686] = 9,
+		[190356] = 8,
+		[289308] = 8,
+		[14914] = 5,
+		[195627] = 4,
+		[1459] = 8,
+		[10444] = 7,
 		[12654] = 8,
-		[585] = 5,
+		[188443] = 7,
 		[31935] = 2,
-		[204883] = 5,
+		[51505] = 7,
 		[382440] = 8,
-		[183435] = 2,
+		[157736] = 9,
 		[195181] = 6,
+		[348] = 9,
 		[1464] = 1,
-		[226991] = 12,
 		[268616] = 8,
 		[267211] = 9,
-		[44425] = 8,
+		[19434] = 3,
 		[394195] = 8,
-		[267213] = 9,
+		[414381] = 8,
 		[195182] = 6,
 		[195757] = 6,
 		[281265] = 5,
 		[113656] = 10,
-		[414381] = 8,
-		[1064] = 7,
-		[100780] = 10,
+		[267213] = 9,
+		[106785] = 11,
+		[100784] = 10,
 		[195630] = 10,
+		[193455] = 3,
 		[84721] = 8,
-		[262232] = 1,
 		[382445] = 8,
-		[275773] = 2,
-		[145109] = 11,
-		[50334] = 11,
-		[33758] = 3,
-		[319836] = 8,
-		[162243] = 12,
-		[157644] = 8,
-		[2948] = 8,
-		[17364] = 7,
-		[78674] = 11,
 		[53595] = 2,
+		[81751] = 5,
+		[370] = 7,
+		[224266] = 2,
+		[62124] = 2,
+		[260286] = 3,
+		[268877] = 3,
+		[2948] = 8,
+		[127802] = 3,
+		[22482] = 4,
+		[66198] = 6,
 		[49020] = 6,
-		[381684] = 7,
+		[53] = 4,
 		[32223] = 2,
 		[56222] = 6,
-		[83381] = 1,
+		[86040] = 9,
 		[107270] = 10,
-		[117952] = 10,
-		[243241] = 5,
-		[48778] = 6,
+		[391786] = 11,
+		[275773] = 2,
+		[206930] = 6,
 		[275779] = 2,
 		[129914] = 10,
-		[53] = 4,
-		[121253] = 10,
-		[53390] = 7,
-		[225080] = 7,
-		[30455] = 8,
+		[49088] = 6,
+		[405233] = 11,
+		[52419] = 6,
+		[172] = 9,
+		[342076] = 3,
 		[199658] = 1,
 		[406086] = 2,
-		[14914] = 5,
+		[145109] = 11,
 		[23161] = 9,
-		[178963] = 12,
-		[5938] = 4,
-		[60103] = 7,
-		[287280] = 2,
-		[34795] = 3,
-		[385724] = 2,
-		[145110] = 11,
-		[17505] = 7,
-		[426401] = 5,
-		[53351] = 3,
-		[188290] = 6,
-		[70890] = 6,
-		[8004] = 7,
-		[65753] = 7,
-		[53652] = 2,
-		[205473] = 8,
-		[30451] = 8,
-		[55233] = 6,
-		[105771] = 1,
-		[289308] = 8,
 		[52212] = 6,
+		[5938] = 4,
+		[202168] = 1,
+		[287280] = 2,
+		[17962] = 9,
+		[148187] = 10,
+		[145110] = 11,
+		[315496] = 4,
+		[426401] = 5,
+		[48778] = 6,
+		[164273] = 3,
+		[43265] = 6,
+		[8004] = 7,
+		[44949] = 1,
+		[53652] = 2,
+		[190925] = 3,
+		[113780] = 4,
+		[55233] = 6,
+		[205708] = 8,
+		[75] = 3,
+		[1822] = 11,
 		[20271] = 2,
 		[263140] = 3,
 		[115129] = 10,
-		[196840] = 7,
-		[228597] = 8,
-		[686] = 9,
-		[49088] = 6,
-		[53365] = 6,
+		[317785] = 6,
+		[386164] = 1,
+		[596] = 5,
+		[25912] = 2,
+		[390636] = 5,
 		[8395] = 11,
 		[50842] = 6,
 		[5487] = 11,
-		[153640] = 8,
+		[116267] = 8,
 		[228598] = 8,
 		[157122] = 2,
-		[394087] = 9,
-		[34861] = 5,
-		[25912] = 2,
-		[194509] = 5,
+		[381684] = 7,
+		[52127] = 7,
+		[34795] = 9,
+		[6795] = 11,
 		[132403] = 2,
 		[55090] = 6,
-		[62124] = 2,
-		[116189] = 10,
-		[115804] = 1,
-		[200175] = 12,
-		[32216] = 1,
-		[42223] = 9,
-		[414019] = 2,
+		[143924] = 2,
+		[259285] = 3,
 		[702] = 9,
-		[164815] = 11,
-		[198030] = 12,
+		[225311] = 2,
+		[32216] = 1,
+		[262232] = 1,
+		[378760] = 8,
+		[53365] = 6,
+		[214803] = 3,
+		[121471] = 4,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1706720772,
+	["latest_encounter_spell_pool_access"] = 1709173414,
 	["auto_open_news_window"] = true,
 	["got_first_run"] = true,
 	["deathlog_healingdone_min"] = 1,
@@ -2280,8 +2112,43 @@ _detalhes_global = {
 			["instances_no_libwindow"] = false,
 			["animation_speed"] = 33,
 			["data_broker_text"] = "",
-			["standard_skin"] = false,
-			["disable_lock_ungroup_buttons"] = false,
+			["disable_stretch_from_toolbar"] = false,
+			["realtime_dps_meter"] = {
+				["enabled"] = false,
+				["font_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["arena_enabled"] = true,
+				["font_shadow"] = "NONE",
+				["font_size"] = 18,
+				["mythic_dungeon_enabled"] = false,
+				["sample_size"] = 3,
+				["frame_settings"] = {
+					["show_title"] = true,
+					["strata"] = "LOW",
+					["point"] = "TOP",
+					["scale"] = 1,
+					["width"] = 300,
+					["y"] = -110,
+					["x"] = 0,
+					["backdrop_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.2, -- [4]
+					},
+					["locked"] = true,
+					["height"] = 23,
+				},
+				["font_face"] = "Friz Quadrata TT",
+				["text_offset"] = 2,
+				["update_interval"] = 0.3,
+				["options_frame"] = {
+				},
+			},
 			["memory_ram"] = 64,
 			["use_battleground_server_parser"] = false,
 			["death_tooltip_width"] = 350,
@@ -2305,324 +2172,14 @@ _detalhes_global = {
 			},
 			["show_arena_role_icon"] = false,
 			["overall_clear_pvp"] = true,
-			["segments_amount"] = 40,
-			["report_lines"] = 5,
-			["overall_clear_newboss"] = true,
-			["overall_flag"] = 16,
-			["skin"] = "Minimalistic",
-			["override_spellids"] = true,
-			["use_scroll"] = false,
-			["color_by_arena_team"] = true,
-			["overall_clear_logout"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
-			["minimum_combat_time"] = 5,
-			["memory_threshold"] = 3,
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
-			},
-			["deadlog_events"] = 32,
-			["default_bg_color"] = 0.0941,
-			["close_shields"] = false,
-			["class_coords"] = {
-				["HUNTER"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["WARRIOR"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["SHAMAN"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["MAGE"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["PET"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["DRUID"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["MONK"] = {
-					0.25, -- [1]
-					0.369140625, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["DEATHKNIGHT"] = {
-					0.125, -- [1]
-					0.25, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["UNKNOW"] = {
-					0.25, -- [1]
-					0.375, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["PRIEST"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["UNGROUPPLAYER"] = {
-					0.25, -- [1]
-					0.375, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["Alliance"] = {
-					0.248046875, -- [1]
-					0.02968748, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["WARLOCK"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["DEMONHUNTER"] = {
-					0.36914063, -- [1]
-					0.5, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["Horde"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["MONSTER"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["EVOKER"] = {
-					0.50390625, -- [1]
-					0.625, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-			},
-			["class_colors"] = {
-				["HUNTER"] = {
-					0.67, -- [1]
-					0.83, -- [2]
-					0.45, -- [3]
-				},
-				["WARRIOR"] = {
-					0.78, -- [1]
-					0.61, -- [2]
-					0.43, -- [3]
-				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
-				},
-				["MAGE"] = {
-					0.41, -- [1]
-					0.8, -- [2]
-					0.94, -- [3]
-				},
-				["ARENA_YELLOW"] = {
-					1, -- [1]
-					1, -- [2]
-					0.25, -- [3]
-				},
-				["UNGROUPPLAYER"] = {
-					0.4, -- [1]
-					0.4, -- [2]
-					0.4, -- [3]
-				},
-				["DRUID"] = {
-					1, -- [1]
-					0.49, -- [2]
-					0.04, -- [3]
-				},
-				["MONK"] = {
-					0, -- [1]
-					1, -- [2]
-					0.59, -- [3]
-				},
-				["DEATHKNIGHT"] = {
-					0.77, -- [1]
-					0.12, -- [2]
-					0.23, -- [3]
-				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
-				},
-				["PET"] = {
-					0.3, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
-				["UNKNOW"] = {
-					0.2, -- [1]
-					0.2, -- [2]
-					0.2, -- [3]
-				},
-				["PRIEST"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				},
-				["version"] = 1,
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
-				},
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
-				["ARENA_GREEN"] = {
-					0.686, -- [1]
-					0.372, -- [2]
-					0.905, -- [3]
-				},
-				["NEUTRAL"] = {
-					1, -- [1]
-					1, -- [2]
-					0, -- [3]
-				},
-				["EVOKER"] = {
-					0.2, -- [1]
-					0.5764, -- [2]
-					0.498, -- [3]
-				},
-				["SELF"] = {
-					0.89019, -- [1]
-					0.32156, -- [2]
-					0.89019, -- [3]
-				},
-			},
-			["disable_alldisplays_window"] = false,
-			["total_abbreviation"] = 2,
-			["segments_amount_to_save"] = 40,
-			["trash_auto_remove"] = false,
-			["animation_speed_triggertravel"] = 5,
-			["clear_graphic"] = true,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["segments_auto_erase"] = 1,
-			["options_group_edit"] = true,
-			["broadcaster_enabled"] = false,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["hide"] = false,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["text_type"] = 1,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
-			["only_pvp_frags"] = false,
-			["disable_stretch_button"] = false,
-			["realtimedps_always_arena"] = false,
-			["windows_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
-			["capture_real"] = {
-				["heal"] = true,
-				["spellcast"] = true,
-				["miscdata"] = true,
-				["aura"] = true,
-				["energy"] = true,
-				["damage"] = true,
-			},
-			["segments_panic_mode"] = false,
-			["realtimedps_order_bars"] = false,
 			["instances"] = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -185.6455688476563,
+							["y"] = -185.6455078125,
 							["x"] = 583.3740234375,
 							["w"] = 310.0002746582031,
-							["h"] = 158.0001831054688,
+							["h"] = 158.0001220703125,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -3027,7 +2584,7 @@ _detalhes_global = {
 					["micro_displays_side"] = 2,
 					["show_statusbar"] = false,
 					["libwindow"] = {
-						["y"] = -185.6455688476563,
+						["y"] = -185.6455078125,
 						["x"] = -108.720458984375,
 						["point"] = "RIGHT",
 						["scale"] = 1,
@@ -3058,10 +2615,10 @@ _detalhes_global = {
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
-							["y"] = -185.6455688476563,
+							["y"] = -185.6455078125,
 							["x"] = 583.3740234375,
 							["w"] = 310.0002746582031,
-							["h"] = 158.0001831054688,
+							["h"] = 158.0001220703125,
 						},
 						["solo"] = {
 							["y"] = 2,
@@ -3108,6 +2665,316 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
+			["report_lines"] = 5,
+			["overall_clear_newboss"] = true,
+			["overall_flag"] = 16,
+			["skin"] = "Minimalistic",
+			["override_spellids"] = true,
+			["use_scroll"] = false,
+			["color_by_arena_team"] = true,
+			["overall_clear_logout"] = false,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["realtimedps_always_arena"] = false,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["memory_threshold"] = 3,
+			["deadlog_events"] = 32,
+			["default_bg_color"] = 0.0941,
+			["close_shields"] = false,
+			["class_coords"] = {
+				["HUNTER"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["WARRIOR"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["SHAMAN"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["MAGE"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["PET"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["DRUID"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["MONK"] = {
+					0.25, -- [1]
+					0.369140625, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["DEATHKNIGHT"] = {
+					0.125, -- [1]
+					0.25, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["UNKNOW"] = {
+					0.25, -- [1]
+					0.375, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["PRIEST"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["UNGROUPPLAYER"] = {
+					0.25, -- [1]
+					0.375, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["Alliance"] = {
+					0.248046875, -- [1]
+					0.02968748, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["WARLOCK"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["DEMONHUNTER"] = {
+					0.36914063, -- [1]
+					0.5, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["Horde"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["MONSTER"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["EVOKER"] = {
+					0.50390625, -- [1]
+					0.625, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["ENEMY"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+			},
+			["trash_auto_remove"] = false,
+			["disable_alldisplays_window"] = false,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["segments_amount_to_save"] = 40,
+			["class_colors"] = {
+				["HUNTER"] = {
+					0.67, -- [1]
+					0.83, -- [2]
+					0.45, -- [3]
+				},
+				["WARRIOR"] = {
+					0.78, -- [1]
+					0.61, -- [2]
+					0.43, -- [3]
+				},
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
+				},
+				["MAGE"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
+				},
+				["ARENA_YELLOW"] = {
+					1, -- [1]
+					1, -- [2]
+					0.25, -- [3]
+				},
+				["UNGROUPPLAYER"] = {
+					0.4, -- [1]
+					0.4, -- [2]
+					0.4, -- [3]
+				},
+				["DRUID"] = {
+					1, -- [1]
+					0.49, -- [2]
+					0.04, -- [3]
+				},
+				["MONK"] = {
+					0, -- [1]
+					1, -- [2]
+					0.59, -- [3]
+				},
+				["DEATHKNIGHT"] = {
+					0.77, -- [1]
+					0.12, -- [2]
+					0.23, -- [3]
+				},
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
+				},
+				["PET"] = {
+					0.3, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+				},
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				},
+				["UNKNOW"] = {
+					0.2, -- [1]
+					0.2, -- [2]
+					0.2, -- [3]
+				},
+				["PRIEST"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
+				["version"] = 1,
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["ARENA_GREEN"] = {
+					0.686, -- [1]
+					0.372, -- [2]
+					0.905, -- [3]
+				},
+				["NEUTRAL"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["EVOKER"] = {
+					0.2, -- [1]
+					0.5764, -- [2]
+					0.498, -- [3]
+				},
+				["SELF"] = {
+					0.89019, -- [1]
+					0.32156, -- [2]
+					0.89019, -- [3]
+				},
+			},
+			["animation_speed_triggertravel"] = 5,
+			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
+			["segments_auto_erase"] = 1,
+			["options_group_edit"] = true,
+			["broadcaster_enabled"] = false,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["hide"] = false,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["text_type"] = 1,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
+			},
+			["only_pvp_frags"] = false,
+			["disable_stretch_button"] = false,
+			["minimum_combat_time"] = 5,
+			["windows_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["capture_real"] = {
+				["heal"] = true,
+				["spellcast"] = true,
+				["miscdata"] = true,
+				["aura"] = true,
+				["energy"] = true,
+				["damage"] = true,
+			},
+			["segments_panic_mode"] = false,
+			["realtimedps_order_bars"] = false,
+			["segments_amount"] = 40,
 			["auto_swap_to_dynamic_overall"] = false,
 			["player_details_window"] = {
 				["scale"] = 1,
@@ -3121,43 +2988,8 @@ _detalhes_global = {
 			["death_tooltip_texture"] = "Details Serenity",
 			["disable_reset_button"] = false,
 			["animate_scroll"] = false,
-			["realtime_dps_meter"] = {
-				["enabled"] = false,
-				["font_color"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-					1, -- [4]
-				},
-				["arena_enabled"] = true,
-				["font_shadow"] = "NONE",
-				["font_size"] = 18,
-				["mythic_dungeon_enabled"] = false,
-				["sample_size"] = 3,
-				["frame_settings"] = {
-					["show_title"] = true,
-					["strata"] = "LOW",
-					["point"] = "TOP",
-					["scale"] = 1,
-					["width"] = 300,
-					["y"] = -110,
-					["x"] = 0,
-					["backdrop_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.2, -- [4]
-					},
-					["locked"] = true,
-					["height"] = 23,
-				},
-				["font_face"] = "Friz Quadrata TT",
-				["text_offset"] = 2,
-				["update_interval"] = 0.3,
-				["options_frame"] = {
-				},
-			},
-			["disable_stretch_from_toolbar"] = false,
+			["disable_lock_ungroup_buttons"] = false,
+			["standard_skin"] = false,
 			["default_bg_alpha"] = 0.5,
 			["profile_save_pos"] = true,
 		},
@@ -3169,17 +3001,17 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1706720772,
+		["latest_boss_mods_access"] = 1709173414,
 		["encounter_timers_dbm"] = {
 		},
 	},
 	["check_stuttering"] = false,
-	["latest_news_saw"] = "10.2.5 12222",
+	["latest_news_saw"] = "10.2.5 12307",
 	["played_class_time"] = true,
 	["report_where"] = "SAY",
 	["class_time_played"] = {
 		[8] = {
-			["WARLOCK"] = 71324.97300000007,
+			["WARLOCK"] = 121600.7180000001,
 		},
 	},
 	["spell_category_latest_query"] = 0,
@@ -3192,13 +3024,15 @@ _detalhes_global = {
 		["merge_boss_trash"] = true,
 		["delay_to_show_graphic"] = 10,
 		["mythicrun_time_type"] = 1,
-		["reverse_death_log"] = false,
+		["finished_run_frame"] = {
+		},
 		["make_overall_when_done"] = true,
+		["reverse_death_log"] = false,
 		["show_damage_graphic"] = true,
-		["mythicrun_chart_frame_ready"] = {
+		["mythicrun_chart_frame_minimized"] = {
 		},
 		["boss_dedicated_segment"] = true,
-		["mythicrun_chart_frame_minimized"] = {
+		["mythicrun_chart_frame_ready"] = {
 		},
 		["last_mythicrun_chart"] = {
 		},
@@ -3214,13 +3048,7 @@ _detalhes_global = {
 	},
 	["exit_errors"] = {
 	},
-	["latest_npcid_pool_access"] = 1706720772,
-	["item_level_pool"] = {
-	},
-	["spellid_ignored"] = {
-	},
-	["createauraframe"] = {
-	},
+	["latest_npcid_pool_access"] = 1709173414,
 	["data_wipes_exp"] = {
 		["9"] = false,
 		["14"] = false,
@@ -3228,6 +3056,12 @@ _detalhes_global = {
 		["12"] = false,
 		["11"] = false,
 		["10"] = false,
+	},
+	["spellid_ignored"] = {
+	},
+	["createauraframe"] = {
+	},
+	["item_level_pool"] = {
 	},
 	["realm_sync"] = true,
 	["spell_category_latest_save"] = 0,
@@ -3262,8 +3096,8 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 43,
-		["logons"] = 43,
+		["main_help_button"] = 73,
+		["logons"] = 73,
 		["version_announce"] = 0,
 		["MIN_COMBAT_TIME"] = true,
 		["ctrl_click_close_tutorial"] = false,
@@ -3287,7 +3121,7 @@ _detalhes_global = {
 	},
 	["details_auras"] = {
 	},
-	["latest_spell_pool_access"] = 1706720772,
+	["latest_spell_pool_access"] = 1709173414,
 	["savedTimeCaptures"] = {
 	},
 	["spell_category_savedtable"] = {
@@ -3553,37 +3387,38 @@ __details_backup = {
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [1]
-		"2024-02-05 17:35:32 | actor removed Wildhoneybug-Proudmoore (ungrouped)", -- [2]
-		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [3]
-		"2024-02-05 17:35:32 | actor removed Anyoboom-Ner'zhul (ungrouped)", -- [4]
-		"2024-02-05 17:35:32 | actor removed Crown Alchemist (ungrouped)", -- [5]
-		"2024-02-05 17:35:32 | actor removed Steamwheedle Sleuther (ungrouped)", -- [6]
-		"2024-02-05 17:35:32 | actor removed Exploited Crown Intern (ungrouped)", -- [7]
-		"2024-02-05 13:04:38 | actor removed Sulmae-Proudmoore (ungrouped)", -- [8]
-		"2024-02-05 13:04:38 | actor removed Orgrimmar Grunt (ungrouped)", -- [9]
-		"2024-02-05 13:04:38 | actor removed Destia (ungrouped)", -- [10]
-		"2024-02-05 13:04:38 | actor removed Razmu (ungrouped)", -- [11]
-		"2024-02-05 13:04:38 | actor removed Sulmae-Proudmoore (ungrouped)", -- [12]
-		"2024-02-04 19:45:44 | actor removed Kair-EchoIsles (ungrouped)", -- [13]
-		"2024-02-04 19:45:44 | actor removed Honor's Stand Footman (ungrouped)", -- [14]
-		"2024-02-04 19:45:44 | actor removed Hunter Hill Scout (ungrouped)", -- [15]
-		"2024-02-04 19:37:08 | actor removed Tripj-Daggerspine (ungrouped)", -- [16]
-		"2024-02-04 19:37:08 | actor removed Tripj-Daggerspine (ungrouped)", -- [17]
-		"2024-02-04 19:37:08 | actor removed Triumph Vanguard (ungrouped)", -- [18]
-		"2024-02-04 19:37:08 | actor removed Desolation Raider (ungrouped)", -- [19]
-		"2024-02-04 19:37:08 | actor removed Sapper Specialist (ungrouped)", -- [20]
-		"2024-02-04 19:37:08 | actor removed Desolation Raider (ungrouped)", -- [21]
-		"2024-02-04 19:37:08 | actor removed Triumph Vanguard (ungrouped)", -- [22]
-		"2024-02-04 19:37:08 | actor removed Environment (Falling) (ungrouped)", -- [23]
-		"2024-02-04 19:37:08 | actor removed Prairie Stalker (ungrouped)", -- [24]
-		"2024-02-04 19:37:08 | actor removed Gururgar-Runetotem (ungrouped)", -- [25]
-		"2024-02-04 19:37:08 | actor removed Adult Plainstrider (ungrouped)", -- [26]
-		"2024-02-04 19:37:08 | actor removed Flatland Cougar (ungrouped)", -- [27]
-		"2024-02-04 19:37:08 | actor removed Grimtotem Defiler (ungrouped)", -- [28]
-		"2024-02-04 16:09:24 | actor removed Am-Aegwynn (ungrouped)", -- [29]
+		"2024-02-28 21:37:11 | actor removed Medlas-Darrowmere (ungrouped)", -- [1]
+		"2024-02-28 21:37:11 | actor removed Wyseco-Proudmoore (ungrouped)", -- [2]
+		"2024-02-28 21:37:11 | actor removed Environment (Falling) (ungrouped)", -- [3]
+		"2024-02-28 21:37:11 | actor removed Environment (Fire) (ungrouped)", -- [4]
+		"2024-02-28 21:37:11 | actor removed Elmerfude-Korgath (ungrouped)", -- [5]
+		"2024-02-28 19:02:47 | actor removed Tar Beast (ungrouped)", -- [6]
+		"2024-02-28 19:02:47 | actor removed Twilight Keeper Havunth (ungrouped)", -- [7]
+		"2024-02-28 19:02:47 | actor removed Twilight Stonecaller (ungrouped)", -- [8]
+		"2024-02-28 19:02:47 | actor removed Twilight Avenger (ungrouped)", -- [9]
+		"2024-02-28 19:02:47 | actor removed Stonelash Flayer (ungrouped)", -- [10]
+		"2024-02-27 21:07:40 | actor removed Ghostly Marauder (ungrouped)", -- [11]
+		"2024-02-27 21:07:40 | actor removed Ambereye Reaver (ungrouped)", -- [12]
+		"2024-02-27 20:25:32 | actor removed Hyjal Warden (ungrouped)", -- [13]
+		"2024-02-27 20:25:32 | actor removed Twilight Vanquisher (ungrouped)", -- [14]
+		"2024-02-27 20:25:32 | actor removed Blazebound Elemental (ungrouped)", -- [15]
+		"2024-02-27 20:25:32 | actor removed Ironbark Ancient (ungrouped)", -- [16]
+		"2024-02-26 21:59:52 | actor removed Furious Hyjal Warden (ungrouped)", -- [17]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [18]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [19]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [20]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [21]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [22]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [23]
+		"2024-02-26 21:59:52 | actor removed Barrow Deeps Watcher (ungrouped)", -- [24]
+		"2024-02-26 21:59:52 | actor removed Twilight Assassin (ungrouped)", -- [25]
+		"2024-02-26 21:59:52 | actor removed Twilight Assassin (ungrouped)", -- [26]
+		"2024-02-26 21:59:52 | actor removed Twilight Assassin (ungrouped)", -- [27]
+		"2024-02-26 21:59:52 | actor removed Barrow Deeps Watcher (ungrouped)", -- [28]
+		"2024-02-26 21:59:52 | actor removed Hyjal Warden (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
+		"2024-02-24 15:51:40 | Saving Play Time: Interface/AddOns/Details/core/gears.lua:3102: attempt to call field 'GetStartupTime' (a nil value)", -- [1]
 	},
 }
 __details_debug = {

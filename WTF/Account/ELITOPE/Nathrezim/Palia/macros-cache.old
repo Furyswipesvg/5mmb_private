@@ -1,12 +1,8 @@
-VER 3 01000000000000E8 "ARCANE_AOE" "INV_MISC_QUESTIONMARK"
+VER 3 01000000000000FB "ARCANE_SETUP" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/click [button:2] ARCANE_AOE RightButton; [button:3] ARCANE_AOE MiddleButton; [button:4] ARCANE_AOE Button4; [button:5] ARCANE_AOE Button5; ARCANE_AOE
+/click [button:2] ARCANE_SETUP RightButton; [button:3] ARCANE_SETUP MiddleButton; [button:4] ARCANE_SETUP Button4; [button:5] ARCANE_SETUP Button5; ARCANE_SETUP
 END
-VER 3 01000000000000E7 "ARCANE_MULTI" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] ARCANE_MULTI RightButton; [button:3] ARCANE_MULTI MiddleButton; [button:4] ARCANE_MULTI Button4; [button:5] ARCANE_MULTI Button5; ARCANE_MULTI
-END
-VER 3 01000000000000E9 "ARCANE_SINGLE" "INV_MISC_QUESTIONMARK"
+VER 3 01000000000000F4 "ARCANE_SINGLE" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click [button:2] ARCANE_SINGLE RightButton; [button:3] ARCANE_SINGLE MiddleButton; [button:4] ARCANE_SINGLE Button4; [button:5] ARCANE_SINGLE Button5; ARCANE_SINGLE
 END
@@ -16,9 +12,19 @@ VER 3 0100000000000002 "BL" "INV_MISC_QUESTIONMARK"
 /cast [mod:ctrl,target=player] Slow Fall
 /cast [mod:alt] deep freeze
 END
-VER 3 01000000000000E3 "DJ'S_FIRE_BURST_NO_MODS" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] DJ'S_FIRE_BURST_NO_MODS RightButton; [button:3] DJ'S_FIRE_BURST_NO_MODS MiddleButton; [button:4] DJ'S_FIRE_BURST_NO_MODS Button4; [button:5] DJ'S_FIRE_BURST_NO_MODS Button5; DJ'S_FIRE_BURST_NO_MODS
+VER 3 01000000000000F9 "DB" "INV_MISC_QUESTIONMARK"
+/cancelaura [nomod]  Hot Streak!
+/cast [nomod] dragon's breath
+/cast [mod:alt] rune of power
+END
+VER 3 01000000000000FA "f" "INV_MISC_QUESTIONMARK"
+/follow me
+END
+VER 3 01000000000000F8 "FB" "INV_MISC_QUESTIONMARK"
+/cast [nomod] fire blast
+/cast [nomod] fireball
+/stopcasting [mod:alt] 
+/cast [mod:alt] pyroblast
 END
 VER 3 0100000000000003 "FB" "INV_MISC_QUESTIONMARK"
 /cast [nomod] frostbolt
@@ -26,25 +32,19 @@ VER 3 0100000000000003 "FB" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt] ice ward
 /cast [mod:ctrl]ice barrier
 END
-VER 3 0100000000000006 "FF" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [nomod] frostfire bolt
-/cast [mod:alt] mirror image
+VER 3 01000000000000F0 "ff" "INV_MISC_QUESTIONMARK"
+/cast [@player] slow fall
 END
-VER 3 01000000000000E4 "FROST_TURBO" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] FROST_TURBO RightButton; [button:3] FROST_TURBO MiddleButton; [button:4] FROST_TURBO Button4; [button:5] FROST_TURBO Button5; FROST_TURBO
-END
-VER 3 0100000000000005 "LAN" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [nomod] ice lance
-/cast [mod:alt] cone of cold
-/cast [mod:ctrl,noflyable] swift zulian tiger
-/cast [mod:ctrl] mimiron's head
-END
-VER 3 01000000000000E5 "MYARCANE" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] MYARCANE RightButton; [button:3] MYARCANE MiddleButton; [button:4] MYARCANE Button4; [button:5] MYARCANE Button5; MYARCANE
+VER 3 01000000000000F5 "IWIN" "INV_MISC_QUESTIONMARK"
+/cast Berserking
+/cast Time Warp
+/use AWESOME TRINKET I DONT HAVE
+/use potion of spectral intellect
+/cast Alter Time
+/cast Pyroblast
+/cast Combustion
+/cast Fire Blast
+/cast Fire Blast
 END
 VER 3 0100000000000004 "ORB" "INV_MISC_QUESTIONMARK"
 /stopcasting
@@ -52,10 +52,22 @@ VER 3 0100000000000004 "ORB" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt] frost nova
 /cast [mod:ctrl,target=player] remove curse
 END
-VER 3 0100000000000016 "WJ" "INV_MISC_QUESTIONMARK"
-/cast water jet
+VER 3 01000000000000F6 "PYRO" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast pyroblast
 END
-VER 3 01000000000000EA "ZygorAction2" "134400"
+VER 3 01000000000000F7 "rune" "INV_MISC_QUESTIONMARK"
+/cast [@player] rune of power
+END
+VER 3 01000000000000F1 "test" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click TEST
+END
+VER 3 01000000000000F2 "tt" "INV_MISC_QUESTIONMARK"
+/cast arcane blast
+/cast arcane power
+END
+VER 3 01000000000000F3 "ZygorAction2" "134400"
 END
 VER 3 01000000000000EB "ZygorAction3" "134400"
 END
